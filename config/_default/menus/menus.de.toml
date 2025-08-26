@@ -35,12 +35,12 @@
 
 [[main]]
   name = "HBF Unterstufe"
-  url = "/lehrzeile/hbf1/0-organisatorisches/themenübersicht-unterstufe/"
+  url = "/mathe/hbf1/0-organisatorisches/themenübersicht-unterstufe/"
   weight = 10
 
 [[main]]
   name = "HBF Oberstufe"
-  url = "/lehrzeile/hbf2/0-organisatorisches/themenübersicht/"
+  url = "/mathe/hbf2/0-organisatorisches/themenübersicht/"
   weight = 20
 
 # [[main]]

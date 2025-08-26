@@ -10,7 +10,7 @@ Diese Seite soll einen Überblick über das Fach Mathematik in der HBF Unterstuf
 ## Übersicht der Themen der HBF Unterstufe
 
 1. Grundlagen-Training (dient der Wiederholung bzw. Vertiefung):
-    1. [Bruchrechnung](/lehrzeile/hbf1/1-grundlagen-training/bruchrechnung/)
+    1. [Bruchrechnung](/hbf1/1-grundlagen-training/bruchrechnung/)
     1. [Terme und Gleichungen](/hbf1/1-grundlagen-training/terme-und-gleichungen/)
     1. [Zuordnungen und Funktionen](/hbf1/1-grundlagen-training/zuordnungen-und-funktionen/)
     1. [Lineare Funktionen](/hbf1/1-grundlagen-training/lineare-funktionen/)
