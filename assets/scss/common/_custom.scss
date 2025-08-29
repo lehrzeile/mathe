@@ -356,6 +356,9 @@ blockquote {
     }
 }
 
+
+
+// shortcode: callouts
 .callout-jobs, .callout-job {
     border-left-width: 0 !important;
 }
@@ -611,10 +614,31 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     margin-right: 0.5em;
 }
 
+
+
+// shortcode: situation
+.situation {
+    margin: 2em;
+    background-color: var(--callout-question-transparent);
+    border: 1px solid var(--callout-question);
+}
+
+.situation-title {
+    padding: 0.5em 1em;
+    background-color: var(--callout-question);
+    border: 1px solid var(--callout-question);
+}
+
+
+
+// details
 details summary {
     font-weight: 400;
 }
 
+
+
+// lists
 ol {
     padding-left: 0;
     margin-left: 2em;
