@@ -627,7 +627,10 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
 	color:#fff;
 	width: 90%;
 	overflow: hidden;
-	margin: 2em auto;
+	margin: 3em auto;
+    padding: 2em 3em;
+    font-size: 1.5em;
+    text-transform: uppercase;
 	background: var(--situation);
 	position: relative;
 	box-shadow: 0 16px 28px 0 rgba(0,0,0,.22),0 25px 55px 0 rgba(0,0,0,.21);
