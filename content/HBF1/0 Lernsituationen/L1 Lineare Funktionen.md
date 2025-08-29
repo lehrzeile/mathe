@@ -5,19 +5,15 @@ weight: 1002
 toc: false
 ---
 
-{{< box-question title="Lernsituation:" >}}
-    Frau Meier möchte ihren Stromanbieter wechseln. Dazu vergleicht sie die Konditionen verschiedener Stromtarife.
-{{< /box-question >}}
-
 {{< situation title="Lernsituation 1:" >}}
     Frau Meier möchte ihren Stromanbieter wechseln. Dazu vergleicht sie die Konditionen verschiedener Stromtarife.
 {{< /situation >}}
 
 ## Szenario #1
 
-{{< box-question title="Szenario #1:" >}}
-    Frau Meier hat einen Stromanbieter (StadtWatt) gefunden, der eine Grundgebühr von 12 € im Monat und 0,28 € pro kWh verlangt.
-{{< /box-question >}}
+{{< situation title="Szenario #1:" >}}
+    Frau Meier hat einen Stromanbieter (StadtWatt) gefunden, der eine Grundgebühr von $12€$ im Monat und $0,28€$ pro kWh verlangt.
+{{< /situation >}}
 
 {{< job numbered="true" style="enum-alph" title="Tarife und Lineare Funktionen" >}}
     1. Stelle die Kostenfunktion $K(x)$ für das oben genannte Angebot auf.
