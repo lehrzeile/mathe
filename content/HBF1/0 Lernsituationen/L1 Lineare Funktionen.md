@@ -9,6 +9,10 @@ toc: false
     Frau Meier möchte ihren Stromanbieter wechseln. Dazu vergleicht sie die Konditionen verschiedener Stromtarife.
 {{< /box-question >}}
 
+{{< situation title="Lernsituation 1:" >}}
+    Frau Meier möchte ihren Stromanbieter wechseln. Dazu vergleicht sie die Konditionen verschiedener Stromtarife.
+{{< /situation >}}
+
 ## Szenario #1
 
 {{< box-question title="Szenario #1:" >}}
