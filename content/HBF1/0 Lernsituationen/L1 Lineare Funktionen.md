@@ -40,3 +40,18 @@ Im Sachzusammenhang bedeutet das konkret: Du übersetzt eine reale Problemstellu
     <li>Berechne, wie hoch jeweils die Kosten beim Stromify-Tarif wären, wenn sie einen jährlichen Stromverbrauch von 1.000 kWh, 2.000 kWh bzw. 4.000 kWh hätte.</li>
     <li>Wie hoch müsste der Stromverbrauch jeweils sein, damit ihr in den beiden Tarifen jeweils jährliche Kosten in Höhe von 928€ enstehen?</li>
 {{< /job >}}
+
+{{< job numbered="true" style="enum-alph" title="Analyse der beiden Tarife" >}}
+    <li>Stelle beide Tarife grafisch dar.</li>
+    <li>Analysiere und begründe, unter welchen Voraussetzungen sich Frau Meier für welchen Tarif entscheiden sollte.</li>
+{{< /job >}}
+
+{{< szenario title="Szenario 1.3" >}}
+    Frau Meier bekommt - wenn sie sich für den Anbieter Stromify entscheidet - als Neukundin eine Gutschrift in Höhe von 300€.
+{{< /szenario >}}
+
+{{< job numbered="true" style="enum-alph" title="Besondere Punkte" >}}
+    <li>Stelle eine Funktionsgleichung für die neue Gesamtkostenfunktion auf.</li>
+    <li>Bestimme, ab welchem Verbrauch die Gutschrift “aufgebraucht” ist.</li>
+    <li>Wie verändern sich die Gesamtkosten im Vergleich zum Tarif ohne Bonus?</li>
+{{< /job >}}
