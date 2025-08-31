@@ -1,4 +1,4 @@
 <div class="situation">
   {{ .Inner | strings.TrimSpace | .Page.RenderString }}
-  <div class="situation-title">- {{ .Get "title" | default "Lernsituation" }} -</div>
+  <div class="situation-title">-- {{ .Get "title" | default "Lernsituation" }} --</div>
 </div>

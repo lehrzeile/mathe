@@ -637,7 +637,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
 	width: 90%;
 	overflow: hidden;
 	margin: 3em auto 0em;
-    padding: 1em 1.5em;
+    padding: 1em 1.5em 1.5em 1.5em;
     font-size: 1.25em;
     text-transform: uppercase;
 	position: relative;
@@ -649,7 +649,8 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     color: var(--situation);
 	width: max-content;
     margin-top: 0.5em;
-    font-size: 0.75em;
+    font-size: 0.5em;
+    text-transform: uppercase;
     position: absolute;
     bottom: 0;
     left: 50%;
