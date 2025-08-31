@@ -32,8 +32,8 @@
     --callout-bg: #f0f0f0;
     --line-color: #e9ecef;
     // line-height: 1.2;
-    --situation: #70aee0;
-    --situation-transparent: #E3EEF9;
+    --situation: #405a94;
+    --szenario: #70aee0;
 }
 
 @include color-mode(dark) {
@@ -618,20 +618,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
 
 
 
-// shortcode: situation
-// .situation {
-//     color: var(--situation);
-// 	width: 90%;
-// 	overflow: hidden;
-// 	margin: 3em auto;
-//     padding: 1em 1.5em;
-//     font-size: 1.25em;
-//     text-transform: uppercase;
-//     background-color: #fff;
-// 	position: relative;
-// 	box-shadow: 0 16px 28px 0 rgba(0,0,0,.22),0 25px 55px 0 rgba(0,0,0,.21);
-// }
-
+// shortcode: situation & szenario
 .situation {
     color: var(--situation);
 	width: 90%;
@@ -642,7 +629,6 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     text-transform: uppercase;
 	position: relative;
     border-left: 3px solid var(--situation);
-    // border-bottom: 2px solid var(--situation);
 }
 
 .situation-title {
@@ -661,7 +647,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
 
 .szenario {
     --b: 2px;   /* thickness of the border */
-    --c: var(--situation);   /* color of the border */
+    --c: var(--szenario);   /* color of the border */
     --w: 15%;  /* width of border */
     --h: 20%;  /* width of border */
   
@@ -687,7 +673,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     position: absolute;
     display: inline-block;
     font-size: 0.75em;
-    color: var(--situation);
+    color: var(--szenario);
     text-transform: uppercase;
     left: 50%;
     top: 0;
@@ -696,21 +682,6 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     height: auto;
     transform: translate(-50%,-50%);
 }
-
-// .situation-title {
-//     width: max-content;
-//     padding: 0.25em 1em;
-//     color: white;
-//     font-weight: 500;
-//     background-color: var(--situation);
-//     border: 1px solid var(--situation);
-// }
-
-// .situation-inner {
-//     padding: 0.5em 1em;
-//     background-color: var(--situation-transparent);
-//     border: 1px solid var(--situation);
-// }
 
 
 

@@ -32,8 +32,8 @@ Im Sachzusammenhang bedeutet das konkret: Du übersetzt eine reale Problemstellu
 {{< szenario title="Szenario 1.2" >}}
     Neben dem bereits bekannten Stromtarif ist noch ein weiterer in die nähere Auswahl gerückt. Frau Meier ist sich allerdings nicht sicher, wie hoch ihr Stromverbrauch im letzten Jahr war und überlegt nun, für welchen sie sich entscheiden soll.
 
-    **StadtWatt**: Grundgebühr $12€$ pro Monat, zusätzlich $0,28€$ pro kWh
-    **Stromify**: Grundgebühr $20€$ pro Monat, zusätzlich $0,25€$ pro kWh
+**StadtWatt**: Grundgebühr $12€$ pro Monat, zusätzlich $0,28€$ pro kWh
+**Stromify**: Grundgebühr $20€$ pro Monat, zusätzlich $0,25€$ pro kWh
 {{< /szenario >}}
 
 {{< job numbered="true" style="enum-alph" title="Tarife und Lineare Funktionen" >}}
