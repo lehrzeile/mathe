@@ -47,7 +47,7 @@
     }
 
     h2 .anchor {
-        color: var(--secondary-color);
+        color: var(--secondary-color) !important;
     }
 
     h1:after, h2:after, h3:after {
