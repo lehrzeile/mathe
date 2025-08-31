@@ -1,11 +1,11 @@
 ---
-title: "L1 Lineare Funktionen"
+title: "L1 - Lineare Funktionen"
 draft: false
 weight: 1002
 toc: false
 ---
 
-{{< situation title="Lernsituation 1:" >}}
+{{< situation title="" >}}
     Frau Meier möchte ihren Stromanbieter wechseln. Dazu vergleicht sie die Konditionen verschiedener Stromtarife.
 {{< /situation >}}
 

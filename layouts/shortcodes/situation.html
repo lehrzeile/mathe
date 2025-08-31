@@ -1,4 +1,4 @@
 <div class="situation">
-  <div class="situation-title">{{ .Get "title" | default "Situation:" }}</div>
+  <!-- <div class="situation-title">{{ .Get "title" | default "Situation:" }}</div> -->
   <div class="situation-inner">{{ .Inner | strings.TrimSpace | .Page.RenderString }}</div>
 </div>
