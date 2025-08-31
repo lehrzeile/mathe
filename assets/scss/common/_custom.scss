@@ -46,6 +46,10 @@
         width: 100%;
     }
 
+    h2 .anchor {
+        color: var(--secondary-color);
+    }
+
     h1:after, h2:after, h3:after {
         position: absolute;
         bottom: 0em;
