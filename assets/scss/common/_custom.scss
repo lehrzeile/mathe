@@ -624,14 +624,17 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
 // }
 
 .situation {
-	color:#fff;
+	// color:#fff;
+    color: var(--situation);
 	width: 90%;
 	overflow: hidden;
 	margin: 3em auto;
     padding: 2em 3em;
     font-size: 1.5em;
     text-transform: uppercase;
-	background: var(--situation);
+	// background: var(--situation);
+    background-color: var(--situation-transparent);
+	border: 2px solid var(--situation);
 	position: relative;
 	box-shadow: 0 16px 28px 0 rgba(0,0,0,.22),0 25px 55px 0 rgba(0,0,0,.21);
 }
@@ -658,7 +661,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     overflow: hidden;
     margin: 3em auto;
     padding: 2em 3em;
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 
 .szenario-title {
@@ -668,7 +671,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     color: var(--situation);
     text-transform: uppercase;
     left: 50%;
-    top: -2em;
+    top: 0;
     width: max-content;
     height: auto;
     transform: translate(-50%,-50%);
