@@ -1,3 +1,4 @@
 <div class="szenario">
+  <div class="szenario-title">{{ .Get "title" | default "Szenario" }}</div>
   {{ .Inner | strings.TrimSpace | .Page.RenderString }}
 </div>

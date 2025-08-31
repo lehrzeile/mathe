@@ -640,10 +640,11 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     --b: 2px;   /* thickness of the border */
     --c: var(--situation);   /* color of the border */
     --w: 15%;  /* width of border */
+    --h: 20%;  /* width of border */
   
     border: var(--b) solid #0000; /* space for the border */
     --_g: #0000 90deg,var(--c) 0;
-    --_p: var(--w) var(--w) border-box no-repeat;
+    --_p: var(--w) var(--h) border-box no-repeat;
     background:
     conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
     conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p),
@@ -652,12 +653,25 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
   
   /*Irrelevant code*/  
     box-sizing: border-box;
-    // color:#fff;
+    position: relative;
     width: 90%;
     overflow: hidden;
     margin: 3em auto;
     padding: 2em 3em;
-    font-size: 1.5em;
+    font-size: 1.25em;
+}
+
+.szenario-title {
+    position: absolute;
+    display: inline-block;
+    font-size: 0.75em;
+    color: var(--situation);
+    text-transform: uppercase;
+    left: 50%;
+    top: -2em;
+    width: max-content;
+    height: auto;
+    transform: translate(-50%,-50%);
 }
 
 // .situation-title {

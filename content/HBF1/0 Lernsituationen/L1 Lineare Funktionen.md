@@ -11,11 +11,7 @@ toc: false
 
 ## Szenario #1
 
-{{< situation title="Szenario #1:" >}}
-    Frau Meier hat einen Stromanbieter (StadtWatt) gefunden, der eine Grundgebühr von $12€$ im Monat und $0,28€$ pro kWh verlangt.
-{{< /situation >}}
-
-{{< szenario >}}
+{{< szenario title="Szenario #1" >}}
     Frau Meier hat einen Stromanbieter (StadtWatt) gefunden, der eine Grundgebühr von $12€$ im Monat und $0,28€$ pro kWh verlangt.
 {{< /szenario >}}
 
