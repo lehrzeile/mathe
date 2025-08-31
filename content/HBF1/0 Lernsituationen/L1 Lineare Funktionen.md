@@ -2,7 +2,9 @@
 title: "L1: Stromanbietervergleich"
 draft: false
 weight: 1002
-toc: false
+toc: true
+math: true # für die Nutzung von KaTeX
+count: 0 # für die Nummerierung der Aufgaben
 ---
 
 {{< situation title="" >}}
@@ -11,7 +13,7 @@ toc: false
 
 ## Vorwort
 
-Im Alltag stehen Verbraucherinnen und Verbraucher häufig vor der Entscheidung, aus verschiedenen Angeboten das für sie günstigste auszuwählen. Ein typisches Beispiel ist der Vergleich von Stromtarifen, welche sich durch unterschiedliche Grundgebühren und Verbrauchskosten zusammensetzen. In dieser Lernsituation sollst du mithilfe *linearer Funktionen* die Kosten verschiedener Stromtarife modellieren, darstellen und vergleichen.
+Im Alltag stehen Verbraucherinnen und Verbraucher häufig vor der Entscheidung, aus verschiedenen Angeboten das für sie günstigste auszuwählen. Ein typisches Beispiel ist der Vergleich von Stromtarifen, welche sich durch unterschiedliche Grundgebühren und Verbrauchskosten zusammensetzen. In dieser Lernsituation sollst du mithilfe **linearer Funktionen** die Kosten verschiedener Stromtarife modellieren, darstellen und vergleichen.
 
 Im Sachzusammenhang bedeutet das konkret: Du übersetzt eine reale Problemstellung in ein mathematisches Modell, nutzt Funktionsgleichungen und grafische Darstellungen zur Analyse und interpretierst die Ergebnisse im Hinblick auf die Ausgangsfrage. Auf diese Weise kann dir die Mathematik dabei helfen, in einer vergleichbaren Alltagssituation eine fundierte und rationale Entscheidungen zu treffen.
 

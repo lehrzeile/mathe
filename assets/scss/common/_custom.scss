@@ -620,11 +620,19 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
 
 // shortcode: situation
 // .situation {
-//     margin: 1em;
+//     color: var(--situation);
+// 	width: 90%;
+// 	overflow: hidden;
+// 	margin: 3em auto;
+//     padding: 1em 1.5em;
+//     font-size: 1.25em;
+//     text-transform: uppercase;
+//     background-color: #fff;
+// 	position: relative;
+// 	box-shadow: 0 16px 28px 0 rgba(0,0,0,.22),0 25px 55px 0 rgba(0,0,0,.21);
 // }
 
 .situation {
-	// color:#fff;
     color: var(--situation);
 	width: 90%;
 	overflow: hidden;
@@ -632,11 +640,9 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     padding: 1em 1.5em;
     font-size: 1.25em;
     text-transform: uppercase;
-	// background: var(--situation);
-    background-color: #fff;
-	// border: 2px solid var(--situation);
 	position: relative;
-	box-shadow: 0 16px 28px 0 rgba(0,0,0,.22),0 25px 55px 0 rgba(0,0,0,.21);
+    border-left: 3px solid var(--situation);
+    // border-bottom: 2px solid var(--situation);
 }
 
 .szenario {
