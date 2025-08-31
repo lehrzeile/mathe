@@ -629,12 +629,12 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
 	width: 90%;
 	overflow: hidden;
 	margin: 3em auto;
-    padding: 2em 3em;
-    font-size: 1.5em;
+    padding: 1em 1.5em;
+    font-size: 1.25em;
     text-transform: uppercase;
 	// background: var(--situation);
     background-color: #fff;
-	border: 2px solid var(--situation);
+	// border: 2px solid var(--situation);
 	position: relative;
 	box-shadow: 0 16px 28px 0 rgba(0,0,0,.22),0 25px 55px 0 rgba(0,0,0,.21);
 }
@@ -659,7 +659,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     position: relative;
     width: 90%;
     margin: 5em auto 3em;
-    padding: 2em 3em;
+    padding: 2em 2.5em;
     font-size: 1.1em;
 }
 
