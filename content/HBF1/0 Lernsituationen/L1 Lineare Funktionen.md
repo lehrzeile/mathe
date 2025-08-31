@@ -7,7 +7,7 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-{{< situation title="" >}}
+{{< situation title="Lernsituation 1" >}}
     Frau Meier möchte ihren Stromanbieter wechseln. Dazu vergleicht sie die Konditionen verschiedener Stromtarife.
 {{< /situation >}}
 
