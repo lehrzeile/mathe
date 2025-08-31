@@ -672,6 +672,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     text-transform: uppercase;
     left: 50%;
     top: 0;
+    z-index: 9999;
     width: max-content;
     height: auto;
     transform: translate(-50%,-50%);
