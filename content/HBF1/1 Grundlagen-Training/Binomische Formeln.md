@@ -101,17 +101,3 @@ Die Binomischen Formeln sind nicht einfach vom Himmel gefallen, sondern lassen s
 {{< box-note title="Kurzvortrag gefällig?" >}}
     Diese Aufgabe eignet sich hervorragend für einen kurzen benoteten Vortrag, in dem du der Klasse deine Ergebnisse und Überlegungen vorstellst und so dein Können unter Beweis stellst.
 {{< /box-note >}}
-
-## Quadratische Ergänzung
-
-{{< box-question title="Schonmal gehört?" >}}
-    Die Quadratische Ergänzung benötigst du unter anderem, um die Funktionsvorschrift einer quadratischen Funktionen von der allgemeinen Form in die Scheitelpunktform umzuwandeln.
-{{< /box-question >}}
-
-{{< job numbered="false" style="" title="" name="Tüftelaufgabe" >}}
-    Finde durch -- z. B. durch eine entsprechende Recherche oder durch Ausprobieren -- heraus, wie man überpüfen kann, ob ein Punkt oberhalb oder unterhalb des Graphen einer Funktion liegt. Fertige dir entsprechende Notizen an.
-{{< /job >}}
-
-{{< box-note title="Kurzvortrag gefällig?" >}}
-    Diese Aufgabe eignet sich hervorragend für einen kurzen benoteten Vortrag, in dem du der Klasse deine Ergebnisse und Überlegungen vorstellst und so dein Können unter Beweis stellst.
-{{< /box-note >}}
