@@ -634,6 +634,12 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
 
 
 // shortcode: situation & szenario
+@include color-mode(dark) {
+    .situation {
+        color: var(--secondary-color);
+    }
+}
+
 .situation {
     color: var(--situation);
 	width: 90%;
