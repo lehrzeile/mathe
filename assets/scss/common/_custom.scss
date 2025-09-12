@@ -263,6 +263,12 @@ footer .text-muted { /* Footer Links */
     border-left: 2px solid var(--secondary-color);
 }
 
+@include color-mode(dark) {
+    p > img {
+        background-color: white !important;
+    }
+}
+
 p > img { // Grafiken, die im Text eingebunden werden
     display: block;
     margin: 1em auto 0;
