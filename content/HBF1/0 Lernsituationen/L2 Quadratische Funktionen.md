@@ -53,7 +53,7 @@ Die Abmessungen eines Tennisplatzes findest du hier:
     Ein guter Topspin zeichnet sich dadurch aus, dass der Ball auf der gegnerischen Seite hoch abspringt, nachdem er den Boden berührt hat. Damit das klappt, muss der Spieler dem Ball eine Vorwärtsrotation verleihen, sodass der Ball daraufhin eine relativ hohe Flugkurve annimmt.
     
     Gegeben ist die Flugkurve eines Topspin-Balls:
-    $f(x)= -0,01x^2 + 0,18x + 0,9$
+    $f(x)= -0,02x^2 + 0,42x + 0,9$
 {{< /szenario >}}
 
 ![Tennis](Topspin.png)
