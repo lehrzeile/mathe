@@ -15,12 +15,13 @@ Die vorliegende Lernsituation knüpft an ein alltägliches Sporterlebnis an und 
 
 Die Auseinandersetzung mit der Flugkurve des Tennisballs fördert zentrale mathematische Kompetenzen:
 
+- **Darstellungskompetenz**, durch das Anfertigen von Skizzen und das Arbeiten mit Koordinatensystemen.
+
+- **Argumentations- und Problemlösekompetenz**, indem Eigenschaften der Funktion (Scheitelpunkt, Nullstellen) analysiert und deren Bedeutung im Kontext gedeutet werden.
+
+- **Kommunikationskompetenz** durch den Austausch über Ergebnisse und deren Interpretation im sportlichen Zusammenhang.
+
 - **Modellierungskompetenz**, indem eine reale Bewegung in ein mathematisches Modell (quadratische Funktion) übertragen wird.
-Darstellungskompetenz, durch das Anfertigen von Skizzen und das Arbeiten mit Koordinatensystemen.
-
-- **Argumentations- und Problemlösekompetenz**, indem Schüler:innen Eigenschaften der Funktion (Scheitelpunkt, Nullstellen) analysieren und deren Bedeutung im Kontext deuten.
-
-- **Kommunikationskompetenz**, durch den Austausch über Ergebnisse und deren Interpretation im sportlichen Zusammenhang.
 
 Die Lernsituation zeigt somit beispielhaft, wie Mathematik zum Verstehen und Erklären alltäglicher Erscheinungen beiträgt und fördert gleichzeitig ein tieferes Verständnis für die Bedeutung quadratischer Funktionen.
 
