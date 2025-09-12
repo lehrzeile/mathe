@@ -40,15 +40,17 @@ Die Lernsituation zeigt somit beispielhaft, wie Mathematik zum Verstehen und Erk
     <li><b>Überprüfe</b>, ob der Schlag im Feld landet.</li>
 {{< /job >}}
 
-![Abmessungen eines Tenniscourts](https://protrackandtennis.com/wp-content/uploads/2024/12/AdobeStock_42356365-scaled.jpeg)
+Die Abmessungen eines Tennisplatzes findest du hier:
+
+![Abmessungen eines Tenniscourts](https://protrackandtennis.com/wp-content/uploads/2024/12/AdobeStock_42356365-scaled.jpeg "{width='80%', style='margin:auto;'}")
 
 {{< source text="protracktennis.com" src="https://protrackandtennis.com/wp-content/uploads/2024/12/AdobeStock_42356365-scaled.jpeg" lastcall="12.09.2025" >}}
 
 {{< szenario title="Szenario 2.2" >}}
-    Ein guter Topspin zeichnet sich dadurch aus, dass der Ball auf der gegnerischen Seite hoch abspringt, nachdem er den Boden berührt hat. Damit das klappt, muss der Spieler dem Ball eine Vorwärtsrotation verleihen, sodass der Ball daraufhin eine relativ hohe Flugkurve annimmt.
+Ein guter Topspin zeichnet sich dadurch aus, dass der Ball auf der gegnerischen Seite hoch abspringt, nachdem er den Boden berührt hat. Damit das klappt, muss der Spieler dem Ball eine Vorwärtsrotation verleihen, sodass der Ball daraufhin eine relativ hohe Flugkurve annimmt.
   
-    Gegeben ist die Flugkurve eines Topspin-Balls:
-    $f(x)= -0,01x^2 + 0,18x + 0,9$
+Gegeben ist die Flugkurve eines Topspin-Balls:
+$f(x)= -0,01x^2 + 0,18x + 0,9$
 {{< /szenario >}}
 
 ![Tennis](Topspin.png)
