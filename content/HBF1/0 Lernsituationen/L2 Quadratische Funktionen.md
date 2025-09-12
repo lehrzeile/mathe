@@ -34,8 +34,27 @@ Die Lernsituation zeigt somit beispielhaft, wie Mathematik zum Verstehen und Erk
 
 ![Tennis](Tennis.png)
 
-{{< job numbered="true" style="enum-alph" title="Tarife und Lineare Funktionen" >}}
-    <li><b>Bestimme</b> die Höhe, in der der Spieler den Ball trifft.</li>
-    <li><b>Berechne</b> die Höhe, in der der Ball über das Netz fliegt, wenn der Spieler den Ball exakt an der Grundlinie eines genormten Tennisplatzes trifft.</li>
+{{< job numbered="true" style="enum-alph" title="Schlaganalyse" >}}
+    <li><b>Bestimme</b> die Höhe, in der die Spielerin den Ball trifft.</li>
+    <li><b>Berechne</b> die Höhe, in der der Ball über das Netz fliegt, wenn die Spielerin den Ball exakt an der Grundlinie eines genormten Tennisplatzes trifft.</li>
     <li><b>Überprüfe</b>, ob der Schlag im Feld landet.</li>
+{{< /job >}}
+
+![Abmessungen eines Tenniscourts](https://protrackandtennis.com/wp-content/uploads/2024/12/AdobeStock_42356365-scaled.jpeg)
+
+{{< source text="protracktennis.com" src="https://protrackandtennis.com/wp-content/uploads/2024/12/AdobeStock_42356365-scaled.jpeg" lastcall="12.09.2025" >}}
+
+{{< szenario title="Szenario 2.2" >}}
+    Ein guter Topspin zeichnet sich dadurch aus, dass der Ball auf der gegnerischen Seite hoch abspringt, nachdem er den Boden berührt hat. Damit das klappt, muss der Spieler dem Ball eine Vorwärtsrotation verleihen, sodass der Ball daraufhin eine relativ hohe Flugkurve annimmt.
+  
+    Gegeben ist die Flugkurve eines Topspin-Balls:
+    $f(x)= -0,01x^2 + 0,18x + 0,9$
+{{< /szenario >}}
+
+![Tennis](Topspin.png)
+
+{{< job numbered="true" style="enum-alph" title="Hoch, höher, Topspin" >}}
+    <li>Wie hoch befindet sich der Ball am höchsten Punkt?</li>
+    <li>Wie weit vom Spieler entfernt befindet sich zu diesem Zeitpunkt der Ball?</li>
+    <li>Wie bewertest du dieses mathematische Modell im Hinblick auf dessen Tauglichkeit?</li>
 {{< /job >}}
