@@ -637,6 +637,10 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
 @include color-mode(dark) {
     .situation {
         color: var(--secondary-color);
+        border-left: 3px solid var(--secondary-color);
+    }
+    .situation-title {
+        color: var(--secondary-color);
     }
 }
 
