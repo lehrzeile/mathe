@@ -2,7 +2,7 @@
 title: "Stromanbietervergleich"
 draft: false
 weight: 1002
-toc: true
+toc: false
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
