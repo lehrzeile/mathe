@@ -497,11 +497,22 @@ ol.three-columns, .three-columns > ol {
     top: -1.5em;
 }
 
+@include color-mode(dark) {
+    .callout.callout-jobs {
+        background-color: #17181c;
+    }
+}
+
+@include color-mode(light) {
+    .callout.callout-jobs {
+        background-color: white;
+    }
+}
+
 .callout.callout-jobs {
     position: relative;
     margin-top: 2.5em !important;
     padding: 0 !important;
-    // background-color: white;
     .callout-title {
         color: var(--callout-job);
     }
