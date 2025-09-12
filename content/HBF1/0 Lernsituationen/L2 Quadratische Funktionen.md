@@ -2,7 +2,9 @@
 title: "Tennisspiel"
 draft: false
 weight: 1003
-toc: false
+toc: true
+math: true # für die Nutzung von KaTeX
+count: 0 # für die Nummerierung der Aufgaben
 ---
 
 {{< situation title="Lernsituation 2" >}}
@@ -28,8 +30,9 @@ Die Lernsituation zeigt somit beispielhaft, wie Mathematik zum Verstehen und Erk
 ## Szenarien und Aufgaben
 
 {{< szenario title="Szenario 2.1" >}}
-    Die Flugbahn des Tennisball bei einem Grundlinienschlag kann durch die folgende Funktionsgleichung beschrieben werden:
-    $f(x) = -0,01 x^2 + 0,19x + 1,2$.
+Die Flugbahn des Tennisball bei einem Grundlinienschlag kann durch die folgende Funktionsgleichung beschrieben werden:
+
+$f(x) = -0,01 x^2 + 0,19x + 1,2$.
 {{< /szenario >}}
 
 ![Tennis](Tennis.png)
