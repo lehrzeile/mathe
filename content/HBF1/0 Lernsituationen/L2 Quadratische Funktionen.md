@@ -11,7 +11,18 @@ toc: false
 
 ## Vorwort
 
-folgt...
+Die vorliegende Lernsituation knüpft an ein alltägliches Sporterlebnis an und nimmt die Flugbahn eines Tennisballs zum Ausgangspunkt. Durch die Verbindung von Mathematik und eine solche reale Situation wird deutlich, dass mathematische Konzepte wie quadratische Funktionen nicht nur abstrakte Inhalte sind, sondern reale Phänomene erklären und vorhersagen können.
+
+Die Auseinandersetzung mit der Flugkurve des Tennisballs fördert zentrale mathematische Kompetenzen:
+
+- **Modellierungskompetenz**, indem eine reale Bewegung in ein mathematisches Modell (quadratische Funktion) übertragen wird.
+Darstellungskompetenz, durch das Anfertigen von Skizzen und das Arbeiten mit Koordinatensystemen.
+
+- **Argumentations- und Problemlösekompetenz**, indem Schüler:innen Eigenschaften der Funktion (Scheitelpunkt, Nullstellen) analysieren und deren Bedeutung im Kontext deuten.
+
+- **Kommunikationskompetenz**, durch den Austausch über Ergebnisse und deren Interpretation im sportlichen Zusammenhang.
+
+Die Lernsituation zeigt somit beispielhaft, wie Mathematik zum Verstehen und Erklären alltäglicher Erscheinungen beiträgt und fördert gleichzeitig ein tieferes Verständnis für die Bedeutung quadratischer Funktionen.
 
 ## Szenarien und Aufgaben
 
