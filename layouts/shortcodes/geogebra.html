@@ -1,5 +1,6 @@
+{{ $url := $.Get "url" }}
 <iframe scrolling="no"
-    src="{{ .Get 'url' }}"
+    src="{{ $url }}"
     width="1600px"
     height="715px"
     style="border:0px;" allowfullscreen>
