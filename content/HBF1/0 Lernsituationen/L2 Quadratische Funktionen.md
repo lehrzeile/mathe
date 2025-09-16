@@ -67,6 +67,6 @@ $f(x)= -0,02x^2 + 0,42x + 0,9$
 
 <div id="ggb-element"></div>
 
-{{< geogebra url="https://www.geogebra.org/material/iframe/id/23587/width/1600/height/715/border/888888/rc/false/ai/false/sdz/false/smb/false/stb/false/stbh/true/ld/false/sri/false" >}}
+{{< geogebra url="https://www.geogebra.org/material/iframe/id/23587" >}}
 
-{{< geogebra url="https://www.geogebra.org/m/fttw3tsg" >}}
+{{< geogebra url="https://www.geogebra.org/material/iframe/id/rqkff95d" >}}
