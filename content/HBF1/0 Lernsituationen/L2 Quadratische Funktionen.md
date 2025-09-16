@@ -64,3 +64,13 @@ $f(x)= -0,02x^2 + 0,42x + 0,9$
     <li>Wie weit vom Spieler entfernt befindet sich zu diesem Zeitpunkt der Ball?</li>
     <li>Wie bewertest du dieses mathematische Modell im Hinblick auf dessen Tauglichkeit?</li>
 {{< /job >}}
+
+<div id="ggb-element"></div>
+
+<script>
+    var params = {"appName": "graphing", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+    var applet = new GGBApplet(params, true);
+    window.addEventListener("load", function() {
+        applet.inject('ggb-element');
+    });
+</script>
