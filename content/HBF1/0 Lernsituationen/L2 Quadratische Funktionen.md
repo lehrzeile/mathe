@@ -65,20 +65,6 @@ $f(x)= -0,02x^2 + 0,42x + 0,9$
     <li>Wie bewertest du dieses mathematische Modell im Hinblick auf dessen Tauglichkeit?</li>
 {{< /job >}}
 
-{{< geogebra-3d >}}
-
-{{< geogebra-classic >}}
-
-{{< geogebra-evaluator >}}
-
-{{< geogebra-geometry >}}
-
-{{< geogebra-graphing >}}
-
-{{< geogebra-notes >}}
-
-{{< geogebra-scientific >}}
-
-{{< geogebra-suite >}}
+{{< geogebra >}}
 
 {{< geogebra-activity url="https://www.geogebra.org/material/iframe/id/rqkff95d" >}}
