@@ -21,8 +21,8 @@ Den Definitionsbereich einer Funktion bestimmt man, da es nur innerhalb dieses B
 {{< /box-notice >}}
 
 {{< box-example title="Ausnahmen:" >}}
-    - Wurzelfunktionen (z.B. $f(x) = \sqrt(𝑥) \rightarrow \mathbb{D}(f) = \mathbb{R}_0^+$)
-    - gebrochen rationale Funktionen (z.B. $f(x) = \frac{1}{x} \rightarrow \mathbb{D}(f) = \mathbb{R} \ {0}$)
+    - Wurzelfunktionen (z.B. $f(x) = \sqrt{𝑥} \quad \rightarrow \quad \mathbb{D}(f) = \mathbb{R}_0^+$)
+    - gebrochen rationale Funktionen (z.B. $f(x) = \frac{1}{x} \quad \rightarrow \quad \mathbb{D}(f) = \mathbb{R} \ {0}$)
 {{< /box-example >}}
 
 ## Achsenschnittpunkte
