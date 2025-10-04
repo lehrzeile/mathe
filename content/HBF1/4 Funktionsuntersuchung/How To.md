@@ -23,7 +23,7 @@ Je nach Funktionsgleichung gibt es dafür Einschränkungen.
 
 Im Allgemeinen gilt jedoch: $\quad \mathbb{D}(f) = \mathbb{R}$.
 
-Oder anders ausgedrückt: Man darf alle reellen Zahlen [$\mathbb{R}$] einsetzen.
+Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
 {{< /box-notice >}}
 
 {{< box-example title="Ausnahmen:" >}}
