@@ -20,14 +20,14 @@ Den Definitionsbereich einer Funktion bestimmt man, da es nur innerhalb dieses B
     Umgangssprachlich ausgedrückt umfasst der Definitionsbereich alle $x$-Werte (Argumente), die man in die Funktion einsetzen darf. In den meisten Fällen gibt es dafür keine Einschränkungen. Sprich: "Man darf alles einsetzen."
 
     Im Allgemeinen gilt:
-    $\mathbb{D} = \mathbb{R}$.
+    $\mathbb{D} = \mathbb{R}.$
 {{< /box-notice >}}
 
 {{< box-example title="Ausnahmen:" >}}
 Hierfür gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
 
 - Wurzelfunktionen (wie z.B. $f(x) = \sqrt{𝑥} \quad \Rightarrow \quad \mathbb{D}(f) = \mathbb{R}_0^+$)
-- gebrochen rationale Funktionen (wie z.B. $f(x) = \frac{1}{x} \quad \Rightarrow \quad \mathbb{D}(f) = \mathbb{R} \textbackslash \{0\}$)
+- gebrochen rationale Funktionen (wie z.B. $f(x) = \frac{1}{x} \quad \Rightarrow \quad \mathbb{D}(f) = \mathbb{R} \ \{0\}$)
 
 {{< /box-example >}}
 
