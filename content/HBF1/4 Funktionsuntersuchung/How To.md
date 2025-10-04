@@ -14,7 +14,7 @@ Wozu das gut ist, erfährtst du danach in einem [Anwendungsbeispiel](/hbf1/4-fun
 
 ## Definitions- und Wertebereich
 
-Den Definitionsbereich einer Funktion bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
+Den <mark>Definitionsbereich</mark> einer Funktion bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
 
 {{< box-notice title="" >}}
 Umgangssprachlich ausgedrückt umfasst der Definitionsbereich alle $x$-Werte (Argumente), die man in die Funktion einsetzen darf.
@@ -34,9 +34,9 @@ Hierfür gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
 
 ## Achsenschnittpunkte
 
-Wenn geklärt ist, wie der Definitionsbereich der Funktion lautet, dann überprüft man den Graphen der Funktion zunächst auf dessen Schnittpunkte mit den Koordinatenachsen:
+Wenn geklärt ist, wie der Definitionsbereich der Funktion lautet, dann überprüft man den Graphen der Funktion zunächst auf dessen <mark>Schnittpunkte mit den Koordinatenachsen</mark>:
 
-- **Schnittpunkt mit der y-Achse:** Eine Funktion kann einen Schnittpunkt mit der $y$-Achse haben, muss aber nicht zwingend. Beispiel hierfür ist die Funktion $f(x)=\frac1x$.
+- **Schnittpunkt mit der y-Achse:** Eine Funktion kann einen Schnittpunkt mit der $y$-Achse haben, muss aber nicht zwingend. Ein Beispiel hierfür ist die Funktion $f(x)=\frac1x$.
 
 - **Schnittpunkte mit der x-Achse:** Man spricht hierbei von den sog. Nullstellen einer Funktion. Anders als bei der Begrifflichkeit ~Schnittpunkt~ bezeichnet eine Nullstelle lediglich den $x$-Wert (Stelle) eines Schnittpunkts mit der $x$-Achse. Alle Schnittpunkte mit der $x$-Achse haben die Form $(x_i|0)$, wobei $x_i$ hier repräsentativ für die Nullstellen der Funktion steht.
 
@@ -52,7 +52,7 @@ $f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|
 
 ## Symmetrieeigenschaften
 
-Die Symmetrieeigenschaft einer Funktion beschreibt, ob ihr Graph bei einer Spiegelung oder einer Drehung unverändert bleibt.
+Die <mark>Symmetrieeigenschaft</mark> einer Funktion beschreibt, ob ihr Graph bei einer Spiegelung oder einer Drehung unverändert bleibt.
 
 Dies führt zu zwei Haupttypen von Symmetrie:
 
@@ -88,7 +88,9 @@ to be continued...
 
 ## Skizze
 
-Schlussendlich bietet es sich an, eine Skizze des Graphen anzufertigen. Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
+Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzufertigen. Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
+
+![Graph der Funktion](Graph1.svg)
 
 Um deine Ergebnisse zu überprüfen, kannst du gerne das nachfolgende GeoGebra-Widget nutzen:
 
