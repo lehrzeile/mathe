@@ -12,7 +12,7 @@ count: 0 # für die Nummerierung der Aufgaben
 Hier lernst du Schritt für Schritt, wie du eine Funktion vollständig untersuchst.
 Wozu das gut ist, erfährtst du danach in einem [Anwendungsbeispiel](/hbf1/4-funktionsuntersuchung/anwendungsbeispiel/).
 
-## Definitions- und Wertebereich
+## Definitionsbereich
 
 Den <mark>Definitionsbereich</mark> einer Funktion bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
 
@@ -43,9 +43,11 @@ Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiel
 
 Wenn geklärt ist, wie der Definitionsbereich der Funktion lautet, dann überprüft man den Graphen der Funktion zunächst auf dessen <mark>Schnittpunkte mit den Koordinatenachsen</mark>:
 
-- **Schnittpunkt mit der y-Achse:** Eine Funktion kann einen Schnittpunkt mit der $y$-Achse haben, muss aber nicht zwingend. Ein Beispiel hierfür ist die Funktion $f(x)=\frac1x$.
+- **Schnittpunkt mit der y-Achse:** \
+Eine Funktion kann einen Schnittpunkt mit der $y$-Achse haben, muss aber nicht zwingend. Ein Beispiel hierfür ist die Funktion $f(x)=\frac1x$.
 
-- **Schnittpunkte mit der x-Achse:** Man spricht hierbei von den sog. Nullstellen einer Funktion. Anders als bei der Begrifflichkeit Schnittpunkt bezeichnet eine Nullstelle lediglich den $x$-Wert (Stelle) eines Schnittpunkts mit der $x$-Achse. Alle Schnittpunkte mit der $x$-Achse haben die Form $(x_i|0)$, wobei $x_i$ hier repräsentativ für die Nullstellen der Funktion steht.
+- **Schnittpunkte mit der x-Achse:** \
+Man spricht hierbei von den sog. Nullstellen einer Funktion. Anders als bei der Begrifflichkeit Schnittpunkt bezeichnet eine Nullstelle lediglich den $x$-Wert (Stelle) eines Schnittpunkts mit der $x$-Achse. Alle Schnittpunkte mit der $x$-Achse haben die Form $(x_i|0)$, wobei $x_i$ hier repräsentativ für alle Nullstellen der Funktion steht.
 
 {{< box-notice title="Wie bestimmt man die Achsenschnittpunkte?" >}}
 
