@@ -34,32 +34,46 @@ Hierfür gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
 
 Wenn geklärt ist, wie der Definitionsbereich der Funktion lautet, dann überprüft man den Graphen der Funktion zunächst auf dessen Schnittpunkte mit den Koordinatenachsen:
 
-- Schnittpunkt mit der y-Achse: Eine Funktion kann einen Schnittpunkt mit der $y$-Achse haben, muss aber nicht zwingend. Beispiel hierfür ist die Funktion $f(x)=\frac1x$.
+- **Schnittpunkt mit der y-Achse:** Eine Funktion kann einen Schnittpunkt mit der $y$-Achse haben, muss aber nicht zwingend. Beispiel hierfür ist die Funktion $f(x)=\frac1x$.
 
-- Schnittpunkte mit der x-Achse: Man spricht hierbei von den sog. Nullstellen einer Funktion. Anders als bei der Begrifflichkeit ~Schnittpunkt~ bezeichnet eine Nullstelle lediglich den $x$-Wert (Stelle) eines Schnittpunkts mit der $x$-Achse. Alle Schnittpunkte mit der $x$-Achse haben die Form $(x_i|0)$, wobei $x_i$ hier repräsentativ für die Nullstellen der Funktion steht.
+- **Schnittpunkte mit der x-Achse:** Man spricht hierbei von den sog. Nullstellen einer Funktion. Anders als bei der Begrifflichkeit ~Schnittpunkt~ bezeichnet eine Nullstelle lediglich den $x$-Wert (Stelle) eines Schnittpunkts mit der $x$-Achse. Alle Schnittpunkte mit der $x$-Achse haben die Form $(x_i|0)$, wobei $x_i$ hier repräsentativ für die Nullstellen der Funktion steht.
 
 {{< box-notice title="Wie bestimmt man die Achsenschnittpunkte?" >}}
 
-- Schnittpunkt mit der y-Achse: \
+- **Schnittpunkt mit der y-Achse:** \
 $f(0)$ bestimmen $\quad \Rightarrow P(0|f(0))$
 
-- Schnittpunkte mit der x-Achse: \
+- **Schnittpunkte mit der x-Achse:** \
 $f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|0)$
 
 {{< /box-notice >}}
-
-## Extrem- und Wendestellen
-
-to be continued...
-
-## Steigungs-, Krümmungs- und Monotonieverhalten
-
-to be continued...
 
 ## Symmetrieeigenschaften
 
 to be continued...
 
-## Grenzverhalten
+## Extrempunkte
+
+Zunächst Ableitungen bilden.
 
 to be continued...
+
+## Wendepunkte
+
+to be continued...
+
+<!-- ## Steigungs-, Krümmungs- und Monotonieverhalten
+
+to be continued... -->
+
+## Globalverhalten
+
+to be continued...
+
+## Skizze
+
+Schlussendlich bietet es sich an, eine Skizze des Graphen anzufertigen. Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
+
+Um deine Ergebnisse zu überprüfen, kannst du gerne das nachfolgende GeoGebra-Widget nutzen:
+
+{{< geogebra >}}
