@@ -42,17 +42,31 @@ Wenn geklärt ist, wie der Definitionsbereich der Funktion lautet, dann überpr�
 
 {{< box-notice title="Wie bestimmt man die Achsenschnittpunkte?" >}}
 
-- **Schnittpunkt mit der y-Achse:** \
+- **Schnittpunkt mit der $y$-Achse:** \
 $f(0)$ bestimmen $\quad \Rightarrow P(0|f(0))$
 
-- **Schnittpunkte mit der x-Achse:** \
+- **Schnittpunkte mit der $x$-Achse:** \
 $f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|0)$
 
 {{< /box-notice >}}
 
 ## Symmetrieeigenschaften
 
-to be continued...
+Die Symmetrieeigenschaft einer Funktion beschreibt, ob ihr Graph bei einer Spiegelung oder einer Drehung unverändert bleibt.
+
+Dies führt zu zwei Haupttypen von Symmetrie:
+
+- **Achsensymmetrie:**
+    - Spiegelung an einer Achse (meist der $y$-Achse)
+    - Notation: $f(x) = f(-x)$
+- **Punktsymmetrie:**
+    - Spiegelung an einem Punkt (meist dem Koordinatenursprung)
+    - Notation: $f(-x) = -f(x)$.
+
+Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der (geraden oder ungeraden) Exponenten des Funktionsterms bestimmt werden:
+
+- Hat eine Funktionsgleichung nur **gerade Exponenten**, so liegt eine **Achsensymmetrie** vor.
+- Hat eine Funktionsgleichung ausschließlich **ungerade Exponenten**, so handelt es sich um eine **Punktsymmetrie** zum Koordinatenursprung.
 
 ## Extrempunkte
 
