@@ -18,18 +18,21 @@ Den <mark>Definitionsbereich</mark> einer Funktion bestimmt man, da es nur inner
 
 {{< box-notice title="" >}}
 Umgangssprachlich ausgedrückt umfasst der Definitionsbereich alle $x$-Werte (Argumente), die man in die Funktion einsetzen darf.
-In den meisten Fällen gibt es dafür keine Einschränkungen.
+Je nach Funktionsgleichung gibt es dafür Einschränkungen.
 <!-- Sprich: "Man darf alles einsetzen." -->
 
-Im Allgemeinen gilt: $\quad \mathbb{D} = \mathbb{R}$.
+Im Allgemeinen gilt jedoch: $\quad \mathbb{D}(f) = \mathbb{R}$. (Sprich: Man darf alle reellen Zahlen [$\mathbb{R}$] einsetzen.)
 {{< /box-notice >}}
 
 {{< box-example title="Ausnahmen:" >}}
-Hierfür gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
+Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
 
-- Wurzelfunktionen (wie z.B. $f(x) = \sqrt{𝑥} \quad \Rightarrow \quad \mathbb{D}(f) = \mathbb{R}_0^+$)
-- gebrochen rationale Funktionen (wie z.B. $f(x) = \frac{1}{x} \quad \Rightarrow \quad \mathbb{D}(f) = \mathbb{R} \backslash \{0\}$)
-
+- **Wurzelfunktionen** wie z.B. $f(x) = \sqrt{𝑥}$:
+    - Vielleicht erinnerst du dich an folgende Regel: Aus einer negativen Zahl kann man im Bereich der reellen Zahlen nur dann eine Wurzel ziehen, wenn der Wurzelexponent ungerade ist. Ist der Wurzelexponent gerade (wie das bei der Quadratwurzel $\sqrt$ der Fall ist), ist die Wurzel aus einer negativen Zahl nicht definiert.
+    - Es gilt deshalb $\mathbb{D}(f) = \mathbb{R}_0^+$.
+- **gebrochen-rationale Funktionen** wie bspw. $f(x) = \frac{1}{x}$:
+    - Durch Null zu teilen ist in der Mathematik nicht möglich und nicht definiert, da es widersprüchliche und nicht eindeutige Ergebnisse liefern würde.
+    - Deshalb gilt: $\mathbb{D}(f) = \mathbb{R}\backslash \{0\}$.
 {{< /box-example >}}
 
 ## Achsenschnittpunkte
