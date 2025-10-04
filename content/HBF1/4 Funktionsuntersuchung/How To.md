@@ -17,9 +17,11 @@ Wozu das gut ist, erfährtst du danach in einem [Anwendungsbeispiel](/hbf1/4-fun
 Den Definitionsbereich einer Funktion bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
 
 {{< box-notice title="" >}}
-    Umgangssprachlich ausgedrückt umfasst der Definitionsbereich alle $x$-Werte (Argumente), die man in die Funktion einsetzen darf. In den meisten Fällen gibt es dafür keine Einschränkungen. Sprich: "Man darf alles einsetzen."
-    
-    Im Allgemeinen gilt: $\quad \mathbb{D} = \mathbb{R}.$
+Umgangssprachlich ausgedrückt umfasst der Definitionsbereich alle $x$-Werte (Argumente), die man in die Funktion einsetzen darf.
+In den meisten Fällen gibt es dafür keine Einschränkungen.
+<!-- Sprich: "Man darf alles einsetzen." -->
+
+Im Allgemeinen gilt: $\quad \mathbb{D} = \mathbb{R}$.
 {{< /box-notice >}}
 
 {{< box-example title="Ausnahmen:" >}}
