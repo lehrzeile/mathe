@@ -27,7 +27,7 @@ Den Definitionsbereich einer Funktion bestimmt man, da es nur innerhalb dieses B
 Hierfür gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
 
 - Wurzelfunktionen (wie z.B. $f(x) = \sqrt{𝑥} \quad \Rightarrow \quad \mathbb{D}(f) = \mathbb{R}_0^+$)
-- gebrochen rationale Funktionen (wie z.B. $f(x) = \frac{1}{x} \quad \Rightarrow \quad \mathbb{D}(f) = \mathbb{R} \ {0}$)
+- gebrochen rationale Funktionen (wie z.B. $f(x) = \frac{1}{x} \quad \Rightarrow \quad \mathbb{D}(f) = \mathbb{R} \textbackslash \{0\}$)
 
 {{< /box-example >}}
 
