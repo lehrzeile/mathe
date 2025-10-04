@@ -28,7 +28,7 @@ Im Allgemeinen gilt jedoch: $\quad \mathbb{D}(f) = \mathbb{R}$. (Sprich: Man dar
 Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
 
 - **Wurzelfunktionen** wie z.B. $f(x) = \sqrt{𝑥}$:
-    - Vielleicht erinnerst du dich an folgende Regel: Aus einer negativen Zahl kann man im Bereich der reellen Zahlen nur dann eine Wurzel ziehen, wenn der Wurzelexponent ungerade ist. Ist der Wurzelexponent gerade (wie das bei der Quadratwurzel $\sqrt$ der Fall ist), ist die Wurzel aus einer negativen Zahl nicht definiert.
+    - Vielleicht erinnerst du dich an folgende Regel: Aus einer negativen Zahl kann man im Bereich der reellen Zahlen nur dann eine Wurzel ziehen, wenn der Wurzelexponent ungerade ist. Ist der Wurzelexponent gerade (wie das bei der Quadratwurzel $\sqrt{}$ der Fall ist), ist die Wurzel aus einer negativen Zahl nicht definiert.
     - Es gilt deshalb $\mathbb{D}(f) = \mathbb{R}_0^+$.
 - **gebrochen-rationale Funktionen** wie bspw. $f(x) = \frac{1}{x}$:
     - Durch Null zu teilen ist in der Mathematik nicht möglich und nicht definiert, da es widersprüchliche und nicht eindeutige Ergebnisse liefern würde.
@@ -41,7 +41,7 @@ Wenn geklärt ist, wie der Definitionsbereich der Funktion lautet, dann überpr�
 
 - **Schnittpunkt mit der y-Achse:** Eine Funktion kann einen Schnittpunkt mit der $y$-Achse haben, muss aber nicht zwingend. Ein Beispiel hierfür ist die Funktion $f(x)=\frac1x$.
 
-- **Schnittpunkte mit der x-Achse:** Man spricht hierbei von den sog. Nullstellen einer Funktion. Anders als bei der Begrifflichkeit ~Schnittpunkt~ bezeichnet eine Nullstelle lediglich den $x$-Wert (Stelle) eines Schnittpunkts mit der $x$-Achse. Alle Schnittpunkte mit der $x$-Achse haben die Form $(x_i|0)$, wobei $x_i$ hier repräsentativ für die Nullstellen der Funktion steht.
+- **Schnittpunkte mit der x-Achse:** Man spricht hierbei von den sog. Nullstellen einer Funktion. Anders als bei der Begrifflichkeit Schnittpunkt bezeichnet eine Nullstelle lediglich den $x$-Wert (Stelle) eines Schnittpunkts mit der $x$-Achse. Alle Schnittpunkte mit der $x$-Achse haben die Form $(x_i|0)$, wobei $x_i$ hier repräsentativ für die Nullstellen der Funktion steht.
 
 {{< box-notice title="Wie bestimmt man die Achsenschnittpunkte?" >}}
 

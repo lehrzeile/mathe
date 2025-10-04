@@ -32,16 +32,24 @@
 }
 #show: schoolbook-style
 
-#let function1 = xs.map(x =>  x*x*x - 2*x*x - 1*x + 2)
+#let function1 = xs.map(x =>  0.2*x*x*x - 1.4*x*x +7.2)
+// #let function1 = xs.map(x =>  1*x*x*x + 3*x*x - 4)
+// #let function1 = xs.map(x =>  1/18*x*x*x -1/2*x*x + 6)
 
 #lq.diagram(
-  xlim: (-5.25, 5.25),
-  ylim: (-5.25, 5.25),
+  xlim: (-5.25, 9.25),
+  ylim: (-5.25, 9.25),
   width: 12.5cm,
   height: 12.5cm,
   legend: none,
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
   lq.plot(xs, function1, mark: none, stroke: thirdcolor + 1.5pt, label: [$f$]),
-  lq.plot((1, 2, -1, 0), (0, 0, 0, 2), stroke: none, mark: mark => move(dx:-4.9pt,dy:-4.2pt)[#text(12pt, fill:red)[\u{2717}]], mark-size: 8pt),
+  // lq.plot((-2, 0, 3, 4.67, 6), (0, 7.2, 0, -2.96, 0), stroke: none, mark: mark => move(dx:-4.9pt,dy:-4.2pt)[#text(12pt, fill:red)[\u{2717}]], mark-size: 8pt),
+  lq.plot((-1.5, 1.5), (7.2, 7.2), stroke: red + 1.5pt, mark: none),
+  lq.plot((3.17, 6.17), (-2.96, -2.96), stroke: red + 1.5pt, mark: none),
+  lq.place(-3.8, 8.3, align: left)[#text(9pt, font: "Roboto")[lokales Maximum]],
+  lq.place(-0.6, 7.7, align: center + horizon)[#text(17pt, font: "Roboto")[$arrow.br$]],
+  lq.place(3.3, -4.3, align: left)[#text(9pt, font: "Roboto")[lokales Minimum]],
+  lq.place(4.67, -3.4, align: center + horizon)[#text(20pt, font: "Roboto")[$arrow.t$]],
 )
