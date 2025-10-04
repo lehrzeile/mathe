@@ -14,7 +14,16 @@ Wozu das gut ist, erfährtst du danach in einem [Anwendungsbeispiel](/hbf1/4-fun
 
 ## Definitions- und Wertebereich
 
-to be continued...
+Den Definitionsbereich einer Funktion bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
+
+{{< box-notice title="Allgemein gilt:" >}}
+    $\D = \R$.
+{{< /box-notice >}}
+
+{{< box-example title="Ausnahmen:" >}}
+    - Wurzelfunktionen (z.B. $f(x) = \sqrt(𝑥) \rightarrow \D(f) = \R_0^+$)
+    - gebrochen rationale Funktionen (z.B. $f(x) = \frac{1}{x} \rightarrow \D(f) = \R \ {0}$)
+{{< /box-example >}}
 
 ## Achsenschnittpunkte
 
