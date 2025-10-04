@@ -1,4 +1,4 @@
-#set page(width: 15cm, height: 13.5cm, margin: 0.5cm)
+#set page(width: 13.5cm, height: 13.5cm, margin: 0.5cm)
 
 // Definition der Farben
 #let maincolor = rgb("405a94")
@@ -39,8 +39,9 @@
   ylim: (-5.25, 5.25),
   width: 12.5cm,
   height: 12.5cm,
+  legend: none,
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
   lq.plot(xs, function1, mark: none, stroke: thirdcolor + 1.5pt, label: [$f$]),
-  lq.plot((1, 2, -1, 0), (0, 0, 0, 2), stroke: none, mark: "x", mark-size: 8pt),
+  lq.plot((1, 2, -1, 0), (0, 0, 0, 2), stroke: none, mark: mark => move(dx:-4.9pt,dy:-4.2pt)[#text(12pt, fill:red)[\u{2717}]], mark-size: 8pt),
 )
