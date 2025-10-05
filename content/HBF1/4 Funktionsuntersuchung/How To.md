@@ -35,7 +35,7 @@ Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
     $\mathbb{D}(f) = \mathbb{R}$.
 {{< /box-example >}}
 
-{{< box-example title="Ausnahmen:" >}}
+{{< box-notice title="Ausnahmen:" >}}
 Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
 
 - **Wurzelfunktionen** wie z.B. $f(x) = \sqrt{𝑥}$:
@@ -46,7 +46,7 @@ Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiel
     - Durch Null zu teilen ist in der Mathematik nicht möglich und nicht definiert, da es widersprüchliche und nicht eindeutige Ergebnisse liefern würde.
     - Deshalb gilt: $\mathbb{D}(f) = \mathbb{R}\backslash \{0\}$.
     - Umgangssprachlich ausgedrückt: Man darf alle Zahlen (egal ob positiv oder negativ) außer der Null einsetzen.
-{{< /box-example >}}
+{{< /box-notice >}}
 
 ## Achsenschnittpunkte
 
@@ -98,6 +98,14 @@ Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der (gera
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
     In diesem Fall liegt weder eine Achsensymmetrie noch eine Punktsymmetrie vor, da die Funktionsgleichung sowohl ungerade ($x^3$) als auch gerade Exponenten ($x^2$ und $x^0$) enthält.
+
+    Formal betrachtet kann man dies wie folgt nachweisen:
+    - Zunächst bildet man $f(-x)$: \
+    $f(-x) = 0,2 \cdot (-x)^3 - 1,4 \cdot (-x)^2 + 7,2 = -0,2x^3 - 1,4x^2 +7,2$
+    - Nun vergleicht man $f(-x)$ mit $f(x)$: \
+    $f(-x) = -0,2x^3 - 1,4x^2 +7,2 != 0,2x^3 - 1,4x^2 +7,2 = f(x)$
+    - Da $f(x)!=f(-x)$, haben wir nachgewiesen, dass keine Achsensymmetrie vorliegt.
+    - Analog funktioniert dies auch für den Nachweis der Punktsymmetrie mit dem Vergleich von $f(-x)$ und $-f(x)$.
 {{< /box-example >}}
 
 ## Extrempunkte
