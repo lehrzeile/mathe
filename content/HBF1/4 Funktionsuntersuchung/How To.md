@@ -12,6 +12,10 @@ count: 0 # für die Nummerierung der Aufgaben
 Hier lernst du Schritt für Schritt, wie du eine Funktion vollständig untersuchst.
 Wozu das gut ist, erfährtst du danach in einem [Anwendungsbeispiel](/hbf1/4-funktionsuntersuchung/anwendungsbeispiel/).
 
+{{< box-example title="Beispiel" >}}
+    Nachfolgend betrachten wir beispielhaft die Funktion $f(x)=0,2x^3 - 1,4*x^2 +7,2$ und führen eine vollständige Kurvendiskussion durch.
+{{< /box-example >}}
+
 ## Definitionsbereich
 
 Den <mark>Definitionsbereich</mark> einer Funktion bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
@@ -21,10 +25,15 @@ Umgangssprachlich ausgedrückt umfasst der Definitionsbereich alle $x$-Werte (Ar
 Je nach Funktionsgleichung gibt es dafür Einschränkungen.
 <!-- Sprich: "Man darf alles einsetzen." -->
 
-Im Allgemeinen gilt jedoch: $\quad \mathbb{D}(f) = \mathbb{R}$.
+Im Allgemeinen gilt jedoch: $\mathbb{D}(f) = \mathbb{R}$.
 
 Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
 {{< /box-notice >}}
+
+{{< box-example title="Beispiel" >}}
+    Auch bei der Funktion $f(x)=0,2x^3 - 1,4*x^2 +7,2$ gilt: \
+    $\mathbb{D}(f) = \mathbb{R}$.
+{{< /box-example >}}
 
 {{< box-example title="Ausnahmen:" >}}
 Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
@@ -59,6 +68,14 @@ $f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|
 
 {{< /box-notice >}}
 
+{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4*x^2 +7,2$" >}}
+    Auf der nachfolgenden Abbildung siehst du die jeweiligen Achsenschnittpunkte markiert.
+    ![Achsenschnittpunkte des Funktionsgraphen](Graph_Achsenschnittpunkte.svg)
+
+- Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung betrachtet: $7,2 \quad \Rightarrow S_y(0|7,2)$.
+- Die Nullstellen des Funktionsgleichung erhält man, indem man eine Polynomdivision durchführt und anschließend die p-q-Formel anwendet: $\Rightarrow x_1=-2, \quad x_2=3, \quad x_3=6$.
+{{< /box-example >}}
+
 ## Symmetrieeigenschaften
 
 Die <mark>Symmetrieeigenschaft</mark> einer Funktion beschreibt, ob ihr Graph bei einer Spiegelung oder einer Drehung unverändert bleibt.
@@ -77,9 +94,15 @@ Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der (gera
 - Hat eine Funktionsgleichung nur **gerade Exponenten**, so liegt eine **Achsensymmetrie** vor.
 - Hat eine Funktionsgleichung ausschließlich **ungerade Exponenten**, so handelt es sich um eine **Punktsymmetrie** zum Koordinatenursprung.
 
+{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4*x^2 +7,2$" >}}
+    In diesem Fall liegt weder eine Achsensymmetrie noch eine Punktsymmetrie vor, da die Funktionsgleichung sowohl ungerade ($x^3$) als auch gerade Exponenten ($x^2$ und $x^0$) enthält.
+{{< /box-example >}}
+
 ## Extrempunkte
 
 Zunächst Ableitungen bilden.
+
+![Graph der Funktion](Graph_Extrema.svg)
 
 to be continued...
 
@@ -98,8 +121,6 @@ to be continued...
 ## Skizze
 
 Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzufertigen. Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
-
-![Graph der Funktion](Graph1.svg)
 
 Um deine Ergebnisse zu überprüfen, kannst du gerne das nachfolgende GeoGebra-Widget nutzen:
 
