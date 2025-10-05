@@ -13,7 +13,7 @@ Hier lernst du Schritt für Schritt, wie du eine Funktion vollständig untersuch
 Wozu das gut ist, erfährtst du danach in einem [Anwendungsbeispiel](/hbf1/4-funktionsuntersuchung/anwendungsbeispiel/).
 
 {{< box-example title="Beispiel" >}}
-    Nachfolgend betrachten wir beispielhaft die Funktion $f(x)=0,2x^3 - 1,4*x^2 +7,2$ und führen eine vollständige Kurvendiskussion durch.
+    Nachfolgend betrachten wir beispielhaft die Funktion $f(x)=0,2x^3 - 1,4x^2 +7,2$ und führen eine vollständige Kurvendiskussion durch.
 {{< /box-example >}}
 
 ## Definitionsbereich
@@ -31,7 +31,7 @@ Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel" >}}
-    Auch bei der Funktion $f(x)=0,2x^3 - 1,4*x^2 +7,2$ gilt: \
+    Auch bei der Funktion $f(x)=0,2x^3 - 1,4x^2 +7,2$ gilt: \
     $\mathbb{D}(f) = \mathbb{R}$.
 {{< /box-example >}}
 
@@ -72,8 +72,10 @@ $f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|
     Auf der nachfolgenden Abbildung siehst du die jeweiligen Achsenschnittpunkte markiert.
     ![Achsenschnittpunkte des Funktionsgraphen](Graph_Achsenschnittpunkte.svg)
 
-- Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung betrachtet: $7,2 \quad \Rightarrow S_y(0|7,2)$.
-- Die Nullstellen des Funktionsgleichung erhält man, indem man eine Polynomdivision durchführt und anschließend die p-q-Formel anwendet: $\Rightarrow x_1=-2, \quad x_2=3, \quad x_3=6$.
+- Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung betrachtet: $7,2$ \
+$\Rightarrow S_y(0|7,2)$.
+- Die Nullstellen des Funktionsgleichung erhält man, indem man eine Polynomdivision durchführt und anschließend die p-q-Formel anwendet: \
+$\Rightarrow x_1=-2, \quad x_2=3, \quad x_3=6$.
 {{< /box-example >}}
 
 ## Symmetrieeigenschaften
@@ -94,7 +96,7 @@ Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der (gera
 - Hat eine Funktionsgleichung nur **gerade Exponenten**, so liegt eine **Achsensymmetrie** vor.
 - Hat eine Funktionsgleichung ausschließlich **ungerade Exponenten**, so handelt es sich um eine **Punktsymmetrie** zum Koordinatenursprung.
 
-{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4*x^2 +7,2$" >}}
+{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
     In diesem Fall liegt weder eine Achsensymmetrie noch eine Punktsymmetrie vor, da die Funktionsgleichung sowohl ungerade ($x^3$) als auch gerade Exponenten ($x^2$ und $x^0$) enthält.
 {{< /box-example >}}
 
