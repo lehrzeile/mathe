@@ -114,12 +114,12 @@ $f(-x) = -0,2x^3 - 1,4x^2 +7,2 \neq 0,2x^3 - 1,4x^2 +7,2 = f(x)$
 Zunächst bildet man die ersten drei Ableitungen der gesuchten Funktion. Wenn dir die Ableitungsregeln nicht mehr bekannt sind, dann werfe noch einmal einen Blick in das Kapitel "Grundlagen der Differentialrechnung" auf die Seite "Erste Ableitungsregeln".
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
-    - 1. Ableitung: \
-    $f'(x)=0,6x^2-2,8x$
-    - 2. Ableitung: \
-    $f''(x)=1,2x-2,8$
-    - 3. Ableitung: \
-    $f'''(x)=1,2$
+- 1. Ableitung: \
+$f'(x)=0,6x^2-2,8x$
+- 2. Ableitung: \
+$f''(x)=1,2x-2,8$
+- 3. Ableitung: \
+$f'''(x)=1,2$
 {{< /box-example >}}
 
 ![Graph der Funktion](Graph_Extrema.svg)
