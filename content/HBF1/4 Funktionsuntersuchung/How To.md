@@ -104,9 +104,9 @@ Formal betrachtet kann man dies wie folgt nachweisen:
 - Zunächst bildet man $f(-x)$: \
 $f(-x) = 0,2 \cdot (-x)^3 - 1,4 \cdot (-x)^2 + 7,2 = -0,2x^3 - 1,4x^2 +7,2$
 - Nun vergleicht man $f(-x)$ mit $f(x)$: \
-$f(-x) = -0,2x^3 - 1,4x^2 +7,2 != 0,2x^3 - 1,4x^2 +7,2 = f(x)$
-- Da $f(x)!=f(-x)$, haben wir nachgewiesen, dass keine Achsensymmetrie vorliegt.
-- Analog funktioniert dies auch für den Nachweis der Punktsymmetrie mit dem Vergleich von $f(-x)$ und $-f(x)$.
+$f(-x) = -0,2x^3 - 1,4x^2 +7,2 \neq 0,2x^3 - 1,4x^2 +7,2 = f(x)$
+- Da $f(x) \neq f(-x)$, haben wir nachgewiesen, dass keine Achsensymmetrie vorliegt.
+- Analog funktioniert dies auch für den Nachweis der Punktsymmetrie (welche ebenfalls nicht vorliegt) mit dem Vergleich von $f(-x)$ und $-f(x)$.
 {{< /box-example >}}
 
 ## Extrempunkte
