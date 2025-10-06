@@ -59,13 +59,13 @@ Gesucht wird die lokale Änderungsrate im Punkt $\left(2|f(2)\right)$.
 
 Wir betrachten also nun den Grenzwert des Differenzenquotienten:
 
-$\displaystyle m = \lim_{x_2 \to x_1} \frac{\frac14 x_2^2 - 4x_2 + 5 - (\frac14 x_1^2 - 4x_1 + 5)}{x_2-x_1}$
+$\displaystyle m = \lim_{x_2 \to x_1} \frac{\frac14 (x_2)^2 - 4x_2 + 5 - (\frac14 (x_1)^2 - 4x_1 + 5)}{x_2-x_1}$
 
-$\displaystyle = \lim_{x_2 \to x_1} \frac{\frac14 x_2^2 - 4x_2 + 5 - \frac14 x_1^2 + 4x_1 - 5}{x_2-x_1}$
+$\displaystyle = \lim_{x_2 \to x_1} \frac{\frac14 (x_2)^2 - 4x_2 + 5 - \frac14 (x_1)^2 + 4x_1 - 5}{x_2-x_1}$
 
-$\displaystyle = \lim_{x_2 \to x_1} \frac{\frac14 x_2^2 - \frac14 x_1^2 - 4x_2 + 4x_1}{x_2-x_1}$
+$\displaystyle = \lim_{x_2 \to x_1} \frac{\frac14 (x_2)^2 - \frac14 (x_1)^2 - 4x_2 + 4x_1}{x_2-x_1}$
 
-$\displaystyle = \lim_{x_2 \to x_1} \frac{\frac14 \cdot (x_2^2 - x_1^2) - 4 \cdot (x_2 - x_1)}{x_2-x_1}$
+$\displaystyle = \lim_{x_2 \to x_1} \frac{\frac14 \cdot ((x_2)^2 - (x_1)^2) - 4 \cdot (x_2 - x_1)}{x_2-x_1}$
 
 $\displaystyle = \lim_{x_2 \to x_1} \frac{\frac14 \cdot (x_2 + x_1) \cdot (x_2 - x_1) - 4 \cdot (x_2 - x_1)}{x_2-x_1}$
 
@@ -73,7 +73,7 @@ Kürzen mit $(x_2-x_1)$ ergibt:
 
 $\displaystyle m = \lim_{x_2 \to x_1} \frac14 \cdot (x_2 + x_1) - 4 = \frac14 \cdot 2x_1 - 4 = \frac12 x_1 - 4 = f'(x_1)$
 
-Wir setzen nun die $x$-Koordinate des gegebenen Punkts ein und erhalten:
+Wir setzen nun die $x$-Koordinate des gegebenen Punkts ($x_1=2$) ein und erhalten:
 
 $f'(2)=\frac12 \cdot 2 - 4 = 1 - 4 = -3.$
 
