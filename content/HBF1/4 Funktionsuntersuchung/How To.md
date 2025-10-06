@@ -275,7 +275,9 @@ to be continued... -->
 
 {{< box-notice title="Globalverhalten" >}}
 Unter dem Globalverhalten versteht man auch die **Untersuchung der Randpunkte des Definitionsbereiches**.
-Man untersucht sozusagen, in welche Richtung sich der Funktionsgraph bewegt, wenn die $x$-Werte unendlich groß ($x \rightarrow +\infty$) oder unendlich klein ($x \rightarrow -\infty$) werden. Im Falle von ganzrationalen Funktionen sagt man, der Graph verläuft
+Man untersucht sozusagen, in welche Richtung sich der Funktionsgraph bewegt, wenn die $x$-Werte unendlich groß ($x \rightarrow +\infty$) oder unendlich klein ($x \rightarrow -\infty$) werden.
+
+Im Falle von ganzrationalen Funktionen sagt man, der Graph verläuft
 
 - ins positiv Unendliche ($+\infty$) oder
 - ins negativ Unendliche ($-\infty$).
@@ -311,6 +313,9 @@ Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzuferti
 
 ![finale Skizze des Funktionsgraphen mit allen Punkten](Graph_final.svg)
 *Abb. 8: finale Skizze des Funktionsgraphen mit allen Punkten*
+
+<br />
+<br />
 
 Um deine Ergebnisse zu überprüfen, kannst du gerne das nachfolgende GeoGebra-Widget nutzen:
 
