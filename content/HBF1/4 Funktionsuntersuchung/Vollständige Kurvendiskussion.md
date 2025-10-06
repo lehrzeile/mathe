@@ -13,9 +13,9 @@ count: 0 # für die Nummerierung der Aufgaben
 
 Du hast dir zwischenzeitlich ein paar -- aus mathematischer Sicht -- mächtige Werkzeuge angeeignet. Diese werden nun von Nutzen sein, wenn es darum geht, Funktionen nähergehend zu untersuchen.
 
-In der Mathematik ist es oft nicht ausreichend, eine Funktionsgleichung nur zu kennen –- vielmehr ist es entscheidend, ihre Eigenschaften genau zu analysieren.
+In der Mathematik ist es oft nicht ausreichend, eine Funktionsgleichung nur zu kennen -- vielmehr ist es entscheidend, ihre Eigenschaften genau zu analysieren.
 
-Die sogenannte Funktionsuntersuchung liefert dir ein systematisches Vorgehen, um wichtige Merkmale wie Definitionsbereich, Nullstellen, Extrempunkte, Wendepunkte und das Verhalten im Unendlichen zu bestimmen. Diese Analyse bildet die Grundlage, um das Verhalten von Funktionen zu verstehen, zu interpretieren und in vielen Anwendungsbereichen gezielt einsetzen zu können.
+Die sogenannte **Funktionsuntersuchung** -- oft auch **vollständige Kurvendiskussion** genannt -- liefert dir ein systematisches Vorgehen, um wichtige Merkmale wie Definitionsbereich, Nullstellen, Extrempunkte, Wendepunkte und das Verhalten im Unendlichen zu bestimmen. Diese Analyse bildet die Grundlage, um das Verhalten von Funktionen zu verstehen, zu interpretieren und in vielen Anwendungsbereichen gezielt einsetzen zu können.
 
 In diesem Kapitel lernst du also Schritt für Schritt, wie du eine Funktion vollständig untersuchst.
 Um zu verstehen, in welchen Anwendungsbereichen dies von Nutzen sein kann, widmen wir uns im Anschluss daran einem [Anwendungsbeispiel](/hbf1/4-funktionsuntersuchung/anwendungsbeispiel/).

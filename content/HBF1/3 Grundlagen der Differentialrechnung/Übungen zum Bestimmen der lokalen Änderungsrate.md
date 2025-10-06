@@ -13,7 +13,9 @@ count: 0 # für die Nummerierung der Aufgaben
 
 Gegeben ist die Funktion $f$.
 Die lokale Änderungsrate von $f$ an der Stelle $x_0$ ist die Steigung der Tangente an dem Graphen von $f$ im Punkt $P\left(x_0|f(x)\right)$.
+
 Die lokale Änderungsrate heißt auch **Ableitung der Funktion an der Stelle $x_0$**.
+
 Geschrieben $f'(x)$ (gesprochen: "f Strich von x null").
 
 {{< box-notice >}}
