@@ -1,5 +1,5 @@
 ---
-title: "How To: Erklärung der Vorgehensweise"
+title: "Vollständige Kurvendiskussion"
 description: ""
 summary: ""
 draft: false
