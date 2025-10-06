@@ -175,6 +175,8 @@ $\Rightarrow x_1=0, \quad 0,6x_2-2,8=0 \\\
 \Leftrightarrow x_1=0, \quad x_2 \approx 4,67$
 {{< /box-example >}}
 
+Wir wissen nun, dass der Funktionsgraph an den Stellen $x_1=0$ und $x_2 \approx 4,67$ eine waagerechte Tangente besitzt und somit an diesen Stellen Extrempunkte vorliegen können.
+
 ### Schritt 3
 
 {{< box-notice title="Hinreichende Bedingung" >}}
@@ -205,6 +207,8 @@ $f''(4,67)=1,2 \cdot 4,67 - 2,8 = 2,804 > 0 \Rightarrow$ Tiefpunkt
 ![Extremstellen des Graphen](Graph_Extremstellen.svg)
 *Abb. 5: Extremstellen*
 {{< /box-example >}}
+
+Wir wissen nun, dass an der Stelle $x_1=0$ ein Hochpunkt und an der Stelle $x_2 \approx 4,67$ ein Tiefpunkt vorliegt.
 
 ### Schritt 4
 
