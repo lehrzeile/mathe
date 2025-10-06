@@ -131,14 +131,14 @@ $f'''(x)=1,2$
 Als nächstes kümmern wir uns um die sogenannte <mark>notwendige Bedingung</mark>:
 
 {{< box-notice title="Notwendige Bedingung" >}}
-Die **notwendige Bedingung für eine Extremstelle** einer differenzierbaren Funktion ist, dass die erste Ableitung ($f'(x)$) an dieser Stelle gleich Null ist ($f'(x) = 0$), da die Tangente an dieser Stelle am Funktionsgraphen waagerecht ist (und ihre Steigung somit Null ist).
+Die **notwendige Bedingung für eine Extremstelle** einer differenzierbaren Funktion ist, dass die erste Ableitung ($f'(x)$) an dieser Stelle gleich Null ist ($f'(x) = 0$), da die **Tangente** an dieser Stelle **waagerecht** ist (und ihre Steigung somit Null ist).
 {{< /box-notice >}}
 
 Auf der nachfolgenden Grafik sind diejenigen Stellen des Funktionsgraphen markiert, an denen eine waagerechte Tangente vorliegt:
 
 ![Graph der Funktion](Graph_Extrema.svg)
 
-Um diejenigen Stellen bestimmen zu können, an denen die Tangente waagerecht ist, müssen wir als nächstes die Nullstellen der ersten Ableitung bestimmen.
+Um diejenigen Stellen bestimmen zu können, an denen die Tangente waagerecht ist, müssen wir als nächstes die <mark>Nullstellen der ersten Ableitung bestimmen</mark>.
 
 {{< box-notice title="" >}}
 Die erste Ableitung einer Funktion $f(x)$ -- bezeichnet als $f'(x)$ -- gibt die **momentane Steigung** des Funktionsgraphen der Funktion an einer bestimmten Stelle an.
@@ -173,7 +173,7 @@ Zur Überprüfung, ob tatsächlich ein Extrempunkt vorliegt, wird daher die zwei
 {{< /box-notice >}}
 
 {{< box-notice title="Sattelpunkt" >}}
-Wenn $f'(x) = 0$ und gleichzeitig $f''(x) = 0$ ist, dann liegt kein Extrempunkt, sondern ein **Sattelpunkt** (auch *Terrassenpunkt* genannt) vor, bei dem die *Tangente waagrecht* ist, *aber kein lokales Maximum oder Minimum* vorliegt.
+Wenn $f'(x) = 0$ und gleichzeitig $f''(x) = 0$ ist, dann liegt kein Extrempunkt, sondern ein **Sattelpunkt** (auch *Terrassenpunkt* genannt) vor, bei dem die **Tangente waagerecht** ist, **aber kein lokales Maximum oder Minimum** vorliegt.
 {{< /box-notice >}}
 
 ### Schritt 4
