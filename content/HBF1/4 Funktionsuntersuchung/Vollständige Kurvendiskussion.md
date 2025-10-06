@@ -9,8 +9,20 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-Hier lernst du Schritt für Schritt, wie du eine Funktion vollständig untersuchst.
-Wozu das gut ist, erfährtst du danach in einem [Anwendungsbeispiel](/hbf1/4-funktionsuntersuchung/anwendungsbeispiel/).
+## Einleitung
+
+Du hast dir zwischenzeitlich ein paar -- aus mathematischer Sicht -- mächtige Werkzeuge angeeignet. Diese werden nun von Nutzen sein, wenn es darum geht, Funktionen nähergehend zu untersuchen.
+
+In der Mathematik ist es oft nicht ausreichend, eine Funktionsgleichung nur zu kennen –- vielmehr ist es entscheidend, ihre Eigenschaften genau zu analysieren.
+
+Die sogenannte Funktionsuntersuchung liefert dir ein systematisches Vorgehen, um wichtige Merkmale wie Definitionsbereich, Nullstellen, Extrempunkte, Wendepunkte und das Verhalten im Unendlichen zu bestimmen. Diese Analyse bildet die Grundlage, um das Verhalten von Funktionen zu verstehen, zu interpretieren und in vielen Anwendungsbereichen gezielt einsetzen zu können.
+
+In diesem Kapitel lernst du also Schritt für Schritt, wie du eine Funktion vollständig untersuchst.
+Um zu verstehen, in welchen Anwendungsbereichen dies von Nutzen sein kann, widmen wir uns im Anschluss daran einem [Anwendungsbeispiel](/hbf1/4-funktionsuntersuchung/anwendungsbeispiel/).
+
+## Definitionen und Beispiel
+
+In diesem Kapitel findest du nicht nur die grundlegenden Definitionen und Erklärungen zur Vorgehensweise bei einer vollständigen Kurvendiskussion, sondern auch ein Beispiel, an dem alle Schritte durchgeführt und somit anschaulich nachvollzogen werden können.
 
 {{< box-example title="Beispiel" >}}
     Nachfolgend betrachten wir beispielhaft die Funktion $f(x)=0,2x^3 - 1,4x^2 +7,2$ und führen eine vollständige Kurvendiskussion durch.
