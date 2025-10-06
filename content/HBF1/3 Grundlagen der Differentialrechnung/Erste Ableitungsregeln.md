@@ -41,6 +41,8 @@ Besteht ein Funktionsterm (hier: $f(x)$) aus einer Summe (*bzw. Differenz*) von 
 
 ## Methode #4 zur Bestimmung der lokalen Änderungsrate: Steigung in einem Punkt berechnen $\rightarrow$ Funktion ableiten
 
+Du erinnerst dich an die drei Methoden aus dem vorangegangenen Kapitel, mit deren Hilfe man die lokale Änderungsrate bestimmen kann? Jetzt kannst du unter Anwendung der Ableitungsregeln die Ableitung direkt bilden und somit die Steigung in einem Punkt bestimmen.
+
 {{< youtube wo1htpyG9w8 >}}
 
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
