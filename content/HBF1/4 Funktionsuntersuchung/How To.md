@@ -196,8 +196,11 @@ Wenn $f'(x) = 0$ und gleichzeitig $f''(x) = 0$ ist, dann liegt kein Extrempunkt,
 Zur Erinnerung: \
 $f''(x)=1,2x-2,8$ und $x_1=0, \quad x_2 \approx 4,67$
 
-- $f''(0)=1,2 \cdot 0 - 2,8 = -2,8 < 0 \Rightarrow$ Hochpunkt
-- $f''(4,67)=1,2 \cdot 4,67 - 2,8 = 2,804 > 0 \Rightarrow$ Tiefpunkt
+Wir überprüfen die erste Extremstelle $x_1=0$: \
+$f''(0)=1,2 \cdot 0 - 2,8 = -2,8 < 0 \Rightarrow$ Hochpunkt
+
+Wir überprüfen die zweite Extremstelle $x_2 \approx 4,67$: \
+$f''(4,67)=1,2 \cdot 4,67 - 2,8 = 2,804 > 0 \Rightarrow$ Tiefpunkt
 
 ![Extremstellen des Graphen](Graph_Extremstellen.svg)
 *Abb. 5: Extremstellen*
@@ -207,6 +210,20 @@ $f''(x)=1,2x-2,8$ und $x_1=0, \quad x_2 \approx 4,67$
 
 Last but not least widmen wir uns den $y$-Werten der Extremstellen.
 Diese rechnen wir aus, indem wir die $x$-Werte der Extremstellen in die Ausgangsfunktion einsetzen.
+
+{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
+Zur Erinnerung: \
+$x_1=0, \quad x_2 \approx 4,67$
+
+Wir rechnen den $y$-Wert des ersten Extrempunkts $x_1=0$ aus: \
+$f(0)=0,2 \cdot 0^3 - 1,4 \cdot 0^2 + 7,2 = 7,2 \quad \Rightarrow HP(0|7,2)$
+
+Wir rechnen den $y$-Wert des zweiten Extrempunkts $x_2 \approx 4,67$ aus: \
+$f(0)=0,2 \cdot 4,67^3 - 1,4 \cdot 4,67^2 + 7,2 \approx -2,96 \quad \Rightarrow TP(4,67|-2,96)$
+
+![Extremstellen des Graphen](Graph_Extremstellen.svg)
+*Abb. 5: Extremstellen*
+{{< /box-example >}}
 
 ## Wendepunkte
 
