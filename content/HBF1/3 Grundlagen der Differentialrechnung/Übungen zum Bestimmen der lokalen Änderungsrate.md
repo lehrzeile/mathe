@@ -11,19 +11,6 @@ count: 0 # für die Nummerierung der Aufgaben
 
 In diesem Kapitel lernst du, wie man die lokale Änderungsrate – also die Steigung einer Funktion an einer bestimmten Stelle – bestimmt. Du erfährst, wie man zwischen mittlerer und lokaler Änderungsrate unterscheidet und welche Methoden es gibt, um die Ableitung einer Funktion zu berechnen. Die folgenden Aufgaben und Beispiele helfen dir, das Konzept Schritt für Schritt zu verstehen und anzuwenden.
 
-## Definition
-
-Gegeben ist die Funktion $f$.
-Die lokale Änderungsrate von $f$ an der Stelle $x_0$ entspricht der Steigung der Tangente an dem Graphen von $f$ im Punkt $P\left(x_0|f(x)\right)$.
-
-Die lokale Änderungsrate heißt auch **Ableitung der Funktion an der Stelle $x_0$**.
-
-Geschrieben $f'(x)$ (gesprochen: "f Strich von x null").
-
-{{< box-notice >}}
-Die lokale bzw. momentane Änderungsrate einer Funktion entspricht der **Steigung der Tangenten** am Graphen in einem bestimmten Punkt. Mit der momentanen Änderungsrate, die man auch **Ableitung** nennt, kann man die Steigung in jedem beliebigen Punkt einer Kurve bestimmen.
-{{< /box-notice >}}
-
 ## Bestimmen der mittleren Änderungsrate
 
 {{< youtube sXxK-JATrc0 >}}

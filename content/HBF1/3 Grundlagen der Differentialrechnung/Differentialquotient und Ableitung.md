@@ -30,11 +30,21 @@ Es gilt:
 $$\displaystyle m = \lim_{x_2 \to x_1} \frac{y_2-y_1}{x_2-x_1} \quad \text{bzw.} \quad m = \lim_{x_2 \to x_1} \frac{f(x_2)-f(x_1)}{x_2-x_1}.$$
 {{< /box-notice >}}
 
-$m$ gibt hierbei die **lokale Änderungsrate**, also den Wert des Differentialquotienten, an.
+$m$ -- also der Wert des Differentialquotienten -- entspricht hierbei der **lokalen Änderungsrate**.
+
+{{< box-notice title="lokale Änderungsrate" >}}
+Die lokale Änderungsrate von $f$ an der Stelle $x_0$ entspricht der Steigung der Tangente an dem Graphen von $f$ im Punkt $P\left(x_0|f(x)\right)$.
+
+Die lokale Änderungsrate heißt auch **Ableitung der Funktion an der Stelle $x_0$**.
+
+Geschrieben $f'(x)$ (gesprochen: "f Strich von x null").
+{{< /box-notice >}}
+
+Die lokale bzw. momentane Änderungsrate einer Funktion entspricht der **Steigung der Tangenten** am Graphen in einem bestimmten Punkt. Mit der momentanen Änderungsrate, die man auch **Ableitung** nennt, kann man die Steigung in jedem beliebigen Punkt einer Kurve bestimmen.
 
 ## Differentialquotient und h-Methode
 
-Schreibt man für die Stelle $x_2 = x_1 + h$, so erhält man für den Differentialquotienten eine andere Schreibweise, die sog. **h-Methode**:
+Schreibt man für die Stelle $x_2 = x_1 + h$ (dabei geht man quasi davon aus, dass $x_2$ einen Abstand $h$ zu $x_1$ hat), so erhält man für den Differentialquotienten eine andere Schreibweise, die sog. **h-Methode**:
 
 {{< box-notice title="h-Methode" >}}
 $$m = \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{x_1+h-x_1} = \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$$
