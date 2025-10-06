@@ -162,8 +162,12 @@ $&f'(x) &=0 \
 {{< box-notice title="Hinreichende Bedingung" >}}
 Dass die erste Ableitung an derjenigen Stelle des Funktionsgraphen gleich Null ist, an der sich eine Extremstelle befindet, ist jedoch **keine hinreichende Bedingung**. An solchen Stellen kann nämlich anstatt eines Hoch- oder Tiefpunkts auch ein sogenannter **Sattelpunkt** vorliegen.
 
-Zur Überprüfung, ob tatsächlich ein Extrempunkt vorliegt, wird daher die zweite Ableitung ($f''(x)$) herangezogen: \
-Ist $f''(x) < 0$ so liegt ein Hochpunkt vor, ist $f''(x) > 0$, dann handelt es sich um einen Tiefpunkt und ist $f''(x) = 0$, so liegt eventuell ein Sattelpunkt vor.
+Zur Überprüfung, ob tatsächlich ein Extrempunkt vorliegt, wird daher die zweite Ableitung ($f''(x)$) herangezogen:
+
+- Ist $f''(x) < 0$ so liegt ein Hochpunkt vor,
+- ist $f''(x) > 0$, handelt es sich um einen Tiefpunkt und
+- wenn $f''(x) = 0$ ist, dann liegt ein Sattelpunkt vor.
+
 {{< /box-notice >}}
 
 {{< box-notice title="Sattelpunkt" >}}
