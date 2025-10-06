@@ -272,7 +272,7 @@ Und zu guter Letzt berechnen wir die $y$-Koordinate des Wendepunkts:
 
 $f(2,33)=0,2 \cdot 2,33^3 - 1,4 \cdot 2,33^2 + 7,2 = 2,12$ \
 
-Wir kennen nun also auch die vollständigen Koordinaten des Wendepunkts $(2,33|2,12)$.
+Wir kennen nun also auch die genauen Koordinaten des Wendepunkts $(2,33|2,12)$.
 {{< /box-example >}}
 
 ![Wendestellen des Funktionsgraphen](Graph_Wendestellen.svg)
