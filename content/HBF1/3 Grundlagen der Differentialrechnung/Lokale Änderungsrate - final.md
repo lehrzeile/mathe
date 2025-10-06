@@ -27,9 +27,9 @@ Die lokale bzw. momentane Änderungsrate einer Funktion entspricht der **Steigun
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
 Gegeben sei die Funktion $f_1$ mit $f_1(x)=\frac12 x^2 - 3x + 1$.
 
-1. Bestimme mithilfe des Differenzenquotienten die mittlere Änderungsrate im Intervall $[-2;1]$.
-2. Bestimme nach demselben Prinzip die mittlere Änderungsrate im gleichen Intervall, dieses Mal jedoch in Einerschritten ($[-2;-1]$, $[-1;0]$ und $[0;1]$).
-3. Triff eine Aussage über einen möglichen Zusammenhang zwischen den mittleren Änderungsraten aus den Aufgabenteilen 1 und 2.
+1. **Bestimme** mithilfe des Differenzenquotienten die mittlere Änderungsrate im Intervall $[-2;1]$.
+2. **Bestimme** nach demselben Prinzip die mittlere Änderungsrate im gleichen Intervall, dieses Mal jedoch in Einerschritten ($[-2;-1]$, $[-1;0]$ und $[0;1]$).
+3. **Triff** eine begründete Aussage über einen möglichen Zusammenhang zwischen den mittleren Änderungsraten aus den Aufgabenteilen 1 und 2.
 {{< /job >}}
 
 ## Bestimmen der lokalen Änderungsrate
@@ -93,7 +93,7 @@ Die Steigung des Funktionsgraphen an der Stelle $x_1=2$ bzw. im Punkt $P(2|-2)$ 
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
 Gegeben sei die Funktion $f$ mit $f(x)= -x^2 + 4x + 10$.
 
-Bestimme mit Hilfe des Differentialquotienten die Steigung in den Punkten $P_1 \left(2|f(2)\right)$ und $P_2 \left(-1|f(-1)\right)$.
+**Bestimme** mit Hilfe des Differentialquotienten die Steigung in den Punkten $P_1 \left(2|f(2)\right)$ und $P_2 \left(-1|f(-1)\right)$.
 {{< /job >}}
 
 ### Methode #3: Grenzwertbetrachtung unter Anwendung der h-Methode $\rightarrow$ Der Differentialquotient

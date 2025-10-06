@@ -25,9 +25,10 @@ Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen** bzw. **lok
 
 Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert der Sekantensteigung**.
 
+{{< box-notice title="Grenzwert der Sekantensteigung" >}}
 Es gilt:
-
 $$\displaystyle m = \lim_{x_2 \to x_1} \frac{y_2-y_1}{x_2-x_1} \quad \text{bzw.} \quad m = \lim_{x_2 \to x_1} \frac{f(x_2)-f(x_1)}{x_2-x_1}.$$
+{{< /box-notice >}}
 
 $m$ gibt hierbei die **lokale Änderungsrate**, also den Wert des Differentialquotienten, an.
 
@@ -35,7 +36,9 @@ $m$ gibt hierbei die **lokale Änderungsrate**, also den Wert des Differentialqu
 
 Schreibt man für die Stelle $x_2 = x_1 + h$, so erhält man für den Differentialquotienten eine andere Schreibweise, die sog. **h-Methode**:
 
+{{< box-notice title="h-Methode" >}}
 $$m = \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{x_1+h-x_1} = \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$$
+{{< /box-notice >}}
 
 Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an der Stelle $x_1$. Die erste Ableitung einer Funktion an der Stelle $x_1$ gibt die **Steigung der Tangente an den Funktionsgraphen** im Punkt $P(x_1|f(x_1))$ an.
 
@@ -43,8 +46,10 @@ Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an de
 
 Die erste Ableitung einer Funktion $f$ an einer Stelle $x_0$ gibt die momentane Änderungsrate des Funktionsgraphen an dieser Stelle an -- geometrisch gesehen also die Steigung der Tangente an den Graphen. Die Ableitung der Funktion $f(x)$ wird mit $f'(x)$ bezeichnet. Weitere Ableitungen bezeichnet man $f''(x)$, $f'''(x)$, usw.
 
+{{< box-notice title="So lassen sich die Werte der ersten Ableitung interpretieren:" >}}
 - Ist $f’(x_0) > 0$, so **steigt** der Graph an dieser Stelle.
 - Ist $f’(x_0) < 0$, so **fällt** der Graph an dieser Stelle.
+{{< /box-notice >}}
 
 <!-- Grafik -->
 
