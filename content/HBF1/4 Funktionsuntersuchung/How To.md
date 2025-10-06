@@ -253,6 +253,9 @@ Um diejenigen Stellen des Funktionsgraphen ausfindig zu machen, an denen sich We
 - Die erste Ableitung $f'(x)$ liefert uns die **Steigung** des Funktionsgraphen.
 - Somit liefert uns die zweite Ableitung $''f(x)$ -- welche man auch als die erste Ableitung der ersten Ableitung bezeichnen könnte -- diejenigen Stellen des Funktionsgraphen, an denen die **Steigung extremal** ist.
 
+In Abbildung 5 wird noch einmal der Zusammenhang zwischen Ausgangsfunktions, 1. Ableitung und 2. Ableitung aufgezeigt.
+
+![Funktionsgraph und Ableitungen](Graph_und_Ableitungen.svg)
 
 <!-- ## Steigungs-, Krümmungs- und Monotonieverhalten
 
