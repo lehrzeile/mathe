@@ -73,10 +73,3 @@ Gegeben sei die Funktion $f$ mit $f(x)= -x^2 + 5x - 2$.
 
 Bestimme mit Hilfe der Ableitung die Steigung in den Punkten $P_1 \left(1|f(1)\right)$, $P_2 \left(2|f(2)\right)$ und $P_3 \left(5|f(5)\right)$.
 {{< /job >}}
-
-## Interpretation der lokalen Änderungsrate im Beispielkontext
-
-| Bsp.e für Funktionen | mittlere Änderungsrate | lokale Änderungsrate |
-| --- | --- | --- |
-| Zeit → zurückgelegter Weg | Durchschnittsgeschwindigkeit | Momentangeschwindigkeit  |
-| Entfernung → Höhe | Durchschnittshöhe | Momentane Steigung |

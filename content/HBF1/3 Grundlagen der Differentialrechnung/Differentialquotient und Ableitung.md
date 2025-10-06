@@ -38,3 +38,10 @@ Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an de
 ## Ableitung und ihre Bedeutung
 
 Die erste Ableitung einer Funktion $f$ an einer Stelle $x_0$ gibt die momentane Änderungsrate des Funktionsgraphen an dieser Stelle an -- geometrisch gesehen also die Steigung der Tangente an den Graphen. Die Ableitung der Funktion $f(x)$ wird mit $f'(x)$ bezeichnet. Weitere Ableitungen bezeichnet man $f''(x)$, $f'''(x)$, usw.
+
+## Interpretation der lokalen Änderungsrate im Beispielkontext
+
+| Bsp.e für Funktionen | mittlere Änderungsrate | lokale Änderungsrate |
+| --- | --- | --- |
+| Zeit → zurückgelegter Weg | Durchschnittsgeschwindigkeit | Momentangeschwindigkeit  |
+| Entfernung → Höhe | Durchschnittshöhe | Momentane Steigung |
