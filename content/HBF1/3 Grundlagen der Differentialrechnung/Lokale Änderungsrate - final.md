@@ -59,9 +59,15 @@ Gesucht wird die lokale Änderungsrate im Punkt $\left(2|f(2)\right)$.
 
 Wir betrachten also nun den Grenzwert des Differenzenquotienten:
 
-$\displaystyle m = \lim_{x_2 \to x_1} \frac{\frac14 x_2^2 - 4x_2 + 5 - (\frac14 x_1^2 - 4x_1 + 5)}{x_2-x_1} = \lim_{x_2 \to x_1} \frac{\frac14 x_2^2 - 4x_2 + 5 - \frac14 x_1^2 + 4x_1 - 5}{x_2-x_1} = \lim_{x_2 \to x_1} \frac{\frac14 x_2^2 - \frac14 x_1^2 - 4x_2 + 4x_1}{x_2-x_1} = \lim_{x_2 \to x_1} \frac{\frac14 \cdot (x_2^2 - x_1^2) - 4 \cdot (x_2 - x_1)}{x_2-x_1} = \lim_{x_2 \to x_1} \frac{\frac14 \cdot (x_2 + x_1) \cdot (x_2 - x_1) - 4 \cdot (x_2 - x_1)}{x_2-x_1} \undertext{Kürzen mit (x_2-x_1)}{=} \lim_{x_2 \to x_1} \frac14 \cdot (x_2 + x_1) - 4 = \frac14 \cdot 2x_1 - 4 = \frac12 x_1 - 4 = f'(x_1)$
+$\displaystyle m = \lim_{x_2 \to x_1} \frac{\frac14 x_2^2 - 4x_2 + 5 - (\frac14 x_1^2 - 4x_1 + 5)}{x_2-x_1} = \lim_{x_2 \to x_1} \frac{\frac14 x_2^2 - 4x_2 + 5 - \frac14 x_1^2 + 4x_1 - 5}{x_2-x_1} = \lim_{x_2 \to x_1} \frac{\frac14 x_2^2 - \frac14 x_1^2 - 4x_2 + 4x_1}{x_2-x_1} = \lim_{x_2 \to x_1} \frac{\frac14 \cdot (x_2^2 - x_1^2) - 4 \cdot (x_2 - x_1)}{x_2-x_1} = \lim_{x_2 \to x_1} \frac{\frac14 \cdot (x_2 + x_1) \cdot (x_2 - x_1) - 4 \cdot (x_2 - x_1)}{x_2-x_1}$
 
-$f'(2)=\frac12 \cdot 2 - 4 = -3$
+Kürzen mit (x_2-x_1):
+
+$\displaystyle m = \lim_{x_2 \to x_1} \frac14 \cdot (x_2 + x_1) - 4 = \frac14 \cdot 2x_1 - 4 = \frac12 x_1 - 4 = f'(x_1)$
+
+$f'(2)=\frac12 \cdot 2 - 4 = 1 - 4 = -3.$
+
+Die Steigung des Funktionsgraphen an der Stelle $x_1=2$ bzw. im Punkt $P(2|-2)$ beträgt also -3.
 {{< /box-example >}}
 
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
@@ -70,12 +76,6 @@ Gegeben sei die Funktion $f$ mit $f(x)= -x^2 + 4x + 10$.
 Bestimme mit Hilfe des Differentialquotienten die Steigung in den Punkten $P_1 \left(2|f(2)\right)$ und $P_2 \left(-1|f(-1)\right)$.
 {{< /job >}}
 
-### Methode #3: Steigung in einem Punkt berechnen $\rightarrow$ Funktion ableiten
+### Methode #3: Grenzwertbetrachtung unter Anwendung der h-Methode $\rightarrow$ Der Differentialquotient
 
-{{< youtube wo1htpyG9w8 >}}
-
-{{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
-Gegeben sei die Funktion $f$ mit $f(x)= -x^2 + 5x - 2$.
-
-Bestimme mit Hilfe der Ableitung die Steigung in den Punkten $P_1 \left(1|f(1)\right)$, $P_2 \left(2|f(2)\right)$ und $P_3 \left(5|f(5)\right)$.
-{{< /job >}}
+to follow...
