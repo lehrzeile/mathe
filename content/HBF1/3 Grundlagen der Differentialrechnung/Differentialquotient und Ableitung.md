@@ -32,15 +32,15 @@ $$\displaystyle m = \lim_{x_2 \to x_1} \frac{y_2-y_1}{x_2-x_1} \quad \text{bzw.}
 
 $m$ -- also der Wert des Differentialquotienten -- entspricht hierbei der **lokalen Änderungsrate**.
 
-{{< box-notice title="lokale Änderungsrate" >}}
-Die lokale Änderungsrate von $f$ an der Stelle $x_0$ entspricht der Steigung der Tangente an dem Graphen von $f$ im Punkt $P\left(x_0|f(x)\right)$.
+{{< box-notice title="Lokale Änderungsrate" >}}
+Die **lokale Änderungsrate** von $f$ an der Stelle $x_0$ entspricht der Steigung der Tangente an dem Graphen von $f$ im Punkt $P\left(x_0|f(x)\right)$.
 
 Die lokale Änderungsrate heißt auch **Ableitung der Funktion an der Stelle $x_0$**.
 
 Geschrieben $f'(x)$ (gesprochen: "f Strich von x null").
 {{< /box-notice >}}
 
-Die lokale bzw. momentane Änderungsrate einer Funktion entspricht der **Steigung der Tangenten** am Graphen in einem bestimmten Punkt. Mit der momentanen Änderungsrate, die man auch **Ableitung** nennt, kann man die Steigung in jedem beliebigen Punkt einer Kurve bestimmen.
+Die lokale bzw. momentane Änderungsrate einer Funktion entspricht der **Steigung der Tangenten** am Graphen in einem bestimmten Punkt. Mit Hilfe der lokalen Änderungsrate kann man die Steigung in jedem beliebigen Punkt einer Kurve bestimmen.
 
 ## Differentialquotient und h-Methode
 
