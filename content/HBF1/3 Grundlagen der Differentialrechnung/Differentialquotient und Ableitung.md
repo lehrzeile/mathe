@@ -23,7 +23,7 @@ Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert 
 
 Es gilt:
 
-$$\displaystyle m = \lim_{x_2 \to x_1} \frac{y_2 – y_1}{x_2 – x_1} \text{bzw.} m = \lim_{x_2 \to x_1} \frac{f(x2) – f (x1)}{x_2 – x_1}.$$
+$$\displaystyle m = \lim_{x_2 \to x_1} \frac{y_2-y_1}{x_2-x_1} \quad \text{bzw.} \quad m = \lim_{x_2 \to x_1} \frac{f(x_2)-f(x_1)}{x_2-x_1}.$$
 
 $m$ gibt hierbei die **momentane Änderungsrate**, also den Wert des Differentialquotienten, an.
 
@@ -31,6 +31,10 @@ $m$ gibt hierbei die **momentane Änderungsrate**, also den Wert des Differentia
 
 Schreibt man für die Stelle $x_2 = x_1 + h$, so erhält man für den Differentialquotienten eine andere Schreibweise, die sog. **h-Methode**:
 
-$$m = \lim_{h \to 0} \frac{f(x_1+h)–f(x_1)}{x_1+h-x_1} = \lim_{h \to 0} \frac{f(x_1+h)–f(x_1)}{h}.$$
+$$m = \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{x_1+h-x_1} = \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$$
 
-Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an der Stelle $x_1$. Die erste Ableitung einer Funktion an der Stelle $x_1$ gibt die **Steigung der Tangente an den Funktionsgraphen** in Punkt $P_1$ an.
+Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an der Stelle $x_1$. Die erste Ableitung einer Funktion an der Stelle $x_1$ gibt die **Steigung der Tangente an den Funktionsgraphen** im Punkt $P(x_1|f(x_1))$ an.
+
+## Ableitung und ihre Bedeutung
+
+Die erste Ableitung einer Funktion $f$ an einer Stelle $x_0$ gibt die momentane Änderungsrate des Funktionsgraphen an dieser Stelle an -- geometrisch gesehen also die Steigung der Tangente an den Graphen. Die Ableitung der Funktion $f(x)$ wird mit $f'(x)$ bezeichnet. Weitere Ableitungen bezeichnet man $f''(x)$, $f'''(x)$, usw.
