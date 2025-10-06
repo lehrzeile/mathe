@@ -11,6 +11,10 @@ count: 0 # für die Nummerierung der Aufgaben
 
 ## Ableitungsregeln
 
+Nachfolgend lernst du ein paar Ableitungsregeln, mit deren Hilfe man ebenfalls die Steigung in einem bestimmten Punkt des Graphen bestimmen kann.
+
+Mit diesen Ableitungsregeln kannst du viele Funktionen schnell und einfach ableiten, ohne jedes Mal die Definition der Ableitung (sprich: den Differentialquotienten) anwenden zu müssen. Sie sind grundlegende Werkzeuge, um die Steigung einer Funktion an jeder Stelle zu bestimmen und spielen eine zentrale Rolle in der Differentialrechnung.
+
 {{< box-notice title="Ableitung von $x$" >}}
 $$f(x)=x \quad \rightarrow \quad f'(x) = 1$$
 
