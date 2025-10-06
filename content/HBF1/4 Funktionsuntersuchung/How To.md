@@ -156,12 +156,18 @@ $f'(x)=0,6x^2-2,8x$
 
 Notwendige Bedingung:
 
-$&f'(x) &=0 \\
+$$&f'(x) &=0 \\
 \Leftrightarrow &0,6x^2-2,8x &= 0 \\
 \Leftrightarrow &x \cdot (0,6x-2,8) &= 0 \\
 \Rightarrow &x_1=0, \quad 0,6x_2-2,8=0 \\
-\Leftrightarrow &x_1=0, \quad x_2 \approx 4,67$
+\Leftrightarrow &x_1=0, \quad x_2 \approx 4,67$$
 {{< /box-example >}}
+
+$$&f'(x) &=0 \\
+\Leftrightarrow &0,6x^2-2,8x &= 0 \\
+\Leftrightarrow &x \cdot (0,6x-2,8) &= 0 \\
+\Rightarrow &x_1=0, \quad 0,6x_2-2,8=0 \\
+\Leftrightarrow &x_1=0, \quad x_2 \approx 4,67$$
 
 ### Schritt 3
 
