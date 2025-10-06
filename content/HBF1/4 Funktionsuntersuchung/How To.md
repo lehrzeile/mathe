@@ -265,24 +265,24 @@ to be continued... -->
 
 ## Globalverhalten
 
-{{< box-notice title="Globalverhalten" }}
+{{< box-notice title="Globalverhalten" >}}
 Unter dem Globalverhalten versteht man auch die **Untersuchung der Randpunkte des Definitionsbereiches**.
 Man untersucht sozusagen, in welche Richtung sich der Funktionsgraph bewegt, wenn die $x$-Werte unendlich groß ($x \rightarrow +\infty$) oder unendlich klein ($x \rightarrow -\infty$) werden. Im Falle von ganzrationalen Funktionen sagt man, der Graph verläuft
 
 - ins positiv Unendliche ($+\infty$) oder
 - ins negativ Unendliche ($-\infty$).
 
-{{< box-note title="" }}
-Es gibt auch Beispiele, in denen der sich Funktionsgraph (von oben oder unten) einem bestimmten Wert annähert -- wie z.B. der 0 im Falle von $f(x)=\frac1x$.
-{{< /box-note}}
-
-Ist der Definitionsbereich jedoch nicht beschränkt -- was bspw. bei der Funktion $f(x)=\frac1x$ der Fall wäre --, dann sind lediglich die beiden folgenden Grenzwerte zu bestimmen:
+Ist der Definitionsbereich nicht beschränkt -- was bspw. bei der Funktion $f(x)=\frac1x$ der Fall wäre --, dann sind lediglich die beiden folgenden Grenzwerte zu bestimmen:
 
 $lim_{x \rightarrow +\infty} f(x)$ und
 $lim_{x \rightarrow -\infty} f(x)$.
 
 Bei ganzrationalen Funktionen betrachtet man dazu lediglich die höchste Potenz, da diese allein das Grenzverhalten bestimmt.
-{{< /box-notice }}
+{{< /box-notice >}}
+
+{{< box-note title="" >}}
+Es gibt auch Beispiele, in denen der sich Funktionsgraph (von oben oder unten) einem bestimmten Wert annähert -- wie z.B. der 0 im Falle von $f(x)=\frac1x$.
+{{< /box-note >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 Wir betrachten nur die höchste Potenz von $f(x)$, sprich: $0,2x^3$:
