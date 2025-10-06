@@ -128,7 +128,7 @@ $f'''(x)=1,2$
 
 Als nächstes kümmern wir uns um die sogenannte <mark>notwendige Bedingung</mark>:
 
-{{< box-notice title="" >}}
+{{< box-notice title="Notwendige Bedingung" >}}
 Die notwendige Bedingung für eine Extremstelle einer differenzierbaren Funktion ist, dass die erste Ableitung ($f'(x)$) an dieser Stelle gleich Null ist ($f'(x) = 0$), da die Tangente an dieser Stelle am Funktionsgraphen waagerecht ist (und ihre Steigung somit Null ist).
 {{< /box-notice >}}
 
@@ -158,7 +158,18 @@ $\Leftrightarrow x_1=0, \quad x_2 \approx 4,67$
 
 ### Schritt 3
 
-Dies ist jedoch keine hinreichende Bedingung, da an solchen Stellen auch ein Sattelpunkt vorliegen kann. Zur Überprüfung, ob tatsächlich ein Extrempunkt vorliegt, wird die zweite Ableitung (f''(x)) herangezogen: Ist f''(x) < 0 liegt ein Hochpunkt vor, ist f''(x) > 0 ein Tiefpunkt, und ist f''(x) = 0, liegt eventuell ein Sattelpunkt vor. 
+{{< box-notice title="Hinreichende Bedingung" >}}
+Dass die erste Ableitung an derjenigen Stelle des Funktionsgraphen gleich Null ist, an der sich eine Extremstelle befindet, ist jedoch keine **hinreichende Bedingung**. An solchen Stellen kann nämlich anstatt eines Hoch- oder Tiefpunkts auch ein sogenannter **Sattelpunkt**[^1] vorliegen.
+
+Zur Überprüfung, ob tatsächlich ein Extrempunkt vorliegt, wird daher die zweite Ableitung ($f''(x)$) herangezogen: \
+Ist $f''(x) < 0$ so liegt ein Hochpunkt vor, ist $f''(x) > 0$, dann handelt es sich um einen Tiefpunkt und ist $f''(x) = 0$, so liegt eventuell ein Sattelpunkt vor.
+{{< /box-notice >}}
+
+[^1]:  Wenn $f'(x) = 0$ und gleichzeitig $f''(x) = 0$ ist, dann liegt kein Extrempunkt, sondern ein Sattelpunkt (auch *Terrassenpunkt* genannt) vor, bei dem die *Tangente waagrecht* ist, *aber kein lokales Maximum oder Minimum* vorliegt
+
+### Schritt 4
+
+y-Werte ausrechnen
 
 ## Wendepunkte
 
