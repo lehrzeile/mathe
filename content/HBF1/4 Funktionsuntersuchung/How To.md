@@ -258,8 +258,8 @@ Um diejenigen Stellen des Funktionsgraphen ausfindig zu machen, an denen sich We
 Um die Wendestellen zu ermitteln, bestimmen wir nun die Nullstellen der zweiten Ableitung:
 
 $\begin{aligned}
-f''(x)&=0 \
-1,2x-2,8&=0 \
+f''(x)&=0 \\\
+1,2x-2,8&=0 \\\
 x &\approx 2,33
 \end{aligned}$
 
