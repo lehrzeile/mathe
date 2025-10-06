@@ -272,10 +272,13 @@ Man untersucht sozusagen, in welche Richtung sich der Funktionsgraph bewegt, wen
 - ins positiv Unendliche ($+\infty$) oder
 - ins negativ Unendliche ($-\infty$).
 
+<br />
 Ist der Definitionsbereich nicht beschränkt -- was bspw. bei der Funktion $f(x)=\frac1x$ der Fall wäre --, dann sind lediglich die beiden folgenden Grenzwerte zu bestimmen:
 
-$lim_{x \rightarrow +\infty} f(x)$ und
-$lim_{x \rightarrow -\infty} f(x)$.
+$\lim\limits_{\x \to +\infty} f(x)$ und
+$\lim\limits_{\x \to -\infty} f(x)$.
+<!-- $lim_{x \rightarrow +\infty} f(x)$ und
+$lim_{x \rightarrow -\infty} f(x)$. -->
 
 Bei ganzrationalen Funktionen betrachtet man dazu lediglich die höchste Potenz, da diese allein das Grenzverhalten bestimmt.
 {{< /box-notice >}}
