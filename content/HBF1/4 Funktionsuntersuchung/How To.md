@@ -258,8 +258,9 @@ Um diejenigen Stellen des Funktionsgraphen ausfindig zu machen, an denen sich We
 Um die Wendestellen zu ermitteln, bestimmen wir nun die Nullstellen der zweiten Ableitung:
 
 $\begin{aligned}
-f''(x)&=0 \\\
-1,2x-2,8&=0 \\\
+f''(x)&=0 & \vert \text{notwendige Bedingung}\\\
+\leftrightarrow 1,2x-2,8&=0 & \vert +2,8 \\\
+\leftrightarrow 1,2x&=2,8 & \vert :1,2 \\\
 x &\approx 2,33
 \end{aligned}$
 
@@ -270,7 +271,8 @@ $f''(2,33)=1,2 > 0 \quad \Rightarrow$ R-L-Wendestelle
 Und zu guter Letzt berechnen wir die $y$-Koordinate des Wendepunkts:
 
 $f(2,33)=0,2 \cdot 2,33^3 - 1,4 \cdot 2,33^2 + 7,2 = 2,12$ \
-$\Rightarrow WP(2,33|2,12)$.
+
+Wir kennen nun also auch die vollständigen Koordinaten des Wendepunkts $(2,33|2,12)$.
 {{< /box-example >}}
 
 ![Wendestellen des Funktionsgraphen](Graph_Wendestellen.svg)
