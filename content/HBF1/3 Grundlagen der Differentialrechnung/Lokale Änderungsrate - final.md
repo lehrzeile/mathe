@@ -98,4 +98,28 @@ Gegeben sei die Funktion $f$ mit $f(x)= -x^2 + 4x + 10$.
 
 ### Methode #3: Grenzwertbetrachtung unter Anwendung der h-Methode $\rightarrow$ Der Differentialquotient
 
-to follow...
+{{< box-example >}}
+Sei die Funktion $f$ gegeben mit $f(x)=\frac14 x^2 - 4x + 5$.
+
+Gesucht wird die lokale Änderungsrate im Punkt $\left(2|f(2)\right)$.
+
+Wir betrachten also nun den Grenzwert des Differenzenquotienten:
+
+$\displaystyle m = \lim_{h \to 0} \frac{f(x_1+h) - f(x_1)}{x_1+h-x_1}$
+
+$\displaystyle = \lim_{h \to 0} \frac{\frac14 (x_1+h)^2 - 4(x_1+h) + 5 - (\frac14 (x_1)^2 - 4x_1 + 5)}{h}$
+
+$\displaystyle = \lim_{h \to 0} \frac{\frac14 \cdot ((x_1)^2 + 2x_1h + h^2) - 4x_1 - 4h + 5 - \frac14 (x_1)^2 + 4x_1 - 5}{h}$
+
+$\displaystyle = \lim_{h \to 0} \frac{\frac14 (x_1)^2 + \frac12x_1h + \frac14 h^2 - 4x_1 - 4h + 5 - \frac14 (x_1)^2 + 4x_1 - 5}{h}$
+
+$\displaystyle = \lim_{h \to 0} \frac{\frac12 x_1h + \frac14 h^2 - 4h}{h}$
+
+$\displaystyle = \lim_{h \to 0} \frac{h \cdot (\frac12 x_1 + \frac14 h - 4)}{h}$
+
+$\displaystyle = \lim_{h \to 0} (\frac12 x_1 + h - 4) = \frac12 x_1 - 4 = f'(x_1)$
+
+$\displaystyle f'(2) = \frac12 \cdot 2 - 4 = 1 - 4 = -3$
+
+Die Steigung des Funktionsgraphen an der Stelle $x_1=2$ bzw. im Punkt $P(2|-2)$ beträgt also $-3$.
+{{< /box-example >}}

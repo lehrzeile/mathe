@@ -21,13 +21,13 @@ Diese Seite soll einen Überblick über das Fach Mathematik in der HBF Unterstuf
 ---
 
 2. [Nullstellen ganzrationaler Funktionen höherer Ordnung bestimmen](/hbf1/2-nullstellen-ganzrationaler-funktionen-höherer-ordnung-bestimmen/nullstellen-von-kubischen-funktionen/)
-3. [Grundlagen der Differentialrechnung](/hbf1/3-grundlagen-der-differentialrechnung/lokale-änderungsrate/)[^1]
-4. [Funktionsuntersuchung (Kurvendiskussion ganzrationaler Funktionen)](/hbf1/4-funktionsuntersuchung/how-to-erklärung-der-vorgehensweise/)[^2]
+3. [Grundlagen der Differentialrechnung](/hbf1/3-grundlagen-der-differentialrechnung/differentialquotient-und-ableitung/)[^1]
+4. [Funktionsuntersuchung (Kurvendiskussion ganzrationaler Funktionen)](/hbf1/4-funktionsuntersuchung/vollständige-kurvendiskussion/)[^2]
 5. [Steckbriefaufgaben](/hbf1/5-steckbriefaufgaben/wiederholung-lineare-gleichungssysteme/)[^3]
 
 <br /><br />
 
-Welche Themen in der HBF Oberstufe behandelt werden, findest du [hier](http://localhost:1313/).
+Welche Themen in der HBF Oberstufe behandelt werden, findest du [hier](/hbf2/0-organisatorisches/themenübersicht/).
 
 [^1]: Hierzu heißt es im Lehrplan: "Die Ableitung einer Funktion als lokale Änderungsrate auffassen und als Grenzwert des Differenzenquotienten herleiten"
 [^2]: Hierzu heißt es im Lehrplan: "Rationale Funktionen diskutieren, um Kenntnis über Lage, Form und ausgezeichnete Punkte ihres Graphen zu erlangen"

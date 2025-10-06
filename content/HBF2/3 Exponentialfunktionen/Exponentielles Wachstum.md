@@ -1,5 +1,5 @@
 ---
-title: "Funktionsuntersuchung gebrochen-rationaler Funktionen"
+title: "Exponentielles Wachstum"
 description: ""
 summary: ""
 draft: false
