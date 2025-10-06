@@ -109,7 +109,7 @@ $\displaystyle m = \lim_{h \to 0} \frac{f(x_1+h) - f(x_1)}{x_1+h-x_1}$
 
 $\displaystyle = \lim_{h \to 0} \frac{\frac14 (x_1+h)^2 - 4(x_1+h) + 5 - (\frac14 (x_1)^2 - 4x_1 + 5)}{h}$
 
-Binomische Formeln und Minusklammer anwenden:
+Binomische Formeln, Distributivgesetz und Minusklammer anwenden:
 
 $\displaystyle = \lim_{h \to 0} \frac{\frac14 \cdot ((x_1)^2 + 2x_1h + h^2) - 4x_1 - 4h + 5 - \frac14 (x_1)^2 + 4x_1 - 5}{h}$
 
@@ -135,3 +135,7 @@ $\displaystyle f'(2) = \frac12 \cdot 2 - 4 = 1 - 4 = -3$
 
 Die Steigung des Funktionsgraphen an der Stelle $x_1=2$ bzw. im Punkt $P(2|-2)$ beträgt also $-3$.
 {{< /box-example >}}
+
+## Ausblick
+
+Kompliment, dass du dich bis hierhin "durchgekämpft" hast. Ab jetzt wird das Bestimmen von Steigungen am Graphen einfacher. Versprochen.
