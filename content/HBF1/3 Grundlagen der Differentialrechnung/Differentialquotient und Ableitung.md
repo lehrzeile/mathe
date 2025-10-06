@@ -39,6 +39,15 @@ Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an de
 
 Die erste Ableitung einer Funktion $f$ an einer Stelle $x_0$ gibt die momentane Änderungsrate des Funktionsgraphen an dieser Stelle an -- geometrisch gesehen also die Steigung der Tangente an den Graphen. Die Ableitung der Funktion $f(x)$ wird mit $f'(x)$ bezeichnet. Weitere Ableitungen bezeichnet man $f''(x)$, $f'''(x)$, usw.
 
+- Ist $f’(x_0) > 0$, so **steigt** der Graph an dieser Stelle.
+- Ist $f’(x_0) < 0$, so **fällt** der Graph an dieser Stelle.
+
+<!-- Grafik -->
+
+Die Ableitung ist ein wichtiges Hilfsmittel zur Bestimmung von besonderen Stellen eines Graphen. Ebenso gibt sie Auskunft über den Verlauf des Graphen.
+
+Mit Hilfe der ersten Ableitung bestimmt man außerdem mögliche **Extremstellen**. Mehr dazu im Kapitel ["Funktionsuntersuchung"](hbf1/4-funktionsuntersuchung/vollständige-kurvendiskussion/).
+
 ## Interpretation der lokalen Änderungsrate im Beispielkontext
 
 | Bsp.e für Funktionen | mittlere Änderungsrate | lokale Änderungsrate |
