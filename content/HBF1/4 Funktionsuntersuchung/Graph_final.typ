@@ -82,5 +82,7 @@
   lq.place(2.9, 2.7, align: center + horizon)[#text(17pt, font: "Roboto")[$arrow.bl$]],
 
   // Grenzverhalten
+  lq.place(7.5, 8.75, align: left)[#text(9pt, font: "Roboto")[$arrow.tr + infinity$]],
+  lq.place(-4.5, -4.75, align: left)[#text(9pt, font: "Roboto")[$arrow.bl - infinity$]],
   
 )
