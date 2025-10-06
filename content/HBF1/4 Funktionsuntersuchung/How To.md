@@ -112,7 +112,9 @@ Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der (gera
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 In diesem Fall liegt weder eine Achsensymmetrie noch eine Punktsymmetrie vor, da die Funktionsgleichung sowohl ungerade ($x^3$) als auch gerade Exponenten ($x^2$ und $x^0$) enthält.
 
-Formal betrachtet kann man dies wie folgt nachweisen:
+Sprich: Der Graph von $f$ ist nicht symmetrisch.
+
+Formal kann man dies wie folgt nachweisen:
 
 - Zunächst bildet man $f(-x)$: \
 $f(-x) = 0,2 \cdot (-x)^3 - 1,4 \cdot (-x)^2 + 7,2 = -0,2x^3 - 1,4x^2 +7,2$
@@ -127,7 +129,7 @@ Analog funktioniert dies auch für den Nachweis der Punktsymmetrie (welche ebenf
 
 ### Schritt 1
 
-Zunächst bildet man die ersten drei Ableitungen der gesuchten Funktion. Wenn dir die Ableitungsregeln nicht mehr bekannt sind, dann wirf noch einmal einen Blick in das Kapitel "Grundlagen der Differentialrechnung" auf die Seite ["Erste Ableitungsregeln"](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/).
+Zunächst bildet man die ersten <mark>drei Ableitungen</mark> der gesuchten Funktion. Wenn dir die Ableitungsregeln nicht mehr bekannt sind, dann wirf noch einmal einen Blick in das Kapitel "Grundlagen der Differentialrechnung" auf die Seite ["Erste Ableitungsregeln"](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/).
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 1. Ableitung: \
@@ -179,6 +181,8 @@ Wir wissen nun, dass der Funktionsgraph an den Stellen $x_1=0$ und $x_2 \approx 
 
 ### Schritt 3
 
+Um zu überprüfen, welche Art von Extrempunkt vorliegt, nutzt man nun die <mark>hinreichende Bedingung</mark> von Extremstellen.
+
 {{< box-notice title="Hinreichende Bedingung" >}}
 Dass die erste Ableitung an derjenigen Stelle des Funktionsgraphen gleich Null ist, an der sich eine Extremstelle befindet, ist jedoch **keine hinreichende Bedingung**. An solchen Stellen kann nämlich anstatt eines Hoch- oder Tiefpunkts auch ein sogenannter **Sattelpunkt** vorliegen.
 
@@ -213,7 +217,7 @@ Wir wissen nun, dass an der Stelle $x_1=0$ ein Hochpunkt und an der Stelle $x_2 
 ### Schritt 4
 
 Last but not least widmen wir uns den $y$-Werten der Extremstellen.
-Diese rechnen wir aus, indem wir die $x$-Werte der Extremstellen in die Ausgangsfunktion einsetzen.
+Diese rechnen wir aus, indem wir die $x$-Werte der Extremstellen in die Ausgangsfunktion einsetzen und den Funktionswert an dieser Stelle berechnen.
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 Zur Erinnerung: \
@@ -229,9 +233,15 @@ $f(0)=0,2 \cdot 4,67^3 - 1,4 \cdot 4,67^2 + 7,2 \approx -2,96 \quad \Rightarrow 
 *Abb. 5: Extremstellen*
 {{< /box-example >}}
 
+Wir kennen also nun die Koordinaten der Extrempunkte.
+
 ## Wendepunkte
 
-to be continued...
+Unsere Beispielfunktion hat zwei Extrema -- einen Hoch- und einen Tiefpunkt. Das bedeutet aber auch, dass es dazwischen einen Punkt geben muss, an dem die Steigung maximal ist. Jene Punkte bezeichnet man als Wendepunkte.
+
+{{< box-notice title="Wendepunkte" >}}
+abc
+{{< /box-notice >}}
 
 <!-- ## Steigungs-, Krümmungs- und Monotonieverhalten
 
