@@ -273,10 +273,13 @@ Man untersucht sozusagen, in welche Richtung sich der Funktionsgraph bewegt, wen
 - ins negativ Unendliche ($-\infty$).
 
 <br />
+
 Ist der Definitionsbereich nicht beschränkt -- was bspw. bei der Funktion $f(x)=\frac1x$ der Fall wäre --, dann sind lediglich die beiden folgenden Grenzwerte zu bestimmen:
 
 - $\displaystyle \lim_{x \rightarrow +\infty} f(x)$ und
 - $\displaystyle \lim_{x \rightarrow -\infty} f(x)$.
+
+<br />
 
 Bei ganzrationalen Funktionen betrachtet man dazu lediglich die höchste Potenz, da diese allein das Grenzverhalten bestimmt.
 {{< /box-notice >}}
@@ -286,7 +289,7 @@ Es gibt auch Beispiele, in denen der sich Funktionsgraph (von oben oder unten) e
 {{< /box-note >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
-Wir betrachten nur die höchste Potenz von $f(x)$, sprich: $0,2 \cdot x^3$:
+Wir betrachten nur die höchste Potenz von $f(x)$, sprich: $0,2 \cdot x^3$ und bestimmen die beiden Grenzwerte:
 
 - $\displaystyle \lim_{x \rightarrow +\infty} 0,2 \cdot x^3 = 0,2 \cdot (+\infty)^3 = +\infty$: \
     Eine positive Zahl dreimal mit sich selbst multipliziert ergibt wieder eine positive Zahl. Multipliziert man diese anschließend mit $0,2$, was wiederum eine positive Zahl ist, so erhält man wiederum eine positive Zahl: $+\infty$.
