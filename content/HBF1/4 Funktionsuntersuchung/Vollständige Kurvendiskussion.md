@@ -83,7 +83,7 @@ $f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4*x^2 +7,2$" >}}
     In Abbildung 1 siehst du die jeweiligen Achsenschnittpunkte markiert.
-    ![Achsenschnittpunkte des Funktionsgraphen](Graph_Achsenschnittpunkte.svg)
+    ![Achsenschnittpunkte des Funktionsgraphen](img/Graph_Achsenschnittpunkte.svg)
     *Abb. 1: Achsenschnittpunkte des Funktionsgraphen*
 
 - Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung betrachtet: $7,2$ \
@@ -107,11 +107,11 @@ Dies führt zu zwei Haupttypen von Symmetrie:
 
 {{< columns >}}
     {{< column >}}
-        ![achsensymmetrischer Graph](Graph_Achsensymmetrie.svg)
+        ![achsensymmetrischer Graph](img/Graph_Achsensymmetrie.svg)
         *Abb. 2: achsensymmetrischer Funktionsgraph*
     {{< /column >}}
     {{< column >}}
-        ![punktsymmetrischer Graph](Graph_Punktsymmetrie.svg)
+        ![punktsymmetrischer Graph](img/Graph_Punktsymmetrie.svg)
         *Abb. 3: punktsymmetrischer Graph*
     {{< /column >}}
 {{< /columns >}}
@@ -162,7 +162,7 @@ Die **notwendige Bedingung für eine Extremstelle** einer differenzierbaren Funk
 
 In Abbildung 4 sind diejenigen Stellen des Funktionsgraphen markiert, an denen eine waagerechte Tangente vorliegt:
 
-![Extrema und waagerechte Tangente](Graph_Extrema.svg)
+![Extrema und waagerechte Tangente](img/Graph_Extrema.svg)
 *Abb. 4: Extrema und waagerechte Tangente*
 
 Um diejenigen Stellen bestimmen zu können, an denen die Tangente waagerecht ist, müssen wir als nächstes die <mark>Nullstellen der ersten Ableitung bestimmen</mark>.
@@ -220,7 +220,7 @@ $f''(0)=1,2 \cdot 0 - 2,8 = -2,8 < 0 \Rightarrow$ Hochpunkt
 Wir überprüfen die zweite Extremstelle $x_2 \approx 4,67$: \
 $f''(4,67)=1,2 \cdot 4,67 - 2,8 = 2,804 > 0 \Rightarrow$ Tiefpunkt
 
-![Extremstellen des Graphen](Graph_Extremstellen.svg)
+![Extremstellen des Graphen](img/Graph_Extremstellen.svg)
 *Abb. 5: Extremstellen*
 {{< /box-example >}}
 
@@ -241,7 +241,7 @@ $f(0)=0,2 \cdot 0^3 - 1,4 \cdot 0^2 + 7,2 = 7,2 \quad \Rightarrow HP(0|7,2)$
 Wir rechnen den $y$-Wert des zweiten Extrempunkts $x_2 \approx 4,67$ aus: \
 $f(0)=0,2 \cdot 4,67^3 - 1,4 \cdot 4,67^2 + 7,2 \approx -2,96 \quad \Rightarrow TP(4,67|-2,96)$
 
-![Extremstellen des Graphen](Graph_Extremstellen.svg)
+![Extremstellen des Graphen](img/Graph_Extremstellen.svg)
 *Abb. 5: Extremstellen*
 {{< /box-example >}}
 
@@ -287,14 +287,14 @@ $f(2,33)=0,2 \cdot 2,33^3 - 1,4 \cdot 2,33^2 + 7,2 = 2,12$ \
 Wir kennen nun also auch die genauen Koordinaten des Wendepunkts $(2,33|2,12)$.
 {{< /box-example >}}
 
-![Wendestellen des Funktionsgraphen](Graph_Wendestellen.svg)
+![Wendestellen des Funktionsgraphen](img/Graph_Wendestellen.svg)
 *Abb. 6: Wendestellen des Funktionsgraphen*
 
 ### Zusammenhang zwischen Ausgangsfunktion und den Ableitungsfunktionen
 
 In Abbildung 7 wird noch einmal der Zusammenhang zwischen Ausgangsfunktion, 1. Ableitung und 2. Ableitung aufgezeigt.
 
-![Funktionsgraph und Ableitungen](Graph_und_Ableitungen.svg)
+![Funktionsgraph und Ableitungen](img/Graph_und_Ableitungen.svg)
 *Abb. 7: Funktionsgraph und Ableitungen*
 
 <!-- ## Steigungs-, Krümmungs- und Monotonieverhalten
@@ -341,7 +341,7 @@ Wir betrachten nur die höchste Potenz von $f(x)$, sprich: $0,2 \cdot x^3$ und b
 
 Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzufertigen (vgl. Abbildung 8). Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
 
-![finale Skizze des Funktionsgraphen mit allen Punkten](Graph_final.svg)
+![finale Skizze des Funktionsgraphen mit allen Punkten](img/Graph_final.svg)
 *Abb. 8: finale Skizze des Funktionsgraphen mit allen Punkten*
 
 <br />
