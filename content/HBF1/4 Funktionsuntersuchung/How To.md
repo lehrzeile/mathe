@@ -129,19 +129,19 @@ $f'''(x)=1,2$
 Als nächstes kümmern wir uns um die sogenannte <mark>notwendige Bedingung</mark>:
 
 {{< box-notice title="Notwendige Bedingung" >}}
-Die notwendige Bedingung für eine Extremstelle einer differenzierbaren Funktion ist, dass die erste Ableitung ($f'(x)$) an dieser Stelle gleich Null ist ($f'(x) = 0$), da die Tangente an dieser Stelle am Funktionsgraphen waagerecht ist (und ihre Steigung somit Null ist).
+Die **notwendige Bedingung für eine Extremstelle** einer differenzierbaren Funktion ist, dass die erste Ableitung ($f'(x)$) an dieser Stelle gleich Null ist ($f'(x) = 0$), da die Tangente an dieser Stelle am Funktionsgraphen waagerecht ist (und ihre Steigung somit Null ist).
 {{< /box-notice >}}
 
 Auf der nachfolgenden Grafik sind diejenigen Stellen des Funktionsgraphen markiert, an denen eine waagerechte Tangente vorliegt:
 
 ![Graph der Funktion](Graph_Extrema.svg)
 
-Um diejenigen Stellen bestimmen zu können, an denen die Tangente waagerecht ist, müssen wir die Nullstellen der ersten Ableitung bilden.
+Um diejenigen Stellen bestimmen zu können, an denen die Tangente waagerecht ist, müssen wir als nächstes die Nullstellen der ersten Ableitung bestimmen.
 
 {{< box-notice title="" >}}
 Die erste Ableitung einer Funktion $f(x)$ -- bezeichnet als $f'(x)$ -- gibt die **momentane Steigung** des Funktionsgraphen der Funktion an einer bestimmten Stelle an.
 
-Sie beschreibt die momentane Änderungsrate und ermöglicht die **Berechnung, wie steil der Graph in jedem Punkt ist**, was für die Ermittlung von Extrempunkten (Hoch- und Tiefpunkte) und das Verständnis des Funktionsverhaltens (steigend oder fallend) entscheidend ist.
+Sie beschreibt die momentane Änderungsrate und ermöglicht die **Berechnung, wie steil der Graph in jedem Punkt ist**. Dies ist für die Ermittlung von Extrempunkten (Hoch- und Tiefpunkten) wichtig und für das Verständnis des Verhaltens des Funktionsgraphen (ob dieser steigend oder fallend ist) entscheidend.
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
@@ -149,11 +149,11 @@ Zur Erinnerung: \
 $f'(x)=0,6x^2-2,8x$
 
 Notwendige Bedingung: \
-$f'(x) &=0$ \
-$0,6x^2-2,8x &= 0$ \
-$x \cdot (0,6x-2,8) &= 0$ \
-$\Rightarrow x_1=0, \quad 0,6x_2-2,8=0$ \
-$\Leftrightarrow x_1=0, \quad x_2 \approx 4,67$
+$&f'(x) &=0 \
+\Leftrightarrow &0,6x^2-2,8x &= 0 \
+\Leftrightarrow &x \cdot (0,6x-2,8) &= 0 \
+\Rightarrow &x_1=0, \quad 0,6x_2-2,8=0 \
+\Leftrightarrow &x_1=0, \quad x_2 \approx 4,67$
 {{< /box-example >}}
 
 ### Schritt 3
