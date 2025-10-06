@@ -72,6 +72,7 @@ $f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4*x^2 +7,2$" >}}
     Auf der nachfolgenden Abbildung siehst du die jeweiligen Achsenschnittpunkte markiert.
     ![Achsenschnittpunkte des Funktionsgraphen](Graph_Achsenschnittpunkte.svg)
+    *Abb. 1: Achsenschnittpunkte des Funktionsgraphen*
 
 - Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung betrachtet: $7,2$ \
 $\Rightarrow S_y(0|7,2)$.
@@ -95,9 +96,11 @@ Dies führt zu zwei Haupttypen von Symmetrie:
 {{< columns >}}
     {{< column >}}
         ![achsensymmetrischer Graph](Graph_Achsensymmetrie.svg)
+        *Abb. 2: achsensymmetrischer Funktionsgraph*
     {{< /column >}}
     {{< column >}}
         ![punktsymmetrischer Graph](Graph_Punktsymmetrie.svg)
+        *Abb. 3: punktsymmetrischer Graph*
     {{< /column >}}
 {{< /columns >}}
 
@@ -145,7 +148,8 @@ Die **notwendige Bedingung für eine Extremstelle** einer differenzierbaren Funk
 
 Auf der nachfolgenden Grafik sind diejenigen Stellen des Funktionsgraphen markiert, an denen eine waagerechte Tangente vorliegt:
 
-![Graph der Funktion](Graph_Extrema.svg)
+![Extrema und waagerechte Tangente](Graph_Extrema.svg)
+*Abb. 4: Extrema und waagerechte Tangente*
 
 Um diejenigen Stellen bestimmen zu können, an denen die Tangente waagerecht ist, müssen wir als nächstes die <mark>Nullstellen der ersten Ableitung bestimmen</mark>.
 
