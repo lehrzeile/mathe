@@ -270,7 +270,8 @@ Und zuguterletzt berechnen wir die $y$-Koordinate des Wendepunkts:
 $f(2,33)=0,2 \cdot 2,33^3 - 1,4 \cdot 2,33^2 + 7,2 = 2,12 \Rightarrow WP(2,33|2,12)$.
 {{< /box-example >}}
 
-<!-- ![Wendestellen des Funktionsgraphen](Graph_Wendestellen.svg) -->
+![Wendestellen des Funktionsgraphen](Graph_Wendestellen.svg)
+*Abb. 6: Wendestellen des Funktionsgraphen*
 
 ### Zusammenhang zwischen Ausgangsfunktion und den Ableitungsfunktionen
 
