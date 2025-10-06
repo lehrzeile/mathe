@@ -275,23 +275,21 @@ Man untersucht sozusagen, in welche Richtung sich der Funktionsgraph bewegt, wen
 <br />
 Ist der Definitionsbereich nicht beschränkt -- was bspw. bei der Funktion $f(x)=\frac1x$ der Fall wäre --, dann sind lediglich die beiden folgenden Grenzwerte zu bestimmen:
 
-$\lim\limits_{\x \to +\infty} f(x)$ und
-$\lim\limits_{\x \to -\infty} f(x)$.
-<!-- $lim_{x \rightarrow +\infty} f(x)$ und
-$lim_{x \rightarrow -\infty} f(x)$. -->
+$\lim_{x \rightarrow +\infty} f(x)$ und
+$\lim_{x \rightarrow -\infty} f(x)$.
 
 Bei ganzrationalen Funktionen betrachtet man dazu lediglich die höchste Potenz, da diese allein das Grenzverhalten bestimmt.
 {{< /box-notice >}}
 
 {{< box-note title="" >}}
-Es gibt auch Beispiele, in denen der sich Funktionsgraph (von oben oder unten) einem bestimmten Wert annähert -- wie z.B. der 0 im Falle von $f(x)=\frac1x$.
+Es gibt auch Beispiele, in denen der sich Funktionsgraph (von oben oder unten) einem bestimmten Wert annähert -- wie z.B. der $0$ im Falle von $f(x)=\frac1x$.
 {{< /box-note >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
-Wir betrachten nur die höchste Potenz von $f(x)$, sprich: $0,2x^3$:
+Wir betrachten nur die höchste Potenz von $f(x)$, sprich: $0,2 \cdot x^3$:
 
-- $lim_{x \rightarrow +\infty} 0,2x^3 = 0,2 \cdot (+\infty)^3 = +\infty$, da eine positive Zahl dreimal mit sich selbst multipliziert wieder eine positive Zahl ergibt. Multipliziert man diese anschließend mit $0,2$, was wiederum eine positive Zahl ist, so erhält man wiederum eine positive Zahl: $+\infty$.
-- $lim_{x \rightarrow -\infty} 0,2x^3 = 0,2 \cdot (-\infty)^3 = -\infty$, da eine negative Zahl dreimal mit sich selbst multipliziert wieder eine negative Zahl ergibt. Multipliziert man diese anschließend mit einer positiven Zahl ($0,2$), so erhält man wiederum eine negative Zahl: $-\infty$.
+- $lim_{x \rightarrow +\infty} 0,2 \cdot x^3 = 0,2 \cdot (+\infty)^3 = +\infty$, da eine positive Zahl dreimal mit sich selbst multipliziert wieder eine positive Zahl ergibt. Multipliziert man diese anschließend mit $0,2$, was wiederum eine positive Zahl ist, so erhält man wiederum eine positive Zahl: $+\infty$.
+- $lim_{x \rightarrow -\infty} 0,2 \cdot x^3 = 0,2 \cdot (-\infty)^3 = -\infty$, da eine negative Zahl dreimal mit sich selbst multipliziert wieder eine negative Zahl ergibt. Multipliziert man diese anschließend mit einer positiven Zahl ($0,2$), so erhält man wiederum eine negative Zahl: $-\infty$.
 {{< /box-example >}}
 
 ## Skizze
