@@ -375,6 +375,14 @@ blockquote {
 
 
 
+// katex-Anpassungen
+.katex-display > .katex { white-space: normal }
+/* Add space between broken lines: */
+.katex-display > .base { margin: 0.25em 0 }
+/* Compensate by reducing space around display math */
+.katex-display { margin: 0.5em 0; }
+
+
 // shortcode: callouts
 .callout-jobs, .callout-job {
     border-left-width: 0 !important;
