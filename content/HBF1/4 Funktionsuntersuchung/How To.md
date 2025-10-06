@@ -267,7 +267,7 @@ Anschließend überprüfen wir die Wendestelle mit der dritten Ableitung:
 
 $f''(2,33)=1,2 > 0 \quad \Rightarrow$ R-L-Wendestelle
 
-Und zuguterletzt berechnen wir die $y$-Koordinate des Wendepunkts:
+Und zu guter Letzt berechnen wir die $y$-Koordinate des Wendepunkts:
 
 $f(2,33)=0,2 \cdot 2,33^3 - 1,4 \cdot 2,33^2 + 7,2 = 2,12$ \
 $\Rightarrow WP(2,33|2,12)$.
