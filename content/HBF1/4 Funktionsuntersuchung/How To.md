@@ -216,8 +216,8 @@ Wir wissen nun, dass an der Stelle $x_1=0$ ein Hochpunkt und an der Stelle $x_2 
 
 ### Schritt 4
 
-Last but not least widmen wir uns den $y$-Werten der Extremstellen.
-Diese rechnen wir aus, indem wir die $x$-Werte der Extremstellen in die Ausgangsfunktion einsetzen und den Funktionswert an dieser Stelle berechnen.
+Last but not least widmen wir uns den <mark>noch fehlenden Koordinaten</mark> der Extremstellen.
+Diese rechnen wir aus, indem wir die $x$-Werte der Extremstellen in die Ausgangsfunktion einsetzen und die dazugehörigen Funktionswerte $f(x_i)$ an dieser Stelle berechnen.
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 Zur Erinnerung: \
@@ -237,7 +237,7 @@ Wir kennen also nun die Koordinaten der Extrempunkte.
 
 ## Wendepunkte
 
-Unsere Beispielfunktion hat zwei Extrema -- einen Hoch- und einen Tiefpunkt. Das bedeutet aber auch, dass es dazwischen einen Punkt geben muss, an dem die Steigung maximal ist. Jene Punkte bezeichnet man als Wendepunkte.
+Unsere Beispielfunktion hat zwei Extrema -- einen Hoch- und einen Tiefpunkt. Das bedeutet aber auch, dass es dazwischen eine Stelle geben muss, an der die Steigung maximal ist. Solche Stellen bzw. Punkte bezeichnet man als Wendestellen bzw. -punkte.
 
 {{< box-notice title="Wendepunkte" >}}
 abc
