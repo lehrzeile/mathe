@@ -11,7 +11,11 @@ count: 0 # für die Nummerierung der Aufgaben
 
 ## Wiederholung: Differenzenquotient
 
-Der Differenzenquotient entspricht der Steigung einer Geraden durch zwei Punkte, die auf dem Graphen einer Funktion liegen. Es handelt sich hierbei um eine Sekante, weshalb man auch von der sog. **Sekantensteigung** spricht. Das Bilden des Differenzenquotienten ist ein Zwischenschritt bei der Bestimmung der Steigung einer Kurve in einem Punkt.
+Der Differenzenquotient entspricht der Steigung einer Geraden durch zwei Punkte, die auf dem Graphen einer Funktion liegen. Es handelt sich hierbei um eine Sekante, weshalb man auch von der sog. **Sekantensteigung** spricht.
+
+Du erinnerst dich hoffentlich noch daran, wie du die Steigung einer linearen Funktion bestimmt hast, wenn zwei Punkte gegeben waren. Hier hast du ein **Steigungsdreieck** gebildet und im Grunde nichts anderes gemacht.
+
+Das Bilden des Differenzenquotienten ist ein Zwischenschritt bei der <mark>Bestimmung der Steigung einer Kurve in einem Punkt</mark>.
 
 <!-- Grafik -->
 
