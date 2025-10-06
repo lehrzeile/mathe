@@ -106,7 +106,8 @@ $f(-x) = 0,2 \cdot (-x)^3 - 1,4 \cdot (-x)^2 + 7,2 = -0,2x^3 - 1,4x^2 +7,2$
 - Nun vergleicht man $f(-x)$ mit $f(x)$: \
 $f(-x) = -0,2x^3 - 1,4x^2 +7,2 \neq 0,2x^3 - 1,4x^2 +7,2 = f(x)$
 - Da $f(x) \neq f(-x)$ gilt, haben wir nachgewiesen, dass keine Achsensymmetrie vorliegt.
-- Analog funktioniert dies auch für den Nachweis der Punktsymmetrie (welche ebenfalls nicht vorliegt) mit dem Vergleich von $f(-x)$ und $-f(x)$.
+
+Analog funktioniert dies auch für den Nachweis der Punktsymmetrie (welche ebenfalls nicht vorliegt) mit dem Vergleich von $f(-x)$ und $-f(x)$.
 {{< /box-example >}}
 
 ## Extrempunkte
@@ -159,13 +160,15 @@ $&f'(x) &=0 \
 ### Schritt 3
 
 {{< box-notice title="Hinreichende Bedingung" >}}
-Dass die erste Ableitung an derjenigen Stelle des Funktionsgraphen gleich Null ist, an der sich eine Extremstelle befindet, ist jedoch keine **hinreichende Bedingung**. An solchen Stellen kann nämlich anstatt eines Hoch- oder Tiefpunkts auch ein sogenannter **Sattelpunkt**[^1] vorliegen.
+Dass die erste Ableitung an derjenigen Stelle des Funktionsgraphen gleich Null ist, an der sich eine Extremstelle befindet, ist jedoch **keine hinreichende Bedingung**. An solchen Stellen kann nämlich anstatt eines Hoch- oder Tiefpunkts auch ein sogenannter **Sattelpunkt** vorliegen.
 
 Zur Überprüfung, ob tatsächlich ein Extrempunkt vorliegt, wird daher die zweite Ableitung ($f''(x)$) herangezogen: \
 Ist $f''(x) < 0$ so liegt ein Hochpunkt vor, ist $f''(x) > 0$, dann handelt es sich um einen Tiefpunkt und ist $f''(x) = 0$, so liegt eventuell ein Sattelpunkt vor.
 {{< /box-notice >}}
 
-[^1]:  Wenn $f'(x) = 0$ und gleichzeitig $f''(x) = 0$ ist, dann liegt kein Extrempunkt, sondern ein Sattelpunkt (auch *Terrassenpunkt* genannt) vor, bei dem die *Tangente waagrecht* ist, *aber kein lokales Maximum oder Minimum* vorliegt
+{{< box-notice title="Sattelpunkt" >}}
+Wenn $f'(x) = 0$ und gleichzeitig $f''(x) = 0$ ist, dann liegt kein Extrempunkt, sondern ein **Sattelpunkt** (auch *Terrassenpunkt* genannt) vor, bei dem die *Tangente waagrecht* ist, *aber kein lokales Maximum oder Minimum* vorliegt.
+{{< /box-notice >}}
 
 ### Schritt 4
 
