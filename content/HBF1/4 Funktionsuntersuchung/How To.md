@@ -70,7 +70,7 @@ $f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4*x^2 +7,2$" >}}
-    Auf der nachfolgenden Abbildung siehst du die jeweiligen Achsenschnittpunkte markiert.
+    In Abbildung 1 siehst du die jeweiligen Achsenschnittpunkte markiert.
     ![Achsenschnittpunkte des Funktionsgraphen](Graph_Achsenschnittpunkte.svg)
     *Abb. 1: Achsenschnittpunkte des Funktionsgraphen*
 
@@ -146,7 +146,7 @@ Als nächstes kümmern wir uns um die sogenannte <mark>notwendige Bedingung</mar
 Die **notwendige Bedingung für eine Extremstelle** einer differenzierbaren Funktion ist, dass die erste Ableitung ($f'(x)$) an dieser Stelle gleich Null ist ($f'(x) = 0$), da die **Tangente** an dieser Stelle **waagerecht** ist (und ihre Steigung somit Null ist).
 {{< /box-notice >}}
 
-Auf der nachfolgenden Grafik sind diejenigen Stellen des Funktionsgraphen markiert, an denen eine waagerechte Tangente vorliegt:
+In Abbildung 4 sind diejenigen Stellen des Funktionsgraphen markiert, an denen eine waagerechte Tangente vorliegt:
 
 ![Extrema und waagerechte Tangente](Graph_Extrema.svg)
 *Abb. 4: Extrema und waagerechte Tangente*
@@ -192,9 +192,21 @@ Zur Überprüfung, ob tatsächlich ein Extrempunkt vorliegt, wird daher die zwei
 Wenn $f'(x) = 0$ und gleichzeitig $f''(x) = 0$ ist, dann liegt kein Extrempunkt, sondern ein **Sattelpunkt** (auch *Terrassenpunkt* genannt) vor, bei dem die **Tangente waagerecht** ist, **aber kein lokales Maximum oder Minimum** vorliegt.
 {{< /box-notice >}}
 
+{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
+Zur Erinnerung: \
+$f''(x)=1,2x-2,8$ und $x_1=0, \quad x_2 \approx 4,67$
+
+- $f''(0)=1,2 \cdot 0 - 2,8 = -2,8 < 0 \Rightarrow$ Hochpunkt
+- $f''(4,67)=1,2 \cdot 4,67 - 2,8 = 2,804 > 0 \Rightarrow$ Tiefpunkt
+
+![Extremstellen des Graphen](Graph_Extremstellen.svg)
+*Abb. 5: Extremstellen*
+{{< /box-example >}}
+
 ### Schritt 4
 
-Wir müssen noch die $y$-Werte der Extremstellen ausrechnen.
+Last but not least widmen wir uns den $y$-Werten der Extremstellen.
+Diese rechnen wir aus, indem wir die $x$-Werte der Extremstellen in die Ausgangsfunktion einsetzen.
 
 ## Wendepunkte
 

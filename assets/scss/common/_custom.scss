@@ -283,7 +283,7 @@ p > img { // Grafiken, die im Text eingebunden werden
 
 img + em {
     font-size: 0.7em !important;
-    text-align: center;
+    text-align: center !important;
 }
 
 a.link { /* Links */
