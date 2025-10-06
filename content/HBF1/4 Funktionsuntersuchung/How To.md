@@ -299,6 +299,7 @@ Wir betrachten nur die höchste Potenz von $f(x)$, sprich: $0,2 \cdot x^3$:
 Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzufertigen. Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
 
 ![finale Skizze des Funktionsgraphen mit allen Punkten](Graph_final.svg)
+*Abb. 7: finale Skizze des Funktionsgraphen mit allen Punkten*
 
 Um deine Ergebnisse zu überprüfen, kannst du gerne das nachfolgende GeoGebra-Widget nutzen:
 

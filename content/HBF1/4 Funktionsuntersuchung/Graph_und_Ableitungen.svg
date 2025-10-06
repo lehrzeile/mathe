@@ -1,5 +1,5 @@
-<svg class="typst-doc" viewBox="0 0 425.1968503937008 382.6771653543307" width="425.1968503937008pt" height="382.6771653543307pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
-    <path class="typst-shape" fill="#ffffff" fill-rule="nonzero" d="M 0 0 L 0 382.67715 L 425.19684 382.67715 L 425.19684 0 Z "/>
+<svg class="typst-doc" viewBox="0 0 382.6771653543307 382.6771653543307" width="382.6771653543307pt" height="382.6771653543307pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <path class="typst-shape" fill="#ffffff" fill-rule="nonzero" d="M 0 0 L 0 382.67715 L 382.67715 382.67715 L 382.67715 0 Z "/>
     <g>
         <g transform="translate(14.173228346456693 14.173228346456693)">
             <g class="typst-group">
@@ -235,7 +235,7 @@
                                         </g>
                                     </g>
                                 </g>
-                                <g transform="translate(358.73070866141734 0)">
+                                <g transform="translate(2 2)">
                                     <g class="typst-group">
                                         <g>
                                             <g transform="translate(0 0)">

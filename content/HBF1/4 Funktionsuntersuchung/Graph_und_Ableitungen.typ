@@ -1,4 +1,4 @@
-#set page(width: 15cm, height: 13.5cm, margin: 0.5cm)
+#set page(width: 13.5cm, height: 13.5cm, margin: 0.5cm)
 
 // Definition der Farben
 #let maincolor = rgb("405a94")
@@ -41,7 +41,7 @@
   ylim: (-5.25, 9.25),
   width: 12.5cm,
   height: 12.5cm,
-  // legend: none,
+  legend: (position: top + left),
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
   // Funktionsgraphen
