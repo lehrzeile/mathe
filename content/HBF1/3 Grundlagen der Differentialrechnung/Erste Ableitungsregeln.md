@@ -23,16 +23,20 @@ Die Ableitung von $x$ ist $1$.
 
 {{< box-notice title="Potenzregel" >}}
 $$f(x) = x^n \quad \rightarrow \quad f'(x) = n \cdot x^{n-1}$$
+
+Man multipliziert den ursprünglichen Exponenten $n$ mit der Potenz und reduziert den ursprünglichen Exponenten um $1$.
 {{< /box-notice >}}
 
 {{< box-notice title="Faktorregel" >}}
 $$f(x) = c \cdot g(x) \quad \rightarrow \quad f'(x) = c \cdot g'(x)$$
+
+Ein Vorfaktor bleibt beim Ableiten erhalten.
 {{< /box-notice >}}
 
 {{< box-notice title="Summen- und Differenzenregel" >}}
-$$f(x) = g(x) + h(x) \quad \rightarrow \quad f'(x) = g'(x) \pm h'(x)$$
+$$f(x) = g(x) \pm h(x) \quad \rightarrow \quad f'(x) = g'(x) \pm h'(x)$$
 
-Besteht ein Funktionsterm (hier: $f(x)$) aus einer Summe (*bzw. Differenz*) von einzelnen Termen (hier: $g(x) und h(x)$), so leitet man jeden einzelnen Term für sich ab und addiert (*bzw. subtrahiert*) anschließend deren Ableitungen (hier: $g'(x) \pm h'(x)$).
+Besteht ein Funktionsterm (hier: $f(x)$) aus einer Summe (*bzw. Differenz*) von einzelnen Termen (hier: $g(x)$ und $h(x)$), so leitet man jeden einzelnen Term für sich ab und addiert (*bzw. subtrahiert*) anschließend deren Ableitungen (hier: $g'(x) \pm h'(x)$).
 {{< /box-notice >}}
 
 ## Methode #4 zur Bestimmung der lokalen Änderungsrate: Steigung in einem Punkt berechnen $\rightarrow$ Funktion ableiten
