@@ -171,8 +171,8 @@ $\begin{aligned}
 \Leftrightarrow &&x \cdot (0,6x-2,8) &= 0
 \end{aligned}$
 
-$\Rightarrow &&x_1=0, \quad 0,6x_2-2,8=0 \\\
-\Leftrightarrow &&x_1=0, \quad x_2 \approx 4,67$
+$\Rightarrow x_1=0, \quad 0,6x_2-2,8=0 \\\
+\Leftrightarrow x_1=0, \quad x_2 \approx 4,67$
 {{< /box-example >}}
 
 ### Schritt 3
