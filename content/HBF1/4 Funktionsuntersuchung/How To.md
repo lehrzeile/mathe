@@ -254,10 +254,18 @@ Um diejenigen Stellen des Funktionsgraphen ausfindig zu machen, an denen sich We
 
 <br />
 
-In Abbildung 6 wird noch einmal der Zusammenhang zwischen Ausgangsfunktions, 1. Ableitung und 2. Ableitung aufgezeigt.
+{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
+folgt...
+{{< /box-example >}}
+
+<!-- ![Wendestellen des Funktionsgraphen](Graph_Wendestellen.svg) -->
+
+### Zwischenfazit: Zusammenhang zwischen Ausgangsfunktion und den Ableitungsfunktionen
+
+In Abbildung 7 wird noch einmal der Zusammenhang zwischen Ausgangsfunktion, 1. Ableitung und 2. Ableitung aufgezeigt.
 
 ![Funktionsgraph und Ableitungen](Graph_und_Ableitungen.svg)
-*Abb. 6: Funktionsgraph und Ableitungen*
+*Abb. 7: Funktionsgraph und Ableitungen*
 
 <!-- ## Steigungs-, Krümmungs- und Monotonieverhalten
 
@@ -299,10 +307,10 @@ Wir betrachten nur die höchste Potenz von $f(x)$, sprich: $0,2 \cdot x^3$ und b
 
 ## Skizze
 
-Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzufertigen. Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
+Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzufertigen (vgl. Abbildung 8). Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
 
 ![finale Skizze des Funktionsgraphen mit allen Punkten](Graph_final.svg)
-*Abb. 7: finale Skizze des Funktionsgraphen mit allen Punkten*
+*Abb. 8: finale Skizze des Funktionsgraphen mit allen Punkten*
 
 Um deine Ergebnisse zu überprüfen, kannst du gerne das nachfolgende GeoGebra-Widget nutzen:
 
