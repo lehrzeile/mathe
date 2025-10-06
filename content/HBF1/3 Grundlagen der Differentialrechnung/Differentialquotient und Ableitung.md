@@ -9,4 +9,28 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-to be continued...
+## Wiederholung: Differenzenquotient
+
+Der Differenzenquotient entspricht der Steigung einer Geraden durch zwei Punkte, die auf dem Graphen einer Funktion liegen. Es handelt sich hierbei um eine Sekante, weshalb man auch von der sog. **Sekantensteigung** spricht. Das Bilden des Differenzenquotienten ist ein Zwischenschritt bei der Bestimmung der Steigung einer Kurve in einem Punkt.
+
+<!-- Grafik -->
+
+## Vom Differenzenquotient zum Differentialquotient
+
+Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen Änderungsrate** -- nähert man den Punkt $P_2$ dem Punkt $P_1$ an. Dabei wird die Sekante zur **Tangente**.
+
+Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert der Sekantensteigung**.
+
+Es gilt:
+
+$$\displaystyle m = \lim_{x_2 \to x_1} \frac{y_2 – y_1}{x_2 – x_1} \text{bzw.} m = \lim_{x_2 \to x_1} \frac{f(x2) – f (x1)}{x_2 – x_1}.$$
+
+$m$ gibt hierbei die **momentane Änderungsrate**, also den Wert des Differentialquotienten, an.
+
+## Differentialquotient und h-Methode
+
+Schreibt man für die Stelle $x_2 = x_1 + h$, so erhält man für den Differentialquotienten eine andere Schreibweise, die sog. **h-Methode**:
+
+$$m = \lim_{h \to 0} \frac{f(x_1+h)–f(x_1)}{x_1+h-x_1} = \lim_{h \to 0} \frac{f(x_1+h)–f(x_1)}{h}.$$
+
+Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an der Stelle $x_1$. Die erste Ableitung einer Funktion an der Stelle $x_1$ gibt die **Steigung der Tangente an den Funktionsgraphen** in Punkt $P_1$ an.
