@@ -274,6 +274,11 @@ p > img { // Grafiken, die im Text eingebunden werden
     margin: 1em auto 0;
 }
 
+.col > img {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
 .jobs-title > img {
     display: inline-block !important;
     margin: 0 !important;
