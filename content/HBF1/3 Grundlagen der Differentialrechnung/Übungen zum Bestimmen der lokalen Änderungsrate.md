@@ -125,7 +125,7 @@ $h$ ausklammern:
 
 $\displaystyle = \lim_{h \to 0} \frac{h \cdot (\frac12 x_1 + \frac14 h - 4)}{h}$
 
-Grenzwertbetrachtung des Restterms:
+Grenzwertbetrachtung des vereinfachten Terms:
 
 $\displaystyle = \lim_{h \to 0} (\frac12 x_1 + h - 4) = \frac12 x_1 - 4 = f'(x_1)$
 
