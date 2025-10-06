@@ -17,7 +17,7 @@ Der Differenzenquotient entspricht der Steigung einer Geraden durch zwei Punkte,
 
 ## Vom Differenzenquotient zum Differentialquotient
 
-Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen Änderungsrate** -- nähert man den Punkt $P_2$ dem Punkt $P_1$ an. Dabei wird die Sekante zur **Tangente**.
+Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen** bzw. **lokalen Änderungsrate** -- nähert man den Punkt $P_2$ dem Punkt $P_1$ an. Dabei wird die Sekante zur **Tangente**.
 
 Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert der Sekantensteigung**.
 
@@ -25,7 +25,7 @@ Es gilt:
 
 $$\displaystyle m = \lim_{x_2 \to x_1} \frac{y_2-y_1}{x_2-x_1} \quad \text{bzw.} \quad m = \lim_{x_2 \to x_1} \frac{f(x_2)-f(x_1)}{x_2-x_1}.$$
 
-$m$ gibt hierbei die **momentane Änderungsrate**, also den Wert des Differentialquotienten, an.
+$m$ gibt hierbei die **lokale Änderungsrate**, also den Wert des Differentialquotienten, an.
 
 ## Differentialquotient und h-Methode
 
