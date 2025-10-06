@@ -2,7 +2,7 @@
 title: "Lokale Änderungsrate"
 description: ""
 summary: ""
-draft: false
+draft: true
 weight: 401
 toc: true
 math: true # für die Nutzung von KaTeX
