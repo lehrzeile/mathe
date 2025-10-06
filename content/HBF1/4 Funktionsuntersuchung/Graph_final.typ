@@ -33,6 +33,8 @@
 #show: schoolbook-style
 
 #let function1 = xs.map(x =>  0.2*x*x*x - 1.4*x*x +7.2)
+// #let function1 = xs.map(x =>  1*x*x*x + 3*x*x - 4)
+// #let function1 = xs.map(x =>  1/18*x*x*x -1/2*x*x + 6)
 
 #lq.diagram(
   xlim: (-5.25, 9.25),
@@ -43,7 +45,17 @@
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
   lq.plot(xs, function1, mark: none, stroke: thirdcolor + 1.5pt, label: [$f$]),
-  
+
+  // Hochpunkt
+  lq.ellipse(0, 7.2, align: center + horizon, width: 0.4, height: 0.4, stroke: 1pt + red, fill: none),
+  lq.place(0.5, 8.25, align: left)[#text(9pt, font: "Roboto")[Hochpunkt]],
+  lq.place(0.6, 7.8, align: center + horizon)[#text(17pt, font: "Roboto")[$arrow.bl$]],
+
+  // Tiefpunkt
+  lq.ellipse(4.67, -2.96, align: center + horizon, width: 0.4, height: 0.4, stroke: 1pt + red, fill: none),
+  lq.place(3.9, -4.25, align: left)[#text(9pt, font: "Roboto")[Tiefpunkt]],
+  lq.place(4.67, -3.5, align: center + horizon)[#text(17pt, font: "Roboto")[$arrow.t$]],
+
   // 1. Nullstelle
   lq.ellipse(-2, 0, align: center + horizon, width: 0.4, height: 0.4, stroke: 1pt + red, fill: none),
   lq.place(-4.5, -1.25, align: left)[#text(9pt, font: "Roboto")[Nullstelle]],
@@ -63,4 +75,12 @@
   lq.ellipse(0, 7.2, align: center + horizon, width: 0.4, height: 0.4, stroke: 1pt + red, fill: none),
   lq.place(-3.75, 8.25, align: left)[#text(9pt, font: "Roboto")[y-Achsenabschnitt]],
   lq.place(-0.6, 7.8, align: center + horizon)[#text(17pt, font: "Roboto")[$arrow.br$]],
+
+  // Wendepunkt
+  lq.ellipse(2.33, 2.1, align: center + horizon, width: 0.4, height: 0.4, stroke: 1pt + red, fill: none),
+  lq.place(2.9, 3.25, align: left)[#text(9pt, font: "Roboto")[Wendepunkt]],
+  lq.place(2.9, 2.7, align: center + horizon)[#text(17pt, font: "Roboto")[$arrow.bl$]],
+
+  // Grenzverhalten
+  
 )
