@@ -257,17 +257,20 @@ Um diejenigen Stellen des Funktionsgraphen ausfindig zu machen, an denen sich We
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 Um die Wendestellen zu ermitteln, bestimmen wir nun die Nullstellen der zweiten Ableitung:
 
-$f''(x)&=0 \
+$\begin{aligned}
+f''(x)&=0 \
 1,2x-2,8&=0 \
-x &\approx 2,33$
+x &\approx 2,33
+\end{aligned}$
 
 Anschließend überprüfen wir die Wendestelle mit der dritten Ableitung:
 
-$f''(2,33)=1,2 > 0 \Rightarrow$ R-L-Wendestelle
+$f''(2,33)=1,2 > 0 \quad \Rightarrow$ R-L-Wendestelle
 
 Und zuguterletzt berechnen wir die $y$-Koordinate des Wendepunkts:
 
-$f(2,33)=0,2 \cdot 2,33^3 - 1,4 \cdot 2,33^2 + 7,2 = 2,12 \Rightarrow WP(2,33|2,12)$.
+$f(2,33)=0,2 \cdot 2,33^3 - 1,4 \cdot 2,33^2 + 7,2 = 2,12$ \
+$\Rightarrow WP(2,33|2,12)$.
 {{< /box-example >}}
 
 ![Wendestellen des Funktionsgraphen](Graph_Wendestellen.svg)
