@@ -62,7 +62,8 @@ Die erste Ableitung einer Funktion $f$ an einer Stelle $x_0$ gibt die momentane 
 - Ist $f’(x_0) < 0$, so **fällt** der Graph an dieser Stelle.
 {{< /box-notice >}}
 
-<!-- Grafik -->
+![verschiedene Steigungen am Graphen](img/Steigungen.svg)
+*Abb. 2. verschiedene Steigungen am Graphen*
 
 Die Ableitung ist ein wichtiges Hilfsmittel zur Bestimmung von besonderen Stellen eines Graphen. Ebenso gibt sie Auskunft über den Verlauf des Graphen.
 
