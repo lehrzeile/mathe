@@ -58,6 +58,8 @@ Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiel
 - Es gilt deshalb $\mathbb{D}(f) = \mathbb{R}_0^+$.
 - Umgangssprachlich ausgedrückt: Man darf alle positiven Zahlen inklusive der Null einsetzen.
 
+<br />
+
 **gebrochen-rationale Funktionen** wie bspw. $f(x) = \frac{1}{x}$:
 
 - Durch Null zu teilen ist in der Mathematik nicht möglich und nicht definiert, da es widersprüchliche und nicht eindeutige Ergebnisse liefern würde.
