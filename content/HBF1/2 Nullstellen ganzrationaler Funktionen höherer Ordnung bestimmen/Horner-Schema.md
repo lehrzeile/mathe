@@ -21,6 +21,13 @@ Im folgenden Video wird das Horner-Schema erklärt.
     <li>Betrachte das Video nun ein zweites Mal und übertrage dir dabei die Beispielaufgabe mitsamt Notizen in deine Unterlagen.</li>
 {{< /job >}}
 
+{{< box-example title="Noch ein Beispiel gefällig?" >}}
+In der nachfolgenden Grafik siehst du das Horner-Schema noch einmal an einem weiteren Beispiel:
+
+![Horner-Schema](img/Horner.svg)
+*Abb. 1: Horner-Schema*
+{{< /box-example >}}
+
 {{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="Bestimme zunächst alle Nullstellen mit dem Taschenrechner und überprüfe diese anschließend, indem du jeweils das Horner-Schema anwendest." >}}
     <li>$f_{1}(x)= -x^3 +2x^2 +11x -12$</li>
     <li>$f_{2}(x)= 10x^5 -40x^4 +10x^3 + 60x^2$</li>
