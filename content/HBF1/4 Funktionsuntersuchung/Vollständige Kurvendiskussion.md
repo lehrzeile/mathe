@@ -20,7 +20,7 @@ Die sogenannte **Funktionsuntersuchung** -- oft auch **vollständige Kurvendisku
 In diesem Kapitel lernst du also Schritt für Schritt, wie du eine Funktion vollständig untersuchst.
 Um zu verstehen, in welchen Anwendungsbereichen dies von Nutzen sein kann, widmen wir uns im Anschluss daran einem Anwendungsbeispiel.
 
-## Definitionen und Beispiel
+## Vorgehen in diesem Kapitel
 
 In diesem Kapitel findest du nicht nur die grundlegenden Definitionen und Erklärungen zur Vorgehensweise bei einer vollständigen Kurvendiskussion, sondern auch ein Beispiel, an dem alle Schritte durchgeführt und somit anschaulich nachvollzogen werden können.
 
@@ -30,17 +30,20 @@ In diesem Kapitel findest du nicht nur die grundlegenden Definitionen und Erklä
 
 ## Definitionsbereich
 
-Den <mark>Definitionsbereich</mark> einer Funktion bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
+{{< box-notice title="Definitionsbereich" >}}
+Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ -- ist die Menge aller $x$-Werte,
+für die die Funktion definiert ist.
+{{< /box-notice >}}
 
-{{< box-notice title="" >}}
-Umgangssprachlich ausgedrückt umfasst der Definitionsbereich alle $x$-Werte (Argumente), die man in die Funktion einsetzen darf.
-Je nach Funktionsgleichung gibt es dafür Einschränkungen.
-<!-- Sprich: "Man darf alles einsetzen." -->
+Zur vollständigen Beschreibung einer Funktion -- wie das bei vollständigen Kurvendiskussion der Fall ist -- gehört die Angabe des <mark>Definitionsbereichs</mark>. Diesen bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
+
+{{< box-note title="" >}}
+Umgangssprachlich ausgedrückt umfasst der Definitionsbereich alle $x$-Werte (Argumente), die man in die Funktion einsetzen darf. Je nach Funktionsgleichung gibt es dafür Einschränkungen.
 
 Im Allgemeinen gilt jedoch: $\mathbb{D}(f) = \mathbb{R}$.
 
 Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
-{{< /box-notice >}}
+{{< /box-note >}}
 
 {{< box-example title="Beispiel" >}}
     Auch bei der Funktion $f(x)=0,2x^3 - 1,4x^2 +7,2$ gilt: \
@@ -167,10 +170,10 @@ In Abbildung 4 sind diejenigen Stellen des Funktionsgraphen markiert, an denen e
 
 Um diejenigen Stellen bestimmen zu können, an denen die Tangente waagerecht ist, müssen wir als nächstes die <mark>Nullstellen der ersten Ableitung bestimmen</mark>.
 
-{{< box-notice title="" >}}
-Die erste Ableitung einer Funktion $f(x)$ -- bezeichnet als $f'(x)$ -- gibt die **momentane Steigung** des Funktionsgraphen der Funktion an einer bestimmten Stelle an.
+{{< box-notice title="Bedeutung der ersten Ableitung" >}}
+Die erste Ableitung einer Funktion $f(x)$ -- bezeichnet als $f'(x)$ -- gibt die **momentane Steigung des Funktionsgraphen an einer bestimmten Stelle** an.
 
-Sie beschreibt die momentane Änderungsrate und ermöglicht die **Berechnung, wie steil der Graph in jedem Punkt ist**. Dies ist für die Ermittlung von Extrempunkten (Hoch- und Tiefpunkten) wichtig und für das Verständnis des Verhaltens des Funktionsgraphen (ob dieser steigend oder fallend ist) entscheidend.
+Sie beschreibt die **lokale Änderungsrate** und ermöglicht die **Berechnung, wie steil der Graph in jedem Punkt ist**. Dies ist für die Ermittlung von Extrempunkten (Hoch- und Tiefpunkten) wichtig und für das Verständnis des Verhaltens des Funktionsgraphen (ob dieser steigend oder fallend ist) entscheidend.
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
@@ -271,8 +274,8 @@ Um die Wendestellen zu ermitteln, bestimmen wir nun die Nullstellen der zweiten 
 
 $\begin{aligned}
 f''(x)&=0 & \vert \text{notwendige Bedingung}\\\
-\leftrightarrow 1,2x-2,8&=0 & \vert +2,8 \\\
-\leftrightarrow 1,2x&=2,8 & \vert :1,2 \\\
+\Leftrightarrow 1,2x-2,8&=0 & \vert +2,8 \\\
+\Leftrightarrow 1,2x&=2,8 & \vert :1,2 \\\
 x &\approx 2,33
 \end{aligned}$
 
@@ -282,7 +285,7 @@ $f''(2,33)=1,2 > 0 \quad \Rightarrow$ R-L-Wendestelle
 
 Und zu guter Letzt berechnen wir die $y$-Koordinate des Wendepunkts:
 
-$f(2,33)=0,2 \cdot 2,33^3 - 1,4 \cdot 2,33^2 + 7,2 = 2,12$ \
+$f(2,33)=0,2 \cdot 2,33^3 - 1,4 \cdot 2,33^2 + 7,2 = 2,12$
 
 Wir kennen nun also auch die genauen Koordinaten des Wendepunkts $(2,33|2,12)$.
 {{< /box-example >}}
@@ -325,7 +328,7 @@ Bei ganzrationalen Funktionen betrachtet man dazu lediglich die höchste Potenz,
 {{< /box-notice >}}
 
 {{< box-note title="" >}}
-Es gibt auch Beispiele, in denen der sich Funktionsgraph (von oben oder unten) einem bestimmten Wert annähert -- wie z.B. der $0$ im Falle von $f(x)=\frac1x$.
+Es gibt auch Beispiele, in denen sich der Funktionsgraph (von oben oder unten) einem bestimmten Wert annähert -- wie z.B. der $0$ im Falle von $f(x)=\frac1x$.
 {{< /box-note >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
