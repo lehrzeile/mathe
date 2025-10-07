@@ -17,12 +17,12 @@ Du erinnerst dich hoffentlich noch daran, wie du die Steigung einer linearen Fun
 
 Das Bilden des Differenzenquotienten ist ein Zwischenschritt bei der <mark>Bestimmung der Steigung einer Kurve in einem Punkt</mark>.
 
-![Von der Sekante zur Tangente](img/Sekante.svg)
-*Abb. 1: Von der Sekante zur Tangente*
-
 ## Vom Differenzenquotient zum Differentialquotient
 
-Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen** bzw. **lokalen Änderungsrate** -- nähert man den Punkt $P_2$ dem Punkt $P_1$ an. Dabei wird die Sekante zur **Tangente**.
+Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen** bzw. **lokalen Änderungsrate** -- nähert man den Punkt $P_2$ dem Punkt $P_1$ an. Dabei nähert sich die Steigung der Sekante schrittweise der Steigung der **Tangente** und die Sekante wird schlussendlich zur Tangente.
+
+![Von der Sekante zur Tangente](img/Sekante.svg)
+*Abb. 1: Von der Sekante zur Tangente*
 
 Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert der Sekantensteigung**.
 
