@@ -1,4 +1,4 @@
-#set page(width: 15cm, height: 9.5cm, margin: 0.5cm)
+#set page(width: 15cm, height: auto, margin: 0.5cm)
 
 // Definition der Farben
 #let maincolor = rgb("405a94")
@@ -39,7 +39,7 @@ Gesucht: #h(10pt) $(-2x^3+12x^2+2x-60):(x+2)=$ ?
 
 $(-2x^3+12x^2+2x-60):(x+2)=#text(fill: red.darken(20%))[-2]x^2#text(fill: green.darken(30%))[+16]x#text(fill: purple)[-30]$
 
-$-2x^3+12x^2+2x-60 = (x+2) dot (-2x^2+16x-30)$
+// $-2x^3+12x^2+2x-60 = (x+2) dot (-2x^2+16x-30)$
 
 // schräge Pfeile nach rechts oben
 #place(top + left, dx: 5.1cm, dy: 3.5cm)[#rotate(-35deg)[#move(dx: 5pt)[#text(11pt, font: "Roboto", weight: 600, fill: maincolor)[$dot$ (-2)]] \ #v(-30pt) #line(tip: triangle, toe: none, length: 1.5cm, stroke: maincolor)]]
