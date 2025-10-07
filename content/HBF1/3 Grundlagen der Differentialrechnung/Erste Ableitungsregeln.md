@@ -46,10 +46,22 @@ Du erinnerst dich an die drei Methoden aus dem vorangegangenen Kapitel, mit dere
 {{< youtube wo1htpyG9w8 >}}
 
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
-Gegeben sei die Funktion $f$ mit $f(x)= -x^2 + 5x - 2$.
+Gegeben sei die Funktion $f(x)= -x^2 + 5x - 2$.
 
 Bestimme mit Hilfe der Ableitung die Steigung in den Punkten $P_1 \left(1|f(1)\right)$, $P_2 \left(2|f(2)\right)$ und $P_3 \left(5|f(5)\right)$.
 {{< /job >}}
+
+{{< solution >}}
+Zuerst bestimmt man die Ableitungsfunktion $f'(x)=-2x+5$.
+Danach setzt man die $x$-Koordinaten der Punkte ein:
+
+1. $x_1=1: \quad f'(1)=-2 \cdot 1 + 5 = 3$ \
+Die Steigung im Punkt $P_1$ beträgt $3$.
+2. $x_2=2: \quad f'(2)=-2 \cdot 2 + 5 = 1$ \
+Die Steigung im Punkt $P_2$ beträgt $1$.
+3. $x_3=5: \quad f'(5)=-2 \cdot 5 + 5 = -5$ \
+Die Steigung im Punkt $P_3$ beträgt $-5$.
+{{< /solution >}}
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" >}}
     <li>{{< bettermarks uebungscode="LLD6Q" seriesID="1689552499859521664" title="Die Potenzregel bei der Bestimmung von Ableitungsfunktionen nutzen" >}}</li>
