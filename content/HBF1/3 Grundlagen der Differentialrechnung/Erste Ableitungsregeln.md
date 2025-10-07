@@ -50,3 +50,9 @@ Gegeben sei die Funktion $f$ mit $f(x)= -x^2 + 5x - 2$.
 
 Bestimme mit Hilfe der Ableitung die Steigung in den Punkten $P_1 \left(1|f(1)\right)$, $P_2 \left(2|f(2)\right)$ und $P_3 \left(5|f(5)\right)$.
 {{< /job >}}
+
+{{< job numbered="true" style="enum-alph" title="bettermarks" >}}
+    <li>{{< bettermarks uebungscode="LLD6Q" seriesID="1689552499859521664" title="Die Potenzregel bei der Bestimmung von Ableitungsfunktionen nutzen" >}}</li>
+    <li>{{< bettermarks uebungscode="LY7J2" seriesID="1689552696945672576" title="Die Faktor- und Summenregeln bei der Bestimmung von Ableitungsfunktionen nutzen" >}}</li>
+    <li>{{< bettermarks uebungscode="D5L9" seriesID="1689552038590939264" title="Höhere Ableitungen ganzrationaler Funktionen und deren Grad bestimmen" >}}</li>
+{{< /job >}}
