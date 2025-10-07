@@ -9,10 +9,10 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-Da das Verfahren der Polynom relativ zeitaufwendig ist, stellt das sogenannte **Horner-Schema** eine effizientere Alternative dar.
+Da das Verfahren der Polynomdivision relativ zeitaufwendig ist, stellt das sogenannte **Horner-Schema** eine effizientere Alternative dar.
 Mit Hilfe des Horner-Schemas wird der Grad der Polynomfunktion $f(x)$ schrittweise verringert.
 
-Im folgenden Video wird das Horner-Schema erklärt.
+Im folgenden Video wird das Horner-Schema erklärt:
 
 {{< youtube 4ieqRkmqiIg >}}
 
