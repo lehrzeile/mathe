@@ -53,6 +53,7 @@ Bestimme mit Hilfe der Ableitung die Steigung in den Punkten $P_1 \left(1|f(1)\r
 
 {{< solution >}}
 Zuerst bestimmt man die Ableitungsfunktion $f'(x)=-2x+5$.
+
 Danach setzt man die $x$-Koordinaten der Punkte ein:
 
 1. $x_1=1: \quad f'(1)=-2 \cdot 1 + 5 = 3$ \
@@ -71,7 +72,7 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
     <li>{{< bettermarks uebungscode="D5L9" seriesID="1689552038590939264" title="Höhere Ableitungen ganzrationaler Funktionen und deren Grad bestimmen" >}}</li>
 {{< /job >}}
 
-{{< job numbered="true" style="enum-alph" title="" columns="2" >}}
+{{< job numbered="true" style="" title="Übung macht den Meister" columns="2" >}}
 <p>Bestimme jeweils den Term der Ableitungsfunktion $f'(x)$.</p>
 <ol type="a">
     <li>$f(x)=3x+5$</li>
