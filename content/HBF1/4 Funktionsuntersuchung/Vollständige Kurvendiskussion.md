@@ -45,12 +45,12 @@ Im Allgemeinen gilt jedoch: $\mathbb{D}(f) = \mathbb{R}$.
 Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
 {{< /box-note >}}
 
-{{< box-example title="Beispiel" >}}
-    Auch bei der Funktion $f(x)=0,2x^3 - 1,4x^2 +7,2$ gilt: \
+{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 + 7,2$" >}}
+    Auch bei der Funktion aus unserem Beispiel gilt: \
     $\mathbb{D}(f) = \mathbb{R}$.
 {{< /box-example >}}
 
-{{< box-notice title="Ausnahmen:" >}}
+{{< box-note title="Ausnahmen:" >}}
 Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
 
 1) **Wurzelfunktionen** wie z.B. $f(x) = \sqrt{𝑥}$:
@@ -64,7 +64,7 @@ Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiel
 - Durch Null zu teilen ist in der Mathematik nicht möglich und nicht definiert, da es widersprüchliche und nicht eindeutige Ergebnisse liefern würde.
 - Deshalb gilt: $\mathbb{D}(f) = \mathbb{R}\backslash \{0\}$.
 - Umgangssprachlich ausgedrückt: Man darf alle Zahlen (egal ob positiv oder negativ) außer der Null einsetzen.
-{{< /box-notice >}}
+{{< /box-note >}}
 
 ## Achsenschnittpunkte
 
