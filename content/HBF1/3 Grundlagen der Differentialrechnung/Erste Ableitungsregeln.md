@@ -56,3 +56,26 @@ Bestimme mit Hilfe der Ableitung die Steigung in den Punkten $P_1 \left(1|f(1)\r
     <li>{{< bettermarks uebungscode="LY7J2" seriesID="1689552696945672576" title="Die Faktor- und Summenregeln bei der Bestimmung von Ableitungsfunktionen nutzen" >}}</li>
     <li>{{< bettermarks uebungscode="D5L9" seriesID="1689552038590939264" title="Höhere Ableitungen ganzrationaler Funktionen und deren Grad bestimmen" >}}</li>
 {{< /job >}}
+
+{{< job numbered="true" style="enum-alph" title="" columns="2" >}}
+<p>Bestimme jeweils den Term der Ableitungsfunktion $f'(x)$.</p>
+<ol type="a">
+    <li>$f(x)=3x+5$</li>
+    <li>$f(x)=x^4-1$</li>
+    <li>$f(x)=-3x^6$</li>
+    <li>$f(x)=\frac12x^4$</li>
+    <li>$f(x)=3x^3-4x^2+5x-6$</li>
+    <li>$f(x)=\frac16 x^3 - \frac34 x^2 + \frac15 x - 3$</li>
+</ol>
+{{< /job >}}
+
+{{< solution >}}
+    <ol type="a">
+        <li>$f'(x)=3$</li>
+        <li>$f'(x)=4x^3$</li>
+        <li>$f'(x)=-18x^5$</li>
+        <li>$f'(x)=2x^3$</li>
+        <li>$f'(x)=9x^2 - 8x + 5$</li>
+        <li>$f'(x)=\frac12x^2 - \frac32 x + \frac15$</li>
+    </ol>
+{{< /solution >}}
