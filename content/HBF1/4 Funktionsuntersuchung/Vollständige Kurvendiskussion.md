@@ -53,13 +53,13 @@ Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
 {{< box-note title="Ausnahmen:" >}}
 Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
 
-1) **Wurzelfunktionen** wie z.B. $f(x) = \sqrt{𝑥}$:
+**Wurzelfunktionen** wie z.B. $f(x) = \sqrt{𝑥}$:
 
 - Vielleicht erinnerst du dich an folgende Regel: Aus einer negativen Zahl kann man im Bereich der reellen Zahlen nur dann eine Wurzel ziehen, wenn der Wurzelexponent ungerade ist. Ist der Wurzelexponent gerade (wie das bei der Quadratwurzel $\sqrt{}$ der Fall ist), ist die Wurzel aus einer negativen Zahl nicht definiert.
 - Es gilt deshalb $\mathbb{D}(f) = \mathbb{R}_0^+$.
 - Umgangssprachlich ausgedrückt: Man darf alle positiven Zahlen inklusive der Null einsetzen.
 
-2) **gebrochen-rationale Funktionen** wie bspw. $f(x) = \frac{1}{x}$:
+**gebrochen-rationale Funktionen** wie bspw. $f(x) = \frac{1}{x}$:
 
 - Durch Null zu teilen ist in der Mathematik nicht möglich und nicht definiert, da es widersprüchliche und nicht eindeutige Ergebnisse liefern würde.
 - Deshalb gilt: $\mathbb{D}(f) = \mathbb{R}\backslash \{0\}$.
