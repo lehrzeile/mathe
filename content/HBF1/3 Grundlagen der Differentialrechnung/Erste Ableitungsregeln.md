@@ -57,8 +57,10 @@ Danach setzt man die $x$-Koordinaten der Punkte ein:
 
 1. $x_1=1: \quad f'(1)=-2 \cdot 1 + 5 = 3$ \
 Die Steigung im Punkt $P_1$ beträgt $3$.
+
 2. $x_2=2: \quad f'(2)=-2 \cdot 2 + 5 = 1$ \
 Die Steigung im Punkt $P_2$ beträgt $1$.
+
 3. $x_3=5: \quad f'(5)=-2 \cdot 5 + 5 = -5$ \
 Die Steigung im Punkt $P_3$ beträgt $-5$.
 {{< /solution >}}
