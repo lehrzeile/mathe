@@ -71,11 +71,11 @@ Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiel
 Wenn geklärt ist, wie der Definitionsbereich der Funktion lautet, dann überprüft man den Graphen der Funktion zunächst auf dessen <mark>Schnittpunkte mit den Koordinatenachsen</mark>:
 
 - **Schnittpunkt mit der y-Achse:** \
-Eine Funktion kann einen Schnittpunkt mit der $y$-Achse haben, muss aber nicht zwingend.
+Eine Funktion kann einen Schnittpunkt mit der $y$-Achse haben -- auch <mark>$y$-Achsenabschnitt</mark> genannt --, muss aber nicht zwingend.
 Ein Beispiel für eine Funktion, welche keinen Schnittpunkt mit der $y$-Achse besitzt, ist die Funktion $f(x)=\frac1x$.
 
 - **Schnittpunkte mit der x-Achse:** \
-Man spricht hierbei von den sog. Nullstellen einer Funktion. Anders als bei der Begrifflichkeit Schnittpunkt bezeichnet eine Nullstelle lediglich den $x$-Wert (Stelle) eines Schnittpunkts mit der $x$-Achse. Alle Schnittpunkte mit der $x$-Achse haben die Form $(x_i|0)$, wobei $x_i$ hier repräsentativ für alle Nullstellen der Funktion steht.
+Man spricht hierbei von den sog. <mark>Nullstellen</mark> einer Funktion. Anders als bei der Begrifflichkeit Schnittpunkt bezeichnet eine Nullstelle lediglich den $x$-Wert (Stelle) eines Schnittpunkts mit der $x$-Achse. Alle Schnittpunkte mit der $x$-Achse haben die Form $(x_i|0)$, wobei $x_i$ hier repräsentativ für alle Nullstellen der Funktion steht.
 
 {{< box-notice title="Wie bestimmt man die Achsenschnittpunkte?" >}}
 
@@ -150,11 +150,14 @@ Analog funktioniert dies auch für den Nachweis der Punktsymmetrie (welche ebenf
 Zunächst bildet man die ersten <mark>drei Ableitungen</mark> der gesuchten Funktion. Wenn dir die Ableitungsregeln nicht mehr bekannt sind, dann wirf noch einmal einen Blick in das Kapitel "Grundlagen der Differentialrechnung" auf die Seite ["Erste Ableitungsregeln"](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/).
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
-1. Ableitung: \
+
+Erste Ableitung: \
 $f'(x)=0,6x^2-2,8x$
-2. Ableitung: \
+
+Zweite Ableitung: \
 $f''(x)=1,2x-2,8$
-3. Ableitung: \
+
+Dritte Ableitung: \
 $f'''(x)=1,2$
 {{< /box-example >}}
 
