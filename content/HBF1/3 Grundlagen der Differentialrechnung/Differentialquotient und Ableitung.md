@@ -69,8 +69,10 @@ Mit Hilfe der lokalen Änderungsrate kann man die Steigung in jedem beliebigen P
 Schreibt man für die Stelle $x_2 = x_1 + h$ (dabei geht man quasi davon aus, dass $x_2$ einen Abstand $h$ zu $x_1$ hat), so erhält man für den Differentialquotienten eine andere Schreibweise, die sog. **h-Methode**:
 
 {{< box-notice title="h-Methode" >}}
-$m &= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{x_1+h-x_1} \\\
-$&= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$
+$\begin{align}
+m &= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{x_1+h-x_1} \\\
+&= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.
+\end{align}$
 {{< /box-notice >}}
 
 Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an der Stelle $x_1$. Die erste Ableitung einer Funktion an der Stelle $x_1$ gibt die **Steigung der Tangente an den Funktionsgraphen** im Punkt $P(x_1|f(x_1))$ an.
@@ -80,8 +82,10 @@ Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an de
 Die erste Ableitung einer Funktion $f$ an einer Stelle $x_0$ gibt die momentane Änderungsrate des Funktionsgraphen an dieser Stelle an -- geometrisch gesehen also die Steigung der Tangente an den Graphen. Die Ableitung der Funktion $f(x)$ wird mit $f'(x)$ bezeichnet. Weitere Ableitungen bezeichnet man $f''(x)$, $f'''(x)$, usw.
 
 {{< box-notice title="So lassen sich die Werte der ersten Ableitung interpretieren:" >}}
+
 - Ist $f’(x_0) > 0$, so **steigt** der Graph an dieser Stelle.
 - Ist $f’(x_0) < 0$, so **fällt** der Graph an dieser Stelle.
+
 {{< /box-notice >}}
 
 ![verschiedene Steigungen am Graphen](img/Steigungen.svg)
