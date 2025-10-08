@@ -19,7 +19,7 @@ Das Bilden des Differenzenquotienten ist ein Zwischenschritt bei der <mark>Besti
 
 ## Forschend-entdeckender Einstieg
 
-{{< geogebra >}}
+{{< geogebra-activity url="https://www.geogebra.org/m/eufd63tm" >}}
 
 ## Vom Differenzenquotient zum Differentialquotient
 
