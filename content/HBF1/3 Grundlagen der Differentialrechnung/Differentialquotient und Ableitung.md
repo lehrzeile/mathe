@@ -34,7 +34,9 @@ Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert 
 Der **Grenzwert** (Limes, Abk. $\lim$) beschreibt, welchem Wert sich eine Funktion oder Folge nähert, wenn sich die $x$-Werte (bzw. Folgenglieder) einer bestimmten Stelle nähern oder gegen unendlich laufen. Der Limes einer Funktion $f(x)$ an einer Stelle $x_0$ ist derjenige Wert, dem sich $f(x)$ nähert, wenn $x$ gegen $x_0$ läuft.
 
 Notation: \
-$\displaystyle \lim_{x \to x_0} f(x) = a$, wobei $a$ der Grenzwert der Funktion $f(x)$ an einer Stelle $x_0$ ist.
+$\displaystyle \lim_{x \to x_0} f(x) = a$
+
+$a$ bezeichnet hierbei den Grenzwert der Funktion $f(x)$ an der Stelle $x_0$.
 
 Man spricht das so: \
 "Limes für x gegen x Null von f von x gleich a."
@@ -71,11 +73,11 @@ Schreibt man für die Stelle $x_2 = x_1 + h$ (dabei geht man quasi davon aus, da
 {{< box-notice title="h-Methode" >}}
 Schreibweise des Differentialquotienten mit der **h-Methode**:
 
-$m = \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{x_1+h-x_1}$
+$\displaystyle m = \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{x_1+h-x_1}$
 
 Und kürzt man nun noch den Nenner, so lautet die Formel:
 
-$m= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$
+$\displaystyle m= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$
 {{< /box-notice >}}
 
 Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an der Stelle $x_1$. Die erste Ableitung einer Funktion an der Stelle $x_1$ gibt die **Steigung der Tangente an den Funktionsgraphen** im Punkt $P(x_1|f(x_1))$ an.
