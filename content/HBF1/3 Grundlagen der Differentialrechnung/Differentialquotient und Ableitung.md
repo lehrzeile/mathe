@@ -21,7 +21,7 @@ Das Bilden des Differenzenquotienten ist ein Zwischenschritt bei der <mark>Besti
 
 In der nachfolgenden Applet kannst du selbst experimentieren und herausfinden, wie man von der mittleren Änderungsrate zur lokalen Änderungsrate gelangt.
 
-{{< jobs numbered="true" style="enum-araibc" title="Deine Experimentier-Aufgabe" >}}
+{{< job numbered="true" style="enum-araibc" title="Deine Experimentier-Aufgabe" >}}
 Der Punkt $P_1$, welcher auf dem Graphen von $f$ liegt, wird festgelegt durch den Wert von $x_1$, der dessen x-Koordinate darstellt. Einmal eingestellt, soll dieser fest sein und nicht mehr bewegt werden.
 
 Der Punkt $P_2$ hingegen - für den der Schieberegler $x_2$ vorhanden ist - soll sich dem Punkt $P_1$ nähern. 
@@ -30,7 +30,7 @@ Der Punkt $P_2$ hingegen - für den der Schieberegler $x_2$ vorhanden ist - soll
 2. **Notiere** dir die einzelnen Ergebnisse tabellarisch in dein Heft.
 3. **Blende** anschließend die Tangente **ein** und **erkläre**, inwiefern die Steigung der Sekante und die der Tangente zusammenhängen.
 4. Sind die x-Koordinaten beider Punkte identisch, dann passiert etwas. **Erkläre** dies in deinen eigenen Worten.
-{{< /jobs >}}
+{{< /job >}}
 
 {{< geogebra-activity url="https://www.geogebra.org/material/iframe/id/rb7dmy96" >}}
 
