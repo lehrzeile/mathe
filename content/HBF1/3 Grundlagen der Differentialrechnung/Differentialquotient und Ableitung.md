@@ -32,7 +32,7 @@ Der Punkt $P_2$ hingegen - für den der Schieberegler $x_2$ vorhanden ist - soll
 4. Sind die x-Koordinaten beider Punkte identisch, dann passiert etwas. **Erkläre** dies in deinen eigenen Worten.
 {{< /job >}}
 
-{{< geogebra-activity url="https://www.geogebra.org/material/iframe/id/rb7dmy96" >}}
+{{< geogebra-activity url="https://www.geogebra.org/material/iframe/id/rb7dmy96/sfsb/true" >}}
 
 ## Vom Differenzenquotient zum Differentialquotient
 
