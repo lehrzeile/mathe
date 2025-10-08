@@ -17,7 +17,7 @@ Du erinnerst dich hoffentlich noch daran, wie du die Steigung einer linearen Fun
 
 Das Bilden des Differenzenquotienten ist ein Zwischenschritt bei der <mark>Bestimmung der Steigung einer Kurve in einem Punkt</mark>.
 
-## Erforschender Einstieg
+## Forschend-entdeckender Einstieg
 
 {{< geogebra >}}
 
@@ -28,13 +28,13 @@ Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen** bzw. **lok
 ![Von der Sekante zur Tangente](img/Sekante.svg)
 *Abb. 1: Von der Sekante zur Tangente*
 
-Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert ($\lim$) der Sekantensteigung**.
+Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert der Sekantensteigung**.
 
 {{< box-notice title="Definition Grenzwert">}}
 Der **Grenzwert** (Limes, Abk. $\lim$) beschreibt, welchem Wert sich eine Funktion oder Folge nähert, wenn sich die $x$-Werte (bzw. Folgenglieder) einer bestimmten Stelle nähern oder gegen unendlich laufen. Der Limes einer Funktion $f(x)$ an einer Stelle $x_0$ ist derjenige Wert, dem sich $f(x)$ nähert, wenn $x$ gegen $x_0$ läuft.
 
 Notation: \
-$\lim_{x \to x_0} f(x) = a$, wobei $a$ der Grenzwert der Funktion $f(x)$ an einer Stelle $x_0$ ist.
+$\displaystyle \lim_{x \to x_0} f(x) = a$, wobei $a$ der Grenzwert der Funktion $f(x)$ an einer Stelle $x_0$ ist.
 
 Man spricht das so: \
 "Limes für x gegen x Null von f von x gleich a."
@@ -79,7 +79,11 @@ Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an de
 
 ## Ableitung und ihre Bedeutung
 
-Die erste Ableitung einer Funktion $f$ an einer Stelle $x_0$ gibt die momentane Änderungsrate des Funktionsgraphen an dieser Stelle an -- geometrisch gesehen also die Steigung der Tangente an den Graphen. Die Ableitung der Funktion $f(x)$ wird mit $f'(x)$ bezeichnet. Weitere Ableitungen bezeichnet man $f''(x)$, $f'''(x)$, usw.
+Die erste Ableitung einer Funktion $f$ an einer Stelle $x_0$ gibt die momentane Änderungsrate des Funktionsgraphen an dieser Stelle an -- geometrisch gesehen also die Steigung der Tangente an den Graphen. Die Ableitung der Funktion $f(x)$ wird mit $f'(x)$ bezeichnet.
+
+{{< box-note >}}
+Weitere Ableitungen bezeichnet man $f''(x)$, $f'''(x)$, usw.
+{{< /box-note >}}
 
 {{< box-notice title="So lassen sich die Werte der ersten Ableitung interpretieren:" >}}
 
