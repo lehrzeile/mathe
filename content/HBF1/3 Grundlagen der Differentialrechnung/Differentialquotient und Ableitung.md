@@ -17,6 +17,10 @@ Du erinnerst dich hoffentlich noch daran, wie du die Steigung einer linearen Fun
 
 Das Bilden des Differenzenquotienten ist ein Zwischenschritt bei der <mark>Bestimmung der Steigung einer Kurve in einem Punkt</mark>.
 
+## Erforschender Einstieg
+
+{{< geogebra >}}
+
 ## Vom Differenzenquotient zum Differentialquotient
 
 Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen** bzw. **lokalen Änderungsrate** -- nähert man den Punkt $P_2$ dem Punkt $P_1$ an. Dabei nähert sich die Steigung der Sekante schrittweise der Steigung der **Tangente** und die Sekante wird schlussendlich zur Tangente.
@@ -24,11 +28,27 @@ Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen** bzw. **lok
 ![Von der Sekante zur Tangente](img/Sekante.svg)
 *Abb. 1: Von der Sekante zur Tangente*
 
-Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert der Sekantensteigung**.
+Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert ($\lim$) der Sekantensteigung**.
+
+{{< box-notice title="Definition Grenzwert">}}
+Der *Grenzwert (Limes, Abk. $\lim$)* beschreibt, welchem Wert sich eine Funktion oder Folge nähert, wenn sich die $x$-Werte (bzw. Folgenglieder) einer bestimmten Stelle nähern bzw. gegen unendlich laufen. Der Limes einer Funktion $f(x)$ an einer Stelle $x_0$ ist derjenige Wert, dem sich $f(x)$ nähert, wenn $x$ gegen $x_0$ läuft.
+
+Notation:
+$$\lim_{x \to x_0} f(x) = a$$, wobei $a$ der Grenzwert der Funktion ist.
+
+Man spricht das so:
+
+"Limes für x gegen x Null von f von x gleich a."
+{{< /box-notice >}}
 
 {{< box-notice title="Grenzwert der Sekantensteigung" >}}
 Es gilt:
-$$\displaystyle m = \lim_{x_2 \to x_1} \frac{y_2-y_1}{x_2-x_1} \quad \text{bzw.} \quad m = \lim_{x_2 \to x_1} \frac{f(x_2)-f(x_1)}{x_2-x_1}.$$
+
+$\displaystyle m = \lim_{x_2 \to x_1} \frac{y_2-y_1}{x_2-x_1}$
+
+bzw. wenn man für $y_1 = f(x_1)$ und für $y_2 = f(x_2)$ einsetzt:
+
+$m = \lim_{x_2 \to x_1} \frac{f(x_2)-f(x_1)}{x_2-x_1}$.
 {{< /box-notice >}}
 
 $m$ -- also der Wert des Differentialquotienten -- entspricht hierbei der **lokalen Änderungsrate**.
@@ -38,10 +58,12 @@ Die **lokale Änderungsrate** von $f$ an der Stelle $x_0$ entspricht der Steigun
 
 Die lokale Änderungsrate heißt auch **Ableitung der Funktion an der Stelle $x_0$**.
 
-Geschrieben $f'(x)$ (gesprochen: "f Strich von x null").
+Geschrieben $f'(x_0)$ (gesprochen: "f Strich von x null").
 {{< /box-notice >}}
 
-Die lokale bzw. momentane Änderungsrate einer Funktion entspricht der **Steigung der Tangenten** am Graphen in einem bestimmten Punkt. Mit Hilfe der lokalen Änderungsrate kann man die Steigung in jedem beliebigen Punkt einer Kurve bestimmen.
+<!-- Die lokale bzw. momentane Änderungsrate einer Funktion entspricht der **Steigung der Tangenten** am Graphen in einem bestimmten Punkt. -->
+
+Mit Hilfe der lokalen Änderungsrate kann man die Steigung in jedem beliebigen Punkt einer Kurve bestimmen.
 
 ## Differentialquotient und h-Methode
 
