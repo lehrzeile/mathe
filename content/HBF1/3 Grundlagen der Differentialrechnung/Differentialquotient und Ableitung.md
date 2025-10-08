@@ -31,13 +31,12 @@ Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen** bzw. **lok
 Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert ($\lim$) der Sekantensteigung**.
 
 {{< box-notice title="Definition Grenzwert">}}
-Der *Grenzwert (Limes, Abk. $\lim$)* beschreibt, welchem Wert sich eine Funktion oder Folge nähert, wenn sich die $x$-Werte (bzw. Folgenglieder) einer bestimmten Stelle nähern bzw. gegen unendlich laufen. Der Limes einer Funktion $f(x)$ an einer Stelle $x_0$ ist derjenige Wert, dem sich $f(x)$ nähert, wenn $x$ gegen $x_0$ läuft.
+Der **Grenzwert** (Limes, Abk. $\lim$) beschreibt, welchem Wert sich eine Funktion oder Folge nähert, wenn sich die $x$-Werte (bzw. Folgenglieder) einer bestimmten Stelle nähern oder gegen unendlich laufen. Der Limes einer Funktion $f(x)$ an einer Stelle $x_0$ ist derjenige Wert, dem sich $f(x)$ nähert, wenn $x$ gegen $x_0$ läuft.
 
-Notation:
-$$\lim_{x \to x_0} f(x) = a$$, wobei $a$ der Grenzwert der Funktion ist.
+Notation: \
+$\lim_{x \to x_0} f(x) = a$, wobei $a$ der Grenzwert der Funktion $f(x)$ an einer Stelle $x_0$ ist.
 
-Man spricht das so:
-
+Man spricht das so: \
 "Limes für x gegen x Null von f von x gleich a."
 {{< /box-notice >}}
 
@@ -48,7 +47,7 @@ $\displaystyle m = \lim_{x_2 \to x_1} \frac{y_2-y_1}{x_2-x_1}$
 
 bzw. wenn man für $y_1 = f(x_1)$ und für $y_2 = f(x_2)$ einsetzt:
 
-$m = \lim_{x_2 \to x_1} \frac{f(x_2)-f(x_1)}{x_2-x_1}$.
+$\displaystyle m = \lim_{x_2 \to x_1} \frac{f(x_2)-f(x_1)}{x_2-x_1}$.
 {{< /box-notice >}}
 
 $m$ -- also der Wert des Differentialquotienten -- entspricht hierbei der **lokalen Änderungsrate**.
@@ -70,7 +69,8 @@ Mit Hilfe der lokalen Änderungsrate kann man die Steigung in jedem beliebigen P
 Schreibt man für die Stelle $x_2 = x_1 + h$ (dabei geht man quasi davon aus, dass $x_2$ einen Abstand $h$ zu $x_1$ hat), so erhält man für den Differentialquotienten eine andere Schreibweise, die sog. **h-Methode**:
 
 {{< box-notice title="h-Methode" >}}
-$$m = \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{x_1+h-x_1} = \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$$
+$m &= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{x_1+h-x_1} \\\
+$&= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$
 {{< /box-notice >}}
 
 Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an der Stelle $x_1$. Die erste Ableitung einer Funktion an der Stelle $x_1$ gibt die **Steigung der Tangente an den Funktionsgraphen** im Punkt $P(x_1|f(x_1))$ an.
