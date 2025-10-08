@@ -84,6 +84,15 @@
     }
 }
 
+// Seitenstruktur
+.docs-toc { /* Inhaltsverzeichnis rechte Spalte */
+    z-index: 9998 !important;
+}
+
+.geogebra-activity {
+    z-index: 9999 !important;
+}
+
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 { /* Überschriften */
     color: var(--primary-color);
     padding-top: 0.5em;
