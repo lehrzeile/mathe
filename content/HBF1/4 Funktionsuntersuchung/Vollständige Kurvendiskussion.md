@@ -53,7 +53,7 @@ Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
 {{< box-important title="Achtung: Ausnahmen!" >}}
 Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
 
-**Wurzelfunktionen** wie z.B. $f(x) = \sqrt{𝑥}$:
+**Wurzelfunktionen** wie z.B. $f(x) = \sqrt{x}$:
 
 - Vielleicht erinnerst du dich an folgende Regel: Aus einer negativen Zahl kann man im Bereich der reellen Zahlen nur dann eine Wurzel ziehen, wenn der Wurzelexponent ungerade ist. Ist der Wurzelexponent gerade (wie das bei der Quadratwurzel $\sqrt{}$ der Fall ist), ist die Wurzel aus einer negativen Zahl nicht definiert.
 - Es gilt deshalb $\mathbb{D}(f) = \mathbb{R}_0^+$.
