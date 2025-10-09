@@ -286,6 +286,10 @@ Um diejenigen Stellen des Funktionsgraphen ausfindig zu machen, an denen sich We
 - Die erste Ableitung $f'(x)$ liefert uns die **Steigung** des Funktionsgraphen.
 - Somit liefert uns die zweite Ableitung $''f(x)$ -- welche man auch als die erste Ableitung der ersten Ableitung bezeichnen könnte -- diejenigen Stellen des Funktionsgraphen, an denen die **Steigung extremal** ist.
 
+{{< box-notice title="Notwendige Bedingung für Wendepunkte" >}}
+Die **notwendige Bedingung für eine Wendestelle** einer differenzierbaren Funktion ist, dass die zweite Ableitung ($f''(x)$) an dieser Stelle gleich Null ist ($f''(x) = 0$), da die **Veränderung der Steigung** an dieser Stelle Null ist (und die Steigung somit extremal).
+{{< /box-notice >}}
+
 <br />
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
