@@ -52,10 +52,10 @@ Notation: \
 $\displaystyle \lim_{x \to x_0} f(x) = a$
 
 $a$ bezeichnet hierbei den Grenzwert der Funktion $f(x)$ an der Stelle $x_0$.
+{{< /box-notice >}}
 
 Man spricht das so: \
 "Limes für x gegen x Null von f von x gleich a."
-{{< /box-notice >}}
 
 {{< box-notice title="Grenzwert der Sekantensteigung" >}}
 Es gilt:
