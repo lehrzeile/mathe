@@ -1,10 +1,6 @@
-<div class="callout callout-caution d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
-  <div class="callout-content">
     <div class="callout-title">
-        <p>{{ .Get "title" | default "Achtung!" }}</p>
+        <p>{{ .Get "title" | default "Beispiel:" }}</p>
       </div>
     <div class="callout-body">
       <p>{{ .Inner | strings.TrimSpace | .Page.RenderString }}</p>
     </div>
-  </div>
-</div>

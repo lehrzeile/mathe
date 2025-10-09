@@ -1,16 +1,6 @@
-<div class="callout callout-example d-flex flex-row mt-4 mb-4 pt-4 pe-4 pb-2 ps-3">
-  <div class="callout-icon">
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-puzzle" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-      <path d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1"></path>
-    </svg>
-  </div>
-  <div class="callout-content">
     <div class="callout-title">
         <p>{{ .Get "title" | default "Beispiel:" }}</p>
       </div>
     <div class="callout-body">
       <p>{{ .Inner | strings.TrimSpace | .Page.RenderString }}</p>
     </div>
-  </div>
-</div>
