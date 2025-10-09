@@ -635,6 +635,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
 
 .callout-icon > svg {
     transform: translate(0, 0);
+    stroke: white !important;
     width: 2em !important;
     height: 2em !important;
     margin: 0;
