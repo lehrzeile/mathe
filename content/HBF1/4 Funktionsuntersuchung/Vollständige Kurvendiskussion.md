@@ -50,7 +50,7 @@ Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
     $\mathbb{D}(f) = \mathbb{R}$.
 {{< /box-example >}}
 
-{{< box-important title="Achtung -- Ausnahmen!" >}}
+{{< box-important title="Achtung - Ausnahmen!" >}}
 Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
 
 **Wurzelfunktionen** wie z.B. $f(x) = \sqrt{𝑥}$:
