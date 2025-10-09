@@ -57,7 +57,7 @@ $a$ bezeichnet hierbei den Grenzwert der Funktion $f(x)$ an der Stelle $x_0$.
 Man spricht das so: \
 "Limes für x gegen x Null von f von x gleich a."
 
-{{< box-notice title="Grenzwert der Sekantensteigung" >}}
+{{< box-notice title="Differentialquotient / Grenzwert der Sekantensteigung" >}}
 Es gilt:
 
 $\displaystyle m = \lim_{x_2 \to x_1} \frac{y_2-y_1}{x_2-x_1}$
@@ -98,7 +98,7 @@ $\displaystyle m= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$
 {{< geogebra-activity url="https://www.geogebra.org/material/iframe/id/w8nhtrxs/sfsb/true" >}}
 
 {{< job numbered="true" style="enum-araibc" title="Experimentier-Aufgabe" >}}
-Auch hier soll sich der Punkt $P_1$ schrittweise dem Punkt $P_1$ nähern.
+Auch hier soll sich der Punkt $P_1$ schrittweise dem Punkt $P_2$ nähern.
 
 1. **Lege** zunächst einmal einen Wert für $x_1$ und eine Funktionsgleichung **fest** und **verschiebe** anschließend mit Hilfe des Schiebereglers $h$ den Punkt $P_2$ langsam in Richtung des Punktes $P_1$ und **beobachte**, wie sich die Steigung der Sekante verändert.
 2. **Notiere** dir neben der Funktionsgleichung und dem Wert von $x_1$ auch einzelne Ergebnisse tabellarisch in dein Heft. **Stelle** anschließend eine *begründete* Vermutung auf, welchem Wert sich die Werte der Sekantensteigung nähern.
@@ -119,6 +119,7 @@ Weitere Ableitungen bezeichnet man $f''(x)$, $f'''(x)$, usw.
 
 - Ist $f’(x_0) > 0$, so **steigt** der Graph an dieser Stelle.
 - Ist $f’(x_0) < 0$, so **fällt** der Graph an dieser Stelle.
+- Ist $f’(x_0) = 0$, so hat der Graph an dieser Stelle keine Steigung (Steigung gleich Null).
 
 {{< /box-notice >}}
 

@@ -21,16 +21,10 @@ $f(x)=x \quad \rightarrow \quad f'(x) = 1$
 Die Ableitung von $x$ ist $1$.
 {{< /box-notice >}}
 
-{{< box-example title="Ableitung von $x$" >}}
-$f(x)=x \quad \rightarrow \quad f'(x) = 1$
+{{< box-notice title="Kostantenregel" >}}
+$f(x)=c, \hspace{10pt} c \in \mathbb{R} \quad \rightarrow \quad f'(x) = 0$
 
-Die Ableitung von $x$ ist $1$.
-{{< /box-notice >}}
-
-{{< box-notice title="Potenzregel" >}}
-$f(x) = x^n \quad \rightarrow \quad f'(x) = n \cdot x^{n-1}$
-
-Man multipliziert den ursprünglichen Exponenten $n$ mit der Potenz und reduziert den ursprünglichen Exponenten um $1$.
+Die Ableitung einer Kostanten $c$ ist $0$.
 {{< /box-notice >}}
 
 {{< box-notice title="Faktorregel" >}}
@@ -39,11 +33,43 @@ $f(x) = c \cdot g(x) \quad \rightarrow \quad f'(x) = c \cdot g'(x)$
 Ein Vorfaktor bleibt beim Ableiten erhalten.
 {{< /box-notice >}}
 
+{{< box-example title="Ableitung von $x$ und Faktorregel zusammen:" >}}
+
+- $f(x)=x \quad \rightarrow \quad f'(x) = 1$
+- $f(x)=3x \Leftrightarrow f(x)=3 \cdot x \quad \rightarrow \quad f'(x) = 3 \cdot 1 = 3$
+- $f(x)=-5x \quad \rightarrow \quad f'(x) = -5$
+- $f(x)= \text{trölf} x \quad \rightarrow \quad f'(x) = \text{trölf}$
+
+{{< /box-example >}}
+
+{{< box-notice title="Potenzregel" >}}
+$f(x) = x^n \quad \rightarrow \quad f'(x) = n \cdot x^{n-1}$
+
+Man multipliziert den ursprünglichen Exponenten $n$ mit der Potenz und reduziert den ursprünglichen Exponenten um $1$.
+{{< /box-notice >}}
+
+{{< box-example title="Potenzregel:" >}}
+
+- $f(x)=x^2 \quad \rightarrow \quad f'(x) = 2x^{2-1}=2x^1=2x$
+- $f(x)=x^3 \quad \rightarrow \quad f'(x) = 3x^{3-1}=3x^2$
+- $f(x)=x^4 \quad \rightarrow \quad f'(x) = 4x^{4-1}=4x^3$
+- $f(x)=5x^17 \quad \rightarrow \quad f'(x) = 5 \cdot 17x^{17-1}=85x^{16}$
+
+{{< /box-example >}}
+
 {{< box-notice title="Summen- und Differenzenregel" >}}
 $f(x) = g(x) \pm h(x) \quad \rightarrow \quad f'(x) = g'(x) \pm h'(x)$
 
 Besteht ein Funktionsterm (hier: $f(x)$) aus einer Summe (*bzw. Differenz*) von einzelnen Termen (hier: $g(x)$ und $h(x)$), so leitet man jeden einzelnen Term für sich ab und addiert (*bzw. subtrahiert*) anschließend deren Ableitungen (hier: $g'(x) \pm h'(x)$).
 {{< /box-notice >}}
+
+{{< box-example title="Kostantenregel sowie Summen- und Differenzenregel:" >}}
+
+- $f(x)=x^2 + 3x \quad \rightarrow \quad f'(x) = (x^2)' + (3x)' = 2x + 3$
+- $f(x)=x^5 - 4x^2 \quad \rightarrow \quad f'(x) = (x^5)' - (4x^2)' = 5x^4 + 8x$
+- $f(x)=-2x^3 + 7x - 5 \quad \rightarrow \quad f'(x) = (-2x^3)' + (7x)' - (5)' = -6x^2 + 7 - 0 = -6x^2 + 7$
+
+{{< /box-example >}}
 
 ## Methode #4 zur Bestimmung der lokalen Änderungsrate: Steigung in einem Punkt berechnen $\rightarrow$ Funktion ableiten
 
