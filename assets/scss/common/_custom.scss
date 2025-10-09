@@ -638,10 +638,22 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
 .callout.callout-note {
     border-color: var(--callout-note-transparent);
     background-color: var(--callout-note-transparent);
+    position: relative;
     .callout-title {
         color: var(--callout-note);
     }
-    svg {
+    .callout-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(1em, -50%);
+        color: white;
+        width: 2em;
+        height: 2em;
+        background-color: var(--callout-note);
+        stroke: white !important;
+    }
+    .callout-icon svg {
         stroke: var(--callout-note);
     }
 }
