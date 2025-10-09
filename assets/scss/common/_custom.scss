@@ -628,10 +628,10 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     top: 0;
     left: 0;
     transform: translate(1em, -50%);
-    width: 1.5em;
-    height: 1.5em;
+    width: 2em !important;
+    height: 2em !important;
     stroke: white !important;
-    padding: 0;
+    padding: 0 !important;
     align-items: center;
     line-height: 1em;
 }
@@ -641,7 +641,8 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     stroke: white !important;
     width: 2em !important;
     height: 2em !important;
-    margin: 0;
+    margin: 0 !important;
+    padding: 0.1em !important;
 }
 
 // Callout: box-note (Hinweis)
