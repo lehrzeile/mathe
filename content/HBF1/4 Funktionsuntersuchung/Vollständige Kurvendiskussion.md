@@ -150,6 +150,14 @@ Analog funktioniert dies auch für den Nachweis der Punktsymmetrie (welche ebenf
 Extrempunkte einer Funktion sind die Punkte auf ihrem Graphen, an denen die Funktion entweder ihren höchsten Punkt (Hochpunkt/Maximum) oder ihren tiefsten Punkt (Tiefpunkt/Minimum) in einer lokalen Umgebung erreicht.
 <!-- , was sich durch einen Wechsel der Monotonie von steigend zu fallend oder umgekehrt zeigt. -->
 
+{{< box-notice title="Was sind Extrempunkte?" >}}
+Man unterscheidet bei Extrempunkten -- oft auch Extrema genannt -- zwischen Hochpunkten und Tiefpunkten:
+
+- **Hochpunkt (Maximum)**: Ein Punkt auf dem Graphen, an dem die Funktion lokal am höchsten ist. Der Graph steigt davor an und fällt danach wieder.
+- **Tiefpunkt (Minimum)**: Ein Punkt auf dem Graphen, an dem die Funktion lokal am tiefsten ist. Der Graph fällt davor und steigt danach wieder an.
+
+{{< /box-notice >}}
+
 ### Schritt 1
 
 Zunächst bildet man die ersten <mark>drei Ableitungen</mark> der gesuchten Funktion. Wenn dir die Ableitungsregeln nicht mehr bekannt sind, dann wirf noch einmal einen Blick in das Kapitel "Grundlagen der Differentialrechnung" auf die Seite ["Erste Ableitungsregeln"](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/).
