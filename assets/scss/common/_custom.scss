@@ -628,10 +628,14 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     stroke: white !important;
     padding: 0;
     align-items: center;
+    line-height: 1em;
 }
 
 .callout-icon > svg {
     transform: translate(0, 0);
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
 // Callout: box-note (Hinweis)
