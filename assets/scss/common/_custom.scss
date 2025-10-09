@@ -444,9 +444,21 @@ blockquote {
     .callout-title {
         color: var(--callout-important);
     }
-    // svg {
-    //     stroke: var(--callout-important);
-    // }
+    .callout-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(1em, -50%);
+        width: 2em;
+        height: 2em;
+        background-color: var(--callout-important);
+        stroke: white !important;
+        padding: 0;
+        align-items: center;
+    }
+    .callout-icon > svg {
+        transform: translate(0, 0);
+    }
 }
 
 // Callout: Aufgabe
