@@ -652,10 +652,12 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
         height: 2em;
         background-color: var(--callout-note);
         stroke: white !important;
+        padding: 0;
+        align-items: center;
     }
-    .callout-icon > svg {
-        stroke: var(--callout-note);
-    }
+    // .callout-icon > svg {
+    //     stroke: var(--callout-note);
+    // }
 }
 
 // Quellenangaben in Callouts
