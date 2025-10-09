@@ -624,6 +624,10 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     margin-bottom: 5em !important;
 }
 
+.callout {
+    margin-top: 1em;
+}
+
 .callout.callout-note {
     border-color: var(--callout-note-transparent);
     background-color: var(--callout-note-transparent);
