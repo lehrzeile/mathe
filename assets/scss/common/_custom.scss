@@ -467,7 +467,8 @@ blockquote {
         width: 2em;
         height: 2em;
         background-color: var(--callout-important);
-        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="outline/device-floppy svg-inline callout-icon me-2 mb-3" id="svg-device-floppy" role="img"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2"></path><path d="M12 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M14 4l0 4l-6 0l0 -4"></path></svg>');
+        stroke: var(--callout-note);
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#fff" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="outline/device-floppy svg-inline callout-icon me-2 mb-3" id="svg-device-floppy" role="img"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2"></path><path d="M12 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M14 4l0 4l-6 0l0 -4"></path></svg>');
         background-repeat: no-repeat;
         background-position: center center;
 }
@@ -625,7 +626,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
 }
 
 .callout {
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 .callout.callout-note {
