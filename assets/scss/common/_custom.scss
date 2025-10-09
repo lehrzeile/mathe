@@ -641,6 +641,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     }
     .callout-icon > svg {
         stroke: var(--callout-note);
+        transform: translate(-1em, 50%);
     }
 }
 
