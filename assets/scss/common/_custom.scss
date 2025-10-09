@@ -488,6 +488,9 @@ blockquote {
     .callout-icon {
         background-color: var(--callout-example);
     }
+    .callout-icon > svg {
+        stroke: white !important;
+    }
 }
 
 // Callout: Aufgabe
@@ -625,8 +628,8 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     top: 0;
     left: 0;
     transform: translate(1em, -50%);
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
     stroke: white !important;
     padding: 0;
     align-items: center;
@@ -639,7 +642,6 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     width: 2em !important;
     height: 2em !important;
     margin: 0;
-    padding: 0.1em !important;
 }
 
 // Callout: box-note (Hinweis)
