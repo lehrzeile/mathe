@@ -50,6 +50,7 @@ Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
     $\mathbb{D}(f) = \mathbb{R}$.
 {{< /box-example >}}
 
+{{< box-important title="Achtung: Ausnahmen!" >}}
 Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
 
 **Wurzelfunktionen** wie z.B. $f(x) = \sqrt{𝑥}$:
@@ -65,6 +66,7 @@ Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiel
 - Durch Null zu teilen ist in der Mathematik nicht möglich und nicht definiert, da es widersprüchliche und nicht eindeutige Ergebnisse liefern würde.
 - Deshalb gilt: $\mathbb{D}(f) = \mathbb{R}\backslash \{0\}$.
 - Umgangssprachlich ausgedrückt: Man darf alle Zahlen (egal ob positiv oder negativ) außer der Null einsetzen.
+{{< /box-important >}}
 
 ## Achsenschnittpunkte
 
@@ -144,6 +146,9 @@ Analog funktioniert dies auch für den Nachweis der Punktsymmetrie (welche ebenf
 {{< /box-example >}}
 
 ## Extrempunkte
+
+Extrempunkte einer Funktion sind die Punkte auf ihrem Graphen, an denen die Funktion entweder ihren höchsten Punkt (Hochpunkt/Maximum) oder ihren tiefsten Punkt (Tiefpunkt/Minimum) in einer lokalen Umgebung erreicht.
+<!-- , was sich durch einen Wechsel der Monotonie von steigend zu fallend oder umgekehrt zeigt. -->
 
 ### Schritt 1
 
