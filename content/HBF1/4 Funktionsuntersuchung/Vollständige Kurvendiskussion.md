@@ -151,7 +151,7 @@ Extrempunkte einer Funktion sind die Punkte auf ihrem Graphen, an denen die Funk
 <!-- , was sich durch einen Wechsel der Monotonie von steigend zu fallend oder umgekehrt zeigt. -->
 
 {{< box-notice title="Was sind Extrempunkte?" >}}
-Man unterscheidet bei Extrempunkten -- oft auch Extrema genannt -- zwischen Hochpunkten und Tiefpunkten:
+Man unterscheidet bei **Extrempunkten** -- oft auch **Extrema** genannt -- zwischen Hochpunkten und Tiefpunkten:
 
 - **Hochpunkt (Maximum)**: Ein Punkt auf dem Graphen, an dem die Funktion lokal am höchsten ist. Der Graph steigt davor an und fällt danach wieder.
 - **Tiefpunkt (Minimum)**: Ein Punkt auf dem Graphen, an dem die Funktion lokal am tiefsten ist. Der Graph fällt davor und steigt danach wieder an.
@@ -178,7 +178,7 @@ $f'''(x)=1,2$
 
 Als nächstes kümmern wir uns um die sogenannte <mark>notwendige Bedingung</mark>:
 
-{{< box-notice title="Notwendige Bedingung" >}}
+{{< box-notice title="Notwendige Bedingung für Extrempunkte" >}}
 Die **notwendige Bedingung für eine Extremstelle** einer differenzierbaren Funktion ist, dass die erste Ableitung ($f'(x)$) an dieser Stelle gleich Null ist ($f'(x) = 0$), da die **Tangente** an dieser Stelle **waagerecht** ist (und ihre Steigung somit Null ist).
 {{< /box-notice >}}
 
@@ -271,7 +271,7 @@ Wir kennen also nun die Koordinaten der Extrempunkte.
 
 ## Wendepunkte
 
-Unsere Beispielfunktion hat zwei Extrema -- einen Hoch- und einen Tiefpunkt -- und somit zwei Stellen, an denen die Steigung des Funktionsgraphen Null ist. Das bedeutet folglich auch, dass es dazwischen eine Stelle geben muss, an der die Steigung extremal (d.h. minimal oder maximal) ist. Solche Stellen bzw. Punkte bezeichnet man als **Wendestellen bzw. -punkte**.
+Unsere Beispielfunktion hat zwei Extrema -- einen Hoch- und einen Tiefpunkt -- und somit zwei Stellen, an denen die Steigung des Funktionsgraphen Null ist. Das bedeutet folglich auch, dass es dazwischen eine Stelle geben muss, an der die Steigung extremal (d.h. minimal oder maximal) ist. Solche Stellen bzw. Punkte bezeichnet man als <mark>Wendestellen bzw. -punkte</mark>.
 
 {{< box-notice title="Wendepunkt" >}}
 In einem Wendepunkt ändert sich das Krümmungsverhalten des Funktionsgraphen von $f(x)$ von $+$ nach $-$ oder von $-$ nach $+$. Zudem ist ein Wendepunkt derjenige Punkt zwischen zwei Extrempunkten, in dem der Graph die **kleinste bzw. größte Steigung** besitzt.
@@ -286,13 +286,17 @@ Um diejenigen Stellen des Funktionsgraphen ausfindig zu machen, an denen sich We
 - Die erste Ableitung $f'(x)$ liefert uns die **Steigung** des Funktionsgraphen.
 - Somit liefert uns die zweite Ableitung $''f(x)$ -- welche man auch als die erste Ableitung der ersten Ableitung bezeichnen könnte -- diejenigen Stellen des Funktionsgraphen, an denen die **Steigung extremal** ist.
 
+{{< box-notice title="Notwendige Bedingung für Wendepunkte" >}}
+Die **notwendige Bedingung für eine Wendestelle** einer differenzierbaren Funktion ist, dass die zweite Ableitung ($f''(x)$) an dieser Stelle gleich Null ist ($f''(x) = 0$), da die **Veränderung der Steigung** an dieser Stelle Null ist (und die Steigung somit extremal).
+{{< /box-notice >}}
+
 <br />
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 Um die Wendestellen zu ermitteln, bestimmen wir nun die Nullstellen der zweiten Ableitung:
 
 $\begin{aligned}
-f''(x)&=0 & \vert \text{notwendige Bedingung}\\\
+f''(x)&=0 & \vert \text{notw. Bed.}\\\
 \Leftrightarrow 1,2x-2,8&=0 & \vert +2,8 \\\
 \Leftrightarrow 1,2x&=2,8 & \vert :1,2 \\\
 x &\approx 2,33
