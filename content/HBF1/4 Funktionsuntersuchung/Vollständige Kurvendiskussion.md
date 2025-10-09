@@ -2,7 +2,7 @@
 title: "Vollständige Kurvendiskussion"
 description: ""
 summary: ""
-draft: false
+draft: true
 weight: 501
 toc: true
 math: true # für die Nutzung von KaTeX
