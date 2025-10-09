@@ -28,7 +28,7 @@ Lies dir zunächst die Aufgabe durch, bevor du mit dem Experimentieren beginnst.
 {{< job numbered="true" style="enum-araibc" title="Experimentier-Aufgabe" >}}
 Der Punkt $P_1$, welcher auf dem Graphen von $f$ liegt, wird festgelegt durch den Wert von $x_1$, der dessen x-Koordinate darstellt. Einmal eingestellt, soll dieser fest sein und nicht mehr bewegt werden.
 
-Der Punkt $P_2$ hingegen - für den der Schieberegler $x_2$ vorhanden ist - soll sich dem Punkt $P_1$ nähern. 
+Der Punkt $P_2$ hingegen - für den der Schieberegler $x_2$ vorhanden ist - soll sich dem Punkt $P_1$ nähern.
 
 1. **Verschiebe** mit Hilfe des Schiebereglers $x_2$ den Punkt $P_2$ langsam in Richtung des Punktes $P_1$ und **beobachte**, wie sich die Steigung der Sekante verändert.
 2. **Notiere** dir die einzelnen Ergebnisse tabellarisch in dein Heft.
@@ -94,6 +94,16 @@ Und kürzt man nun noch den Nenner, so lautet die Formel:
 
 $\displaystyle m= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$
 {{< /box-notice >}}
+
+{{< geogebra-activity url="https://www.geogebra.org/material/iframe/id/w8nhtrxs/sfsb/true" >}}
+
+{{< job numbered="true" style="enum-araibc" title="Experimentier-Aufgabe" >}}
+Auch hier soll sich der Punkt $P_1$ schrittweise dem Punkt $P_1$ nähern.
+
+1. **Lege** zunächst einmal einen Wert für $x_1$ und eine Funktionsgleichung **fest** und **verschiebe** anschließend mit Hilfe des Schiebereglers $h$ den Punkt $P_2$ langsam in Richtung des Punktes $P_1$ und **beobachte**, wie sich die Steigung der Sekante verändert.
+2. **Notiere** dir neben der Funktionsgleichung und dem Wert von $x_1$ auch einzelne Ergebnisse tabellarisch in dein Heft. **Stelle** anschließend eine *begründete* Vermutung auf, welchem Wert sich die Werte der Sekantensteigung nähern.
+3. Welche Unterschiede im Vergleich zur letzten Applet kannst du erkennen? **Notiere** deine Ergebnisse in Stichworten.
+{{< /job >}}
 
 Der Differentialquotient ist die Ableitung $f’(x_1)$ der Funktion $f(x)$ an der Stelle $x_1$. Die erste Ableitung einer Funktion an der Stelle $x_1$ gibt die **Steigung der Tangente an den Funktionsgraphen** im Punkt $P(x_1|f(x_1))$ an.
 
