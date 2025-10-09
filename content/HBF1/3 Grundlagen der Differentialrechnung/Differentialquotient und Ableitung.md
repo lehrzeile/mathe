@@ -17,7 +17,7 @@ Du erinnerst dich hoffentlich noch daran, wie du die Steigung einer linearen Fun
 
 Das Bilden des Differenzenquotienten ist ein Zwischenschritt bei der <mark>Bestimmung der Steigung einer Kurve in einem Punkt</mark>.
 
-## Forschend-entdeckender Einstieg
+## Einstieg
 
 In der nachfolgenden Applet kannst du selbst experimentieren und herausfinden, wie man von der mittleren Änderungsrate zur lokalen Änderungsrate gelangt.
 
