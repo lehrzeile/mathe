@@ -98,6 +98,8 @@ Die Steigung im Punkt $P_2$ beträgt $1$.
 Die Steigung im Punkt $P_3$ beträgt $-5$.
 {{< /solution >}}
 
+## Übung macht den Meister
+
 {{< job numbered="true" style="enum-alph" title="bettermarks" >}}
     <li>{{< bettermarks uebungscode="LLD6Q" seriesID="1689552499859521664" title="Die Potenzregel bei der Bestimmung von Ableitungsfunktionen nutzen" >}}</li>
     <li>{{< bettermarks uebungscode="LY7J2" seriesID="1689552696945672576" title="Die Faktor- und Summenregeln bei der Bestimmung von Ableitungsfunktionen nutzen" >}}</li>
