@@ -281,6 +281,7 @@ In einem Wendepunkt ändert sich das Krümmungsverhalten des Funktionsgraphen vo
 Um diejenigen Stellen des Funktionsgraphen ausfindig zu machen, an denen sich Wendepunkte befinden, bestimmt man die <mark>Nullstellen der zweiten Ableitung</mark>.
 
 *Warum ist das so?*
+
 - Die Funktionsgleichung $f(x)$ liefert den passenden **Funktionswert** zu jedem $x$-Wert.
 - Die Nullstellen der ersten Ableitung liefern uns diejenigen Stellen, an denen der Funktionsgraph Extrempunkte besitzt -- sprich: an denen der **Funktionswert extremal** (d. h. minimal oder maximal) ist.
 - Die erste Ableitung $f'(x)$ liefert uns die **Steigung** des Funktionsgraphen.
