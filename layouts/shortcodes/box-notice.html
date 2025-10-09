@@ -1,6 +1,2 @@
-    <div class="callout-title">
-        <p>{{ .Get "title" | default "Beispiel:" }}</p>
-      </div>
-    <div class="callout-body">
-      <p>{{ .Inner | strings.TrimSpace | .Page.RenderString }}</p>
-    </div>
+<p>{{ .Get "title" | default "Beispiel:" }}</p>
+<p>{{ .Inner | strings.TrimSpace | .Page.RenderString }}</p>
