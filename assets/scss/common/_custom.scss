@@ -416,11 +416,12 @@ blockquote {
 .callout.callout-caution {
     border-color: var(--callout-caution-transparent);
     background-color: var(--callout-caution-transparent);
+    position: relative;
     .callout-title {
         color: var(--callout-caution);
     }
-    svg {
-        stroke: var(--callout-caution);
+    .callout-icon {
+        background-color: var(--callout-caution);
     }
 }
 
@@ -428,11 +429,12 @@ blockquote {
 .callout.callout-danger {
     border-color: var(--callout-danger-transparent);
     background-color: var(--callout-danger-transparent);
+    position: relative;
     .callout-title {
         color: var(--callout-danger);
     }
-    svg {
-        stroke: var(--callout-danger);
+    .callout-icon {
+        background-color: var(--callout-danger);
     }
 }
 
@@ -466,12 +468,12 @@ blockquote {
 .callout.callout-question {
     border-color: var(--callout-question-transparent);
     background-color: var(--callout-question-transparent);
+    position: relative;
     .callout-title {
         color: var(--callout-question);
     }
-    svg {
-        stroke: var(--callout-question);
-        margin-right: 0.5em;
+    .callout-icon {
+        background-color: var(--callout-question);
     }
 }
 
@@ -479,12 +481,12 @@ blockquote {
 .callout.callout-example {
     border-color: var(--callout-example-transparent);
     background-color: var(--callout-example-transparent);
+    position: relative;
     .callout-title {
         color: var(--callout-example);
     }
-    svg {
-        stroke: var(--callout-example);
-        margin-right: 0.5em;
+    .callout-icon {
+        background-color: var(--callout-example);
     }
 }
 
