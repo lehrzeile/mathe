@@ -25,7 +25,7 @@ Lies dir zunächst die Aufgabe durch, bevor du mit dem Experimentieren beginnst.
 
 {{< geogebra-activity url="https://www.geogebra.org/material/iframe/id/rb7dmy96/sfsb/true" >}}
 
-{{< job numbered="true" style="enum-araibc" title="Deine Experimentier-Aufgabe" >}}
+{{< job numbered="true" style="enum-araibc" title="Experimentier-Aufgabe" >}}
 Der Punkt $P_1$, welcher auf dem Graphen von $f$ liegt, wird festgelegt durch den Wert von $x_1$, der dessen x-Koordinate darstellt. Einmal eingestellt, soll dieser fest sein und nicht mehr bewegt werden.
 
 Der Punkt $P_2$ hingegen - für den der Schieberegler $x_2$ vorhanden ist - soll sich dem Punkt $P_1$ nähern. 
