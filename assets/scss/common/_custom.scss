@@ -85,14 +85,21 @@
 }
 
 // Seitenstruktur
-.docs-toc, .page-links { /* Inhaltsverzeichnis rechte Spalte */
-    z-index: 9998 !important;
-}
+// .docs-toc, .page-links { /* Inhaltsverzeichnis rechte Spalte */
+//     z-index: 9998 !important;
+// }
+
+// .geogebra-activity {
+//     max-width: 100% !important;
+//     background-color: white !important;
+//     z-index: 9999 !important;
+// }
 
 .geogebra-activity {
-    max-width: 100% !important;
+    overflow: hidden;
+    height: 0;
+    padding-top: 75%;
     background-color: white !important;
-    z-index: 9999 !important;
 }
 
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 { /* Überschriften */
