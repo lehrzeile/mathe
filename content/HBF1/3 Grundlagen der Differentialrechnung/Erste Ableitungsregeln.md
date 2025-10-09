@@ -21,6 +21,12 @@ $f(x)=x \quad \rightarrow \quad f'(x) = 1$
 Die Ableitung von $x$ ist $1$.
 {{< /box-notice >}}
 
+{{< box-example title="Ableitung von $x$" >}}
+$f(x)=x \quad \rightarrow \quad f'(x) = 1$
+
+Die Ableitung von $x$ ist $1$.
+{{< /box-notice >}}
+
 {{< box-notice title="Potenzregel" >}}
 $f(x) = x^n \quad \rightarrow \quad f'(x) = n \cdot x^{n-1}$
 
