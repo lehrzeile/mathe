@@ -445,19 +445,7 @@ blockquote {
         color: var(--callout-important);
     }
     .callout-icon {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(1em, -50%);
-        width: 1.5em;
-        height: 1.5em;
         background-color: var(--callout-important);
-        stroke: white !important;
-        padding: 0;
-        align-items: center;
-    }
-    .callout-icon > svg {
-        transform: translate(0, 0);
     }
 }
 
@@ -630,6 +618,22 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     margin-top: 2em !important;
 }
 
+.callout-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(1em, -50%);
+    width: 1.5em;
+    height: 1.5em;
+    stroke: white !important;
+    padding: 0;
+    align-items: center;
+}
+
+.callout-icon > svg {
+    transform: translate(0, 0);
+}
+
 // Callout: box-note (Hinweis)
 .callout.callout-note {
     border-color: var(--callout-note-transparent);
@@ -639,20 +643,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
         color: var(--callout-note);
     }
     .callout-icon {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(1em, -50%);
-        width: 1.5em;
-        height: 1.5em;
         background-color: var(--callout-note);
-        stroke: white !important;
-        padding: 0;
-        align-items: center;
-    }
-    .callout-icon > svg {
-        // stroke: var(--callout-note);
-        transform: translate(0, 0);
     }
 }
 
