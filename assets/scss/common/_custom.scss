@@ -502,7 +502,7 @@ blockquote {
 
 // Spaltenlayouts in Callouts
 ol.two-columns, .two-columns ol, ul.two-columns, .two-columns ul {
-    column-count: 2 !important;
+    // column-count: 2 !important;
     column-width: calc(50% - 10px) !important;
     column-gap: 20px !important;
 }
