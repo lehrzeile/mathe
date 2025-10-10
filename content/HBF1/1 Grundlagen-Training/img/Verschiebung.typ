@@ -46,7 +46,7 @@
   ylim: (-3.25, 5.25),
   width: width,
   height: height,
-  legend: (position: (0%, 81%)),
+  legend: (position: (0%, 85%)),
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
   lq.plot(xs, function1, mark: none, stroke: secondcolor + 1.5pt, label: [$f_1(x)=x^2$]),

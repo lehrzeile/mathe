@@ -67,7 +67,7 @@ Vorab: Der Parameter $b$ hat keinen sichtbaren Einfluss auf die Lage der Parabel
 
 Um nachvollziehen zu können, wie der Scheitelpunkt einer Parabel entlang der $y$-Achse verschoben wird, betrachten wir ausschließlich den Parameter $c$:
 
-- $c=0$: der Scheitelpunkt liegt auf der $x$-Achse
+- $c=0$: der Scheitelpunkt liegt **auf der $x$-Achse**
 - $c>0$: der Scheitelpunkt wird entlang der $y$-Achse **nach oben** verschoben
 - $c<0$: der Scheitelpunkt wird entlang der $y$-Achse **nach unten** verschoben
 
@@ -148,8 +148,10 @@ der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und 
 {{< box-notice >}}
 Je nach Position des Scheitelpunkts kann der Graph einer quadratischen Funktion keine, eine oder zwei Nullstellen besitzen:
 
-- die Parabel ist nach oben geöffnet und der Scheitelpunkt liegt oberhalb der $x$-Achse \ $\Rightarrow$ keine Nullstelle
-- die Parabel ist nach unten geöffnet und der Scheitelpunkt liegt unterhalb der $x$-Achse \ $\Rightarrow$ keine Nullstelle
+- die Parabel ist nach oben geöffnet und der Scheitelpunkt liegt oberhalb der $x$-Achse \
+$\Rightarrow$ keine Nullstelle
+- die Parabel ist nach unten geöffnet und der Scheitelpunkt liegt unterhalb der $x$-Achse \
+$\Rightarrow$ keine Nullstelle
 - der Scheitelpunkt liegt auf der $x$-Achse \
 $\Rightarrow$ eine Nullstelle
 - die Parabel ist nach oben geöffnet und der Scheitelpunkt liegt unterhalb der $x$-Achse \
