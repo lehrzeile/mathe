@@ -526,7 +526,15 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
 }
 
 .callout-body .enum-alph li:before {
-    content: counter(list-item) ") " !important;
+    content: counter(list-item, lower-alpha) ") " !important;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.callout-body .enum-arabic li:before {
+    content: counter(list-item, decimal) ". " !important;
+    color: var(--primary-color);
+    font-weight: 500;
 }
 
 .no-enum {
