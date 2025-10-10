@@ -15,40 +15,47 @@ Nachfolgend lernst du ein paar Ableitungsregeln, mit deren Hilfe man ebenfalls d
 
 Mit diesen Ableitungsregeln kannst du viele Funktionen schnell und einfach ableiten, ohne jedes Mal die Definition der Ableitung (sprich: den Differentialquotienten) anwenden zu müssen. Sie sind grundlegende Werkzeuge, um die Steigung einer Funktion an jeder Stelle zu bestimmen und spielen eine zentrale Rolle in der Differentialrechnung.
 
-{{< box-notice title="Ableitung von $x$" >}}
-$f(x)=x \quad \rightarrow \quad f'(x) = 1$
-
-Die Ableitung von $x$ ist $1$.
-{{< /box-notice >}}
-
+<!-- Kostantenregel -->
 {{< box-notice title="Kostantenregel" >}}
 $f(x)=c, \hspace{10pt} c \in \mathbb{R} \quad \rightarrow \quad f'(x) = 0$
 
 Die Ableitung einer Kostanten $c$ ist $0$.
 {{< /box-notice >}}
 
+<!-- Ableitung von x -->
+{{< box-notice title="Ableitung von $x$" >}}
+$f(x)=x \quad \rightarrow \quad f'(x) = 1$
+
+Die Ableitung von $x$ ist $1$.
+{{< /box-notice >}}
+
+<!-- Faktorregel -->
 {{< box-notice title="Faktorregel" >}}
 $f(x) = c \cdot g(x) \quad \rightarrow \quad f'(x) = c \cdot g'(x)$
 
 Ein Vorfaktor bleibt beim Ableiten erhalten.
 {{< /box-notice >}}
 
-{{< box-example title="Ableitung von $x$ und Faktorregel zusammen:" >}}
+<!-- Beispiele für Konstantenregel, Ableitung von $x$ und Faktorregel -->
+{{< box-example title="Beispiele für Konstantenregel, Ableitung von $x$ und Faktorregel:" >}}
 
+- $f(x)=5 \quad \rightarrow \quad f'(x) = 0$
 - $f(x)=x \quad \rightarrow \quad f'(x) = 1$
 - $f(x)=3x \Leftrightarrow f(x)=3 \cdot x \quad \rightarrow \quad f'(x) = 3 \cdot 1 = 3$
-- $f(x)=-5x \quad \rightarrow \quad f'(x) = -5$
-- $f(x)= \text{trölf} x \quad \rightarrow \quad f'(x) = \text{trölf}$
+- $f(x)=-5x \quad \rightarrow \quad f'(x) = -5 \cdot 1 = -5$
+- $f(x)= \text{trölf} \cdot x \quad \rightarrow \quad f'(x) = \text{trölf} \cdot 1 = \text{trölf}$
 
 {{< /box-example >}}
 
+<!-- Potenzregel -->
 {{< box-notice title="Potenzregel" >}}
 $f(x) = x^n \quad \rightarrow \quad f'(x) = n \cdot x^{n-1}$
 
 Man multipliziert den ursprünglichen Exponenten $n$ mit der Potenz und reduziert den ursprünglichen Exponenten um $1$.
 {{< /box-notice >}}
 
-{{< box-example title="Potenzregel:" >}}
+<!-- Beispiele für die Potenzregel -->
+{{< box-example title="Beispiele für die Potenzregel:" >}}
 
 - $f(x)=x^2 \quad \rightarrow \quad f'(x) = 2x^{2-1}=2x^1=2x$
 - $f(x)=x^3 \quad \rightarrow \quad f'(x) = 3x^{3-1}=3x^2$
@@ -57,16 +64,19 @@ Man multipliziert den ursprünglichen Exponenten $n$ mit der Potenz und reduzier
 
 {{< /box-example >}}
 
+<!-- Summen- und Differenzenregel -->
 {{< box-notice title="Summen- und Differenzenregel" >}}
 $f(x) = g(x) \pm h(x) \quad \rightarrow \quad f'(x) = g'(x) \pm h'(x)$
 
 Besteht ein Funktionsterm (hier: $f(x)$) aus einer Summe (*bzw. Differenz*) von einzelnen Termen (hier: $g(x)$ und $h(x)$), so leitet man jeden einzelnen Term für sich ab und addiert (*bzw. subtrahiert*) anschließend deren Ableitungen (hier: $g'(x) \pm h'(x)$).
 {{< /box-notice >}}
 
+<!-- Beispiele für alle bisherigen Ableitungsregeln zusammen -->
 {{< box-example title="Kostantenregel sowie Summen- und Differenzenregel:" >}}
 
 - $f(x)=x^2 + 3x \quad \rightarrow \quad f'(x) = (x^2)' + (3x)' = 2x + 3$
 - $f(x)=x^5 - 4x^2 \quad \rightarrow \quad f'(x) = (x^5)' - (4x^2)' = 5x^4 + 8x$
+- $f(x)=5(4x^3 - 1) \quad \rightarrow \quad f'(x) = 5 \cdot (4x^3 - 1)'= 5 \cdot 12x^2 = 60x^2$
 - $f(x)=-2x^3 + 7x - 5 \quad \rightarrow \quad f'(x) = (-2x^3)' + (7x)' - (5)' = -6x^2 + 7 - 0 = -6x^2 + 7$
 
 {{< /box-example >}}
@@ -80,7 +90,7 @@ Du erinnerst dich an die drei Methoden aus dem vorangegangenen Kapitel, mit dere
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
 Gegeben sei die Funktion $f(x)= -x^2 + 5x - 2$.
 
-Bestimme mit Hilfe der Ableitung die Steigung in den Punkten $P_1 \left(1|f(1)\right)$, $P_2 \left(2|f(2)\right)$ und $P_3 \left(5|f(5)\right)$.
+**Bestimme** mit Hilfe der Ableitung die Steigung in den Punkten $P_1 \left(1|f(1)\right)$, $P_2 \left(2|f(2)\right)$ und $P_3 \left(5|f(5)\right)$.
 {{< /job >}}
 
 {{< solution >}}
@@ -107,7 +117,7 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
 {{< /job >}}
 
 {{< job numbered="true" style="" title="Übung macht den Meister" columns="2" >}}
-<p>Bestimme jeweils den Term der Ableitungsfunktion $f'(x)$.</p>
+<p>**Bestimme** jeweils den Term der Ableitungsfunktion $f'(x)$.</p>
 <ol type="a">
     <li>$f(x)=3x+5$</li>
     <li>$f(x)=x^4-1$</li>
