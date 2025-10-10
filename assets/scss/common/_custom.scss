@@ -505,6 +505,7 @@ ol.two-columns, .two-columns ol, ul.two-columns, .two-columns ul {
     // column-count: 2 !important;
     // column-gap: 20px !important;
     columns: 2 !important;
+    width: 100% !important;
 }
 
 ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
