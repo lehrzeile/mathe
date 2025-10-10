@@ -263,7 +263,7 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 <li><b>Betrachte</b> das Video nun ein zweites Mal und <b>schreibe</b> die Beispielaufgabe <b>mit</b>.</li>
 {{< /job >}}
 
-{{< job name="" numbered="true" style="" title="Übung macht den Meister" entry="**Bestimme** jeweils die Schnittpunkte der beiden Parabeln." >}}
+{{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Bestimme** jeweils die Schnittpunkte der beiden Parabeln." >}}
 
 1. $f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$
 2. $f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$

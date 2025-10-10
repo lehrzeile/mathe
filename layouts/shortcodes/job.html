@@ -19,7 +19,8 @@
           {{ if $entry }}
             <p class="entry-text">{{ $entry | .Page.RenderString }}</p>
           {{ end }}
-          {{ if .Get "style" | eq "enum-alph" }} <ol type="a"> {{end}}
+          <!-- {{ if .Get "style" | eq "enum-alph" }} <ol type="a"> {{end}} -->
+          {{ if .Get "style" | eq "enum-alph" }} <div class="enum-alph"> {{end}}
           {{ if .Get "style" | eq "enum-arabic" }} <ol type="1"> {{end}}
           {{ if .Get "title" | eq "bettermarks" }}
             {{ .Inner }}
@@ -27,7 +28,8 @@
             {{ .Inner | strings.TrimSpace | .Page.RenderString }}
           {{ end }}
           {{ if .Get "style" | eq "enum-alph" }}
-            </ol>
+            <!-- </ol> -->
+          </div>
           {{ else if .Get "style" | eq "enum-arabic" }}
             </ol>
           {{ end }}

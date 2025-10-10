@@ -773,6 +773,10 @@ ol {
     margin-left: 1em;
 }
 
+.enum-alph > ol {
+    list-style-type: lower-alpha;
+}
+
 ol.breadcrumb, ol.breadcrumb li {
     margin-left: 0 !important;
 }
