@@ -31,7 +31,7 @@ Den Tiefpunkt bzw. Hochpunkt einer solchen bogenförmigen Parabel bezeichnet man
 Dieser kann beliebig im Koordinatensystem verschoben sein.
 
 {{< box-notice title="Allgemeine Funktionsgleichung einer quadratischen Funktion" >}}
-Die allgemeine Funktionsgleichung einer quadratischen Funktion hat immer die Form $$f(x)=ax^2+bx+c$$.
+Die allgemeine Funktionsgleichung einer quadratischen Funktion hat immer die Form $$f(x)=ax^2+bx+c.$$
 {{< /box-notice >}}
 
 ### Symmetrieeigenschaft und Scheitelpunkt quadratischer Funktionen
@@ -45,10 +45,10 @@ Den **Streck- bzw. Öffnungsfaktor** einer Parabel kann man ganz einfach ablesen
 {{< box-notice title="Streck- bzw. Öffnungsfaktor einer Parabel" >}}
     Ob eine Parabel gestreckt oder gestaucht ist, erkennst du am Vorfaktor $a$:
     <ul>
-        <li>$a = 1 \Rightarrow$ der Graph ist eine Normalparabel (oranger Graph)</li>
-        <li>$a = -1 \Rightarrow$ der Graph ist eine Normalparabel, aber nach unten geöffnet (blauer Graph)</li>
-        <li>$a > 1$ oder $a < -1 \Rightarrow$ die Parabel ist **gestreckt** (grüner Graph)</li>
-        <li>$-1 < a < 1, \hspace{5pt} a \neq 0 \Rightarrow$ die Parabel ist **gestaucht** (roter Graph)</li>
+        <li>$a = 1 :\quad$ der Graph ist eine Normalparabel (oranger Graph)</li>
+        <li>$a = -1 :\quad$ der Graph ist eine Normalparabel, aber nach unten geöffnet (blauer Graph)</li>
+        <li>$a > 1$ oder $a < -1 :\quad$ die Parabel ist **gestreckt** (grüner Graph)</li>
+        <li>$-1 < a < 1, \hspace{5pt} a \neq 0 :\quad$ die Parabel ist **gestaucht** (roter Graph)</li>
     </ul>
 {{< /box-notice >}}
 
@@ -109,20 +109,23 @@ Außerdem lässt sich noch erkennen, dass die Parabel um den Faktor $1,5$ gestre
     Ist eine quadratische Funktion in der Scheitelpunktform $ f(x) = a \cdot (x-x_s)^2 + y_s $ gegeben, so bestimmt $x_s$ die Verschiebung des Scheitelpunkts entlang der $x$-Achse.
     $y_s$ wiederum bestimmt die Verschiebung des Scheitelpunkts entlang der $y$-Achse.
     <ul>
-        <li>$x_s > 0 \Rightarrow $ Verschiebung um $x_s$ entlang der $x$-Achse in positive $x$-Richtung (nach rechts)</li>
-        <li>$x_s < 0 \Rightarrow $ Verschiebung um $x_s$ entlang der $x$-Achse in negative $x$-Richtung (nach links)</li>
-        <li>$x_s = 0 \Rightarrow $ der Scheitelpunkt liegt auf der $y$-Achse</li>
-        <li>$y_s > 0 \Rightarrow $ Verschiebung um $y_s$ entlang der $y$-Achse in positive $y$-Richtung (nach oben)</li>
-        <li>$y_s < 0 \Rightarrow $ Verschiebung um $y_s$ entlang der $y$-Achse in negative $y$-Richtung (nach unten)</li>
-        <li>$y_s = 0 \Rightarrow $ der Scheitelpunkt liegt auf der $x$-Achse</li>
+        <li>$x_s > 0 :\quad$ Verschiebung um $x_s$ entlang der $x$-Achse in positive $x$-Richtung (nach rechts)</li>
+        <li>$x_s < 0 :\quad$ Verschiebung um $x_s$ entlang der $x$-Achse in negative $x$-Richtung (nach links)</li>
+        <li>$x_s = 0 :\quad$ der Scheitelpunkt liegt auf der $y$-Achse</li>
+        <li>$y_s > 0 :\quad$ Verschiebung um $y_s$ entlang der $y$-Achse in positive $y$-Richtung (nach oben)</li>
+        <li>$y_s < 0 :\quad$ Verschiebung um $y_s$ entlang der $y$-Achse in negative $y$-Richtung (nach unten)</li>
+        <li>$y_s = 0 :\quad$ der Scheitelpunkt liegt auf der $x$-Achse</li>
     </ul>
 {{< /box-notice >}}
 
 {{< box-example title="Weitere Beispiele für verschobene Parabeln" >}}
 
-- $f(x)=(x-3)^2+5$: der Scheitelpunkt der Parabel wurde um **5 Einheiten nach oben** und um **3 Einheiten nach rechts** verschoben
-- $f(x)=(x+2)^2-1$: der Scheitelpunkt der Parabel wurde um **1 Einheit nach unten** und um **2 Einheiten nach links** verschoben
-- $f(x)=-(x-1)^2$: der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und liegt auf der $x$-Achse. Außerdem ist die Parabel **nach unten geöffnet**.
+- $f(x)=(x-3)^2+5$: \
+der Scheitelpunkt der Parabel wurde um **5 Einheiten nach oben** und um **3 Einheiten nach rechts** verschoben
+- $f(x)=(x+2)^2-1$: \
+der Scheitelpunkt der Parabel wurde um **1 Einheit nach unten** und um **2 Einheiten nach links** verschoben
+- $f(x)=-(x-1)^2$: \
+der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und liegt **auf der $x$-Achse**. Außerdem ist die Parabel **nach unten geöffnet**.
 
 {{< /box-example >}}
 
