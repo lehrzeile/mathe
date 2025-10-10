@@ -264,9 +264,14 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 {{< /job >}}
 
 {{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Bestimme** jeweils die Schnittpunkte der beiden Parabeln." >}}
-    <li>$f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$</li>
+
+- $f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$
+- $f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$
+- $f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$
+    <!-- <li>$f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$</li>
     <li>$f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$</li>
-    <li>$f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$</li>
+    <li>$f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$</li> -->
+
 {{< /job >}}
 
 {{< source text="matheportal.com" src="https://matheportal.com/wp-content/uploads/2023/09/loesung-zu-aufgaben-zu-schnittpunkten-von-quadratischen-funktionen-1.pdf" lastcall="13.08.2025" >}}
