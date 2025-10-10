@@ -523,14 +523,14 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
 
 .callout-body .enum-alph ul li::marker, .callout-body .enum-alph ol li::marker {
     content: counter(list-item, lower-alpha) ") " !important;
-    color: var(--primary-color);
-    font-weight: 500;
+    color: var(--primary-color) !important;
+    font-weight: 500 !important;
 }
 
 .callout-body .enum-arabic ul li::marker, .callout-body .enum-arabic ol li::marker {
     content: counter(list-item, decimal) ". " !important;
-    color: var(--primary-color);
-    font-weight: 500;
+    color: var(--primary-color) !important;
+    font-weight: 500 !important;
 }
 
 // .callout-body .enum-alph li:before {

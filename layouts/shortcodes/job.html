@@ -25,18 +25,19 @@
           {{ if .Get "style" | eq "enum-arabic" }} <div class="enum-arabic"> {{end}}
           {{ if .Get "title" | eq "bettermarks" }}
             {{ if .Get "style" | eq "enum-arabic" }}
-            <ul>
-            {{ .Inner }}
-            </ul>
+              <ul>
+              {{ .Inner }}
+              </ul>
             {{ end }}
             {{ if .Get "style" | eq "enum-arabic" }}
-            <ul>
-            {{ .Inner }}
-            </ul>
+              <ul>
+              {{ .Inner }}
+              </ul>
+            {{ else }}
+              <div class="no-enum">
+              {{ .Inner }}
+              </div>
             {{ end }}
-            <div class="no-enum">
-            {{ .Inner }}
-            </div>
           {{ else }}
             {{ .Inner | strings.TrimSpace | .Page.RenderString }}
           {{ end }}
