@@ -95,9 +95,9 @@ Rufe dir hierzu noch einmal das Video aus dem Abschnitt [Der Graph einer lineare
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" >}}
 
-- {{< bettermarks uebungscode="321G" seriesID="1666778532463771904" title="Graphen linearer Funktionen mit gleichen Steigungen oder gleichen y-Achsenabschnitten zeichnen">}}
-- {{< bettermarks uebungscode="Y7JQ" seriesID="1666779187962183936" title="Graph einer linearen Funktion zu gegebener Funktionsgleichung zeichnen" >}}
-- {{< bettermarks paper="true" uebungscode="2BYU" seriesID="1666750685397410817" title="Graphen linearer Funktionen auf Papier zeichnen - Achseneinteilung geeignet wählen" >}}
+{{< bettermarks uebungscode="321G" seriesID="1666778532463771904" title="Graphen linearer Funktionen mit gleichen Steigungen oder gleichen y-Achsenabschnitten zeichnen">}}
+{{< bettermarks uebungscode="Y7JQ" seriesID="1666779187962183936" title="Graph einer linearen Funktion zu gegebener Funktionsgleichung zeichnen" >}}
+{{< bettermarks paper="true" uebungscode="2BYU" seriesID="1666750685397410817" title="Graphen linearer Funktionen auf Papier zeichnen - Achseneinteilung geeignet wählen" >}}
 
 {{< /job >}}
 
