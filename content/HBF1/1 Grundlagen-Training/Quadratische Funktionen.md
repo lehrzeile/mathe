@@ -265,9 +265,9 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 
 {{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Bestimme** jeweils die Schnittpunkte der beiden Parabeln." >}}
 
-- $f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$
-- $f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$
-- $f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$
+1. $f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$
+2. $f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$
+3. $f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$
     <!-- <li>$f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$</li>
     <li>$f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$</li>
     <li>$f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$</li> -->
