@@ -234,8 +234,10 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 {{< youtube W9tPX_gcGJ4 >}}
 
 {{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" entry="" >}}
-    <li>**Schaue** dir zunächst aufmerksam das Video **an**.</li>
-    <li>**Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.</li>
+
+1. **Schaue** dir zunächst aufmerksam das Video **an**.
+2. **Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.
+
 {{< /job >}}
 
 {{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Bestimme** jeweils die Schnittpunkte von Parabel und Gerade." >}}
