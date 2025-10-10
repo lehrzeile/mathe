@@ -38,9 +38,8 @@
 #show: schoolbook-style
 
 #let function1 = xs.map(x =>  x*x)
-#let function2 = xs.map(x =>  -1*x*x)
-#let function3 = xs.map(x =>  2*x*x)
-#let function4 = xs.map(x =>  0.25*x*x)
+#let function2 = xs.map(x =>  x*x + 2)
+#let function3 = xs.map(x =>  x*x - 3)
 
 #lq.diagram(
   xlim: (-4.25, 4.25),
@@ -51,7 +50,6 @@
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
   lq.plot(xs, function1, mark: none, stroke: secondcolor + 1.5pt, label: [$f_1(x)=x^2$]),
-  lq.plot(xs, function2, mark: none, stroke: maincolor + 1.5pt, label: [$f_2(x)=-x^2$]),
-  lq.plot(xs, function3, mark: none, stroke: green.darken(30%) + 1.5pt, label: [$f_3(x)=2x^2$]),
-  lq.plot(xs, function4, mark: none, stroke: red.darken(30%) + 1.5pt, label: [$f_4(x)=0.25x^2$]),
+  lq.plot(xs, function2, mark: none, stroke: maincolor + 1.5pt, label: [$f_2(x)=x^2+2$]),
+  lq.plot(xs, function3, mark: none, stroke: green.darken(30%) + 1.5pt, label: [$f_3(x)=x^2-3$]),
 )

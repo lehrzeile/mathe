@@ -12,9 +12,9 @@ Quadratische Funktionen begegnen dir öfter, als du vielleicht denkst. Wenn du e
 ## Die Normalparabel
 
 {{< box-notice title="Normalparabel" >}}
-Die einfachste quadratische Funktion ist die Funktion $f(x)= x^2$.
+Die einfachste quadratische Funktion ist die Funktion $f(x)= x^2$ und wird als **Normalparabel** bezeichnet.
 
-Ihr Graph ist symmetrisch zur $y$-Achse und heißt Normalparabel und der Punkt $S(0|0)$ ist ihr <mark>Scheitelpunkt</mark>.
+Ihr Graph ist **symmetrisch zur $y$-Achse** und der Punkt $S(0|0)$ ist ihr **Scheitelpunkt**.
 {{< /box-notice >}}
 
 ![Normalparabel](img/Normalparabel.svg)
@@ -38,15 +38,15 @@ Eine Parabel ist <mark>achsensymmetrisch</mark>. Ihre Symmetrieachse ist eine ve
 
 ### Der Streckfaktor
 
-Den Strekfaktor einer Parabel kann man ganz einfach ablesen: Er ist der Parameter $a$ vor dem $x^2$, wenn $f(x)=ax^2$ ist. Der Streckfaktor $a$ bestimmt dabei die Form der Parabel. Man spricht hierbei entweder von Streckung oder Stauchung.
+Den Strekfaktor einer Parabel kann man ganz einfach ablesen: Er ist der Parameter $a$ vor dem $x^2$, wenn $f(x)=ax^2$ ist. Der Streckfaktor $a$ bestimmt dabei die Form der Parabel. Man spricht hierbei entweder von **Streckung** oder **Stauchung**.
 
 {{< box-notice >}}
     Ob eine Parabel gestreckt oder gestaucht ist, erkennst du am Vorfaktor $a$:
     <ul>
-        <li>$a = 1$ \Rightarrow $ der Graph ist eine Normalparabel (orangener Graph)</li>
-        <li>$a = -1 \Rightarrow $ der Graph ist genauso breit wie die Normalparabel, aber nach unten geöffnet (blauer Graph)</li>
-        <li>$a > 1$ oder $a < -1 \Rightarrow $ die Parabel ist **gestreckt** (grüner Graph)</li>
-        <li>$-1 < a < 1, a \neq 0 \Rightarrow $ die Parabel ist **gestaucht** (roter Graph)</li>
+        <li>$a = 1 \Rightarrow$ der Graph ist eine Normalparabel (oranger Graph)</li>
+        <li>$a = -1 \Rightarrow$ der Graph ist genauso breit wie die Normalparabel, aber nach unten geöffnet (blauer Graph)</li>
+        <li>$a > 1$ oder $a < -1 \Rightarrow$ die Parabel ist **gestreckt** (grüner Graph)</li>
+        <li>$-1 < a < 1, \hspace{5pt} a \neq 0 \Rightarrow$ die Parabel ist **gestaucht** (roter Graph)</li>
     </ul>
 {{< /box-notice >}}
 
@@ -68,6 +68,9 @@ Vorab: Der Parameter $b$ hat keinen sichtbaren Einfluss auf die Lage der Parabel
 - $c<0$: der Scheitelpunkt wird entlang der $y$-Achse **nach unten** verschoben
 
 {{< /box-notice >}}
+
+![Verschiebung der Normalparabel entlang der y-Achse](img/Verschiebung.svg)
+*Abb. 3: Verschiebung der Normalparabel entlang der $y$-Achse*
 
 ### Die Scheitelpunktform
 
