@@ -9,19 +9,32 @@ count: 0 # für die Nummerierung der Aufgaben
 
 Quadratische Funktionen begegnen dir öfter, als du vielleicht denkst. Wenn du einen Ball wirfst, eine Brücke anschaust oder eine Satellitenschüssel siehst, steckt dahinter oft eine besondere Kurve – die sogenannte **Parabel**.
 
+## Die Normalparabel
+
+{{< box-notice title="Normalparabel" >}}
+Die einfachste quadratische Funktion ist die Funktion $f(x)= x^2$.
+
+Ihr Graph ist symmetrisch zur $y$-Achse und heißt Normalparabel und der Punkt $S(0|0)$ ist ihr <mark>Scheitelpunkt</mark>.
+{{< /box-notice >}}
+
+![Normalparabel](img/Normalparabel.svg)
+*Abb. 1: Normalparabel*
+
 ## Der Graph einer quadratischen Funktion - Die Parabel
 
-Als <mark>Parabel</mark> wird der Graph einer quadratischen Funktion bezeichnet. Parabeln sind entweder nach unten oder nach oben geöffnet und sind dabei immer charakteristisch wie ein Bogen geformt.
+Den Graph einer beliebigen quadratischen Funktion bezeichnet man als <mark>Parabel</mark>.
+
+Parabeln können entweder nach unten oder nach oben geöffnet sein und sind dabei immer charakteristisch wie ein Bogen geformt.
 
 Den Tiefpunkt bzw. Hochpunkt einer solchen bogenförmigen Parabel bezeichnet man als <mark>Scheitelpunkt</mark>.
 
-Die allgemeine Funktionsgleichung einer quadratischen Funktion (Parabel) hat immer die Form $f(x)=ax^2+bx+c$.
+Dieser kann beliebig im Koordinatensystem verschoben sein.
 
-Die einfachste Parabel mit der Funktionsgleichung $f(x)=x^2$ wird als <mark>Normalparabel</mark> bezeichnet.
+Die allgemeine Funktionsgleichung einer quadratischen Funktion (Parabel) hat immer die Form $f(x)=ax^2+bx+c$.
 
 ### Symmetrieeigenschaft und Scheitelpunkt quadratischer Funktionen
 
-Eine Parabel ist <mark>achsensymmetrisch</mark>. Ihre Symmetrieachse ist eine vertikale Linie, die durch den Scheitelpunkt der Parabel verläuft und parallel zur y-Achse liegt. Das bedeutet, dass die linke und rechte Seite der Parabel, wenn man sie entlang dieser Achse spiegelt, perfekt übereinstimmen. Man könnte sie sozusagen entlang dieser Symmetrieachse falten, sodass anschließend beide Seiten übereinander liegen.
+Eine Parabel ist <mark>achsensymmetrisch</mark>. Ihre Symmetrieachse ist eine vertikale Linie, die durch den Scheitelpunkt der Parabel verläuft und parallel zur $y$-Achse liegt. Das bedeutet, dass die linke und rechte Seite der Parabel, wenn man sie entlang dieser Achse spiegelt, perfekt übereinstimmen. Man könnte sie sozusagen entlang dieser Symmetrieachse falten, sodass anschließend beide Seiten perfekt übereinander liegen.
 
 ### Der Streckfaktor
 
@@ -30,17 +43,31 @@ Den Strekfaktor einer Parabel kann man ganz einfach ablesen: Er ist der Paramete
 {{< box-notice >}}
     Ob eine Parabel gestreckt oder gestaucht ist, erkennst du am Vorfaktor $a$:
     <ul>
-        <li>$a = 1$ oder $a = -1 \Rightarrow $ der Graph ist genauso breit wie die Normalparabel</li>
-        <li>$a > 1$ oder $a < -1 \Rightarrow $ die Parabel ist gestreckt</li>
-        <li>$-1 < a < 1 \Rightarrow $ die Parabel ist gestaucht</li>
+        <li>$a = 1$ \Rightarrow $ der Graph ist eine Normalparabel (orangener Graph)</li>
+        <li>$a = -1 \Rightarrow $ der Graph ist genauso breit wie die Normalparabel, aber nach unten geöffnet (blauer Graph)</li>
+        <li>$a > 1$ oder $a < -1 \Rightarrow $ die Parabel ist **gestreckt** (grüner Graph)</li>
+        <li>$-1 < a < 1, a \neq 0 \Rightarrow $ die Parabel ist **gestaucht** (roter Graph)</li>
     </ul>
 {{< /box-notice >}}
+
+![gestreckte und gestauchte Parabeln](img/Streckung-Stauchung.svg)
+*Abb. 2: gestreckte und gestauchte Parabeln*
 
 ### Verschiebung der Normalparabel entlang der $y$-Achse
 
 Zurück zur allgemeinen Funktionsgleichung $f(x)=ax^2+bx+c$. Um den Streckfaktor $a$ haben wir uns bereits gekümmert. Wofür stehen allerdings $b$ und $c$?
 
+Wir untersuchen also jetzt, wie die Parabel im Koordinatensystem verschoben wird, wenn wir die Parameter $b$ und $c$ verändern.
+
 Vorab: Der Parameter $b$ hat keinen sichtbaren Einfluss auf die Lage der Parabel. Der Parameter $c$ beeinflusst jedoch, wie weit die Parabel <mark>nach oben oder nach unten verschoben</mark> wird.
+
+{{< box-notice title="Parameter $c$" >}}
+
+- $c=0$: der Scheitelpunkt liegt auf der $x$-Achse
+- $c>0$: der Scheitelpunkt wird entlang der $y$-Achse **nach oben** verschoben
+- $c<0$: der Scheitelpunkt wird entlang der $y$-Achse **nach unten** verschoben
+
+{{< /box-notice >}}
 
 ### Die Scheitelpunktform
 
