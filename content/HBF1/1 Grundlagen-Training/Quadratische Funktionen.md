@@ -201,7 +201,7 @@ Dabei sind $x_1$ und $x_2$ die Nullstellen des Polynoms und $a$ der Streck- bzw.
 Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -- die allgemeine Form, die Scheitelpunktform sowie die Linearfaktorform -- einer quadratischen Funktion auf unterschiedliche Art und Weise.
 
 {{< job numbered="false" style="" title="" name="Tüftelaufgabe" >}}
-    Es gibt drei Möglichkeiten, eine quadratische Funktion darzustellen: die allgemeine Form, die Scheitelpunktform sowie die Linearfaktorform. Stelle dar, wie man mathematisch zwischen diesen drei Darstellungsformen wechseln kann.
+    Es gibt drei Möglichkeiten, eine quadratische Funktion darzustellen: die allgemeine Form, die Scheitelpunktform sowie die Linearfaktorform. Stelle dar, wie man mathematisch zwischen diesen drei Darstellungsformen wechseln kann und welche Vor- und Nachteile die jeweiligen Darstellungsformen haben.
 {{< /job >}}
 
 {{< box-note title="Kurzvortrag gefällig?" >}}
