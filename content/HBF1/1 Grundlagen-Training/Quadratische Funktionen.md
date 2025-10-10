@@ -38,9 +38,9 @@ Eine Parabel ist <mark>achsensymmetrisch</mark>. Ihre Symmetrieachse ist eine ve
 
 ### Der Streckfaktor
 
-Den Strekfaktor einer Parabel kann man ganz einfach ablesen: Er ist der Parameter $a$ vor dem $x^2$, wenn $f(x)=ax^2$ ist. Der Streckfaktor $a$ bestimmt dabei die Form der Parabel. Man spricht hierbei entweder von **Streckung** oder **Stauchung**.
+Den **Streck- bzw. Öffnungsfaktor** einer Parabel kann man ganz einfach ablesen: Er ist der Parameter $a$ vor dem $x^2$, wenn $f(x)=ax^2$ ist. Der Streckfaktor $a$ bestimmt dabei die Form der Parabel. Man spricht hierbei entweder von **Streckung** oder **Stauchung**.
 
-{{< box-notice >}}
+{{< box-notice title="Streck- bzw. Öffnungsfaktor einer Parabel" >}}
     Ob eine Parabel gestreckt oder gestaucht ist, erkennst du am Vorfaktor $a$:
     <ul>
         <li>$a = 1 \Rightarrow$ der Graph ist eine Normalparabel (oranger Graph)</li>
@@ -61,7 +61,9 @@ Wir untersuchen also jetzt, wie die Parabel im Koordinatensystem verschoben wird
 
 Vorab: Der Parameter $b$ hat keinen sichtbaren Einfluss auf die Lage der Parabel. Der Parameter $c$ beeinflusst jedoch, wie weit die Parabel <mark>nach oben oder nach unten verschoben</mark> wird.
 
-{{< box-notice title="Parameter $c$" >}}
+{{< box-notice title="Verschiebung der Normalparabel entlang der $y$-Achse" >}}
+
+Um nachvollziehen zu können, wie der Scheitelpunkt einer Parabel entlang der $y$-Achse verschoben wird, betrachten wir ausschließlich den Parameter $c$:
 
 - $c=0$: der Scheitelpunkt liegt auf der $x$-Achse
 - $c>0$: der Scheitelpunkt wird entlang der $y$-Achse **nach oben** verschoben
@@ -74,11 +76,13 @@ Vorab: Der Parameter $b$ hat keinen sichtbaren Einfluss auf die Lage der Parabel
 
 ### Die Scheitelpunktform
 
-Neben der allgemeinen Form einer Parabel $f(x)=ax^2+bx+c$ werden Parabeln häufig auch in der sogenannten <mark>Scheitelpunktform</mark> dargestellt. Mit Hilfe der Scheitelpunktform lässt sich der Scheitelpunkt - und somit im Grunde alle wichtigen Eigenschaften einer Parabel - besonders leicht ablesen.
+Neben der allgemeinen Form einer Parabel $f(x)=ax^2+bx+c$ werden Parabeln häufig auch in der sogenannten <mark>Scheitelpunktform</mark> dargestellt. Mit Hilfe der Scheitelpunktform lässt sich der Scheitelpunkt - und somit im Grunde fast (!) alle wichtigen Eigenschaften einer Parabel - besonders leicht ablesen.
 
+{{< box-notice title="Scheitelpunktform von quadratischen Funktionen" >}}
 Die Scheitelpunktform einer quadratischen Funktion ist gegeben durch
 $$ f(x) = a \cdot (x-x_s)^2 + y_s $$
-wobei $x_s$ und $y_s$ die Koordinaten des Scheitelpunkts $S(x_s|y_s)$ sind.
+wobei $x_s$ und $y_s$ die Koordinaten des Scheitelpunkts $S(x_s|y_s)$ sind und $a$ der Streck- bzw. Öffnungsfaktor der Parabel ist.
+{{< /box-notice >}}
 
 ### Verschiebung einer Parabel entlang der $x$- und $y$-Achse
 
@@ -102,6 +106,18 @@ Außerdem lässt sich noch erkennen, dass die Parabel um den Faktor $3$ gestreck
         <li>$y_s = 0 \Rightarrow $ der Scheitelpunkt liegt auf der $x$-Achse</li>
     </ul>
 {{< /box-notice >}}
+
+{{< box-example title="Beispiele für verschobene Parabeln" >}}
+
+- $f(x)=(x-3)^2+5$: der Scheitelpunkt der Parabel wurde um **5 Einheiten nach oben** und um **3 Einheiten nach rechts** verschoben
+- $f(x)=(x+2)^2-1$: der Scheitelpunkt der Parabel wurde um **1 Einheit nach unten** und um **2 Einheiten nach links** verschoben
+- $f(x)=(x-1)^2$: der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und liegt auf der $x$-Achse
+
+{{< /box-example >}}
+
+{{< box-question title="Ist dir etwas aufgefallen?" >}}
+Die Scheitelpunktform liefert uns nicht nur Auskunft über die Verschiebung der Parabel entlang der $y$-Achse. Sie liefert uns darüber hinaus auch eine Information darüber, wie weit der Scheitelpunkt entlang der $x$-Achse nach links oder rechts verschoben wurde.
+{{< /box-question >}}
 
 ## Die drei Darstellungsformen
 
