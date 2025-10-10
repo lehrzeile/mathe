@@ -525,6 +525,10 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
     content: counter(list-item) ") " !important;
 }
 
+.callout-body .enum-alph li:before {
+    content: counter(list-item) ") " !important;
+}
+
 .no-enum {
     list-style-type: none !important;
 }

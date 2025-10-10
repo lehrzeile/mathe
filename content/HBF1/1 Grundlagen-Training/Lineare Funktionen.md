@@ -63,7 +63,7 @@ Eine Anleitung, wie das am praktischen Beispiel funktioniert, findest du hier:
 
 {{< youtube 5L7O_3giIps >}}
 
-{{< job numbered="true" style="" title="bettermarks" >}}
+{{< job numbered="true" style="enum-alph" title="bettermarks" >}}
 
 {{< bettermarks uebungscode="3YBP" seriesID="1666766210978546048" title="Steigung einer Geraden ablesen" >}}
 {{< bettermarks uebungscode="AL61" seriesID="1666767508096418048" title="Funktionsgleichung zum Graphen einer linearen Funktion bestimmen" >}}
