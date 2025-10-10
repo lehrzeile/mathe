@@ -115,7 +115,7 @@ Eine Möglichkeit - die hier vorgestellt wird - besteht darin, eine Wertetabelle
 
 {{< /job >}}
 
-{{< job numbered="true" style="" title="bettermarks" entry="Teste dein Können mit Hilfe der folgenden Aufgabe bei bettermarks:" >}}
+{{< job numbered="true" style="" title="bettermarks" entry="**Teste** dein Können mit Hilfe der folgenden Aufgabe bei bettermarks:" >}}
     {{< bettermarks uebungscode="U5TA" seriesID="1667066778770997376" title="Funktionsgleichung zu gegebener Wertetabelle bestimmen" >}}
 {{< /job >}}
 
@@ -138,8 +138,8 @@ In einem der vorherigen Abschnitte hast du bereits gelernt, wie man eine Werteta
 {{< job numbered="false" style="enum-arabic" name="Beobachtungsauftrag" >}}
 
 - Wiederholung vorheriger Abschnitte: \
-Schaue dir das nachfolgende Video an und vollziehe das Aufstellen der Funktionsgleichung sowie das Bestimmen der $y$-Werte nach.
-- Halte nun das Video an der Stelle <code>6:20</code> an und bestimme den $x$-Wert zum gegebenen $y$-Wert $3,5$. Kontrolliere anschließend deine Lösung, indem du das Video zu Ende schaust.
+**Schaue** dir das nachfolgende Video **an** und **vollziehe** das Aufstellen der Funktionsgleichung sowie das Bestimmen der $y$-Werte **nach**.
+- **Halte** nun das Video an der Stelle <code>6:20</code> **an** und **bestimme** den $x$-Wert zum gegebenen $y$-Wert $3,5$. **Kontrolliere** anschließend deine Lösung, indem du das Video zu Ende schaust.
 
 {{< /job >}}
 
