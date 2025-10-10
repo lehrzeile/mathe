@@ -25,7 +25,7 @@ $m$ steht hierbei für die Steigung der Geraden, $b$ wiederum für den sogenannt
 
 ## Der Graph einer linearen Funktion
 
-{{< box-notice title="" >}}
+{{< box-notice title="Graph einer linearen Funktion" >}}
     Der Graph einer linearen Funktion ist immer eine **Gerade**.
 {{< /box-notice >}}
 
@@ -47,7 +47,7 @@ Der y-Achsenabschnitt $b$ wiederum beschreibt diejenige Stelle, an der der Funkt
 
 {{< job numbered="false" style="enum-arabic" name="Beobachtungsauftrag" >}}
 
-- *Schaue* dir zunächst aufmerksam das Video **an** und rufe dir die Vorgehensweise in Erinnerung.
+- **Schaue** dir zunächst aufmerksam das Video **an** und rufe dir die Vorgehensweise in Erinnerung.
 - **Zeichne** den Graphen der Funktion $f(x)=-2x+3$.
 
 {{< /job >}}
