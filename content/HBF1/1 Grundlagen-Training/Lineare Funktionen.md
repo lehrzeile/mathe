@@ -65,9 +65,9 @@ Eine Anleitung, wie das am praktischen Beispiel funktioniert, findest du hier:
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" >}}
 
-- {{< bettermarks uebungscode="3YBP" seriesID="1666766210978546048" title="Steigung einer Geraden ablesen" >}}
-- {{< bettermarks uebungscode="AL61" seriesID="1666767508096418048" title="Funktionsgleichung zum Graphen einer linearen Funktion bestimmen" >}}
-- {{< bettermarks uebungscode="GME1" seriesID="1666766751972458880" title="Funktionsgleichung zu einer Geraden bestimmen" >}}
+{{< bettermarks uebungscode="3YBP" seriesID="1666766210978546048" title="Steigung einer Geraden ablesen" >}}
+{{< bettermarks uebungscode="AL61" seriesID="1666767508096418048" title="Funktionsgleichung zum Graphen einer linearen Funktion bestimmen" >}}
+{{< bettermarks uebungscode="GME1" seriesID="1666766751972458880" title="Funktionsgleichung zu einer Geraden bestimmen" >}}
 
 {{< /job >}}
 

@@ -111,30 +111,29 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
 ## Übung macht den Meister
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" >}}
-    <li>{{< bettermarks uebungscode="LLD6Q" seriesID="1689552499859521664" title="Die Potenzregel bei der Bestimmung von Ableitungsfunktionen nutzen" >}}</li>
-    <li>{{< bettermarks uebungscode="LY7J2" seriesID="1689552696945672576" title="Die Faktor- und Summenregeln bei der Bestimmung von Ableitungsfunktionen nutzen" >}}</li>
-    <li>{{< bettermarks uebungscode="D5L9" seriesID="1689552038590939264" title="Höhere Ableitungen ganzrationaler Funktionen und deren Grad bestimmen" >}}</li>
+    {{< bettermarks uebungscode="LLD6Q" seriesID="1689552499859521664" title="Die Potenzregel bei der Bestimmung von Ableitungsfunktionen nutzen" >}}
+    {{< bettermarks uebungscode="LY7J2" seriesID="1689552696945672576" title="Die Faktor- und Summenregeln bei der Bestimmung von Ableitungsfunktionen nutzen" >}}
+    {{< bettermarks uebungscode="D5L9" seriesID="1689552038590939264" title="Höhere Ableitungen ganzrationaler Funktionen und deren Grad bestimmen" >}}
 {{< /job >}}
 
-{{< job numbered="true" style="" title="Übung macht den Meister" columns="2" >}}
-<p>**Bestimme** jeweils den Term der Ableitungsfunktion $f'(x)$.</p>
-<ol type="a">
-    <li>$f(x)=3x+5$</li>
-    <li>$f(x)=x^4-1$</li>
-    <li>$f(x)=-3x^6$</li>
-    <li>$f(x)=\frac12x^4$</li>
-    <li>$f(x)=3x^3-4x^2+5x-6$</li>
-    <li>$f(x)=\frac16 x^3 - \frac34 x^2 + \frac15 x - 3$</li>
-</ol>
+{{< job numbered="true" style="" title="Übung macht den Meister" columns="2" entry="**Bestimme** jeweils den Term der Ableitungsfunktion $f'(x)$." >}}
+
+- $f(x)=3x+5$
+- $f(x)=x^4-1$
+- $f(x)=-3x^6$
+- $f(x)=\frac12x^4$
+- $f(x)=3x^3-4x^2+5x-6$
+- $f(x)=\frac16 x^3 - \frac34 x^2 + \frac15 x - 3$
+
 {{< /job >}}
 
 {{< solution >}}
-    <ol type="a">
-        <li>$f'(x)=3$</li>
-        <li>$f'(x)=4x^3$</li>
-        <li>$f'(x)=-18x^5$</li>
-        <li>$f'(x)=2x^3$</li>
-        <li>$f'(x)=9x^2 - 8x + 5$</li>
-        <li>$f'(x)=\frac12x^2 - \frac32 x + \frac15$</li>
-    </ol>
+
+- $f'(x)=3$
+- $f'(x)=4x^3$
+- $f'(x)=-18x^5$
+- $f'(x)=2x^3$
+- $f'(x)=9x^2 - 8x + 5$
+- $f'(x)=\frac12x^2 - \frac32 x + \frac15$
+
 {{< /solution >}}

@@ -23,23 +23,29 @@ Zunächst schauen wir uns dazu ein Beispiel einer Funktion dritten Grades an.
 {{< youtube 4I640yIiBbU >}}
 
 {{< job numbered="false" style="enum-arabic" name="Beobachtungsauftrag" >}}
-    <li>Schaue dir zunächst aufmerksam das Video an.</li>
-    <li>Betrachte das Video nun ein zweites Mal und schreibe die Beispielaufgabe mit.</li>
-    <li>Übe noch einmal die schriftliche Division am Beispiel $7800:24$.</li>
+
+- **Schaue** dir zunächst aufmerksam das Video **an**.
+- **Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.
+- **Übe** noch einmal die schriftliche Division am Beispiel $7800:24$.
+
 {{< /job >}}
 
-{{< job numbered="true" style="enum-alph" title="Üben und Vertiefen" entry="Führe die jeweilige Polynomdivision durch." >}}
-    <li>$(x^3 – 6x^2 + 11x – 6) : (x – 1)$</li>
-    <li>$(x^3 + x^2 – 4x – 4) : (x + 1)$</li>
-    <li>$(25x^3 + 15x^2 – 9x + 1) : (x + 1)$</li>
-    <li>$(x^3 – 10x^2 + 29x – 20) : (x – 5)$</li>
+{{< job numbered="true" style="enum-alph" title="Üben und Vertiefen" entry="**Führe** die jeweilige Polynomdivision **durch**." >}}
+
+- $(x^3 – 6x^2 + 11x – 6) : (x – 1)$
+- $(x^3 + x^2 – 4x – 4) : (x + 1)$
+- $(25x^3 + 15x^2 – 9x + 1) : (x + 1)$
+- $(x^3 – 10x^2 + 29x – 20) : (x – 5)$
+
 {{< /job >}}
 
 {{< solution numbered="true" style="enum-alph" >}}
-    <li>$(x^3 – 6x^2 + 11x – 6) : (x – 1) = x^2 - 5x + 6$</li>
-    <li>$(x^3 + x^2 – 4x – 4) : (x + 1) = x^2 - 4$</li>
-    <li>$(25x^3 + 15x^2 – 9x + 1) : (x + 1) = 25x^2 – 10x + 1$</li>
-    <li>$(x^3 – 10x^2 + 29x – 20) : (x – 5) = x^2 – 5x + 4$</li>
+
+- $(x^3 – 6x^2 + 11x – 6) : (x – 1) = x^2 - 5x + 6$
+- $(x^3 + x^2 – 4x – 4) : (x + 1) = x^2 - 4$
+- $(25x^3 + 15x^2 – 9x + 1) : (x + 1) = 25x^2 – 10x + 1$
+- $(x^3 – 10x^2 + 29x – 20) : (x – 5) = x^2 – 5x + 4$
+
 {{< /solution >}}
 
 ## Polynomdivision bei Polynomen vierten Grades
@@ -49,25 +55,31 @@ Das Verfahren der Polynomdivision funktioniert natürlich auch mit Polynomen hö
 {{< youtube CNiS387yEOc >}}
 
 {{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" >}}
-    <li>Schau dir das folgende Video zunächst einmal aufmerksam an.</li>
-    <li>Schaue das Video nun ein zweites Mal, schreibe dabei die Beispielaufgabe mit und mache dir zu den jeweiligen Rechenschritten Notizen.</li>
-    <li>Lege dir nun deine Notizen zur Seite und löse mit deren Hilfe die Beispielaufgabe $(x^4-3x^2+5x-4):(x-2)$ selbst.</li>
+
+- **Schaue** dir das folgende Video zunächst einmal aufmerksam **an**.
+- **Schaue** das Video nun ein zweites Mal, **schreibe** dabei die Beispielaufgabe **mit** und **mache** dir zu den jeweiligen Rechenschritten Notizen.
+- **Lege** dir nun deine Notizen zur Seite und **löse** mit deren Hilfe die Beispielaufgabe $(x^4-3x^2+5x-4):(x-2)$ selbst.
+
 {{< /job >}}
 
-{{< job numbered="true" style="enum-alph" title="Übung macht den Meister" entry="Führe die jeweilige Polynomdivision durch." >}}
-    <li>$(2x^4 + 4x^3 + 3x^2 + 6x) : (x + 2)$</li>
-    <li>$(2x^4 + 3x^3 + x^2 - 3x - 3) : (x + 1)$</li>
-    <li>$(-4x^4 - 2x^3 - 4x^2 - 2x + 4) : (2x + 2)$</li>
-    <li>$(6x^4 - 48x^2 + 96) : (2x^2 - 8)$</li>
-    <li>$(5x^4 - 80) : (x^2 - 4) $</li>
+{{< job numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Führe** die jeweilige Polynomdivision **durch**." >}}
+
+- $(2x^4 + 4x^3 + 3x^2 + 6x) : (x + 2)$
+- $(2x^4 + 3x^3 + x^2 - 3x - 3) : (x + 1)$
+- $(-4x^4 - 2x^3 - 4x^2 - 2x + 4) : (2x + 2)$
+- $(6x^4 - 48x^2 + 96) : (2x^2 - 8)$
+- $(5x^4 - 80) : (x^2 - 4) $
+
 {{< /job >}}
 
 {{< solution numbered="true" style="enum-alph" >}}
-    <li>$(2x^4 + 4x^3 + 3x^2 + 6x) : (x + 2) = 2x^3 + 3x$</li>
-    <li>$(2x^4 + 3x^3 + x^2 - 3x - 3) : (x + 1) = 2x^3 + x^2 - 3$</li>
-    <li>$(-4x^4 - 2x^3 - 4x^2 - 2x + 4) : (2x + 2) = -2x^3 + x^2 - 3x + 2$</li>
-    <li>$(6x^4 - 48x^2 + 96) : (2x^2 - 8) = 3x^2 - 12$</li>
-    <li>$(5x^4 - 80) : (x^2 - 4) = 5x^2 + 20$</li>
+
+- $(2x^4 + 4x^3 + 3x^2 + 6x) : (x + 2) = 2x^3 + 3x$
+- $(2x^4 + 3x^3 + x^2 - 3x - 3) : (x + 1) = 2x^3 + x^2 - 3$
+- $(-4x^4 - 2x^3 - 4x^2 - 2x + 4) : (2x + 2) = -2x^3 + x^2 - 3x + 2$
+- $(6x^4 - 48x^2 + 96) : (2x^2 - 8) = 3x^2 - 12$
+- $(5x^4 - 80) : (x^2 - 4) = 5x^2 + 20$
+
 {{< /solution >}}
 
 ## Fragen und "Fallstricke" bei der Polynomdivision

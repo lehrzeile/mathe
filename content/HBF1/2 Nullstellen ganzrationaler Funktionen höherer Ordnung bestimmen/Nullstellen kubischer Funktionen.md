@@ -24,13 +24,13 @@ Bevor wir uns mit den Verfahren zur Nullstellenbestimmung von Polynomfunktionen 
 {{< /box-notice >}}
 
 {{< box-note title="Beispiel" >}}
-    <ul>
-        <li>Eine lineare Funktion - also eine Polynomfunktion vom Grad <b>eins</b> - besitzt maximal <b>eine</b> Nullstelle.</li>
-        <li>Eine quadratische Funktion (Grad <b>zwei</b>) kann maximal <b>zwei</b> Nullstellen besitzen.</li>
-        <li>Eine Polynomfunktion vom Grad <b>drei</b> kann maximal <b>drei</b> Nullstellen besitzen.</li>
-        <li>...</li>
-        <li>Eine Polynomfunktion vom Grad <b>n</b> kann maximal <b>n</b> Nullstellen besitzen.</li>
-    </ul>
+
+- Eine lineare Funktion - also eine Polynomfunktion vom Grad <b>eins</b> - besitzt maximal <b>eine</b> Nullstelle.
+- Eine quadratische Funktion (Grad <b>zwei</b>) kann maximal <b>zwei</b> Nullstellen besitzen.
+- Eine Polynomfunktion vom Grad <b>drei</b> kann maximal <b>drei</b> Nullstellen besitzen.
+- ...
+- Eine Polynomfunktion vom Grad <b>n</b> kann maximal <b>n</b> Nullstellen besitzen.
+
 {{< /box-notice >}}
 
 ## Neue Verfahren zum Bestimmen von Nullstellen
@@ -46,24 +46,30 @@ Hat man es mit einer linearen oder quadratischen Funktion zu tun, so lassen sich
 {{< youtube oywjcZxfwS4 >}}
 
 {{< job title="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" >}}
-    <li>Schaue dir zunächst aufmerksam das Video an.</li>
-    <li>Betrachte das Video nun ein zweites Mal und schreibe die Beispielaufgabe mit.</li>
+
+- **Schaue** dir zunächst aufmerksam das Video **an**.
+- **Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.
+
 {{< /job >}}
 
-{{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="Bestimme die Nullstellen der jeweiligen Funktion, indem du zunächst die kleinste Potenz ausklammerst und dann den Satz vom Nullprodukt anwendest." >}}
-    <li>$f_1(x) = x^3 – 4x$</li>
-    <li>$f_2(x) = x^3 + 4x^2$</li>
-    <li>$f_3(x) = x^3 - 3x^2$</li>
-    <li>$f_4(x) = 2x^3 - 5x^2$</li>
-    <li>$f_5(x) = 0,5x^3 - x^2$</li>
+{{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Bestimme** die Nullstellen der jeweiligen Funktion, indem du zunächst die kleinste Potenz ausklammerst und dann den Satz vom Nullprodukt anwendest." >}}
+
+- $f_1(x) = x^3 – 4x$
+- $f_2(x) = x^3 + 4x^2$
+- $f_3(x) = x^3 - 3x^2$
+- $f_4(x) = 2x^3 - 5x^2$
+- $f_5(x) = 0,5x^3 - x^2$
+
 {{< /job >}}
 
 {{< solution numbered="true" style="enum-alph" >}}
-    <li>$f_1(x) = x^3 – 4x \qquad \Rightarrow x_1=-2, \quad x_2=0, x_3=2$</li>
-    <li>$f_2(x) = x^3 + 4x^2 \qquad \Rightarrow x_1=-4, \quad x_2=0$</li>
-    <li>$f_3(x) = x^3 - 3x^2 \qquad \Rightarrow x_1=0, \quad x_2=3$</li>
-    <li>$f_4(x) = 2x^3 - 5x^2 \qquad \Rightarrow x_1=0, \quad x_2=2,5$</li>
-    <li>$f_5(x) = 0,5x^3 - x^2 \qquad \Rightarrow x_1=0, \quad x_2=2$</li>
+
+- $f_1(x) = x^3 – 4x \qquad \Rightarrow x_1=-2, \quad x_2=0, x_3=2$
+- $f_2(x) = x^3 + 4x^2 \qquad \Rightarrow x_1=-4, \quad x_2=0$
+- $f_3(x) = x^3 - 3x^2 \qquad \Rightarrow x_1=0, \quad x_2=3$
+- $f_4(x) = 2x^3 - 5x^2 \qquad \Rightarrow x_1=0, \quad x_2=2,5$
+- $f_5(x) = 0,5x^3 - x^2 \qquad \Rightarrow x_1=0, \quad x_2=2$
+
 {{< /solution >}}
 
 ## Nullstellen durch Ausklammern und p-q-Formel bestimmen
@@ -71,22 +77,28 @@ Hat man es mit einer linearen oder quadratischen Funktion zu tun, so lassen sich
 {{< youtube z4BjIqYJCps >}}
 
 {{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" >}}
-    <li>Schaue dir zunächst aufmerksam das Video an.</li>
-    <li>Betrachte das Video nun ein zweites Mal und schreibe die Beispielaufgabe mit.</li>
+
+- **Schaue** dir zunächst aufmerksam das Video **an**.
+- **Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.
+
 {{< /job >}}
 
-{{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="Bestimme die Nullstellen der jeweiligen Funktion, indem du zunächst die kleinste Potenz ausklammerst und dann die p-q-Formel anwendest." >}}
-    <li>$f_1(x) = 0,25x^3 – x^2 + x$</li>
-    <li>$f_2(x) = x^3 + 2x^2 - 3x$</li>
-    <li>$f_3(x) = x^3 - 6x^2 + 9x$</li>
-    <li>$f_4(x) = x^3 - 8x^2 + 16x$</li>
-    <li>$f_5(x) = x^3 - 4x^2 - 21x$</li>
+{{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Bestimme** die Nullstellen der jeweiligen Funktion, indem du zunächst die kleinste Potenz ausklammerst und dann die p-q-Formel anwendest." >}}
+
+- $f_1(x) = 0,25x^3 – x^2 + x$
+- $f_2(x) = x^3 + 2x^2 - 3x$
+- $f_3(x) = x^3 - 6x^2 + 9x$
+- $f_4(x) = x^3 - 8x^2 + 16x$
+- $f_5(x) = x^3 - 4x^2 - 21x$
+
 {{< /job >}}
 
 {{< solution numbered="true" style="enum-alph" >}}
-    <li>$f_1(x) = x^3 + 2x^2 - 3x \qquad \Rightarrow x_1=-3, \quad x_2=0, \quad x_3=1$</li>
-    <li>$f_2(x) = x^3 + 2x^2 - 3x \qquad \Rightarrow x_1=-3, \quad x_2=0, \quad x_3=1$</li>
-    <li>$f_3(x) = x^3 - 6x^2 + 9x \qquad \Rightarrow x_1=0, \quad x_2=3$</li>
-    <li>$f_4(x) = x^3 - 8x^2 + 16x \qquad \Rightarrow x_1=0, \quad x_2=4$</li>
-    <li>$f_5(x) = x^3 - 4x^2 - 21x \qquad \Rightarrow x_1=-3, \quad x_2=0, \quad x_3=7$</li>
+
+- $f_1(x) = x^3 + 2x^2 - 3x \qquad \Rightarrow x_1=-3, \quad x_2=0, \quad x_3=1$
+- $f_2(x) = x^3 + 2x^2 - 3x \qquad \Rightarrow x_1=-3, \quad x_2=0, \quad x_3=1$
+- $f_3(x) = x^3 - 6x^2 + 9x \qquad \Rightarrow x_1=0, \quad x_2=3$
+- $f_4(x) = x^3 - 8x^2 + 16x \qquad \Rightarrow x_1=0, \quad x_2=4$
+- $f_5(x) = x^3 - 4x^2 - 21x \qquad \Rightarrow x_1=-3, \quad x_2=0, \quad x_3=7$
+
 {{< /solution >}}

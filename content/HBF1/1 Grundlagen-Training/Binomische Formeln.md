@@ -19,18 +19,18 @@ Die binomischen - nicht bi**o**nomischen (!) - Formeln sind besonders nützlich,
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" >}}
 
-- {{< bettermarks uebungscode="QGUG" seriesID="1669010761260728704" title="Mit der ersten binomischen Formel ausmultiplizieren" >}}
-- {{< bettermarks uebungscode="8QCA" seriesID="1669011209380167808" title="Mit der ersten binomischen Formel als Produkt schreiben" >}}
+{{< bettermarks uebungscode="QGUG" seriesID="1669010761260728704" title="Mit der ersten binomischen Formel ausmultiplizieren" >}}
+{{< bettermarks uebungscode="8QCA" seriesID="1669011209380167808" title="Mit der ersten binomischen Formel als Produkt schreiben" >}}
 
 <hr>
 
-- {{< bettermarks uebungscode="2FTP" seriesID="1669011356289859584" title="Mit der zweiten binomischen Formel ausmultiplizieren" >}}
-- {{< bettermarks uebungscode="JBDB" seriesID="1669011483595374976" title="Mit der zweiten binomischen Formel als Produkt schreiben" >}}
+{{< bettermarks uebungscode="2FTP" seriesID="1669011356289859584" title="Mit der zweiten binomischen Formel ausmultiplizieren" >}}
+{{< bettermarks uebungscode="JBDB" seriesID="1669011483595374976" title="Mit der zweiten binomischen Formel als Produkt schreiben" >}}
 
 <hr>
 
-- {{< bettermarks uebungscode="CRUV" seriesID="1669011680140460416" title="Mit der dritten binomischen Formel ausmultiplizieren" >}}
-- {{< bettermarks uebungscode="BJD1" seriesID="1669011769240060288" title="Mit der dritten binomischen Formel als Produkt schreiben" >}}
+{{< bettermarks uebungscode="CRUV" seriesID="1669011680140460416" title="Mit der dritten binomischen Formel ausmultiplizieren" >}}
+{{< bettermarks uebungscode="BJD1" seriesID="1669011769240060288" title="Mit der dritten binomischen Formel als Produkt schreiben" >}}
 
 {{< /job >}}
 
