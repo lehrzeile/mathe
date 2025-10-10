@@ -34,7 +34,7 @@ Die binomischen - nicht bi**o**nomischen (!) - Formeln sind besonders nützlich,
 
 {{< /job >}}
 
-{{< job numbered="true" style="enum-alph" title="Binomische Formeln anwenden" columns="2" entry="**Wende** auf die folgenden Terme die binomischen Formeln **an**." >}}
+{{< job numbered="true" style="enum-alph" title="Binomische Formeln anwenden" columns="3" entry="**Wende** auf die folgenden Terme die binomischen Formeln **an**." >}}
 
 - $(2x-5)^2$
 - $(10 - a)\cdot(10 + a)$
@@ -65,7 +65,6 @@ Die binomischen - nicht bi**o**nomischen (!) - Formeln sind besonders nützlich,
 - $64x^2 - 36$
 - $25z^2 + 40zy + 16y^2$
 - $100a^2 - 60ab + 9b^2$
-
 - $256 - 25f^2$
 - $80u + 64u^2 + 25$
 - $-56ab + 49b^2 + 16a^2$
