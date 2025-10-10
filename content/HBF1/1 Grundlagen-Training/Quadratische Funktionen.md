@@ -44,7 +44,7 @@ Den **Streck- bzw. Öffnungsfaktor** einer Parabel kann man ganz einfach ablesen
     Ob eine Parabel gestreckt oder gestaucht ist, erkennst du am Vorfaktor $a$:
     <ul>
         <li>$a = 1 \Rightarrow$ der Graph ist eine Normalparabel (oranger Graph)</li>
-        <li>$a = -1 \Rightarrow$ der Graph ist genauso breit wie die Normalparabel, aber nach unten geöffnet (blauer Graph)</li>
+        <li>$a = -1 \Rightarrow$ der Graph ist eine Normalparabel, aber nach unten geöffnet (blauer Graph)</li>
         <li>$a > 1$ oder $a < -1 \Rightarrow$ die Parabel ist **gestreckt** (grüner Graph)</li>
         <li>$-1 < a < 1, \hspace{5pt} a \neq 0 \Rightarrow$ die Parabel ist **gestaucht** (roter Graph)</li>
     </ul>
