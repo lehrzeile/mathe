@@ -503,11 +503,13 @@ blockquote {
 // Spaltenlayouts in Callouts
 ol.two-columns, .two-columns ol, ul.two-columns, .two-columns ul {
     column-count: 2 !important;
+    column-width: auto !important;
     column-gap: 20px !important;
 }
 
 ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
     column-count: 3 !important;
+    column-width: auto !important;
     column-gap: 20px !important;
 }
 
