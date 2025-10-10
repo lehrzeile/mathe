@@ -72,7 +72,7 @@ Um nachvollziehen zu können, wie der Scheitelpunkt einer Parabel entlang der $y
 {{< /box-notice >}}
 
 ![Verschiebung der Normalparabel entlang der y-Achse](img/Verschiebung.svg)
-*Abb. 3: Verschiebung der Normalparabel entlang der $y$-Achse*
+*Abb. 3: Verschiebung der Normalparabel entlang der y-Achse*
 
 ### Die Scheitelpunktform
 
@@ -83,6 +83,10 @@ Die Scheitelpunktform einer quadratischen Funktion ist gegeben durch
 $$ f(x) = a \cdot (x-x_s)^2 + y_s $$
 wobei $x_s$ und $y_s$ die Koordinaten des Scheitelpunkts $S(x_s|y_s)$ sind und $a$ der Streck- bzw. Öffnungsfaktor der Parabel ist.
 {{< /box-notice >}}
+
+{{< box-question title="Ist dir etwas aufgefallen?" >}}
+Die Scheitelpunktform liefert uns nicht nur Auskunft über die Verschiebung der Parabel entlang der $y$-Achse. Sie liefert uns darüber hinaus auch eine Information darüber, wie weit der Scheitelpunkt entlang der $x$-Achse nach links oder rechts verschoben wurde.
+{{< /box-question >}}
 
 ### Verschiebung einer Parabel entlang der $x$- und $y$-Achse
 
@@ -117,22 +121,6 @@ Außerdem lässt sich noch erkennen, dass die Parabel um den Faktor $1,5$ gestre
 - $f(x)=(x-1)^2$: der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und liegt auf der $x$-Achse
 
 {{< /box-example >}}
-
-{{< box-question title="Ist dir etwas aufgefallen?" >}}
-Die Scheitelpunktform liefert uns nicht nur Auskunft über die Verschiebung der Parabel entlang der $y$-Achse. Sie liefert uns darüber hinaus auch eine Information darüber, wie weit der Scheitelpunkt entlang der $x$-Achse nach links oder rechts verschoben wurde.
-{{< /box-question >}}
-
-## Die drei Darstellungsformen
-
-Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -- die allgemeine Form, die Scheitelpunktform sowie die Linearfaktorform -- einer quadratischen Funktion auf unterschiedliche Art und Weise.
-
-{{< job numbered="false" style="" title="" name="Tüftelaufgabe" >}}
-    Es gibt drei Möglichkeiten, eine quadratische Funktion darzustellen: die allgemeine Form, die Scheitelpunktform sowie die Linearfaktorform. Stelle dar, wie man mathematisch zwischen diesen drei Darstellungsformen wechseln kann.
-{{< /job >}}
-
-{{< box-note title="Kurzvortrag gefällig?" >}}
-    Diese Aufgabe eignet sich hervorragend für einen kurzen benoteten Vortrag, in dem du der Klasse deine Ergebnisse und Überlegungen vorstellst und so dein Können unter Beweis stellst.
-{{< /box-note >}}
 
 ## Quadratische Ergänzung
 
@@ -184,6 +172,34 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 
 {{< box-note title="Zur Erinnerung:" >}}
     Wie genau das mit dem Ausklammern, dem Satz vom Nullprodukt und der p-q-Formel funktioniert, ist bereits im Abschnitt <a class="link" href="/hbf1/1-grundlagen-training/terme-und-gleichungen/">Terme und Gleichungen</a> beschrieben.
+{{< /box-note >}}
+
+## Die Linearfaktorform
+
+Hat man die Nullstellen einer quadratischen Funktion berechnet, so kann man die Funktionsgleichung in der sogenannten Linearfaktorform darstellen.
+
+Die Linearfaktorform ist besonders nützlich, wenn du die Nullstellen einer quadratischen Funktion kennst oder sie herausfinden möchtest. Sie zeigt direkt, an welchen Stellen der Graph die $x$-Achse schneidet. Sprich: Du kannst sie direkt ablesen.
+
+Jede Nullstelle $x_1$ oder $x_2$ der Funktion entspricht dabei einem Linearfaktor $(x-x_1)$ bzw. $(x-x_2)$. So kannst du die Funktionsgleichung einfach als Produkt dieser Linearfaktoren und des Streckfaktors $a$ schreiben.
+
+{{< box-notice title="Definition Linearfaktor" >}}
+Ein **Linearfaktor** ist ein Faktor einer Polynomfunktion, der die Variable $x$ nur in der ersten Potenz enthält (also $x$ "hoch Eins"), also von der Form $(x - N)$ ist, wobei $N$ eine Nullstelle der Funktion ist.
+{{< /box-notice >}}
+
+{{< box-notice title="Linearfaktorform" >}}
+Die **Linearfaktorform** (oder auch Linearfaktordarstellung oder -zerlegung) ist eine Darstellung eines Polynoms als Produkt von Linearfaktoren und einer Konstante $a$. Sie lautet für eine quadratische Funktion: $f(x) = a \cdot (x-x_1) \cdot (x-x_2)$. Dabei sind $x_1$ und $x_2$ die Nullstellen des Polynoms, und $a$ ist der Streck- bzw. Öffnungsfaktor.
+{{< /box-notice >}}
+
+## Die drei Darstellungsformen
+
+Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -- die allgemeine Form, die Scheitelpunktform sowie die Linearfaktorform -- einer quadratischen Funktion auf unterschiedliche Art und Weise.
+
+{{< job numbered="false" style="" title="" name="Tüftelaufgabe" >}}
+    Es gibt drei Möglichkeiten, eine quadratische Funktion darzustellen: die allgemeine Form, die Scheitelpunktform sowie die Linearfaktorform. Stelle dar, wie man mathematisch zwischen diesen drei Darstellungsformen wechseln kann.
+{{< /job >}}
+
+{{< box-note title="Kurzvortrag gefällig?" >}}
+    Diese Aufgabe eignet sich hervorragend für einen kurzen benoteten Vortrag, in dem du der Klasse deine Ergebnisse und Überlegungen vorstellst und so dein Können unter Beweis stellst.
 {{< /box-note >}}
 
 ## Schnittpunkte von Parabel und Gerade
