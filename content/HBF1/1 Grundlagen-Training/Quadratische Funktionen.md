@@ -30,7 +30,9 @@ Den Tiefpunkt bzw. Hochpunkt einer solchen bogenförmigen Parabel bezeichnet man
 
 Dieser kann beliebig im Koordinatensystem verschoben sein.
 
+{{< box-notice title="Allgemeine Funktionsgleichung einer quadratischen Funktion" >}}
 Die allgemeine Funktionsgleichung einer quadratischen Funktion (Parabel) hat immer die Form $f(x)=ax^2+bx+c$.
+{{< /box-notice >}}
 
 ### Symmetrieeigenschaft und Scheitelpunkt quadratischer Funktionen
 
