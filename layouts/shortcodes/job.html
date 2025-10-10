@@ -21,7 +21,8 @@
           {{ end }}
           <!-- {{ if .Get "style" | eq "enum-alph" }} <ol type="a"> {{end}} -->
           {{ if .Get "style" | eq "enum-alph" }} <div class="enum-alph"> {{end}}
-          {{ if .Get "style" | eq "enum-arabic" }} <ol type="1"> {{end}}
+          <!-- {{ if .Get "style" | eq "enum-arabic" }} <ol type="1"> {{end}} -->
+          {{ if .Get "style" | eq "enum-arabic" }} <div class="enum-arabic"> {{end}}
           {{ if .Get "title" | eq "bettermarks" }}
             {{ .Inner }}
           {{ else }}
@@ -29,9 +30,10 @@
           {{ end }}
           {{ if .Get "style" | eq "enum-alph" }}
             <!-- </ol> -->
-          </div>
+            </div>
           {{ else if .Get "style" | eq "enum-arabic" }}
-            </ol>
+            <!-- </ol> -->
+            </div>
           {{ end }}
         </div>
         {{ if .Get "title" | eq "bettermarks"}}<span class="job-notice">Hinweis: Damit die Links funktionieren, musst du bei bettermarks eingeloggt sein.</span>{{end}}

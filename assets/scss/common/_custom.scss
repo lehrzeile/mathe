@@ -777,6 +777,10 @@ ol {
     list-style-type: lower-alpha;
 }
 
+.enum-arabic > ol, .enum-arabic > ul {
+    list-style-type: decimal;
+}
+
 ol.breadcrumb, ol.breadcrumb li {
     margin-left: 0 !important;
 }

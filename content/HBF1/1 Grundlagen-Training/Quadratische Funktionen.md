@@ -235,8 +235,8 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 
 {{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" entry="" >}}
 
-1. **Schaue** dir zunächst aufmerksam das Video **an**.
-2. **Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.
+- **Schaue** dir zunächst aufmerksam das Video **an**.
+- **Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.
 
 {{< /job >}}
 
