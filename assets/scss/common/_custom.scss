@@ -494,7 +494,7 @@ blockquote {
 }
 
 // Callout: Aufgabe
-.callout.callout-jobs > .callout-content > .callout-body > ol {
+.callout.callout-job > .callout-content > .callout-body > ol {
     // margin: 0 0 0 1.25em !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -581,7 +581,8 @@ ol.three-columns, .three-columns > ol {
 
 .callout.callout-jobs > .callout-content > .callout-body > ol {
     font-weight: 700 !important;
-    margin: 0 0 0 1.25em !important;
+    // margin: 0 0 0 1.25em !important;
+    margin: 0 !important;
     padding: 0 !important;
 }
 
@@ -769,7 +770,7 @@ details summary {
 // lists
 ol {
     padding-left: 0;
-    margin-left: 2em;
+    // margin-left: 2em;
 }
 
 ol.breadcrumb, ol.breadcrumb li {
