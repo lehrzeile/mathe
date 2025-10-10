@@ -86,13 +86,16 @@ wobei $x_s$ und $y_s$ die Koordinaten des Scheitelpunkts $S(x_s|y_s)$ sind und $
 
 ### Verschiebung einer Parabel entlang der $x$- und $y$-Achse
 
-Betrachten wir die quadratische Funktion $f(x)=3(x-4)^2+5$.
+Betrachten wir die quadratische Funktion $f(x)=1,5 \cdot (x-2)^2-1$.
 
-Wir erkennen zunächst einmal, dass die Funktionsgleichung in der Scheitelpunktform vorliegt. Das heißt, dass sich die Koordinaten des Scheitelpunkts somit direkt ablesen lassen: $S(4|5)$.
+Wir erkennen zunächst einmal, dass die Funktionsgleichung in der Scheitelpunktform vorliegt. Das heißt, dass sich die Koordinaten des Scheitelpunkts somit direkt ablesen lassen: $S(2|-1)$.
+
+![Scheitelpunktform einer Parabel](img/Scheitelpunktform.svg)
+*Abb. 4: Scheitelpunktform einer Parabel*
 
 Was heißt das nun? <br />
-Die Parabel wurde also um $4$ Einheiten nach rechts sowie um $5$ Einheiten nach oben verschoben.
-Außerdem lässt sich noch erkennen, dass die Parabel um den Faktor $3$ gestreckt wird.s
+Die Parabel wurde also um $2$ Einheiten nach rechts sowie um $1$ Einheit nach unten verschoben.
+Außerdem lässt sich noch erkennen, dass die Parabel um den Faktor $1,5$ gestreckt wird.
 
 {{< box-notice >}}
     Ist eine quadratische Funktion in der Scheitelpunktform $ f(x) = a \cdot (x-x_s)^2 + y_s $ gegeben, so bestimmt $x_s$ die Verschiebung des Scheitelpunkts entlang der $x$-Achse.
@@ -107,7 +110,7 @@ Außerdem lässt sich noch erkennen, dass die Parabel um den Faktor $3$ gestreck
     </ul>
 {{< /box-notice >}}
 
-{{< box-example title="Beispiele für verschobene Parabeln" >}}
+{{< box-example title="Weitere Beispiele für verschobene Parabeln" >}}
 
 - $f(x)=(x-3)^2+5$: der Scheitelpunkt der Parabel wurde um **5 Einheiten nach oben** und um **3 Einheiten nach rechts** verschoben
 - $f(x)=(x+2)^2-1$: der Scheitelpunkt der Parabel wurde um **1 Einheit nach unten** und um **2 Einheiten nach links** verschoben
