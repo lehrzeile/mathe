@@ -146,7 +146,7 @@ der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und 
 ## Nullstellen quadratischer Funktionen - Lösen quadratischer Gleichungen
 
 {{< box-notice >}}
-Je nach Position des Scheitelpunkts kann der Graph einer quadratischen Funktion keine, eine oder zwei Nullstellen besitzen:
+Je nach Position des Scheitelpunkts kann der Graph einer quadratischen Funktion eine, zwei oder keine Nullstellen besitzen:
 
 - die Parabel ist nach oben geöffnet und der Scheitelpunkt liegt oberhalb der $x$-Achse \
 $\Rightarrow$ keine Nullstelle
