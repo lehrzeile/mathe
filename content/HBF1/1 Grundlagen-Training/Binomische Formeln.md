@@ -7,8 +7,8 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-{{< box-notice title="Info:" >}}
-    Die binomischen Formeln sind weit verbreitete Formeln zum Umformen von Produkten aus Binomen. Mit Binomen (deutsch: "zwei Namen") sind mathematische Ausdrücke mit zwei Gliedern gemeint, die durch Addition oder Subtraktion verbunden sind.[^1]
+{{< box-notice title="Binomische Formeln" >}}
+    Die **binomischen Formeln** sind weit verbreitete Formeln zum Umformen von Produkten aus Binomen. Mit Binomen (deutsch: "zwei Namen") sind mathematische Ausdrücke mit zwei Gliedern gemeint, die durch Addition oder Subtraktion verbunden sind.[^1]
 {{< /box-notice >}}
 
 [^1]: Quelle: [wikipedia](https://de.wikipedia.org/wiki/Binomische_Formeln)
@@ -95,7 +95,7 @@ Die binomischen - nicht bi**o**nomischen (!) - Formeln sind besonders nützlich,
 Die Binomischen Formeln sind nicht einfach vom Himmel gefallen, sondern lassen sich graphisch herleiten.
 
 {{< job numbered="false" style="" title="" name="Tüftelaufgabe" >}}
-    Leite die drei binomischen Formeln graphisch her.
+    **Leite** die drei binomischen Formeln graphisch **her**.
 {{< /job >}}
 
 {{< tip >}}

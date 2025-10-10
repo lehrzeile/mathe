@@ -38,7 +38,7 @@ Ein lineares Gleichungssystem mit zwei Gleichungen und zwei Unbekannten besteht 
 
 ## Üben und Vertiefen
 
-{{< job numbered="true" style="enum-alph" title="Übung macht den Meister" name="" entry="Bestimme die Lösungsmenge des jeweiligen Gleichungssystems, indem du eines der oben dargestellten Lösungsverfahren anwendest." >}}
+{{< job numbered="true" style="enum-alph" title="Übung macht den Meister" name="" entry="**Bestimme** die Lösungsmenge des jeweiligen Gleichungssystems, indem du eines der oben dargestellten Lösungsverfahren anwendest." >}}
 
 - $$\begin{alignat*} 2x -5y &= 8 \\ x -y &= 1 \end{alignat*}$$
 - $$\begin{align*} u -4v &= 3 \\ -5u +20v &= 10 \end{align*}$$
@@ -62,7 +62,7 @@ Ein lineares Gleichungssystem mit zwei Gleichungen und zwei Unbekannten besteht 
 
 {{< /solution >}}
 
-{{< job numbered="true" style="enum-alph" title="Anwendung" name="" entry="Stelle zunächst ein lineares Gleichungssystem auf und löse es anschließend mit einem Lösungsverfahren deiner Wahl." >}}
+{{< job numbered="true" style="enum-alph" title="Anwendung" name="" entry="**Stelle** zunächst ein lineares Gleichungssystem **auf** und **löse** es anschließend mit einem Lösungsverfahren deiner Wahl." >}}
 
 - Zwei Gläser Cola und drei Gläser Eistee kosten 10,60€. Fünf Gläser Cola und ein Glas Eistee kosten 13,50€. Bestimme den Preis der beiden Getränke.
 - Es fahren 74 Schüler auf Wintersportwoche. Diese verteilen sich auf insgesamt 22 Zimmer, wobei nur Drei- und Vierbettzimmer zur Verfügung stehen. Wie viele Zimmer gibt es von jeder Sorte, wenn alle Zimmer voll belegt sind?
