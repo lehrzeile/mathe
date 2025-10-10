@@ -17,7 +17,7 @@
         {{ if .Get "columns" | eq "3" }} <div class="three-columns"> {{ else }} {{ if .Get "columns" | eq "2" }} <div class="two-columns"> {{ else }} <div class="one-column"> {{ end }} {{ end }}
           {{ $entry := $.Get "entry" }}
           {{ $opts := dict "markup" "pandoc" }}
-          {{ if .Get "entry" }}
+          {{ if $entry }}
             <p class="entry-text">{{ $entry | .RenderString $opts }}</p>
           {{ end }}
           {{ if .Get "style" | eq "enum-alph" }} <ol type="a"> {{end}}
