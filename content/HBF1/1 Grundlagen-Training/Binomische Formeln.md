@@ -17,7 +17,7 @@ Die binomischen - nicht bi**o**nomischen (!) - Formeln sind besonders nützlich,
 
 {{< youtube -laNxxdV5QY >}}
 
-{{< job numbered="true" style="enum-alph" title="bettermarks" columns="1" >}}
+{{< job numbered="true" style="enum-alph" title="bettermarks" >}}
 
 - {{< bettermarks uebungscode="QGUG" seriesID="1669010761260728704" title="Mit der ersten binomischen Formel ausmultiplizieren" >}}
 - {{< bettermarks uebungscode="8QCA" seriesID="1669011209380167808" title="Mit der ersten binomischen Formel als Produkt schreiben" >}}
@@ -34,7 +34,7 @@ Die binomischen - nicht bi**o**nomischen (!) - Formeln sind besonders nützlich,
 
 {{< /job >}}
 
-{{< job numbered="true" style="enum-alph" title="Binomische Formeln anwenden" columns="3" entry="**Wende** auf die folgenden Terme die binomischen Formeln **an**." >}}
+{{< job numbered="true" style="enum-alph" title="Binomische Formeln anwenden" columns="2" entry="**Wende** auf die folgenden Terme die binomischen Formeln **an**." >}}
 
 - $(2x-5)^2$
 - $(10 - a)\cdot(10 + a)$
