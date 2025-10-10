@@ -241,9 +241,14 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 {{< /job >}}
 
 {{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Bestimme** jeweils die Schnittpunkte von Parabel und Gerade." >}}
-    <li>$f_1(x) = x^2 - 2x - 3, \qquad g_1(x)= 2x + 2$</li>
+
+- $f_1(x) = x^2 - 2x - 3, \qquad g_1(x)= 2x + 2$
+- $f_2(x) = 2x^2 + 4x - 2, \qquad g_2(x)= -2x - 2$
+- $f_3(x) = -\frac12 x^2 - 2x, \qquad g_3(x)= 2x + 8$
+
+    <!-- <li>$f_1(x) = x^2 - 2x - 3, \qquad g_1(x)= 2x + 2$</li>
     <li>$f_2(x) = 2x^2 + 4x - 2, \qquad g_2(x)= -2x - 2$</li>
-    <li>$f_3(x) = -\frac12 x^2 - 2x, \qquad g_3(x)= 2x + 8$</li>
+    <li>$f_3(x) = -\frac12 x^2 - 2x, \qquad g_3(x)= 2x + 8$</li> -->
 {{< /job >}}
 
 {{< source text="mathe-total.de" src="https://www.mathe-total.de/new15a/Schnittpunkt-von-Geraden-und-Parabeln.pdf" lastcall="13.08.2025" >}}

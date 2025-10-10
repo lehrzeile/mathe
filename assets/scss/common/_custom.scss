@@ -773,7 +773,7 @@ ol {
     margin-left: 1em;
 }
 
-.enum-alph > ol {
+.enum-alph > ol, .enum-alph > ul {
     list-style-type: lower-alpha;
 }
 
