@@ -1,9 +1,9 @@
 <details class="solution">
   <summary>Lösungen</summary>
   {{ if .Get "numbered" | eq "true" }}
-    {{ if .Get "style" | eq "enum-alph" }} <ol type="a"> {{else}} <ol type="1"> {{end}}
+    {{ if .Get "style" | eq "enum-alph" }} <div class="enum-alph"> {{else}} <div class="enum-arabic"> {{end}}
       {{ .Inner | strings.TrimSpace | .Page.RenderString }}
-  </ol>
+  </div>
   {{ else }}
   <p>{{ .Inner | strings.TrimSpace | .Page.RenderString }}</p>
   {{ end }}

@@ -166,20 +166,26 @@ $\Rightarrow$ zwei Nullstellen
 {{< youtube IM1WtnTYJK4 >}}
 
 {{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" entry="Die beiden Videos beschäftigen sich mit dem Bestimmen von Nullstellen quadratischer Funktionen - mit und ohne p-q-Formel." >}}
-    <li>**Schaue** dir zunächst aufmerksam das Video **an**.</li>
-    <li>**Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.</li>
+
+- **Schaue** dir zunächst aufmerksam das Video **an**.
+- **Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.
+
 {{< /job >}}
 
 {{< job name="" numbered="true" style="enum-alph" title="Üben und Vertiefen" entry="" >}}
-    <li>folgt</li>
-    <li>folgt</li>
-    <li>folgt</li>
+
+- folgt
+- folgt
+- folgt
+
 {{< /job >}}
 
 {{< job name="" numbered="true" style="enum-alph" title="Üben und Vertiefen" entry="" >}}
-    <li>folgt</li>
-    <li>folgt</li>
-    <li>folgt</li>
+
+- folgt
+- folgt
+- folgt
+
 {{< /job >}}
 
 {{< box-note title="Zur Erinnerung:" >}}
@@ -246,17 +252,16 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 - $f_2(x) = 2x^2 + 4x - 2, \qquad g_2(x)= -2x - 2$
 - $f_3(x) = -\frac12 x^2 - 2x, \qquad g_3(x)= 2x + 8$
 
-    <!-- <li>$f_1(x) = x^2 - 2x - 3, \qquad g_1(x)= 2x + 2$</li>
-    <li>$f_2(x) = 2x^2 + 4x - 2, \qquad g_2(x)= -2x - 2$</li>
-    <li>$f_3(x) = -\frac12 x^2 - 2x, \qquad g_3(x)= 2x + 8$</li> -->
 {{< /job >}}
 
 {{< source text="mathe-total.de" src="https://www.mathe-total.de/new15a/Schnittpunkt-von-Geraden-und-Parabeln.pdf" lastcall="13.08.2025" >}}
 
 {{< solution numbered="true" style="enum-alph" >}}
-    <li>$S_1(5|12) \qquad S_2(-1|0)$</li>
-    <li>$S_1(0|-2) \qquad S_2(-3|4)$</li>
-    <li>$S_1(-4|0)$ (Berührpunkt, da die Gerade $g$ eine Tangente an die Parabel $f$ ist)</li>
+
+- $S_1(5|12) \qquad S_2(-1|0)$
+- $S_1(0|-2) \qquad S_2(-3|4)$
+- $S_1(-4|0)$ (Berührpunkt, da die Gerade $g$ eine Tangente an die Parabel $f$ ist)
+
 {{< /solution >}}
 
 ## Schnittpunkte von zwei Parabeln
@@ -264,27 +269,28 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 {{< youtube w_lhORlfZ20 >}}
 
 {{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" entry="" >}}
-<li><b>Schaue</b> dir zunächst aufmerksam das Video <b>an</b>.</li>
-<li><b>Betrachte</b> das Video nun ein zweites Mal und <b>schreibe</b> die Beispielaufgabe <b>mit</b>.</li>
+
+- **Schaue** dir zunächst aufmerksam das Video **an**.
+- **Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.
+
 {{< /job >}}
 
 {{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Bestimme** jeweils die Schnittpunkte der beiden Parabeln." >}}
 
-1. $f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$
-2. $f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$
-3. $f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$
-    <!-- <li>$f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$</li>
-    <li>$f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$</li>
-    <li>$f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$</li> -->
+- $f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$
+- $f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$
+- $f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$
 
 {{< /job >}}
 
 {{< source text="matheportal.com" src="https://matheportal.com/wp-content/uploads/2023/09/loesung-zu-aufgaben-zu-schnittpunkten-von-quadratischen-funktionen-1.pdf" lastcall="13.08.2025" >}}
 
 {{< solution numbered="true" style="enum-alph" >}}
-    <li>$S_1(-1|6) \qquad S_2(5|72)$</li>
-    <li>$S_1(2|2)$ (Berührpunkt)</li>
-    <li>kein Schnittpunkt</li>
+
+- $S_1(-1|6) \qquad S_2(5|72)$
+- $S_1(2|2)$ (Berührpunkt)
+- kein Schnittpunkt
+
 {{< /solution >}}
 
 ## Zusammenfassung: Unterschied zwischen linearen und quadratischen Funktionen
