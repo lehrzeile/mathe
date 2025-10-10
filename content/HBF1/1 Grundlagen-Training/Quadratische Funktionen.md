@@ -198,6 +198,14 @@ $$f(x) = a \cdot (x-x_1) \cdot (x-x_2).$$
 Dabei sind $x_1$ und $x_2$ die Nullstellen des Polynoms und $a$ der Streck- bzw. Öffnungsfaktor der Parabel.
 {{< /box-notice >}}
 
+{{< box-notice title="Beispiele für quadratische Funktionen in der Linearfaktorform" >}}
+
+- $f(x) = a \cdot (x-1) \cdot (x-4)$: die quadratische Funktion besitzt die Nullstellen $x_1=1$ und $x_2=4$
+- $f(x) = a \cdot (x+2) \cdot (x+5)$: die quadratische Funktion besitzt die Nullstellen $x_1=-2$ und $x_2=-5$
+- $f(x) = a \cdot (x-3) \cdot (x+6)$: die quadratische Funktion besitzt die Nullstellen $x_1=3$ und $x_2=-6$
+
+{{< /box-notice >}}
+
 ## Die drei Darstellungsformen
 
 Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -- die allgemeine Form, die Scheitelpunktform sowie die Linearfaktorform -- einer quadratischen Funktion auf unterschiedliche Art und Weise.
