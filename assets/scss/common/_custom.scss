@@ -521,6 +521,10 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
     font-weight: 500;
 }
 
+.callout-body .enum-alph li::marker {
+    content: counter(list-item) ") ";
+}
+
 .callout-body > .one-column li {
     float: left;
     width: 100%;
