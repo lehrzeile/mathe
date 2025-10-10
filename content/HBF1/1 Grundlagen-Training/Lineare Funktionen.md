@@ -29,21 +29,27 @@ $m$ steht hierbei für die Steigung der Geraden, $b$ wiederum für den sogenannt
     Der Graph einer linearen Funktion ist immer eine **Gerade**.
 {{< /box-notice >}}
 
+{{< box-notice title="Steigung" >}}
 Geraden können steigen, fallen oder waagerecht im Koordinatensystem liegen. Dies hängt unmittelbar von der Steigung $m$ ab.
 Dabei gibt es drei verschiedene Möglichkeiten:
 
 1. $m > 0$: die Gerade steigt
 2. $m = 0$: die Gerade verläuft waagerecht (parallel zur x-Achse)
 3. $m < 0$: die Gerade fällt
+{{< /box-notice >}}
 
+{{< box-notice title="y-Achsenabschnitt" >}}
 Der y-Achsenabschnitt $b$ wiederum beschreibt diejenige Stelle, an der der Funktionsgraph die y-Achse schneidet.
+{{< /box-notice >}}
 
 <!-- Playlist: https://youtube.com/playlist?list=PLF29x0idI4lU6F9lF8CBWHnrhfak852OT&si=Of4IvBm1-UQHAlSL -->
 {{< youtube 50E1gIunhzE >}}
 
 {{< job numbered="false" style="enum-arabic" name="Beobachtungsauftrag" >}}
-    <li>Schaue dir zunächst aufmerksam das Video an und rufe dir die Vorgehensweise in Erinnerung.</li>
-    <li>Zeichne den Graphen der Funktion $f(x)=-2x+3$.</li>
+
+- *Schaue* dir zunächst aufmerksam das Video **an** und rufe dir die Vorgehensweise in Erinnerung.
+- **Zeichne** den Graphen der Funktion $f(x)=-2x+3$.
+
 {{< /job >}}
 
 ## Steigung und y-Achsenabschnitt bestimmen
@@ -58,9 +64,11 @@ Eine Anleitung, wie das am praktischen Beispiel funktioniert, findest du hier:
 {{< youtube 5L7O_3giIps >}}
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" >}}
-    <li>{{< bettermarks uebungscode="3YBP" seriesID="1666766210978546048" title="Steigung einer Geraden ablesen" >}}</li>
-    <li>{{< bettermarks uebungscode="AL61" seriesID="1666767508096418048" title="Funktionsgleichung zum Graphen einer linearen Funktion bestimmen" >}}</li>
-    <li>{{< bettermarks uebungscode="GME1" seriesID="1666766751972458880" title="Funktionsgleichung zu einer Geraden bestimmen" >}}</li>
+
+- {{< bettermarks uebungscode="3YBP" seriesID="1666766210978546048" title="Steigung einer Geraden ablesen" >}}
+- {{< bettermarks uebungscode="AL61" seriesID="1666767508096418048" title="Funktionsgleichung zum Graphen einer linearen Funktion bestimmen" >}}
+- {{< bettermarks uebungscode="GME1" seriesID="1666766751972458880" title="Funktionsgleichung zu einer Geraden bestimmen" >}}
+
 {{< /job >}}
 
 ## Von der Funktionsgleichung zur Wertetabelle
@@ -70,11 +78,13 @@ Eine Wertetabelle wiederum ist eine tabellarische Darstellung, die die Zuordnung
 
 {{< youtube qGToWDAYyxw >}}
 
-{{< job numbered="true" style="enum-alph" title="Üben und Vertiefen" columns="2" entry="Erstelle jeweils eine Wertetabelle für die folgenden Funktionen" >}}
-    <li>$f_1(x)= 4x - 3$</li>
-    <li>$f_2(x)= -\frac14 x + 10$</li>
-    <li>$f_3(x)= 0,25x$</li>
-    <li>$f_4(x)= 1$</li>
+{{< job numbered="true" style="enum-alph" title="Üben und Vertiefen" columns="2" entry="**Erstelle** jeweils eine Wertetabelle für die folgenden Funktionen:" >}}
+
+- $f_1(x)= 4x - 3$
+- $f_2(x)= -\frac14 x + 10$
+- $f_3(x)= 0,25x$
+- $f_4(x)= 1$
+
 {{< /job >}}
 
 ## Graphen ähnlicher linearer Funktionen zeichnen
@@ -84,9 +94,11 @@ In diesem Abschnitt geht es darum, wie man die Graphen einander ähnlicher linea
 Rufe dir hierzu noch einmal das Video aus dem Abschnitt [Der Graph einer linearen Funktion](/hbf1/1-grundlagen-training/lineare-funktionen/#der-graph-einer-linearen-funktion) in Erinnerung.
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" >}}
-    <li>{{< bettermarks uebungscode="321G" seriesID="1666778532463771904" title="Graphen linearer Funktionen mit gleichen Steigungen oder gleichen y-Achsenabschnitten zeichnen">}}</li>
-    <li>{{< bettermarks uebungscode="Y7JQ" seriesID="1666779187962183936" title="Graph einer linearen Funktion zu gegebener Funktionsgleichung zeichnen" >}}</li>
-    <li>{{< bettermarks paper="true" uebungscode="2BYU" seriesID="1666750685397410817" title="Graphen linearer Funktionen auf Papier zeichnen - Achseneinteilung geeignet wählen" >}}</li>
+
+- {{< bettermarks uebungscode="321G" seriesID="1666778532463771904" title="Graphen linearer Funktionen mit gleichen Steigungen oder gleichen y-Achsenabschnitten zeichnen">}}
+- {{< bettermarks uebungscode="Y7JQ" seriesID="1666779187962183936" title="Graph einer linearen Funktion zu gegebener Funktionsgleichung zeichnen" >}}
+- {{< bettermarks paper="true" uebungscode="2BYU" seriesID="1666750685397410817" title="Graphen linearer Funktionen auf Papier zeichnen - Achseneinteilung geeignet wählen" >}}
+
 {{< /job >}}
 
 ## Von der Wertetabelle zur Funktionsgleichung
@@ -97,8 +109,10 @@ Eine Möglichkeit - die hier vorgestellt wird - besteht darin, eine Wertetabelle
 {{< youtube M5VnezyzfiY >}}
 
 {{< job numbered="false" style="enum-arabic" name="Beobachtungsauftrag" >}}
-    1. Betrachte dir zunächst das obige Video.
-    2. Schaue dir das Video nun ein zweites Mal an und schreibe die Beispielaufgaben in Ruhe mit. Mache dir dazu auch entsprechende Notizen.
+
+- **Betrachte** dir zunächst das obige Video.
+- **Schaue** dir das Video nun ein zweites Mal **an** und **schreibe** die Beispielaufgaben in Ruhe **mit**. **Mache** dir dazu auch entsprechende Notizen.
+
 {{< /job >}}
 
 {{< job numbered="true" style="" title="bettermarks" entry="Teste dein Können mit Hilfe der folgenden Aufgabe bei bettermarks:" >}}
@@ -122,8 +136,11 @@ In einem der vorherigen Abschnitte hast du bereits gelernt, wie man eine Werteta
 {{< youtube GIruIAbLGFU >}}
 
 {{< job numbered="false" style="enum-arabic" name="Beobachtungsauftrag" >}}
-    <li>Wiederholung vorheriger Abschnitte:<br />Schaue dir das nachfolgende Video an und vollziehe das Aufstellen der Funktionsgleichung sowie das Bestimmen der $y$-Werte nach.</li>
-    <li>Halte nun das Video an der Stelle <code>6:20</code> an und bestimme den $x$-Wert zum gegebenen $y$-Wert $3,5$. Kontrolliere anschließend deine Lösung, indem du das Video zu Ende schaust.</li>
+
+- Wiederholung vorheriger Abschnitte: \
+Schaue dir das nachfolgende Video an und vollziehe das Aufstellen der Funktionsgleichung sowie das Bestimmen der $y$-Werte nach.
+- Halte nun das Video an der Stelle <code>6:20</code> an und bestimme den $x$-Wert zum gegebenen $y$-Wert $3,5$. Kontrolliere anschließend deine Lösung, indem du das Video zu Ende schaust.
+
 {{< /job >}}
 
 {{< youtube -PxVXkSHOaE >}}
@@ -158,7 +175,7 @@ Mit Hilfe der Punktprobe überprüft man rechnerisch, ob ein Punkt auf dem Graph
 {{< /box-question >}}
 
 {{< job numbered="false" style="" title="" name="Tüftelaufgabe" >}}
-    Finde durch -- z. B. durch eine entsprechende Recherche oder durch Ausprobieren -- heraus, wie man überpüfen kann, ob ein Punkt oberhalb oder unterhalb des Graphen einer Funktion liegt. Fertige dir entsprechende Notizen an.
+    **Finde** durch -- z. B. durch eine entsprechende Recherche oder durch Ausprobieren -- **heraus**, wie man überpüfen kann, ob ein Punkt oberhalb oder unterhalb des Graphen einer Funktion liegt. **Fertige** dir entsprechende Notizen **an**.
 {{< /job >}}
 
 {{< box-note title="Kurzvortrag gefällig?" >}}
