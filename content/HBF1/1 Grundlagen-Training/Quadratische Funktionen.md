@@ -146,14 +146,17 @@ der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und 
 ## Nullstellen quadratischer Funktionen - Lösen quadratischer Gleichungen
 
 {{< box-notice >}}
-    Je nach Position des Scheitelpunkts kann der Graph einer quadratischen Funktion keine, eine oder zwei Nullstellen besitzen.
-    <ul>
-        <li>die Parabel ist nach oben geöffnet und der Scheitelpunkt liegt oberhalb der $x$-Achse $\Rightarrow$ keine Nullstelle</li>
-        <li>die Parabel ist nach unten geöffnet und der Scheitelpunkt liegt unterhalb der $x$-Achse $\Rightarrow$ keine Nullstelle</li>
-        <li>der Scheitelpunkt liegt auf der $x$-Achse $\Rightarrow$ eine Nullstelle</li>
-        <li>die Parabel ist nach oben geöffnet und der Scheitelpunkt liegt unterhalb der $x$-Achse $\Rightarrow$ zwei Nullstellen</li>
-        <li>die Parabel ist nach unten geöffnet und der Scheitelpunkt liegt oberhalb der $x$-Achse $\Rightarrow$ zwei Nullstellen</li>
-    </ul>
+Je nach Position des Scheitelpunkts kann der Graph einer quadratischen Funktion keine, eine oder zwei Nullstellen besitzen:
+
+- die Parabel ist nach oben geöffnet und der Scheitelpunkt liegt oberhalb der $x$-Achse \ $\Rightarrow$ keine Nullstelle
+- die Parabel ist nach unten geöffnet und der Scheitelpunkt liegt unterhalb der $x$-Achse \ $\Rightarrow$ keine Nullstelle
+- der Scheitelpunkt liegt auf der $x$-Achse \
+$\Rightarrow$ eine Nullstelle
+- die Parabel ist nach oben geöffnet und der Scheitelpunkt liegt unterhalb der $x$-Achse \
+$\Rightarrow$ zwei Nullstellen
+- die Parabel ist nach unten geöffnet und der Scheitelpunkt liegt oberhalb der $x$-Achse \
+$\Rightarrow$ zwei Nullstellen
+
 {{< /box-notice >}}
 
 {{< youtube yuoe6BN-1YQ >}}
@@ -203,9 +206,12 @@ Dabei sind $x_1$ und $x_2$ die Nullstellen des Polynoms und $a$ der Streck- bzw.
 
 {{< box-notice title="Beispiele für quadratische Funktionen in der Linearfaktorform" >}}
 
-- $f(x) = a \cdot (x-1) \cdot (x-4): \quad$ die quadratische Funktion besitzt die Nullstellen $x_1=1$ und $x_2=4$
-- $f(x) = a \cdot (x+2) \cdot (x+5): \quad$ die quadratische Funktion besitzt die Nullstellen $x_1=-2$ und $x_2=-5$
-- $f(x) = a \cdot (x-3) \cdot (x+6): \quad$ die quadratische Funktion besitzt die Nullstellen $x_1=3$ und $x_2=-6$
+- $f(x) = a \cdot (x-1) \cdot (x-4):$ \
+die quadratische Funktion besitzt die Nullstellen $x_1=1$ und $x_2=4$
+- $f(x) = a \cdot (x+2) \cdot (x+5):$ \
+die quadratische Funktion besitzt die Nullstellen $x_1=-2$ und $x_2=-5$
+- $f(x) = a \cdot (x-3) \cdot (x+6):$ \
+die quadratische Funktion besitzt die Nullstellen $x_1=3$ und $x_2=-6$
 
 {{< /box-notice >}}
 
