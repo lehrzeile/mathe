@@ -263,11 +263,11 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 <li><b>Betrachte</b> das Video nun ein zweites Mal und <b>schreibe</b> die Beispielaufgabe <b>mit</b>.</li>
 {{< /job >}}
 
-{{< job name="" numbered="true" style="" title="Übung macht den Meister" entry="**Bestimme** jeweils die Schnittpunkte der beiden Parabeln." >}}
+{{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Bestimme** jeweils die Schnittpunkte der beiden Parabeln." >}}
 
-a. $f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$
-b. $f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$
-c. $f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$
+a) $f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$
+a) $f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$
+a) $f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$
     <!-- <li>$f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$</li>
     <li>$f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$</li>
     <li>$f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$</li> -->
