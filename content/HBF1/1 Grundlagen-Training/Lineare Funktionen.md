@@ -116,7 +116,7 @@ Eine Möglichkeit - die hier vorgestellt wird - besteht darin, eine Wertetabelle
 {{< /job >}}
 
 {{< job numbered="true" style="" title="bettermarks" entry="**Teste** dein Können mit Hilfe der folgenden Aufgabe bei bettermarks:" >}}
-    {{< bettermarks uebungscode="U5TA" seriesID="1667066778770997376" title="Funktionsgleichung zu gegebener Wertetabelle bestimmen" >}}
+{{< bettermarks uebungscode="U5TA" seriesID="1667066778770997376" title="Funktionsgleichung zu gegebener Wertetabelle bestimmen" >}}
 {{< /job >}}
 
 ## Lineare Funktion durch zwei Punkte

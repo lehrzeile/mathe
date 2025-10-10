@@ -24,9 +24,20 @@
           <!-- {{ if .Get "style" | eq "enum-arabic" }} <ol type="1"> {{end}} -->
           {{ if .Get "style" | eq "enum-arabic" }} <div class="enum-arabic"> {{end}}
           {{ if .Get "title" | eq "bettermarks" }}
-            <ul>
-            {{ .Inner }}
-            </ul>
+            {{ if .Get "style" | eq "enum-arabic" }}
+              <ul>
+                {{ .Inner }}
+              </ul>
+            {{ end }}
+            {{ if .Get "style" | eq "enum-alph" }}
+              <ul>
+                {{ .Inner }}
+              </ul>
+            {{ end }}
+            {{ else }}
+              {{ .Inner }}
+            {{ end }}
+            
           {{ else }}
             {{ .Inner | strings.TrimSpace | .Page.RenderString }}
           {{ end }}

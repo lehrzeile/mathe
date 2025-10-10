@@ -20,18 +20,18 @@ Falls du dir nicht mehr sicher bist, wie man Nullstellen von linearen und quadra
 Bevor wir uns mit den Verfahren zur Nullstellenbestimmung von Polynomfunktionen befassen, sollten wir zunächst noch einen Blick darauf werfen, <mark>wie viele Nullstellen</mark> eine solche Polynomfunktionen überhaupt besitzen kann. Hierzu gilt folgender Merksatz:
 
 {{< box-notice title="" >}}
-    Eine Polynomfunktion kann <b>maximal so viele</b> Nullstellen haben, <b>wie der Grad des Polynoms</b> ist.
+    Eine Polynomfunktion kann **maximal so viele** Nullstellen haben, **wie der Grad des Polynoms** ist.
 {{< /box-notice >}}
 
-{{< box-note title="Beispiel" >}}
+{{< box-example title="" >}}
 
-- Eine lineare Funktion - also eine Polynomfunktion vom Grad <b>eins</b> - besitzt maximal <b>eine</b> Nullstelle.
-- Eine quadratische Funktion (Grad <b>zwei</b>) kann maximal <b>zwei</b> Nullstellen besitzen.
-- Eine Polynomfunktion vom Grad <b>drei</b> kann maximal <b>drei</b> Nullstellen besitzen.
+- Eine lineare Funktion - also eine Polynomfunktion vom Grad **eins** - besitzt maximal **eine** Nullstelle.
+- Eine quadratische Funktion (Grad **zwei**) kann maximal **zwei** Nullstellen besitzen.
+- Eine Polynomfunktion vom Grad **drei** kann maximal **drei** Nullstellen besitzen.
 - ...
-- Eine Polynomfunktion vom Grad <b>n</b> kann maximal <b>n</b> Nullstellen besitzen.
+- Eine Polynomfunktion vom Grad **n** kann maximal **n** Nullstellen besitzen.
 
-{{< /box-notice >}}
+{{< /box-example >}}
 
 ## Neue Verfahren zum Bestimmen von Nullstellen
 
@@ -64,7 +64,7 @@ Hat man es mit einer linearen oder quadratischen Funktion zu tun, so lassen sich
 
 {{< solution numbered="true" style="enum-alph" >}}
 
-- $f_1(x) = x^3 – 4x \qquad \Rightarrow x_1=-2, \quad x_2=0, x_3=2$
+- $f_1(x) = x^3 – 4x \qquad \Rightarrow x_1=-2, \quad x_2=0, \quad x_3=2$
 - $f_2(x) = x^3 + 4x^2 \qquad \Rightarrow x_1=-4, \quad x_2=0$
 - $f_3(x) = x^3 - 3x^2 \qquad \Rightarrow x_1=0, \quad x_2=3$
 - $f_4(x) = 2x^3 - 5x^2 \qquad \Rightarrow x_1=0, \quad x_2=2,5$

@@ -24,9 +24,11 @@ Im Sachzusammenhang bedeutet das konkret: Du übersetzt eine reale Problemstellu
 {{< /szenario >}}
 
 {{< job numbered="true" style="enum-alph" title="Tarife und Lineare Funktionen" >}}
-    <li>Stelle die Kostenfunktion $K(x)$ für das oben genannte Angebot auf.</li>
-    <li>Berechne die Kosten im Falle eines jährlichen Verbrauchs in Höhe von 1.000 kWh, 2.000 kWh bzw. 4.000 kWh.</li>
-    <li>Erkläre die Bedeutung der Steigung und des y-Achsenabschnitts im Sachzusammenhang.</li>
+
+- Stelle die Kostenfunktion $K(x)$ für das oben genannte Angebot auf.
+- Berechne die Kosten im Falle eines jährlichen Verbrauchs in Höhe von 1.000 kWh, 2.000 kWh bzw. 4.000 kWh.
+- Erkläre die Bedeutung der Steigung und des y-Achsenabschnitts im Sachzusammenhang.
+
 {{< /job >}}
 
 {{< szenario title="Szenario 1.2" >}}
@@ -37,14 +39,18 @@ Neben dem bereits bekannten Stromtarif ist noch ein weiterer in die nähere Ausw
 {{< /szenario >}}
 
 {{< job numbered="true" style="enum-alph" title="Tarife und Lineare Funktionen" >}}
-    <li>Stelle auch für den Stromtarif des Anbieters Stromify eine Funktionsgleichung auf.</li>
-    <li>Berechne, wie hoch jeweils die Kosten beim Stromify-Tarif wären, wenn sie einen jährlichen Stromverbrauch von 1.000 kWh, 2.000 kWh bzw. 4.000 kWh hätte.</li>
-    <li>Wie hoch müsste der Stromverbrauch jeweils sein, damit ihr in den beiden Tarifen jeweils jährliche Kosten in Höhe von 928€ enstehen?</li>
+
+- Stelle auch für den Stromtarif des Anbieters Stromify eine Funktionsgleichung auf.
+- Berechne, wie hoch jeweils die Kosten beim Stromify-Tarif wären, wenn sie einen jährlichen Stromverbrauch von 1.000 kWh, 2.000 kWh bzw. 4.000 kWh hätte.
+- Wie hoch müsste der Stromverbrauch jeweils sein, damit ihr in den beiden Tarifen jeweils jährliche Kosten in Höhe von 928€ enstehen?
+
 {{< /job >}}
 
 {{< job numbered="true" style="enum-alph" title="Analyse der beiden Tarife" >}}
-    <li>Stelle beide Tarife grafisch dar.</li>
-    <li>Analysiere und begründe, unter welchen Voraussetzungen sich Frau Meier für welchen Tarif entscheiden sollte.</li>
+
+- Stelle beide Tarife grafisch dar.
+- Analysiere und begründe, unter welchen Voraussetzungen sich Frau Meier für welchen Tarif entscheiden sollte.
+
 {{< /job >}}
 
 {{< szenario title="Szenario 1.3" >}}
@@ -52,7 +58,9 @@ Neben dem bereits bekannten Stromtarif ist noch ein weiterer in die nähere Ausw
 {{< /szenario >}}
 
 {{< job numbered="true" style="enum-alph" title="Besondere Punkte" >}}
-    <li>Stelle eine Funktionsgleichung für die neue Gesamtkostenfunktion auf.</li>
-    <li>Bestimme, ab welchem Verbrauch die Gutschrift “aufgebraucht” ist.</li>
-    <li>Wie verändern sich die Gesamtkosten im Vergleich zum Tarif ohne Bonus?</li>
+
+- Stelle eine Funktionsgleichung für die neue Gesamtkostenfunktion auf.
+- Bestimme, ab welchem Verbrauch die Gutschrift “aufgebraucht” ist.
+- Wie verändern sich die Gesamtkosten im Vergleich zum Tarif ohne Bonus?
+
 {{< /job >}}

@@ -38,9 +38,11 @@ $f(x) = -0,01 x^2 + 0,19x + 1,2$.
 ![Tennis](Tennis.png)
 
 {{< job numbered="true" style="enum-alph" title="Schlaganalyse" >}}
-    <li><b>Bestimme</b> die Höhe, in der die Spielerin den Ball trifft.</li>
-    <li><b>Berechne</b> die Höhe, in der der Ball über das Netz fliegt, wenn die Spielerin den Ball exakt an der Grundlinie eines genormten Tennisplatzes trifft.</li>
-    <li><b>Überprüfe</b>, ob der Schlag im Feld landet.</li>
+
+- **Bestimme** die Höhe, in der die Spielerin den Ball trifft.
+- **Berechne** die Höhe, in der der Ball über das Netz fliegt, wenn die Spielerin den Ball exakt an der Grundlinie eines genormten Tennisplatzes trifft.
+- **Überprüfe**, ob der Schlag im Feld landet.
+
 {{< /job >}}
 
 Die Abmessungen eines Tennisplatzes findest du hier:
@@ -60,9 +62,11 @@ $f(x)= -0,02x^2 + 0,42x + 0,9$
 ![Tennis](Topspin.png)
 
 {{< job numbered="true" style="enum-alph" title="Hoch, höher, Topspin" >}}
-    <li>Wie hoch befindet sich der Ball am höchsten Punkt?</li>
-    <li>Wie weit vom Spieler entfernt befindet sich zu diesem Zeitpunkt der Ball?</li>
-    <li>Wie bewertest du dieses mathematische Modell im Hinblick auf dessen Tauglichkeit?</li>
+
+- Wie hoch befindet sich der Ball am höchsten Punkt?
+- Wie weit vom Spieler entfernt befindet sich zu diesem Zeitpunkt der Ball?
+- Wie bewertest du dieses mathematische Modell im Hinblick auf dessen Tauglichkeit?
+
 {{< /job >}}
 
 <!-- {{< geogebra >}} -->

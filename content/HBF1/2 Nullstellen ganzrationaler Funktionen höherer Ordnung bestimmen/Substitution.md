@@ -46,7 +46,9 @@ Beim Bestimmen der Nullstellen einer Funktion mit Hilfe der Substitution ist die
 
 - $f_1(x) = -2x^4 + 34x^2 - 32$<br />$\Rightarrow x_1=-4, \quad x_2=-1, \quad x_3=1, \quad x_4=4$
 - $f_2(x) = -2x^4 + 80x^2 - 288$<br />$\Rightarrow x_1=-6, \quad x_2=-2, \quad x_3=2, \quad x_4=6$
+
 <hr>
+
 - $f_3(x) = -3x^4 - 60x^2 + 1728 \qquad \Rightarrow x_1=-4, \quad x_2=4$
 - $f_4(x) = -6x^4 - 30x^2 - 24 \qquad \Rightarrow \mathbb{L}=\emptyset$
 - $f_5(x) = 2x^4 - 64x^2 - 288 \qquad \Rightarrow x_1=-6, \quad x_2=6$

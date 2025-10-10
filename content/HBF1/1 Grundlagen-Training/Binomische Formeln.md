@@ -47,7 +47,7 @@ Die binomischen - nicht bi**o**nomischen (!) - Formeln sind besonders nützlich,
 
 {{< /job >}}
 
-{{< solution style="enum-alph" >}}
+{{< solution numbered="true" style="enum-alph" >}}
 
 - $(2x-5)^2 = 4x - 20x + 25$
 - $(10 - a)\cdot(10 + a) = 100 - a^2$
@@ -71,7 +71,7 @@ Die binomischen - nicht bi**o**nomischen (!) - Formeln sind besonders nützlich,
 
 {{< /job >}}
 
-{{< solution style="enum-alph" >}}
+{{< solution numbered="true" style="enum-alph" >}}
 
 - $64x^2 - 36 = (8x-6) \cdot (8x + 6)$
 - $25z^2 + 40zy + 16y^2 = (5z + 4y)^2$
