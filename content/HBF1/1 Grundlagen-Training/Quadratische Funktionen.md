@@ -203,9 +203,9 @@ Dabei sind $x_1$ und $x_2$ die Nullstellen des Polynoms und $a$ der Streck- bzw.
 
 {{< box-notice title="Beispiele für quadratische Funktionen in der Linearfaktorform" >}}
 
-- $f(x) = a \cdot (x-1) \cdot (x-4)$: die quadratische Funktion besitzt die Nullstellen $x_1=1$ und $x_2=4$
-- $f(x) = a \cdot (x+2) \cdot (x+5)$: die quadratische Funktion besitzt die Nullstellen $x_1=-2$ und $x_2=-5$
-- $f(x) = a \cdot (x-3) \cdot (x+6)$: die quadratische Funktion besitzt die Nullstellen $x_1=3$ und $x_2=-6$
+- $f(x) = a \cdot (x-1) \cdot (x-4): \quad$ die quadratische Funktion besitzt die Nullstellen $x_1=1$ und $x_2=4$
+- $f(x) = a \cdot (x+2) \cdot (x+5): \quad$ die quadratische Funktion besitzt die Nullstellen $x_1=-2$ und $x_2=-5$
+- $f(x) = a \cdot (x-3) \cdot (x+6): \quad$ die quadratische Funktion besitzt die Nullstellen $x_1=3$ und $x_2=-6$
 
 {{< /box-notice >}}
 
