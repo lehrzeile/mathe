@@ -234,13 +234,11 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 {{< youtube W9tPX_gcGJ4 >}}
 
 {{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" entry="" >}}
-
-- **Schaue** dir zunächst aufmerksam das Video **an**.
-- **Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.
-
+    <li>**Schaue** dir zunächst aufmerksam das Video **an**.</li>
+    <li>**Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.</li>
 {{< /job >}}
 
-{{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="<b>Bestimme</b> jeweils die Schnittpunkte von Parabel und Gerade." >}}
+{{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Bestimme** jeweils die Schnittpunkte von Parabel und Gerade." >}}
     <li>$f_1(x) = x^2 - 2x - 3, \qquad g_1(x)= 2x + 2$</li>
     <li>$f_2(x) = 2x^2 + 4x - 2, \qquad g_2(x)= -2x - 2$</li>
     <li>$f_3(x) = -\frac12 x^2 - 2x, \qquad g_3(x)= 2x + 8$</li>

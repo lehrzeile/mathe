@@ -16,7 +16,7 @@
       <div class="callout-body">
         {{ if .Get "columns" | eq "3" }} <div class="three-columns"> {{ else }} {{ if .Get "columns" | eq "2" }} <div class="two-columns"> {{ else }} <div class="one-column"> {{ end }} {{ end }}
           {{ if .Get "entry" }}
-            <p class="entry-text">{{ .Get "entry" }}</p>
+            <p class="entry-text">{{ .Get "entry" | strings.TrimSpace | .Page.RenderString }}</p>
           {{ end }}
           {{ if .Get "style" | eq "enum-alph" }} <ol type="a"> {{end}}
           {{ if .Get "style" | eq "enum-arabic" }} <ol type="1"> {{end}}
