@@ -501,11 +501,11 @@ blockquote {
 }
 
 // Spaltenlayouts in Callouts
-// ol.two-columns, .two-columns ol, ul.two-columns, .two-columns ul {
-//     // column-count: 2 !important;
-//     // column-gap: 20px !important;
-//     grid-column: 1;
-// }
+ol.two-columns, .two-columns ol, ul.two-columns, .two-columns ul {
+    // column-count: 2 !important;
+    // column-gap: 20px !important;
+    columns: 2 !important;
+}
 
 ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
     column-count: 3 !important;
@@ -520,8 +520,8 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
 
 .callout-body > .one-column, .callout-body > .two-columns {
     margin-top: -1em !important;
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
+    // display: grid !important;
+    // grid-template-columns: 1fr 1fr !important;
 }
 
 // .callout-body > .one-column, .callout-body > .two-columns  p {
