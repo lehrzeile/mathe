@@ -34,7 +34,9 @@
             {{ .Inner }}
             </ul>
             {{ end }}
+            <div class="no-enum">
             {{ .Inner }}
+            </div>
           {{ else }}
             {{ .Inner | strings.TrimSpace | .Page.RenderString }}
           {{ end }}
