@@ -24,9 +24,9 @@
           <!-- {{ if .Get "style" | eq "enum-arabic" }} <ol type="1"> {{end}} -->
           {{ if .Get "style" | eq "enum-arabic" }} <div class="enum-arabic"> {{end}}
           {{ if .Get "title" | eq "bettermarks" }}
-            {{ if .Get "style" | eq "enum-arabic" }}
+            <!-- {{ if .Get "style" | eq "enum-arabic" }}
             abc
-            {{ end }}
+            {{ end }} -->
             <ul>
             {{ .Inner }}
             </ul>
