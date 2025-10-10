@@ -105,7 +105,7 @@ Was heißt das nun? <br />
 Die Parabel wurde also um $2$ Einheiten nach rechts sowie um $1$ Einheit nach unten verschoben.
 Außerdem lässt sich noch erkennen, dass die Parabel um den Faktor $1,5$ gestreckt wird.
 
-{{< box-notice >}}
+{{< box-notice title="Verschiebung einer Parabel entlang der $x$- und $y$-Achse" >}}
     Ist eine quadratische Funktion in der Scheitelpunktform $ f(x) = a \cdot (x-x_s)^2 + y_s $ gegeben, so bestimmt $x_s$ die Verschiebung des Scheitelpunkts entlang der $x$-Achse.
     $y_s$ wiederum bestimmt die Verschiebung des Scheitelpunkts entlang der $y$-Achse.
     <ul>
@@ -192,7 +192,9 @@ Ein **Linearfaktor** ist ein Faktor einer Polynomfunktion, der die Variable $x$ 
 
 {{< box-notice title="Linearfaktorform" >}}
 Die **Linearfaktorform** (oder auch Linearfaktordarstellung oder -zerlegung) ist eine Darstellung eines Polynoms als Produkt von Linearfaktoren und einer Konstante $a$. Sie lautet für eine quadratische Funktion:
+
 $$f(x) = a \cdot (x-x_1) \cdot (x-x_2).$$
+
 Dabei sind $x_1$ und $x_2$ die Nullstellen des Polynoms und $a$ der Streck- bzw. Öffnungsfaktor der Parabel.
 {{< /box-notice >}}
 
