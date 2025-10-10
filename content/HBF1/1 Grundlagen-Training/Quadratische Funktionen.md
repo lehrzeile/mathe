@@ -86,6 +86,8 @@ wobei $x_s$ und $y_s$ die Koordinaten des Scheitelpunkts $S(x_s|y_s)$ sind und $
 
 {{< box-question title="Ist dir etwas aufgefallen?" >}}
 Die Scheitelpunktform liefert uns nicht nur Auskunft über die Verschiebung der Parabel entlang der $y$-Achse. Sie liefert uns darüber hinaus auch eine Information darüber, wie weit der Scheitelpunkt entlang der $x$-Achse nach links oder rechts verschoben wurde.
+
+Damit beschäftigen wir uns im kommenden Abschnitt.
 {{< /box-question >}}
 
 ### Verschiebung einer Parabel entlang der $x$- und $y$-Achse
@@ -118,7 +120,7 @@ Außerdem lässt sich noch erkennen, dass die Parabel um den Faktor $1,5$ gestre
 
 - $f(x)=(x-3)^2+5$: der Scheitelpunkt der Parabel wurde um **5 Einheiten nach oben** und um **3 Einheiten nach rechts** verschoben
 - $f(x)=(x+2)^2-1$: der Scheitelpunkt der Parabel wurde um **1 Einheit nach unten** und um **2 Einheiten nach links** verschoben
-- $f(x)=(x-1)^2$: der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und liegt auf der $x$-Achse
+- $f(x)=-(x-1)^2$: der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und liegt auf der $x$-Achse. Außerdem ist die Parabel **nach unten geöffnet**.
 
 {{< /box-example >}}
 
