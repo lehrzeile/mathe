@@ -132,11 +132,11 @@ der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und 
 ## Quadratische Ergänzung
 
 {{< box-question title="Schonmal gehört?" >}}
-    Die Quadratische Ergänzung benötigst du unter anderem, um die Funktionsvorschrift einer quadratischen Funktionen von der allgemeinen Form in die Scheitelpunktform umzuwandeln.
+    Die **quadratische Ergänzung** benötigst du unter anderem, um die Funktionsvorschrift einer quadratischen Funktionen von der allgemeinen Form in die Scheitelpunktform umzuwandeln.
 {{< /box-question >}}
 
 {{< job numbered="false" style="" title="" name="Tüftelaufgabe" >}}
-    Finde heraus, wie das Verfahren der quadratischen Ergänzung funktioniert. Wähle hierzu ein oder zwei geeignete Beispiele (Funktionsgleichungen in der allgemeinen Form), die du in die Scheitelpunktform umwandelst.
+    **Erkläre**, wie das Verfahren der quadratischen Ergänzung funktioniert. Wähle hierzu ein oder zwei geeignete Beispiele (Funktionsgleichungen in der allgemeinen Form), die du in die Scheitelpunktform umwandelst.
 {{< /job >}}
 
 {{< box-note title="Kurzvortrag gefällig?" >}}
@@ -166,8 +166,8 @@ $\Rightarrow$ zwei Nullstellen
 {{< youtube IM1WtnTYJK4 >}}
 
 {{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" entry="Die beiden Videos beschäftigen sich mit dem Bestimmen von Nullstellen quadratischer Funktionen - mit und ohne p-q-Formel." >}}
-    <li>Schaue dir zunächst aufmerksam das Video an.</li>
-    <li>Betrachte das Video nun ein zweites Mal und schreibe die Beispielaufgabe mit.</li>
+    <li>**Schaue** dir zunächst aufmerksam das Video **an**.</li>
+    <li>**Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.</li>
 {{< /job >}}
 
 {{< job name="" numbered="true" style="enum-alph" title="Üben und Vertiefen" entry="" >}}
@@ -188,9 +188,9 @@ $\Rightarrow$ zwei Nullstellen
 
 ## Die Linearfaktorform
 
-Hat man die Nullstellen einer quadratischen Funktion berechnet, so kann man die Funktionsgleichung in der sogenannten Linearfaktorform darstellen.
+Hat man die Nullstellen einer quadratischen Funktion berechnet, so kann man die Funktionsgleichung in der sogenannten **Linearfaktorform** darstellen.
 
-Die Linearfaktorform ist besonders nützlich, wenn du die Nullstellen einer quadratischen Funktion kennst oder sie herausfinden möchtest. Sie zeigt direkt, an welchen Stellen der Graph die $x$-Achse schneidet. Sprich: Du kannst sie direkt ablesen.
+Die Linearfaktorform ist besonders nützlich, wenn du die <mark>Nullstellen</mark> einer quadratischen Funktion kennst oder sie herausfinden möchtest. Sie zeigt direkt, an welchen Stellen der Graph die $x$-Achse schneidet. Sprich: Du kannst die Nullstellen direkt ablesen.
 
 Jede Nullstelle $x_1$ oder $x_2$ der Funktion entspricht dabei einem Linearfaktor $(x-x_1)$ bzw. $(x-x_2)$. So kannst du die Funktionsgleichung einfach als Produkt dieser Linearfaktoren und des Streckfaktors $a$ schreiben.
 
@@ -222,7 +222,7 @@ die quadratische Funktion besitzt die Nullstellen $x_1=3$ und $x_2=-6$
 Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -- die allgemeine Form, die Scheitelpunktform sowie die Linearfaktorform -- einer quadratischen Funktion auf unterschiedliche Art und Weise.
 
 {{< job numbered="false" style="" title="" name="Tüftelaufgabe" >}}
-    Es gibt drei Möglichkeiten, eine quadratische Funktion darzustellen: die allgemeine Form, die Scheitelpunktform sowie die Linearfaktorform. Stelle dar, wie man mathematisch zwischen diesen drei Darstellungsformen wechseln kann und welche Vor- und Nachteile die jeweiligen Darstellungsformen haben.
+    Es gibt drei Möglichkeiten, eine quadratische Funktion darzustellen: die allgemeine Form, die Scheitelpunktform sowie die Linearfaktorform. **Stelle dar**, wie man mathematisch zwischen diesen drei Darstellungsformen wechseln kann und welche Vor- und Nachteile die jeweiligen Darstellungsformen haben.
 {{< /job >}}
 
 {{< box-note title="Kurzvortrag gefällig?" >}}
@@ -234,11 +234,11 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 {{< youtube W9tPX_gcGJ4 >}}
 
 {{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" entry="" >}}
-    <li>Schaue dir zunächst aufmerksam das Video an.</li>
-    <li>Betrachte das Video nun ein zweites Mal und schreibe die Beispielaufgabe mit.</li>
+    <li>**Schaue** dir zunächst aufmerksam das Video **an**.</li>
+    <li>**Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.</li>
 {{< /job >}}
 
-{{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="Bestimme jeweils die Schnittpunkte von Parabel und Gerade." >}}
+{{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Bestimme** jeweils die Schnittpunkte von Parabel und Gerade." >}}
     <li>$f_1(x) = x^2 - 2x - 3, \qquad g_1(x)= 2x + 2$</li>
     <li>$f_2(x) = 2x^2 + 4x - 2, \qquad g_2(x)= -2x - 2$</li>
     <li>$f_3(x) = -\frac12 x^2 - 2x, \qquad g_3(x)= 2x + 8$</li>
@@ -257,11 +257,11 @@ Je nachdem, was man bestimmen möchte, eignen sich die drei Darstellungsformen -
 {{< youtube w_lhORlfZ20 >}}
 
 {{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" entry="" >}}
-    <li>Schaue dir zunächst aufmerksam das Video an.</li>
-    <li>Betrachte das Video nun ein zweites Mal und schreibe die Beispielaufgabe mit.</li>
+    <li>**Schaue** dir zunächst aufmerksam das Video **an**.</li>
+    <li>**Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.</li>
 {{< /job >}}
 
-{{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="Bestimme jeweils die Schnittpunkte der beiden Parabeln." >}}
+{{< job name="" numbered="true" style="enum-alph" title="Übung macht den Meister" entry="**Bestimme** jeweils die Schnittpunkte der beiden Parabeln." >}}
     <li>$f_1(x) = 2x^2 + 3x + 7, \qquad p_1(x)= 4x^2 - 5x - 3$</li>
     <li>$f_2(x) = 3x^2 - 5x, \qquad p_2(x)= 2x^2 - x - 4$</li>
     <li>$f_3(x) = 2x^2 - 4x + 10, \qquad p_3(x)= x^2 - 2x - 2$</li>
