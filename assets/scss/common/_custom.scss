@@ -500,12 +500,17 @@ blockquote {
     padding: 0 !important;
 }
 
+.callout-jobs, .callout-content, .callout-body, .two-columns {
+    width: 100% !important;
+}
+
 // Spaltenlayouts in Callouts
 ol.two-columns, .two-columns ol, ul.two-columns, .two-columns ul {
     // column-count: 2 !important;
     // column-gap: 20px !important;
     columns: 2 !important;
-    width: 100% !important;
+    // width: 100% !important;
+    list-style-position: inside;
 }
 
 ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
@@ -527,7 +532,8 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
 }
 
 .callout-body > .one-column, .callout-body > .two-columns li {
-    width: 100% !important;
+    float: left;
+    width: 50%;
 }
 
 // .callout-body > .one-column, .callout-body > .two-columns  p {
