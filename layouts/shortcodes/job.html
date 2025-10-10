@@ -14,7 +14,7 @@
       </div>
 {{end}}
       <div class="callout-body">
-        {{ if .Get "columns" | eq "3" }} <div class="three-columns"> {{ else }} {{ if .Get "columns" | eq "2" }} <div class="two-columns"> {{ else }} <div class="one-column"> {{ end }} {{ end }}
+        {{ if .Get "columns" | eq "3" }} <div class="three-columns"> {{ else }} {{ if .Get "columns" | eq "2" }} <div class="two-columns"> {{ else }} <div class="one-column"> {{ end }} {{ end }}
           {{ $entry := $.Get "entry" }}
           {{ if $entry }}
             <p class="entry-text">{{ $entry | .Page.RenderString }}</p>

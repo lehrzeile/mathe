@@ -65,6 +65,7 @@ Die binomischen - nicht bi**o**nomischen (!) - Formeln sind besonders nützlich,
 - $64x^2 - 36$
 - $25z^2 + 40zy + 16y^2$
 - $100a^2 - 60ab + 9b^2$
+
 - $256 - 25f^2$
 - $80u + 64u^2 + 25$
 - $-56ab + 49b^2 + 16a^2$
