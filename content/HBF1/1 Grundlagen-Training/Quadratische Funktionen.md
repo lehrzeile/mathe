@@ -31,7 +31,7 @@ Den Tiefpunkt bzw. Hochpunkt einer solchen bogenförmigen Parabel bezeichnet man
 Dieser kann beliebig im Koordinatensystem verschoben sein.
 
 {{< box-notice title="Allgemeine Funktionsgleichung einer quadratischen Funktion" >}}
-Die allgemeine Funktionsgleichung einer quadratischen Funktion hat immer die Form $$f(x)=ax^2+bx+c.$$
+Die **allgemeine Funktionsgleichung** einer quadratischen Funktion hat die Form $$f(x)=ax^2+bx+c.$$
 {{< /box-notice >}}
 
 ### Symmetrieeigenschaft und Scheitelpunkt quadratischer Funktionen
@@ -45,8 +45,8 @@ Den **Streck- bzw. Öffnungsfaktor** einer Parabel kann man ganz einfach ablesen
 {{< box-notice title="Streck- bzw. Öffnungsfaktor einer Parabel" >}}
     Ob eine Parabel gestreckt oder gestaucht ist, erkennst du am Vorfaktor $a$:
     <ul>
-        <li>$a = 1 :\quad$ der Graph ist eine Normalparabel (oranger Graph)</li>
-        <li>$a = -1 :\quad$ der Graph ist eine Normalparabel, aber nach unten geöffnet (blauer Graph)</li>
+        <li>$a = 1 :\quad$ der Graph ist eine **Normalparabel** (oranger Graph)</li>
+        <li>$a = -1 :\quad$ der Graph ist eine Normalparabel, aber **nach unten geöffnet** (blauer Graph)</li>
         <li>$a > 1$ oder $a < -1 :\quad$ die Parabel ist **gestreckt** (grüner Graph)</li>
         <li>$-1 < a < 1, \hspace{5pt} a \neq 0 :\quad$ die Parabel ist **gestaucht** (roter Graph)</li>
     </ul>
