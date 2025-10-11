@@ -15,53 +15,40 @@
 {{end}}
       <div class="callout-body">
         {{ if .Get "columns" | eq "3" }} <div class="three-columns"> {{ else }} {{ if .Get "columns" | eq "2" }} <div class="two-columns"> {{ else }} <div class="one-column"> {{ end }} {{ end }}
-        {{ $entry := $.Get "entry" }}
-        {{ if $entry }}
-          <p class="entry-text">{{ $entry | .Page.RenderString }}</p>
-        {{ end }}
-          
-        {{ if .Get "style" | eq "enum-alph" }}
-          <div class="enum-alph">
+          {{ $entry := $.Get "entry" }}
+          {{ if $entry }}
+            <p class="entry-text">{{ $entry | .Page.RenderString }}</p>
+          {{ end }}
+          <!-- {{ if .Get "style" | eq "enum-alph" }} <ol type="a"> {{end}} -->
+          {{ if .Get "style" | eq "enum-alph" }} <div class="enum-alph"> {{end}}
+          <!-- {{ if .Get "style" | eq "enum-arabic" }} <ol type="1"> {{end}} -->
+          {{ if .Get "style" | eq "enum-arabic" }} <div class="enum-arabic"> {{end}}
           {{ if .Get "title" | eq "bettermarks" }}
-            <ul>
-          {{end}}
-          {{ .Inner }}
-          {{ if .Get "title" | eq "bettermarks" }}
-            </ul>
-          {{end}}
-          </div>
-          {{end}}
-          
-          {{ if .Get "style" | eq "enum-arabic" }}
-          <div class="enum-arabic">
-            {{ if .Get "title" | eq "bettermarks" }}
-            <ul>
-            {{end}}
-            {{ .Inner }}
-            {{ if .Get "title" | eq "bettermarks" }}
+            {{ if .Get "style" | eq "enum-alph" }}
+              <ul>
+              {{ .Inner }}
               </ul>
-            {{end}}
-            </div>
-          <!-- {{end}} -->
-
-          {{ else }}
-            {{ if .Get "title" | eq "bettermarks" }}
-              <div class="no-enum">
             {{ end }}
-            {{ .Inner | strings.TrimSpace | .Page.RenderString }}
-            {{ if .Get "title" | eq "bettermarks" }}
+            {{ if .Get "style" | eq "enum-arabic" }}
+              <ul>
+              {{ .Inner }}
+              </ul>
+            {{ else }}
+              <div class="no-enum">
+              {{ .Inner }}
               </div>
             {{ end }}
+          {{ else }}
+            {{ .Inner | strings.TrimSpace | .Page.RenderString }}
           {{ end }}
-
-          <!-- {{ if .Get "style" | eq "enum-alph" }} -->
+          {{ if .Get "style" | eq "enum-alph" }}
             <!-- </ol> -->
-            <!-- </div> -->
-          <!-- {{ else if .Get "style" | eq "enum-arabic" }} -->
+            </div>
+          {{ else if .Get "style" | eq "enum-arabic" }}
             <!-- </ol> -->
-            <!-- </div> -->
-          <!-- {{ end }} -->
-        <!-- </div> -->
+            </div>
+          {{ end }}
+        </div>
         {{ if .Get "title" | eq "bettermarks"}}<span class="job-notice">Hinweis: Damit die Links funktionieren, musst du bei bettermarks eingeloggt sein.</span>{{end}}
       </div>
     </div>
