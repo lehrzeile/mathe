@@ -22,13 +22,13 @@
 
           
           {{ if .Get "style" | eq "enum-alph" }} 
-            <div class="enum-alph"> <ul> 
+            <div class="enum-alph">
             {{ if .Get "title" | eq "bettermarks" }} {{ .Inner }} {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}
-            </ul> </div>
+            </div>
           {{ else if .Get "style" | eq "enum-arabic" }}
-            <div class="enum-arabic"> <ul>
+            <div class="enum-arabic">
             {{ if .Get "title" | eq "bettermarks" }} {{ .Inner }} {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}
-            </ul> </div>
+            </div>
           {{ else }}
             {{ if .Get "title" | eq "bettermarks" }}
               <div class="no-enum">
