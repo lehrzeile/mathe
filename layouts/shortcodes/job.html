@@ -19,36 +19,27 @@
           {{ if $entry }}
             <p class="entry-text">{{ $entry | .Page.RenderString }}</p>
           {{ end }}
-          <!-- {{ if .Get "style" | eq "enum-alph" }} <ol type="a"> {{end}} -->
-          {{ if .Get "style" | eq "enum-alph" }} <div class="enum-alph"> {{end}}
-          <!-- {{ if .Get "style" | eq "enum-arabic" }} <ol type="1"> {{end}} -->
-          {{ if .Get "style" | eq "enum-arabic" }} <div class="enum-arabic"> {{end}}
-          {{ if .Get "title" | eq "bettermarks" }}
-            {{ if .Get "style" | eq "enum-alph" }}
-              <ul>
-              {{ .Inner }}
-              </ul>
-            {{ end }}
-            {{ if .Get "style" | eq "enum-arabic" }}
-              <ul>
-              {{ .Inner }}
-              </ul>
-            {{ else }}
+
+          
+          {{ if .Get "style" | eq "enum-alph" }} 
+            <div class="enum-alph"> <ul> 
+            {{ if .Get "title" | eq "bettermarks" }} {{ .Inner }} {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}
+            </ul> </div>
+          {{ else if .Get "style" | eq "enum-arabic" }}
+            <div class="enum-arabic"> <ul>
+            {{ if .Get "title" | eq "bettermarks" }} {{ .Inner }} {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}
+            </ul> </div>
+          {{ else }}
+            {{ if .Get "title" | eq "bettermarks" }}
               <div class="no-enum">
-              {{ .Inner }}
+                {{ .Inner }}
               </div>
             {{ end }}
-          {{ else }}
             {{ .Inner | strings.TrimSpace | .Page.RenderString }}
-          {{ end }}
-          {{ if .Get "style" | eq "enum-alph" }}
-            <!-- </ol> -->
-            </div>
-          {{ else if .Get "style" | eq "enum-arabic" }}
-            <!-- </ol> -->
-            </div>
-          {{ end }}
-        </div>
+          {{end}}
+
+
+        </div> <!-- end columns -->
         {{ if .Get "title" | eq "bettermarks"}}<span class="job-notice">Hinweis: Damit die Links funktionieren, musst du bei bettermarks eingeloggt sein.</span>{{end}}
       </div>
     </div>
