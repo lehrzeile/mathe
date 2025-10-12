@@ -31,10 +31,11 @@
             </div>
           {{ else }}
             {{ if .Get "title" | eq "bettermarks" }}
-              <div class="no-enum">
-                {{ .Inner }}
-              </div>
-            {{ else }}
+            <div class="no-enum">
+              {{ .Inner }}
+            </div>
+            {{ end }}
+            {{ if .Get "title" | not (eq "bettermarks") }}
               {{ .Inner | strings.TrimSpace | .Page.RenderString }}
             {{ end }}
           {{end}}
