@@ -35,7 +35,7 @@
               {{ .Inner }}
             </div>
             {{ end }}
-            {{ if .Get "title" | not (eq "bettermarks") }}
+            {{ if not (.Eq .Get "title" "bettermarks") }}
               {{ .Inner | strings.TrimSpace | .Page.RenderString }}
             {{ end }}
           {{end}}
