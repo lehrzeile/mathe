@@ -517,13 +517,13 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
     margin-top: 0 !important;
 }
 
-.callout-body .enum-alph ul li::marker, .callout-body .enum-alph ol li::marker {
-    content: counter(list-item, lower-alpha) ") " !important;
-}
+// .callout-body .enum-alph ul li::marker, .callout-body .enum-alph ol li::marker {
+//     content: counter(list-item, lower-alpha) ") " !important;
+// }
 
-.callout-body .enum-arabic ul li::marker, .callout-body .enum-arabic ol li::marker {
-    content: counter(list-item, decimal) ". " !important;
-}
+// .callout-body .enum-arabic ul li::marker, .callout-body .enum-arabic ol li::marker {
+//     content: counter(list-item, decimal) ". " !important;
+// }
 
 .callout-body .enum-alph ol, .callout-body .enum-alph ul {
     padding-left: 0.5em !important;
@@ -541,14 +541,14 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
     margin-top: -1em !important;
 }
 
-.callout-body .enum-alph li:before {
+.callout-body .enum-alph li::marker {
     content: counter(list-item, lower-alpha) ") " !important;
     color: var(--primary-color) !important;
     font-weight: 500 !important;
     padding-right: 0.5em !important;
 }
 
-.callout-body .enum-arabic li:before {
+.callout-body .enum-arabic li::marker {
     content: counter(list-item, decimal) ". " !important;
     color: var(--primary-color) !important;
     font-weight: 500 !important;
