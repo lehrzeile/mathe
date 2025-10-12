@@ -525,8 +525,8 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
     content: counter(list-item, decimal) ". " !important;
 }
 
-.callout-body .enum-alph ul {
-    padding-left: 1em !important;
+.callout-body .enum-alph ol {
+    padding-left: 0.5em !important;
 }
 
 .callout-body .enum-alph li {
@@ -534,19 +534,23 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
     position: relative;
 }
 
+.one-column + .enum-alph, .one-column + .enum-arabic {
+    margin-top: -1em !important;
+}
+
 .callout-body .enum-alph li:before {
     content: counter(list-item, lower-alpha) ") " !important;
     color: var(--primary-color) !important;
     font-weight: 500 !important;
-    width: 2em !important;
-    text-align: left !important;
+    padding-right: 1em !important;
 }
 
-// .callout-body .enum-arabic li:before {
-//     content: counter(list-item, decimal) ". " !important;
-//     color: var(--primary-color);
-//     font-weight: 500;
-// }
+.callout-body .enum-arabic li:before {
+    content: counter(list-item, decimal) ". " !important;
+    color: var(--primary-color) !important;
+    font-weight: 500 !important;
+    padding-right: 1em !important;
+}
 
 .no-enum {
     list-style-type: none !important;
@@ -656,7 +660,7 @@ span.jobs-title {
 // Shortcode: solution (Lösungen)
 details.solution {
     margin-top: -1em;
-    margin-bottom: 2em;
+    margin-bottom: 3em !important;
 }
 
 details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h3) { // if a solution is followed by a heading
