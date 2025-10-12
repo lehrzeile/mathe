@@ -533,6 +533,8 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
 .callout-body .enum-alph li, .callout-body .enum-arabic li {
     list-style: none;
     position: relative;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
 }
 
 .one-column + .enum-alph, .one-column + .enum-arabic {
