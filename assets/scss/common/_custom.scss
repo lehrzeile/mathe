@@ -525,11 +525,12 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
     content: counter(list-item, decimal) ". " !important;
 }
 
-.callout-body .enum-alph ol {
+.callout-body .enum-alph ol, .callout-body .enum-alph ul {
     padding-left: 0.5em !important;
+    margin-left: 0 !important;
 }
 
-.callout-body .enum-alph li {
+.callout-body .enum-alph li, .callout-body .enum-arabic li {
     list-style: none;
     position: relative;
 }
@@ -542,14 +543,14 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
     content: counter(list-item, lower-alpha) ") " !important;
     color: var(--primary-color) !important;
     font-weight: 500 !important;
-    padding-right: 1em !important;
+    padding-right: 0.5em !important;
 }
 
 .callout-body .enum-arabic li:before {
     content: counter(list-item, decimal) ". " !important;
     color: var(--primary-color) !important;
     font-weight: 500 !important;
-    padding-right: 1em !important;
+    padding-right: 0.5em !important;
 }
 
 .no-enum {
