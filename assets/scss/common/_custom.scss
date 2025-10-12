@@ -517,32 +517,24 @@ ol.three-columns, .three-columns ol, ul.three-columns, .three-columns ul {
     margin-top: 0 !important;
 }
 
-.callout-body li::marker {
-    font-weight: 500;
-}
-
 .callout-body .enum-alph ul li::marker, .callout-body .enum-alph ol li::marker {
     content: counter(list-item, lower-alpha) ") " !important;
-    color: var(--primary-color) !important;
-    font-weight: 500 !important;
 }
 
 .callout-body .enum-arabic ul li::marker, .callout-body .enum-arabic ol li::marker {
     content: counter(list-item, decimal) ". " !important;
+}
+
+.callout-body .enum-alph li {
+    list-style: none;
+    position: relative;
+}
+
+.callout-body .enum-alph li:before {
+    content: counter(list-item, lower-alpha) ") " !important;
     color: var(--primary-color) !important;
     font-weight: 500 !important;
 }
-
-// .callout-body .enum-alph li {
-//     list-style: none;
-//     position: relative;
-// }
-
-// .callout-body .enum-alph li:before {
-//     content: counter(list-item, lower-alpha) ") " !important;
-//     color: var(--primary-color);
-//     font-weight: 500;
-// }
 
 // .callout-body .enum-arabic li:before {
 //     content: counter(list-item, decimal) ". " !important;
@@ -840,8 +832,8 @@ ul {
 }
 
 ul li::marker, ol li::marker {
-    color: var(--primary-color);
-    font-weight: 400;
+    color: var(--primary-color) !important;
+    font-weight: 500 !important;
 }
 
 // table {
