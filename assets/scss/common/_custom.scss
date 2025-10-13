@@ -578,12 +578,11 @@ blockquote {
     margin: 0 !important;
 }
 
-.callout.callout-jobs > .callout-content > .callout-body > ol {
-    font-weight: 700 !important;
-    // margin: 0 0 0 1.25em !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
+// .callout.callout-jobs > .callout-content > .callout-body > ol {
+//     font-weight: 700 !important;
+//     margin: 0 !important;
+//     padding: 0 !important;
+// }
 
 .callout-jobs > .callout-content > .callout-title {
     border-bottom: 1px solid var(--line-color);
@@ -790,8 +789,8 @@ ul li::marker, ol li::marker {
 }
 
 // Listen in Callouts
-.callout.callout-job > .callout-content > .callout-body > ol, .callout.callout-job > .callout-content > .callout-body > ul {
-    margin: 0 !important;
+.callout.callout-jobs > .callout-content > .callout-body > ol, .callout.callout-jobs > .callout-content > .callout-body > ul {
+    margin: 0 0 0 1em !important;
     padding: 0 !important;
 }
 
