@@ -829,13 +829,13 @@ ul li::marker, ol li::marker {
 
 .callout-body .enum-arabic ol, .callout-body .enum-arabic ul {
     padding-left: 0.5em !important;
-    margin-left: 1em !important;
+    margin-left: 1.5em !important;
     list-style-type: decimal !important;
 }
 
-.callout-body .enum-arabic li {
-    margin-left: 0.5em !important;
-}
+// .callout-body .enum-arabic li {
+//     margin-left: 0.5em !important;
+// }
 
 .no-enum {
     list-style-type: none !important;
