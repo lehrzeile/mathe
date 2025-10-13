@@ -841,6 +841,23 @@ ul li::marker, ol li::marker {
     list-style-type: none !important;
 }
 
+.solution ul, .solution ol {
+    padding-left: 0.5em !important;
+    margin-left: 1em !important;
+}
+
+.solution .enum-arabic ul, .solution .enum-arabic ol {
+    list-style-type: decimal !important;
+}
+
+.solution .enum-alph ul, .solution .enum-alph ol {
+    list-style-type: none !important;
+}
+
+.solution .enum-alph li {
+    list-style: none !important;
+}
+
 .solution .enum-alph li::before {
     position: absolute;
     left: -1em;
@@ -850,12 +867,6 @@ ul li::marker, ol li::marker {
     content: counter(list-item, lower-alpha) ") " !important;
     color: var(--primary-color) !important;
     font-weight: 500 !important;
-}
-
-.solution ul, .solution ol {
-    padding-left: 0.5em !important;
-    margin-left: 1em !important;
-    list-style-type: decimal !important;
 }
 
 li::before + .katex-display {
