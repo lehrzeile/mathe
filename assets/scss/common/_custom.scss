@@ -325,7 +325,9 @@ blockquote {
     margin: 2em 1.5em 0 1.5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    border-left-color: var(--lz-highlight-bg);
+    // border-left-color: var(--lz-highlight-bg) !important;
+    border-left-color: var(--callout-question-transparent) !important;
+    color: var(--callout-question) !important;
     line-height: 1.4em !important;
     font-size: 1.2em;
 
@@ -531,7 +533,7 @@ blockquote {
 
 .callout-body .enum-alph ol, .callout-body .enum-alph ul {
     padding-left: 0.5em !important;
-    margin-left: 1.5em !important;
+    margin-left: 1em !important;
 }
 
 // .callout-body .enum-alph .bettermarks li, .callout-body .enum-arabic .bettermarks li {
@@ -575,7 +577,7 @@ blockquote {
 //     padding-right: 0.5em !important;
 // }
 
-.callout-body .enum-arabic {
+.callout-body .enum-arabic ul {
     list-style-type: decimal !important;
 }
 
