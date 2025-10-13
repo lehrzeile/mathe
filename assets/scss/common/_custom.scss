@@ -556,6 +556,7 @@ blockquote {
 .callout-body .enum-alph .bettermarks li::before {
     position: absolute;
     left: -1em;
+    top: .125em;
     width: 1em;
     content: counter(list-item, lower-alpha) ") " !important;
     color: var(--primary-color) !important;
