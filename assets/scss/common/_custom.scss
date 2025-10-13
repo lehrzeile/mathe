@@ -805,12 +805,6 @@ ul li::marker, ol li::marker {
     margin-left: 1em !important;
 }
 
-.callout-body .enum-arabic ol, .callout-body .enum-arabic ul {
-    padding-left: 0.5em !important;
-    margin-left: 1em !important;
-    list-style-type: decimal !important;
-}
-
 .callout-body .enum-alph li {
     list-style: none;
     position: relative;
@@ -831,6 +825,16 @@ ul li::marker, ol li::marker {
 
 .callout-body .enum-alph .bettermarks li::before {
     top: .125em !important;
+}
+
+.callout-body .enum-arabic ol, .callout-body .enum-arabic ul {
+    padding-left: 0.5em !important;
+    margin-left: 1em !important;
+    list-style-type: decimal !important;
+}
+
+.callout-body .enum-arabic li {
+    padding-left: 0.5em !important;
 }
 
 .no-enum {
