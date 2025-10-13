@@ -820,8 +820,10 @@ ul li::marker, ol li::marker {
 .callout-body .enum-alph li::before {
     position: absolute;
     left: -1em;
-    top: 0;
+    // top: 0;
+    top: .125em !important;
     width: 1em;
+    line-height: 1.3em !important;
     content: counter(list-item, lower-alpha) ") " !important;
     color: var(--primary-color) !important;
     font-weight: 500 !important;
@@ -834,7 +836,7 @@ ul li::marker, ol li::marker {
 
 // .callout-body .enum-alph .bettermarks li::before {
 .callout-body .enum-alph li::before {
-    top: .1875em !important;
+    top: .125em !important;
 }
 
 .no-enum {
