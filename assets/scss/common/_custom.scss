@@ -413,6 +413,10 @@ blockquote {
     margin-top: -0.2em !important;
 }
 
+.entry-text {
+    padding-bottom: 0.5em !important;
+}
+
 // Callout: box-important (Achtung)
 .callout.callout-caution {
     border-color: var(--callout-caution-transparent);
