@@ -96,9 +96,7 @@ Du erinnerst dich an die drei Methoden aus dem vorangegangenen Kapitel, mit dere
 
 {{< youtube wo1htpyG9w8 >}}
 
-{{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
-Gegeben sei die Funktion $f(x)= -x^2 + 5x - 2$. \
-
+{{< job title="Üben und Vertiefen" numbered="true" style="" name="" entry="Gegeben sei die Funktion $f(x)= -x^2 + 5x - 2$." >}}
 **Bestimme** mit Hilfe der Ableitung die Steigung in den Punkten $P_1 \left(1|f(1)\right)$, $P_2 \left(2|f(2)\right)$ und $P_3 \left(5|f(5)\right)$.
 {{< /job >}}
 
