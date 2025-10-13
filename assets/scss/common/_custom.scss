@@ -790,8 +790,10 @@ ul li::marker, ol li::marker {
 
 // Listen in Callouts
 .callout.callout-jobs > .callout-content > .callout-body > ol, .callout.callout-jobs > .callout-content > .callout-body > ul {
-    margin: 0 0 0 1em !important;
+    margin: 0 !important;
     padding: 0 !important;
+    padding-left: 0.5em !important;
+    margin-left: 1em !important;
 }
 
 .callout-body .enum-alph ol, .callout-body .enum-alph ul {

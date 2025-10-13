@@ -16,7 +16,7 @@ In diesem Kapitel lernst du, wie man die lokale Änderungsrate – also die Stei
 {{< youtube sXxK-JATrc0 >}}
 
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
-Gegeben sei die Funktion $f_1$ mit $f_1(x)=\frac12 x^2 - 3x + 1$. \
+Gegeben sei die Funktion $f_1$ mit $f_1(x)=\frac12 x^2 - 3x + 1$.
 
 1. **Bestimme** mithilfe des Differenzenquotienten die mittlere Änderungsrate im Intervall $[-2;1]$.
 2. **Bestimme** nach demselben Prinzip die mittlere Änderungsrate im gleichen Intervall, dieses Mal jedoch in Einerschritten ($[-2;-1]$, $[-1;0]$ und $[0;1]$).
@@ -30,7 +30,7 @@ Gegeben sei die Funktion $f_1$ mit $f_1(x)=\frac12 x^2 - 3x + 1$. \
 Mit Hilfe des Differenzenquotienten lässt sich auch - allerdings nur näherungsweise (!) - die <mark>lokale Änderungsrate</mark> an einer bestimmten Stelle des Funktionsgraphen bestimmen. Hierzu muss notwendigerweise das Intervall um die entsprechende Stelle herum sehr klein (!) gewählt werden.
 
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
-Gegeben sei die Funktion $f$ mit $f(x)=\frac12 x^2 - 3x + 1$. \
+Gegeben sei die Funktion $f$ mit $f(x)=\frac12 x^2 - 3x + 1$.
 
 **Bestimme** mithilfe des Differenzenquotienten die Steigung im Punkt $P_1 \left(3|f(3)\right)$, indem du die mittlere Änderungsrate des Intervalls um die gesuchte Stelle herum *berechnest* und dieses schrittweise verkleinerst - sprich: die Intervallgrenzen step-by-step nach innen verschiebst ($\pm 0,5 \rightarrow \pm 0,1 \rightarrow \pm 0,01$).
 {{< /job >}}
@@ -82,7 +82,7 @@ Die Steigung des Funktionsgraphen an der Stelle $x_1=2$ bzw. im Punkt $P(2|-2)$ 
 {{< /box-example >}}
 
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
-Gegeben sei die Funktion $f$ mit $f(x)= -x^2 + 4x + 10$. \
+Gegeben sei die Funktion $f$ mit $f(x)= -x^2 + 4x + 10$.
 
 **Bestimme** mit Hilfe des Differentialquotienten die Steigung in den Punkten $P_1 \left(2|f(2)\right)$ und $P_2 \left(-1|f(-1)\right)$.
 {{< /job >}}
