@@ -535,8 +535,8 @@ blockquote {
 
 // .callout-body .enum-alph .bettermarks li, .callout-body .enum-arabic .bettermarks li {
 .callout-body .bettermarks li {
-    list-style: none;
-    position: relative;
+    // list-style: none;
+    // position: relative;
     margin-left: 0 !important;
     padding-left: 0 !important;
 }
@@ -545,14 +545,21 @@ blockquote {
     margin-top: -1em !important;
 }
 
-.callout-body .enum-alph li::marker {
+// .callout-body .enum-alph .bettermarks li::marker {
+//     content: counter(list-item, lower-alpha) ") " !important;
+//     color: var(--primary-color) !important;
+//     font-weight: 500 !important;
+//     padding-right: 0.5em !important;
+// }
+
+.callout-body .enum-alph .bettermarks li::before {
     content: counter(list-item, lower-alpha) ") " !important;
     color: var(--primary-color) !important;
     font-weight: 500 !important;
     padding-right: 0.5em !important;
 }
 
-.callout-body .enum-arabic li::marker {
+.callout-body .enum-arabic .bettermarks li::marker {
     content: counter(list-item, decimal) ". " !important;
     color: var(--primary-color) !important;
     font-weight: 500 !important;
@@ -841,7 +848,9 @@ ol.breadcrumb, ol.breadcrumb li {
 
 ol li {
     // padding-left: -2em;
-    margin-left: 1em;
+    // margin-left: 1em;
+    margin: 0.125rem 0 !important;
+    line-height: 1.1em !important;
 }
 
 ul {
