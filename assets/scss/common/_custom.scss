@@ -552,12 +552,12 @@ blockquote {
 //     padding-right: 0.5em !important;
 // }
 
-.callout-body .enum-alph .bettermarks li::before {
-    content: counter(list-item, lower-alpha) ") " !important;
-    color: var(--primary-color) !important;
-    font-weight: 500 !important;
-    padding-right: 0.5em !important;
-}
+// .callout-body .enum-alph .bettermarks li::before {
+//     content: counter(list-item, lower-alpha) ") " !important;
+//     color: var(--primary-color) !important;
+//     font-weight: 500 !important;
+//     padding-right: 0.5em !important;
+// }
 
 .callout-body .enum-arabic .bettermarks li::marker {
     content: counter(list-item, decimal) ". " !important;
