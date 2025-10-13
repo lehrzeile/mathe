@@ -57,16 +57,21 @@ Man multipliziert den ursprünglichen Exponenten $n$ mit der Potenz und reduzier
 <!-- Beispiele für die Potenzregel -->
 {{< box-example title="Beispiele für die Potenzregel:" >}}
 
-- $f(x)=x^2$ \ $\rightarrow \quad f'(x) = 2x^{2-1}=2x^1=2x$
-- $f(x)=x^3$ \ $\rightarrow \quad f'(x) = 3x^{3-1}=3x^2$
-- $f(x)=x^4$ \ $\rightarrow \quad f'(x) = 4x^{4-1}=4x^3$
-- $f(x)=5x^{17}$ \ $\rightarrow \quad f'(x) = 5 \cdot 17x^{17-1}=85x^{16}$
+- $f(x)=x^2$ \
+$\rightarrow \quad f'(x) = 2x^{2-1}=2x^1=2x$
+- $f(x)=x^3$ \
+$\rightarrow \quad f'(x) = 3x^{3-1}=3x^2$
+- $f(x)=x^4$ \
+$\rightarrow \quad f'(x) = 4x^{4-1}=4x^3$
+- $f(x)=5x^{17}$ \
+$\rightarrow \quad f'(x) = 5 \cdot 17x^{17-1}=85x^{16}$
 
 {{< /box-example >}}
 
 <!-- Summen- und Differenzenregel -->
 {{< box-notice title="Summen- und Differenzenregel" >}}
-$f(x) = g(x) \pm h(x)$ \ $\rightarrow \quad f'(x) = g'(x) \pm h'(x)$
+$f(x) = g(x) \pm h(x)$ \
+$\rightarrow \quad f'(x) = g'(x) \pm h'(x)$
 
 Besteht ein Funktionsterm (hier: $f(x)$) aus einer Summe (*bzw. Differenz*) von einzelnen Termen (hier: $g(x)$ und $h(x)$), so leitet man jeden einzelnen Term für sich ab und addiert (*bzw. subtrahiert*) anschließend deren Ableitungen (hier: $g'(x) \pm h'(x)$).
 {{< /box-notice >}}
@@ -74,10 +79,14 @@ Besteht ein Funktionsterm (hier: $f(x)$) aus einer Summe (*bzw. Differenz*) von 
 <!-- Beispiele für alle bisherigen Ableitungsregeln zusammen -->
 {{< box-example title="Kostantenregel sowie Summen- und Differenzenregel:" >}}
 
-- $f(x)=x^2 + 3x$ \ $\rightarrow \quad f'(x) = (x^2)' + (3x)' = 2x + 3$
-- $f(x)=x^5 - 4x^2$ \ $\rightarrow \quad f'(x) = (x^5)' - (4x^2)' = 5x^4 + 8x$
-- $f(x)=5 \cdot (4x^3 - 1)$ \ $\rightarrow \quad f'(x) = 5 \cdot (4x^3 - 1)'= 5 \cdot 12x^2 = 60x^2$
-- $f(x)=-2x^3 + 7x - 5$ \ $\rightarrow \quad f'(x) = (-2x^3)' + (7x)' - (5)' = -6x^2 + 7 - 0 = -6x^2 + 7$
+- $f(x)=x^2 + 3x$ \
+$\rightarrow \quad f'(x) = (x^2)' + (3x)' = 2x + 3$
+- $f(x)=x^5 - 4x^2$ \
+$\rightarrow \quad f'(x) = (x^5)' - (4x^2)' = 5x^4 + 8x$
+- $f(x)=5 \cdot (4x^3 - 1)$ \
+$\rightarrow \quad f'(x) = 5 \cdot (4x^3 - 1)'= 5 \cdot 12x^2 = 60x^2$
+- $f(x)=-2x^3 + 7x - 5$ \
+$\rightarrow \quad f'(x) = (-2x^3)' + (7x)' - (5)' = -6x^2 + 7 - 0 = -6x^2 + 7$
 
 {{< /box-example >}}
 
@@ -88,7 +97,7 @@ Du erinnerst dich an die drei Methoden aus dem vorangegangenen Kapitel, mit dere
 {{< youtube wo1htpyG9w8 >}}
 
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
-Gegeben sei die Funktion $f(x)= -x^2 + 5x - 2$.
+Gegeben sei die Funktion $f(x)= -x^2 + 5x - 2$. \
 
 **Bestimme** mit Hilfe der Ableitung die Steigung in den Punkten $P_1 \left(1|f(1)\right)$, $P_2 \left(2|f(2)\right)$ und $P_3 \left(5|f(5)\right)$.
 {{< /job >}}
@@ -111,9 +120,9 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
 ## Übung macht den Meister
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" >}}
-    {{< bettermarks uebungscode="LLD6Q" seriesID="1689552499859521664" title="Die Potenzregel bei der Bestimmung von Ableitungsfunktionen nutzen" >}}
-    {{< bettermarks uebungscode="LY7J2" seriesID="1689552696945672576" title="Die Faktor- und Summenregeln bei der Bestimmung von Ableitungsfunktionen nutzen" >}}
-    {{< bettermarks uebungscode="D5L9" seriesID="1689552038590939264" title="Höhere Ableitungen ganzrationaler Funktionen und deren Grad bestimmen" >}}
+{{< bettermarks uebungscode="LLD6Q" seriesID="1689552499859521664" title="Die Potenzregel bei der Bestimmung von Ableitungsfunktionen nutzen" >}}
+{{< bettermarks uebungscode="LY7J2" seriesID="1689552696945672576" title="Die Faktor- und Summenregeln bei der Bestimmung von Ableitungsfunktionen nutzen" >}}
+{{< bettermarks uebungscode="D5L9" seriesID="1689552038590939264" title="Höhere Ableitungen ganzrationaler Funktionen und deren Grad bestimmen" >}}
 {{< /job >}}
 
 {{< job numbered="true" style="enum-alph" title="Übung macht den Meister" columns="2" entry="**Bestimme** jeweils den Term der Ableitungsfunktion $f'(x)$." >}}
@@ -127,7 +136,7 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
 
 {{< /job >}}
 
-{{< solution style="enum-alph" >}}
+{{< solution numbered="true" style="enum-alph" >}}
 
 - $f'(x)=3$
 - $f'(x)=4x^3$
