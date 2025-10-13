@@ -852,7 +852,7 @@ ul li::marker, ol li::marker {
     font-weight: 500 !important;
 }
 
-.solution .enum-arabic ul, .solution ol {
+.solution ul, .solution ol {
     padding-left: 0.5em !important;
     margin-left: 1em !important;
     list-style-type: decimal !important;
