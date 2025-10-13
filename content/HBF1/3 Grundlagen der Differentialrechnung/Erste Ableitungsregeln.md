@@ -116,7 +116,7 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
     {{< bettermarks uebungscode="D5L9" seriesID="1689552038590939264" title="Höhere Ableitungen ganzrationaler Funktionen und deren Grad bestimmen" >}}
 {{< /job >}}
 
-{{< job numbered="true" style="" title="Übung macht den Meister" columns="2" entry="**Bestimme** jeweils den Term der Ableitungsfunktion $f'(x)$." >}}
+{{< job numbered="true" style="enum-alph" title="Übung macht den Meister" columns="2" entry="**Bestimme** jeweils den Term der Ableitungsfunktion $f'(x)$." >}}
 
 - $f(x)=3x+5$
 - $f(x)=x^4-1$
@@ -127,7 +127,7 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
 
 {{< /job >}}
 
-{{< solution >}}
+{{< solution style="enum-alph" >}}
 
 - $f'(x)=3$
 - $f'(x)=4x^3$
