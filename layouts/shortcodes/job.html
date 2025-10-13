@@ -23,15 +23,15 @@
           
           {{ if .Get "style" | eq "enum-alph" }} 
             <div class="enum-alph">
-            {{ if .Get "title" | eq "bettermarks" }} <ol> {{ .Inner }} </ol> {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}
+            {{ if .Get "title" | eq "bettermarks" }} <ol class="bettermarks"> {{ .Inner }} </ol> {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}
             </div>
           {{ else if .Get "style" | eq "enum-arabic" }}
             <div class="enum-arabic">
-            {{ if .Get "title" | eq "bettermarks" }} <ol> {{ .Inner }} </ol> {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}
+            {{ if .Get "title" | eq "bettermarks" }} <ol class="bettermarks"> {{ .Inner }} </ol> {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}
             </div>
           {{ else }}
             {{ if .Get "title" | eq "bettermarks" }}
-            <div class="no-enum">
+            <div class="no-enum bettermarks">
               {{ .Inner }}
             </div>
             {{ end }}
