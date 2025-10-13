@@ -738,7 +738,6 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
     conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
   
-  /*Irrelevant code*/  
     box-sizing: border-box;
     position: relative;
     width: 90%;
@@ -820,8 +819,7 @@ ul li::marker, ol li::marker {
 .callout-body .enum-alph li::before {
     position: absolute;
     left: -1em;
-    // top: 0;
-    top: .125em !important;
+    top: 0;
     width: 1em;
     line-height: 1.3em !important;
     content: counter(list-item, lower-alpha) ") " !important;
@@ -835,7 +833,7 @@ ul li::marker, ol li::marker {
 // }
 
 // .callout-body .enum-alph .bettermarks li::before {
-.callout-body .enum-alph li::before {
+.callout-body .enum-alph .bettermarks li::before {
     top: .125em !important;
 }
 
