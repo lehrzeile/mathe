@@ -811,11 +811,6 @@ ul li::marker, ol li::marker {
     padding-left: 0.5em !important;
 }
 
-// .callout-body .enum-alph li::marker {
-//     list-style-type: lower-alpha;
-//     content: counter(list-item, lower-alpha) ") " !important;
-// }
-
 .callout-body .enum-alph li::before {
     position: absolute;
     left: -1em;
@@ -827,12 +822,6 @@ ul li::marker, ol li::marker {
     font-weight: 500 !important;
 }
 
-// .callout-body .enum-arabic .bettermarks li::marker {
-// .callout-body .enum-arabic li::marker {
-//     content: counter(list-item, decimal) ". " !important;
-// }
-
-// .callout-body .enum-alph .bettermarks li::before {
 .callout-body .enum-alph .bettermarks li::before {
     top: .125em !important;
 }
