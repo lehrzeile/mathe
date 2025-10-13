@@ -846,6 +846,8 @@ ul li::marker, ol li::marker {
 .solution .enum-alph li {
     list-style: none !important;
     position: relative;
+    margin: 0.125em 0 !important;
+    padding-left: 0.5em !important;
 }
 
 .solution .enum-alph li::before {
