@@ -1,9 +1,11 @@
 <details class="solution">
   <summary>Lösungen</summary>
-  {{ if .Get "numbered" | eq "true" }}
-    {{ if .Get "style" | eq "enum-alph" }} <div class="enum-alph"> {{else}} <div class="enum-arabic"> {{end}}
-      {{ .Inner | strings.TrimSpace | .Page.RenderString }}
-  </div>
+  <!-- {{ if .Get "numbered" | eq "true" }} -->
+  {{ if .Get "style" | eq "enum-alph" }}
+    <div class="enum-alph">{{ .Inner | strings.TrimSpace | .Page.RenderString }}</div>
+  {{ else if .Get "style" | eq "enum-arabic" }}
+    <div class="enum-arabic">{{ .Inner | strings.TrimSpace | .Page.RenderString }}</div>
+    <!-- {{ end }} -->
   {{ else }}
   <p>{{ .Inner | strings.TrimSpace | .Page.RenderString }}</p>
   {{ end }}
