@@ -127,21 +127,22 @@ $\displaystyle f'(2) = \frac12 \cdot 2 - 4 = 1 - 4 = -3$
 Die Steigung des Funktionsgraphen an der Stelle $x_1=2$ bzw. im Punkt $P(2|-2)$ beträgt also $-3$.
 {{< /box-example >}}
 
-{{< job title="Üben und Vertiefen" numbered="true" style="" name="" >}}
-**Bestimme** mit Hilfe der h-Methode die Ableitung der Funktion $f$ an der Stelle $x_0$!
-<ol type="a">
-    <li>$f_1(x)=6x+1, \quad x_0=2$</li>
-    <li>$f_2(x)=x^2, \quad x_0=3$</li>
-    <li>$f_3(x)=-x^2 + 4, \quad x_0=-4$</li>
-</ol>
+{{< job title="Üben und Vertiefen" numbered="true" style="" name="" entry="**Bestimme** mit Hilfe der h-Methode die Ableitung der Funktion $f$ an der Stelle $x_0$!" >}}
+
+- $f_1(x)=6x+1, \quad x_0=2$
+- $f_2(x)=x^2, \quad x_0=3$
+- $f_3(x)=-x^2 + 4, \quad x_0=-4$
+
 {{< /job >}}
 
 {{< source text="matheportal.com" src="https://matheportal.com/wp-content/uploads/2018/03/lc3b6sung-ableitung-mit-h-methode.pdf" lastcall="09.10.2025" >}}
 
 {{< solution numbered="true" style="enum-alph" >}}
-    <li>$\displaystyle f'(x)=\lim_{h \to 0} \frac{f(2+h)-f(2)}{2+h-2} = \lim_{h \to 0} \frac{6\cdot(2+h)+1-(6 \cdot 2 + 1)}{h} = \lim_{h \to 0} \frac{12 + 6h + 1 - 12 - 1}{h} = \lim_{h \to 0} \frac{6h}{h} = \lim_{h \to 0} 6 = 6$</li>
-    <li>$\displaystyle f'(x)=\lim_{h \to 0} \frac{f(3+h)-f(3)}{3+h-3} = \lim_{h \to 0} \frac{(3+h)^2-3^2}{h} = \lim_{h \to 0} \frac{3^2+6h+h^2-3^2}{h} = \lim_{h \to 0} \frac{6h+h^2}{h} = \lim_{h \to 0} \frac{h(6+h)}{h} = \lim_{h \to 0} (6+h) = 6$</li>
-    <li>$\displaystyle f'(x)=\lim_{h \to 0} \frac{f(-4+h)-f(-4)}{-4+h-(-4)} = \lim_{h \to 0} \frac{-(-4+h)^2 + 4 - (-(-4)^2 + 4)}{h} = \lim_{h \to 0} \frac{-(16-8h+h^2) + 4 - (-16+4)}{h} = \lim_{h \to 0} \frac{-16+8h-h^2+4+12}{h} = \lim_{h \to 0} \frac{8h-h^2}{h} = \lim_{h \to 0} \frac{h(8-h)}{h} = \lim_{h \to 0} (8-h) = 8$</li>
+
+- $\displaystyle f'(x)=\lim_{h \to 0} \frac{f(2+h)-f(2)}{2+h-2} = \lim_{h \to 0} \frac{6\cdot(2+h)+1-(6 \cdot 2 + 1)}{h} = \lim_{h \to 0} \frac{12 + 6h + 1 - 12 - 1}{h} = \lim_{h \to 0} \frac{6h}{h} = \lim_{h \to 0} 6 = 6$
+- $\displaystyle f'(x)=\lim_{h \to 0} \frac{f(3+h)-f(3)}{3+h-3} = \lim_{h \to 0} \frac{(3+h)^2-3^2}{h} = \lim_{h \to 0} \frac{3^2+6h+h^2-3^2}{h} = \lim_{h \to 0} \frac{6h+h^2}{h} = \lim_{h \to 0} \frac{h(6+h)}{h} = \lim_{h \to 0} (6+h) = 6$
+- $\displaystyle f'(x)=\lim_{h \to 0} \frac{f(-4+h)-f(-4)}{-4+h-(-4)} = \lim_{h \to 0} \frac{-(-4+h)^2 + 4 - (-(-4)^2 + 4)}{h} = \lim_{h \to 0} \frac{-(16-8h+h^2) + 4 - (-16+4)}{h} = \lim_{h \to 0} \frac{-16+8h-h^2+4+12}{h} = \lim_{h \to 0} \frac{8h-h^2}{h} = \lim_{h \to 0} \frac{h(8-h)}{h} = \lim_{h \to 0} (8-h) = 8$
+
 {{< /solution >}}
 
 ## Ausblick
