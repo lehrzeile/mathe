@@ -834,13 +834,13 @@ ol {
     margin-left: 1em;
 }
 
-.enum-alph > ol, .enum-alph > ul {
-    list-style-type: lower-alpha;
-}
+// .enum-alph > ol, .enum-alph > ul {
+//     list-style-type: lower-alpha;
+// }
 
-.enum-arabic > ol, .enum-arabic > ul {
-    list-style-type: decimal;
-}
+// .enum-arabic > ol, .enum-arabic > ul {
+//     list-style-type: decimal;
+// }
 
 ol.breadcrumb, ol.breadcrumb li {
     margin-left: 0 !important;
