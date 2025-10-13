@@ -413,10 +413,6 @@ blockquote {
     margin-top: -0.2em !important;
 }
 
-.entry-text {
-    margin-bottom: 0.5em !important;
-}
-
 // Callout: box-important (Achtung)
 .callout.callout-caution {
     border-color: var(--callout-caution-transparent);
@@ -800,10 +796,15 @@ ul li::marker, ol li::marker {
     margin-left: 1em !important;
 }
 
-// enum-alph
 .callout-body .enum-alph ol, .callout-body .enum-alph ul {
     padding-left: 0.5em !important;
     margin-left: 1em !important;
+}
+
+.callout-body .enum-arabic ol, .callout-body .enum-arabic ul {
+    padding-left: 0.5em !important;
+    margin-left: 1em !important;
+    list-style-type: decimal !important;
 }
 
 .callout-body .enum-alph li {
@@ -828,23 +829,10 @@ ul li::marker, ol li::marker {
     top: .125em !important;
 }
 
-// enum-arabic
-.callout-body .enum-arabic ol, .callout-body .enum-arabic ul {
-    padding-left: 0.5em !important;
-    margin-left: 1em !important;
-    list-style-type: decimal !important;
-}
-
-.callout-body .enum-arabic li {
-    padding-left: 0.5em !important;
-}
-
-// no-enum (für bettermarks, wenn nur eine Unteraufgabe vorhanden ist)
 .no-enum {
     list-style-type: none !important;
 }
 
-// solution
 .solution ul, .solution ol {
     padding-left: 0.5em !important;
     margin-left: 1em !important;
