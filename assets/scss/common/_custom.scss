@@ -797,7 +797,7 @@ ul li::marker, ol li::marker {
     margin: 0;
     padding: 0;
     padding-left: 0.5em;
-    margin-left: 2em;
+    margin-left: 2em !important;
 }
 
 .callout-body .enum-alph ol, .callout-body .enum-alph ul {
