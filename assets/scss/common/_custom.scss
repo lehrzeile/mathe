@@ -793,20 +793,20 @@ ul li::marker, ol li::marker {
 }
 
 // Listen in Callouts
-.callout-jobs .callout-content .callout-body ol, .callout-jobs .callout-content .callout-body ul {
-    margin: 0 !important;
-    padding: 0 !important;
-    padding-left: 0.5em !important;
-    margin-left: 1.5em !important;
+.callout-jobs > .callout-content > .callout-body ol, .callout-jobs > .callout-content > .callout-body ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 0.5em;
+    margin-left: 2em;
 }
 
-// .callout-body .enum-alph ol, .callout-body .enum-alph ul {
-//     padding-left: 0.5em !important;
-//     margin-left: 0.5em !important;
-// }
+.callout-body .enum-alph ol, .callout-body .enum-alph ul {
+    padding-left: 0.5em !important;
+    margin-left: 0.5em !important;
+}
 
 .callout-body .enum-alph li {
-    list-style: none !important;
+    list-style: none;
     position: relative;
     margin: 0.125em 0 !important;
     padding-left: 0.5em !important;
@@ -828,8 +828,8 @@ ul li::marker, ol li::marker {
 }
 
 .callout-body .enum-arabic ol, .callout-body .enum-arabic ul {
-    // padding-left: 0.5em !important;
-    // margin-left: 1em !important;
+    padding-left: 0.5em !important;
+    margin-left: 1em !important;
     list-style-type: decimal !important;
 }
 
