@@ -553,14 +553,14 @@ blockquote {
 // Hintergrundfarbe für Callout: Aufgabe im dunklen Modus
 @include color-mode(dark) {
     .callout.callout-jobs {
-        background-color: #17181c;
+        background-color: #17181c !important;
     }
 }
 
 // Hintergrundfarbe für Callout: Aufgabe im hellen Modus
 @include color-mode(light) {
     .callout.callout-jobs {
-        background-color: white;
+        background-color: white !important;
     }
 }
 
@@ -833,9 +833,9 @@ ul li::marker, ol li::marker {
     list-style-type: decimal !important;
 }
 
-.callout-body .enum-arabic li {
-    margin-left: 0.5em !important;
-}
+// .callout-body .enum-arabic li {
+//     margin-left: 0.5em !important;
+// }
 
 .no-enum {
     list-style-type: none !important;
