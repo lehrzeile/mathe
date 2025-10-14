@@ -797,7 +797,7 @@ ul li::marker, ol li::marker {
     margin: 0;
     padding: 0;
     padding-left: 0.5em;
-    margin-left: 2em !important;
+    margin-left: 2em;
 }
 
 .callout-body .enum-alph ol, .callout-body .enum-alph ul {
@@ -833,9 +833,9 @@ ul li::marker, ol li::marker {
     list-style-type: decimal !important;
 }
 
-// .callout-body .enum-arabic li {
-//     margin-left: 0.5em !important;
-// }
+.callout-body .enum-arabic li {
+    margin-left: 0.5em !important;
+}
 
 .no-enum {
     list-style-type: none !important;
