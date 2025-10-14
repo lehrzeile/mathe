@@ -806,7 +806,7 @@ ul li::marker, ol li::marker {
 // }
 
 .callout-body .enum-alph li {
-    list-style: none;
+    list-style: none !important;
     position: relative;
     margin: 0.125em 0 !important;
     padding-left: 0.5em !important;
