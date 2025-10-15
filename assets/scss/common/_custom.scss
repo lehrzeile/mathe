@@ -552,6 +552,9 @@ blockquote {
 
 // Hintergrundfarbe für Callout: Aufgabe im dunklen Modus
 @include color-mode(dark) {
+    .callout {
+        background-color: #17181c !important;
+    }
     .callout.callout-jobs {
         background-color: #17181c !important;
     }
@@ -559,8 +562,11 @@ blockquote {
 
 // Hintergrundfarbe für Callout: Aufgabe im hellen Modus
 @include color-mode(light) {
+    .callout {
+        background-color: #fff !important;
+    }
     .callout.callout-jobs {
-        background-color: white !important;
+        background-color: #fff !important;
     }
 }
 
@@ -622,7 +628,7 @@ details.solution:has(+ h1), details.solution:has(+ h2), details.solution:has(+ h
     margin-bottom: 5em !important;
 }
 
-// Abstand vor Callouts
+// Anpassungen für Callouts
 .callout {
     margin-top: 2em !important;
 }
