@@ -550,6 +550,10 @@ blockquote {
     top: -1.5em;
 }
 
+.callout {
+    background-color: transparent !important;
+}
+
 // Hintergrundfarbe für Callout: Aufgabe im dunklen Modus
 @include color-mode(dark) {
     .callout {

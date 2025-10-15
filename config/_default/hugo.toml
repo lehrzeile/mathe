@@ -1,5 +1,5 @@
 title = "Lehrzeile"
-baseurl = "/lehrzeile/"
+baseurl = "https://lehrzeile.org/"
 canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -59,7 +59,7 @@ copyRight = "Copyright (c) 2025 Philip Müller"
   blog = "/blog/:slug/"
   docs = "/docs/:sections[1:]/:slug/"
   hbf1 = "/hbf1/:sections[1:]/:slug/"
-# docs = "/docs/1.0/:sections[1:]/:slug/"
+  hbf2 = "/hbf2/:sections[1:]/:slug/"
 
 [minify.tdewolff.html]
   keepWhitespace = false

@@ -16,17 +16,17 @@
 #   identifier = "lorem"
 #   url = "/docs/lorem/"
 
-[[guide]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/guide/lorem/"
+# [[guide]]
+#   name = "Lorem"
+#   weight = 10
+#   identifier = "lorem"
+#   url = "/guide/lorem/"
 
-[[tutorial]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/tutorial/lorem/"
+# [[tutorial]]
+#   name = "Lorem"
+#   weight = 10
+#   identifier = "lorem"
+#   url = "/tutorial/lorem/"
 
 # [[main]]
 #   name = "Docs"
@@ -35,12 +35,12 @@
 
 [[main]]
   name = "HBF Unterstufe"
-  url = "/mathe/hbf1/0-organisatorisches/themenübersicht-unterstufe/"
+  url = "/hbf1/0-organisatorisches/themenübersicht-unterstufe/"
   weight = 10
 
 [[main]]
   name = "HBF Oberstufe"
-  url = "/mathe/hbf2/0-organisatorisches/themenübersicht/"
+  url = "/hbf2/0-organisatorisches/themenübersicht/"
   weight = 20
 
 # [[main]]
