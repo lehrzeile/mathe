@@ -25,7 +25,7 @@ mainSections = ["docs", "hbf1", "hbf2"]
   navBarButtonText = "Get started"
 
   # FlexSearch
-  flexSearch = false # true (default) or false
+  flexSearch = true # true (default) or false
   searchExclKinds = [] # list of page kinds to exclude from search indexing (e.g. ["home", "taxonomy", "term"] )
   searchExclTypes = [] # list of content types to exclude from search indexing (e.g. ["blog", "docs", "legal", "contributors", "categories"])
   showSearch = ["hbf1", "hbf2"] # [] (all pages, default) or homepage (optionally) and list of sections (e.g. ["homepage", "blog", "guides"])
@@ -45,8 +45,8 @@ mainSections = ["docs", "hbf1", "hbf2"]
 
   # Nav
   sectionNav = ["hbf1", "hbf2"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
-  toTopButton = true # false (default) or true
-  breadcrumbTrail = true # false (default) or true
+  toTopButton = false # false (default) or true
+  breadcrumbTrail = false # false (default) or true
   headlineHash = true # true (default) or false
   scrollSpy = true # true (default) or false
 
