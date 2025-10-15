@@ -225,6 +225,10 @@ main { /* Content-Bereich */
     padding-bottom: 0.25em;
 }
 
+.offcanvas {
+    z-index: 9999 !important
+}
+
 .offcanvas .nav-link.active,
 .offcanvas .nav-link:hover,
 .section-nav li.active a,
