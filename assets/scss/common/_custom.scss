@@ -1014,5 +1014,9 @@ body {
 }
 
 .callout {
-    overflow-x: hidden !important;
+    overflow-x: scroll !important;
+}
+
+.katex .base:last-child {
+  display: inline;
 }
