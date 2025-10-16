@@ -57,7 +57,7 @@ copyRight = "Copyright (c) 2025 Philip Müller"
 
 [permalinks]
   blog = "/blog/:slug/"
-  docs = "/docs/:sections[1:]/:slug/"
+  # docs = "/docs/:sections[1:]/:slug/"
   hbf1 = "/hbf1/:sections[1:]/:slug/"
   hbf2 = "/hbf2/:sections[1:]/:slug/"
 

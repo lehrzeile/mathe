@@ -9,8 +9,8 @@ draft: false
 
 ## Angaben gemäß § 5 TMG
 
-Philip Müller<br />
-Clemensstraße 12-14<br />
+Philip Müller \
+Clemensstraße 12-14 \
 56068 Koblenz
 
 ### Kontakt
