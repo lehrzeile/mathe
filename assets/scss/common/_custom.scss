@@ -996,3 +996,7 @@ ol.breadcrumb {
     padding-top: 2em;
     position: relative;
 }
+
+.btn.btn-link {
+    z-index: 9999 !important;
+}
