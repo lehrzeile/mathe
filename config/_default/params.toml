@@ -4,7 +4,7 @@ description = "Herzlich Willkommen auf meiner Unterrichts-Website!"
 images = ["cover.png"]
 
 # mainSections
-mainSections = ["docs", "hbf1", "hbf2"]
+mainSections = ["hbf1", "hbf2"]
 
 [social]
   twitter = "getdoks"
@@ -16,7 +16,7 @@ mainSections = ["docs", "hbf1", "hbf2"]
   colorModeToggler = true # true (default) or false (this setting is only relevant when colorMode = auto)
 
   # Navbar
-  navbarSticky = true # true (default) or false
+  navbarSticky = false # true (default) or false
   containerBreakpoint = "md" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
 
   ## Button
@@ -28,7 +28,7 @@ mainSections = ["docs", "hbf1", "hbf2"]
   flexSearch = false # true (default) or false
   searchExclKinds = [] # list of page kinds to exclude from search indexing (e.g. ["home", "taxonomy", "term"] )
   searchExclTypes = [] # list of content types to exclude from search indexing (e.g. ["blog", "docs", "legal", "contributors", "categories"])
-  showSearch = ["hbf1", "hbf2"] # [] (all pages, default) or homepage (optionally) and list of sections (e.g. ["homepage", "blog", "guides"])
+  showSearch = [] # [] (all pages, default) or homepage (optionally) and list of sections (e.g. ["homepage", "blog", "guides"])
   indexSummary = false # true or false (default); whether to index only the `.Summary` instead of the full `.Content`; limits the respective JSON field size and thus increases loading time
 
   ## Search results
@@ -59,7 +59,7 @@ mainSections = ["docs", "hbf1", "hbf2"]
   docsVersion = "1.0"
 
   # UX
-  headerBar = false # true (default) or false
+  headerBar = true # true (default) or false
   backgroundDots = true # true (default) or false
 
   # Homepage
