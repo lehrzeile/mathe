@@ -1014,7 +1014,7 @@ body {
 }
 
 .callout {
-    overflow-x: scroll !important;
+    overflow: scroll visible !important;
 }
 
 .katex .base:last-child {
