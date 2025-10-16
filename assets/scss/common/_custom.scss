@@ -1001,8 +1001,18 @@ ol.breadcrumb {
     z-index: 9999 !important;
 }
 
-.katex > .katex-html {
+.katex {
     max-width: 100% !important;
-    overflow-x: hidden !important;
+    // overflow-x: hidden !important;
+    overflow: scroll hidden !important;
     white-space: normal !important;
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+}
+
+.callout {
+    overflow-x: hidden !important;
 }
