@@ -1018,6 +1018,6 @@ body {
     overflow-y: visible !important;
 }
 
-.katex .base:last-child {
-  display: inline;
+.katex .base {
+  display: inline-block !important;
 }
