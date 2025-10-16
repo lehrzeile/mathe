@@ -44,8 +44,7 @@ mainSections = ["hbf1", "hbf2"]
   bootstrapJavascript = false # false (default) or true
 
   # Nav
-  # sectionNav = ["hbf1", "hbf2"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
-  sectionNav = [] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
+  sectionNav = ["hbf1", "hbf2"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
   toTopButton = false # false (default) or true
   breadcrumbTrail = false # false (default) or true
   headlineHash = true # true (default) or false
