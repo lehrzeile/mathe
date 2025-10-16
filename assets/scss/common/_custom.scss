@@ -563,9 +563,9 @@ blockquote {
 
 // Hintergrundfarbe für Callout: Aufgabe im dunklen Modus
 @include color-mode(dark) {
-    .callout {
-        background-color: #17181c !important;
-    }
+    // .callout {
+    //     background-color: #17181c !important;
+    // }
     .callout.callout-jobs {
         background-color: #17181c !important;
     }
@@ -573,9 +573,9 @@ blockquote {
 
 // Hintergrundfarbe für Callout: Aufgabe im hellen Modus
 @include color-mode(light) {
-    .callout {
-        background-color: #fff !important;
-    }
+    // .callout {
+    //     background-color: #fff !important;
+    // }
     .callout.callout-jobs {
         background-color: #fff !important;
     }
