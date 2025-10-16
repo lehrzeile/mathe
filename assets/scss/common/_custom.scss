@@ -1000,3 +1000,9 @@ ol.breadcrumb {
 .btn.btn-link, .navbar-expand-lg {
     z-index: 9999 !important;
 }
+
+.katex > .katex-html {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    white-space: normal !important;
+}
