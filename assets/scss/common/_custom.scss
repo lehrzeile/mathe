@@ -1027,7 +1027,7 @@ table {
     overflow-x: scroll !important;
 }
 
-table:has( + em) {
+table:has(+ p) {
     margin: 3rem 0 0 0 !important;
-    color: red;
+    color: red !important;
 }
