@@ -1023,11 +1023,21 @@ body {
 }
 
 table {
-    max-width: 100% !important;
-    overflow-x: scroll !important;
+    // width: 100% !important;
+    // max-width: 100% !important;
+    // display: inline-block !important;
+    // overflow: auto !important;
+    display: block !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    word-break: normal !important;
 }
 
 table:has(+ p) {
-    margin: 3rem 0 0 0 !important;
-    color: red !important;
+    margin: 3rem 0 0.5em 0 !important;
+}
+
+table + p > em {
+    font-size: 0.7em !important;
+    text-align: center !important;
 }
