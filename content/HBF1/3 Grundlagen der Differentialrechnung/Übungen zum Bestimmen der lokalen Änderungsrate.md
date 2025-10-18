@@ -148,3 +148,7 @@ Die Steigung des Funktionsgraphen an der Stelle $x_1=2$ bzw. im Punkt $P(2|-2)$ 
 ## Ausblick
 
 Kompliment, dass du dich bis hierhin "durchgekämpft" hast. Ab jetzt wird das Bestimmen von Steigungen am Graphen einfacher. Versprochen.
+
+## Test
+
+$ \sqrt{-1} \notin \\R, \text{ but } 0 \in \\N $.

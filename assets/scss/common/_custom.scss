@@ -402,6 +402,7 @@ blockquote {
 /* Compensate by reducing space around display math */
 .katex-display {
     margin: 0.5em 0;
+    overflow: auto hidden !important;
 }
 
 // Shortcodes: Callouts
