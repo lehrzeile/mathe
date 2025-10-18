@@ -1028,5 +1028,6 @@ table {
 }
 
 table:has( + em) {
-    margin-bottom: 0 !important;
+    margin: 3rem 0 0 0 !important;
+    color: red;
 }
