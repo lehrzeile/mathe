@@ -391,6 +391,8 @@ blockquote {
     }
 }
 
+
+
 // katex-Anpassungen
 .katex-display > .katex {
     // white-space: normal;
@@ -398,13 +400,23 @@ blockquote {
 }
 /* Add space between broken lines: */
 .katex-display > .base {
-    margin: 0.25em 0;
+    margin: 0.5em 0;
 }
 /* Compensate by reducing space around display math */
 .katex-display {
     margin: 0.5em 0;
     overflow: auto hidden !important;
 }
+
+.katex .base {
+  display: inline-block !important;
+}
+
+.katex .base:last-child {
+  display: inline;
+}
+
+
 
 // Shortcodes: Callouts
 .callout-jobs, .callout-job {
@@ -1018,10 +1030,6 @@ body {
 .callout-body {
     overflow-x: scroll !important;
     overflow-y: visible !important;
-}
-
-.katex .base {
-  display: inline-block !important;
 }
 
 table {
