@@ -1051,3 +1051,8 @@ table + p > em {
     font-size: 0.7em !important;
     text-align: center !important;
 }
+
+.docs-content h1:first-of-type {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
