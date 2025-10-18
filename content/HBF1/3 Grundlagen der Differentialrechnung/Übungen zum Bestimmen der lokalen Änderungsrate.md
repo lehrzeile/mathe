@@ -152,3 +152,4 @@ Kompliment, dass du dich bis hierhin "durchgekämpft" hast. Ab jetzt wird das Be
 ## Test
 
 $ \sqrt{-1} \notin \\R, \text{ but } 0 \in \\N $.
+$ \sqrt{-1} \notin \R, \text{ but } 0 \in \N and -1 \in \Z $.
