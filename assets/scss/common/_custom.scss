@@ -1021,3 +1021,12 @@ body {
 .katex .base {
   display: inline-block !important;
 }
+
+table {
+    overflow-x: scroll !important;
+    overflow-y: visible !important;
+}
+
+table:has( + em) {
+    margin-bottom: 0 !important;
+}

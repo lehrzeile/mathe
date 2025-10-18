@@ -106,7 +106,7 @@ $\displaystyle = \lim_{h \to 0} \dfrac{\frac14 \cdot ((x_1)^2 + 2x_1h + h^2) - 4
 
 Distributivgesetz anwenden:
 
-$\textstyle = \lim_{h \to 0} \dfrac{\frac14 (x_1)^2 + \frac12x_1h + \frac14 h^2 - 4x_1 - 4h + 5 - \frac14 (x_1)^2 + 4x_1 - 5}{h}$
+$\displaystyle = \lim_{h \to 0} \dfrac{\frac14 (x_1)^2 + \frac12x_1h + \frac14 h^2 - 4x_1 - 4h + 5 - \frac14 (x_1)^2 + 4x_1 - 5}{h}$
 
 Term vereinfachen:
 
