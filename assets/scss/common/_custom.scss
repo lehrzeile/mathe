@@ -393,7 +393,8 @@ blockquote {
 
 // katex-Anpassungen
 .katex-display > .katex {
-    white-space: normal;
+    // white-space: normal;
+    white-space: nowrap !important;
 }
 /* Add space between broken lines: */
 .katex-display > .base {
