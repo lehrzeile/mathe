@@ -7,7 +7,7 @@ defaultMarkdownHandler = "goldmark"
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)'], ['$', '$']]
+          inline = [['\(', '\)']]
   [goldmark.parser]
     autoHeadingID = true
     autoHeadingIDType = "github"
