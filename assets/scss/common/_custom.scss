@@ -1023,8 +1023,8 @@ body {
 }
 
 table {
+    max-width: 100% !important;
     overflow-x: scroll !important;
-    overflow-y: visible !important;
 }
 
 table:has( + em) {

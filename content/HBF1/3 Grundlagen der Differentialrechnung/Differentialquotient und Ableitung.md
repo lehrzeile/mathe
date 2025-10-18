@@ -136,3 +136,4 @@ Mit Hilfe der ersten Ableitung bestimmt man außerdem mögliche **Extremstellen*
 | --- | --- | --- |
 | Zeit → zurückgelegter Weg | Durchschnittsgeschwindigkeit | Momentangeschwindigkeit  |
 | Entfernung → Höhe | Durchschnittshöhe | Momentane Steigung |
+*Tab.1: mittlere und lokale Änderungsrate in Anwendungskontexten*
