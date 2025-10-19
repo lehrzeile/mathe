@@ -93,6 +93,13 @@
     background-color: white !important;
 }
 
+.geogebra-caption {
+    font-size: 0.7em;
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 0.25em;
+}
+
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 { /* Überschriften */
     color: var(--primary-color);
     padding-top: 0.5em;
