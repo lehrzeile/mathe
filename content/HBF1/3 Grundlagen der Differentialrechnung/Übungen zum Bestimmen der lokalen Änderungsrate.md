@@ -148,7 +148,3 @@ Die Steigung des Funktionsgraphen an der Stelle $x_1=2$ bzw. im Punkt $P(2|-2)$ 
 ## Ausblick
 
 Kompliment, dass du dich bis hierhin "durchgekämpft" hast. Ab jetzt wird das Bestimmen von Steigungen am Graphen einfacher. Versprochen.
-
-## Test
-
-$\displaystyle f'(x)=\lim_{h \to 0} \frac{f(-4+h)-f(-4)}{-4+h-(-4)} = \lim_{h \to 0} \frac{-(-4+h)^2 + 4 - (-(-4)^2 + 4)}{h} = \lim_{h \to 0} \frac{-(16-8h+h^2) + 4 - (-16+4)}{h} = \lim_{h \to 0} \frac{-16+8h-h^2+4+12}{h} = \lim_{h \to 0} \frac{8h-h^2}{h} = \lim_{h \to 0} \frac{h(8-h)}{h} = \lim_{h \to 0} (8-h) = 8 = \lim_{h \to 0} \frac{8h-h^2}{h} = \lim_{h \to 0} \frac{h(8-h)}{h} = \lim_{h \to 0} (8-h) = 8 = \lim_{h \to 0} \frac{8h-h^2}{h} = \lim_{h \to 0} \frac{h(8-h)}{h} = \lim_{h \to 0} (8-h) = 8$
