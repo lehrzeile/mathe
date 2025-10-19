@@ -394,13 +394,20 @@ blockquote {
 
 
 // katex-Anpassungen
+// .katex {
+//     max-width: 100% !important;
+//     // overflow-x: hidden !important;
+//     overflow: scroll hidden !important;
+//     white-space: normal !important;
+// }
 .katex-display > .katex {
     // white-space: normal;
     white-space: nowrap !important;
 }
 /* Add space between broken lines: */
 .katex-display > .base {
-    margin: 0.5em 0;
+    margin: 1em 0 !important;
+    line-height: 1.5em !important;
 }
 /* Compensate by reducing space around display math */
 .katex-display {
@@ -1014,13 +1021,6 @@ ol.breadcrumb {
 .btn.btn-link, .navbar-expand-lg {
     z-index: 9999 !important;
 }
-
-// .katex {
-//     max-width: 100% !important;
-//     // overflow-x: hidden !important;
-//     overflow: scroll hidden !important;
-//     white-space: normal !important;
-// }
 
 body {
     scroll-behavior: smooth;
