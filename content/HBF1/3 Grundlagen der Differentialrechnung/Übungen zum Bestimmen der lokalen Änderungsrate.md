@@ -148,3 +148,7 @@ Die Steigung des Funktionsgraphen an der Stelle $x_1=2$ bzw. im Punkt $P(2|-2)$ 
 ## Ausblick
 
 Kompliment, dass du dich bis hierhin "durchgekämpft" hast. Ab jetzt wird das Bestimmen von Steigungen am Graphen einfacher. Versprochen.
+
+<!-- ![image](Bestimmen_der_lokalen_Änderungsrate.jpeg) -->
+
+{{< figure src="/HBF1/3 Grundlagen der Differentialrechnung/Bestimmen_der_lokalen_Änderungsrate.jpeg" alt="Bestimmen der lokalen Änderungsrate" caption="Bestimmen der lokalen Änderungsrate" >}}

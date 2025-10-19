@@ -95,7 +95,7 @@ Und kürzt man nun noch den Nenner, so lautet die Formel:
 $\displaystyle m= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$
 {{< /box-notice >}}
 
-{{< geogebra-activity url="https://www.geogebra.org/material/iframe/id/w8nhtrxs/sfsb/true" >}}
+{{< geogebra-activity url="https://www.geogebra.org/material/iframe/id/w8nhtrxs" >}}
 
 {{< job numbered="true" style="enum-araibc" title="Experimentier-Aufgabe" >}}
 Auch hier soll sich der Punkt $P_1$ schrittweise dem Punkt $P_2$ nähern.
