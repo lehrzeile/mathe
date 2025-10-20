@@ -1,0 +1,6 @@
+{{ $imagesrc := .Resources.Get "src" }}
+{{ $caption := .Get "caption" }}
+<img src="{{ $imagesrc.RelPermalink }}" alt="{{ $caption }}" >
+{{ if $caption }}
+  <p class="image-caption">{{ $caption }}</p>
+{{ end }}
