@@ -1,19 +1,20 @@
 <figure>
-  {{- $u := urls.Parse (.Get "src") -}}
-  {{- $src := $u.String -}}
-  {{- if not $u.IsAbs -}}
-    {{- with or (.Page.Resources.Get $u.Path) (resources.Get $u.Path) -}}
-      {{- $src = .RelPermalink -}}
-    {{- end -}}
-  {{- end -}}
+  <!-- {{- $src := $.Get "src" -}} -->
+  <!-- {{- $src = .RelPermalink.Get "src" -}} -->
+  <!-- {{ $src := $.Get "src" }} -->
+  <!-- {{ $image := resources.Get $src }} -->
+  {{ $src := $.Get "src" }}
+  <!-- {{ $image := .Page.Resources.GetMatch $src }} -->
+  {{ $image := .Resources.Get $src }}
+  {{ .Page.Scratch.Add "figurecount" 1 }}
 
-  {{ $caption := $.Get "caption" | markdownify | plainify }}
+  {{ $caption := $.Get "caption" }}
 
-  <img src="{{ $src }}" alt="{{ $caption }}" />
+  <img src="{{ $image.Permalink }}" alt="{{ $caption }}" />
 
   {{ if $caption }}
     <figcaption>
-      <p>{{ $caption }}</p>
+      <p>Abb. {{ .Page.Scratch.Get "figurecount" }}: {{ $caption }}</p>
     </figcaption>
   {{ end }}
 </figure>
