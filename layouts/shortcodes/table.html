@@ -1,4 +1,0 @@
-{{ .Inner | strings.TrimSpace | .Page.RenderString }}
-{{ if .Get "caption" }}
-  <p class="table-caption">{{ .Get "caption" }}</p>
-{{ end }}
