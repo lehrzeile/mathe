@@ -74,9 +74,10 @@
     }
 }
 
-// body {
-//     counter-reset: jobs;
-// }
+body {
+    counter-reset: jobs;
+    counter-reset: figure;
+}
 
 @media (min-width: 768px) {
     body {
@@ -299,6 +300,23 @@ p > img {
 img + em {
     font-size: 0.7em !important;
     text-align: center !important;
+}
+
+figure {
+    display: block;
+    margin: 1em auto 0;
+}
+
+figcaption {
+    font-size: 0.7em !important;
+    text-align: center !important;
+    color: var(--primary-color);
+    margin-top: 0.25em;
+}
+
+figcaption::before {
+    counter-increment: figure;
+    content: "Abb. " counter(figure) ": ";
 }
 
 // Links
