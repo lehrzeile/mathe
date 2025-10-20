@@ -25,15 +25,14 @@ Der größte Vorteil dieses Verfahrens liegt im Vergleich mit der Polynomdivisio
     Überlege dir, welche Form eine Funktionsvorschrift im Allgemeinen haben muss, damit sich die Nullstellen mit Hilfe der Substitution bestimmen lassen.
 {{< /box-question >}}
 
-{{< job name="" numbered="true" style="enum-arabic" title="Üben und Vertiefen" entry="**Bestimme** die Nullstellen der folgenden Funktionen:" >}}
+{{< job name="" numbered="true" style="enum-alph" title="Üben und Vertiefen" entry="**Bestimme** die Nullstellen der folgenden Funktionen:" >}}
 
 - $f_1(x) = -2x^4 + 34x^2 - 32$
 - $f_2(x) = -2x^4 + 80x^2 - 288$
 
 {{< /job >}}
 
-{{< job name="" numbered="true" style="" title="Üben und Vertiefen" >}}
-Beim Bestimmen der Nullstellen einer Funktion mit Hilfe der Substitution ist die Rücksubstitution nicht immer möglich -- manchmal nur teilweise und manchmal sogar überhaupt nicht. Hier sind einige Beispiele dafür.
+{{< job name="" numbered="true" style="enum-alph" title="Üben und Vertiefen" entry="Beim Bestimmen der Nullstellen einer Funktion mit Hilfe der Substitution ist die Rücksubstitution nicht immer möglich -- manchmal nur teilweise und manchmal sogar überhaupt nicht. Hier sind einige Beispiele dafür." >}}
 
 - $f_3(x) = -3x^4 - 60x^2 + 1728$
 - $f_4(x) = -6x^4 - 30x^2 - 24$
@@ -42,7 +41,7 @@ Beim Bestimmen der Nullstellen einer Funktion mit Hilfe der Substitution ist die
 
 {{< /job >}}
 
-{{< solution name="" numbered="true" style="enum-arabic" title="Üben und Vertiefen" >}}
+{{< solution name="" numbered="true" style="enum-alph" title="Üben und Vertiefen" >}}
 
 - $f_1(x) = -2x^4 + 34x^2 - 32$<br />$\Rightarrow x_1=-4, \quad x_2=-1, \quad x_3=1, \quad x_4=4$
 - $f_2(x) = -2x^4 + 80x^2 - 288$<br />$\Rightarrow x_1=-6, \quad x_2=-2, \quad x_3=2, \quad x_4=6$
