@@ -305,6 +305,7 @@ img + em {
 figure {
     display: block;
     margin: 1em auto 0;
+    counter-increment: figure;
 }
 
 figcaption {
@@ -315,7 +316,6 @@ figcaption {
 }
 
 figcaption::before {
-    counter-increment: figure;
     content: "Abb. " counter(figure) ": ";
 }
 
