@@ -40,8 +40,7 @@ Der Punkt $P_2$ hingegen - für den der Schieberegler $x_2$ vorhanden ist - soll
 
 Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen** bzw. **lokalen Änderungsrate** -- nähert man den Punkt $P_2$ dem Punkt $P_1$ an. Dabei nähert sich die Steigung der Sekante schrittweise der Steigung der **Tangente** und die Sekante wird schlussendlich zur Tangente.
 
-<!-- {{< figure src="/img/Sekante.svg" caption="Von der Sekante zur Tangente" >}} -->
-{{< figure src="Bestimmen_der_lokalen_Änderungsrate.jpeg" caption="Von der Sekante zur Tangente" >}}
+{{< picture src="Bestimmen_der_lokalen_Änderungsrate.jpeg" alt="A bird flying through a field of tall grass" >}}
 
 Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert der Sekantensteigung**.
 
