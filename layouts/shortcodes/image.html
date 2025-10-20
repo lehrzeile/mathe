@@ -1,13 +1,14 @@
 <figure>
   {{- $u := urls.Parse (.Get "src") -}}
   {{- $src := $u.String -}}
+  {{ $quelle := $.Get "src" }}
   {{- if not $u.IsAbs -}}
     {{- with or (.Page.Resources.Get $u.Path) (resources.Get $u.Path) -}}
       {{- $src = .RelPermalink -}}
     {{- end -}}
   {{- end -}}
 
-  <img src="{{ $src }}"
+  <img src="{{ $quelle.Permalink }}"
     {{- if (.Get "caption") }}
       alt="{{ .Get "caption" | markdownify| plainify }}"
     {{- end -}}
@@ -16,7 +17,7 @@
   {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
     <figcaption>
       {{- if (.Get "caption") -}}
-        <p>Abb. 1: {{- .Get "caption" | markdownify -}}</p>
+        <p>Abb. 1:  {{- .Get "caption" | markdownify -}}</p>
       {{- end }}
     </figcaption>
   {{- end }}
