@@ -32,7 +32,7 @@ Der größte Vorteil dieses Verfahrens liegt im Vergleich mit der Polynomdivisio
 
 {{< /job >}}
 
-{{< job name="" numbered="true" style="enum-alph" start="3" title="Üben und Vertiefen" entry="Beim Bestimmen der Nullstellen einer Funktion mit Hilfe der Substitution ist die Rücksubstitution nicht immer möglich -- manchmal nur teilweise und manchmal sogar überhaupt nicht. Hier sind einige Beispiele dafür." >}}
+{{< job name="" numbered="true" style="enum-alph" title="Üben und Vertiefen" entry="Beim Bestimmen der Nullstellen einer Funktion mit Hilfe der Substitution ist die Rücksubstitution nicht immer möglich -- manchmal nur teilweise und manchmal sogar überhaupt nicht. Hier sind einige Beispiele dafür." >}}
 
 - $f_3(x) = -3x^4 - 60x^2 + 1728$
 - $f_4(x) = -6x^4 - 30x^2 - 24$
