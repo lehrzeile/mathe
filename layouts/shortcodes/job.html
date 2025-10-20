@@ -23,11 +23,11 @@
           
           {{ if .Get "style" | eq "enum-alph" }} 
             <div class="enum-alph">
-            {{ if .Get "title" | eq "bettermarks" }} <ol class="bettermarks"> {{ .Inner }} </ol> {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}
+            {{ if .Get "title" | eq "bettermarks" }} <ol class="bettermarks" start="{{ .Get "start" | default "1" }}" > {{ .Inner }} </ol> {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}
             </div>
           {{ else if .Get "style" | eq "enum-arabic" }}
             <div class="enum-arabic">
-            {{ if .Get "title" | eq "bettermarks" }} <ol class="bettermarks"> {{ .Inner }} </ol> {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}
+            {{ if .Get "title" | eq "bettermarks" }} <ol class="bettermarks" start="{{ .Get "start" | default "1" }}" > {{ .Inner }} </ol> {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}
             </div>
           {{ else }}
             {{ if .Get "title" | eq "bettermarks" }}
