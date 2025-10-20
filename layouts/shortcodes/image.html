@@ -1,20 +1,3 @@
-<!-- <figure>
-  {{ $src := $.Get "src" }}
-  {{ $image := .Resources.Get $src }}
-
-  {{ .Page.Scratch.Add "figurecount" 1 }}
-  {{ $count := .Page.Scratch.Get "figurecount" }}
-
-  {{ $caption := $.Get "caption" }}
-
-  <img src="{{ $src.Permalink }}" alt="{{ $caption }}" />
-
-  <figcaption>Abb. 1: {{ $caption }}</figcaption>
-</figure> -->
-
-{{ .Page.Scratch.Add "figurecount" 1 }}
-{{ $count := .Page.Scratch.Get "figurecount" }}
-
 <figure>
   {{- $u := urls.Parse (.Get "src") -}}
   {{- $src := $u.String -}}
@@ -33,7 +16,7 @@
   {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
     <figcaption>
       {{- if (.Get "caption") -}}
-        <p>Abb. {{ $count }}: {{- .Get "caption" | markdownify -}}</p>
+        <p>Abb. 1: {{- .Get "caption" | markdownify -}}</p>
       {{- end }}
     </figcaption>
   {{- end }}
