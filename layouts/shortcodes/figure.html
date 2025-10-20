@@ -1,20 +1,15 @@
 <figure>
-  <!-- {{- $src := $.Get "src" -}} -->
-  <!-- {{- $src = .RelPermalink.Get "src" -}} -->
-  <!-- {{ $src := $.Get "src" }} -->
-  <!-- {{ $image := resources.Get $src }} -->
   {{ $src := $.Get "src" }}
-  <!-- {{ $image := .Page.Resources.GetMatch $src }} -->
   {{ $image := .Resources.Get $src }}
+
   {{ .Page.Scratch.Add "figurecount" 1 }}
+  {{ $count := .Page.Scratch.Get "figurecount" }}
 
   {{ $caption := $.Get "caption" }}
 
   <img src="{{ $image.Permalink }}" alt="{{ $caption }}" />
 
-  {{ if $caption }}
-    <figcaption>
-      <p>Abb. {{ .Page.Scratch.Get "figurecount" }}: {{ $caption }}</p>
-    </figcaption>
-  {{ end }}
+  <figcaption>
+    <p>Abb. {{ $count }}: {{ $caption }}</p>
+  </figcaption>
 </figure>
