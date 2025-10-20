@@ -8,7 +8,7 @@
     {{- end -}}
   {{- end -}}
 
-  <img src="{{ $quelle.Permalink }}"
+  <img src="{{ $quelle.RelPermalink }}"
     {{- if (.Get "caption") }}
       alt="{{ .Get "caption" | markdownify| plainify }}"
     {{- end -}}
