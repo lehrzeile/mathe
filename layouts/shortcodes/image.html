@@ -1,4 +1,4 @@
-<figure>
+<!-- <figure>
   {{ $src := $.Get "src" }}
   {{ $image := .Resources.Get $src }}
 
@@ -10,4 +10,31 @@
   <img src="{{ $src.Permalink }}" alt="{{ $caption }}" />
 
   <figcaption>Abb. 1: {{ $caption }}</figcaption>
+</figure> -->
+
+{{ .Page.Scratch.Add "figurecount" 1 }}
+{{ $count := .Page.Scratch.Get "figurecount" }}
+
+<figure>
+  {{- $u := urls.Parse (.Get "src") -}}
+  {{- $src := $u.String -}}
+  {{- if not $u.IsAbs -}}
+    {{- with or (.Page.Resources.Get $u.Path) (resources.Get $u.Path) -}}
+      {{- $src = .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+
+  <img src="{{ $src }}"
+    {{- if (.Get "caption") }}
+      alt="{{ .Get "caption" | markdownify| plainify }}"
+    {{- end -}}
+  ><!-- Closing img tag -->
+  {{- if .Get "link" }}</a>{{ end -}}
+  {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+    <figcaption>
+      {{- if (.Get "caption") -}}
+        <p>Abb. {{ $count }}: {{- .Get "caption" | markdownify -}}</p>
+      {{- end }}
+    </figcaption>
+  {{- end }}
 </figure>
