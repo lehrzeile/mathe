@@ -42,8 +42,6 @@ Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen** bzw. **lok
 
 {{< picture src="img/Sekante.svg" alt="Von der Sekante zur Tangente" >}}
 
-{{< graphic src="img/Sekante.svg" caption="Von der Sekante zur Tangente" >}}
-
 Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert der Sekantensteigung**.
 
 {{< box-notice title="Definition Grenzwert">}}
