@@ -43,7 +43,7 @@ Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen** bzw. **lok
 <!-- ![Von der Sekante zur Tangente](img/Sekante.svg)
 *Abb. 1: Von der Sekante zur Tangente* -->
 
-{{< graphic src="Sekante.svg" caption="Von der Sekante zur Tangente" >}}
+{{< figure src="Sekante.svg" caption="Von der Sekante zur Tangente" >}}
 
 Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert der Sekantensteigung**.
 
@@ -125,7 +125,7 @@ Weitere Ableitungen bezeichnet man $f''(x)$, $f'''(x)$, usw.
 
 {{< /box-notice >}}
 
-{{< graphic src="Steigungen.svg" caption="Verschiedene Steigungen am Graphen" >}}
+{{< figure src="Steigungen.svg" caption="Verschiedene Steigungen am Graphen" >}}
 
 <!-- ![verschiedene Steigungen am Graphen](img/Steigungen.svg)
 *Abb. 2. verschiedene Steigungen am Graphen* -->
