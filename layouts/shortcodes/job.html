@@ -20,6 +20,7 @@
             <p class="entry-text">{{ $entry | .Page.RenderString }}</p>
           {{ end }}
 
+          
           {{ if .Get "style" | eq "enum-alph" }} 
             <div class="enum-alph">
             {{ if .Get "title" | eq "bettermarks" }} <ol class="bettermarks"> {{ .Inner }} </ol> {{ else }} {{ .Inner | strings.TrimSpace | .Page.RenderString }} {{ end }}

@@ -40,9 +40,9 @@ Der Punkt $P_2$ hingegen - für den der Schieberegler $x_2$ vorhanden ist - soll
 
 Zur Bestimmung der Steigung in einem Punkt -- der sog. **momentanen** bzw. **lokalen Änderungsrate** -- nähert man den Punkt $P_2$ dem Punkt $P_1$ an. Dabei nähert sich die Steigung der Sekante schrittweise der Steigung der **Tangente** und die Sekante wird schlussendlich zur Tangente.
 
-{{< figure src="img/Sekante.svg" caption="Von der Sekante zur Tangente" >}}
-<!-- ![Von der Sekante zur Tangente](img/Sekante.svg)
-*Abb. 1: Von der Sekante zur Tangente* -->
+<!-- {{< figure src="img/Sekante.svg" caption="Von der Sekante zur Tangente" >}} -->
+![Von der Sekante zur Tangente](img/Sekante.svg)
+*Abb. 1: Von der Sekante zur Tangente*
 
 Mathematisch betrachtet verbirgt sich hinter dieser Annäherung der **Grenzwert der Sekantensteigung**.
 
@@ -124,9 +124,9 @@ Weitere Ableitungen bezeichnet man $f''(x)$, $f'''(x)$, usw.
 
 {{< /box-notice >}}
 
-{{< figure src="img/Steigungen.svg" caption="Verschiedene Steigungen am Graphen" >}}
-<!-- ![verschiedene Steigungen am Graphen](img/Steigungen.svg)
-*Abb. 2. verschiedene Steigungen am Graphen* -->
+<!-- {{< figure src="img/Steigungen.svg" caption="Verschiedene Steigungen am Graphen" >}} -->
+![verschiedene Steigungen am Graphen](img/Steigungen.svg)
+*Abb. 2. verschiedene Steigungen am Graphen*
 
 Die Ableitung ist ein wichtiges Hilfsmittel zur Bestimmung von besonderen Stellen eines Graphen. Ebenso gibt sie Auskunft über den Verlauf des Graphen.
 
@@ -141,11 +141,11 @@ Mit Hilfe der ersten Ableitung bestimmt man außerdem mögliche **Extremstellen*
 
 *Tab.1: mittlere und lokale Änderungsrate in Anwendungskontexten*
 
-{{< table caption="Mittlere und lokale Änderungsrate in Anwendungskontexten" >}}
+<!-- {{< table caption="Mittlere und lokale Änderungsrate in Anwendungskontexten" >}} -->
 
-| Bsp.e für Funktionen | mittlere Änderungsrate | lokale Änderungsrate |
+<!-- | Bsp.e für Funktionen | mittlere Änderungsrate | lokale Änderungsrate |
 | --- | --- | --- |
 | Zeit → zurückgelegter Weg | Durchschnittsgeschwindigkeit | Momentangeschwindigkeit  |
-| Entfernung → Höhe | Durchschnittshöhe | Momentane Steigung |
+| Entfernung → Höhe | Durchschnittshöhe | Momentane Steigung | -->
 
-{{< /table >}}
+<!-- {{< /table >}} -->
