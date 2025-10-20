@@ -151,6 +151,6 @@ Kompliment, dass du dich bis hierhin "durchgekämpft" hast. Ab jetzt wird das Be
 
 <!-- ![image](Bestimmen_der_lokalen_Änderungsrate.jpeg) -->
 
-{{< image src="Bestimmen_der_lokalen_Änderungsrate.jpeg" caption="Bestimmen der lokalen Änderungsrate" >}}
+{{< figure src="Bestimmen_der_lokalen_Änderungsrate.jpeg" caption="Bestimmen der lokalen Änderungsrate" >}}
 
-{{< picture src="Bestimmen_der_lokalen_Änderungsrate.jpeg" caption="Bestimmen der lokalen Änderungsrate" >}}
+<!-- {{< picture src="Bestimmen_der_lokalen_Änderungsrate.jpeg" caption="Bestimmen der lokalen Änderungsrate" >}} -->
