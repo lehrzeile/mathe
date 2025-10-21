@@ -1,5 +1,5 @@
 <div class="container">
   <div class="row">
-    {{ .Inner | .Page.RenderString }}
+    {{ .Inner | strings.TrimSpace | .Page.RenderString }}
   </div>
 </div>
