@@ -90,9 +90,9 @@ $f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4*x^2 +7,2$" >}}
-    In Abbildung 1 siehst du die jeweiligen Achsenschnittpunkte markiert.
+In Abbildung 1 siehst du die jeweiligen Achsenschnittpunkte markiert.
 
-    {{< image src="img/Graph_Achsenschnittpunkte.svg" caption="Achsenschnittpunkte des Funktionsgraphen" >}}
+{{< image src="img/Graph_Achsenschnittpunkte.svg" caption="Achsenschnittpunkte des Funktionsgraphen" >}}
 
 - Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung betrachtet: $7,2$ \
 $\Rightarrow S_y(0|7,2)$.
@@ -114,12 +114,12 @@ Dies führt zu zwei Haupttypen von Symmetrie:
     - Notation: $f(-x) = -f(x)$.
 
 {{< columns >}}
-    {{< column >}}
-        {{< image src="img/Graph_Achsensymmetrie.svg" caption="Achsensymmetrischer Graph" >}}
-    {{< /column >}}
-    {{< column >}}
-        {{< image src="img/Graph_Punktsymmetrie.svg" caption="Punktsymmetrischer Graph" >}}
-    {{< /column >}}
+{{< column >}}
+{{< image src="img/Graph_Achsensymmetrie.svg" caption="Achsensymmetrischer Graph" >}}
+{{< /column >}}
+{{< column >}}
+{{< image src="img/Graph_Punktsymmetrie.svg" caption="Punktsymmetrischer Graph" >}}
+{{< /column >}}
 {{< /columns >}}
 
 Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der (geraden oder ungeraden) Exponenten des Funktionsterms bestimmt werden:
