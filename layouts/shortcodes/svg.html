@@ -7,7 +7,7 @@
     <img src="{{ $link }}{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
     {{ if .Get "caption" }}
     <figcaption>
-        <p>Abb. {{ .Page.Scratch.Get "imagecounter" }}{{ .Get "caption" }}</p>
+        <p>Abb. {{ .Page.Scratch.Get "imagecounter" }}: {{ .Get "caption" }}</p>
     </figcaption>
     {{ end }}
 </figure>

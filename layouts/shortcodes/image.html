@@ -2,6 +2,7 @@
 {{ $src := $u.String }} <!-- src-Eintrag übernehmen für relativen Link -->
 {{ $link := $.Page.Parent.RelPermalink }} <!-- erzeugt den Link zur übergeordneten Section -->
 {{ $caption := $.Get "caption" }}
+{{ .Page.Scratch.Add "imagecounter" 1 }}
 <figure>
     {{ if hasSuffix (.Get "src") "svg" }}
         <img src="{{ $link }}{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
@@ -10,7 +11,7 @@
     {{ end }}
     {{ if .Get "caption" }}
         <figcaption>
-            <p>{{ .Get "caption" }}</p>
+            <p>Abb. {{ .Page.Scratch.Get "imagecounter" }}: {{ .Get "caption" }}</p>
         </figcaption>
     {{ end }}
 </figure>
