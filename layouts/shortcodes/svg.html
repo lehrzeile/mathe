@@ -1,12 +1,12 @@
-{{- $u := urls.Parse (.Get "src") -}}
-{{- $src := $u.String -}}
-{{- $link := $.Page.RelPermalink -}}
-{{ $caption := $.Get "caption" | markdownify| plainify }}
+{{ $u := urls.Parse (.Get "src") }}
+{{ $src := $u.String }}
+{{ $link := $.Page.RelPermalink }}
+{{ $caption := $.Get "caption" }}
 <figure>
     <img src="{{ $link }}{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
-    {{- if .Get "caption" -}}
+    {{ if .Get "caption" }}
     <figcaption>
-        <p>{{- .Get "caption" | markdownify -}}</p>
+        <p>{{ .Get "caption" }}</p>
     </figcaption>
-    {{- end }}
+    {{ end }}
 </figure>

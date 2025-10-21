@@ -2,9 +2,9 @@
 {{ $caption := $.Get "caption" | markdownify| plainify }}
 <figure>
     <img src="{{ $src }}" decoding="async" loading="lazy" alt="{{ $caption }}">
-    {{- if .Get "caption" -}}
+    {{ if .Get "caption" }}
         <figcaption>
-            <p>{{- .Get "caption" | markdownify -}}</p>
+            <p>{{ .Get "caption" }}</p>
         </figcaption>
-    {{- end }}
+    {{ end }}
 </figure>
