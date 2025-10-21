@@ -322,7 +322,7 @@ figcaption {
     margin-top: 0.25em;
 }
 
-figcaption::before {
+figcaption > p::before {
     content: "Abbildung " counter(figure) ": ";
 }
 

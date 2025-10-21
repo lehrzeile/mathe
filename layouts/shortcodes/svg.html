@@ -2,12 +2,12 @@
 {{ $src := $u.String }} <!-- src-Eintrag übernehmen für relativen Link -->
 {{ $link := $.Page.Parent.RelPermalink }} <!-- erzeugt den Link zur übergeordneten Section -->
 {{ $caption := $.Get "caption" }}
-{{ $imagecounter := $.Page.Scratch.Get "imagecounter" }}
+{{ .Page.Scratch.Add "imagecounter" 1 }}
 <figure>
     <img src="{{ $link }}{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
     {{ if .Get "caption" }}
     <figcaption>
-        <p>Abb. {{ $imagecounter }}{{ .Get "caption" }}</p>
+        <p>Abb. {{ .Page.Scratch.Get "imagecounter" }}{{ .Get "caption" }}</p>
     </figcaption>
     {{ end }}
 </figure>
