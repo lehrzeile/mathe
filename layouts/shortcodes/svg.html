@@ -1,6 +1,6 @@
 {{ $u := urls.Parse (.Get "src") }}
 {{ $src := $u.String }}
-{{ $link := $.Page.RelPermalink }}
+{{ $link := $.Page.Parent.RelPermalink }}
 {{ $caption := $.Get "caption" }}
 <figure>
     <img src="{{ $link }}{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
