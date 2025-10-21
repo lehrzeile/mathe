@@ -23,7 +23,7 @@ In der nachfolgenden Applet kannst du selbst experimentieren und herausfinden, w
 
 Lies dir zunächst die Aufgabe durch, bevor du mit dem Experimentieren beginnst.
 
-{{< geogebra-activity url="https://www.geogebra.org/material/iframe/id/rb7dmy96" >}}
+{{< geogebra-activity id="eufd63tm" >}}
 
 {{< job numbered="true" style="enum-arabic" title="Experimentier-Aufgabe" columns="1" >}}
 Der Punkt $P_1$, welcher auf dem Graphen von $f$ liegt, wird festgelegt durch den Wert von $x_1$, der dessen x-Koordinate darstellt. Einmal eingestellt, soll dieser fest sein und nicht mehr bewegt werden.
@@ -95,7 +95,7 @@ Und kürzt man nun noch den Nenner, so lautet die Formel:
 $\displaystyle m= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$
 {{< /box-notice >}}
 
-{{< geogebra-activity url="https://www.geogebra.org/material/iframe/id/w8nhtrxs" >}}
+{{< geogebra-activity id="w8nhtrxs" >}}
 
 {{< job numbered="true" style="enum-araibc" title="Experimentier-Aufgabe" >}}
 Auch hier soll sich der Punkt $P_1$ schrittweise dem Punkt $P_2$ nähern.

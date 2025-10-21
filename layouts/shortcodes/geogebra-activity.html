@@ -1,6 +1,6 @@
-{{ $url := $.Get "url" }}
+{{ $id := $.Get "id" }}
 <iframe class="geogebra-activity" scrolling="no"
-    src="{{ $url }}/sfsb/true"
+    src="https://www.geogebra.org/material/iframe/id/{{ $id }}/sfsb/true"
     style="border:0px;" allowfullscreen>
 </iframe>
-<p class="geogebra-caption">Quelle: <a href="{{ $url }}">{{ $url }}</a></p>
+<p class="geogebra-caption">Materialquelle: <a href="https://www.geogebra.org/m/{{ $id }}">https://www.geogebra.org/m/{{ $id }}</a></p>

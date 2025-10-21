@@ -323,7 +323,7 @@ figcaption {
 }
 
 figcaption::before {
-    content: "Abb. " counter(figure) ": ";
+    content: "Abbildung " counter(figure) ": ";
 }
 
 // Links
