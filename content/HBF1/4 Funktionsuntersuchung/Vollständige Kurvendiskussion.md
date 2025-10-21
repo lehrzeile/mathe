@@ -91,8 +91,8 @@ $f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4*x^2 +7,2$" >}}
     In Abbildung 1 siehst du die jeweiligen Achsenschnittpunkte markiert.
-    ![Achsenschnittpunkte des Funktionsgraphen](img/Graph_Achsenschnittpunkte.svg)
-    *Abb. 1: Achsenschnittpunkte des Funktionsgraphen*
+
+    {{< image src="img/Graph_Achsenschnittpunkte.svg" caption="Achsenschnittpunkte des Funktionsgraphen" >}}
 
 - Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung betrachtet: $7,2$ \
 $\Rightarrow S_y(0|7,2)$.
@@ -115,12 +115,10 @@ Dies führt zu zwei Haupttypen von Symmetrie:
 
 {{< columns >}}
     {{< column >}}
-        ![achsensymmetrischer Graph](img/Graph_Achsensymmetrie.svg)
-        *Abb. 2: achsensymmetrischer Funktionsgraph*
+        {{< image src="img/Graph_Achsensymmetrie.svg" caption="Achsensymmetrischer Graph" >}}
     {{< /column >}}
     {{< column >}}
-        ![punktsymmetrischer Graph](img/Graph_Punktsymmetrie.svg)
-        *Abb. 3: punktsymmetrischer Graph*
+        {{< image src="img/Graph_Punktsymmetrie.svg" caption="Punktsymmetrischer Graph" >}}
     {{< /column >}}
 {{< /columns >}}
 
