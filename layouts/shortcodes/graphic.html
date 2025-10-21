@@ -1,6 +1,10 @@
 {{ $imagesrc := .Resources.Get "src" }}
 {{ $caption := .Get "caption" }}
-<img src="{{ $imagesrc.RelPermalink }}" alt="{{ $caption }}" >
+{{ if $imagesrc.MediaType.SubType eq "svg+xml" }}
+  <img src="{{ $imagesrc.RelPermalink }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
+{{ else }}
+  <img src="{{ $imagesrc.RelPermalink }}" alt="{{ $caption }}" >
+{{ end }}
 {{ if $caption }}
   <p class="image-caption">{{ $caption }}</p>
 {{ end }}
