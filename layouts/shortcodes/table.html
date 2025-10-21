@@ -1,4 +1,5 @@
 {{ .Inner | strings.TrimSpace | .Page.RenderString }}
 {{ if .Get "caption" }}
-  <p class="table-caption">{{ .Get "caption" }}</p>
+{{ .Page.Scratch.Add "tablecounter" 1 }}
+  <p class="table-caption">Tab. {{ .Page.Scratch.Get "tablecounter" }}: {{ .Get "caption" }}</p>
 {{ end }}

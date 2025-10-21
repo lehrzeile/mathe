@@ -312,7 +312,7 @@ img + em {
 figure {
     display: block;
     margin: 1em auto 0;
-    counter-increment: figure;
+    // counter-increment: figure;
 }
 
 figcaption {
@@ -322,9 +322,9 @@ figcaption {
     margin-top: 0.25em;
 }
 
-figcaption > p::before {
-    content: "Abbildung " counter(figure) ": ";
-}
+// figcaption > p::before {
+//     content: "Abbildung " counter(figure) ": ";
+// }
 
 // Links
 a.link {
@@ -1074,7 +1074,7 @@ table {
     overflow-x: auto !important;
     word-break: normal !important;
     margin: 1em auto 0;
-    counter-increment: table;
+    // counter-increment: table;
 }
 
 table:has(+ p) {
@@ -1093,6 +1093,6 @@ table + p > em {
     margin-top: 0.5em;
 }
 
-.table-caption::before {
-    content: "Tabelle " counter(table) ": ";
-}
+// .table-caption::before {
+//     content: "Tabelle " counter(table) ": ";
+// }
