@@ -185,8 +185,9 @@ Die **notwendige Bedingung für eine Extremstelle** einer differenzierbaren Funk
 
 In Abbildung 4 sind diejenigen Stellen des Funktionsgraphen markiert, an denen eine waagerechte Tangente vorliegt:
 
-![Extrema und waagerechte Tangente](img/Graph_Extrema.svg)
-*Abb. 4: Extrema und waagerechte Tangente*
+{{< image src="Graph_Extrema.svg" caption="Extrema und waagerechte Tangente" >}}
+<!-- ![Extrema und waagerechte Tangente](img/Graph_Extrema.svg)
+*Abb. 4: Extrema und waagerechte Tangente* -->
 
 Um diejenigen Stellen bestimmen zu können, an denen die Tangente waagerecht ist, müssen wir als nächstes die <mark>Nullstellen der ersten Ableitung bestimmen</mark>.
 
