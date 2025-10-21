@@ -148,3 +148,5 @@ Mit Hilfe der ersten Ableitung bestimmt man außerdem mögliche **Extremstellen*
 <img src="https://www.lehrzeile.org/hbf1/3-grundlagen-der-differentialrechnung/img/Sekante.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Von der Sekante zur Tangente" id="h-rh-i-0" class="markdown-svg"> -->
 
 {{< svg src="img/Sekante.svg" caption="Von der Sekante zur Tangente" >}}
+
+{{< image src="Bestimmen_der_lokalen_Änderungsrate.jpeg" caption="Bestimmen_der_lokalen_Änderungsrate" >}}
