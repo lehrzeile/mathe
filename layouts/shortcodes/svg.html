@@ -1,9 +1,9 @@
 {{- $u := urls.Parse (.Get "src") -}}
 {{- $src := $u.String -}}
-{{- $src = .Page.RelPermalink -}}
+{{- $link := $.Page.RelPermalink -}}
 {{ $caption := $.Get "caption" | markdownify| plainify }}
 <figure>
-    <img src="{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
+    <img src="{{ $link }}{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
     {{- if .Get "caption" -}}
     <figcaption>
         <p>{{- .Get "caption" | markdownify -}}</p>
