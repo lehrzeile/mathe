@@ -114,12 +114,14 @@ Dies führt zu zwei Haupttypen von Symmetrie:
     - Notation: $f(-x) = -f(x)$.
 
 {{< columns >}}
-{{< column >}}
+    {{< column >}}
+
 {{< image src="img/Graph_Achsensymmetrie.svg" caption="Achsensymmetrischer Graph" >}}
-{{< /column >}}
-{{< column >}}
+
+    {{< /column >}}
+    {{< column >}}
 {{< image src="img/Graph_Punktsymmetrie.svg" caption="Punktsymmetrischer Graph" >}}
-{{< /column >}}
+    {{< /column >}}
 {{< /columns >}}
 
 Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der (geraden oder ungeraden) Exponenten des Funktionsterms bestimmt werden:
