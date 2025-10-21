@@ -110,6 +110,10 @@
     // font-family: "Source Code Pro", monospace;
 }
 
+.docs-content h1:first-of-type {
+    padding-top: 0 !important;
+}
+
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
@@ -314,7 +318,7 @@ figure {
 figcaption {
     font-size: 0.7em !important;
     text-align: center !important;
-    color: var(--primary-color);
+    // color: var(--primary-color);
     margin-top: 0.25em;
 }
 
@@ -1069,6 +1073,8 @@ table {
     width: 100% !important;
     overflow-x: auto !important;
     word-break: normal !important;
+    margin: 1em auto 0;
+    counter-increment: table;
 }
 
 table:has(+ p) {
@@ -1080,6 +1086,13 @@ table + p > em {
     text-align: center !important;
 }
 
-.docs-content h1:first-of-type {
-    padding-top: 0 !important;
+.table-caption {
+    font-size: 0.7em !important;
+    text-align: center !important;
+    // color: var(--primary-color);
+    margin-top: 0.25em;
+}
+
+.table-caption::before {
+    content: "Tabelle " counter(table) ": ";
 }
