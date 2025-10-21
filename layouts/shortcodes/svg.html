@@ -1,8 +1,7 @@
-{{ $page := .Site.GetPage }}
 {{ $src := $.Get "src" }}
 {{ $caption := $.Get "caption" | markdownify| plainify }}
 <figure>
-    <img src="{{ $page.RelPermalink }}{{ $src}}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
+    <img src="{{ .RelPermalink }}{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
     {{- if .Get "caption" -}}
         <figcaption>
             <p>{{- .Get "caption" | markdownify -}}</p>
