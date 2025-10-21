@@ -292,7 +292,7 @@ footer .text-muted { /* Footer Links */
 }
 
 // Grafiken, die irgendwo im Text eingebunden werden
-p > img {
+p > img, figure > img {
     display: block;
     margin: 1em auto 0;
 }

@@ -1,6 +1,6 @@
 {{ $u := urls.Parse (.Get "src") }}
-{{ $src := $u.String }}
-{{ $link := $.Page.Parent.RelPermalink }}
+{{ $src := $u.String }} <!-- src-Eintrag übernehmen für relativen Link -->
+{{ $link := $.Page.Parent.RelPermalink }} <!-- erzeugt den Link zur übergeordneten Section -->
 {{ $caption := $.Get "caption" }}
 <figure>
     <img src="{{ $link }}{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">

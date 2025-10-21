@@ -1,7 +1,13 @@
-{{ $src := $.Get "src" }}
-{{ $caption := $.Get "caption" | markdownify| plainify }}
+{{ $u := urls.Parse (.Get "src") }}
+{{ $src := $u.String }} <!-- src-Eintrag übernehmen für relativen Link -->
+{{ $link := $.Page.Parent.RelPermalink }} <!-- erzeugt den Link zur übergeordneten Section -->
+{{ $caption := $.Get "caption" }}
 <figure>
-    <img src="{{ $src }}" decoding="async" loading="lazy" alt="{{ $caption }}">
+    {{ if hasSuffix (.Get "src") "svg" }}
+        <img src="{{ $link }}{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
+    {{ else }}
+        <img src="{{ $link }}{{ $src }}" decoding="async" loading="lazy" alt="{{ $caption }}">
+    {{ end }}
     {{ if .Get "caption" }}
         <figcaption>
             <p>{{ .Get "caption" }}</p>

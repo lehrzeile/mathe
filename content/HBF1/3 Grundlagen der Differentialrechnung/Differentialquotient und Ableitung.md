@@ -150,3 +150,5 @@ Mit Hilfe der ersten Ableitung bestimmt man außerdem mögliche **Extremstellen*
 {{< svg src="img/Sekante.svg" caption="Von der Sekante zur Tangente" >}}
 
 {{< image src="Bestimmen_der_lokalen_Änderungsrate.jpeg" caption="Bestimmen_der_lokalen_Änderungsrate" >}}
+
+{{< image src="img/Sekante.svg" caption="Von der Sekante zur Tangente" >}}
