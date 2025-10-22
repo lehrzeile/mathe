@@ -117,8 +117,9 @@ Dies führt zu zwei Haupttypen von Symmetrie:
 
 {{< columns >}}
     {{< column >}}
-        ![achsensymmetrischer Graph](img/Graph_Achsensymmetrie.svg)
-        *Abb. 2: achsensymmetrischer Funktionsgraph*
+        {{% image src="img/Graph_Achsensymmetrie.svg" caption="achsensymmetrischer Graph" %}}
+        <!-- ![achsensymmetrischer Graph](img/Graph_Achsensymmetrie.svg)
+        *Abb. 2: achsensymmetrischer Funktionsgraph* -->
     {{< /column >}}
     {{< column >}}
         ![punktsymmetrischer Graph](img/Graph_Punktsymmetrie.svg)
