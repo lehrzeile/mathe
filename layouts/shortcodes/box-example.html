@@ -10,7 +10,7 @@
         <p>{{ .Get "title" | default "Beispiel:" }}</p>
       </div>
     <div class="callout-body">
-      <p>{{ .Inner | strings.TrimSpace | .Page.RenderString | safeHTML }}</p>
+      <p>{{ .Inner | strings.TrimSpace | .Page.RenderString }}</p>
     </div>
   </div>
 </div>

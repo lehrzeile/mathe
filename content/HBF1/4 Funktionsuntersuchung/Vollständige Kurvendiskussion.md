@@ -115,17 +115,17 @@ Dies führt zu zwei Haupttypen von Symmetrie:
     - Spiegelung an einem Punkt (meist dem Koordinatenursprung)
     - Notation: $f(-x) = -f(x)$.
 
-{{< columns >}}
-    {{< column >}}
+{{% columns %}}
+    {{% column %}}
         {{< image src="img/Graph_Achsensymmetrie.svg" caption="achsensymmetrischer Graph" >}}
         <!-- ![achsensymmetrischer Graph](img/Graph_Achsensymmetrie.svg)
         *Abb. 2: achsensymmetrischer Funktionsgraph* -->
-    {{< /column >}}
-    {{< column >}}
+    {{% /column %}}
+    {{% column %}}
         ![punktsymmetrischer Graph](img/Graph_Punktsymmetrie.svg)
         *Abb. 3: punktsymmetrischer Graph*
-    {{< /column >}}
-{{< /columns >}}
+    {{% /column %}}
+{{% /columns %}}
 
 Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der (geraden oder ungeraden) Exponenten des Funktionsterms bestimmt werden:
 
