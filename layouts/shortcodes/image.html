@@ -4,7 +4,7 @@
 {{ $caption := $.Get "caption" }}
 {{ .Page.Scratch.Add "imagecounter" 1 }}
 <figure>
-    {{ if hasSuffix (.Get "src") "svg" }}
+    {{ if hasSuffix (.Get "src") "svg" | safeHTML }}
         <img src="{{ $link }}{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
     {{ else }}
         <img src="{{ $link }}{{ $src }}" decoding="async" loading="lazy" alt="{{ $caption }}">
