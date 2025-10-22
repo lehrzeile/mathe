@@ -1,6 +1,6 @@
 {{ $u := urls.Parse (.Get "src") }}
-{{ $src := $u.String }} <!-- src-Eintrag übernehmen für relativen Link -->
-{{ $link := $.Page.Parent.RelPermalink }} <!-- erzeugt den Link zur übergeordneten Section -->
+{{ $src := $u.String | safeHTML }} <!-- src-Eintrag übernehmen für relativen Link -->
+{{ $link := $.Page.Parent.RelPermalink | safeHTML }} <!-- erzeugt den Link zur übergeordneten Section -->
 {{ $caption := $.Get "caption" }}
 {{ .Page.Scratch.Add "imagecounter" 1 }}
 <figure>
