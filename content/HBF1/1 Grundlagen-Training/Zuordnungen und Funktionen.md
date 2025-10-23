@@ -14,8 +14,7 @@ Sie beschreibt, wie - nicht notwendig allen - Elementen einer Ausgangsmenge $A$ 
 Eine Zuordnung kann dabei ein- oder mehrdeutig sein. Das bedeutet, dass ein Element aus der Ausgangsmenge durchaus auch mehreren Elementen der Zielmenge zugeordnet sein kann, wie die folgende Abbildung zeigt:
 
 <a name="abb1"></a>
-![image](https://de.bettermarks.com/wp-content/uploads/media/kem_FuD_FuDGWGB_1.jpg)
-*Abb. 1: Pfeildiagramm*
+{{< image src="https://de.bettermarks.com/wp-content/uploads/media/kem_FuD_FuDGWGB_1.jpg" caption="Pfeildiagramm" >}}
 
 {{< source type="image" text="bettermarks" src="https://de.bettermarks.com/wp-content/uploads/media/kem_FuD_FuDGWGB_1.jpg" lastcall="13.08.2025" >}}
 
