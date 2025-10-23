@@ -261,8 +261,7 @@ $f(0)=0,2 \cdot 0^3 - 1,4 \cdot 0^2 + 7,2 = 7,2 \quad \Rightarrow HP(0|7,2)$
 Wir rechnen den $y$-Wert des zweiten Extrempunkts $x_2 \approx 4,67$ aus: \
 $f(0)=0,2 \cdot 4,67^3 - 1,4 \cdot 4,67^2 + 7,2 \approx -2,96 \quad \Rightarrow TP(4,67|-2,96)$
 
-![Extremstellen des Graphen](img/Graph_Extremstellen.svg)
-*Abb. 5: Extremstellen*
+{{< image src="img/Graph_Extremstellen.svg" caption="Extremstellen des Graphen" >}}
 {{< /box-example >}}
 
 Wir kennen also nun die Koordinaten der Extrempunkte.
