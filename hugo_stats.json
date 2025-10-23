@@ -138,6 +138,7 @@
       "footnote-ref",
       "footnotes",
       "frame",
+      "gallery",
       "geogebra-activity",
       "geogebra-caption",
       "h-auto",
@@ -254,6 +255,7 @@
       "title",
       "toc-mobile",
       "two-columns",
+      "two-images",
       "w-100",
       "wrap"
     ],

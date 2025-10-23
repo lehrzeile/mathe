@@ -1,10 +1,11 @@
 {{ $images := $.Get "images" | default "1" }}
+{{ $class := "" }}
 {{ if eq $images "2" }}
-  {{ $class := "gallery two-images" }}
+  {{ $class = "gallery two-images" }}
 {{ else if eq $images "3" }}
-  {{ $class := "gallery three-images" }}
+  {{ $class = "gallery three-images" }}
 {{ else }}
-  {{ $class := "gallery" }}
+  {{ $class = "gallery" }}
 {{ end }}
 <div class="{{ $class }}">
     <p>{{ .Inner | strings.TrimSpace | .Page.RenderString }}</p>
