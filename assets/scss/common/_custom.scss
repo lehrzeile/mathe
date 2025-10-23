@@ -1101,7 +1101,7 @@ table + p > em {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: flex-center;
 }
 
 .gallery > figure {
