@@ -1098,10 +1098,14 @@ table + p > em {
 // }
 
 .gallery {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.gallery > p {
+    margin: 0 !important
 }
 
 .gallery > figure {
@@ -1118,11 +1122,13 @@ table + p > em {
 }
 
 .gallery.two-images > figure {
-    width: calc(50% - 10px);
+    width: 45%;
+    margin: 0 !important;
 }
 
 .gallery.three-images > figure {
-    width: calc(33.33% - 10px);
+    width: 33.33%;
+    margin: 0 !important;
 }
 
 .gallery > figure > img {
