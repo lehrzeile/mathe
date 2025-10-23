@@ -309,15 +309,13 @@ $f(2,33)=0,2 \cdot 2,33^3 - 1,4 \cdot 2,33^2 + 7,2 = 2,12$
 Wir kennen nun also auch die genauen Koordinaten des Wendepunkts $(2,33|2,12)$.
 {{< /box-example >}}
 
-![Wendestellen des Funktionsgraphen](img/Graph_Wendestellen.svg)
-*Abb. 6: Wendestellen des Funktionsgraphen*
+{{< image src="img/Graph_Wendestellen.svg" caption="Wendestellen des Funktionsgraphen" >}}
 
 ### Zusammenhang zwischen Ausgangsfunktion und den Ableitungsfunktionen
 
 In Abbildung 7 wird noch einmal der Zusammenhang zwischen Ausgangsfunktion, 1. Ableitung und 2. Ableitung aufgezeigt.
 
-![Funktionsgraph und Ableitungen](img/Graph_und_Ableitungen.svg)
-*Abb. 7: Funktionsgraph und Ableitungen*
+{{< image src="img/Graph_und_Ableitungen.svg" caption="Funktionsgraph und Ableitungen" >}}
 
 <!-- ## Steigungs-, Krümmungs- und Monotonieverhalten
 
