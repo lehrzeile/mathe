@@ -1096,3 +1096,30 @@ table + p > em {
 // .table-caption::before {
 //     content: "Tabelle " counter(table) ": ";
 // }
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gallery.two-images {
+    gap: 20px;
+}
+
+.gallery.three-images {
+    gap: 30px;
+}
+
+.gallery.two-images > figure {
+    width: calc(50% - 10px);
+}
+
+.gallery.three-images > figure {
+    width: calc(33.33% - 10px);
+}
+
+.gallery > figure > img {
+    width: 100%;
+}
