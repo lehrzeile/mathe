@@ -36,12 +36,11 @@ Es gibt verschiedene Darstellungsmöglichkeiten von bzw. für Zuordnungen:
 - Wortbeschreibungen wie z.B.:
 $$\text{"Jeder Schüler bekommt einen Sitzplatz."}$$
 - Zuordnungstabellen:
-<!-- {{< margin -2.5em >}} -->
+{{- center -}}
 | Schüler | A | B | C | D | E | F | ... |
 |---|---|---|---|---|---|---|---|
 | Sitzplatz | 1 | 17 | 3 | 5 | 2 | 20 | ... |
-
-<!-- {{< margin -2em >}} -->
+{{- /center -}}
 
 - Pfeildiagramme (siehe <a href="#abb1">Abb. 1</a>)
 - Graphen im Koordinatensystem:
