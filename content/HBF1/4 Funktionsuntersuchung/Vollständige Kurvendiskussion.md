@@ -116,8 +116,6 @@ Dies führt zu zwei Haupttypen von Symmetrie:
     - Spiegelung an einem Punkt (meist dem Koordinatenursprung)
     - Notation: $f(-x) = -f(x)$.
 
-<!-- {{< image src="img/Graph_Achsensymmetrie.svg" caption="achsensymmetrischer Graph" >}} -->
-
 {{< columns >}}
     {{< column >}}
         ![achsensymmetrischer Graph](img/Graph_Achsensymmetrie.svg)
