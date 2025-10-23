@@ -309,12 +309,11 @@ $f(2,33)=0,2 \cdot 2,33^3 - 1,4 \cdot 2,33^2 + 7,2 = 2,12$
 Wir kennen nun also auch die genauen Koordinaten des Wendepunkts $(2,33|2,12)$.
 {{< /box-example >}}
 
-{{< image src="img/Graph_Wendestellen.svg" caption="Wendestellen des Funktionsgraphen" >}}
+{{< image src="img/Graph_Wendestellen.svg" caption="Wendepunkt des Funktionsgraphen" >}}
 
 ### Zusammenhang zwischen Ausgangsfunktion und den Ableitungsfunktionen
 
-In Abbildung 7 wird noch einmal der Zusammenhang zwischen Ausgangsfunktion, 1. Ableitung und 2. Ableitung aufgezeigt.
-
+In Abbildung 8 wird noch einmal der Zusammenhang zwischen Ausgangsfunktion, 1. Ableitung und 2. Ableitung aufgezeigt:
 {{< image src="img/Graph_und_Ableitungen.svg" caption="Funktionsgraph und Ableitungen" >}}
 
 <!-- ## Steigungs-, Krümmungs- und Monotonieverhalten
@@ -359,10 +358,9 @@ Wir betrachten nur die höchste Potenz von $f(x)$, sprich: $0,2 \cdot x^3$ und b
 
 ## Skizze
 
-Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzufertigen (vgl. Abbildung 8). Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
+Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzufertigen (vgl. Abbildung 9). Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
 
-![finale Skizze des Funktionsgraphen mit allen Punkten](img/Graph_final.svg)
-*Abb. 8: finale Skizze des Funktionsgraphen mit allen Punkten*
+{{< image src="img/Graph_final.svg" caption="Finale Skizze des Funktionsgraphen mit allen Punkten" >}}
 
 <br />
 <br />
