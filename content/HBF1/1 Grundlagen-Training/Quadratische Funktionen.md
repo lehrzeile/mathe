@@ -17,8 +17,7 @@ Die einfachste quadratische Funktion ist die Funktion $f(x)= x^2$ und wird als *
 Ihr Graph ist **symmetrisch zur $y$-Achse** und der Punkt $S(0|0)$ ist ihr **Scheitelpunkt**.
 {{< /box-notice >}}
 
-![Normalparabel](img/Normalparabel.svg)
-*Abb. 1: Normalparabel*
+{{< image src="img/Normalparabel.svg" caption="Normalparabel" >}}
 
 ## Der Graph einer quadratischen Funktion - Die Parabel
 
@@ -52,8 +51,7 @@ Den **Streck- bzw. Öffnungsfaktor** einer Parabel kann man ganz einfach ablesen
     </ul>
 {{< /box-notice >}}
 
-![gestreckte und gestauchte Parabeln](img/Streckung-Stauchung.svg)
-*Abb. 2: gestreckte und gestauchte Parabeln*
+{{< image src="img/Streckung-Stauchung.svg" caption="Gestreckte und gestauchte Parabeln" >}}
 
 ### Verschiebung der Normalparabel entlang der $y$-Achse
 
@@ -73,8 +71,7 @@ Um nachvollziehen zu können, wie der Scheitelpunkt einer Parabel entlang der $y
 
 {{< /box-notice >}}
 
-![Verschiebung der Normalparabel entlang der y-Achse](img/Verschiebung.svg)
-*Abb. 3: Verschiebung der Normalparabel entlang der y-Achse*
+{{< image src="img/Verschiebung.svg" caption="Verschiebung der Normalparabel entlang der y-Achse" >}}
 
 ### Die Scheitelpunktform
 
@@ -98,8 +95,7 @@ Betrachten wir die quadratische Funktion $f(x)=1,5 \cdot (x-2)^2-1$.
 
 Wir erkennen zunächst einmal, dass die Funktionsgleichung in der Scheitelpunktform vorliegt. Das heißt, dass sich die Koordinaten des Scheitelpunkts somit direkt ablesen lassen: $S(2|-1)$.
 
-![Scheitelpunktform einer Parabel](img/Scheitelpunktform.svg)
-*Abb. 4: Scheitelpunktform einer Parabel*
+{{< image src="img/Scheitelpunktform.svg" caption="Scheitelpunktform einer Parabel" >}}
 
 Was heißt das nun? <br />
 Die Parabel wurde also um $2$ Einheiten nach rechts sowie um $1$ Einheit nach unten verschoben.
