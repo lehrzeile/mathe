@@ -134,7 +134,7 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
 
 {{< /job >}}
 
-{{< solution numbered="true" style="enum-alph" >}}
+{{< solution numbered="true" style="enum-alph" columns="2" >}}
 
 - $f'(x)=3$
 - $f'(x)=4x^3$

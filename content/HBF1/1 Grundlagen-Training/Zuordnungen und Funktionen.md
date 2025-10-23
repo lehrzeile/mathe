@@ -13,7 +13,6 @@ Eine Zuordnung ist eine allgemeine Beziehung zwischen zwei Mengen.
 Sie beschreibt, wie - nicht notwendig allen - Elementen einer Ausgangsmenge $A$ Elemente jeweils ein oder mehrere Elemente aus einer Zielmenge $B$ zugeordnet werden.
 Eine Zuordnung kann dabei ein- oder mehrdeutig sein. Das bedeutet, dass ein Element aus der Ausgangsmenge durchaus auch mehreren Elementen der Zielmenge zugeordnet sein kann, wie die folgende Abbildung zeigt:
 
-<a name="abb1"></a>
 {{< image src="https://de.bettermarks.com/wp-content/uploads/media/kem_FuD_FuDGWGB_1.jpg" caption="Pfeildiagramm" >}}
 
 {{< source type="image" text="bettermarks" src="https://de.bettermarks.com/wp-content/uploads/media/kem_FuD_FuDGWGB_1.jpg" lastcall="13.08.2025" >}}

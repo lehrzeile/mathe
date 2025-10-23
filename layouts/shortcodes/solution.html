@@ -1,7 +1,16 @@
+{{ $columns := "" }}
+{{ if .Get "columns" | eq "3" }}
+  {{ $columns = "three-columns" }}
+{{ else if .Get "columns" | eq "2" }}
+  {{ $columns = "two-columns" }}
+{{ else }}
+  {{ $columns = "one-column" }}
+{{ end }}
+
 <details class="solution">
   <summary>Lösungen</summary>
   {{ if .Get "numbered" | eq "true" }}
-    {{ if .Get "style" | eq "enum-alph" }} <div class="enum-alph"> {{else}} <div class="enum-arabic"> {{end}}
+    {{ if .Get "style" | eq "enum-alph" }} <div class="enum-alph {{ $columns }}"> {{else}} <div class="enum-arabic {{ $columns }}"> {{end}}
       {{ .Inner | strings.TrimSpace | .Page.RenderString }}
   </div>
   {{ else }}
