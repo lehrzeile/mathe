@@ -117,8 +117,8 @@ Dies führt zu zwei Haupttypen von Symmetrie:
     - Notation: $f(-x) = -f(x)$.
 
 {{< gallery images="2" >}}
-{{< image src="img/Graph_Achsensymmetrie.svg" caption="achsensymmetrischer Graph" >}}
-{{< image src="img/Graph_Punktsymmetrie.svg" caption="punktsymmetrischer Graph" >}}
+{{- image src="img/Graph_Achsensymmetrie.svg" caption="achsensymmetrischer Graph" -}}
+{{- image src="img/Graph_Punktsymmetrie.svg" caption="punktsymmetrischer Graph" -}}
 {{< /gallery >}}
 
 {{< columns >}}

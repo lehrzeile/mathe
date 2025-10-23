@@ -1104,6 +1104,10 @@ table + p > em {
   justify-content: flex-start;
 }
 
+.gallery > figure {
+    display: inline-block !important;
+}
+
 .gallery.two-images {
     gap: 20px;
 }
