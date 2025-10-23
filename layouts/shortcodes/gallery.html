@@ -8,5 +8,5 @@
   {{ $class = "gallery" }}
 {{ end }}
 <div class="{{ $class }}">
-    <p>{{ .Inner | strings.TrimSpace | .Page.RenderString }}</p>
+    <p>{{ .Inner }}</p>
 </div>
