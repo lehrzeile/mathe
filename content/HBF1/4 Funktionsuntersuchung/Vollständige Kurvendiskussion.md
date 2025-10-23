@@ -121,17 +121,6 @@ Dies führt zu zwei Haupttypen von Symmetrie:
 {{< image src="img/Graph_Punktsymmetrie.svg" caption="punktsymmetrischer Graph" >}}
 {{< /gallery >}}
 
-{{< columns >}}
-    {{< column >}}
-        ![achsensymmetrischer Graph](img/Graph_Achsensymmetrie.svg)
-        *Abb. 2: achsensymmetrischer Funktionsgraph*
-    {{< /column >}}
-    {{< column >}}
-        ![punktsymmetrischer Graph](img/Graph_Punktsymmetrie.svg)
-        *Abb. 3: punktsymmetrischer Graph*
-    {{< /column >}}
-{{< /columns >}}
-
 Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der (geraden oder ungeraden) Exponenten des Funktionsterms bestimmt werden:
 
 - Hat eine Funktionsgleichung nur **gerade Exponenten**, so liegt eine **Achsensymmetrie** vor.
