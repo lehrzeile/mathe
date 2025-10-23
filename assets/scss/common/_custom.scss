@@ -1102,24 +1102,29 @@ table + p > em {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    max-width: 100%;
 }
 
 .gallery > p {
-    margin: 0 !important
+    margin: 0 !important;
+    visibility: hidden !important;
 }
 
 .gallery > figure {
     display: inline-block !important;
     margin: 0 !important;
+    min-width: 200px;
+    flex-basis: 200px;
+    flex-grow: 1;
 }
 
-.gallery.two-images {
-    gap: 20px;
-}
+// .gallery.two-images {
+//     gap: 20px;
+// }
 
-.gallery.three-images {
-    gap: 30px;
-}
+// .gallery.three-images {
+//     gap: 30px;
+// }
 
 .gallery.two-images > figure {
     width: 45%;
