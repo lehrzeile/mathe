@@ -1112,29 +1112,21 @@ table + p > em {
 
 .gallery > figure {
     display: inline-block !important;
-    margin: 0 !important;
+    margin: 0.5em !important;
     min-width: 200px;
     flex-basis: 200px;
     flex-grow: 1;
 }
 
-// .gallery.two-images {
-//     gap: 20px;
+// .gallery.two-images > figure {
+//     width: 45%;
+//     margin: 0 !important;
 // }
 
-// .gallery.three-images {
-//     gap: 30px;
+// .gallery.three-images > figure {
+//     width: 33.33%;
+//     margin: 0 !important;
 // }
-
-.gallery.two-images > figure {
-    width: 45%;
-    margin: 0 !important;
-}
-
-.gallery.three-images > figure {
-    width: 33.33%;
-    margin: 0 !important;
-}
 
 .gallery > figure > img {
     width: 100%;
