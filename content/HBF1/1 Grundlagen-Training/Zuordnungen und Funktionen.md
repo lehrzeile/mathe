@@ -37,7 +37,7 @@ Es gibt verschiedene Darstellungsmöglichkeiten von bzw. für Zuordnungen:
 $$\text{"Jeder Schüler bekommt einen Sitzplatz."}$$
 - Zuordnungstabellen:
 
-{{<> center >}}
+{{< center >}}
 
 | Schüler | A | B | C | D | E | F | ... |
 |---|---|---|---|---|---|---|---|
