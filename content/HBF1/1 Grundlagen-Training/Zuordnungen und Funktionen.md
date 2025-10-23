@@ -36,19 +36,18 @@ Es gibt verschiedene Darstellungsmöglichkeiten von bzw. für Zuordnungen:
 - Wortbeschreibungen wie z.B.:
 $$\text{"Jeder Schüler bekommt einen Sitzplatz."}$$
 - Zuordnungstabellen:
-{{< margin -2.5em >}}
+<!-- {{< margin -2.5em >}} -->
 | Schüler | A | B | C | D | E | F | ... |
 |---|---|---|---|---|---|---|---|
 | Sitzplatz | 1 | 17 | 3 | 5 | 2 | 20 | ... |
 
-{{< margin -2em >}}
+<!-- {{< margin -2em >}} -->
 
-- Pfeildiagramme (siehe [Abb. 1](#abb1))
+- Pfeildiagramme (siehe <a href="#abb1">Abb. 1</a>)
 - Graphen im Koordinatensystem:
 
-<a href="abb2"></a>
-![ZUM.de](https://projekte.zum.de/images/thumb/5/59/Graph_Schnecke.jpg/300px-Graph_Schnecke.jpg)
-*Abb. 2: Graph einer Zuordnung*
+{{< image src="https://projekte.zum.de/images/thumb/5/59/Graph_Schnecke.jpg/300px-Graph_Schnecke.jpg" caption="Graph einer Zuordnung" >}}
+{{< source type="image" text="ZUM.de" src="https://projekte.zum.de/images/thumb/5/59/Graph_Schnecke.jpg/300px-Graph_Schnecke.jpg" lastcall="23.10.2025" >}}
 
 ## Der Funktionsbegriff
 
@@ -72,9 +71,7 @@ Beispiel:
 
 Im Grunde kannst dir eine Funktion ein wenig so wie eine Maschine bzw. eine _blackbox_ vorstellen:
 
-<a name="abb3"></a>
-![image](https://madipedia.de/images/thumb/4/43/Funktionsmaschine-groß.jpg/300px-Funktionsmaschine-groß.jpg)
-*Abb. 3: "Funktions-Maschine"*
+{{< image src="https://madipedia.de/images/thumb/4/43/Funktionsmaschine-groß.jpg/300px-Funktionsmaschine-groß.jpg" caption='"Funktions-Maschine"' >}}
 
 {{< source type="image" text="madipedia" src="https://madipedia.de/images/thumb/4/43/Funktionsmaschine-groß.jpg/300px-Funktionsmaschine-groß.jpg" lastcall="13.08.2025" >}}
 

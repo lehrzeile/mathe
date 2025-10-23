@@ -1,25 +1,25 @@
-{{ $u := urls.Parse (.Get "src") }}
+{{ $u := urls.Parse (.Get "src") }} <!-- src-Eintrag parsen -->
 {{ $src := $u.String }} <!-- src-Eintrag übernehmen für relativen Link -->
 {{ $link := $.Page.Parent.RelPermalink }} <!-- erzeugt den Link zur übergeordneten Section -->
-{{ $caption := $.Get "caption" }}
-{{ .Page.Scratch.Add "imagecounter" 1 }}
-{{ $imagecounter := $.Page.Scratch.Get "imagecounter" }}
+{{ $caption := $.Get "caption" }} <!-- Bildunterschrift übernehmen -->
+{{ .Page.Scratch.Add "imagecounter" 1 }} <!-- Zähler für Abbildungen erhöhen -->
+{{ $imagecounter := $.Page.Scratch.Get "imagecounter" }} <!-- Zähler für Abbildungen -->
 <figure>
-    <a name="abb{{ $imagecounter }}"></a>
-    {{ if $u.IsAbs }}
-        {{ if hasSuffix (.Get "src") "svg" }}
+    <a name="abb{{ $imagecounter }}"></a> <!-- Anker für Abbildungsreferenz -->
+    {{ if $u.IsAbs }} <!-- Prüfen, ob der src-Eintrag ein absoluter Link ist -->
+        {{ if hasSuffix (.Get "src") "svg" }} <!-- Prüfen, ob der src-Eintrag auf eine SVG-Datei verweist -->
             <img src="{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
-        {{ else }}
+        {{ else }} <!-- Ansonsten normales Bild-Tag -->
             <img src="{{ $src }}" decoding="async" loading="lazy" alt="{{ $caption }}">
         {{ end }}
-    {{ else }}
+    {{ else }} <!-- Relativer Link -->
         {{ if hasSuffix (.Get "src") "svg" }}
             <img src="{{ $link }}{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
         {{ else }}
             <img src="{{ $link }}{{ $src }}" decoding="async" loading="lazy" alt="{{ $caption }}">
         {{ end }}
     {{ end }}
-    {{ if .Get "caption" }}
+    {{ if .Get "caption" }} <!-- Bildunterschrift nur anzeigen, wenn eine caption angegeben wurde -->
         <figcaption>
             <p>Abb. {{ $imagecounter }}: {{ .Get "caption" }}</p>
         </figcaption>

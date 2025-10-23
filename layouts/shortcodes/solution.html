@@ -1,19 +1,23 @@
 {{ $columns := "" }}
-{{ if .Get "columns" | eq "3" }}
+{{ if .Get "columns" | eq "3" }} <!-- Drei Spalten -->
   {{ $columns = "three-columns" }}
-{{ else if .Get "columns" | eq "2" }}
+{{ else if .Get "columns" | eq "2" }} <!-- Zwei Spalten -->
   {{ $columns = "two-columns" }}
-{{ else }}
+{{ else }} <!-- Eine Spalte -->
   {{ $columns = "one-column" }}
 {{ end }}
 
 <details class="solution">
   <summary>Lösungen</summary>
-  {{ if .Get "numbered" | eq "true" }}
-    {{ if .Get "style" | eq "enum-alph" }} <div class="enum-alph {{ $columns }}"> {{else}} <div class="enum-arabic {{ $columns }}"> {{end}}
-      {{ .Inner | strings.TrimSpace | .Page.RenderString }}
-  </div>
-  {{ else }}
-  <p>{{ .Inner | strings.TrimSpace | .Page.RenderString }}</p>
+  {{ if .Get "numbered" | eq "true" }} <!-- Nummerierte Lösungen -->
+    {{ if .Get "style" | eq "enum-alph" }} <!-- Alphabetische Nummerierung -->
+      <div class="enum-alph {{ $columns }}">
+    {{else}} <!-- Arabische Nummerierung -->
+      <div class="enum-arabic {{ $columns }}">
+    {{end}}
+    {{ .Inner | strings.TrimSpace | .Page.RenderString }}
+    </div>
+  {{ else }} <!-- Unnummerierte Lösungen -->
+    <p>{{ .Inner | strings.TrimSpace | .Page.RenderString }}</p>
   {{ end }}
 </details>
