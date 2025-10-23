@@ -9,7 +9,7 @@ defaultMarkdownHandler = "goldmark"
     wrapStandAloneImageWithinParagraph = false
     [goldmark.parser.attribute]
       block = true
-      title = true
+      title = false
   [goldmark.renderer]
     unsafe = true
 
