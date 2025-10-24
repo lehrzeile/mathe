@@ -26,7 +26,7 @@
         <figcaption>
             <p>Abb. {{ $imagecounter }}: {{ .Get "caption" }}
         {{ if $u.IsAbs }}
-            [^{{ $imagecounter }}]
+            <a href="#fn:{{ $imagecounter }}" class="footnote-ref" role="doc-noteref">{{ $imagecounter }}</a>
         {{ end }}
             </p>
         </figcaption>
