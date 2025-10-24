@@ -51,6 +51,9 @@ $$\text{"Jeder Schüler bekommt einen Sitzplatz."}$$
 - Graphen im Koordinatensystem:
 
 {{< image src="https://projekte.zum.de/images/thumb/5/59/Graph_Schnecke.jpg/300px-Graph_Schnecke.jpg" caption="Graph einer Zuordnung" srctext="ZUM.de" lastcall="23.10.2025" >}}
+
+[^1:]: Text
+
 {{< source type="image" text="ZUM.de" src="https://projekte.zum.de/images/thumb/5/59/Graph_Schnecke.jpg/300px-Graph_Schnecke.jpg" lastcall="23.10.2025" >}}
 
 ## Der Funktionsbegriff

@@ -1,0 +1,7 @@
+{{- $counter := .Get 0 -}}
+{{- $src := .Get 1 -}}
+{{- $srctext := .Get 2 -}}
+{{- $caption := .Get 3 -}}
+{{- $lastcall := .Get 4 -}}
+
+[^{{ $counter }}]: "{{ $caption }}" - <a href="{{ $src }}">{{ $srctext }}</a> (letzter Aufruf: {{ $lastcall }})

@@ -32,7 +32,3 @@
         </figcaption>
     {{ end }}
 </figure>
-
-{{- if $u.IsAbs -}} <!-- Fußnote nur bei absoluten Links -->
-    [^{{ $imagecounter }}]: "{{ $caption }}" - <a href="{{ $src }}">{{ $srctext }}</a> (letzter Aufruf: {{ $lastcall }})
-{{- end }}
