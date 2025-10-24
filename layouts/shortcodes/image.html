@@ -4,6 +4,9 @@
 {{ $caption := $.Get "caption" }} <!-- Bildunterschrift übernehmen -->
 {{ .Page.Scratch.Add "imagecounter" 1 }} <!-- Zähler für Abbildungen erhöhen -->
 {{ $imagecounter := $.Page.Scratch.Get "imagecounter" }} <!-- Zähler für Abbildungen -->
+{{ $srctext := $.Get "srctext" }} <!-- Quellenangabe übernehmen -->
+{{ $lastcall := $.Get "lastcall" }} <!-- Letzter Aufruf übernehmen -->
+
 <figure>
     <a name="abb{{ $imagecounter }}"></a> <!-- Anker für Abbildungsreferenz -->
     {{ if $u.IsAbs }} <!-- Prüfen, ob der src-Eintrag ein absoluter Link ist -->
@@ -21,7 +24,15 @@
     {{ end }}
     {{ if .Get "caption" }} <!-- Bildunterschrift nur anzeigen, wenn eine caption angegeben wurde -->
         <figcaption>
-            <p>Abb. {{ $imagecounter }}: {{ .Get "caption" }}</p>
+            <p>Abb. {{ $imagecounter }}: {{ .Get "caption" }}
+        {{ if $u.IsAbs }}
+            [^{{ $imagecounter }}]
+        {{ end }}
+            </p>
         </figcaption>
     {{ end }}
 </figure>
+
+{{ if $u.IsAbs }} <!-- Fußnote nur bei absoluten Links -->
+    [^{{ $imagecounter }}]: "{{ $caption }}" - <a href="{{ $src }}">{{ $srctext }}</a> (letzter Aufruf: {{ $lastcall }})
+{{ end }}
