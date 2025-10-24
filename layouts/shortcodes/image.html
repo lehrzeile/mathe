@@ -25,9 +25,9 @@
     {{ if .Get "caption" }} <!-- Bildunterschrift nur anzeigen, wenn eine caption angegeben wurde -->
         <figcaption>
             <p>Abb. {{ $imagecounter }}: {{ .Get "caption" }}
-        {{ if $u.IsAbs }}
+        {{- if $u.IsAbs -}}
             <a href="#fn:{{ $imagecounter }}" class="footnote-ref" role="doc-noteref">{{ $imagecounter }}</a>
-        {{ end }}
+        {{- end }}
             </p>
         </figcaption>
     {{ end }}
