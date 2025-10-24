@@ -45,6 +45,8 @@ $$\text{"Jeder Schüler bekommt einen Sitzplatz."}$$
 
 {{< /center >}}
 
+{{< margin 1em >}}
+
 - Pfeildiagramme (siehe <a href="#abb1">Abb. 1</a>)
 - Graphen im Koordinatensystem:
 
