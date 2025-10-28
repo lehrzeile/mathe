@@ -61,13 +61,13 @@ Wir untersuchen also jetzt, wie die Parabel im Koordinatensystem verschoben wird
 
 Der Parameter $c$ beeinflusst, wie weit die Parabel <mark>nach oben oder nach unten verschoben</mark> wird. Das kannst du im folgenden GeoGebra-Applet selbst testen, indem du den Schieberegler von $c$ verschiebst:
 
-{{< geogebra id="kfhaawtr" >}}
+{{< geogebra-activity id="kfhaawtr" >}}
 
 {{< margin 2em>}}
 
 Vorab: Der Parameter $b$ hat keinen direkt erkennbaren Einfluss auf die Lage der Parabel. Erst wenn man genau hinschaut, wird sichtbar, was passiert, wenn sich der Parameter $b$ verändert:
 
-{{< geogebra id="mqzu6n8g" >}}
+{{< geogebra-activity id="mqzu6n8g" >}}
 
 {{< box-notice title="Verschiebung der Normalparabel entlang der $y$-Achse" >}}
 
