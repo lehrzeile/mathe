@@ -53,7 +53,7 @@ Den **Streck- bzw. Öffnungsfaktor** einer Parabel kann man ganz einfach ablesen
 
 {{< image src="img/Streckung-Stauchung.svg" caption="Gestreckte und gestauchte Parabeln" >}}
 
-### Verschiebung der Normalparabel entlang der $y$-Achse
+### Einfluss der Parameter $b$ und $c$ auf die Normalparabel
 
 Zurück zur allgemeinen Funktionsgleichung $f(x)=ax^2+bx+c$. Um den Streckfaktor $a$ haben wir uns bereits gekümmert. Wofür stehen allerdings $b$ und $c$?
 
@@ -62,6 +62,8 @@ Wir untersuchen also jetzt, wie die Parabel im Koordinatensystem verschoben wird
 Der Parameter $c$ beeinflusst, wie weit die Parabel <mark>nach oben oder nach unten verschoben</mark> wird. Das kannst du im folgenden GeoGebra-Applet selbst testen, indem du den Schieberegler von $c$ verschiebst:
 
 {{< geogebra id="kfhaawtr" >}}
+
+{{< margin 2em>}}
 
 Vorab: Der Parameter $b$ hat keinen direkt erkennbaren Einfluss auf die Lage der Parabel. Erst wenn man genau hinschaut, wird sichtbar, was passiert, wenn sich der Parameter $b$ verändert:
 
