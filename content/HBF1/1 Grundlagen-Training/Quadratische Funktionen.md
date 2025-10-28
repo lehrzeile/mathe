@@ -63,7 +63,9 @@ Der Parameter $c$ beeinflusst, wie weit die Parabel <mark>nach oben oder nach un
 
 {{< geogebra id="kfhaawtr" >}}
 
-Vorab: Der Parameter $b$ hat keinen direkt sichtbaren Einfluss auf die Lage der Parabel.
+Vorab: Der Parameter $b$ hat keinen direkt erkennbaren Einfluss auf die Lage der Parabel. Erst wenn man genau hinschaut, wird sichtbar, was passiert, wenn sich der Parameter $b$ verändert:
+
+{{< geogebra id="mqzu6n8g" >}}
 
 {{< box-notice title="Verschiebung der Normalparabel entlang der $y$-Achse" >}}
 
