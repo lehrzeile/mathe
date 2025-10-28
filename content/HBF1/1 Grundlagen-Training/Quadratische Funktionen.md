@@ -59,7 +59,11 @@ Zurück zur allgemeinen Funktionsgleichung $f(x)=ax^2+bx+c$. Um den Streckfaktor
 
 Wir untersuchen also jetzt, wie die Parabel im Koordinatensystem verschoben wird, wenn wir die Parameter $b$ und $c$ verändern.
 
-Vorab: Der Parameter $b$ hat keinen sichtbaren Einfluss auf die Lage der Parabel. Der Parameter $c$ beeinflusst jedoch, wie weit die Parabel <mark>nach oben oder nach unten verschoben</mark> wird.
+Der Parameter $c$ beeinflusst, wie weit die Parabel <mark>nach oben oder nach unten verschoben</mark> wird. Das kannst du im folgenden GeoGebra-Applet selbst testen, indem du den Schieberegler von $c$ verschiebst:
+
+{{< geogebra id="kfhaawtr" >}}
+
+Vorab: Der Parameter $b$ hat keinen direkt sichtbaren Einfluss auf die Lage der Parabel.
 
 {{< box-notice title="Verschiebung der Normalparabel entlang der $y$-Achse" >}}
 
