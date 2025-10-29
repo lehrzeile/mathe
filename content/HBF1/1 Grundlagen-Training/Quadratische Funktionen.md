@@ -71,6 +71,13 @@ Vorab: Der Parameter $b$ hat keinen direkt erkennbaren Einfluss auf die Lage der
 
 {{< margin 2em>}}
 
+{{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" entry="Die beiden GeoGebra-Applet befassen sich mit dem Einfluss der beiden Parameter $b$ und $c$ auf die Lage der Parabel im Koordinatensystem." >}}
+
+- **Bearbeite** die beiden GeoGebra-Applets.
+- **Notiere** deine Beobachtungen stichwortartig in deine Unterlagen.
+
+{{< /job >}}
+
 {{< box-notice title="Verschiebung der Normalparabel entlang der $y$-Achse" >}}
 
 Um nachvollziehen zu können, wie der Scheitelpunkt einer Parabel entlang der $y$-Achse verschoben wird, betrachten wir ausschließlich den Parameter $c$:
