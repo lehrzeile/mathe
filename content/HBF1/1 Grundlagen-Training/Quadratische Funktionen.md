@@ -146,11 +146,20 @@ der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und 
     {{< bettermarks uebungscode="FA9U" seriesID="1699534299377696768" title="Streckfaktoren am Graphen ablesen" >}}
     {{< bettermarks uebungscode="C2X7" seriesID="1699534509067731328" title="Streckfaktoren rechnerisch bestimmen" >}}
     {{< bettermarks uebungscode="G2BG" seriesID="1699534742048735616" title="Normalparabel in y-Richtung verschieben" >}}
+    {{< bettermarks uebungscode="UTAE" seriesID="1699535587368763648" title="Normalparabel in x-Richtung verschieben" >}}
 {{< /job >}}
 
-{{< job numbered="true" style="" title="Übung macht den Meister" name="" entry="" >}}
-    Gegeben sind die Graphen quadratischer Funktionen der Form $f(x)=x^2+bx+c$ mit $a=1$. **Bestimme** jeweils die Funktionsgleichung.
+{{< job numbered="true" style="" title="Ablesen von Funktionsgraphen" name="" entry="" >}}
+    In Abbildung 5 sind die Graphen verschobener Normalparabeln -- d. h. quadratischer Funktionen der Form $f(x)=x^2+bx+c$. **Bestimme** jeweils die Funktionsgleichung.
 {{< /job >}}
+
+{{< job numbered="true" style="enum-alph" title="bettermarks" name="" entry="" >}}
+    {{< bettermarks uebungscode="P36L" seriesID="1699536066530247040" title="Scheitelpunkte und Funktionsgleichungen zu Parabeln bestimmen" >}}
+    {{< bettermarks uebungscode="9W4X" seriesID="1699536235644584192" title="Parabel ihre Funktionsgleichung zuordnen" >}}
+    {{< bettermarks uebungscode="F1FE" seriesID="1699536423125778560" title="Funktionsgleichung zu Parabel zuordnen" >}}
+{{< /job >}}
+
+{{< margin -2em >}}
 
 {{< image src="img/Parabeln-Funktionsgleichungen.svg" caption="Funktionsgraphen und Funktionsgleichungen" >}}
 
