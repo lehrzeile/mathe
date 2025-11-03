@@ -142,8 +142,14 @@ der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und 
 
 {{< /box-example >}}
 
+{{< job numbered="true" style="enum-alph" title="bettermarks" name="" entry="" >}}
+    {{< bettermarks uebungscode="FA9U" seriesID="1699534299377696768" title="Streckfaktoren am Graphen ablesen" >}}
+    {{< bettermarks uebungscode="C2X7" seriesID="1699534509067731328" title="Streckfaktoren rechnerisch bestimmen" >}}
+    {{< bettermarks uebungscode="G2BG" seriesID="1699534742048735616" title="Normalparabel in y-Richtung verschieben" >}}
+{{< /job >}}
+
 {{< job numbered="true" style="" title="Übung macht den Meister" name="" entry="" >}}
-    Gegeben sind die Graphen quadratischer Funktionen der Form $f(x)=x^2+bx+c$, ($a=1$). **Bestimme** jeweils die Funktionsgleichung.
+    Gegeben sind die Graphen quadratischer Funktionen der Form $f(x)=x^2+bx+c$ mit $a=1$. **Bestimme** jeweils die Funktionsgleichung.
 {{< /job >}}
 
 {{< image src="img/Parabeln-Funktionsgleichungen.svg" caption="Funktionsgraphen und Funktionsgleichungen" >}}
