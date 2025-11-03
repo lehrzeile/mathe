@@ -142,9 +142,11 @@ der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und 
 
 {{< /box-example >}}
 
-{{< job numbered="true" style="" title="Übung macht den Meister" name="" entry="Gegeben sind die Graphen quadratischer Funktionen der Form $f(x)=x^2+bx+c$, ($a=1$). *Bestimme* jeweils die Funktionsgleichung." >}}
-{{< image src="img/Parabeln-Funktionsgleichungen.svg" caption="Funktionsgraphen und Funktionsgleichungen" >}}
+{{< job numbered="true" style="" title="Übung macht den Meister" name="" entry="" >}}
+    Gegeben sind die Graphen quadratischer Funktionen der Form $f(x)=x^2+bx+c$, ($a=1$). **Bestimme** jeweils die Funktionsgleichung.
 {{< /job >}}
+
+{{< image src="img/Parabeln-Funktionsgleichungen.svg" caption="Funktionsgraphen und Funktionsgleichungen" >}}
 
 ## Quadratische Ergänzung
 
