@@ -27,7 +27,7 @@ $$f(х) = \frac{u(х)}{v(x)} \quad \rightarrow \quad f'(x)= \frac{u'(x) \cdot v(
 {{< /box-notice >}}
 
 <!-- Beispiel -->
-{{< box-example title="Beispiele für Konstantenregel, Ableitung von $x$ und Faktorregel:" >}}
+{{< box-example title="Beispiele für die Anwendung der Quotientenregel:" >}}
 
 - $f(x) = \frac{x^2}{2x+2} $ \\ $\rightarrow \quad f'(x) = \frac{2x \cdot (2x+2) - x^2 \cdot 2}{(2x+2)^2}$
 
@@ -39,9 +39,9 @@ $$f(х) = g(h(x)) \quad \rightarrow \quad f'(x)= g'(h(x)) \cdot h'(x)$$
 {{< /box-notice >}}
 
 <!-- Beispiel -->
-{{< box-example title="Beispiele für Konstantenregel, Ableitung von $x$ und Faktorregel:" >}}
+{{< box-example title="Beispiele für die Kettenregel:" >}}
 
-- $f(x) =  $ \\ $\rightarrow \quad f'(x) = $
+- $f(x) = (3x^2 + 4)^5$ \\ $\rightarrow \quad f'(x) = 5 \cdot (3x^2 + 4)^4 \cdot 6x$
 
 {{< /box-example >}}
 
@@ -53,5 +53,8 @@ $$f(х) = g(h(x)) \quad \rightarrow \quad f'(x)= g'(h(x)) \cdot h'(x)$$
 - $f(x) = 4x^2 \cdot (-2x+2)$
 - $f(x) = x^2 \cdot x$
 - $f(x) = (x - 1) \cdot (x^2 + x + 7)$
+- $f(x) = $
+- $f(x) = $
+- $f(x) = $
 
 {{< /job >}}
