@@ -73,7 +73,7 @@ $\rightarrow \quad f'(x) = 5 \cdot (3x^2 + 4)^4 \cdot 6x$
 - $\displaystyle f(x) = (2x+4)^2$
 - $\displaystyle f(x) = 3(x^2+3)^3$
 - $\displaystyle f(x) = \frac12(4x^3+1)^4$
-- $\displaystyle f(x) = \frac{1}{10}(\frac12 x^2 - 7x)^5 + 3x^2$
+- $\displaystyle f(x) = \frac{1}{10}(\frac12 x^2 - 7x)^5$
 
 {{< /job >}}
 
