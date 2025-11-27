@@ -17,7 +17,7 @@ $$f(х) = g(х) \cdot h(x) \quad \rightarrow \quad f'(x)= g'(x) \cdot h(x) + g(x
 <!-- Beispiel -->
 {{< box-example title="Beispiele für die Anwendung der Produktregel:" >}}
 
-- $f(x) = 3x^2 \cdot (5x - 7)$ \ $\rightarrow \quad f'(x) = 6x \cdot (5x - 7) + 3x^2 \cdot 5$
+- $f(x) = 3x^2 \cdot (5x - 7)$ \\ $\rightarrow \quad f'(x) = 6x \cdot (5x - 7) + 3x^2 \cdot 5$
 
 {{< /box-example >}}
 
@@ -29,7 +29,7 @@ $$f(х) = \frac{u(х)}{v(x)} \quad \rightarrow \quad f'(x)= \frac{u'(x) \cdot v(
 <!-- Beispiel -->
 {{< box-example title="Beispiele für Konstantenregel, Ableitung von $x$ und Faktorregel:" >}}
 
-- $f(x) =  $ \ $\rightarrow \quad f'(x) = $
+- $f(x) = \frac{x^2}{2x+2} $ \\ $\rightarrow \quad f'(x) = \frac{2x \cdot (2x+2) - x^2 \cdot 2}{(2x+2)^2}$
 
 {{< /box-example >}}
 
@@ -41,7 +41,7 @@ $$f(х) = g(h(x)) \quad \rightarrow \quad f'(x)= g'(h(x)) \cdot h'(x)$$
 <!-- Beispiel -->
 {{< box-example title="Beispiele für Konstantenregel, Ableitung von $x$ und Faktorregel:" >}}
 
-- $f(x) =  $ \ $\rightarrow \quad f'(x) = $
+- $f(x) =  $ \\ $\rightarrow \quad f'(x) = $
 
 {{< /box-example >}}
 
