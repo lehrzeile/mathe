@@ -56,8 +56,13 @@ $\rightarrow \quad f'(x) = 5 \cdot (3x^2 + 4)^4 \cdot 6x$
 - $f(x) = 4x^2 \cdot (-2x+2)$
 - $f(x) = x^2 \cdot x$
 - $f(x) = (x - 1) \cdot (x^2 + x + 7)$
-- $f(x) = $
-- $f(x) = $
-- $f(x) = $
+- $\displaystyle f(x) = \frac{4}{3x-2}$
+- $\displaystyle f(x) = \frac{2x+1}{2x-1}$
+- $\displaystyle f(x) = \frac{2x+1}{(2x-1)^2}$
+- $\displaystyle f(x) = \frac{2x+3}{x^5}$
+- $\displaystyle f(x) = \frac{x^2}{x^3} + 3x + 1$
+- $\displaystyle f(x) = (2x+4)^2$
+- $\displaystyle f(x) = 3(x^2+3)^3$
+- $\displaystyle f(x) = \frac12(4x^3+1)^4$
 
 {{< /job >}}
