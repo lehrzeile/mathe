@@ -49,20 +49,31 @@ $\rightarrow \quad f'(x) = 5 \cdot (3x^2 + 4)^4 \cdot 6x$
 {{< /box-example >}}
 
 <!-- Aufgaben -->
-{{< job numbered="true" style="enum-alph" title="Übung macht den Meister" columns="2" entry="**Bestimme** jeweils den Term der Ableitungsfunktion $f'(x)$." >}}
+{{< job numbered="true" style="enum-alph" title="Übung macht den Meister" columns="2" entry="**Bestimme** jeweils den Term der Ableitungsfunktion $f'(x)$ mit Hilfe der Produktregel." >}}
 
 - $f(x) = x^2 \cdot (x - 1)$
 - $f(x) = (x^2 - \frac14 x) \cdot (x^2 + 3)$
 - $f(x) = 4x^2 \cdot (-2x+2)$
 - $f(x) = x^2 \cdot x$
 - $f(x) = (x - 1) \cdot (x^2 + x + 7)$
+
+{{< /job >}}
+
+{{< job numbered="true" style="enum-alph" title="Übung macht den Meister" columns="2" entry="**Bestimme** jeweils den Term der Ableitungsfunktion $f'(x)$ mit Hilfe der Quotientenregel." >}}
+
 - $\displaystyle f(x) = \frac{4}{3x-2}$
 - $\displaystyle f(x) = \frac{2x+1}{2x-1}$
 - $\displaystyle f(x) = \frac{2x+1}{(2x-1)^2}$
 - $\displaystyle f(x) = \frac{2x+3}{x^5}$
 - $\displaystyle f(x) = \frac{x^2}{x^3} + 3x + 1$
+
+{{< /job >}}
+
+{{< job numbered="true" style="enum-alph" title="Übung macht den Meister" columns="2" entry="**Bestimme** jeweils den Term der Ableitungsfunktion $f'(x)$ mit Hilfe der Kettenregel." >}}
+
 - $\displaystyle f(x) = (2x+4)^2$
 - $\displaystyle f(x) = 3(x^2+3)^3$
 - $\displaystyle f(x) = \frac12(4x^3+1)^4$
+- $\displaystyle f(x) = \frac{1}{10}(\frac12 x^2 - 7x)^5 + 3x^2$
 
 {{< /job >}}
