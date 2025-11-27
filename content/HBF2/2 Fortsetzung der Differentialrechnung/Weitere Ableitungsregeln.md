@@ -11,7 +11,7 @@ count: 0 # für die Nummerierung der Aufgaben
 
 <!-- Produktregel -->
 {{< box-notice title="Produktregel" >}}
-$$\displaystyle f(х) = g(х) \cdot h(x) \quad \rightarrow \quad f'(x)= g'(x) \cdot h(x) + g(x) \cdot h'(x)$$
+$\displaystyle f(х) = g(х) \cdot h(x) \quad \rightarrow \quad f'(x)= g'(x) \cdot h(x) + g(x) \cdot h'(x)$
 {{< /box-notice >}}
 
 <!-- Beispiel -->
@@ -24,7 +24,7 @@ $\rightarrow \quad f'(x) = 6x \cdot (5x - 7) + 3x^2 \cdot 5$
 
 <!-- Quotientenregel -->
 {{< box-notice title="Quotientenregel" >}}
-$$\displaystyle f(х) = \frac{u(х)}{v(x)} \quad \rightarrow \quad f'(x)= \frac{u'(x) \cdot v(x) - u(x) \cdot v'(x)}{(v(x))^2}$$
+$\displaystyle f(х) = \frac{u(х)}{v(x)} \quad \rightarrow \quad f'(x)= \frac{u'(x) \cdot v(x) - u(x) \cdot v'(x)}{(v(x))^2}$
 {{< /box-notice >}}
 
 <!-- Beispiel -->
@@ -37,7 +37,7 @@ $\rightarrow \quad f'(x) = \frac{2x \cdot (2x+2) - x^2 \cdot 2}{(2x+2)^2}$
 
 <!-- Kettenregel -->
 {{< box-notice title="Kettenregel" >}}
-$$\displaystyle f(х) = g(h(x)) \quad \rightarrow \quad f'(x)= g'(h(x)) \cdot h'(x)$$
+$\displaystyle f(х) = g(h(x)) \quad \rightarrow \quad f'(x)= g'(h(x)) \cdot h'(x)$
 {{< /box-notice >}}
 
 <!-- Beispiel -->
