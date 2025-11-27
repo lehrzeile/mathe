@@ -153,7 +153,7 @@ der Scheitelpunkt der Parabel wurde um **1 Einheit nach rechts** verschoben und 
     In Abbildung 5 sind die Graphen verschobener Normalparabeln -- d. h. quadratischer Funktionen der Form $f(x)=x^2+bx+c$. **Bestimme** jeweils die Funktionsgleichung.
 {{< /job >}}
 
-{{< margin -2em >}}
+{{< margin -3em >}}
 
 {{< image src="img/Parabeln-Funktionsgleichungen.svg" caption="Funktionsgraphen und Funktionsgleichungen" >}}
 
