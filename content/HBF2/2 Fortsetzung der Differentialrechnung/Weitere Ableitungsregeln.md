@@ -63,7 +63,7 @@ $\rightarrow \quad f'(x) = 5 \cdot (3x^2 + 4)^4 \cdot 6x$
 
 - $\displaystyle f(x) = \frac{4}{3x-2}$
 - $\displaystyle f(x) = \frac{2x+1}{2x-1}$
-- $\displaystyle f(x) = \frac{2x+1}{(2x-1)^2}$
+- $\displaystyle f(x) = \frac{2x+1}{3x^2-2}$
 - $\displaystyle f(x) = \frac{2x+3}{x^5}$
 - $\displaystyle f(x) = \frac{x^2}{x^3} + 3x + 1$
 
@@ -75,5 +75,13 @@ $\rightarrow \quad f'(x) = 5 \cdot (3x^2 + 4)^4 \cdot 6x$
 - $\displaystyle f(x) = 3(x^2+3)^3$
 - $\displaystyle f(x) = \frac12(4x^3+1)^4$
 - $\displaystyle f(x) = \frac{1}{10}(\frac12 x^2 - 7x)^5 + 3x^2$
+
+{{< /job >}}
+
+{{< job numbered="true" style="enum-alph" title="Gemischte Aufgaben" columns="2" entry="**Bestimme** jeweils den Term der Ableitungsfunktion $f'(x)$." >}}
+
+- $\displaystyle f(x) = \frac{2x+1}{(2x-1)^2}$
+- $\displaystyle f(x) = 2x \cdot \frac{3x}{x^2-1}$
+- $\displaystyle f(x) = (\frac{3x+4}{2x^2+5})^2$
 
 {{< /job >}}
