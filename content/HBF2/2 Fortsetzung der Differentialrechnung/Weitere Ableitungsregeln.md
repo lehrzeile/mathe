@@ -82,6 +82,6 @@ $\rightarrow \quad f'(x) = 5 \cdot (3x^2 + 4)^4 \cdot 6x$
 
 - $\displaystyle f(x) = \frac{2x+1}{(2x-1)^2}$
 - $\displaystyle f(x) = 2x \cdot \frac{3x}{x^2-1}$
-- $\displaystyle f(x) = (\frac{3x+4}{2x^2+5})^2$
+- $\displaystyle f(x) = \left( \frac{3x+4}{2x^2+5} \right)^2$
 
 {{< /job >}}
