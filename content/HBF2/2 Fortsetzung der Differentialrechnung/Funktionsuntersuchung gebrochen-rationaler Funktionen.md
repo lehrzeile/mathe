@@ -52,7 +52,7 @@ Ziel ist es, anhand dieser systematischen Analyse den Graphen einer gegebenen ge
 
 {{< gallery images="2" >}}
 {{< image src="img/echt_gebrochen-rationale_Funktionen_1.svg" caption="echt gebrochen-rationale Funktion mit waagerechter Asymptote" >}}
-{{< image src="img/echt_gebrochen-rationale_Funktionen_2.svg" caption="echt gebrochen-rationale Funktion mit waagerechter Asymptote" >}}
+{{< image src="img/echt_gebrochen-rationale_Funktionen_2.png" caption="echt gebrochen-rationale Funktion mit waagerechter Asymptote" >}}
 {{< /gallery >}}
 
 {{< gallery images="2" >}}
