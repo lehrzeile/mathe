@@ -42,7 +42,6 @@
 
 #let function11 = x11.map(x =>  1 / x)
 #let function12 = x12.map(x =>  1 / x)
-#let function3 = xs.map(x =>  (x*x + 1) / x)
 
 #lq.diagram(
   xlim: (-5.25, 5.25),

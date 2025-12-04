@@ -51,7 +51,7 @@
   legend: (position: right + bottom),
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
-  lq.plot(x11, function11, mark: none, stroke: thirdcolor + 1.5pt, label: [$display(f(x) = (1/8 x^2 + 1)/(x + 2))$]),
+  lq.plot(x11, function11, mark: none, stroke: thirdcolor + 1.5pt, label: [$display(f(x) = (1/8 x^2 + 1)/(x + 1))$]),
   lq.plot(x12, function12, mark: none, stroke: thirdcolor + 1.5pt),
   lq.plot((-1, -1), (-5.5, 5.5), stroke: (paint: red, thickness: 1pt, dash: "dashed"), mark: none),
   lq.plot(xs, asymptote, mark: none, stroke: (paint: green.darken(50%), thickness: 1pt, dash: "dashed")),

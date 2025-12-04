@@ -29,14 +29,14 @@ Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ --
 für die die Funktion definiert ist.
 {{< /box-notice >}}
 
-{{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
-Bei der hier gegebenen Funktion darf der Nenner ($N(x)$) also nicht Null werden: $N(x) = 0$. Ergebnis: $x_{1/2} = \pm 2$.
+{{< box-example title="Beispiel $\displaystyle f(x)=\frac{x^2+1}{x}$" >}}
+Bei der hier gegebenen Funktion darf der Nenner ($N(x)$) also nicht Null werden. Dies ist dann der Fall, wenn $x = 0$ ist, da $N(0) = 0$.
 
 Es gilt daher:
-$\mathbb{D}(f) = \mathbb{R} \ \{-2;2\}$.
+$\mathbb{D}(f) = \mathbb{R} \textbackslash \{0\}$.
 
 Gesprochen:
-"Der Definitionsbereich umfasst alle reellen Zahlen außer $-2$ und $2$."
+"Der Definitionsbereich umfasst alle reellen Zahlen außer die Null." oder kurz: "$\mathbb{R}$ ohne Null."
 {{< /box-example >}}
 
 ## Art der Definitionslücke und Vorzeichenwechsel
@@ -44,7 +44,7 @@ Gesprochen:
 Als Nächstes untersucht man die Definitionslücke und fragt sich: "Was ist hier besonderes los?".
 Setzt man die Nullstelle des Nenners -- die wir soeben bestimmt haben -- in den Zähler ein und erhält einen Wert ungleich Null, so handelt es sich um eine nicht hebbare Lücke: eine sog. **Polstelle** (Unendlichkeitsstelle).
 
-{{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
+{{< box-example title="Beispiel $\displaystyle f(x)=\frac{x^2+1}{x}$" >}}
 Wir haben soeben bestimmt, dass die Nullstelle des Nenners $x = 0$ ist.
 
 Wir setzen nun $x = 0$ in den Zähler ein:
