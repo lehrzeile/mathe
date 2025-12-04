@@ -71,7 +71,7 @@ Wir haben soeben bestimmt, dass die Nullstelle des Nenners $x = 0$ ist.
 Wir setzen nun $x = 0$ in den Zähler ein:
 $Z(0) = 0^2 + 1 = 1 \neq 0$.
 
-Wir erhalten $1$ als Ergebnis, was bedeutet, dass der Funktionsgraph an dieser Stelle eine **Polstelle** besitzt.
+Wir erhalten einen Wert *ungleich Null*, was bedeutet, dass der Funktionsgraph an dieser Stelle eine **Polstelle** besitzt.
 {{< /box-example >}}
 
 {{< box-note title="Hinweis:" >}}
