@@ -66,12 +66,12 @@ Als Nächstes untersucht man die Definitionslücke und fragt sich: "Was ist hier
 Setzt man die Nullstelle des Nenners -- die wir soeben bestimmt haben -- in den Zähler ein und erhält einen Wert ungleich Null, so handelt es sich um eine sog. Polstelle (Unendlichkeitsstelle).
 
 {{< box-example title="Beispiel $f(x)=\frac{x^2+1}{x}$" >}}
-    Wir haben soeben bestimmt, dass die Nullstelle des Nenners $x = 0$ ist. \
+Wir haben soeben bestimmt, dass die Nullstelle des Nenners $x = 0$ ist. \
 
-    Wir setzen nun $x = 0$ in den Zähler ein:
-    $Z(0) = 0^2 + 1 = 1 \neq 0$.
+Wir setzen nun $x = 0$ in den Zähler ein:
+$Z(0) = 0^2 + 1 = 1 \neq 0$.
 
-    Wir erhalten als $1$ Ergebnis, was bedeutet, dass der Funktionsgraph an dieser Stelle eine Polstelle besitzt.
+Wir erhalten als $1$ Ergebnis, was bedeutet, dass der Funktionsgraph an dieser Stelle eine Polstelle besitzt.
 {{< /box-example >}}
 
 {{< box-notice title="Hinweis:" >}}
