@@ -20,17 +20,19 @@ Bei ganzrationalen Funktionen (Polynomfunktionen) treten keine Nenner, Wurzeln o
 Es gibt jedoch auch andere Fälle, in denen der Funktionsausdruck näher untersucht werden muss. 
 Allgemein geht man bei der Bestimmung des Definitionsbereichs wie folgt vor:
 
-- Man prüft, ob der Ausdruck Divisionen, Wurzeln oder Logarithmen enthält.
+- Man prüft, ob der Ausdruck Brüche, Wurzeln oder Logarithmen enthält.
 - Falls keiner dieser "Problemfälle" vorhanden ist (wie bei Polynomfunktionen), ist der Definitionsbereich $\mathbb{D} = \mathbb{R}$.
 - Falls doch einer dieser Fälle eintritt, so sind die "verbotenen Stellen" aus dem Definitionsbereich auszuschließen.
 
 {{< box-notice title="Zur Erinnerung: Definitionsbereich" >}}
 Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ -- ist die Menge aller $x$-Werte,
 für die die Funktion definiert ist.
+
+Die Schreibweise $\mathbb{D}(f) \backslash \{ a ; b \}$ bedeutet, dass der Definitionsbereich alle reellen Zahlen außer $a$ und $b$ enthält.
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
-Der Nenner ($N(x)$) darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und aus dem Definitionsbereich auszuschließen: $N(x) = 0$.
+Der Nenner ($N(x)$) darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und diese dann aus dem Definitionsbereich auszuschließen: $N(x) = 0$.
 
 Ergebnis: $x_{1/2} = \pm 2$.
 
