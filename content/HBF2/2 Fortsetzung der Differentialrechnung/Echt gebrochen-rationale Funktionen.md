@@ -64,8 +64,8 @@ Als nächstes untersucht man, wie sich der Funktionsgraph links und rechts von d
 {{< box-notice title="Vorzeichenwechsel" >}}
 Sei ein Funktionsgraph $f(x)$ mit einer Polstelle $x_P$ gegeben. Außerdem seien $x_l$ und $x_r$ zwei Funktionswerte, die links ($x_l < x_P$) bzw. rechts ($x_r > x_P$) von der Polstelle liegen. Dann gilt:
 
-- $x_l = x_r \qquad \Rightarrow \qquad$ Polstelle ohne Vorzeichenwechsel
-- $x_l \neq x_r \qquad \Rightarrow \qquad$ Polstelle mit Vorzeichenwechsel.
+- $f(x_l) > 0 \& f(x_r) > 0$ oder $f(x_l) < 0 \& f(x_r) < 0 \qquad \Rightarrow \qquad$ Polstelle ohne Vorzeichenwechsel
+- $f(x_l) > 0 \& f(x_r) < 0$ oder $f(x_l) < 0 \& f(x_r) > 0 \qquad \Rightarrow \qquad$ Polstelle mit Vorzeichenwechsel.
 
 {{< /box-notice >}}
 
