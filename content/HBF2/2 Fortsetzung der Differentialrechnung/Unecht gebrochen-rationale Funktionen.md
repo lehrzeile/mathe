@@ -39,12 +39,6 @@ $Z(0) = 0^2 + 1 = 1 \neq 0$.
 Wir erhalten einen Wert *ungleich Null*, was bedeutet, dass der Funktionsgraph an dieser Stelle eine **Polstelle** besitzt.
 {{< /box-example >}}
 
-{{< box-note title="Hinweis:" >}}
-Kommt beim Einsetzen der Nullstelle des Nenners in den Zähler ebenfalls der Wert Null heraus, so handelt es sich in diesem Fall um eine **hebbare Lücke**. In einem solchen Fall wäre es möglich, die Lücke "zu beheben", in dem man eine Polynomdivision durchführt, deren Ergebnis (in den meisten Fällen) eine ganz rationale Funktion ist, welche keine Lücke enthält.
-
-Diesen Fall werden wir hier jedoch vernachlässigen.
-{{< /box-note >}}
-
 Als nächstes untersucht man, wie sich der Funktionsgraph links und rechts von der soeben gefundenen Definitionslücke bzw. Polstelle verhält. Hierzu schaut man sich die Vorzeichen der Funktionswerte an, die links ($x_l < x_P$) bzw. rechts ($x_r > x_P$) von der Polstelle ($x_P$) liegen.
 
 {{< box-notice title="Vorzeichenwechsel" >}}
