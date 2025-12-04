@@ -50,7 +50,7 @@ Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ --
 für die die Funktion definiert ist.
 {{< /box-notice >}}
 
-{{< box-example title="Beispiel $f(x)=\frac{x^2+1}{x}$" >}}
+{{< box-example title="Beispiel $\displaystyle f(x)=\frac{x^2+1}{x}$" >}}
 Bei der hier gegebenen Funktion darf der Nenner ($N(x)$) also nicht Null werden. Dies ist dann der Fall, wenn $x = 0$ ist, da $N(0) = 0$. \
 
 Es gilt daher:
@@ -60,22 +60,32 @@ Gesprochen:
 "Der Definitionsbereich umfasst alle reellen Zahlen außer die Null." oder kurz: "$\mathbb{R}$ ohne Null."
 {{< /box-example >}}
 
-## Definitionslücke
+## Art der Definitionslücke und Vorzeichenwechsel
 
 Als Nächstes untersucht man die Definitionslücke und fragt sich: "Was ist hier besonderes los?".
-Setzt man die Nullstelle des Nenners -- die wir soeben bestimmt haben -- in den Zähler ein und erhält einen Wert ungleich Null, so handelt es sich um eine sog. Polstelle (Unendlichkeitsstelle).
+Setzt man die Nullstelle des Nenners -- die wir soeben bestimmt haben -- in den Zähler ein und erhält einen Wert ungleich Null, so handelt es sich um eine nicht hebbare Lücke: eine sog. **Polstelle** (Unendlichkeitsstelle).
 
-{{< box-example title="Beispiel $f(x)=\frac{x^2+1}{x}$" >}}
+{{< box-example title="Beispiel $\displaystyle f(x)=\frac{x^2+1}{x}$" >}}
 Wir haben soeben bestimmt, dass die Nullstelle des Nenners $x = 0$ ist. \
 
 Wir setzen nun $x = 0$ in den Zähler ein:
 $Z(0) = 0^2 + 1 = 1 \neq 0$.
 
-Wir erhalten als $1$ Ergebnis, was bedeutet, dass der Funktionsgraph an dieser Stelle eine Polstelle besitzt.
+Wir erhalten $1$ als Ergebnis, was bedeutet, dass der Funktionsgraph an dieser Stelle eine **Polstelle** besitzt.
 {{< /box-example >}}
 
-{{< box-notice title="Hinweis:" >}}
+{{< box-note title="Hinweis:" >}}
 Kommt beim Einsetzen der Nullstelle des Nenners in den Zähler ebenfalls der Wert Null heraus, so handelt es sich in diesem Fall um eine **hebbare Lücke**. In einem solchen Fall wäre es möglich, die Lücke "zu beheben", in dem man eine Polynomdivision durchführt, deren Ergebnis (in den meisten Fällen) eine ganz rationale Funktion ist, welche keine Lücke enthält.
 
 Diesen Fall werden wir hier jedoch vernachlässigen.
+{{< /box-note >}}
+
+Als nächstes untersucht man, wie sich der Funktionsgraph links und rechts von der soeben gefundenen Definitionslücke bzw. Polstelle verhält. Hierzu schaut man sich die Vorzeichen der Funktionswerte an, die links ($x_l < x_P$) bzw. rechts ($x_r > x_P$) von der Polstelle ($x_P$) liegen.
+
+{{< box-notice title="Vorzeichenwechsel" >}}
+Sei ein Funktionsgraph $f(x)$ mit einer Polstelle $x_P$ gegeben. Außerdem seien $x_l$ und $x_r$ zwei Funktionswerte, die links ($x_l < x_P$) bzw. rechts ($x_r > x_P$) von der Polstelle liegen. Dann gilt:
+
+- $x_l = x_r \qquad \Rightarrow \qquad$ Polstelle ohne Vorzeichenwechsel
+- $x_l \neq x_r \qquad \Rightarrow \qquad$ Polstelle mit Vorzeichenwechsel.
+
 {{< /box-notice >}}
