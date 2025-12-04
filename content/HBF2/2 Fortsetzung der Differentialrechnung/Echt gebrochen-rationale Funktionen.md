@@ -71,7 +71,7 @@ Sei ein Funktionsgraph $f(x)$ mit einer Polstelle $x_P$ gegeben. Außerdem seien
 
 {{< box-notice title="Merke dir:" >}}
 
-1. Polstelle ohne Vorzeichenwechsel nennt man *gerader Pol*.
-1. Polstelle mit Vorzeichenwechsel nennt man *ungerader Pol*. In diesem Fall passiert an dieser Stelle ein "Sprung" zwischen $+\infty$ nach $-\infty$ oder umgekehrt.
+- Polstellen ohne Vorzeichenwechsel nennt man *gerader Pol*.
+- Polstellen mit Vorzeichenwechsel nennt man *ungerader Pol*. In diesem Fall passiert an dieser Stelle ein "Sprung" von $+\infty$ nach $-\infty$ oder umgekehrt.
 
 {{< /box-notice >}}
