@@ -1,5 +1,5 @@
 ---
-title: "Echt gebrochen-rationale Funktionen"
+title: "Unecht gebrochen-rationale Funktionen"
 description: ""
 summary: ""
 draft: false
@@ -11,7 +11,7 @@ count: 0 # für die Nummerierung der Aufgaben
 
 ## Einleitung
 
-In diesem Abschnitt werden die wichtigsten Schritte zur vollständigen Funktionsuntersuchung echt gebrochen-rationaler Funktionen systematisch erklärt und an einem Beispiel angewendet.
+In diesem Abschnitt werden die wichtigsten Schritte zur vollständigen Funktionsuntersuchung unecht gebrochen-rationaler Funktionen systematisch erklärt und an einem Beispiel angewendet.
 
 ## Definitionsbereich
 
