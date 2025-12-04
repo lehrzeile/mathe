@@ -35,7 +35,7 @@ Der Nenner ($N(x)$) darf nicht Null werden. Wir setzen ihn also bewusst gleich N
 Ergebnis: $x_{1/2} = \pm 2$.
 
 Es gilt daher:
-$\mathbb{D}(f) = \mathbb{R} \textbackslash \{ -2 ; 2 \}$.
+$\mathbb{D}(f) = \mathbb{R} \{ -2 ; 2 \}$.
 
 Gesprochen:
 "Der Definitionsbereich umfasst alle reellen Zahlen außer $-2$ und $2$."
