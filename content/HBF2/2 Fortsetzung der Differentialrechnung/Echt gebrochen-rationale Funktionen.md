@@ -39,7 +39,7 @@ $N(x) = 0 \qquad \Leftrightarrow \qquad x^2 - 4 = 0$.
 Ergebnis: $x_{1/2} = \pm 2$.
 
 Es gilt daher:
-$\mathbb{D}(f) = \mathbb{R} \backslash \left{ -2 ; 2 \right}$.
+$\mathbb{D}(f) = \mathbb{R} \backslash \{ -2 ; 2 \}$.
 
 Gesprochen:
 "Der Definitionsbereich umfasst alle reellen Zahlen außer $-2$ und $2$."
@@ -72,8 +72,8 @@ Als nächstes untersucht man, wie sich der Funktionsgraph links und rechts von d
 {{< box-notice title="Vorzeichenwechsel:" >}}
 Sei ein Funktionsgraph $f(x)$ mit einer Polstelle $x_P$ gegeben. Außerdem seien $x_l$ und $x_r$ zwei Funktionswerte, die links ($x_l < x_P$) bzw. rechts ($x_r > x_P$) von der Polstelle liegen. Dann gilt:
 
-- $f(x_l) > 0~$ & $~f(x_r) > 0~$ oder $~f(x_l) < 0~$ & $~f(x_r) < 0 \qquad \Rightarrow \qquad$ Polstelle ohne Vorzeichenwechsel
-- $f(x_l) > 0~$ & $~f(x_r) < 0~$ oder $~f(x_l) < 0~$ & $~f(x_r) > 0 \qquad \Rightarrow \qquad$ Polstelle mit Vorzeichenwechsel.
+- $f(x_l) > 0\,$ & $\,f(x_r) > 0\,$ oder $\,f(x_l) < 0\,$ & $\,f(x_r) < 0 \qquad \Rightarrow \qquad$ Polstelle ohne Vorzeichenwechsel
+- $f(x_l) > 0\,$ & $\,f(x_r) < 0\,$ oder $\,f(x_l) < 0\,$ & $\,f(x_r) > 0 \qquad \Rightarrow \qquad$ Polstelle mit Vorzeichenwechsel.
 
 {{< /box-notice >}}
 
