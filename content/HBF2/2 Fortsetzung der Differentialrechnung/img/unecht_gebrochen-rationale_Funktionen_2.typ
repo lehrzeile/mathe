@@ -36,17 +36,12 @@
 #show: schoolbook-style
 
 #let xs = lq.linspace(-100, 100, num: 5000)
-#let x11 = lq.linspace(-100, -1/10000, num: 5000)
-#let x12 = lq.linspace(1/10000, 100, num: 5000)
-#let x21 = lq.linspace(-100, -1-1/10000, num: 5000)
-#let x22 = lq.linspace(-1+1/10000, 100, num: 5000)
-#let ys = lq.linspace(-100, 100, num: 5000)
+#let x11 = lq.linspace(-100, -1-1/10000, num: 5000)
+#let x12 = lq.linspace(-1+1/10000, 100, num: 5000)
 
-#let function11 = x11.map(x =>  1 / x)
-#let function12 = x12.map(x =>  1 / x)
-#let function21 = x21.map(x =>  (x - 1)/((x + 1)*(x + 1)))
-#let function22 = x22.map(x =>  (x - 1)/((x + 1)*(x + 1)))
-#let function3 = xs.map(x =>  (x*x + 1) / x)
+#let function11 = x11.map(x =>  (0.125 * x*x + 1) / (x + 1))
+#let function12 = x12.map(x =>  (0.125 * x*x + 1) / (x + 1))
+#let asymptote = xs.map(x =>  1/8 * x - 1/4)
 
 #lq.diagram(
   xlim: (-5.25, 5.25),
@@ -56,8 +51,8 @@
   legend: (position: right + bottom),
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
-  lq.plot(x11, function11, mark: none, stroke: secondcolor + 1.5pt, label: [$f_1(x) = 1/x$]),
-  lq.plot(x12, function12, mark: none, stroke: secondcolor + 1.5pt),
-  lq.plot(x21, function21, mark: none, stroke: maincolor + 1.5pt, label: [$f_2(x) = (x-1)/(x+1)^2$]),
-  lq.plot(x22, function22, mark: none, stroke: maincolor + 1.5pt),
+  lq.plot(x11, function11, mark: none, stroke: thirdcolor + 1.5pt, label: [$display(f(x) = (1/8 x^2 + 1)/(x + 2))$]),
+  lq.plot(x12, function12, mark: none, stroke: thirdcolor + 1.5pt),
+  lq.plot((-1, -1), (-5.5, 5.5), stroke: (paint: red, thickness: 1pt, dash: "dashed"), mark: none),
+  lq.plot(xs, asymptote, mark: none, stroke: (paint: green.darken(50%), thickness: 1pt, dash: "dashed")),
 )

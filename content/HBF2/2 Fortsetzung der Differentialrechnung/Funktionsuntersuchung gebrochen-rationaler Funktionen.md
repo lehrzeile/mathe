@@ -42,3 +42,13 @@ Voraussetzungen hierfür sind:
 Ziel ist es, anhand dieser systematischen Analyse den Graphen einer gegebenen gebrochen-rationalen Funktion zuverlässig zu skizzieren und ihr qualitatives Verhalten vollständig zu beschreiben.
 
 ## Beispiele für echt sowie unecht gebrochen-rationale Funktionen
+
+{{< gallery images="2" >}}
+{{< image src="img/echt_gebrochen-rationale_Funktionen_1.svg" caption="echt gebrochen-rationale Funktion mit waagerechter Asymptote" >}}
+{{< image src="img/echt_gebrochen-rationale_Funktionen_2.svg" caption="echt gebrochen-rationale Funktion mit waagerechter Asymptote" >}}
+{{< /gallery >}}
+
+{{< gallery images="2" >}}
+{{< image src="img/unecht_gebrochen-rationale_Funktionen_1.svg" caption="unecht gebrochen-rationale Funktion mit waagerechter Asymptote" >}}
+{{< image src="img/unecht_gebrochen-rationale_Funktionen_2.svg" caption="unecht gebrochen-rationale Funktion mit schräger Asymptote" >}}
+{{< /gallery >}}

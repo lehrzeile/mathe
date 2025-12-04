@@ -2,7 +2,7 @@
 title: "Anwendungsbeispiel"
 description: ""
 summary: ""
-draft: false
+draft: true
 weight: 502
 toc: true
 math: true # für die Nutzung von KaTeX
