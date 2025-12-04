@@ -47,12 +47,14 @@ Als Nächstes untersucht man die Definitionslücke und fragt sich: "Was ist hier
 Setzt man die Nullstelle des Nenners -- die wir soeben bestimmt haben -- in den Zähler ein und erhält einen Wert ungleich Null, so handelt es sich um eine nicht hebbare Lücke: eine sog. **Polstelle** (Unendlichkeitsstelle).
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
-Wir haben soeben bestimmt, dass die Nullstelle des Nenners $x = 0$ ist.
+Wir haben soeben bestimmt, dass die Nullstellen des Nenners an den Stellen $x_1 = -2$ und $x_2 = +2$ sind.
 
-Wir setzen nun $x = 0$ in den Zähler ein:
-$Z(0) = 0^2 + 1 = 1 \neq 0$.
+Wir setzen nun $x_1 = -1$ und $x_2 = +2$ in den Zähler ein:
 
-Wir erhalten einen Wert *ungleich Null*, was bedeutet, dass der Funktionsgraph an dieser Stelle eine **Polstelle** besitzt.
+- $Z(-2) = -2-1 = -3 \neq 0 \qquad \Rightarrow$ Polstelle.
+- $Z(+2) = +2-1 = 1 \neq 0 \qquad \Rightarrow$ Polstelle.
+
+Wir erhalten jeweils einen Wert *ungleich Null*, was bedeutet, dass der Funktionsgraph an diesen Stellen **Polstellen** besitzt.
 {{< /box-example >}}
 
 {{< box-note title="Hinweis:" >}}
