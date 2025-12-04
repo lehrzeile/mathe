@@ -32,7 +32,9 @@ Die Schreibweise $\mathbb{D}(f) \backslash \{ a ; b \}$ bedeutet, dass der Defin
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
-Der Nenner ($N(x)$) darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und diese dann aus dem Definitionsbereich auszuschließen: $N(x) = 0$.
+Der Nenner ($N(x)$) darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und diese dann aus dem Definitionsbereich auszuschließen.
+
+$N(x) = 0 \qquad \Leftrightarrow \qquad x^2 - 4 = 0$.
 
 Ergebnis: $x_{1/2} = \pm 2$.
 
