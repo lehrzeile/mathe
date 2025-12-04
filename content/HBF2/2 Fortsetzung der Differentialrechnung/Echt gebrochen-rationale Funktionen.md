@@ -72,12 +72,12 @@ Als nächstes untersucht man, wie sich der Funktionsgraph links und rechts von d
 {{< box-notice title="Vorzeichenwechsel" >}}
 Sei ein Funktionsgraph $f(x)$ mit einer Polstelle $x_P$ gegeben. Außerdem seien $x_l$ und $x_r$ zwei Funktionswerte, die links ($x_l < x_P$) bzw. rechts ($x_r > x_P$) von der Polstelle liegen. Dann gilt:
 
-- $f(x_l) > 0$ & $f(x_r) > 0$ oder $f(x_l) < 0 \& f(x_r) < 0 \qquad \Rightarrow \qquad$ Polstelle ohne Vorzeichenwechsel
-- $f(x_l) > 0$ & $f(x_r) < 0$ oder $f(x_l) < 0 \& f(x_r) > 0 \qquad \Rightarrow \qquad$ Polstelle mit Vorzeichenwechsel.
+- $f(x_l) > 0~$ & $~f(x_r) > 0~$ oder $~f(x_l) < 0~$ & $~f(x_r) < 0 \qquad \Rightarrow \qquad$ Polstelle ohne Vorzeichenwechsel
+- $f(x_l) > 0~$ & $~f(x_r) < 0~$ oder $~f(x_l) < 0~$ & $~f(x_r) > 0 \qquad \Rightarrow \qquad$ Polstelle mit Vorzeichenwechsel.
 
 {{< /box-notice >}}
 
-{{< box-notice title="Merke dir:" >}}
+{{< box-notice title="Fachbegriffe" >}}
 
 - Polstellen ohne Vorzeichenwechsel nennt man *gerader Pol*.
 - Polstellen mit Vorzeichenwechsel nennt man *ungerader Pol*. In diesem Fall passiert an dieser Stelle ein "Sprung" von $+\infty$ nach $-\infty$ oder umgekehrt.
