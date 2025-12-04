@@ -69,7 +69,7 @@ Diesen Fall werden wir hier jedoch vernachlässigen.
 
 Als nächstes untersucht man, wie sich der Funktionsgraph links und rechts von der soeben gefundenen Definitionslücke bzw. Polstelle verhält. Hierzu schaut man sich die Vorzeichen der Funktionswerte an, die links ($x_l < x_P$) bzw. rechts ($x_r > x_P$) von der Polstelle ($x_P$) liegen.
 
-{{< box-notice title="Vorzeichenwechsel" >}}
+{{< box-notice title="Vorzeichenwechsel:" >}}
 Sei ein Funktionsgraph $f(x)$ mit einer Polstelle $x_P$ gegeben. Außerdem seien $x_l$ und $x_r$ zwei Funktionswerte, die links ($x_l < x_P$) bzw. rechts ($x_r > x_P$) von der Polstelle liegen. Dann gilt:
 
 - $f(x_l) > 0~$ & $~f(x_r) > 0~$ oder $~f(x_l) < 0~$ & $~f(x_r) < 0 \qquad \Rightarrow \qquad$ Polstelle ohne Vorzeichenwechsel
@@ -77,7 +77,7 @@ Sei ein Funktionsgraph $f(x)$ mit einer Polstelle $x_P$ gegeben. Außerdem seien
 
 {{< /box-notice >}}
 
-{{< box-notice title="Fachbegriffe" >}}
+{{< box-notice title="Fachbegriffe:" >}}
 
 - Polstellen ohne Vorzeichenwechsel nennt man *gerader Pol*.
 - Polstellen mit Vorzeichenwechsel nennt man *ungerader Pol*. In diesem Fall passiert an dieser Stelle ein "Sprung" von $+\infty$ nach $-\infty$ oder umgekehrt.
