@@ -11,7 +11,7 @@ count: 0 # für die Nummerierung der Aufgaben
 
 ## Einleitung
 
-Eine gebrochen-rationale Funktion ist eine Bruchfunktion, bei der Zähler und Nenner Polynome sind. Man schreibt sie kurz als $f(x)=\dfrac{P(x)}{Q(x)}$ mit Polynomen $P$ und $Q$. Wichtig ist hierbei (was ein klein wenig vorgegriffen ist), dass hier $Q(x)$ nicht Null sein darf. Deshalb gibt es Stellen, an denen die Funktion nicht definiert ist (entweder sind das echte Polstellen oder sog. hebbare Lücken[^1]). Solche gebrochen-rationale Funktionen verhalten sich zumeist wie Polynomfunktionen, zeigen jedoch an den Nullstellen des Nenners ein besonderes Verhalten (z. B. starke Ausschläge oder sog. Asymptoten).
+Eine gebrochen-rationale Funktion ist eine Bruchfunktion, bei der Zähler und Nenner Polynome sind. Man schreibt sie kurz als $f(x)=\dfrac{Z(x)}{N(x)}$ mit Polynomen $Z$ (wie Zähler) und $N$ (wie Nenner). Wichtig ist hierbei (was ein klein wenig vorgegriffen ist), dass hier $N(x)$ nicht Null sein darf. Deshalb gibt es Stellen, an denen die Funktion nicht definiert ist (entweder sind das echte Polstellen oder sog. hebbare Lücken[^1]). Solche gebrochen-rationale Funktionen verhalten sich zumeist wie Polynomfunktionen, zeigen jedoch an den Nullstellen des Nenners ein besonderes Verhalten (z. B. starke Ausschläge oder sog. Asymptoten).
 
 [^1]: Solche Funktionen mit hebbaren Lücken werden wir hier jedoch vernachlässigen.
 
@@ -22,7 +22,7 @@ In diesem Abschnitt werden die wichtigsten Schritte zur vollständigen Funktions
 - Verhalten im Unendlichen: Bestimmung von waagerechten oder schiefen Asymptoten[^2]
 - Untersuchung von Polstellen: einfache und mehrfache Pole, (hebbare Definitionslücken) und echte Polstellen
 - Differenzialanalyse: erste und zweite Ableitung zum Finden von Monotonie, Extremstellen und Wendepunkten sowie Krümmungsverhalten
-- sowie die Skizzierung des Graphen unter Berücksichtigung aller zuvor untersuchter Merkmale und Eigenschaften.
+- sowie die Skizzierung des Graphen unter Berücksichtigung aller zuvor untersuchter Merkmale und Eigenschaften. \
 
 [^2]: Auch gekrümmte Asymptoten werden wir hier nicht betrachten.
 
@@ -30,7 +30,7 @@ Voraussetzungen hierfür sind:
 
 - Kenntnisse über Polynome,
 - Grenzwerte,
-- Ableitungen und Vorzeichenuntersuchungen.
+- Ableitungen und Vorzeichenuntersuchungen. \
 
 Ziel ist es, anhand dieser systematischen Analyse den Graphen einer gegebenen gebrochen-rationalen Funktion zuverlässig zu skizzieren und ihr qualitatives Verhalten vollständig zu beschreiben.
 
@@ -51,13 +51,13 @@ für die die Funktion definiert ist.
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $f(x)=\frac{x^2+1}{x}$" >}}
-    Bei der hier gegebenen Funktion darf der Nenner also nicht Null werden. Dies ist dann der Fall, wenn $x = 0$ ist. \
+Bei der hier gegebenen Funktion darf der Nenner ($N(x)$) also nicht Null werden. Dies ist dann der Fall, wenn $x = 0$ ist, da $N(0) = 0$. \
 
-    Es gilt daher:
-    $\mathbb{D}(f) = \mathbb{R} \ 0$.
+Es gilt daher:
+$\mathbb{D}(f) = \mathbb{R} \ 0$.
 
-    Gesprochen:
-    "Der Definitionsbereich umfasst alle reellen Zahlen außer die Null." oder kurz: "$\mathbb{R}$ ohne Null."
+Gesprochen:
+"Der Definitionsbereich umfasst alle reellen Zahlen außer die Null." oder kurz: "$\mathbb{R}$ ohne Null."
 {{< /box-example >}}
 
 ## Definitionslücke
