@@ -22,7 +22,7 @@ In diesem Abschnitt werden die wichtigsten Schritte zur vollständigen Funktions
 - Verhalten im Unendlichen: Bestimmung von waagerechten oder schiefen Asymptoten[^2]
 - Untersuchung von Polstellen: einfache und mehrfache Pole, (hebbare Definitionslücken) und echte Polstellen
 - Differenzialanalyse: erste und zweite Ableitung zum Finden von Monotonie, Extremstellen und Wendepunkten sowie Krümmungsverhalten
-- sowie die Skizzierung des Graphen unter Berücksichtigung aller zuvor untersuchter Merkmale und Eigenschaften. \
+- sowie die Skizzierung des Graphen unter Berücksichtigung aller zuvor untersuchter Merkmale und Eigenschaften. \\
 
 [^2]: Auch gekrümmte Asymptoten werden wir hier nicht betrachten.
 
@@ -30,7 +30,7 @@ Voraussetzungen hierfür sind:
 
 - Kenntnisse über Polynome,
 - Grenzwerte,
-- Ableitungen und Vorzeichenuntersuchungen. \
+- Ableitungen und Vorzeichenuntersuchungen. \\
 
 Ziel ist es, anhand dieser systematischen Analyse den Graphen einer gegebenen gebrochen-rationalen Funktion zuverlässig zu skizzieren und ihr qualitatives Verhalten vollständig zu beschreiben.
 
@@ -54,7 +54,7 @@ für die die Funktion definiert ist.
 Bei der hier gegebenen Funktion darf der Nenner ($N(x)$) also nicht Null werden. Dies ist dann der Fall, wenn $x = 0$ ist, da $N(0) = 0$. \
 
 Es gilt daher:
-$\mathbb{D}(f) = \mathbb{R} \ 0$.
+$\mathbb{D}(f) = \mathbb{R} \textbackslash \{0\}$.
 
 Gesprochen:
 "Der Definitionsbereich umfasst alle reellen Zahlen außer die Null." oder kurz: "$\mathbb{R}$ ohne Null."
@@ -66,7 +66,7 @@ Als Nächstes untersucht man die Definitionslücke und fragt sich: "Was ist hier
 Setzt man die Nullstelle des Nenners -- die wir soeben bestimmt haben -- in den Zähler ein und erhält einen Wert ungleich Null, so handelt es sich um eine nicht hebbare Lücke: eine sog. **Polstelle** (Unendlichkeitsstelle).
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x^2+1}{x}$" >}}
-Wir haben soeben bestimmt, dass die Nullstelle des Nenners $x = 0$ ist. \
+Wir haben soeben bestimmt, dass die Nullstelle des Nenners $x = 0$ ist.
 
 Wir setzen nun $x = 0$ in den Zähler ein:
 $Z(0) = 0^2 + 1 = 1 \neq 0$.
