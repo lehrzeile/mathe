@@ -11,7 +11,7 @@ count: 0 # für die Nummerierung der Aufgaben
 
 ## Einleitung
 
-In diesem Abschnitt werden die wichtigsten Schritte zur vollständigen Funktionsuntersuchung echt gebrochen-rationaler Funktionen systematisch erklärt und an einem Beispiel angewendet.
+In diesem Abschnitt werden die wichtigsten Schritte zur vollständigen Funktionsuntersuchung **echt gebrochen-rationaler Funktionen** systematisch erklärt und an einem Beispiel angewendet.
 
 ## Definitionsbereich
 
@@ -30,10 +30,12 @@ für die die Funktion definiert ist.
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
-Bei der hier gegebenen Funktion darf der Nenner ($N(x)$) also nicht Null werden: $N(x) = 0$. Ergebnis: $x_{1/2} = \pm 2$.
+Der Nenner ($N(x)$) darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und aus dem Definitionsbereich auszuschließen: $N(x) = 0$.
+
+Ergebnis: $x_{1/2} = \pm 2$.
 
 Es gilt daher:
-$\mathbb{D}(f) = \mathbb{R} \ \{-2;2\}$.
+$\mathbb{D}(f) = \mathbb{R} \textbackslash \{ -2 ; 2 \}$.
 
 Gesprochen:
 "Der Definitionsbereich umfasst alle reellen Zahlen außer $-2$ und $2$."
