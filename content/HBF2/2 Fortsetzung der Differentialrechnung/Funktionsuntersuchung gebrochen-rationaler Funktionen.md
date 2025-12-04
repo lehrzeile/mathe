@@ -29,7 +29,7 @@ In den folgenden Abschnitten werden die wichtigsten Schritte zur vollständigen 
 - Verhalten im Unendlichen: Bestimmung von waagerechten oder schiefen Asymptoten[^2]
 - Untersuchung von Polstellen: einfache und mehrfache Pole, (hebbare Definitionslücken) und echte Polstellen
 - Differenzialanalyse: erste und zweite Ableitung zum Finden von Monotonie, Extremstellen und Wendepunkten sowie Krümmungsverhalten
-- sowie die Skizzierung des Graphen unter Berücksichtigung aller zuvor untersuchter Merkmale und Eigenschaften. \\
+- sowie die Skizzierung des Graphen unter Berücksichtigung aller zuvor untersuchter Merkmale und Eigenschaften.
 
 [^2]: Auch gekrümmte Asymptoten werden wir hier nicht betrachten.
 
@@ -37,7 +37,7 @@ Voraussetzungen hierfür sind:
 
 - Kenntnisse über Polynome,
 - Grenzwerte,
-- Ableitungen und Vorzeichenuntersuchungen. \\
+- Ableitungen und Vorzeichenuntersuchungen.
 
 Ziel ist es, anhand dieser systematischen Analyse den Graphen einer gegebenen gebrochen-rationalen Funktion zuverlässig zu skizzieren und ihr qualitatives Verhalten vollständig zu beschreiben.
 

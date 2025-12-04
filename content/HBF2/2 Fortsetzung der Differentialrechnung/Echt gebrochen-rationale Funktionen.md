@@ -30,7 +30,7 @@ für die die Funktion definiert ist.
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x^2+1}{x}$" >}}
-Bei der hier gegebenen Funktion darf der Nenner ($N(x)$) also nicht Null werden. Dies ist dann der Fall, wenn $x = 0$ ist, da $N(0) = 0$. \
+Bei der hier gegebenen Funktion darf der Nenner ($N(x)$) also nicht Null werden. Dies ist dann der Fall, wenn $x = 0$ ist, da $N(0) = 0$.
 
 Es gilt daher:
 $\mathbb{D}(f) = \mathbb{R} \textbackslash \{0\}$.
