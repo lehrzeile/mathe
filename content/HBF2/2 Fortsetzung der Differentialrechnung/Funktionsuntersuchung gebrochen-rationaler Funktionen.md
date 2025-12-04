@@ -43,6 +43,13 @@ Ziel ist es, anhand dieser systematischen Analyse den Graphen einer gegebenen ge
 
 ## Beispiele für echt sowie unecht gebrochen-rationale Funktionen
 
+{{< box-notice title="Echt und unecht gebrochen-rationale Funktionen" >}}
+
+1. Ist der Zählergrad **kleiner** als der des Nenners, so spricht man von einer **echt gebrochen-rationalen Funktion**.
+1. Ist der Zählergrad **größer oder gleich** als der des Nenners, so spricht man von einer **echt gebrochen-rationalen Funktion**.
+
+{{< /box-notice >}}
+
 {{< gallery images="2" >}}
 {{< image src="img/echt_gebrochen-rationale_Funktionen_1.svg" caption="echt gebrochen-rationale Funktion mit waagerechter Asymptote" >}}
 {{< image src="img/echt_gebrochen-rationale_Funktionen_2.svg" caption="echt gebrochen-rationale Funktion mit waagerechter Asymptote" >}}
