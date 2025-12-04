@@ -11,7 +11,7 @@ count: 0 # für die Nummerierung der Aufgaben
 
 ## Einleitung
 
-Eine *gebrochen-rationale Funktion* ist eine Funktion, die aus einem Bruch zweier Polynome besteht, was bedeutet, dass der Zähler und der Nenner jeweils Polynome sind. Man schreibt sie kurz als $f(x)=\dfrac{Z(x)}{N(x)}$ mit den Polynomen $Z$ (wie Zähler) und $N$ (wie Nenner). 
+Eine *gebrochen-rationale Funktion* ist eine Funktion, die aus einem Bruch zweier Polynome besteht, was bedeutet, dass der Zähler und der Nenner jeweils Polynome sind. Man schreibt sie kurz als $f(x)=\dfrac{Z(x)}{N(x)}$ mit den Polynomen $Z$ (wie Zähler) und $N$ (wie Nenner).
 
 Vorab: Hierbei ist es wichtig (das ist schonmal ein kleiner Vorgriff), dass hier der Nenner -- also $N(x)$ -- nicht Null sein darf. Deshalb gibt es Stellen, an denen die Funktion nicht definiert ist (entweder sind das echte Polstellen oder sog. hebbare Lücken[^1]). Solche gebrochen-rationale Funktionen verhalten sich zumeist wie Polynomfunktionen, zeigen jedoch an den Nullstellen des Nenners ein besonderes Verhalten (z. B. starke Ausschläge oder sog. Asymptoten).
 
@@ -42,4 +42,3 @@ Voraussetzungen hierfür sind:
 Ziel ist es, anhand dieser systematischen Analyse den Graphen einer gegebenen gebrochen-rationalen Funktion zuverlässig zu skizzieren und ihr qualitatives Verhalten vollständig zu beschreiben.
 
 ## Beispiele für echt sowie unecht gebrochen-rationale Funktionen
-
