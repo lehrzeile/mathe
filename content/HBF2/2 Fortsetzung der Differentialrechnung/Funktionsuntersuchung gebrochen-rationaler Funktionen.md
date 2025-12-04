@@ -59,3 +59,23 @@ für die die Funktion definiert ist.
     Gesprochen:
     "Der Definitionsbereich umfasst alle reellen Zahlen außer die Null." oder kurz: "$\mathbb{R}$ ohne Null."
 {{< /box-example >}}
+
+## Definitionslücke
+
+Als Nächstes untersucht man die Definitionslücke und fragt sich: "Was ist hier besonderes los?".
+Setzt man die Nullstelle des Nenners -- die wir soeben bestimmt haben -- in den Zähler ein und erhält einen Wert ungleich Null, so handelt es sich um eine sog. Polstelle (Unendlichkeitsstelle).
+
+{{< box-example title="Beispiel $f(x)=\frac{x^2+1}{x}$" >}}
+    Wir haben soeben bestimmt, dass die Nullstelle des Nenners $x = 0$ ist. \
+
+    Wir setzen nun $x = 0$ in den Zähler ein:
+    $Z(0) = 0^2 + 1 = 1 \neq 0$.
+
+    Wir erhalten als $1$ Ergebnis, was bedeutet, dass der Funktionsgraph an dieser Stelle eine Polstelle besitzt.
+{{< /box-example >}}
+
+{{< box-notice title="Hinweis:" >}}
+Kommt beim Einsetzen der Nullstelle des Nenners in den Zähler ebenfalls der Wert Null heraus, so handelt es sich in diesem Fall um eine **hebbare Lücke**. In einem solchen Fall wäre es möglich, die Lücke "zu beheben", in dem man eine Polynomdivision durchführt, deren Ergebnis (in den meisten Fällen) eine ganz rationale Funktion ist, welche keine Lücke enthält.
+
+Diesen Fall werden wir hier jedoch vernachlässigen.
+{{< /box-notice >}}
