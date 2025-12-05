@@ -86,6 +86,10 @@ Sei ein Funktionsgraph $f(x)$ mit einer Polstelle $x_P$ gegeben. Außerdem seien
 
 {{< /box-notice >}}
 
+## Achsenschnittpunkte
+
+to follow...
+
 ## Übung macht den Meister
 
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf ihren Definitionsbereich, die Art der Definitionslücken und auf ihre Achsenschnittpunkte." >}}
