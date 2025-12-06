@@ -28,7 +28,7 @@ Allgemein geht man bei der Bestimmung des Definitionsbereichs wie folgt vor:
 Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ -- ist die Menge aller $x$-Werte,
 für die die Funktion definiert ist.
 
-Seien $a$ und $b$ zwei reelle Zahlen (geschrieben: $a, b \in \mathbb{R}$).\
+Seien $a$ und $b$ zwei reelle Zahlen (Notation: $a, b \in \mathbb{R}$).\
 Die Schreibweise $\mathbb{D}(f) = \mathbb{R} \backslash \\{ a ; b \\}$ bedeutet, dass der Definitionsbereich alle reellen Zahlen außer $a$ und $b$ enthält.
 {{< /box-notice >}}
 
@@ -95,7 +95,9 @@ Im Falle eines ungeraden Pols passiert an der Polstelle ein "Sprung" von $+\inft
 
 Um die Nullstellen des Funktionsgraphen zu bestimmen, genügt es, die Nullstellen des Zählers zu betrachten. Setzt man nämlich den Funktionsterm gleich Null, so muss man als nächstes (da es sich im Falle einer gebrochen-rationalen Funktion um eine Bruchgleichung handelt) ohnehin mit dem Nenner multiplizieren, sodass dieser wegfällt und für die Gleichung irrelevant ist.
 
-Die Nullstellen des Zählers stellen somit auch die Nullstellen des Funktionsgraphen dar. Diese ermittelt man mit Hilfe bereits bekannter Verfahren wie bspw. der Äquivalenzumformung, Wurzelziehen, der p-q-Formel oder der Polynomdivision.
+{{< box-notice title="Fachbegriffe:" >}}
+    Die Nullstellen des Zählers stellen die Nullstellen des Funktionsgraphen einer gebrochen-rationalen Funktion dar. Diese ermittelt man, indem man den Zähler gleich Null setzt und die Lösung(en) der Gleichung mit Hilfe bereits bekannter Verfahren wie bspw. der Äquivalenzumformung, Wurzelziehen, der p-q-Formel oder der Polynomdivision bestimmt.
+{{< /box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
 Der Nenner $N(x)$ darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und diese dann aus dem Definitionsbereich auszuschließen.
