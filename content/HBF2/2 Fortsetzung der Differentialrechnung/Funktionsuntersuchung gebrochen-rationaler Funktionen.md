@@ -95,7 +95,7 @@ Im Falle eines ungeraden Pols passiert an der Polstelle ein "Sprung" von $+\inft
 
 Um die Nullstellen des Funktionsgraphen zu bestimmen, genügt es, die Nullstellen des Zählers zu betrachten. Setzt man nämlich den Funktionsterm gleich Null, so muss man als nächstes (da es sich im Falle einer gebrochen-rationalen Funktion um eine Bruchgleichung handelt) ohnehin mit dem Nenner multiplizieren, sodass dieser wegfällt und für die Gleichung irrelevant ist.
 
-{{< box-notice title="Fachbegriffe:" >}}
+{{< box-notice title="Nullstellen einer gebrochen-rationalen Funktion:" >}}
     Die Nullstellen des Zählers stellen die Nullstellen des Funktionsgraphen einer gebrochen-rationalen Funktion dar. Diese ermittelt man, indem man den Zähler gleich Null setzt und die Lösung(en) der Gleichung mit Hilfe bereits bekannter Verfahren wie bspw. der Äquivalenzumformung, Wurzelziehen, der p-q-Formel oder der Polynomdivision bestimmt.
 {{< /box-notice >}}
 
@@ -111,7 +111,9 @@ Der Graph hat somit die Nullstelle $x_1 = 1$.
 
 ### $y$-Achsenabschnitt
 
-Um den $y$-Achsenabschnitt des Funktionsgraphen zu bestimmen, genügt es, $x=0$ in den Funktionsterm einzusetzen und den Funktionswert zu berechnen.
+{{< box-notice title="$y$-Achsenabschnitt:" >}}
+    Um den $y$-Achsenabschnitt des Funktionsgraphen zu bestimmen, genügt es, $x=0$ in den Funktionsterm einzusetzen und den Funktionswert zu berechnen.
+{{< /box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
 Der Nenner $N(x)$ darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und diese dann aus dem Definitionsbereich auszuschließen.
