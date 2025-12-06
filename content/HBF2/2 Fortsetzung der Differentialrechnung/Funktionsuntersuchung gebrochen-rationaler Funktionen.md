@@ -29,7 +29,7 @@ Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ --
 für die die Funktion definiert ist.
 
 Seien $a$ und $b$ zwei reelle Zahlen (geschrieben: $a, b \in \mathbb{R}$).\
-Die Schreibweise $\mathbb{D}(f) = \mathbb{R} \backslash \lbrace a ; b \rbrace$ bedeutet, dass der Definitionsbereich alle reellen Zahlen außer $a$ und $b$ enthält. $\\{a\\}$
+Die Schreibweise $\mathbb{D}(f) = \mathbb{R} \backslash \\{ a ; b \\}$ bedeutet, dass der Definitionsbereich alle reellen Zahlen außer $a$ und $b$ enthält.
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
@@ -40,7 +40,7 @@ $N(x) = 0 \qquad \Leftrightarrow \qquad x^2 - 4 = 0$.
 Ergebnis: $x_{1/2} = \pm 2$.
 
 Es gilt daher:
-$\mathbb{D}(f) = \mathbb{R} \backslash \lbrace -2 ; 2 \rbrace$.
+$\mathbb{D}(f) = \mathbb{R} \backslash \\{ -2 ; 2 \\}$.
 
 Gesprochen:
 "Der Definitionsbereich umfasst alle reellen Zahlen außer $-2$ und $2$."
