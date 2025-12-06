@@ -28,7 +28,8 @@ Allgemein geht man bei der Bestimmung des Definitionsbereichs wie folgt vor:
 Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ -- ist die Menge aller $x$-Werte,
 für die die Funktion definiert ist.
 
-Seien $a$ und $b$ zwei reelle Zahlen (geschrieben: $a, b \in \mathbb{R}$). Die Schreibweise $\mathbb{D}(f) = \mathbb{R} \backslash \lbrace a ; b \rbrace$ bedeutet, dass der Definitionsbereich alle reellen Zahlen außer $a$ und $b$ enthält. $\\{a\\}$
+Seien $a$ und $b$ zwei reelle Zahlen (geschrieben: $a, b \in \mathbb{R}$).\
+Die Schreibweise $\mathbb{D}(f) = \mathbb{R} \backslash \lbrace a ; b \rbrace$ bedeutet, dass der Definitionsbereich alle reellen Zahlen außer $a$ und $b$ enthält. $\\{a\\}$
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
