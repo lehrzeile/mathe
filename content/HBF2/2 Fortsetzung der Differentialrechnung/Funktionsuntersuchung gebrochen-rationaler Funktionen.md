@@ -28,18 +28,18 @@ Allgemein geht man bei der Bestimmung des Definitionsbereichs wie folgt vor:
 Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ -- ist die Menge aller $x$-Werte,
 für die die Funktion definiert ist.
 
-Die Schreibweise $\mathbb{D}(f) \backslash \lbrace a ; b \rbrace$ bedeutet, dass der Definitionsbereich alle reellen Zahlen außer $a$ und $b$ enthält.
+Seien $a$ und $b$ zwei reelle Zahlen (geschrieben: $a, b \in \mathbb{R}$). Die Schreibweise $\mathbb{D}(f) = \mathbb{R} \backslash \lbrace a ; b \rbrace$ bedeutet, dass der Definitionsbereich alle reellen Zahlen außer $a$ und $b$ enthält. $\\{a\\}$
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
-Der Nenner ($N(x)$) darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und diese dann aus dem Definitionsbereich auszuschließen.
+Der Nenner $N(x)$ darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und diese dann aus dem Definitionsbereich auszuschließen.
 
 $N(x) = 0 \qquad \Leftrightarrow \qquad x^2 - 4 = 0$.
 
 Ergebnis: $x_{1/2} = \pm 2$.
 
 Es gilt daher:
-$\mathbb{D}(f) = \mathbb{R} \backslash \{ -2 ; 2 \}$.
+$\mathbb{D}(f) = \mathbb{R} \backslash \lbrace -2 ; 2 \rbrace$.
 
 Gesprochen:
 "Der Definitionsbereich umfasst alle reellen Zahlen außer $-2$ und $2$."
@@ -62,14 +62,14 @@ Wir erhalten jeweils einen Wert *ungleich Null*, was bedeutet, dass der Funktion
 {{< /box-example >}}
 
 {{< box-note title="Hinweis:" >}}
-Käme beim Einsetzen der Nullstelle des Nenners in den Zähler ebenfalls der Wert Null heraus, so handelt es sich in diesem Fall um eine **hebbare Lücke**. In einem solchen Fall wäre es möglich, die Lücke "zu beheben", in dem man eine Polynomdivision durchführt, deren Ergebnis (in den meisten Fällen) eine ganz rationale Funktion ist, welche keine Lücke enthält.
+Käme beim Einsetzen der Nullstelle des Nenners in den Zähler ebenfalls der Wert Null heraus, so handelt es sich in diesem Fall um eine **hebbare Lücke**. In einem solchen Fall wäre es also möglich, die Lücke "zu beheben", in dem man eine Polynomdivision durchführt. In solchen Fällen erhält man eine ganzrationale Funktion als Ergebnis, deren Graph gleich verläuft, jedoch an den Lücken des Definitionsbereich keine Lücken enthält.
 
 Diesen Fall werden wir hier jedoch vernachlässigen.
 {{< /box-note >}}
 
-Als nächstes untersucht man, wie sich der Funktionsgraph links und rechts von der soeben gefundenen Definitionslücke bzw. Polstelle verhält. Hierzu schaut man sich die Vorzeichen der Funktionswerte an, die links ($x_l < x_P$) bzw. rechts ($x_r > x_P$) von der Polstelle ($x_P$) liegen.
+Als nächstes untersucht man, wie sich der Funktionsgraph links und rechts von der soeben gefundenen Polstelle verhält. Hierzu schaut man sich die Vorzeichen der Funktionswerte an, die links ($x_l < x_P$) bzw. rechts ($x_r > x_P$) von der Polstelle ($x_P$) liegen, indem man jene Werte in die Funktionsgleichung einsetzt.
 
-{{< box-notice title="Vorzeichenwechsel:" >}}
+{{< box-notice title="So untersucht man einen möglichen Vorzeichenwechsel:" >}}
 Sei ein Funktionsgraph $f(x)$ mit einer Polstelle $x_P$ gegeben. Außerdem seien $x_l$ und $x_r$ zwei Funktionswerte, die links ($x_l < x_P$) bzw. rechts ($x_r > x_P$) von der Polstelle liegen. Dann gilt:
 
 - $f(x_l) > 0 \quad$ und $\quad f(x_r) > 0 \qquad \Rightarrow \qquad$ Polstelle ohne Vorzeichenwechsel
@@ -81,14 +81,42 @@ Sei ein Funktionsgraph $f(x)$ mit einer Polstelle $x_P$ gegeben. Außerdem seien
 
 {{< box-notice title="Fachbegriffe:" >}}
 
-- Polstellen ohne Vorzeichenwechsel nennt man *gerader Pol*.
-- Polstellen mit Vorzeichenwechsel nennt man *ungerader Pol*. In diesem Fall passiert an dieser Stelle ein "Sprung" von $+\infty$ nach $-\infty$ oder umgekehrt.
+- Polstellen ohne Vorzeichenwechsel nennt man **gerader Pol**.
+- Polstellen mit Vorzeichenwechsel nennt man **ungerader Pol**.
+
+Im Falle eines ungeraden Pols passiert an der Polstelle ein "Sprung" von $+\infty$ nach $-\infty$ oder umgekehrt.
 
 {{< /box-notice >}}
 
 ## Achsenschnittpunkte
 
-to follow...
+### Nullstellen
+
+Um die Nullstellen des Funktionsgraphen zu bestimmen, genügt es, die Nullstellen des Zählers zu betrachten. Setzt man nämlich den Funktionsterm gleich Null, so muss man als nächstes (da es sich im Falle einer gebrochen-rationalen Funktion um eine Bruchgleichung handelt) ohnehin mit dem Nenner multiplizieren, sodass dieser wegfällt und für die Gleichung irrelevant ist.
+
+Die Nullstellen des Zählers stellen somit auch die Nullstellen des Funktionsgraphen dar. Diese ermittelt man mit Hilfe bereits bekannter Verfahren wie bspw. der Äquivalenzumformung, Wurzelziehen, der p-q-Formel oder der Polynomdivision.
+
+{{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
+Der Nenner $N(x)$ darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und diese dann aus dem Definitionsbereich auszuschließen.
+
+$Z(x) = 0 \qquad \Leftrightarrow \qquad x - 1 = 0$.
+
+Ergebnis: $x = 1$.
+
+Der Graph hat somit die Nullstelle $x_1 = 1$.
+{{< /box-example >}}
+
+### $y$-Achsenabschnitt
+
+Um den $y$-Achsenabschnitt des Funktionsgraphen zu bestimmen, genügt es, $x=0$ in den Funktionsterm einzusetzen und den Funktionswert zu berechnen.
+
+{{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
+Der Nenner $N(x)$ darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und diese dann aus dem Definitionsbereich auszuschließen.
+
+$\displaystyle f(0)=\frac{0-1}{0^2-4} = \frac{-1}{-4} = \frac14$
+{{< /box-example >}}
+
+Der Funktionsgraph schneidet die $y$-Achse also im Punkt $\left( 0; \frac14 \right)$.
 
 ## Übung macht den Meister
 
