@@ -119,9 +119,9 @@ Der Graph hat somit die Nullstelle $x_1 = 1$.
 Der Nenner $N(x)$ darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um die Lösung der Gleichung zu bestimmen und diese dann aus dem Definitionsbereich auszuschließen.
 
 $\displaystyle f(0)=\frac{0-1}{0^2-4} = \frac{-1}{-4} = \frac14$
-{{< /box-example >}}
 
 Der Funktionsgraph schneidet die $y$-Achse also im Punkt $\left( 0; \frac14 \right)$.
+{{< /box-example >}}
 
 ## Übung macht den Meister
 
