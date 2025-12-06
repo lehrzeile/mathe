@@ -116,7 +116,7 @@ Der Graph hat somit die Nullstelle $x_1 = 1$.
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
-Der Nenner $N(x)$ darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und diese dann aus dem Definitionsbereich auszuschließen.
+Der Nenner $N(x)$ darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um die Lösung der Gleichung zu bestimmen und diese dann aus dem Definitionsbereich auszuschließen.
 
 $\displaystyle f(0)=\frac{0-1}{0^2-4} = \frac{-1}{-4} = \frac14$
 {{< /box-example >}}
