@@ -15,22 +15,28 @@ In diesem Abschnitt werden die wichtigsten Schritte zur vollständigen Funktions
 
 ## Definitionsbereich
 
-Bei ganzrationalen Funktionen (Polynomfunktionen) treten keine Nenner, Wurzeln oder Logarithmen auf. Daher ist der Funktionsausdruck bei ganzrationalen Funktionen für jeden reellen Wert von $x$ definiert und somit gilt $\mathbb{D}(f)=\mathbb{R}$.
+Bei ganzrationalen Funktionen (Polynomfunktionen) treten keine Nenner, Wurzeln oder Logarithmen auf. Daher ist der Funktionsausdruck bei ganzrationalen Funktionen für jeden reellen Wert von $x$ definiert und somit gilt $\mathbb{D}(f)=\mathbb{R}$ (heißt: der Definitionsbereich umfasst alle reellen Zahlen).
 
-Es gibt jedoch auch andere Fälle, in denen der Funktionsausdruck näher untersucht werden muss. 
-Allgemein geht man bei der Bestimmung des Definitionsbereichs wie folgt vor:
+Es gibt jedoch auch andere Fälle, in denen der Funktionsausdruck näher untersucht werden muss.
+Eine gebrochen-rationale Funktion bspw. ist an den Nullstellen ihres Nenners <mark>nicht definiert</mark>. Hierbei spricht man von den sogenannten **Definitionslücken**.
+Allgemein geht man bei der Bestimmung des Definitionsbereichs bzw. der Definitionslücken wie folgt vor:
 
 - Man prüft, ob der Ausdruck Brüche, Wurzeln oder Logarithmen enthält.
 - Falls keiner dieser "Problemfälle" vorhanden ist (wie bei Polynomfunktionen), ist der Definitionsbereich $\mathbb{D} = \mathbb{R}$.
-- Falls doch einer dieser Fälle eintritt, so sind die "verbotenen Stellen" aus dem Definitionsbereich auszuschließen.
+- Falls doch einer dieser Fälle eintritt (was bei gebrochen-rationalen Funktionen der Fall ist), so sind die "verbotenen Stellen" (Definitionslücken) aus dem Definitionsbereich auszuschließen.
 
-{{< box-notice title="Zur Erinnerung: Definitionsbereich" >}}
+{{< box-notice title="Definitionsbereich und Definitionslücken" >}}
 Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ -- ist die Menge aller $x$-Werte,
 für die die Funktion definiert ist.
 
 Seien $a$ und $b$ zwei reelle Zahlen (Notation: $a, b \in \mathbb{R}$).\
-Die Schreibweise $\mathbb{D}(f) = \mathbb{R} \backslash \\{ a ; b \\}$ bedeutet, dass der Definitionsbereich alle reellen Zahlen außer $a$ und $b$ enthält.
+Die Schreibweise $\mathbb{D}(f) = \mathbb{R} \backslash \\{ a ; b \\}$ bedeutet, dass der Definitionsbereich alle reellen Zahlen außer $a$ und $b$ enthält -- wobei $a$ und $b$ die sogenannten Definitionslücken sind.
 {{< /box-notice >}}
+
+Um die Definitionslücken einer gebrochen-rationalen Funktion zu bestimmen, betrachtet man die Nullstellen des Nenners, da die Funktion für diese Werte nicht definiert ist.
+
+*Warum?* \
+Weil man nicht durch Null teilen darf.
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
 Der Nenner $N(x)$ darf nicht Null werden. Wir setzen ihn also bewusst gleich Null, um dessen Nullstellen herauszufinden und diese dann aus dem Definitionsbereich auszuschließen.
