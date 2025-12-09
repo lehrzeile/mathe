@@ -206,24 +206,10 @@ $\Rightarrow$ zwei Nullstellen
 
 {{< /job >}}
 
-{{< job name="" numbered="true" style="enum-alph" title="Üben und Vertiefen" entry="" >}}
-
-- folgt
-- folgt
-- folgt
-
-{{< /job >}}
-
-{{< job name="" numbered="true" style="enum-alph" title="Üben und Vertiefen" entry="" >}}
-
-- folgt
-- folgt
-- folgt
-
-{{< /job >}}
-
 {{< box-note title="Zur Erinnerung:" >}}
     Wie genau das mit dem Ausklammern, dem Satz vom Nullprodukt und der p-q-Formel funktioniert, ist bereits im Abschnitt <a class="link" href="/hbf1/1-grundlagen-training/terme-und-gleichungen/">Terme und Gleichungen</a> beschrieben.
+
+    Übungsaufgaben zum Lösen von quadratischen Gleichungen findest du ebenfalls in diesem Kapitel.
 {{< /box-note >}}
 
 ## Die Linearfaktorform
