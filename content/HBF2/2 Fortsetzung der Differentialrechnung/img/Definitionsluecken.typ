@@ -53,7 +53,7 @@
   legend: (position: right + bottom),
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
-  lq.plot(x11, function11, mark: none, stroke: secondcolor + 1.5pt, label: [$display(f(x) = 1/x)$]),
+  lq.plot(x11, function11, mark: none, stroke: secondcolor + 1.5pt, label: [$display(f(x) = (x + 2)/((x - 1)(x + 2)))$]),
   lq.plot(x12, function12, mark: none, stroke: secondcolor + 1.5pt),
   lq.plot(x13, function13, mark: none, stroke: secondcolor + 1.5pt),
   lq.plot((1, 1), (-5.5, 5.5), stroke: (paint: green.darken(50%), thickness: 2pt, dash: "dashed"), mark: none),
