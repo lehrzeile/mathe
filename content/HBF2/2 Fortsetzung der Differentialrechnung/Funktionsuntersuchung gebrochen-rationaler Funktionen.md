@@ -70,8 +70,10 @@ Wir untersuchen also nun die Definitionslücke genauer und schauen, um welche Ar
 Setzt man die Nullstelle des Nenners -- die wir soeben bestimmt haben -- in den Zähler ein und erhält einen Wert ungleich Null, so handelt es sich um eine sog. **Polstelle** (_Unendlichkeitsstelle_ bzw. _senkrechte Asymptote_).
 
 {{< box-notice title="Polstellen und hebbare Lücken" >}}
-Wird der Funktionsgraph durch die Definitionslücke in zwei Äste unterteilt (wie im Bsp. zuvor im Fall 1), so spricht man von einer sog. **Polstelle** bzw. **senkrechten Asymptote**.
-Scheint lediglich ein Punkt des Funktionsgraphen "zu fehlen", so handelt es sich um eine **hebbare Definitionslücke**.
+
+- Wird der Funktionsgraph durch die Definitionslücke in zwei Äste unterteilt (wie im Bsp. zuvor im Fall 1), so spricht man von einer sog. **Polstelle** bzw. **senkrechten Asymptote**.
+- Scheint lediglich ein Punkt des Funktionsgraphen "zu fehlen" (wie im 2. Fall), so handelt es sich um eine **hebbare Definitionslücke**.
+
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
