@@ -72,7 +72,7 @@ Setzt man die Nullstelle des Nenners -- die wir soeben bestimmt haben -- in den 
 {{< box-notice title="Polstellen und hebbare Lücken" >}}
 Wird der Funktionsgraph durch die Definitionslücke in zwei Äste unterteilt (wie im Bsp. zuvor im Fall 1), so spricht man von einer sog. **Polstelle** bzw. **senkrechten Asymptote**.
 Scheint lediglich ein Punkt des Funktionsgraphen "zu fehlen", so handelt es sich um eine **hebbare Definitionslücke**.
-{{< box-notice >}}
+{{< /box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
 Wir haben soeben bestimmt, dass die Nullstellen des Nenners an den Stellen $x_1 = -2$ und $x_2 = +2$ sind.
