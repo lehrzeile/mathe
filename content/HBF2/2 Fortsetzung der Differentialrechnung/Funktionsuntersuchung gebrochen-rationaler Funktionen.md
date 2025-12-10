@@ -62,7 +62,7 @@ Als Nächstes untersucht man die Definitionslücken und fragt sich: "Was ist hie
 {{< box-notice title="Verschiedene Arten von Definitionslücken" >}}
 Das Verhalten der Funktionswerte in der direkten Umgebung der **Definitionslücke** kann stark variieren, was man an dem Graphen in Abbildung 1 gut erkennen kann.
 
-1. An der Stelle $1$ hat der Graph von $f$ eine Lücke, welche den Graphen in zwei "Äste" unterteilt (vgl. grüne gestrichelte Linie).
+1. An der Stelle $1$ (grüne gestrichelte Linie) hat der Graph von $f$ eine Lücke, welche den Graphen in zwei "Äste" unterteilt.
 2. Hingegen scheint an der Stelle $-2$ einfach nur ein Punkt des Graphen zu fehlen (roter Kreis).
 {{< /box-notice >}}
 
