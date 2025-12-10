@@ -57,7 +57,7 @@ Gesprochen:
 
 Als Nächstes untersucht man die Definitionslücke und fragt sich: "Was ist hier besonderes los?".
 
-{{< box-notice title="Definitionslücken" >}}
+{{< box-notice title="Verschiedene Arten von Definitionslücken" >}}
 Das Verhalten der Funktionswerte in der direkten Umgebung der **Definitionslücke** kann stark variieren, was man an dem folgenden Graphen gut erkennen kann:
 
 ![Arten von Definitionslücken](img/Definitionsluecken.svg)
