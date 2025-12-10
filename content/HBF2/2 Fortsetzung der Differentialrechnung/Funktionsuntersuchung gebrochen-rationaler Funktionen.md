@@ -19,6 +19,7 @@ Bei ganzrationalen Funktionen (Polynomfunktionen) treten keine Nenner, Wurzeln o
 
 Es gibt jedoch auch andere Fälle, in denen der Funktionsausdruck näher untersucht werden muss.
 Eine gebrochen-rationale Funktion bspw. ist an den Nullstellen ihres Nenners <mark>nicht definiert</mark>. Hierbei spricht man von den sogenannten **Definitionslücken**.
+
 Allgemein geht man bei der Bestimmung des Definitionsbereichs bzw. der Definitionslücken wie folgt vor:
 
 - Man prüft, ob der Ausdruck Brüche, Wurzeln oder Logarithmen enthält.
@@ -30,12 +31,12 @@ Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ --
 für die die Funktion definiert ist.
 
 Seien $a$ und $b$ zwei reelle Zahlen (Notation: $a, b \in \mathbb{R}$).\
-Die Schreibweise $\mathbb{D}(f) = \mathbb{R} \backslash \\{ a ; b \\}$ bedeutet, dass der Definitionsbereich alle reellen Zahlen außer $a$ und $b$ enthält -- wobei $a$ und $b$ die sogenannten Definitionslücken sind.
+Die Schreibweise $\mathbb{D}(f) = \mathbb{R} \backslash \\{ a ; b \\}$ bedeutet, dass der Definitionsbereich alle reellen Zahlen außer $a$ und $b$ enthält -- wobei $a$ und $b$ die sogenannten _Definitionslücken_ sind.
 {{< /box-notice >}}
 
 Um die Definitionslücken einer gebrochen-rationalen Funktion zu bestimmen, betrachtet man die Nullstellen des Nenners, da die Funktion für diese Werte nicht definiert ist.
 
-*Warum?* \
+_Warum?_ \
 Weil man nicht durch Null teilen darf.
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
@@ -55,17 +56,33 @@ Gesprochen:
 ## Art der Definitionslücke und Vorzeichenwechsel
 
 Als Nächstes untersucht man die Definitionslücke und fragt sich: "Was ist hier besonderes los?".
-Setzt man die Nullstelle des Nenners -- die wir soeben bestimmt haben -- in den Zähler ein und erhält einen Wert ungleich Null, so handelt es sich um eine nicht hebbare Lücke: eine sog. **Polstelle** (Unendlichkeitsstelle).
+
+{{< box-notice title="Definitionslücken" >}}
+Das Verhalten der Funktionswerte in der direkten Umgebung der **Definitionslücke** kann stark variieren, was man an dem folgenden Graphen gut erkennen kann:
+
+![Arten von Definitionslücken](img/Definitionsluecken.svg)
+
+1. An der Stelle $1$ hat der Graph von $f$ eine Lücke, welche den Graphen in zwei "Äste" unterteilt (vgl. grüne gestrichelte Linie).
+2. Hingegen scheint an der Stelle $-2$ einfach nur ein Punkt des Graphen zu fehlen (roter Kreis).
+{{< /box-notice >}}
+
+Wir untersuchen also nun die Definitionslücke genauer und schauen, um welche Art von Lücke es sich hierbei handelt.
+Setzt man die Nullstelle des Nenners -- die wir soeben bestimmt haben -- in den Zähler ein und erhält einen Wert ungleich Null, so handelt es sich um eine sog. **Polstelle** (_Unendlichkeitsstelle_ bzw. _senkrechte Asymptote_).
+
+{{< box-notice title="Polstellen und hebbare Lücken" >}}
+Wird der Funktionsgraph durch die Definitionslücke in zwei Äste unterteilt (wie im Bsp. zuvor im Fall 1), so spricht man von einer sog. **Polstelle** bzw. **senkrechten Asymptote**.
+Scheint lediglich ein Punkt des Funktionsgraphen "zu fehlen", so handelt es sich um eine **hebbare Definitionslücke**.
+{{< box-notice >}}
 
 {{< box-example title="Beispiel $\displaystyle f(x)=\frac{x-1}{x^2-4}$" >}}
 Wir haben soeben bestimmt, dass die Nullstellen des Nenners an den Stellen $x_1 = -2$ und $x_2 = +2$ sind.
 
-Wir setzen nun $x_1 = -1$ und $x_2 = +2$ in den Zähler ein:
+Wir überprüfen nun, um welche Art von Definitionslücke es sich handelt, indem wir nun $x_1 = -1$ und $x_2 = +2$ in den Zähler einsetzen:
 
 - $Z(-2) = -2-1 = -3 \neq 0 \qquad \Rightarrow$ Polstelle.
 - $Z(+2) = +2-1 = 1 \neq 0 \qquad \Rightarrow$ Polstelle.
 
-Wir erhalten jeweils einen Wert *ungleich Null*, was bedeutet, dass der Funktionsgraph an diesen Stellen **Polstellen** besitzt.
+Wir erhalten jeweils einen Wert _ungleich Null_, was bedeutet, dass der Funktionsgraph an diesen beiden Stellen jeweils eine **Polstelle** (_senkrechte Asymptote_) besitzt.
 {{< /box-example >}}
 
 {{< box-note title="Hinweis:" >}}
