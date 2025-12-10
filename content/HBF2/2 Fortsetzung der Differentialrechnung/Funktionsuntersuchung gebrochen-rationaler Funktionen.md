@@ -55,12 +55,12 @@ Gesprochen:
 
 ## Art der Definitionslücke und Vorzeichenwechsel
 
-Als Nächstes untersucht man die Definitionslücke und fragt sich: "Was ist hier besonderes los?".
+Als Nächstes untersucht man die Definitionslücken und fragt sich: "Was ist hier Besonderes los?".
+
+{{< image src="img/Definitionsluecken.svg" caption="Arten von Definitionslücken" >}}
 
 {{< box-notice title="Verschiedene Arten von Definitionslücken" >}}
-Das Verhalten der Funktionswerte in der direkten Umgebung der **Definitionslücke** kann stark variieren, was man an dem folgenden Graphen gut erkennen kann:
-
-![Arten von Definitionslücken](img/Definitionsluecken.svg)
+Das Verhalten der Funktionswerte in der direkten Umgebung der **Definitionslücke** kann stark variieren, was man an dem Graphen in Abbildung 1 gut erkennen kann.
 
 1. An der Stelle $1$ hat der Graph von $f$ eine Lücke, welche den Graphen in zwei "Äste" unterteilt (vgl. grüne gestrichelte Linie).
 2. Hingegen scheint an der Stelle $-2$ einfach nur ein Punkt des Graphen zu fehlen (roter Kreis).
