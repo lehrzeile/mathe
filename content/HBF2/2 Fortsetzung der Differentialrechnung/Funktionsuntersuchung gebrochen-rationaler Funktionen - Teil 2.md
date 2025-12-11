@@ -97,8 +97,8 @@ Wie bereits angedeutet, lässt sich die Funktionsgleichung einer schräger bzw. 
 {{< box-notice title="Bestimmung der Asymptoten mittels Polynomdivision" >}}
 Führt man zur Bestimmung einer Asymptoten eine Polynomdivision durch, so erhält man im Ergebnis einen ganzrationalen Term sowie einen gebrochen-rationalen Term. Beide haben eine unterschiedliche Bedeutung:
 
-1. Der ganzrationale Teil des Ergebnisses liefert uns die <mark>Gleichung der Asymptote</mark>.
-1. Der gebrochen-rationale Teil des Ergebnisses wiederum gibt uns die Möglichkeit, zu untersuchen, wie sich der Funktionsgraph der Asymptoten <mark>im Unendlichen annähert</mark> bzw. an diese _anschmiegt_.
+1. Der ganzrationale Teil des Ergebnisses liefert uns die **Gleichung der Asymptote**.
+1. Der gebrochen-rationale Teil des Ergebnisses wiederum gibt uns die Möglichkeit, zu untersuchen, wie sich der Funktionsgraph der Asymptoten **im Unendlichen annähert** bzw. an diese _anschmiegt_.
 
 {{< /box-notice >}}
 
@@ -119,6 +119,10 @@ Sei $\displaystyle f(x)=\frac{x^3 - x^2 + 2x - 1,5}{x-1}$.
 ## Zwischenfazit
 
 {{< youtube bYptobjt2JM >}}
+
+## Grenzverhalten
+
+folgt...
 
 ## Übung macht den Meister
 
