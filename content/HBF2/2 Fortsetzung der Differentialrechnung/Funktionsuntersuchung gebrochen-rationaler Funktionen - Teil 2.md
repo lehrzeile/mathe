@@ -11,13 +11,9 @@ count: 0 # für die Nummerierung der Aufgaben
 
 ## Asymptoten
 
-### Begriffsklärung
-
 {{< box-notice title="Definition: Asymptote" >}}
 Eine Asymptote ist eine **Linie** oder **Kurve**, der sich der Graph einer Funktion **im Unendlichen immer weiter annähert**, ohne sie notwendigerweise zu berühren oder zu schneiden.
 {{< /box-notice >}}
-
-### Arten von Asymptoten
 
 Gebrochen-rationale Funktionen können verschiedene Arten von Asymptoten haben.
 Man unterscheidet dabei grundsätzlich zwischen senkrechten und nicht-senkrechten Asymptoten.
@@ -25,9 +21,9 @@ Den ersten Typ hast du bereits kennengelernt -- nur dass man dabei nicht immer v
 
 In diesem Abschnitt lernen wir weitere Arten von Asymptoten kennen und üben, wie man diese nachweist bzw. untersucht:
 
-- waagerechte und
-- schräge Asymptoten sowie
-- asymptotische Kurven.
+- _waagerechte_ und
+- _schräge Asymptoten_ sowie
+- _asymptotische Kurven_.
 
 {{< gallery images="2" >}}
 {{< image src="img/Asymptoten1.svg" caption="Graph mit waagerechter Asymptote: $y=0$" >}}
@@ -43,7 +39,7 @@ In diesem Abschnitt lernen wir weitere Arten von Asymptoten kennen und üben, wi
 
 {{< box-notice title="Asymptoten bestimmen" >}}
 
-1. Senkrechte Asymptoten: erhält man durch **Bestimmen der Polstellen**.
+1. Senkrechte Asymptoten erhält man durch das **Bestimmen der Polstellen**.
 1. Nicht-senkrechte Asymptoten erhält man **durch Polynomdivision**.
 
 {{< /box-notice >}}
@@ -54,13 +50,13 @@ Da wir uns in [Teil 1](https://www.lehrzeile.org/hbf2/2-fortsetzung-der-differen
 Wenn man die nicht-senkrechten Asymptoten einer gebrochen-rationalen Funktion bestimmen möchte, muss man im Grunde nur den **Zählergrad mit dem Nennergrad vergleichen**:
 
 | Vergleich | Art der Asymptote |
-|---|---|
+| --------- | ----------------- |
 | Zählergrad $\leq$ Nennergrad | **waagerechte** Asymptote |
-|---|---|
+| --------- | ----------------- |
 | Zählergrad $=$ Nennergrad + 1 | **schräge** Asymptote |
-|---|---|
+| --------- | ----------------- |
 | Zählergrad $\geq$ Nennergrad + 2 | **kurvenförmige** Asymptote (bzw. _asymptotische Kurve_) |
-|---|---|
+| --------- | ----------------- |
 
 {{< /box-notice >}}
 
@@ -127,7 +123,7 @@ Sei $\displaystyle f(x)=\frac{x^3 - x^2 + 2x - 1,5}{x-1}$.
 
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf Asymptoten und ihr Grenzverhalten." >}}
 
-1. $\displaystyle f(x)=\frac{2x^2+3x}{4x^2-4}$
-1. $\displaystyle f(x)=\frac{0,5x^2+2x+3}{x+2}$
+1. $\displaystyle f_1(x)=\frac{2x^2+3x}{4x^2-4}$
+1. $\displaystyle f_2(x)=\frac{0,5x^2+2x+3}{x+2}$
 
 {{< /job >}}
