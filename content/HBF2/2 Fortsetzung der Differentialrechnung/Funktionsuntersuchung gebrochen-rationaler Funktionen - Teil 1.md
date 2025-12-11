@@ -1,5 +1,5 @@
 ---
-title: "Funktionsuntersuchung gebrochen-rationaler Funktionen"
+title: "Funktionsuntersuchung gebrochen-rationaler Funktionen - Teil 1"
 description: ""
 summary: ""
 draft: false
