@@ -93,10 +93,14 @@ Die gebrochen-rationale Funktion in diesem Beispiel hat also auch eine waagerech
 ### Schräge und kurvenförmige Asymptote berechnen
 
 Wie bereits angedeutet, lässt sich die Funktionsgleichung einer schräger bzw. kurvenförmigen Asymptote mittels einer **Polynomdivision** berechnen. Hierzu teilt man einfach das Zählerpolynom durch das Nennerpolynom.
-Im Ergebnis erhalten wir einen ganzrationalen Term sowie einen gebrochen-rationalen Term, welche im Grunde jeweils eine unterschiedliche Bedeutung haben:
+
+{{< box-notice title="Bestimmung der Asymptoten mittels Polynomdivision" >}}
+Führt man zur Bestimmung einer Asymptoten eine Polynomdivision durch, so erhält man im Ergebnis einen ganzrationalen Term sowie einen gebrochen-rationalen Term. Beide haben eine unterschiedliche Bedeutung:
 
 1. Der ganzrationale Teil des Ergebnisses liefert uns die <mark>Gleichung der Asymptote</mark>.
 1. Der gebrochen-rationale Teil des Ergebnisses wiederum gibt uns die Möglichkeit, zu untersuchen, wie sich der Funktionsgraph der Asymptoten <mark>im Unendlichen annähert</mark> bzw. an diese _anschmiegt_.
+
+{{< /box-notice >}}
 
 {{< box-example title="Beispiel 3: schräge Asymptote berechnen" >}}
 Sei $\displaystyle f(x)=\frac{x^2 -3x}{x-1}$.
