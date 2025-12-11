@@ -52,11 +52,8 @@ Wenn man die nicht-senkrechten Asymptoten einer gebrochen-rationalen Funktion be
 | Vergleich | Art der Asymptote |
 | --------- | ----------------- |
 | Zählergrad $\leq$ Nennergrad | **waagerechte** Asymptote |
-| --------- | ----------------- |
 | Zählergrad $=$ Nennergrad + 1 | **schräge** Asymptote |
-| --------- | ----------------- |
 | Zählergrad $\geq$ Nennergrad + 2 | **kurvenförmige** Asymptote (bzw. _asymptotische Kurve_) |
-| --------- | ----------------- |
 
 {{< /box-notice >}}
 
