@@ -93,11 +93,15 @@ Wie bereits angedeutet, lässt sich die Funktionsgleichung einer schiefen bzw. k
 Im Ergebnis erhalten wir einen ganzrationalen Term sowie einen gebrochen-rationalen Term, welche im Grunde jeweils eine unterschiedliche Bedeutung haben:
 
 1. Der ganzrationale Teil des Ergebnisses liefert uns die <mark>Gleichung der Asymptote</mark>.
-1. Der gebrochen-rationale Teil des Ergebnisses wiederum gibt uns die Möglichkeit, zu untersuchen, wie sich der Funktionsgraph der Asymptoten <mark>im Unendlichen annähert</mark>.
+1. Der gebrochen-rationale Teil des Ergebnisses wiederum gibt uns die Möglichkeit, zu untersuchen, wie sich der Funktionsgraph der Asymptoten <mark>im Unendlichen annähert</mark> bzw. an diese _anschmiegt_.
 
 <!-- Beispiel -->
 
 <!-- Graph -->
+
+## Zusammenfassung
+
+{{< youtube bYptobjt2JM >}}
 
 ## Übung macht den Meister
 
@@ -107,3 +111,9 @@ Im Ergebnis erhalten wir einen ganzrationalen Term sowie einen gebrochen-rationa
 1. $\displaystyle f(x)=\frac{a}{x´b}$
 
 {{< /job >}}
+
+## Noch mehr Übung gefällig?
+
+Im folgenden Video findest du eine Erklärung für eine vollständige Kurvendiskussion einer gebrochen-rationalen Funktion:
+
+{{< youtube UzjNEhpSNqA >}}

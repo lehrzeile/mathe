@@ -114,6 +114,10 @@ Im Falle eines ungeraden Pols passiert an der Polstelle ein "Sprung" von $+\inft
 
 {{< /box-notice >}}
 
+### Zusammenfassung
+
+{{< youtube F0kvOezvS84 >}}
+
 ## Achsenschnittpunkte
 
 ### Nullstellen
