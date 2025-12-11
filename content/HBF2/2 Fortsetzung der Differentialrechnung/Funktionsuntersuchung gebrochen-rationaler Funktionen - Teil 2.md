@@ -17,8 +17,6 @@ count: 0 # für die Nummerierung der Aufgaben
 Eine Asymptote ist eine **Linie** oder **Kurve**, der sich der Graph einer Funktion **im Unendlichen immer weiter annähert**, ohne sie notwendigerweise zu berühren oder zu schneiden.
 {{< /box-notice >}}
 
-Beispielgraph
-
 ### Arten von Asymptoten
 
 Gebrochen-rationale Funktionen können verschiedene Arten von Asymptoten haben.
@@ -32,13 +30,13 @@ In diesem Abschnitt lernen wir weitere Arten von Asymptoten kennen und üben, wi
 - asymptotische Kurven.
 
 {{< gallery images="2" >}}
-{{< image src="img/Asymptoten1.svg" caption="Graph mit waagerechter Asymptote" >}}
-{{< image src="img/Asymptoten2.svg" caption="Graph mit waagerechter Asymptote" >}}
+{{< image src="img/Asymptoten1.svg" caption="Graph mit waagerechter Asymptote: $y=0$" >}}
+{{< image src="img/Asymptoten2.svg" caption="Graph mit waagerechter Asymptote: $y=-2$" >}}
 {{< /gallery >}}
 
 {{< gallery images="2" >}}
-{{< image src="img/Asymptoten3.svg" caption="Graph mit schräger Asymptote" >}}
-{{< image src="img/Asymptoten4.svg" caption="Graph mit kurvenförmiger Asymptote" >}}
+{{< image src="img/Asymptoten3.svg" caption="Graph mit schräger Asymptote: $y=x-2$" >}}
+{{< image src="img/Asymptoten5.svg" caption="Graph mit kurvenförmiger Asymptote: $y=x^2+2$" >}}
 {{< /gallery >}}
 
 ## Asymptoten bestimmen

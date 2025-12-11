@@ -42,9 +42,9 @@
 #let x12 = lq.linspace(luecke1 + 1/1000, 100, num: 5000)
 #let ys = lq.linspace(-100, 100, num: 5000)
 
-#let asymptote = xs.map(x =>  (3*x*x + 5*x + 6))
-#let function11 = x11.map(x =>  (3*x*x*x +2*x*x + x) / (x - 1))
-#let function12 = x12.map(x =>  (3*x*x*x +2*x*x + x) / (x - 1))
+#let asymptote = xs.map(x =>  (x*x + 2))
+#let function11 = x11.map(x =>  (x*x*x - x*x + 2*x - 1.5) / (x - 1))
+#let function12 = x12.map(x =>  (x*x*x - x*x + 2*x - 1.5) / (x - 1))
 
 #lq.diagram(
   xlim: (-7.25, 7.25),
@@ -54,7 +54,7 @@
   legend: (position: right + bottom),
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
-  lq.plot(x11, function11, mark: none, stroke: maincolor + 1.5pt, label: [$display(f(x) = (3x^3 + 2x^2 + x) / (x - 1))$]),
+  lq.plot(x11, function11, mark: none, stroke: maincolor + 1.5pt, label: [$display(f(x) = (x^3 - x^2 + 2x - 1,5) / (x - 1))$]),
   lq.plot(x12, function12, mark: none, stroke: maincolor + 1.5pt),
   // lq.plot((1, 1), (-5.5, 5.5), stroke: (paint: green.darken(50%), thickness: 2pt, dash: "dashed"), mark: none),
   lq.plot(xs, asymptote, stroke: (paint: green.darken(50%), thickness: 2pt, dash: "dashed"), mark: none),
