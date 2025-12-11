@@ -122,13 +122,13 @@ Sei $\displaystyle f(x)=\frac{x^3 - x^2 + 2x - 1,5}{x-1}$.
 
 ## Grenzverhalten
 
-{{< box-notice title="Bestimmung der Asymptoten mittels Polynomdivision" >}}
+{{< box-notice title="Grenzverhalten gebrochen-rationaler Funktionen" >}}
 Um das Grenzverhalten des Funktionsgraphen zu bestimmen, wenden wir den Limes auf die Funktionsgleichung der Asymptoten an:
 
 $lim_{x \to \pm \infty} f(x) = lim_{x \to \pm \infty} a(x)$, wobei $a(x)$ für die Funktionsgleichung der Asymptote steht.
 {{< /box-notice >}}
 
-{{< box-example title="Beispiel 3: schräge Asymptote berechnen" >}}
+{{< box-example title="" >}}
 Wir bestimmen das Grenzverhalten der Funktionsgraphen aus den Beispielen zuvor:
 
 1. $\displaystyle f(x)=\frac{1}{x}$
