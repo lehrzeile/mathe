@@ -56,13 +56,13 @@ Da wir uns in [Teil 1](https://www.lehrzeile.org/hbf2/2-fortsetzung-der-differen
 Wenn man die nicht-senkrechten Asymptoten einer gebrochen-rationalen Funktion bestimmen möchte, muss man im Grunde nur den **Zählergrad mit dem Nennergrad vergleichen**:
 
 | Vergleich | Art der Asymptote |
-|---|---|---|---|---|---|---|---|
+|---|---|
 | Zählergrad $\leq$ Nennergrad | **waagerechte** Asymptote |
-|---|---|---|---|---|---|---|---|
+|---|---|
 | Zählergrad $=$ Nennergrad + 1 | **schräge** Asymptote |
-|---|---|---|---|---|---|---|---|
+|---|---|
 | Zählergrad $\geq$ Nennergrad + 2 | **kurvenförmige** Asymptote (bzw. _asymptotische Kurve_) |
-|---|---|---|---|---|---|---|---|
+|---|---|
 
 {{< /box-notice >}}
 
@@ -93,7 +93,10 @@ In diesem Beispiel sieht das schon etwas anders aus. Wir erkennen folgendes:
 Die gebrochen-rationale Funktion in diesem Beispiel hat also auch eine waagerechte Asymptote bei $y = \frac{2}{3}$.
 {{< /box-example >}}
 
-<!-- Graphen gegenübergestellt -->
+{{< gallery images="2" >}}
+{{< image src="img/Beispiel1.svg" caption="waagerechte Asymptote = $y=0$" >}}
+{{< image src="img/Beispiel2.svg" caption="waagerechte Asymptote bei $y=\frac23$" >}}
+{{< /gallery >}}
 
 ### Schräge und kurvenförmige Asymptote berechnen
 
@@ -103,9 +106,19 @@ Im Ergebnis erhalten wir einen ganzrationalen Term sowie einen gebrochen-rationa
 1. Der ganzrationale Teil des Ergebnisses liefert uns die <mark>Gleichung der Asymptote</mark>.
 1. Der gebrochen-rationale Teil des Ergebnisses wiederum gibt uns die Möglichkeit, zu untersuchen, wie sich der Funktionsgraph der Asymptoten <mark>im Unendlichen annähert</mark> bzw. an diese _anschmiegt_.
 
-<!-- Beispiel -->
+{{< box-example title="Beispiel 3: schräge Asymptote berechnen" >}}
+Sei $\displaystyle f(x)=\frac{x^2 -3x}{x-1}$.
 
-<!-- Graph -->
+Wir bestimmen die Funktionsgleichung der Asymptote mittels Polynomdivision.
+{{< /box-example >}}
+
+{{< image src="img/Asymptoten3.svg" caption="Graph mit schräger Asymptote: $y=x-2$" >}}
+
+{{< box-example title="Beispiel 4: kurvenförmige Asymptote berechnen" >}}
+Mit kurvenförmigen Asymptoten verfährt man auf dieselbe Weise. Im Ergebnis erhält man jedoch mindestens ein Polynom vom Grad 2 oder höher.
+
+Sei $\displaystyle f(x)=\frac{3x^3 + 2x^2 + x}{x-1}$.
+{{< /box-example >}}
 
 ## Zwischenfazit
 
