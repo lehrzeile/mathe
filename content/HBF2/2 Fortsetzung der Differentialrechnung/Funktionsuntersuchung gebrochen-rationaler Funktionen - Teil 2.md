@@ -31,7 +31,15 @@ In diesem Abschnitt lernen wir weitere Arten von Asymptoten kennen und üben, wi
 - schräge Asymptoten sowie
 - asymptotische Kurven.
 
-<!-- Graphen gegenübergestellt -->
+{{< gallery images="2" >}}
+{{< image src="img/Asymptoten1.svg" caption="Graph mit waagerechter Asymptote" >}}
+{{< image src="img/Asymptoten2.svg" caption="Graph mit waagerechter Asymptote" >}}
+{{< /gallery >}}
+
+{{< gallery images="2" >}}
+{{< image src="img/Asymptoten3.svg" caption="Graph mit schräger Asymptote" >}}
+{{< image src="img/Asymptoten4.svg" caption="Graph mit kurvenförmiger Asymptote" >}}
+{{< /gallery >}}
 
 ## Asymptoten bestimmen
 
@@ -51,7 +59,7 @@ Wenn man die nicht-senkrechten Asymptoten einer gebrochen-rationalen Funktion be
 |---|---|---|---|---|---|---|---|
 | Zählergrad $\leq$ Nennergrad | **waagerechte** Asymptote |
 |---|---|---|---|---|---|---|---|
-| Zählergrad $=$ Nennergrad + 1 | **schiefe** Asymptote |
+| Zählergrad $=$ Nennergrad + 1 | **schräge** Asymptote |
 |---|---|---|---|---|---|---|---|
 | Zählergrad $\geq$ Nennergrad + 2 | **kurvenförmige** Asymptote (bzw. _asymptotische Kurve_) |
 |---|---|---|---|---|---|---|---|
@@ -87,9 +95,9 @@ Die gebrochen-rationale Funktion in diesem Beispiel hat also auch eine waagerech
 
 <!-- Graphen gegenübergestellt -->
 
-### Schiefe und kurvenförmige Asymptote berechnen
+### Schräge und kurvenförmige Asymptote berechnen
 
-Wie bereits angedeutet, lässt sich die Funktionsgleichung einer schiefen bzw. kurvenförmigen Asymptote mittels einer **Polynomdivision** berechnen. Hierzu teilt man einfach das Zählerpolynom durch das Nennerpolynom.
+Wie bereits angedeutet, lässt sich die Funktionsgleichung einer schräger bzw. kurvenförmigen Asymptote mittels einer **Polynomdivision** berechnen. Hierzu teilt man einfach das Zählerpolynom durch das Nennerpolynom.
 Im Ergebnis erhalten wir einen ganzrationalen Term sowie einen gebrochen-rationalen Term, welche im Grunde jeweils eine unterschiedliche Bedeutung haben:
 
 1. Der ganzrationale Teil des Ergebnisses liefert uns die <mark>Gleichung der Asymptote</mark>.
@@ -99,21 +107,15 @@ Im Ergebnis erhalten wir einen ganzrationalen Term sowie einen gebrochen-rationa
 
 <!-- Graph -->
 
-## Zusammenfassung
+## Zwischenfazit
 
 {{< youtube bYptobjt2JM >}}
 
 ## Übung macht den Meister
 
-{{< job title="Üben und Vertiefen" numbered="true" style="" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf Asymptoten." >}}
+{{< job title="Üben und Vertiefen" numbered="true" style="" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf Asymptoten und ihr Grenzverhalten." >}}
 
-1. $\displaystyle f(x)=\frac{a}{x´b}$
-1. $\displaystyle f(x)=\frac{a}{x´b}$
+1. $\displaystyle f(x)=\frac{a}{b}$
+1. $\displaystyle f(x)=\frac{a}{b}$
 
 {{< /job >}}
-
-## Noch mehr Übung gefällig?
-
-Im folgenden Video findest du eine Erklärung für eine vollständige Kurvendiskussion einer gebrochen-rationalen Funktion:
-
-{{< youtube UzjNEhpSNqA >}}
