@@ -68,9 +68,10 @@ Wenn man die nicht-senkrechten Asymptoten einer gebrochen-rationalen Funktion be
 
 Bei waagerechten Asymptoten unterscheidet man noch einmal zwischen zwei Fällen:
 
-1. Zählergrad $<$ Nennergrad $\qquad \Rightarrow \qquad$ **waagerechte** Asymptote bei $y = 0$ (sprich: die $x$-Achse bildet die Asymptote)
+1. Zählergrad $<$ Nennergrad $\qquad \Rightarrow \qquad$ **waagerechte** Asymptote bei $y = 0$
 1. Zählergrad $=$ Nennergrad $\qquad \Rightarrow \qquad$ **waagerechte** Asymptote bei $y = \frac{p_n}{q_m}$
 
+Im ersten Fall bildet die $x$-Achse die Asymptote.
 Im zweiten Fall sind $p_n$ und $q_m$ die Koeffizienten vor der jeweils größten Potenz des Zählers bzw. Nenners.
 
 {{< box-example title="Beispiel 1:" >}}
@@ -115,7 +116,7 @@ Wir bestimmen die Funktionsgleichung der Asymptote mittels Polynomdivision.
 {{< box-example title="Beispiel 4: kurvenförmige Asymptote berechnen" >}}
 Mit kurvenförmigen Asymptoten verfährt man auf dieselbe Weise. Im Ergebnis erhält man jedoch mindestens ein Polynom vom Grad 2 oder höher.
 
-Sei $\displaystyle f(x)=\frac{3x^3 + 2x^2 + x}{x-1}$.
+Sei $\displaystyle f(x)=\frac{x^3 - x^2 + 2x - 1,5}{x-1}$.
 {{< /box-example >}}
 
 ## Zwischenfazit
@@ -126,7 +127,7 @@ Sei $\displaystyle f(x)=\frac{3x^3 + 2x^2 + x}{x-1}$.
 
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf Asymptoten und ihr Grenzverhalten." >}}
 
-1. $\displaystyle f(x)=\frac{a}{b}$
-1. $\displaystyle f(x)=\frac{a}{b}$
+1. $\displaystyle f(x)=\frac{2x^2+3x}{4x^2-4}$
+1. $\displaystyle f(x)=\frac{0,5x^2+2x+3}{x+2}$
 
 {{< /job >}}
