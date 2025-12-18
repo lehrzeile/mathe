@@ -93,16 +93,16 @@ Mit den Wendepunkten von gebrochen-rationalen Funktionen funktioniert das ebenfa
 
 <br />
 
+*Kommen dir die Funktionsgleichungen bekannt vor? Du hast sie schon in Teil 2 auf Achsenschnittpunkte, Asymptoten und Grenzverhalten untersucht.*
+
+{{< /job >}}
+
 {{< solution numbered="true" style="enum-alph" >}}
 
 - 1
 - 2
 
 {{< /solution >}}
-
-*Kommen dir die Funktionsgleichungen bekannt vor? Du hast sie schon in Teil 2 auf Achsenschnittpunkte, Asymptoten und Grenzverhalten untersucht.*
-
-{{< /job >}}
 
 ## Hakt es noch ein wenig?
 
