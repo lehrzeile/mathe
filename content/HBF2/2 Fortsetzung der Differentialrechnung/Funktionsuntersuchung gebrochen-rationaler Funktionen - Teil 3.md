@@ -30,6 +30,10 @@ Es gibt einen einzigen Unterschied: Du benötigst hierzu die weiteren Ableitungs
 
 {{< /box-notice >}}
 
+{{< box-example title="Beispiel: $\displaystyle f(x)=\frac{x^2}{x+1}$" >}}
+abc
+{{< /box-example >}}
+
 ## Wendepunkte
 
 Noch eine gute Nachricht: \
@@ -53,12 +57,11 @@ Mit den Wendepunkten von gebrochen-rationalen Funktionen funktioniert das ebenfa
 
 {{< job title="Üben und Vertiefen" numbered="true" style="" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf Extrem- und Wendepunkte." >}}
 
-1. $\displaystyle f_1(x)=\frac{x^2}{x+1}$
-1. $\displaystyle f_2(x)=\frac{5x}{2-x^2}$
-1. $\displaystyle f_3(x)=\frac{x^2+x+9}{x-1}$
-1. $\displaystyle f_4(x)=\frac{2x}{x^2-2x+1}$
+1. $\displaystyle f_1(x)=\frac{5x}{2-x^2}$
+1. $\displaystyle f_2(x)=\frac{x^2+x+9}{x-1}$
+1. $\displaystyle f_3(x)=\frac{2x}{x^2-2x+1}$
 
-{{< margin 2em >}}
+{{ margin 2em }}
 
 *Kommen dir die Funktionsgleichungen bekannt vor? Du hast sie schon in Teil 2 auf Achsenschnittpunkte, Asymptoten und Grenzverhalten untersucht.*
 
