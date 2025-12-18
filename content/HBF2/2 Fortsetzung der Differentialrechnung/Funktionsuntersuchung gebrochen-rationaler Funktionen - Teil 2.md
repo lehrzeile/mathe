@@ -144,4 +144,11 @@ Wir bestimmen das Grenzverhalten der Funktionsgraphen aus den Beispielen zuvor:
 1. $\displaystyle f_1(x)=\frac{2x^2+3x}{4x^2-4}$
 1. $\displaystyle f_2(x)=\frac{0,5x^2+2x+3}{x+2}$
 
+___
+
+1. $\displaystyle f_1(x)=\frac{x^2}{x+1}$
+1. $\displaystyle f_2(x)=\frac{5x}{2-x^2}$
+1. $\displaystyle f_3(x)=\frac{x^2+x+9}{x-1}$
+1. $\displaystyle f_4(x)=\frac{2x}{x^2-2x+1}$
+
 {{< /job >}}
