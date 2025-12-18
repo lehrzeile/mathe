@@ -11,31 +11,27 @@ count: 0 # für die Nummerierung der Aufgaben
 
 ## Extrempunkte
 
-{{< box-note title="Bemerkung vorab:" >}}
 Das, was jetzt folgt, sollte dich erleichtern:
 
 Das Bestimmen von Extrempunkten von gebrochen-rationalen Funktionen funktioniert nach demselben Prinzip wie bei ganzrationalen Funktionen -- mit dem einzigen Unterschied, dass du hierzu die weiteren Ableitungsregeln benötigst.
-{{< /box-note >}}
 
 {{< box-notice title="Extremwerte bestimmen" >}}
 
-+ Bilde die **erste Ableitung** der Funktion und setze diese **gleich Null**:
+1. Bilde die **erste Ableitung** der Funktion und setze diese **gleich Null**:
     $f'(x) = 0$
-+ **Löse die erste Ableitung nach $x$ auf**. An diesen Stellen sind entweder ein Minimum oder Maximum gegeben.
-+ Bilde die **zweite Ableitung** der Funktion. **Setze den** in 2. ermittelten **$x$-Wert** in die zweite Ableitung **ein**.
-+ Ist der Wert der zweiten Ableitung an dieser Stelle **größer Null**, so liegt ein **Minimum** vor:
+1. **Löse die erste Ableitung nach $x$ auf**. An diesen Stellen sind entweder ein Minimum oder Maximum gegeben.
+1. Bilde die **zweite Ableitung** der Funktion. **Setze die** in 2. ermittelten **$x$-Werte** in die zweite Ableitung **ein**.
+1. Ist der Wert der zweiten Ableitung an einer dieser Stellen **größer Null**, so liegt hier ein **Minimum** vor:
     $f”(x) > 0 \qquad \Rightarrow \qquad$ Minimum
-+ Ist der Wert der zweiten Ableitung an dieser Stelle **kleiner Null**, so liegt ein **Maximum** vor:
+1. Ist der Wert der zweiten Ableitung an einer dieser Stellen **kleiner Null**, so liegt hier ein **Maximum** vor:
     $f”(x) < 0 \qquad \Rightarrow \qquad$ Maximum
-+ **Setze den $x$-Wert** aus 2. **in die Ausgangsfunktion $f(x)$ ein**, um den dazugehörigen $y$-Wert zu bestimmen.
+1. **Setze die $x$-Werte** aus 2. **in die Ausgangsfunktion $f(x)$ ein**, um die dazugehörigen $y$-Werte zu bestimmen.
 
 {{< /box-notice >}}
 
 ## Wendepunkte
 
-{{< box-note title="Gute Nachricht:" >}}
-Mit den Wendepunkten von gebrochen-rationalen Funktionen funktioniert das ebenfalls nach demselben Prinzip.
-{{< /box-note >}}
+Mit den Wendepunkten von gebrochen-rationalen Funktionen funktioniert das ebenfalls nach demselben Prinzip wie bei ganzrationalen Funktionen 🎉
 
 ## Übung macht den Meister
 
