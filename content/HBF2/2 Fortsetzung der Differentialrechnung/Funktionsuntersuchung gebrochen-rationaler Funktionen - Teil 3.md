@@ -139,7 +139,8 @@ Da die Gleichung zu einem Widerspruch führt, schließen wir daraus, dass der Fu
 {{< solution numbered="true" style="enum-alph" >}}
 
 - Dieser Funktionsgraph besitzt keine Extrempunkte und somit auch keine Wendepunkte.
-- 2
+- $TP_1(-2,32|-3,63), \qquad TP_2(4,32|9,63)$, keine Wendepunkte
+- $TP(-1|-\frac12)$, Wendepunkt $WP(-2|-\frac49)$
 
 {{< /solution >}}
 
