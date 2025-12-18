@@ -64,17 +64,17 @@ $\begin{aligned}
 
 Wir untersuchen nun, ob hier jeweils ein lokales Minimum oder Maximum vorliegt:
 
-$f''(x) &= \frac{2}{(x+1)^3}$:
+$f''(x) = \frac{2}{(x+1)^3}$:
 
-1. $f''(0) &= \frac{2}{(0+1)^3} = \frac21 = 2 \qquad \Rightarrow \qquad$ Tiefpunkt
-1. $f''(-2) &= \frac{2}{(-2+1)^3} = \frac{2}{(-1)^3} = \frac{2}{-1} = -2 \qquad \Rightarrow \qquad$ Hochpunkt
+1. $f''(0) = \frac{2}{(0+1)^3} = \frac21 = 2 \qquad \Rightarrow \qquad$ Tiefpunkt
+1. $f''(-2) = \frac{2}{(-2+1)^3} = \frac{2}{(-1)^3} = \frac{2}{-1} = -2 \qquad \Rightarrow \qquad$ Hochpunkt
 
 Nun bestimmen wir die dazugehörigen $y$-Werte:
 
-$f(x) &= \frac{x^2}{x+1}$:
+$f(x) = \frac{x^2}{x+1}$:
 
-1. $f(0) &= \frac{0^2}{0+1} = \frac{0}{1} = 0$
-1. $f(-2) &= \frac{(-2)^2}{-2+1} = \frac{4}{-1} = -4$
+1. $f(0) = \frac{0^2}{0+1} = \frac{0}{1} = 0$
+1. $f(-2) = \frac{(-2)^2}{-2+1} = \frac{4}{-1} = -4$
 
 {{< /box-example >}}
 
