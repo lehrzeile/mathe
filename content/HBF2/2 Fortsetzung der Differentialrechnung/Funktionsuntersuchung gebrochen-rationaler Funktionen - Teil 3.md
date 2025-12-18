@@ -59,7 +59,30 @@ $\begin{aligned}
 \Leftrightarrow && \frac{x^2 + 2x}{(x+1)^2} &= 0 \\\
 \Leftrightarrow && x^2 + 2x &= 0 \\\
 \Leftrightarrow && x \cdot (x+2) &= 0 \\\
-\Rightarrow && x_1 = 0, \quad x_2 = -2
+\Leftrightarrow &&& x_1 = 0, \quad x_2 = -2
+\end{aligned}$
+
+Wir untersuchen nun, ob hier jeweils ein lokales Minimum oder Maximum vorliegt:
+
+$\begin{aligned}
+&&f''(x) &= \frac{2}{(x+1)^3} \\\
+\text{1.} && f''(0) &= \frac{2}{(0+1)^3} = \frac21 = 2 \Rightarrow \text{Tiefpunkt}\\\
+\text{2.} && f''(-2) &= \frac{2}{(-2+1)^3} = \frac{2}{(-1)^3} = \frac{2}{-1} = -2 \Rightarrow \text{Hochpunkt}
+\end{aligned}$
+
+Nun bestimmen wir die dazugehörigen $y$-Werte:
+
+$\begin{aligned}
+&&f(x) &= \frac{x^2}{x+1}\\\
+\text{1.} && f(0) &= \frac{0^2}{0+1} = \frac{0}{1} = 0 \\\
+\text{2.} &&f(-2) &= \frac{(-2)^2}{-2+1} = \frac{4}{-1} = -4
+\end{aligned}$
+
+$\begin{aligned}
+&&f''(x) &= \\\
+\Leftrightarrow && &= \\\
+\Leftrightarrow && &= \\\
+\Leftrightarrow && &= 
 \end{aligned}$
 
 {{< /box-example >}}
