@@ -33,7 +33,7 @@ Es gibt einen einzigen Unterschied: Du benötigst hierzu die weiteren Ableitungs
 {{< box-example title="Beispiel:" >}}
 Wir untersuchen die gebrochen-rationale Funktion $\displaystyle f(x)=\frac{x^2}{x+1}$.
 
-Wir bilden die erste und zweite Ableitung (die dritte lassen wir weg):
+Wir bilden die erste Ableitung:
 
 $\begin{aligned}
 &&f'(x) &= \frac{2x \cdot (x+1) - x^2 \cdot 1}{(x+1)^2} \\\
@@ -41,11 +41,25 @@ $\begin{aligned}
 \Leftrightarrow && &= \frac{x^2 + 2x}{(x+1)^2}
 \end{aligned}$
 
+Wir bilden die zweite Ableitung:
+
 $\begin{aligned}
 &&f''(x) &= \frac{(2x+2)\cdot(x+1)^2-2\cdot(x+1)\cdot(x^2+2x)}{(x+1)^4} \\\
 \Leftrightarrow && &= \frac{(2x+2)\cdot(x+1)-2\cdot(x^2+2x)}{(x+1)^3} \\\
 \Leftrightarrow && &= \frac{2x^2+4x+2-2x^2-4x}{(x+1)^3} \\\
 \Leftrightarrow && &= \frac{2}{(x+1)^3}
+\end{aligned}$
+
+*Hinweis: Die dritte Ableitung lassen wir aus Gründen der Vereinfachung weg.*
+
+Wir stellen die erste Ableitung gleich Null und lösen die Gleichung:
+
+$\begin{aligned}
+&&f'(x) &= 0 \\\
+\Leftrightarrow && \frac{x^2 + 2x}{(x+1)^2} &= 0 \\\
+\Leftrightarrow && x^2 + 2x &= 0 \\\
+\Leftrightarrow && x \cdot (x+2) &= 0 \\\
+\Rightarrow && x_1 = 0, \quad x_2 = -2
 \end{aligned}$
 
 {{< /box-example >}}
