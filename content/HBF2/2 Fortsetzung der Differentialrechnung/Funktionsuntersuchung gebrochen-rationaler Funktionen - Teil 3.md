@@ -21,9 +21,9 @@ Das Bestimmen von Extrempunkten von gebrochen-rationalen Funktionen funktioniert
     $f'(x) = 0$
 1. **Löse die erste Ableitung nach $x$ auf**. An diesen Stellen sind entweder ein Minimum oder Maximum gegeben.
 1. Bilde die **zweite Ableitung** der Funktion. **Setze die** in 2. ermittelten **$x$-Werte** in die zweite Ableitung **ein**.
-1. Ist der Wert der zweiten Ableitung an einer dieser Stellen **größer Null**, so liegt hier ein **Minimum** vor:
+1. Ist der Wert der zweiten Ableitung an einer dieser Stellen **größer Null**, so liegt hier ein **Minimum** vor: \
     $f”(x) > 0 \qquad \Rightarrow \qquad$ Minimum
-1. Ist der Wert der zweiten Ableitung an einer dieser Stellen **kleiner Null**, so liegt hier ein **Maximum** vor:
+1. Ist der Wert der zweiten Ableitung an einer dieser Stellen **kleiner Null**, so liegt hier ein **Maximum** vor: \
     $f”(x) < 0 \qquad \Rightarrow \qquad$ Maximum
 1. **Setze die $x$-Werte** aus 2. **in die Ausgangsfunktion $f(x)$ ein**, um die dazugehörigen $y$-Werte zu bestimmen.
 
