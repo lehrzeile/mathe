@@ -76,6 +76,12 @@ $\displaystyle f(x) = \frac{x^2}{x+1}$:
 1. $\displaystyle f(0) = \frac{0^2}{0+1} = \frac{0}{1} = 0$
 1. $\displaystyle f(-2) = \frac{(-2)^2}{-2+1} = \frac{4}{-1} = -4$
 
+Wir fassen nun zusammen:
+
+1. Der Funktionsgraph besitzt ein lokales Minimum (Tiefpunkt) im Punkt $TP(0|0)$.
+1. Der Funktionsgraph besitzt ein lokales Maximum (Hochpunkt) im Punkt $HP(-2|-4)$.
+
+Fertig.
 {{< /box-example >}}
 
 ## Wendepunkte
