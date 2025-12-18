@@ -58,7 +58,7 @@ Mit den Wendepunkten von gebrochen-rationalen Funktionen funktioniert das ebenfa
 1. $\displaystyle f_3(x)=\frac{x^2+x+9}{x-1}$
 1. $\displaystyle f_4(x)=\frac{2x}{x^2-2x+1}$
 
-{{< margin 1em >}}
+{{< margin 2em >}}
 
 *Kommen dir die Funktionsgleichungen bekannt vor? Du hast sie schon in Teil 2 auf Achsenschnittpunkte, Asymptoten und Grenzverhalten untersucht.*
 
