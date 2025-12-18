@@ -11,9 +11,10 @@ count: 0 # für die Nummerierung der Aufgaben
 
 ## Extrempunkte
 
-Das, was jetzt folgt, sollte dich erleichtern:
+Das, was jetzt folgt, sollte dich erleichtern: \
+Das Bestimmen von Extrempunkten von gebrochen-rationalen Funktionen funktioniert nach demselben Prinzip wie bei ganzrationalen Funktionen 🎉
 
-Das Bestimmen von Extrempunkten von gebrochen-rationalen Funktionen funktioniert nach demselben Prinzip wie bei ganzrationalen Funktionen -- mit dem einzigen Unterschied, dass du hierzu die weiteren Ableitungsregeln benötigst.
+Es gibt einen einzigen Unterschied: Du benötigst hierzu die weiteren Ableitungsregeln.
 
 {{< box-notice title="Extremwerte bestimmen" >}}
 
@@ -31,8 +32,7 @@ Das Bestimmen von Extrempunkten von gebrochen-rationalen Funktionen funktioniert
 
 ## Wendepunkte
 
-Noch eine gute Nachricht:
-
+Noch eine gute Nachricht: \
 Mit den Wendepunkten von gebrochen-rationalen Funktionen funktioniert das ebenfalls nach demselben Prinzip wie bei ganzrationalen Funktionen 🎉
 
 ## Übung macht den Meister
