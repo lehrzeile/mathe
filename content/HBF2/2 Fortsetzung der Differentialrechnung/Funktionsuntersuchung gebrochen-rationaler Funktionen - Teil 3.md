@@ -108,21 +108,22 @@ Wir setzen die zweite Ableitung gleich Null und lösen die Gleichung:
 $\begin{aligned}
 &&f''(x) &= 0 \\\
 \Leftrightarrow && \frac{2}{(x+1)^3} &= 0 \\\
-\Leftrightarrow && 2 &= 0 \quad \text{Widerspruch}
+\Leftrightarrow && 2 &= 0 \quad \text{Widerspruch !!!}
 \end{aligned}$
 
-Da die Gleichung zu einem Widerspruch führte, schließen wir daraus, dass der Funktionsgraph keine Wendepunkte besitzt.
+Da die Gleichung zu einem Widerspruch führt, schließen wir daraus, dass der Funktionsgraph keine Wendepunkte besitzt.
 
 {{< /box-example >}}
 
 ## Übung macht den Meister
 
-{{< job title="Üben und Vertiefen" numbered="true" style="enum-alph" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf Extrem- und Wendepunkte." >}}
+{{< job title="Üben und Vertiefen" numbered="true" style="enum-arabic" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf Extrem- und Wendepunkte." >}}
 
 1. $\displaystyle f_1(x)=\frac{5x}{2-x^2}$
 1. $\displaystyle f_2(x)=\frac{x^2+x+9}{x-1}$
 1. $\displaystyle f_3(x)=\frac{2x}{x^2-2x+1}$
 
+<br />
 <br />
 
 *Kommen dir die Funktionsgleichungen bekannt vor? Du hast sie schon in Teil 2 auf Achsenschnittpunkte, Asymptoten und Grenzverhalten untersucht.*
