@@ -108,7 +108,7 @@ Wir setzen die zweite Ableitung gleich Null und lösen die Gleichung:
 $\begin{aligned}
 &&f''(x) &= 0 \\\
 \Leftrightarrow && \frac{2}{(x+1)^3} &= 0 \\\
-\Leftrightarrow && 2 &= 0 \quad \text{Widerspruch!}
+\Leftrightarrow && 2 &= 0 \quad \text{Widerspruch}
 \end{aligned}$
 
 Da die Gleichung zu einem Widerspruch führte, schließen wir daraus, dass der Funktionsgraph keine Wendepunkte besitzt.
