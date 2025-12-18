@@ -31,6 +31,8 @@ Das Bestimmen von Extrempunkten von gebrochen-rationalen Funktionen funktioniert
 
 ## Wendepunkte
 
+Noch eine gute Nachricht:
+
 Mit den Wendepunkten von gebrochen-rationalen Funktionen funktioniert das ebenfalls nach demselben Prinzip wie bei ganzrationalen Funktionen 🎉
 
 ## Übung macht den Meister
@@ -41,6 +43,8 @@ Mit den Wendepunkten von gebrochen-rationalen Funktionen funktioniert das ebenfa
 1. $\displaystyle f_2(x)=\frac{5x}{2-x^2}$
 1. $\displaystyle f_3(x)=\frac{x^2+x+9}{x-1}$
 1. $\displaystyle f_4(x)=\frac{2x}{x^2-2x+1}$
+
+{{< margin 1em >}}
 
 *Kommen dir die Funktionsgleichungen bekannt vor? Du hast sie schon in Teil 2 auf Achsenschnittpunkte, Asymptoten und Grenzverhalten untersucht.*
 
