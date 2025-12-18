@@ -31,7 +31,7 @@ Es gibt einen einzigen Unterschied: Du benötigst hierzu die weiteren Ableitungs
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel:" >}}
-Wir untersuchen die gebrochen-rationale Funktion $\displaystyle f(x)=\frac{x^2}{x+1}$.
+Wir untersuchen die gebrochen-rationale Funktion $\displaystyle f(x)=\frac{x^2}{x+1}$ auf das Vorliegen von Extrempunkten.
 
 Wir bilden die erste Ableitung:
 
@@ -52,7 +52,7 @@ $\begin{aligned}
 
 *Hinweis: Die dritte Ableitung lassen wir aus Gründen der Vereinfachung weg.*
 
-Wir stellen die erste Ableitung gleich Null und lösen die Gleichung:
+Wir setzen die erste Ableitung gleich Null und lösen die Gleichung:
 
 $\begin{aligned}
 &&f'(x) &= 0 \\\
@@ -64,26 +64,17 @@ $\begin{aligned}
 
 Wir untersuchen nun, ob hier jeweils ein lokales Minimum oder Maximum vorliegt:
 
-$\begin{aligned}
-&&f''(x) &= \frac{2}{(x+1)^3} \\\
-\text{1.} && f''(0) &= \frac{2}{(0+1)^3} = \frac21 = 2 \Rightarrow \text{Tiefpunkt}\\\
-\text{2.} && f''(-2) &= \frac{2}{(-2+1)^3} = \frac{2}{(-1)^3} = \frac{2}{-1} = -2 \Rightarrow \text{Hochpunkt}
-\end{aligned}$
+$f''(x) &= \frac{2}{(x+1)^3}$:
+
+1. $f''(0) &= \frac{2}{(0+1)^3} = \frac21 = 2 \qquad \Rightarrow \qquad$ Tiefpunkt
+1. $f''(-2) &= \frac{2}{(-2+1)^3} = \frac{2}{(-1)^3} = \frac{2}{-1} = -2 \qquad \Rightarrow \qquad$ Hochpunkt
 
 Nun bestimmen wir die dazugehörigen $y$-Werte:
 
-$\begin{aligned}
-&&f(x) &= \frac{x^2}{x+1}\\\
-\text{1.} && f(0) &= \frac{0^2}{0+1} = \frac{0}{1} = 0 \\\
-\text{2.} &&f(-2) &= \frac{(-2)^2}{-2+1} = \frac{4}{-1} = -4
-\end{aligned}$
+$f(x) &= \frac{x^2}{x+1}$:
 
-$\begin{aligned}
-&&f''(x) &= \\\
-\Leftrightarrow && &= \\\
-\Leftrightarrow && &= \\\
-\Leftrightarrow && &= 
-\end{aligned}$
+1. $f(0) &= \frac{0^2}{0+1} = \frac{0}{1} = 0$
+1. $f(-2) &= \frac{(-2)^2}{-2+1} = \frac{4}{-1} = -4$
 
 {{< /box-example >}}
 
@@ -106,9 +97,27 @@ Mit den Wendepunkten von gebrochen-rationalen Funktionen funktioniert das ebenfa
 
 {{< /box-notice >}}
 
+{{< box-example title="Beispiel:" >}}
+Wir untersuchen die gebrochen-rationale Funktion $\displaystyle f(x)=\frac{x^2}{x+1}$ auf das Vorliegen von Wendepunkten.
+
+Die zweite Ableitung kennen wir schon: \
+$f''(x) = \frac{2}{(x+1)^3}$
+
+Wir setzen die zweite Ableitung gleich Null und lösen die Gleichung:
+
+$\begin{aligned}
+&&f''(x) &= 0 \\\
+\Leftrightarrow && \frac{2}{(x+1)^3} &= 0 \\\
+\Leftrightarrow && 2 &= 0 \quad \Lightning \text{(Widerspruch)}
+\end{aligned}$
+
+Da die Gleichung zu einem Widerspruch führte, schließen wir daraus, dass der Funktionsgraph keine Wendepunkte besitzt.
+
+{{< /box-example >}}
+
 ## Übung macht den Meister
 
-{{< job title="Üben und Vertiefen" numbered="true" style="" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf Extrem- und Wendepunkte." >}}
+{{< job title="Üben und Vertiefen" numbered="true" style="enum-alph" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf Extrem- und Wendepunkte." >}}
 
 1. $\displaystyle f_1(x)=\frac{5x}{2-x^2}$
 1. $\displaystyle f_2(x)=\frac{x^2+x+9}{x-1}$
@@ -122,7 +131,7 @@ Mit den Wendepunkten von gebrochen-rationalen Funktionen funktioniert das ebenfa
 
 {{< solution numbered="true" style="enum-alph" >}}
 
-- 1
+- dieser Funktionsgraph besitzt keine Extrempunkte und somit auch keine Wendepunkte
 - 2
 
 {{< /solution >}}
