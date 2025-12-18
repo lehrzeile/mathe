@@ -26,7 +26,7 @@ Es gibt einen einzigen Unterschied: Du benötigst hierzu die weiteren Ableitungs
     $f”(x) > 0 \qquad \Rightarrow \qquad$ Minimum
 1. Ist der Wert der zweiten Ableitung an einer dieser Stellen **kleiner Null**, so liegt hier ein **Maximum** vor: \
     $f”(x) < 0 \qquad \Rightarrow \qquad$ Maximum
-1. **Setze die $x$-Werte** aus 2. **in die Ausgangsfunktion $f(x)$ ein**, um die dazugehörigen $y$-Werte zu bestimmen.
+1. **Setze die $x$-Werte** aus 2. **in die Ausgangsfunktion $f(x)$ ein**. So bestimmst du die dazugehörigen $y$-Werte der Extrempunkte.
 
 {{< /box-notice >}}
 
@@ -34,6 +34,20 @@ Es gibt einen einzigen Unterschied: Du benötigst hierzu die weiteren Ableitungs
 
 Noch eine gute Nachricht: \
 Mit den Wendepunkten von gebrochen-rationalen Funktionen funktioniert das ebenfalls nach demselben Prinzip wie bei ganzrationalen Funktionen 🎉
+
+{{< box-notice title="Wendepunkte bestimmen" >}}
+
+1. Bilde die **zweite Ableitung** der Funktion und setze diese **gleich Null**:
+    $f''(x) = 0$
+1. **Löse die zweite Ableitung nach $x$ auf**. An diesen Stellen existieren Wendepunkte.
+1. Bilde die **dritte Ableitung** der Funktion. **Setze die** in 2. ermittelten **$x$-Werte** in die dritte Ableitung **ein**.
+1. Ist der Wert der dritten Ableitung an einer dieser Stellen **größer Null**, so liegt hier eine **Rechts-Links-Wendestelle** vor: \
+    $f”(x) > 0 \qquad \Rightarrow \qquad$ Rechts-Links-Wendestelle
+1. Ist der Wert der dritten Ableitung an einer dieser Stellen **kleiner Null**, so liegt hier eine **Links-Rechts-Wendestelle** vor: \
+    $f”(x) < 0 \qquad \Rightarrow \qquad$ Links-Rechts-Wendestelle
+1. **Setze die $x$-Werte** aus 2. **in die Ausgangsfunktion $f(x)$ ein**. So bestimmst du die dazugehörigen $y$-Werte der Wendepunkte.
+
+{{< /box-notice >}}
 
 ## Übung macht den Meister
 
