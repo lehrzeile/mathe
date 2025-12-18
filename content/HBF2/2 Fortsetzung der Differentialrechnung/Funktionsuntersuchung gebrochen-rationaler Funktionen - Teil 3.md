@@ -66,7 +66,7 @@ Wir untersuchen nun, ob hier jeweils ein lokales Minimum oder Maximum vorliegt:
 
 $f''(x) = \frac{2}{(x+1)^3}$:
 
-1. $f''(0) = \frac{2}{(0+1)^3} = \frac21 = 2 \qquad \Rightarrow \qquad$ Tiefpunkt
+1. $f''(0) = \frac{2}{(0+1)^3} = \frac{2}{1} = 2 \qquad \Rightarrow \qquad$ Tiefpunkt
 1. $f''(-2) = \frac{2}{(-2+1)^3} = \frac{2}{(-1)^3} = \frac{2}{-1} = -2 \qquad \Rightarrow \qquad$ Hochpunkt
 
 Nun bestimmen wir die dazugehörigen $y$-Werte:
@@ -108,7 +108,7 @@ Wir setzen die zweite Ableitung gleich Null und lösen die Gleichung:
 $\begin{aligned}
 &&f''(x) &= 0 \\\
 \Leftrightarrow && \frac{2}{(x+1)^3} &= 0 \\\
-\Leftrightarrow && 2 &= 0 \quad \text{⚡} \text{(Widerspruch)}
+\Leftrightarrow && 2 &= 0 \quad \text{Widerspruch!}
 \end{aligned}$
 
 Da die Gleichung zu einem Widerspruch führte, schließen wir daraus, dass der Funktionsgraph keine Wendepunkte besitzt.
@@ -131,7 +131,7 @@ Da die Gleichung zu einem Widerspruch führte, schließen wir daraus, dass der F
 
 {{< solution numbered="true" style="enum-alph" >}}
 
-- dieser Funktionsgraph besitzt keine Extrempunkte und somit auch keine Wendepunkte
+- Dieser Funktionsgraph besitzt keine Extrempunkte und somit auch keine Wendepunkte.
 - 2
 
 {{< /solution >}}
