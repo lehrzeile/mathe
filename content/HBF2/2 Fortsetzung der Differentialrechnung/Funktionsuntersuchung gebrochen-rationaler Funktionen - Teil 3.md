@@ -31,7 +31,7 @@ Es gibt einen einzigen Unterschied: Du benötigst hierzu die weiteren Ableitungs
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel:" >}}
-Wir untersuchen die gebrochen-rationale Funktion $\displaystyle f(x)=\frac{x^2}{x+1}$ auf das Vorliegen von Extrempunkten.
+Wir untersuchen die gebrochen-rationale Funktion $\displaystyle f(x)=\frac{x^2}{x+1}$ auf mögliche Extrempunkte.
 
 Wir bilden die erste Ableitung:
 
@@ -41,7 +41,7 @@ $\begin{aligned}
 \Leftrightarrow && &= \frac{x^2 + 2x}{(x+1)^2}
 \end{aligned}$
 
-Wir bilden die zweite Ableitung:
+Jetzt bilden wir die zweite Ableitung:
 
 $\begin{aligned}
 &&f''(x) &= \frac{(2x+2)\cdot(x+1)^2-2\cdot(x+1)\cdot(x^2+2x)}{(x+1)^4} \\\
@@ -101,14 +101,14 @@ Mit den Wendepunkten von gebrochen-rationalen Funktionen funktioniert das ebenfa
 Wir untersuchen die gebrochen-rationale Funktion $\displaystyle f(x)=\frac{x^2}{x+1}$ auf das Vorliegen von Wendepunkten.
 
 Die zweite Ableitung kennen wir schon: \
-$f''(x) = \frac{2}{(x+1)^3}$
+$\displaystyle f''(x) = \frac{2}{(x+1)^3}$
 
 Wir setzen die zweite Ableitung gleich Null und lösen die Gleichung:
 
 $\begin{aligned}
 &&f''(x) &= 0 \\\
 \Leftrightarrow && \frac{2}{(x+1)^3} &= 0 \\\
-\Leftrightarrow && 2 &= 0 \quad \Lightning \text{(Widerspruch)}
+\Leftrightarrow && 2 &= 0 \quad \text{⚡} \text{(Widerspruch)}
 \end{aligned}$
 
 Da die Gleichung zu einem Widerspruch führte, schließen wir daraus, dass der Funktionsgraph keine Wendepunkte besitzt.
