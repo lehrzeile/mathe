@@ -154,7 +154,7 @@ Der Funktionsgraph schneidet die $y$-Achse also im Punkt $\left( 0; \frac14 \rig
 
 ## Übung macht den Meister
 
-{{< job title="Üben und Vertiefen" numbered="true" style="" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf ihren Definitionsbereich, die Art der Definitionslücken und auf ihre Achsenschnittpunkte." >}}
+{{< job title="Üben und Vertiefen" numbered="true" style="" name="" entry="**Untersuche** die folgenden gebrochen-rationalen Funktionen auf ihren Definitionsbereich, die Art der Definitionslücken und auf ihre Achsenschnittpunkte." >}}
 
 1. $\displaystyle f(x)=\frac{x^2+1}{x}$
 1. $\displaystyle f(x)=\frac{x^3+2}{2x^2}$

@@ -117,7 +117,7 @@ Da die Gleichung zu einem Widerspruch führt, schließen wir daraus, dass der Fu
 
 ## Übung macht den Meister
 
-{{< job title="Üben und Vertiefen" numbered="true" style="enum-arabic" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf Extrem- und Wendepunkte." >}}
+{{< job title="Üben und Vertiefen" numbered="true" style="enum-arabic" name="" entry="**Untersuche** die folgenden gebrochen-rationalen Funktionen auf Extrem- und Wendepunkte." >}}
 
 1. $\displaystyle f_1(x)=\frac{5x}{2-x^2}$
 1. $\displaystyle f_2(x)=\frac{x^2+x+9}{x-1}$

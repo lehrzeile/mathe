@@ -139,7 +139,7 @@ Wir bestimmen das Grenzverhalten der Funktionsgraphen aus den Beispielen zuvor:
 
 ## Übung macht den Meister
 
-{{< job title="Üben und Vertiefen" numbered="true" style="enum-alph" name="" entry="**Untersuchen** Sie die folgenden gebrochen-rationalen Funktionen auf Asymptoten und ihr Grenzverhalten." >}}
+{{< job title="Üben und Vertiefen" numbered="true" style="enum-alph" name="" entry="**Untersuche** die folgenden gebrochen-rationalen Funktionen auf Asymptoten und ihr Grenzverhalten." >}}
 
 1. $\displaystyle f_1(x)=\frac{2x^2+3x}{4x^2-4}$
 1. $\displaystyle f_2(x)=\frac{0,5x^2+2x+3}{x+2}$
