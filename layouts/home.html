@@ -17,11 +17,6 @@
   {{ if eq $.Site.Language.LanguageName "German" }}
   <section class="section section-md section-features">
     <div class="container">
-      {{ if site.Params.doks.backgroundDots -}}
-        <div class="d-flex justify-content-start">
-          <div class="bg-dots"></div>
-        </div>
-      {{ end -}}
       <div class="row justify-content-center text-center">
         <p>
           Auf dieser Website findest du Materialien für den Mathematikunterricht in der Höheren Berufsfachschule an der BBS Lahnstein.
@@ -30,6 +25,11 @@
         </p>
         <p>Viel Spaß beim Stöbern!</p>
         <p></p>
+        {{ if site.Params.doks.backgroundDots -}}
+        <div class="d-flex justify-content-start">
+          <div class="bg-dots"></div>
+        </div>
+      {{ end -}}
         <div class="col-lg-3">
           <!-- <h4 class="h4">Update content</h4> -->
           <a class="btn btn-primary btn-cta rounded-pill btn-md my-3" href="/hbf1/0-organisatorisches/themenübersicht-unterstufe/" role="button"> HBF Unterstufe </a>
