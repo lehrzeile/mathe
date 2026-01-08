@@ -39,11 +39,15 @@ Ein Vorfaktor bleibt beim Ableiten erhalten.
 <!-- Beispiele für Konstantenregel, Ableitung von $x$ und Faktorregel -->
 {{< box-example title="Beispiele für Konstantenregel, Ableitung von $x$ und Faktorregel:" >}}
 
-- $f(x)=5$ \ $\rightarrow \quad f'(x) = 0$
-- $f(x)=x$ \ $\rightarrow \quad f'(x) = 1$
-- $f(x)=3x \Leftrightarrow f(x)=3 \cdot x$ \ $\rightarrow \quad f'(x) = 3 \cdot 1 = 3$
+- $f(x)=5$ \
+$\rightarrow \quad f'(x) = 0$
+- $f(x)=x$ \
+$\rightarrow \quad f'(x) = 1$
+- $f(x)=3x \Leftrightarrow f(x)=3 \cdot x$ \
+$\rightarrow \quad f'(x) = 3 \cdot 1 = 3$
 - $f(x)=-5x$ \ $\rightarrow \quad f'(x) = -5 \cdot 1 = -5$
-- $f(x)= \text{trölf} \cdot x$ \ $\rightarrow \quad f'(x) = \text{trölf} \cdot 1 = \text{trölf}$
+- $f(x)= \text{trölf} \cdot x$ \
+$\rightarrow \quad f'(x) = \text{trölf} \cdot 1 = \text{trölf}$
 
 {{< /box-example >}}
 
