@@ -1,6 +1,7 @@
 # Hugo
 title = "Lehrzeile"
-description = "Herzlich Willkommen auf meiner Unterrichts-Website!"
+# description = "Herzlich Willkommen auf meiner Unterrichts-Website!"
+description = ""
 images = ["cover.png"]
 
 # mainSections
