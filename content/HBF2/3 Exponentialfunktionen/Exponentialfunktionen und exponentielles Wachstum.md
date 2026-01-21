@@ -27,7 +27,7 @@ als **Exponentialfunktion zur Basis $a$**.
 {{< box-notice title="Wachstumsrate und Wachstumsfaktor" >}}
 Die Wachstumsrate $p %$ gibt die Veränderung einer Ausgangsgröße in einem bestimmten Abschnitt in Prozent an.
 
-**Wachstumsrate:** $\qquad p \text{\%} \% = \frac{\text{neue Größe}}{\text{alte Größe}}$
+**Wachstumsrate:** $\qquad p \text{\%} p\\% = \frac{\text{neue Größe}}{\text{alte Größe}}$
 __
 alte Größe
 Der Faktor, mit dem der alte Wert multipliziert
