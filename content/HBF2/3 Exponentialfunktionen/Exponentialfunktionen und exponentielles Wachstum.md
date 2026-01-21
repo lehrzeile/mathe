@@ -41,14 +41,16 @@ Der Gewinn einer Firma wuchs innerhalb eines Jahrs von $80.000€$ auf $86.000�
 
 $\displaystyle \qquad p\\% = \frac{86000 - 80000}{80000} = \frac{6000}{80000} = 7,5%$
 
-Der Gewinn des Unternehmens nimmt also um das $1,075$-fache zu: $\qquad q = 1 + 7,5\\% = 1 + 0,075 = 1,075$.
+Der Gewinn des Unternehmens nimmt also um das $1,075$-fache zu:
+
+$\qquad q = 1 + 7,5\\% = 1 + 0,075 = 1,075$.
 {{< /box-example >}}
 
 {{< box-notice title="Exponentielles Wachstum" >}}
 Wächst eine Größe $G$ in gleich großen Abschnitten um den gleichen Prozentsatz $p\\%$, d. h. wird immer mit dem gleichen Faktor ($q > 1$) vervielfacht, liegt ein **exponentielles Wachstum** vor.
+{{< /box-notice >}}
 
 {{< image src="img/Bsp_Exponentialfunktion.svg" caption="Beispiel für eine Exponentialfunktion" >}}
-{{< /box-notice >}}
 
 <!-- Exponentiell = a * a * a * a * ... * a = a^n -->
 
