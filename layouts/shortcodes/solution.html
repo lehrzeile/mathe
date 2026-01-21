@@ -8,7 +8,7 @@
 {{ end }}
 
 <details class="solution">
-  <summary>Lösungen</summary>
+  <summary>{{ .Get "title" | default "Lösungen" }}</summary>
   {{ if .Get "numbered" | eq "true" }} <!-- Nummerierte Lösungen -->
     {{ if .Get "style" | eq "enum-alph" }} <!-- Alphabetische Nummerierung -->
       <div class="enum-alph {{ $columns }}">

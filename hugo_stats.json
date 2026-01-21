@@ -282,6 +282,7 @@
       "ausklammern",
       "befehle",
       "beispiele-für-echt-sowie-unecht-gebrochen-rationale-funktionen",
+      "berechnung-von-funktions--und-umkehrwerten",
       "bestimmen-der-lokalen-änderungsrate",
       "bestimmen-der-mittleren-änderungsrate",
       "brüche-als-teile-eines-ganzen",
@@ -310,7 +311,10 @@
       "einleitung",
       "einstieg",
       "emphasis",
+      "erste-übungen",
       "exkurs-abc-formel-und-satz-von-vieta",
+      "exponentielle-bestandsfunktionen-bestimmen",
+      "exponentielles-wachstum-erkennen-und-beschreiben",
       "extrempunkte",
       "fn:1",
       "fn:2",
@@ -432,7 +436,10 @@
       "üben-und-vertiefen",
       "übersicht-der-themen-der-hbf-oberstufe",
       "übersicht-der-themen-der-hbf-unterstufe",
-      "übung-macht-den-meister"
+      "übung-macht-den-meister",
+      "übung-macht-den-meister--teil-1",
+      "übung-macht-den-meister--teil-2",
+      "übungen-zum-aufstellen-von-exponentialfunktionen"
     ]
   }
 }
