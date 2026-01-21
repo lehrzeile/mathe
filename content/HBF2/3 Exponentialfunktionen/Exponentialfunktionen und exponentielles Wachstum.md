@@ -27,7 +27,14 @@ als **Exponentialfunktion zur Basis $a$**.
 {{< box-notice title="Wachstumsrate und Wachstumsfaktor" >}}
 Die Wachstumsrate $p %$ gibt die Veränderung einer Ausgangsgröße in einem bestimmten Abschnitt in Prozent an.
 
-**Wachstumsrate:** $\qquad p \text{\%} p\\% = \frac{\text{neue Größe}}{\text{alte Größe}}$
+**Wachstumsrate:** $\displaystyle \qquad p\\% = \frac{\textrm{neue Größe}}{\textrm{alte Größe}}$
+
+% Source - https://tex.stackexchange.com/a
+% Posted by Nico
+% Retrieved 2026-01-21, License - CC BY-SA 3.0
+
+$\displaystyle\frac{\mbox{Actual Value of Production}}{\mbox{Demand}}$
+
 __
 alte Größe
 Der Faktor, mit dem der alte Wert multipliziert
