@@ -36,10 +36,8 @@
 #show: schoolbook-style
 
 #let xs = lq.linspace(-100, 100, num: 5000)
-#let ys = lq.linspace(-100, 100, num: 5000)
 
 #let function = xs.map(x =>  calc.pow(1.5, x))
-#let exp_func(x) = calc.pow(1.5, x)
 
 #lq.diagram(
   xlim: (-2.25, 5.25),
@@ -49,5 +47,5 @@
   legend: (position: right + bottom),
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
-  lq.plot(xs, function, mark: none, stroke: maincolor + 1.5pt, label: [$display(f(x) = 1.5^x)$]),
+  lq.plot(xs, function, mark: none, stroke: secondcolor + 1.5pt, label: [$display(f(x) = 1.5^x)$]),
 )
