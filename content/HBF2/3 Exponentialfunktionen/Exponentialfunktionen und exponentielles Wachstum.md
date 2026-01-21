@@ -29,23 +29,11 @@ Die Wachstumsrate $p %$ gibt die Veränderung einer Ausgangsgröße in einem bes
 
 **Wachstumsrate:** $\displaystyle \qquad p\\% = \frac{\textrm{neue Größe}}{\textrm{alte Größe}}$
 
-% Source - https://tex.stackexchange.com/a
-% Posted by Nico
-% Retrieved 2026-01-21, License - CC BY-SA 3.0
+Der Faktor, mit dem der alte Wert multipliziert werden muss, um den neuen Wert zu erhalten, heißt Wachstumsfaktor $q$.
 
-$\displaystyle\frac{\mbox{Actual Value of Production}}{\mbox{Demand}}$
+**Wachstumsfaktor:** $\displaystyle \qquad q = 1 + p\\% = 1 + \frac{p}{100}$
 
-__
-alte Größe
-Der Faktor, mit dem der alte Wert multipliziert
-werden muss, um den neuen Wert zu erhalten,
-heißt Wachstumsfaktor q.
-Wachstumsfaktor: q = 1 + p % = 1 + p
-_
-100
-Bei einer Abnahme ist die Wachstumsrate
-negativ, der Wachstumsfaktor ist dann kleiner
-als 1.
+Bei einer Abnahme ist die Wachstumsrate negativ, der Wachstumsfaktor liegt dann zwischen $0$ und $1$.
 {{< /box-notice >}}
 
 <!-- Exponentiell = a * a * a * a * ... * a = a^n -->
