@@ -47,5 +47,5 @@
   legend: (position: right + bottom),
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
-  lq.plot(xs, function, mark: none, stroke: secondcolor + 1.5pt, label: [$display(f(x) = 1.5^x)$]),
+  lq.plot(xs, function, mark: none, stroke: secondcolor + 1.5pt, label: [$display(f(x) = 2 dot 0.7^x)$]),
 )
