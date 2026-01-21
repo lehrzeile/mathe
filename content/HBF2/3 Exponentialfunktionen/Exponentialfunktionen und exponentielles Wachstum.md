@@ -27,13 +27,27 @@ als **Exponentialfunktion zur Basis $a$**.
 {{< box-notice title="Wachstumsrate und Wachstumsfaktor" >}}
 Die Wachstumsrate $p %$ gibt die Veränderung einer Ausgangsgröße in einem bestimmten Abschnitt in Prozent an.
 
-**Wachstumsrate:** $\displaystyle \qquad p\\% = \frac{\textrm{neue Größe}}{\textrm{alte Größe}}$
+**Wachstumsrate:** $\displaystyle \qquad p\\% = \frac{\textrm{neue Größe - alte Größe}}{\textrm{alte Größe}}$
 
 Der Faktor, mit dem der alte Wert multipliziert werden muss, um den neuen Wert zu erhalten, heißt Wachstumsfaktor $q$.
 
 **Wachstumsfaktor:** $\displaystyle \qquad q = 1 + p\\% = 1 + \frac{p}{100}$
 
 Bei einer Abnahme ist die Wachstumsrate negativ, der Wachstumsfaktor liegt dann zwischen $0$ und $1$.
+{{< /box-notice >}}
+
+{{< box-example title="Beispiel: Gewinn eines Unternehmens" >}}
+Der Gewinn einer Firma wuchs innerhalb eines Jahrs von $80.000€$ auf $86.000€$.
+
+$\displaystyle \qquad p\\% = \frac{86000 - 80000}{80000} = \frac{6000}{80000} = 7,5%$
+
+Der Gewinn des Unternehmens nimmt also um das $1,075$-fache zu: $\qquad q = 1 + 7,5\\% = 1 + 0,075 = 1,075$.
+{{< /box-example >}}
+
+{{< box-notice title="Exponentielles Wachstum" >}}
+Wächst eine Größe $G$ in gleich großen Abschnitten um den gleichen Prozentsatz $p\\%$, d. h. wird immer mit dem gleichen Faktor ($q > 1$) vervielfacht, liegt ein **exponentielles Wachstum** vor.
+
+{{< image src="img/Bsp_Exponentialfunktion.svg" caption="Beispiel für eine Exponentialfunktion" >}}
 {{< /box-notice >}}
 
 <!-- Exponentiell = a * a * a * a * ... * a = a^n -->
