@@ -15,7 +15,7 @@ Es gibt eine Klasse von Funktionen, mit deren Hilfe sich viele Wachstums- und Ze
 
 <!-- Definition -->
 {{< box-notice title="Definition:" >}}
-Seien $c$ und $a$ reelle Zahlen ($c, a \in \mathbb{R}$) und sei $a$ positiv ($a > 0$).
+Seien $c$ und $a$ reelle Zahlen ($c, a \in \mathbb{R}$) mit $c$ ungleich Null ($c \neq 0$), $a$ positiv ($a > 0$) und ungleich Eins ($a \neq 1$).
 
 Dann bezeichnet man die Funktion
 
@@ -49,6 +49,10 @@ $\qquad q = 1 + 7,5\\% = 1 + 0,075 = 1,075$.
 {{< box-notice title="Exponentielles Wachstum" >}}
 Wächst eine Größe $G$ in gleich großen Abschnitten um den gleichen Prozentsatz $p\\%$, d. h. wird immer mit dem gleichen Faktor ($q > 1$) vervielfacht, liegt ein **exponentielles Wachstum** vor.
 {{< /box-notice >}}
+
+{{ box-note title="" }}
+Im Falle von Prozessen mit negativer Wachstumsraten spricht auch man von **exponentieller Abnahme**.
+{{ /box-note }}
 
 {{< image src="img/Bsp_Exponentialfunktion.svg" caption="Beispiel für eine Exponentialfunktion" >}}
 
