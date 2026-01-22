@@ -131,7 +131,7 @@ als **Exponentialfunktion zur Basis $a$**.
 {{< box-example title="Beispiel 2: Bakterienwachstum" >}}
 Eine Mikrobenpopulation wächst täglich um $60\\%$ an. Zu Beobachtungsbeginn sind $200$ Mikroben vorhanden.
 
-Gesucht ist die Bestandsfunktion $B(n)$, welche die Anzahl der Bakterien $B$ in Abhängigkeit von der Zeit $b$ in Tagen beschreibt.
+Gesucht ist die Bestandsfunktion $B(n)$, welche die Anzahl der Bakterien $B$ in Abhängigkeit von der Zeit $n$ in Tagen beschreibt.
 {{< /box-example >}}
 
 <!-- Lösung 2 -->
