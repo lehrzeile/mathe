@@ -28,6 +28,10 @@ als **Exponentialfunktion zur Basis $a$**.
 In der Mathematik beschreibt der Ausdruck **"exponentiell"** ein Wachstum oder einen Zerfall, bei dem sich eine Größe **in gleichbleibenden Zeitabständen immer um denselben Faktor multipliziert**, anstatt addiert zu werden, wie es bei linearem Wachstum der Fall ist. Das führt zu immer schnelleren Zu- oder Abnahmen, wie die beiden nachfolgenden Beispiele Bakterienwachstum (Bsp. 2) oder radioaktiver Zerfall (Bsp. 3) zeigen werden.
 {{< /box-notice >}}
 
+{{< box-notice title="Merke dir:" >}}
+Wächst eine Größe $G$ in gleich langen Zeitabschnitten um den gleichen Prozentsatz $p\\%$, d. h. wird immer mit dem gleichen Faktor ($q > 1$) vervielfacht, liegt ein **exponentielles Wachstum** vor.
+{{< /box-notice >}}
+
 {{< box-notice title="Wachstumsrate und Wachstumsfaktor" >}}
 Die **Wachstumsrate $p\\%$** gibt die Veränderung einer Ausgangsgröße in einem bestimmten Zeitabschnitt in Prozent an:
 
@@ -40,19 +44,21 @@ $$\displaystyle \qquad q = 1 + p\\% = 1 + \frac{p}{100}$$
 Bei einer Abnahme ist die Wachstumsrate negativ, der Wachstumsfaktor liegt dann zwischen $0$ und $1$.
 {{< /box-notice >}}
 
+{{< box-note title="" >}}
+Wird Geld verzinst, so nennt man den Wachstumsfaktor übrigens oft auch **Aufzinsungsfaktor**.
+{{< /box-note >}}
+
 {{< box-example title="Beispiel 1: Gewinn eines Unternehmens" >}}
 Der Gewinn einer Firma wuchs innerhalb eines Jahrs von $80.000€$ auf $86.000€$.
 
 $\displaystyle \qquad p\\% = \frac{86000 - 80000}{80000} = \frac{6000}{80000} = 7,5%$
 
-Der Gewinn des Unternehmens nimmt also um das $1,075$-fache zu:
+Die Wachstumsrate beträgt also $7,5\\%$.
+
+Das bedeutet auch, dass der Gewinn des Unternehmens um das $1,075$-fache zugenommen hat, denn der Wachstumsfaktor beträgt:
 
 $\qquad q = 1 + 7,5\\% = 1 + 0,075 = 1,075$.
 {{< /box-example >}}
-
-{{< box-notice title="Exponentielles Wachstum" >}}
-Wächst eine Größe $G$ in gleich langen Zeitabschnitten um den gleichen Prozentsatz $p\\%$, d. h. wird immer mit dem gleichen Faktor ($q > 1$) vervielfacht, liegt ein **exponentielles Wachstum** vor.
-{{< /box-notice >}}
 
 {{< box-note title="" >}}
 Im Falle von Prozessen mit negativen Wachstumsraten spricht auch man von **exponentieller Abnahme**.
