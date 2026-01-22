@@ -1,5 +1,5 @@
 ---
-title: "Exponentialfunktionen und exponentielles Wachstum"
+title: "Exponentielles Wachstum"
 description: ""
 summary: ""
 draft: false
@@ -40,6 +40,7 @@ Bei einer Abnahme ist die Wachstumsrate negativ, der Wachstumsfaktor liegt dann 
 Wird Geld verzinst, so nennt man den Wachstumsfaktor übrigens oft auch **Aufzinsungsfaktor**.
 {{< /box-question >}}
 
+<!-- Beispiel 1 -->
 {{< box-example title="Beispiel 1: Gewinn eines Unternehmens" >}}
 Der Gewinn einer Firma wuchs innerhalb eines Jahrs von $80.000€$ auf $86.000€$.
 
@@ -61,31 +62,51 @@ Im Falle von Prozessen mit negativen Wachstumsraten spricht auch man von **expon
 {{< image src="img/Bsp_Exponentialfunktion_2.svg" caption="Graph einer Exponentialfunktion bei exponentieller Abnahme" >}}
 {{< /gallery >}}
 
-<!-- Exponentiell = a * a * a * a * ... * a = a^n -->
-
 ### Erste Übungen
 
 {{< job title="Regelmäßigkeiten erkennen und Werte ergänzen" numbered="true" style="" name="" entry="Die beiden Tabellen beschreiben jeweils einen exponentiellen Vorgang. **Ergänze** die fehlenden Werte." >}}
 
-1. | n | 0 | 1 | 2 | 3 | 5 |
+1. | $n$ | 0 | 1 | 2 | 3 | 5 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
-| B(n) | 2 | 6 | 18 |  |  |
+| $B(n)$ | 2 | 6 | 18 |  |  |
 
-2. | n | 0 | 1 | 3 | 5 | 7 |
+2. | $n$ | 0 | 1 | 3 | 5 | 7 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
-| B(n) | 800 | 400 |  |  |  |
+| $B(n)$ | 800 | 400 |  |  |  |
 
 {{< /job >}}
 
-{{< job title="Exponentiell oder linear?" numbered="true" style="" name="" entry="**Prüfe**, ob ein lineares oder ein exponentielles Wachstum vorliegt." >}}
+{{< job title="Exponentiell oder linear?" numbered="true" style="" name="" entry="**Finde** heraus, um welche Art von Wachstum es sich handelt." >}}
 
-1. | n | 1 | 2 | 3 | 5 | 7 |
+1. | $n$ | 1 | 2 | 3 | 5 | 7 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
-| B(n) | 2 | 4 | 6 | 10 | 14 |
+| $B(n)$ | 2 | 4 | 6 | 10 | 14 |
 
-2. | n | 1 | 2 | 3 | 4 | 6 |
+2. | $n$ | 1 | 2 | 3 | 4 | 6 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
-| B(n) | $\frac12$ | $\frac14$ | $\frac18$ | $\frac{1}{16}$ | $\frac{1}{64}$ |
+| $B(n)$ | $\frac12$ | $\frac14$ | $\frac18$ | $\frac{1}{16}$ | $\frac{1}{64}$ |
+
+3. | $n$ | 0 | 1 | 2 | 3 | 4 | 10 | 20 |
+| --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| $B(n)$ | 4 | 10 | 25 | 62,5 |  |  |  |
+
+4. | $n$ | 0 | 1 | 2 | 3 | 4 | 10 | 20 |
+| --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| $B(n)$ | 28 | 23,5 | 19 | 14,5 |  |  |  |
+
+5. | $n$ | 0 | 1 | 2 | 3 | 4 | 10 | 20 |
+| --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| $B(n)$ | 120 | 96 | 76,8 | 61,44 |  |  |  |
+
+{{< /job >}}
+
+{{< job title="Exponentiell oder linear?" numbered="true" style="enum-alph" name="" entry="**Entscheide**, ob hier ein exponentielles Wachstum vorliegt und **gib** gegebenenfalls den Wachstumsfaktor **an**." >}}
+
+- Herr Maier legt sein Geld auf einem Tagesgeldkonto zu einem festen Zinssatz in Höhe von $2,1\\%$ an.
+- Der Wert eines Autos nimmt jährlich um $20\\%$ des Vorjahreswerts ab.
+- Johanna spart monatlich $5€$.
+- Eine Kettennachricht wird von jedem Empfänger an 7 weitere Personen geschickt.
+- Eine spezielle Algenkultur ($15g$) verdoppelt ihre Masse alle zwei Tage.
 
 {{< /job >}}
 
@@ -106,37 +127,37 @@ $$f(x) = c \cdot a^x$$
 als **Exponentialfunktion zur Basis $a$**.
 {{< /box-notice >}}
 
-<!-- Beispiel 1 -->
+<!-- Beispiel 2 -->
 {{< box-example title="Beispiel 2: Bakterienwachstum" >}}
 Eine Mikrobenpopulation wächst täglich um $60\\%$ an. Zu Beobachtungsbeginn sind $200$ Mikroben vorhanden.
 
-Gesucht ist die Bestandsfunktion $N(t)$, welche die Anzahl der Bakterien $N$ in Abhängigkeit von der Zeit $t$ in Tagen beschreibt.
-{{< /box-example >}}
-
-<!-- Lösung 1 -->
-{{< solution title="Lösung zu Beispiel 2" >}}
-Der gesuchte Wachstumsfaktor, mit dem sich die vorhandene Population an einem Tag vervielfacht, beträgt hier $1,60$. Da es sich um ein Wachstum handelt, ist dieser größer als $1$. Im Detail setzen sich die $1,60$ aus $100\\%$ Bestand plus $60\\%$ Zuwachs zusammen -- und dies ergibt $160\\%$, was wiederum $1,60$ entspricht.
-
-Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 200 \cdot 1,6^t$ ($t$ in Tagen).
-{{< /solution >}}
-
-<!-- Beispiel 2 -->
-{{< box-example title="Beispiel 3: Radioaktiver Zerfall" >}}
-In einem Experiment zerfallen minütlich $30\\%$ der noch vorhandenen Stoffmenge eines radioaktiven Elements. Zu Beobachtungsbeginn sind $2$ mg des Stoffs vorhanden.
-
-Gesucht ist die Bestandsfunktion $N(t)$, welche die noch nicht zerfallene Stoffmenge $N$ in Abhängigkeit von der Zeit $t$ in Minuten beschreibt.
+Gesucht ist die Bestandsfunktion $B(n)$, welche die Anzahl der Bakterien $B$ in Abhängigkeit von der Zeit $b$ in Tagen beschreibt.
 {{< /box-example >}}
 
 <!-- Lösung 2 -->
+{{< solution title="Lösung zu Beispiel 2" >}}
+Der gesuchte Wachstumsfaktor, mit dem sich die vorhandene Population an einem Tag vervielfacht, beträgt hier $1,60$. Da es sich um ein Wachstum handelt, ist dieser größer als $1$. Im Detail setzen sich die $1,60$ aus $100\\%$ Bestand plus $60\\%$ Zuwachs zusammen -- und dies ergibt $160\\%$, was wiederum $1,60$ entspricht.
+
+Die gesuchte Bestandsfunktion $B$ lautet also: $\qquad B(n) = 200 \cdot 1,6^n$ ($n$ in Tagen).
+{{< /solution >}}
+
+<!-- Beispiel 3 -->
+{{< box-example title="Beispiel 3: Radioaktiver Zerfall" >}}
+In einem Experiment zerfallen minütlich $30\\%$ der noch vorhandenen Stoffmenge eines radioaktiven Elements. Zu Beobachtungsbeginn sind $2$ mg des Stoffs vorhanden.
+
+Gesucht ist die Bestandsfunktion $B(n)$, welche die noch nicht zerfallene Stoffmenge $B$ in Abhängigkeit von der Zeit $n$ in Minuten beschreibt.
+{{< /box-example >}}
+
+<!-- Lösung 3 -->
 {{< solution title="Lösung zu Beispiel 3" >}}
 Es handelt sich hierbei um einen Zerfalls- bzw. Abnahmeprozess. Der Wachstumsfaktor ist hier also kleiner als $1$. Genauer gesagt beträgt dieser hier $0,7$, denn $100\\%$ abzüglich $30\\%$ Zerfall (Verlust) ergibt $70\\%$.
 
-Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 2 \cdot 0,7^t$ ($t$ in Minuten).
+Die gesuchte Bestandsfunktion $B$ lautet also: $\qquad B(n) = 2 \cdot 0,7^n$ ($n$ in Minuten).
 {{< /solution >}}
 
 ### Übung macht den Meister -- Teil 1
 
-{{< job title="Wertetabellen erstellen und Graphen skizzieren" numbered="true" style="" name="" entry="**Erstelle** eine Wertetabelle und **skizziere** den Graphen von $f$ für $-3 \leq x \leq 3$." >}}
+{{< job title="Wertetabellen erstellen und Graphen skizzieren" numbered="true" style="enum-alph" name="" entry="**Erstelle** eine Wertetabelle und **skizziere** den Graphen von $f$ für $-3 \leq x \leq 3$." >}}
 
 - $f(x) = 1,8 \cdot 2^x$
 - $f(x) = 0,6 \cdot 1,5^x$
@@ -148,7 +169,7 @@ Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 2 \cdot 0,7^t$ ($t
 
 {{< /job >}}
 
-{{< job title="Funktionsgleichungen und Funktionsgraphen zuordnen" numbered="true" style="" name="" entry="**Ordne** die gegebenen Funktionsgleichungen dem jeweils passenden Funktionsgraphen **zu**. **Begründe** kurz deine Zuordnung." >}}
+{{< job title="Funktionsgleichungen und Funktionsgraphen zuordnen" numbered="true" style="enum-arabic" name="" entry="**Ordne** die gegebenen Funktionsgleichungen dem jeweils passenden Funktionsgraphen **zu**. **Begründe** kurz deine Zuordnung." >}}
 
 {{< image src="img/Uebung_Exponentialfunktionen.svg" caption="Beispiel für den Graphen einer Exponentialfunktion bei exponentiellem Wachstum" >}}
 
