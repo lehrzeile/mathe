@@ -62,7 +62,7 @@ Im Falle von Prozessen mit negativen Wachstumsraten spricht auch man von **expon
 {{< image src="img/Bsp_Exponentialfunktion_2.svg" caption="Graph einer Exponentialfunktion bei exponentieller Abnahme" >}}
 {{< /gallery >}}
 
-### Erste Übungen
+## Erste Übungen
 
 {{< job title="Regelmäßigkeiten erkennen und Werte ergänzen" numbered="true" style="" name="" entry="Die beiden Tabellen beschreiben jeweils einen exponentiellen Vorgang. **Ergänze** die fehlenden Werte." >}}
 
@@ -155,7 +155,7 @@ Es handelt sich hierbei um einen Zerfalls- bzw. Abnahmeprozess. Der Wachstumsfak
 Die gesuchte Bestandsfunktion $B$ lautet also: $\qquad B(n) = 2 \cdot 0,7^n$ ($n$ in Minuten).
 {{< /solution >}}
 
-### Übung macht den Meister -- Teil 1
+## Übung macht den Meister
 
 {{< job title="Wertetabellen erstellen und Graphen skizzieren" numbered="true" style="enum-alph" name="" entry="**Erstelle** eine Wertetabelle und **skizziere** den Graphen von $f$ für $-3 \leq x \leq 3$." >}}
 
