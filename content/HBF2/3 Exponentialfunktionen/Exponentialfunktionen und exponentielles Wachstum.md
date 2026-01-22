@@ -54,9 +54,9 @@ $\qquad q = 1 + 7,5\\% = 1 + 0,075 = 1,075$.
 Wächst eine Größe $G$ in gleich großen Abschnitten um den gleichen Prozentsatz $p\\%$, d. h. wird immer mit dem gleichen Faktor ($q > 1$) vervielfacht, liegt ein **exponentielles Wachstum** vor.
 {{< /box-notice >}}
 
-{{ box-note title="" }}
-Im Falle von Prozessen mit negativer Wachstumsraten spricht auch man von **exponentieller Abnahme**.
-{{ /box-note }}
+{{< box-note title="" >}}
+Im Falle von Prozessen mit negativen Wachstumsraten spricht auch man von **exponentieller Abnahme**.
+{{< /box-note >}}
 
 {{< gallery images="2" >}}
 {{< image src="img/Bsp_Exponentialfunktion_1.svg" caption="Beispiel für den Graphen einer Exponentialfunktion bei exponentiellem Wachstum" >}}
@@ -117,20 +117,39 @@ Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 2 \cdot 0,7^t$ ($t
 
 ### Übung macht den Meister -- Teil 1
 
-{{< job title="Wertetabellen erstellen und Graphen skizzieren" numbered="true" style="" name="" entry="" >}}
-    a
-{{< /job >}}
-
-{{< job title="Wertetabellen ergänzen" numbered="true" style="" name="" entry="" >}}
-    b
+{{< job title="Wertetabellen erstellen und Graphen skizzieren" numbered="true" style="" name="" entry="Erstelle eine Wertetabelle und skizziere den Graphen von $f$ für $-3 \leq x \leq 3$." >}}
+    + $f(x) = 1,8 \cdot 2^x$
+    + $f(x) = 0,6 \cdot 1,5^x$
+    + $f(x) = 2 \cdot 0,6^x$
+    + $f(x) = 0,5 \cdot 1,5^x$
+    + $f(x) = 0,5 \cdot 2^x$
+    + $f(x) = 0,5 \cdot 0,6^x$
+    + $f(x) = -2^x$
 {{< /job >}}
 
 {{< job title="Funktionsgleichungen und Funktionsgraphen zuordnen" numbered="true" style="" name="" entry="**Ordne** die gegebenen Funktionsgleichungen dem jeweils passenden Funktionsgraphen **zu**. **Begründe** kurz deine Zuordnung." >}}
 
-+ a
-+ b
+{{< columns >}}
+    {{< column >}}
+
+        + $f(x) = 2^x$
+        + $f(x) = 3,1^x$
+        + $f(x) = 1,3^x$
+        + $f(x) = 0,2^x$
+        + $f(x) = (\frac12)^x$
+        + $f(x) = (\frac34)^x$
+
+    {{< /column >}}
+    {{< column >}}
+        {{< image src="img/Uebung_Exponentialfunktionen.svg" caption="Beispiel für den Graphen einer Exponentialfunktion bei exponentiellem Wachstum" >}}
+    {{< /column >}}
+{{< /columns >}}
 
 {{< /job >}}
+
+<!-- {{< job title="Wertetabellen ergänzen" numbered="true" style="" name="" entry="" >}}
+    b
+{{< /job >}} -->
 
 {{< job title="Regelmäßigkeiten erkennen und Funktionsgleichungen aufstellen" numbered="true" style="" name="" entry="" >}}
     c
