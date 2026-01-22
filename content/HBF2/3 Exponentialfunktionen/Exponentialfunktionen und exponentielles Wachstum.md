@@ -73,7 +73,7 @@ Im Falle von Prozessen mit negativen Wachstumsraten spricht auch man von **expon
 
 ### Erste Übungen
 
-{{< job title="Regelmäßigkeiten erkennen" numbered="true" style="" name="" entry="Die Tabelle beschreibt jeweils einen exponentiellen Vorgang. **Ergänze** die fehlenden Werte." >}}
+{{< job title="Regelmäßigkeiten erkennen und Werte ergänzen" numbered="true" style="" name="" entry="Die Tabelle beschreibt jeweils einen exponentiellen Vorgang. **Ergänze** die fehlenden Werte." >}}
 
 + | n | 0 | 1 | 2 | 3 | 5 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
@@ -96,7 +96,7 @@ Im Falle von Prozessen mit negativen Wachstumsraten spricht auch man von **expon
 {{< /job >}}
 
 {{< solution title="" >}}
-    Lösungen
+    folgen...
 {{< /solution >}}
 
 ## Exponentielles Wachstum erkennen und beschreiben
@@ -133,34 +133,34 @@ Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 2 \cdot 0,7^t$ ($t
 
 {{< job title="Wertetabellen erstellen und Graphen skizzieren" numbered="true" style="" name="" entry="Erstelle eine Wertetabelle und skizziere den Graphen von $f$ für $-3 \leq x \leq 3$." >}}
 
-    - $f(x) = 1,8 \cdot 2^x$
-    - $f(x) = 0,6 \cdot 1,5^x$
-    - $f(x) = 2 \cdot 0,6^x$
-    - $f(x) = 0,5 \cdot 1,5^x$
-    - $f(x) = 0,5 \cdot 2^x$
-    - $f(x) = 0,5 \cdot 0,6^x$
-    - $f(x) = -2^x$
+- $f(x) = 1,8 \cdot 2^x$
+- $f(x) = 0,6 \cdot 1,5^x$
+- $f(x) = 2 \cdot 0,6^x$
+- $f(x) = 0,5 \cdot 1,5^x$
+- $f(x) = 0,5 \cdot 2^x$
+- $f(x) = 0,5 \cdot 0,6^x$
+- $f(x) = -2^x$
 
 {{< /job >}}
 
 {{< job title="Funktionsgleichungen und Funktionsgraphen zuordnen" numbered="true" style="" name="" entry="**Ordne** die gegebenen Funktionsgleichungen dem jeweils passenden Funktionsgraphen **zu**. **Begründe** kurz deine Zuordnung." >}}
+    {{< columns >}}
+        {{< column >}}
 
-{{< columns >}}
-    {{< column >}}
+    - $f(x) = 2^x$
+    - $f(x) = 3,1^x$
+    - $f(x) = 1,3^x$
+    - $f(x) = 0,2^x$
+    - $f(x) = (\frac12)^x$
+    - $f(x) = (\frac34)^x$
 
-        1. $f(x) = 2^x$
-        2. $f(x) = 3,1^x$
-        3. $f(x) = 1,3^x$
-        4. $f(x) = 0,2^x$
-        5. $f(x) = (\frac12)^x$
-        6. $f(x) = (\frac34)^x$
+        {{< /column >}}
+        {{< column >}}
 
-    {{< /column >}}
-    {{< column >}}
-        {{< image src="img/Uebung_Exponentialfunktionen.svg" caption="Beispiel für den Graphen einer Exponentialfunktion bei exponentiellem Wachstum" >}}
-    {{< /column >}}
-{{< /columns >}}
+    {{< image src="img/Uebung_Exponentialfunktionen.svg" caption="Beispiel für den Graphen einer Exponentialfunktion bei exponentiellem Wachstum" >}}
 
+        {{< /column >}}
+    {{< /columns >}}
 {{< /job >}}
 
 <!-- {{< job title="Wertetabellen ergänzen" numbered="true" style="" name="" entry="" >}}
@@ -168,17 +168,17 @@ Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 2 \cdot 0,7^t$ ($t
 {{< /job >}} -->
 
 {{< job title="Regelmäßigkeiten erkennen und Funktionsgleichungen aufstellen" numbered="true" style="" name="" entry="" >}}
-    c
+    folgt...
 {{< /job >}}
 
 {{< solution title="" >}}
-    Lösungen
+    folgen...
 {{< /solution >}}
 
-## Berechnung von Funktions- und Umkehrwerten
+<!-- ## Berechnung von Funktions- und Umkehrwerten
 
-- "Nach welcher Zeit?"
-- "Wie viel nach einer bestimmten Zeit?"
+- "Nach welcher Zeit ...?"
+- "Wie viel ... nach einer bestimmten Zeit?"
 
 1. Lösung durch Ausprobieren
 2. graphische Lösung
@@ -186,21 +186,21 @@ Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 2 \cdot 0,7^t$ ($t
 
 <!-- Definition Logarithmus -->
 {{< box-notice title="" >}}
-    a
+    folgt...
 {{< /box-notice >}}
 
 ### Übung macht den Meister -- Teil 2
 
 {{< job title="Exponentialgleichungen lösen - Level 1" numbered="true" style="" name="" entry="" >}}
-    c
+    folgt...
 {{< /job >}}
 
 {{< job title="Exponentialgleichungen lösen - Level 2" numbered="true" style="" name="" entry="" >}}
-    c
+    folgt...
 {{< /job >}}
 
 {{< solution title="" >}}
-    Lösungen
+    folgen...
 {{< /solution >}}
 
 ## Exponentielle Bestandsfunktionen bestimmen
@@ -228,5 +228,5 @@ Gesucht ist zunächst der Wachstumsfaktor sowie die Bestandsfunktion $N(t)$, wel
 {{< /job >}}
 
 {{< job title="Exponentialgleichungen aufstellen - Level 2" numbered="true" style="" name="" entry="" >}}
-    c
-{{< /job >}}
+    folgt...
+{{< /job >}} -->
