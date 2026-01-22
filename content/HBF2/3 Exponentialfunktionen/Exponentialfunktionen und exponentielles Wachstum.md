@@ -65,12 +65,13 @@ Im Falle von Prozessen mit negativen Wachstumsraten spricht auch man von **expon
 
 ### Erste Übungen
 
-{{< job title="Regelmäßigkeiten erkennen und Werte ergänzen" numbered="true" style="" name="" entry="Die Tabelle beschreibt jeweils einen exponentiellen Vorgang. **Ergänze** die fehlenden Werte." >}}
+{{< job title="Regelmäßigkeiten erkennen und Werte ergänzen" numbered="true" style="" name="" entry="Die beiden Tabellen beschreiben jeweils einen exponentiellen Vorgang. **Ergänze** die fehlenden Werte." >}}
 
-+ | n | 0 | 1 | 2 | 3 | 5 |
+1. | n | 0 | 1 | 2 | 3 | 5 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
 | B(n) | 2 | 6 | 18 |  |  |
-+ | n | 0 | 1 | 3 | 5 | 7 |
+
+2. | n | 0 | 1 | 3 | 5 | 7 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
 | B(n) | 800 | 400 |  |  |  |
 
@@ -78,10 +79,11 @@ Im Falle von Prozessen mit negativen Wachstumsraten spricht auch man von **expon
 
 {{< job title="Exponentiell oder linear?" numbered="true" style="" name="" entry="**Prüfe**, ob ein lineares oder ein exponentielles Wachstum vorliegt." >}}
 
-+ | n | 1 | 2 | 3 | 5 | 7 |
+1. | n | 1 | 2 | 3 | 5 | 7 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
 | B(n) | 2 | 4 | 6 | 10 | 14 |
-+ | n | 1 | 2 | 3 | 4 | 6 |
+
+2. | n | 1 | 2 | 3 | 4 | 6 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
 | B(n) | $\frac12$ | $\frac14$ | $\frac18$ | $\frac{1}{16}$ | $\frac{1}{64}$ |
 
@@ -134,7 +136,7 @@ Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 2 \cdot 0,7^t$ ($t
 
 ### Übung macht den Meister -- Teil 1
 
-{{< job title="Wertetabellen erstellen und Graphen skizzieren" numbered="true" style="" name="" entry="Erstelle eine Wertetabelle und skizziere den Graphen von $f$ für $-3 \leq x \leq 3$." >}}
+{{< job title="Wertetabellen erstellen und Graphen skizzieren" numbered="true" style="" name="" entry="**Erstelle** eine Wertetabelle und **skizziere** den Graphen von $f$ für $-3 \leq x \leq 3$." >}}
 
 - $f(x) = 1,8 \cdot 2^x$
 - $f(x) = 0,6 \cdot 1,5^x$
@@ -147,23 +149,16 @@ Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 2 \cdot 0,7^t$ ($t
 {{< /job >}}
 
 {{< job title="Funktionsgleichungen und Funktionsgraphen zuordnen" numbered="true" style="" name="" entry="**Ordne** die gegebenen Funktionsgleichungen dem jeweils passenden Funktionsgraphen **zu**. **Begründe** kurz deine Zuordnung." >}}
-    {{< columns >}}
-        {{< column >}}
 
-    - $f(x) = 2^x$
-    - $f(x) = 3,1^x$
-    - $f(x) = 1,3^x$
-    - $f(x) = 0,2^x$
-    - $f(x) = (\frac12)^x$
-    - $f(x) = (\frac34)^x$
+{{< image src="img/Uebung_Exponentialfunktionen.svg" caption="Beispiel für den Graphen einer Exponentialfunktion bei exponentiellem Wachstum" >}}
 
-        {{< /column >}}
-        {{< column >}}
+- $f(x) = 2^x$
+- $f(x) = 3,1^x$
+- $f(x) = 1,3^x$
+- $f(x) = 0,2^x$
+- $f(x) = (\frac12)^x$
+- $f(x) = (\frac34)^x$
 
-    {{< image src="img/Uebung_Exponentialfunktionen.svg" caption="Beispiel für den Graphen einer Exponentialfunktion bei exponentiellem Wachstum" >}}
-
-        {{< /column >}}
-    {{< /columns >}}
 {{< /job >}}
 
 <!-- {{< job title="Wertetabellen ergänzen" numbered="true" style="" name="" entry="" >}}
@@ -188,11 +183,11 @@ Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 2 \cdot 0,7^t$ ($t
 3. rechnerische Lösung (Logarithmus)
 
 <!-- Definition Logarithmus -->
-{{< box-notice title="" >}}
+<!-- {{< box-notice title="" >}}
     folgt...
-{{< /box-notice >}}
+{{< /box-notice >}} -->
 
-### Übung macht den Meister -- Teil 2
+<!-- ### Übung macht den Meister -- Teil 2
 
 {{< job title="Exponentialgleichungen lösen - Level 1" numbered="true" style="" name="" entry="" >}}
     folgt...
@@ -204,22 +199,22 @@ Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 2 \cdot 0,7^t$ ($t
 
 {{< solution title="" >}}
     folgen...
-{{< /solution >}}
+{{< /solution >}} -->
 
-## Exponentielle Bestandsfunktionen bestimmen
+<!-- ## Exponentielle Bestandsfunktionen bestimmen
 
 1. $a$ und Punkt gegeben
-2. Lösung durch Einsetzen von zwei Punkten
+2. Lösung durch Einsetzen von zwei Punkten -->
 
 <!-- Beispiel 3 -->
-{{< box-example title="Beispiel 3: Bakterienwachstum" >}}
+<!-- {{< box-example title="Beispiel 3: Bakterienwachstum" >}}
 Das Wachstum einer weiteren Mikrobenpopulation ist unbekannt. Zu Beobachtungsbeginn sind $400$ Mikroben vorhanden.
 Nach $4$ Tagen hat sich die Population auf etwa $4200$ Mikroben erhöht.
 
 Gesucht ist zunächst der Wachstumsfaktor sowie die Bestandsfunktion $N(t)$, welche die Anzahl der Bakterien $N$ in Abhängigkeit von der Zeit $t$ in Tagen beschreibt.
-{{< /box-example >}}
+{{< /box-example >}} -->
 
-### Übungen zum Aufstellen von Exponentialfunktionen
+<!-- ### Übungen zum Aufstellen von Exponentialfunktionen
 
 {{< job title="Exponentialgleichungen aufstellen - Level 1" numbered="true" style="" name="" entry="**Ermittle** eine exponentielle Bestandsfunktion zum Anfangswert $a$, deren Graph durch den Punkt $P$ verläuft." >}}
 
