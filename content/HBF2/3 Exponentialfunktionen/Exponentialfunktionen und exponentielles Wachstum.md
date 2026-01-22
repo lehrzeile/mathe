@@ -25,17 +25,17 @@ als **Exponentialfunktion zur Basis $a$**.
 {{< /box-notice >}}
 
 {{< box-notice title="Exponentielles vs. lineares Wachstum" >}}
-In der Mathematik beschreibt der Ausdruck **"exponentiell"** ein Wachstum oder einen Zerfall, bei dem sich eine Größe **in gleichbleibenden Zeitabständen immer um denselben Faktor multipliziert**, anstatt addiert zu werden, wie es bei linearem Wachstum der Fall ist. Das führt zu immer schnelleren Zu- oder Abnahmen, wie bei die nachfolgenden Beispiele Bakterienwachstum (Bsp. 2) oder radioaktiver Zerfall (Bsp. 3) zeigen werden.
+In der Mathematik beschreibt der Ausdruck **"exponentiell"** ein Wachstum oder einen Zerfall, bei dem sich eine Größe **in gleichbleibenden Zeitabständen immer um denselben Faktor multipliziert**, anstatt addiert zu werden, wie es bei linearem Wachstum der Fall ist. Das führt zu immer schnelleren Zu- oder Abnahmen, wie die beiden nachfolgenden Beispiele Bakterienwachstum (Bsp. 2) oder radioaktiver Zerfall (Bsp. 3) zeigen werden.
 {{< /box-notice >}}
 
 {{< box-notice title="Wachstumsrate und Wachstumsfaktor" >}}
-Die Wachstumsrate $p %$ gibt die Veränderung einer Ausgangsgröße in einem bestimmten Abschnitt in Prozent an.
+Die **Wachstumsrate $p\\%$** gibt die Veränderung einer Ausgangsgröße in einem bestimmten Zeitabschnitt in Prozent an:
 
-**Wachstumsrate:** $\displaystyle \qquad p\\% = \frac{\textrm{neue Größe - alte Größe}}{\textrm{alte Größe}}$
+$$\displaystyle \qquad p\\% = \frac{\textrm{neue Größe - alte Größe}}{\textrm{alte Größe}}$$
 
-Der Faktor, mit dem der alte Wert multipliziert werden muss, um den neuen Wert zu erhalten, heißt Wachstumsfaktor $q$.
+Der Faktor, mit dem der alte Wert multipliziert werden muss, um den neuen Wert zu erhalten, heißt **Wachstumsfaktor $q$**:
 
-**Wachstumsfaktor:** $\displaystyle \qquad q = 1 + p\\% = 1 + \frac{p}{100}$
+$$\displaystyle \qquad q = 1 + p\\% = 1 + \frac{p}{100}$$
 
 Bei einer Abnahme ist die Wachstumsrate negativ, der Wachstumsfaktor liegt dann zwischen $0$ und $1$.
 {{< /box-notice >}}
@@ -51,7 +51,7 @@ $\qquad q = 1 + 7,5\\% = 1 + 0,075 = 1,075$.
 {{< /box-example >}}
 
 {{< box-notice title="Exponentielles Wachstum" >}}
-Wächst eine Größe $G$ in gleich großen Abschnitten um den gleichen Prozentsatz $p\\%$, d. h. wird immer mit dem gleichen Faktor ($q > 1$) vervielfacht, liegt ein **exponentielles Wachstum** vor.
+Wächst eine Größe $G$ in gleich langen Zeitabschnitten um den gleichen Prozentsatz $p\\%$, d. h. wird immer mit dem gleichen Faktor ($q > 1$) vervielfacht, liegt ein **exponentielles Wachstum** vor.
 {{< /box-notice >}}
 
 {{< box-note title="" >}}
@@ -59,8 +59,8 @@ Im Falle von Prozessen mit negativen Wachstumsraten spricht auch man von **expon
 {{< /box-note >}}
 
 {{< gallery images="2" >}}
-{{< image src="img/Bsp_Exponentialfunktion_1.svg" caption="Beispiel für den Graphen einer Exponentialfunktion bei exponentiellem Wachstum" >}}
-{{< image src="img/Bsp_Exponentialfunktion_2.svg" caption="Beispiel für den Graphen einer Exponentialfunktion bei exponentieller Abnahme" >}}
+{{< image src="img/Bsp_Exponentialfunktion_1.svg" caption="Graph einer Exponentialfunktion bei exponentiellem Wachstum" >}}
+{{< image src="img/Bsp_Exponentialfunktion_2.svg" caption="Graph einer Exponentialfunktion bei exponentieller Abnahme" >}}
 {{< /gallery >}}
 
 <!-- Exponentiell = a * a * a * a * ... * a = a^n -->
@@ -69,15 +69,23 @@ Im Falle von Prozessen mit negativen Wachstumsraten spricht auch man von **expon
 
 {{< job title="Regelmäßigkeiten erkennen" numbered="true" style="" name="" entry="Die Tabelle beschreibt jeweils einen exponentiellen Vorgang. **Ergänze** die fehlenden Werte." >}}
 
-+ a
-+ b
++ | n | 0 | 1 | 2 | 3 | 5 |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| B(n) | 2 | 6 | 18 |  |  |
++ | n | 0 | 1 | 3 | 5 | 7 |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| B(n) | 800 | 400 |  |  |  |
 
 {{< /job >}}
 
 {{< job title="Exponentiell oder linear?" numbered="true" style="" name="" entry="**Prüfe**, ob ein lineares oder ein exponentielles Wachstum vorliegt." >}}
 
-+ a
-+ b
++ | n | 1 | 2 | 3 | 5 | 7 |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| B(n) | 2 | 4 | 6 | 10 | 14 |
++ | n | 1 | 2 | 3 | 4 | 6 |
+| --------- | --------- | --------- | --------- | --------- | --------- |
+| B(n) | $\frac12$ | $\frac14$ | $\frac18$ | $\frac{1}{16}$ | $\frac{1}{64}$ |
 
 {{< /job >}}
 
@@ -118,13 +126,15 @@ Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 2 \cdot 0,7^t$ ($t
 ### Übung macht den Meister -- Teil 1
 
 {{< job title="Wertetabellen erstellen und Graphen skizzieren" numbered="true" style="" name="" entry="Erstelle eine Wertetabelle und skizziere den Graphen von $f$ für $-3 \leq x \leq 3$." >}}
-    + $f(x) = 1,8 \cdot 2^x$
-    + $f(x) = 0,6 \cdot 1,5^x$
-    + $f(x) = 2 \cdot 0,6^x$
-    + $f(x) = 0,5 \cdot 1,5^x$
-    + $f(x) = 0,5 \cdot 2^x$
-    + $f(x) = 0,5 \cdot 0,6^x$
-    + $f(x) = -2^x$
+
+    - $f(x) = 1,8 \cdot 2^x$
+    - $f(x) = 0,6 \cdot 1,5^x$
+    - $f(x) = 2 \cdot 0,6^x$
+    - $f(x) = 0,5 \cdot 1,5^x$
+    - $f(x) = 0,5 \cdot 2^x$
+    - $f(x) = 0,5 \cdot 0,6^x$
+    - $f(x) = -2^x$
+
 {{< /job >}}
 
 {{< job title="Funktionsgleichungen und Funktionsgraphen zuordnen" numbered="true" style="" name="" entry="**Ordne** die gegebenen Funktionsgleichungen dem jeweils passenden Funktionsgraphen **zu**. **Begründe** kurz deine Zuordnung." >}}
@@ -132,12 +142,12 @@ Die gesuchte Bestandsfunktion $N$ lautet also: $\qquad N(t) = 2 \cdot 0,7^t$ ($t
 {{< columns >}}
     {{< column >}}
 
-        + $f(x) = 2^x$
-        + $f(x) = 3,1^x$
-        + $f(x) = 1,3^x$
-        + $f(x) = 0,2^x$
-        + $f(x) = (\frac12)^x$
-        + $f(x) = (\frac34)^x$
+        1. $f(x) = 2^x$
+        2. $f(x) = 3,1^x$
+        3. $f(x) = 1,3^x$
+        4. $f(x) = 0,2^x$
+        5. $f(x) = (\frac12)^x$
+        6. $f(x) = (\frac34)^x$
 
     {{< /column >}}
     {{< column >}}
