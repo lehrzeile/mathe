@@ -64,37 +64,37 @@ Im Falle von Prozessen mit negativen Wachstumsraten spricht auch man von **expon
 
 ## Erste Übungen
 
-{{< job title="Regelmäßigkeiten erkennen und Werte ergänzen" numbered="true" style="" name="" entry="Die beiden Tabellen beschreiben jeweils einen exponentiellen Vorgang. **Ergänze** die fehlenden Werte." >}}
+{{< job title="Regelmäßigkeiten erkennen und Werte ergänzen" numbered="true" style="enum-alph" name="" columns="2" entry="Die beiden Tabellen beschreiben jeweils einen exponentiellen Vorgang. **Ergänze** die fehlenden Werte." >}}
 
-1. | $n$ | 0 | 1 | 2 | 3 | 5 |
+- | $n$ | 0 | 1 | 2 | 3 | 5 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
 | $B(n)$ | 2 | 6 | 18 |  |  |
 
-2. | $n$ | 0 | 1 | 3 | 5 | 7 |
+- | $n$ | 0 | 1 | 3 | 5 | 7 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
 | $B(n)$ | 800 | 400 |  |  |  |
 
 {{< /job >}}
 
-{{< job title="Exponentiell oder linear?" numbered="true" style="" name="" entry="**Finde** heraus, um welche Art von Wachstum es sich handelt." >}}
+{{< job title="Exponentiell oder linear?" numbered="true" style="enum-alph" name="" entry="**Finde** heraus, um welche Art von Wachstum es sich handelt." >}}
 
-1. | $n$ | 1 | 2 | 3 | 5 | 7 |
+- | $n$ | 1 | 2 | 3 | 5 | 7 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
 | $B(n)$ | 2 | 4 | 6 | 10 | 14 |
 
-2. | $n$ | 1 | 2 | 3 | 4 | 6 |
+- | $n$ | 1 | 2 | 3 | 4 | 6 |
 | --------- | --------- | --------- | --------- | --------- | --------- |
 | $B(n)$ | $\frac12$ | $\frac14$ | $\frac18$ | $\frac{1}{16}$ | $\frac{1}{64}$ |
 
-3. | $n$ | 0 | 1 | 2 | 3 | 4 | 10 | 20 |
+- | $n$ | 0 | 1 | 2 | 3 | 4 | 10 | 20 |
 | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
 | $B(n)$ | 4 | 10 | 25 | 62,5 |  |  |  |
 
-4. | $n$ | 0 | 1 | 2 | 3 | 4 | 10 | 20 |
+- | $n$ | 0 | 1 | 2 | 3 | 4 | 10 | 20 |
 | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
 | $B(n)$ | 28 | 23,5 | 19 | 14,5 |  |  |  |
 
-5. | $n$ | 0 | 1 | 2 | 3 | 4 | 10 | 20 |
+- | $n$ | 0 | 1 | 2 | 3 | 4 | 10 | 20 |
 | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
 | $B(n)$ | 120 | 96 | 76,8 | 61,44 |  |  |  |
 
@@ -157,7 +157,7 @@ Die gesuchte Bestandsfunktion $B$ lautet also: $\qquad B(n) = 2 \cdot 0,7^n$ ($n
 
 ## Übung macht den Meister
 
-{{< job title="Wertetabellen erstellen und Graphen skizzieren" numbered="true" style="enum-alph" name="" entry="**Erstelle** eine Wertetabelle und **skizziere** den Graphen von $f$ für $-3 \leq x \leq 3$." >}}
+{{< job title="Wertetabellen erstellen und Graphen skizzieren" numbered="true" style="enum-alph" name="" columns="2" entry="**Erstelle** eine Wertetabelle und **skizziere** den Graphen von $f$ für $-3 \leq x \leq 3$." >}}
 
 - $f(x) = 1,8 \cdot 2^x$
 - $f(x) = 0,6 \cdot 1,5^x$
@@ -169,7 +169,7 @@ Die gesuchte Bestandsfunktion $B$ lautet also: $\qquad B(n) = 2 \cdot 0,7^n$ ($n
 
 {{< /job >}}
 
-{{< job title="Funktionsgleichungen und Funktionsgraphen zuordnen" numbered="true" style="enum-arabic" name="" entry="**Ordne** die gegebenen Funktionsgleichungen dem jeweils passenden Funktionsgraphen aus Abbildung 3 **zu**. **Begründe** kurz deine Zuordnung." >}}
+{{< job title="Funktionsgleichungen und Funktionsgraphen zuordnen" numbered="true" style="enum-alph" name="" columns="2" entry="**Ordne** die gegebenen Funktionsgleichungen dem jeweils passenden Funktionsgraphen aus Abbildung 3 **zu**. **Begründe** kurz deine Zuordnung." >}}
 
 - $f(x) = 2^x$
 - $f(x) = 3,1^x$
