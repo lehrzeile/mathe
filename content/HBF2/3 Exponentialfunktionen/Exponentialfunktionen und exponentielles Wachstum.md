@@ -9,20 +9,12 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-## Einstieg
+## Exponentielles Wachstum verstehen
 
 Es gibt eine Klasse von Funktionen, mit deren Hilfe sich viele Wachstums- und Zerfallsprozesse modellhaft darstellen und erfassen lassen. Die Rede ist von sogenannten **Exponentialfunktionen**.
+Mit diesen befassen wir uns in diesem Kapitel.
 
-<!-- Definition -->
-{{< box-notice title="Definition:" >}}
-Seien $c$ und $a$ reelle Zahlen ($c, a \in \mathbb{R}$) mit $c$ ungleich Null ($c \neq 0$), $a$ positiv ($a > 0$) und ungleich Eins ($a \neq 1$).
-
-Dann bezeichnet man die Funktion
-
-$$f(x) = c \cdot a^x$$
-
-als **Exponentialfunktion zur Basis $a$**.
-{{< /box-notice >}}
+Zunächst wollen wir jedoch den Blick auf ein paar Begriffe werfen, die hierfür grundlegend sind.
 
 {{< box-notice title="Exponentielles vs. lineares Wachstum" >}}
 In der Mathematik beschreibt der Ausdruck **"exponentiell"** ein Wachstum oder einen Zerfall, bei dem sich eine Größe **in gleichbleibenden Zeitabständen immer um denselben Faktor multipliziert**, anstatt addiert zu werden, wie es bei linearem Wachstum der Fall ist. Das führt zu immer schnelleren Zu- oder Abnahmen, wie die beiden nachfolgenden Beispiele Bakterienwachstum (Bsp. 2) oder radioaktiver Zerfall (Bsp. 3) zeigen werden.
@@ -44,9 +36,9 @@ $$\displaystyle \qquad q = 1 + p\\% = 1 + \frac{p}{100}$$
 Bei einer Abnahme ist die Wachstumsrate negativ, der Wachstumsfaktor liegt dann zwischen $0$ und $1$.
 {{< /box-notice >}}
 
-{{< box-note title="" >}}
+{{< box-question title="Wusstest du?" >}}
 Wird Geld verzinst, so nennt man den Wachstumsfaktor übrigens oft auch **Aufzinsungsfaktor**.
-{{< /box-note >}}
+{{< /box-question >}}
 
 {{< box-example title="Beispiel 1: Gewinn eines Unternehmens" >}}
 Der Gewinn einer Firma wuchs innerhalb eines Jahrs von $80.000€$ auf $86.000€$.
@@ -100,6 +92,17 @@ Im Falle von Prozessen mit negativen Wachstumsraten spricht auch man von **expon
 {{< /solution >}}
 
 ## Exponentielles Wachstum erkennen und beschreiben
+
+<!-- Definition Exponentialfunktion -->
+{{< box-notice title="Definition:" >}}
+Seien $c$ und $a$ reelle Zahlen ($c, a \in \mathbb{R}$) mit $c$ ungleich Null ($c \neq 0$), $a$ positiv ($a > 0$) und ungleich Eins ($a \neq 1$).
+
+Dann bezeichnet man die Funktion
+
+$$f(x) = c \cdot a^x$$
+
+als **Exponentialfunktion zur Basis $a$**.
+{{< /box-notice >}}
 
 <!-- Beispiel 1 -->
 {{< box-example title="Beispiel 2: Bakterienwachstum" >}}
