@@ -66,7 +66,7 @@ $\begin{aligned}
 
 {{< /job >}}
 
-{{< job title="Exponentialgleichungen lösen - Level 2" numbered="true" style="enum-alph" name="" entry="**Löse** die Exponentialgleichung. Runde das Ergebnis auf Hundertstel." >}}
+{{< job title="Exponentialgleichungen lösen - Level 2" numbered="true" style="enum-alph" columns="2" name="" entry="**Löse** die Exponentialgleichung. Runde das Ergebnis auf Hundertstel." >}}
 
 - $2^x = 128$
 - $10^x = 350$
