@@ -26,13 +26,13 @@ Letztere ist diejenige, auf die wir uns nachfolgend konzentrieren werden. Die Um
 
 <!-- Definition Logarithmus -->
 {{< box-notice title="Definition Logarithmus" >}}
-    Der **Logarithmus** ist die Umkehroperation zum Potenzieren und beantwortet die Frage: *"Mit welcher Zahl (Exponent $x$) muss ich eine Basis ($a$) potenzieren, um einen bestimmten Wert (Numerus $N$) zu erhalten?"*.
+Der **Logarithmus** ist die Umkehroperation zum Potenzieren und beantwortet die Frage: *"Mit welcher Zahl (Exponent $x$) muss ich eine Basis ($a$) potenzieren, um einen bestimmten Wert (Numerus $N$) zu erhalten?"*.
 
-    Die oben genannte Gleichung, welche wir lösen wollen, lautet also: $a^x=N$.
+Die oben genannte Gleichung, welche wir lösen wollen, lautet also: $a^x=N$.
 
-    Die Schreibweise der Lösung lautet dann: $log_b(N)=x$.
-    
-    Wichtige Regeln sind, dass der Numerus $N$ und die Basis $a$ positiv sein müssen und die Basis $a$ nicht $1$ sein darf.
+Die Schreibweise der Lösung lautet dann: $log_b(N)=x$.
+
+Wichtige Regeln sind, dass der Numerus $N$ und die Basis $a$ positiv sein müssen und die Basis $a$ nicht $1$ sein darf.
 {{< /box-notice >}}
 
 ### Übung macht den Meister
