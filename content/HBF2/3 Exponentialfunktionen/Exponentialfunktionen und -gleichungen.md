@@ -30,9 +30,9 @@ Der **Logarithmus** ist die Umkehroperation zum Potenzieren und beantwortet die 
 
 Die oben genannte Gleichung, welche wir lösen wollen, lautet also: $a^x=N$.
 
-Die Schreibweise der Lösung lautet dann: $log_b(N)=x$.
+Die Schreibweise der Lösung lautet dann: $x = log_b(N)$.
 
-Gesprochen: *"Logarithmus zur Basis $b$ von $N$ gleich $x$."*
+Gesprochen: *"$x$ ist gleich der Logarithmus zur Basis $b$ von $N$."*
 
 Wichtige Regeln sind, dass der Numerus $N$ und die Basis $a$ positiv sein müssen und die Basis $a$ nicht $1$ sein darf.
 {{< /box-notice >}}
