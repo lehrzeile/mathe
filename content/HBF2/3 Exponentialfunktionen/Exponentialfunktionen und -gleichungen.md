@@ -43,9 +43,13 @@ Wichtige Regeln sind, dass
 
 {{< box-example title="Beispiel: Exponentialgleichung lösen durch Logarithmieren" >}}
 
+Gesucht ist die Lösung der Gleichung $2^x=8$.
+
+Oder anders ausgedrückt: *"Wie oft muss man 2 mit sich selbst multiplizieren, um 8 zu erhalten?"*
+
 $\begin{aligned}
-&&2^x &=8 &\vert log\\\
-\Leftrightarrow &&x &= log_2(8) \\\
+&&2^x &=8 &\vert ~ \log \\\
+\Leftrightarrow &&x &= \log_2(8) \\\
 \Leftrightarrow &&x &= 3
 \end{aligned}$
 
