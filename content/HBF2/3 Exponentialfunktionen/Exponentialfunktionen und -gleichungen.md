@@ -59,10 +59,10 @@ $\begin{aligned}
 
 {{< job title="Exponentialgleichungen lösen - Level 1: Im Kopf logarithmieren" numbered="true" style="enum-alph" name="" entry="**Ermittle** den Logarithmus ohne Hilfsmittel." >}}
 
-- $log_2(32)$
-- $log_{10}(1000)$
-- $log_7(1)$
-- $log_4(\frac{1}{16})$
+- $\log_2(32)$
+- $\log_{10}(1000)$
+- $\log_7(1)$
+- $\log_4(\frac{1}{16})$
 
 {{< /job >}}
 
