@@ -32,6 +32,8 @@ Die oben genannte Gleichung, welche wir lösen wollen, lautet also: $a^x=N$.
 
 Die Schreibweise der Lösung lautet dann: $log_b(N)=x$.
 
+Gesprochen: *"Logarithmus zur Basis $b$ von $N$ gleich $x$."*
+
 Wichtige Regeln sind, dass der Numerus $N$ und die Basis $a$ positiv sein müssen und die Basis $a$ nicht $1$ sein darf.
 {{< /box-notice >}}
 
