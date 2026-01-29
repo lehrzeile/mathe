@@ -30,11 +30,15 @@ Der **Logarithmus** ist die Umkehroperation zum Potenzieren und beantwortet die 
 
 Die oben genannte Gleichung, welche wir lösen wollen, lautet also: $a^x=N$.
 
-Die Schreibweise der Lösung lautet dann: $x = log_b(N)$.
+Die Schreibweise der Lösung lautet dann: $x = log_a(N)$.
 
-Gesprochen: *"$x$ ist gleich der Logarithmus zur Basis $b$ von $N$."*
+Gesprochen: *"$x$ ist gleich der Logarithmus zur Basis $a$ von $N$."*
 
-Wichtige Regeln sind, dass der Numerus $N$ und die Basis $a$ positiv sein müssen und die Basis $a$ nicht $1$ sein darf.
+Wichtige Regeln sind, dass
+
+1. der Numerus $N$ und die Basis $a$ positiv sein müssen und
+2. die Basis $a$ nicht $1$ sein darf.
+
 {{< /box-notice >}}
 
 ### Übung macht den Meister
@@ -42,7 +46,7 @@ Wichtige Regeln sind, dass der Numerus $N$ und die Basis $a$ positiv sein müsse
 {{< job title="Exponentialgleichungen lösen - Level 1: Im Kopf logarithmieren" numbered="true" style="enum-alph" name="" entry="**Ermittle** den Logarithmus ohne Hilfsmittel." >}}
 
 - $log_2(32)$
-- $log_10(1000)$
+- $log_{10}(1000)$
 - $log_7(1)$
 - $log_4(\frac{1}{16})$
 
