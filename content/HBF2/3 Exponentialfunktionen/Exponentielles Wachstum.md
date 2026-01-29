@@ -186,9 +186,9 @@ Die gesuchte Bestandsfunktion $B$ lautet also: $\qquad B(n) = 2 \cdot 0,7^n$ ($n
     b
 {{< /job >}} -->
 
-{{< job title="Regelmäßigkeiten erkennen und Funktionsgleichungen aufstellen" numbered="true" style="" name="" entry="" >}}
+<!-- {{< job title="Regelmäßigkeiten erkennen und Funktionsgleichungen aufstellen" numbered="true" style="" name="" entry="" >}}
     folgt...
-{{< /job >}}
+{{< /job >}} -->
 
 {{< solution title="" >}}
     folgen...
