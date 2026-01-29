@@ -165,7 +165,7 @@ Die gesuchte Bestandsfunktion $B$ lautet also: $\qquad B(n) = 2 \cdot 0,7^n$ ($n
 - $f(x) = 0,5 \cdot 1,5^x$
 - $f(x) = 0,5 \cdot 2^x$
 - $f(x) = 0,5 \cdot 0,6^x$
-- $f(x) = -2^x$
+- $f(x) = (-2)^x$
 
 {{< /job >}}
 
