@@ -124,7 +124,7 @@ Dann bezeichnet man die Funktion
 
 $$f(x) = c \cdot a^x$$
 
-als **Exponentialfunktion zur Basis $a$**.
+als **Exponentialfunktion zur Basis $a$**. $c$ bezeichnet hierbei den Startwert (zum Zeitpunkt $0$).
 {{< /box-notice >}}
 
 <!-- Beispiel 2 -->
