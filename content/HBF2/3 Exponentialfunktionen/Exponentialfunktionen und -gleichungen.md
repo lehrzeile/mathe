@@ -41,6 +41,16 @@ Wichtige Regeln sind, dass
 
 {{< /box-notice >}}
 
+{{< box-example title="Beispiel: Exponentialgleichung lösen durch Logarithmieren" >}}
+
+$\begin{aligned}
+&&2^x &=8 &\vert log\\\
+\Leftrightarrow &&x &= log_2(8) \\\
+\Leftrightarrow &&x &= 3
+\end{aligned}$
+
+{{< /box-example >}}
+
 ### Übung macht den Meister
 
 {{< job title="Exponentialgleichungen lösen - Level 1: Im Kopf logarithmieren" numbered="true" style="enum-alph" name="" entry="**Ermittle** den Logarithmus ohne Hilfsmittel." >}}
@@ -59,7 +69,7 @@ Wichtige Regeln sind, dass
 - $1,1^x - 150 = 70$
 - $4 + 0,9^x - 150 = 25$
 - $3 \cdot 1,2^x = 270$
-- $12/(2^x) = 4$
+- $\frac{12}{2^x} = 4$
 - $5 : 2,2^x = 1$
 - $3^x = -2$
 
