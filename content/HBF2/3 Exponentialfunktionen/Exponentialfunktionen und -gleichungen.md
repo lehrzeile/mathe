@@ -127,7 +127,9 @@ B(n) &= B_0 \cdot a^n & \\\
 1,8 &\approx a
 \end{aligned}$
 
-und erhalten im Ergebnis, dass der Wachstumsfaktor $1,8$ und somit die Wachstumsrate ca. $80%$ beträgt.
+und erhalten im Ergebnis, dass der Wachstumsfaktor $1,8$ und somit die Wachstumsrate ca. $80\\%$ beträgt.
+
+Die gesuche Bestandsfunktion lautet also: $\qquad B(n) = 400 \cdot 1,8^n$.
 
 {{< /box-example >}}
 
