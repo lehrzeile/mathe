@@ -120,12 +120,15 @@ Der Startwert ist mit $400$ Mikroben zu Beobachtungsbeginn ebenfalls schon gegeb
 Beides setzen wir in die folgende Gleichung ein:
 
 $\begin{aligned}
-B(n) &= B_0 \dot a^n & \\\
-4200 &= 400 \dot a^4 &\vert ~ :400 \\\
+B(n) &= B_0 \cdot a^n & \\\
+4200 &= 400 \cdot a^4 &\vert ~ :400 \\\
 10,5 &= a^4 &\vert ~ \sqrt[4]{} \\\
 \sqrt[4]{10,5} &= a & \\\
 1,8 &\approx a
 \end{aligned}$
+
+und erhalten im Ergebnis, dass der Wachstumsfaktor $1,8$ und somit die Wachstumsrate ca. $80%$ beträgt.
+
 {{< /box-example >}}
 
 ### Übungen zum Aufstellen von Exponentialfunktionen
