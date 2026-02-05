@@ -109,7 +109,23 @@ Hiermit befassen wir uns in diesem Abschnitt.
 Das Wachstum einer weiteren Mikrobenpopulation ist unbekannt. Zu Beobachtungsbeginn sind $400$ Mikroben vorhanden.
 Nach $4$ Tagen hat sich die Population auf etwa $4200$ Mikroben erhöht.
 
-Gesucht ist zunächst der Wachstumsfaktor sowie die Bestandsfunktion $N(t)$, welche die Anzahl der Bakterien $N$ in Abhängigkeit von der Zeit $t$ in Tagen beschreibt.
+Gesucht ist zunächst der Wachstumsfaktor sowie die Bestandsfunktion $B(n)$, welche die Anzahl der Bakterien $B$ in Abhängigkeit von der Zeit $n$ in Tagen beschreibt.
+
+**Lösung:**
+
+Zunächst einmal fassen wir die Aussage "Nach $4$ Tagen hat sich die Population auf etwa $4200$ Mikroben erhöht." als einen Punkt auf: $\qquad (4|4200)$.
+
+Der Startwert ist mit $400$ Mikroben zu Beobachtungsbeginn ebenfalls schon gegeben.
+
+Beides setzen wir in die folgende Gleichung ein:
+
+$\begin{aligned}
+B(n) &= B_0 \dot a^n & \\\
+4200 &= 400 \dot a^4 &\vert ~ :400 \\\
+10,5 &= a^4 &\vert ~ \sqrt[4]{} \\\
+\sqrt[4]{10,5} &= a & \\\
+1,8 &\approx a
+\end{aligned}$
 {{< /box-example >}}
 
 ### Übungen zum Aufstellen von Exponentialfunktionen
