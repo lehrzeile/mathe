@@ -135,8 +135,28 @@ Die gesuche Bestandsfunktion lautet also: $\qquad B(n) = 400 \cdot 1,8^n$.
 
 {{< box-example title="Beispiel 4: Funktionsgleichung aus zwei Punkten aufstellen" >}}
 
-Bekannt ist, dass der Graph einer Exponentialfunktion der Form $f(x) = a^x$ durch die beiden Punkte $(3|8)$ und $(5|32)$ verläuft. Gesucht ist die Funktionsgleichung der Exponentialfunktion.
+Bekannt ist, dass der Graph einer Exponentialfunktion der Form $f(x) = c \cdot a^x$ durch die beiden Punkte $(3|24)$ und $(5|96)$ verläuft. Gesucht ist die Funktionsgleichung der Exponentialfunktion.
 
+Zunächst stellen wir mit Hilfe der beiden Punkte jeweils eine Gleichungen auf:
+
+1. $24 = c \cdot a^3$
+2. $96 = c \cdot a^5$
+
+Nun teilen wir die Gleichung mit dem größeren Exponenten durch die mit dem kleineren:
+
+$\begin{aligned}
+\frac{96}{24} &= \frac{a^5}{a^3} \\\
+4 &= a^(5-3) \\\
+4 &= a^2 &\vert ~ \sqrt[2]{} \\\
+2 = a
+\end{aligned}$
+
+Um den Startwert zu berechnen, muss man nun noch etwas "zurückrechnen":
+
+$\begin{aligned}
+24 &= c \cdot 2^3 &\vert ~ : 2^3 \\\
+3 &= c
+\end{aligned}$
 {{< /box-example >}}
 
 ### Übungen zum Aufstellen von Exponentialfunktionen
