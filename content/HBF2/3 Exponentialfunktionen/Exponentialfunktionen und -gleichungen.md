@@ -146,7 +146,7 @@ Nun teilen wir die Gleichung mit dem größeren Exponenten durch die mit dem kle
 
 $\begin{aligned}
 \frac{96}{24} &= \frac{a^5}{a^3} \\\
-4 &= a^(5-3) \\\
+4 &= a^{5-3} \\\
 4 &= a^2 &\vert ~ \sqrt[2]{} \\\
 2 &= a
 \end{aligned}$
