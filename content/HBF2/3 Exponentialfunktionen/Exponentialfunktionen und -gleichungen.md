@@ -171,10 +171,15 @@ $\begin{aligned}
 
 {{< /job >}}
 
-{{< job title="Exponentialgleichungen aufstellen - Level 2" numbered="true" style="enum-alph" name="" entry="**Ermittle** eine exponentielle Bestandsfunktion, deren Graph durch die Punkte $A$ und $B$ verläuft." >}}
+{{< job title="Exponentialgleichungen aufstellen - Level 2" numbered="true" style="enum-alph" columns="2" name="" entry="**Ermittle** eine exponentielle Bestandsfunktion, deren Graph durch die Punkte $A$ und $B$ verläuft." >}}
 
 - $A(0|5); ~~ B(1|7,5)$
 - $A(2|75); ~~ B(6|46875)$
 - $A(-3|16); ~~ B(2|0,5)$
+- $A(2|3); ~~ B(5|17)$
+- $A(7|5); ~~ B(4|8)$
+- $A(1|5); ~~ B(4|40)$
+- $A(2|3); ~~ B(6|75)$
+- $A(2|1); ~~ B(3|5)$
 
 {{< /job >}}
