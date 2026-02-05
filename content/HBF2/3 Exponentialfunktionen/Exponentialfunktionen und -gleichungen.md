@@ -148,15 +148,16 @@ $\begin{aligned}
 \frac{96}{24} &= \frac{a^5}{a^3} \\\
 4 &= a^(5-3) \\\
 4 &= a^2 &\vert ~ \sqrt[2]{} \\\
-2 = a
+2 &= a
 \end{aligned}$
 
-Um den Startwert zu berechnen, muss man nun noch etwas "zurückrechnen":
+Um den Startwert $c$ zu berechnen, muss man nun noch etwas "zurückrechnen":
 
 $\begin{aligned}
 24 &= c \cdot 2^3 &\vert ~ : 2^3 \\\
 3 &= c
 \end{aligned}$
+
 {{< /box-example >}}
 
 ### Übungen zum Aufstellen von Exponentialfunktionen
