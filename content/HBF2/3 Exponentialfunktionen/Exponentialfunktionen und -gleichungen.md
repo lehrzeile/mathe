@@ -53,6 +53,8 @@ $\begin{aligned}
 \Leftrightarrow &&x &= 3
 \end{aligned}$
 
+Antwort: $\qquad$ Um 8 zu erhalten, muss man die $2$ dreimal mit sich selbst multiplizieren.
+
 {{< /box-example >}}
 
 ### Übung macht den Meister
@@ -82,6 +84,13 @@ $\begin{aligned}
 {{< solution title="" >}}
     folgen...
 {{< /solution >}}
+
+{{< job title="Weitere Aufgaben" numbered="true" style="" name="" entry="" >}}
+
+- [Aufgaben mit Lösungen bei raschweb.de](http://www.raschweb.de/emg-g9/G8__M_10/M10-Exponentialgleichungen.pdf)
+- [Textaufgaben zu Exponentialfunktionen mit Lösungen](https://mathe.zone/data/arbeitsblätter/exponentialfunktion-textaufgaben.pdf)
+
+{{< /job >}}
 
 ## Exponentielle Bestandsfunktionen bestimmen
 
