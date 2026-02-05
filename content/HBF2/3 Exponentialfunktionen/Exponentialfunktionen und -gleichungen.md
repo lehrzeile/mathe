@@ -113,7 +113,7 @@ Gesucht ist zunächst der Wachstumsfaktor sowie die Bestandsfunktion $B(n)$, wel
 
 **Lösung:**
 
-Zunächst einmal fassen wir die Aussage "Nach $4$ Tagen hat sich die Population auf etwa $4200$ Mikroben erhöht." als einen Punkt auf: $\qquad (4|4200)$.
+Zunächst einmal fassen wir die Aussage *"Nach $4$ Tagen hat sich die Population auf etwa $4200$ Mikroben erhöht."* als einen Punkt auf: $\qquad (4|4200)$.
 
 Der Startwert ist mit $400$ Mikroben zu Beobachtungsbeginn ebenfalls schon gegeben.
 
@@ -128,6 +128,12 @@ B(n) &= B_0 \cdot a^n & \\\
 \end{aligned}$
 
 und erhalten im Ergebnis, dass der Wachstumsfaktor $1,8$ und somit die Wachstumsrate ca. $80%$ beträgt.
+
+{{< /box-example >}}
+
+{{< box-example title="Beispiel 4: Funktionsgleichung aus zwei Punkten aufstellen" >}}
+
+Bekannt ist, dass der Graph einer Exponentialfunktion der Form $f(x) = a^x$ durch die beiden Punkte $(3|8)$ und $(5|32)$ verläuft. Gesucht ist die Funktionsgleichung der Exponentialfunktion.
 
 {{< /box-example >}}
 
