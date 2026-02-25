@@ -105,7 +105,7 @@ Unter dem Strich bedeutet das also, dass die Ableitung der Stammfunktion gerade 
 *Was heißt das?* \
 Die Stammfunktion zu bilden, heißt also "rückwärts abzuleiten".
 
-Bevor wir dazu kommen, wie man "rückwärts ableitet", schauen wir uns zunächst noch den Begriff des unbestimmten Integrals an:
+Bevor wir dazu kommen, wie man "rückwärts ableitet", klären wir zunächst noch die beiden Begriffe **unbestimmtes Integral** und **bestimmtes Integral**:
 
 {{< box-notice title="Unbestimmtes Integral" >}}
 Das **unbestimmte Integral** bezeichnet die Menge aller Stammfunktionen.
@@ -114,24 +114,27 @@ Man schreibt: \
 $\displaystyle \int f(x) ~ dx = F(x) + c$.
 {{< /box-notice >}}
 
-Was eine Stammfunktion ist, hast du vorhin erfahren. Was aber ist mit *"die Menge aller Stammfunktionen"* gemeint? \
+{{< box-note title='Was ist mit "die Menge aller Stammfunktionen" gemeint?' >}}
 Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, oder? Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten", welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Und dafür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt.
+{{< /box-note >}}
 
-<!-- Unbestimmtes Integral: Menge aller Stammfunktionen
-Schreibweise:
-∫ f(x) dx = F(x) + C   (C = beliebige reelle Konstante) -->
+{{< box-notice title="Unbestimmtes Integral" >}}
+Das bestimmte Integral bezeichnet den Flächeninhalt zwischen dem Graphen von $f$, der $x$-Achse und den Geraden $x = a$ und $x = b$.
 
-<!-- Bestimmtes Integral -->
-<!-- Bestimmtes Integral: Flächeninhalt zwischen dem Graphen von f, der x-Achse und den Geraden x = a und x = b (orientiert – positiv oberhalb, negativ unterhalb der x-Achse)
-Schreibweise:
-∫_a^b f(x) dx = F(b) − F(a)   (Hauptsatz der Differential- und Integralrechnung) -->
+Schreibweise:\
+$\int_a^b f(x) ~ dx = F(b) − F(a)$
 
+Diese letzte Aussage bezeichnet man auch als den **Hauptsatz der Differential- und Integralrechnung**.
+{{< /box-notice >}}
+
+<!-- (orientiert – positiv oberhalb, negativ unterhalb der x-Achse) -->
 <!-- Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der orientierten, positiven Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Orientierung meint hierbei, dass Flächen oberhalb ($+$) oder unterhalb ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass eine Fläche mit negativem Vorzeichen ($-$) zwar einen positiven Flächeninhalt besitzt, jedoch unterhalb der $x$-Achse liegt. ) -->
 
 <!-- Beide erhält man, indem man eine Stammfunktion von f bildet. -->
+
+Im folgenden Kapitel [Erste Integrationsregeln](hbf2/4-integralrechnung/erste-integrationsregeln/) werden wir uns anschauen, wie man Stammfunktionen -- ähnlich wie beim Ableiten -- anhand fester Regeln bildet.
 
 <!-- Eine solche Stammfunktion erhält man, indem man die folgenden Regeln zum Aufleiten anwendet. -->
 <!-- Potenzregel bei der Integration: f(x)=x^n \Rightarrow F(x)=\frac{1}{n+1}x^n+1 + c
 Konstante Regel: \int k \, dx = k \cdot x + c
 Faktorregel: \int k \cdot f(x) \, dx = k \cdot \int f(x) \, dx -->
-
