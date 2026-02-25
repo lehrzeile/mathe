@@ -38,7 +38,7 @@ Zerlegt man nun das Intervall in drei ($n=3$) gleich große Abschnitte, so erhä
 {{< image src="img/Ober-Untersumme_3.svg" caption="Obersumme für $n=3$" >}}
 {{< /gallery >}}
 
-Erhöht man nun schrittweise $n$, so erhält man folgende Ergebnisse:
+Erhöht man nun schrittweise die Anzahl der Teilabschnitte ($n$), so erhält man folgende Ergebnisse:
 
 {{< gallery images="2" >}}
 {{< image src="img/Ober-Untersumme_4.svg" caption="Untersumme für $n=10$" >}}
@@ -52,7 +52,19 @@ Und für $n=30$ ist bereits eine deutliche Annäherung an die "wahre Fläche" er
 {{< image src="img/Ober-Untersumme_7.svg" caption="Obersumme für $n=30$" >}}
 {{< /gallery >}}
 
+## Erste Übung
+
 {{< geogebra-activity id="pe2xznsq" >}}
+
+{{< job title="" numbered="true" style="enum-alph" entry="Hier siehst du die gesuchte Fläche sowie einen Schieberegler, mit dem die Anzahl der Rechtecke ($n$) verändert werden kann. Folgende Werte können eingeblendet werden: Obersumme, Untersumme und Differenz (OS – US)." >}}
+
+- Beginne mit der kleinsten Einstellung des Schiebereglers (n = 2) und trage die aus der Grafik abgelesenen Werte in die Tabelle auf deinem Arbeitsblatt ein. Variiere den Parameter n aufsteigend und fülle die Tabelle entsprechend weiter aus.
+- Beschreibe wie sich die abgelesen Werte mit steigendem n verändern?
+- Gib eine Schätzung für die wahre Fläche ab.
+
+{{< /job >}}
+
+## Aus Ober- und Untersumme wird das Integral
 
 {{< box-notice title="Grenzwert von Ober- und Untersumme" >}}
 Grundsätzlich gilt: \
