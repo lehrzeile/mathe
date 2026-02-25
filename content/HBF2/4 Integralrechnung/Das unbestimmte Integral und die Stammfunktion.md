@@ -115,7 +115,7 @@ $\displaystyle \int f(x) ~ dx = F(x) + c$, $\qquad$ mit $c\in\mathbb{R}$.
 {{< /box-notice >}}
 
 {{< box-question title="Was ist mit 'die Menge aller Stammfunktionen' gemeint?" >}}
-Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, oder? Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten" nicht wissen, welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Hierfür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt. Man schreibt daher: $F(x)+c$, wobei $c$ für eine beliebige reelle Zahl steht.
+Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, oder? Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](/hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten" nicht wissen, welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Hierfür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt. Man schreibt daher: $F(x)+c$, wobei $c$ für eine beliebige reelle Zahl steht.
 {{< /box-question >}}
 
 {{< box-notice title="Unbestimmtes Integral" >}}
@@ -124,12 +124,14 @@ Das **bestimmte Integral** bezeichnet den Flächeninhalt zwischen dem Graphen vo
 Schreibweise:\
 $\displaystyle \int_a^b f(x) ~ dx = F(b) − F(a)$
 
+<!-- Zeichnung -->
+
 Diese letzte Aussage bezeichnet man auch als den **Hauptsatz der Differential- und Integralrechnung**.
 {{< /box-notice >}}
 
 <!-- Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der orientierten Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Orientierung meint hierbei, dass Flächen oberhalb ($+$) oder unterhalb ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass ein Flächeninhalt mit negativem Vorzeichen ($-$) eine Fläche beschreibt, die unterhalb der $x$-Achse liegt. Ein positiver Flächeninhalt ($+$) beschreibt wiederum eine Fläche, die oberhalb der $x$-Achse liegt.  -->
 
-Im folgenden Kapitel [Erste Integrationsregeln](hbf2/4-integralrechnung/erste-integrationsregeln/) werden wir uns anschauen, wie man Stammfunktionen bildet -- ähnlich wie das Ableiten und mit festen Regeln.
+Im folgenden Kapitel [Erste Integrationsregeln](/hbf2/4-integralrechnung/erste-integrationsregeln/) werden wir uns anschauen, wie man Stammfunktionen bildet -- ähnlich wie das Ableiten und mit festen Regeln.
 
 <!-- Eine solche Stammfunktion erhält man, indem man die folgenden Regeln zum Aufleiten anwendet. -->
 <!-- Potenzregel bei der Integration: f(x)=x^n \Rightarrow F(x)=\frac{1}{n+1}x^n+1 + c
