@@ -17,10 +17,14 @@ Es gibt jedoch auch Flächen, bei denen wir mit den herkömmlichen Mitteln und F
 
 Hier ist ein solches Beispiel:
 
+{{< center >}}
+
 ![Das Heydar Aliyev Center](img/iltun-huseynli-Vk5ub76oV4k-unsplash.jpg)
 *Abb. 1: Foto von <a href="https://unsplash.com/de/@iltunography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">İltun Huseynli</a> auf <a href="https://unsplash.com/de/fotos/weisses-betongebaude-unter-blauem-himmel-wahrend-des-tages-Vk5ub76oV4k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*
 
-{{< image src="img/iltun-huseynli-Vk5ub76oV4k-unsplash.jpg" caption="Das Heydar Aliyev Center - Foto von İltun Huseynli auf Unsplash" >}}
+{{< /center >}}
+
+<!-- {{< image src="img/iltun-huseynli-Vk5ub76oV4k-unsplash.jpg" caption="Das Heydar Aliyev Center - Foto von İltun Huseynli auf Unsplash" >}} -->
 
 <!-- Foto von <a href="https://unsplash.com/de/@iltunography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">İltun Huseynli</a> auf <a href="https://unsplash.com/de/fotos/weisses-betongebaude-unter-blauem-himmel-wahrend-des-tages-Vk5ub76oV4k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
 
@@ -30,6 +34,6 @@ Hier ist ein solches Beispiel:
 - Einige Scheiben sind keine vollständigen Rechtecke (z. B. am linken oder am oberen Rand). Begründe, wie sich der berechnete Flächeninhalt zum tatsächlichen verhält, wenn diese Scheiben entweder gar nicht oder als ganze Rechtecke berücksichtigt werden.
 - Entwickle eine Strategie, wie man die Abweichung des geschätzten Flächeninhalts vom tatsächlichen Flächeninhalt mit Hilfe dieser Methode verringern könnte.
 
-Hinweis: Der in vielen Scheiben vorhandene Quersteg soll nicht berücksichtigt werden, so dass alle
-vollständigen Rechtecke die gleichen Maße haben.
+*Hinweis: Den in vielen Scheiben vorhandenen Quersteg musst du nicht berücksichtigen. Dann haben alle vollständigen Rechtecke auch die gleichen Maße.*
+
 {{< /job >}}
