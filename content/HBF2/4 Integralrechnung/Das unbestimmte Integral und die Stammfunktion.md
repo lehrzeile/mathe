@@ -58,8 +58,8 @@ Und für $n=30$ ist bereits eine deutliche Annäherung an die "wahre Fläche" er
 
 {{< job title="" numbered="true" style="enum-alph" entry="Hier siehst du die gesuchte Fläche sowie einen Schieberegler, mit dem die Anzahl der Rechtecke ($n$) verändert werden kann. Folgende Werte können eingeblendet werden: Obersumme, Untersumme und Differenz (OS – US)." >}}
 
-- Beginne mit der kleinsten Einstellung des Schiebereglers (n = 2) und trage die aus der Grafik abgelesenen Werte in die Tabelle auf deinem Arbeitsblatt ein. Variiere den Parameter n aufsteigend und fülle die Tabelle entsprechend weiter aus.
-- Beschreibe wie sich die abgelesen Werte mit steigendem n verändern?
+- Beginne mit der kleinsten Einstellung des Schiebereglers ($n$ = 2) und trage die aus der Grafik abgelesenen Werte in die Tabelle auf deinem Arbeitsblatt ein. Variiere den Parameter $n$ aufsteigend und fülle die Tabelle entsprechend weiter aus.
+- Beschreibe wie sich die abgelesen Werte mit steigendem $n$ verändern?
 - Gib eine Schätzung für die wahre Fläche ab.
 
 {{< /job >}}
@@ -68,16 +68,37 @@ Und für $n=30$ ist bereits eine deutliche Annäherung an die "wahre Fläche" er
 
 {{< box-notice title="Grenzwert von Ober- und Untersumme" >}}
 Grundsätzlich gilt: \
-Je mehr Rechtecke eingezeichnet werden (sprich: je größer $n$ ist), desto genauer ist die Annäherung an die wahre Fläche unterhalb des Funktionsgraphen.
+Je mehr Rechtecke bei Ober- und Untersumme eingezeichnet werden (sprich: je größer $n$ ist), desto genauer ist die Annäherung an die wahre Fläche unterhalb des Funktionsgraphen. Man spricht hierbei auch von der sog. **Feinheit** der Zerlegung bzw. der Unterteilung des Intervalls.
 
 *Was sich daraus folgern lässt?* \
-Den Grenzwert von Ober- und Untersumme bezeichnet man als das sog. **Integral von $f$ in den Grenzen von $a$ bis $b$**.
+Den Grenzwert von Ober- und Untersumme bezeichnet man als das sogenannte **Integral von $f$ in den Grenzen von $a$ bis $b$**.
+
+Man schreibt hierfür: \
+$\displaystyle \lim_{n \to \infty} S_n = \int_a^b f(x) \, dx$.
+
+$a$ und $b$ bezeichnen hierbei die **Grenzen des Intervalls**, wobei man hier noch einmal zwischen **unterer Grenze** ($a$) und **oberer Grenze** ($b$) unterscheidet.
 {{< /box-notice >}}
 
-Bestimmtes Integral
+<!-- Stammfunktion bilden als "rückwärts ableiten" -->
+<!-- Stammfunktion F(x) einer Funktion f(x): Eine Funktion F heißt Stammfunktion von f, wenn gilt: F'(x) = f(x)
+(Die Ableitung der Stammfunktion ergibt wieder die ursprüngliche Funktion.) -->
 
-Unbestimmtes Integral
+<!-- Unbestimmtes Integral als Menge aller Stammfunktionen -->
+<!-- Unbestimmtes Integral: Menge aller Stammfunktionen
+Schreibweise:
+∫ f(x) dx = F(x) + C   (C = beliebige reelle Konstante) -->
 
-Beide erhält man, indem man eine Stammfunktion von f bildet.
+<!-- Bestimmtes Integral -->
+<!-- Bestimmtes Integral: Flächeninhalt zwischen dem Graphen von f, der x-Achse und den Geraden x = a und x = b (orientiert – positiv oberhalb, negativ unterhalb der x-Achse)
+Schreibweise:
+∫_a^b f(x) dx = F(b) − F(a)   (Hauptsatz der Differential- und Integralrechnung) -->
 
-Eine solche Stammfunktion erhält man, indem man die folgenden Regeln zum Aufleiten anwendet.
+<!-- Beide erhält man, indem man eine Stammfunktion von f bildet. -->
+
+<!-- Eine solche Stammfunktion erhält man, indem man die folgenden Regeln zum Aufleiten anwendet. -->
+<!-- Potenzregel bei der Integration: f(x)=x^n \Rightarrow F(x)=\frac{1}{n+1}x^n+1 + c
+Konstante Regel: \int k \, dx = k \cdot x + c
+Faktorregel: \int k \cdot f(x) \, dx = k \cdot \int f(x) \, dx -->
+
+<!-- orientierter Flächeninhalt -->
+<!-- Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der orientierten, positiven Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Orientierung meint hierbei, dass Flächen oberhalb ($+$) oder unterhalb ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass eine Fläche mit negativem Vorzeichen ($-$) zwar einen positiven Flächeninhalt besitzt, jedoch unterhalb der $x$-Achse liegt. ) -->
