@@ -74,7 +74,7 @@ Je mehr Rechtecke bei Ober- und Untersumme eingezeichnet werden (sprich: je grö
 Den Grenzwert von Ober- und Untersumme bezeichnet man als das sogenannte **Integral von $f$ in den Grenzen von $a$ bis $b$**.
 
 Man schreibt hierfür: \
-$\displaystyle \lim_{n \to \infty} O_n - U_n = \int_a^b f(x) ~ dx$.
+$\displaystyle \lim_{n \to \infty} O_n = \lim_{n \to \infty} U_n = \int_a^b f(x) ~ dx$.
 {{< /box-notice >}}
 
 {{< box-note title="Bedeutung der Symbole" >}}
