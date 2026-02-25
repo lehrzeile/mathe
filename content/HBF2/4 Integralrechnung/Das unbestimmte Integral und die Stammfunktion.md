@@ -114,7 +114,7 @@ Man schreibt: \
 $\displaystyle \int f(x) ~ dx = F(x) + c$, $\qquad$ mit $c\in\mathbb{R}$.
 {{< /box-notice >}}
 
-{{< box-note title='Was ist mit "die Menge aller Stammfunktionen" gemeint?' >}}
+{{< box-note title="Was ist mit 'die Menge aller Stammfunktionen' gemeint?" >}}
 Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, oder? Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten", welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Und dafür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt.
 {{< /box-note >}}
 
