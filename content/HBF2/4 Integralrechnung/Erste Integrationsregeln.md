@@ -14,13 +14,13 @@ Im vorangegangenen Abschnitt hast du zum ersten Mal den Begriff der **Stammfunkt
 Man bildet sie -- ähnlich wie beim Ableiten -- anhand konkreter Regeln, die man als **Integrationsregeln** bezeichnet.
 
 {{< box-notice title="Konstantenregel der Integration:" >}}
-$\int k ~ dx = k \cdot x + c$
+$\displaystyle \int k ~ dx = k \cdot x + c$
 {{< /box-notice >}}
 
 {{< box-notice title="Potenzregel der Integration:" >}}
-$f(x)=x^n \qquad \Rightarrow \qquad F(x)=\frac{1}{n+1}x^n+1 + c$
+$\displaystyle f(x)=x^n \qquad \Rightarrow \qquad F(x)=\frac{1}{n+1}x^n+1 + c$
 {{< /box-notice >}}
 
 {{< box-notice title="Faktorregel der Integration:" >}}
-$\int k \cdot f(x) ~ dx = k \cdot \int f(x) ~ dx$
+$\displaystyle \int k \cdot f(x) ~ dx = k \cdot \int f(x) ~ dx$
 {{< /box-notice >}}

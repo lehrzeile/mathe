@@ -122,7 +122,7 @@ Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, od
 Das **bestimmte Integral** bezeichnet den Flächeninhalt zwischen dem Graphen von $f$, der $x$-Achse und den Geraden $x = a$ und $x = b$.
 
 Schreibweise:\
-$\int_a^b f(x) ~ dx = F(b) − F(a)$
+$\displaystyle \int_a^b f(x) ~ dx = F(b) − F(a)$
 
 Diese letzte Aussage bezeichnet man auch als den **Hauptsatz der Differential- und Integralrechnung**.
 {{< /box-notice >}}
