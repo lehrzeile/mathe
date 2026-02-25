@@ -56,7 +56,7 @@ Und für $n=30$ ist bereits eine deutliche Annäherung an die "wahre Fläche" er
 
 {{< geogebra-activity id="pe2xznsq" >}}
 
-{{< job title="" numbered="true" style="enum-alph" entry="Hier siehst du die gesuchte Fläche sowie einen Schieberegler, mit dem die Anzahl der Rechtecke ($n$) verändert werden kann. Folgende Werte können eingeblendet werden: Obersumme, Untersumme und Differenz (OS – US)." >}}
+{{< job title="" numbered="true" style="enum-alph" entry="Hier siehst du die gesuchte Fläche sowie einen Schieberegler, mit dem die Anzahl der Rechtecke ($n$) verändert werden kann. Folgende Werte können eingeblendet werden: Obersumme und Untersumme. Außerdem wird die Differenz $O_n – U_n$ angezeigt." >}}
 
 - Beginne mit der kleinsten Einstellung des Schiebereglers ($n$ = 2) und trage die aus der Grafik abgelesenen Werte in die Tabelle auf deinem Arbeitsblatt ein. Variiere den Parameter $n$ aufsteigend und fülle die Tabelle entsprechend weiter aus.
 - Beschreibe wie sich die abgelesen Werte mit steigendem $n$ verändern?
@@ -75,17 +75,48 @@ Den Grenzwert von Ober- und Untersumme bezeichnet man als das sogenannte **Integ
 
 Man schreibt hierfür: \
 $\displaystyle \lim_{n \to \infty} O_n - U_n = \int_a^b f(x) ~ dx$.
-
-$a$ und $b$ bezeichnen hierbei die **Grenzen des Intervalls**, wobei man hier noch einmal zwischen **unterer Grenze** ($a$) und **oberer Grenze** ($b$) unterscheidet.
 {{< /box-notice >}}
 
-<!-- Bevor die Bedeutung des unbestimmten Integrals erläutert werden kann, muss die Stammfunktion erklärt werden. Jede Funktion $F$, deren Ableitung der Funktion $f$ entspricht, nennt man **Stammfunktion von $f$**. Es muss also $F′(x) = f(x)$ erfüllt sein. -->
+{{< box-note title="Bedeutung der Symbole" >}}
 
-<!-- Stammfunktion bilden als "rückwärts ableiten" -->
-<!-- Stammfunktion F(x) einer Funktion f(x): Eine Funktion F heißt Stammfunktion von f, wenn gilt: F'(x) = f(x)
-(Die Ableitung der Stammfunktion ergibt wieder die ursprüngliche Funktion.) -->
+1. Das Integralzeichen $\int$ ist ein langgestrecktes "S", das für das lateinische Wort *"Summa"* (Summe) steht.
+2. $a$ und $b$ bezeichnen hierbei die **Grenzen des Intervalls**, wobei man hier noch einmal zwischen **unterer Grenze** ($a$) und **oberer Grenze** ($b$) unterscheidet.
+3. Das $dx$ am Ende des Integrals ist das sogenannte Differential und kennzeichnet die Integrationsvariable. Hier: $x$.
 
-<!-- Unbestimmtes Integral als Menge aller Stammfunktionen -->
+{{< /box-note >}}
+
+Bevor wir uns die Bedeutung des **unbestimmten Integrals** anschauen, müssen wir zunächst den Begriff der **Stammfunktion** klären.
+
+{{< box-notice title="Stammfunktion F(x) einer Funktion f(x)" >}}
+Eine Funktion $F$ heißt **Stammfunktion von $f$**, wenn gilt:
+
+$$F'(x) = f(x).$$
+
+Oder anders ausgedrückt: \
+Jede Funktion $F$, deren Ableitung der Funktion $f$ entspricht, nennt man **Stammfunktion von $f$**. Es muss also $F′(x) = f(x)$ erfüllt sein.
+
+Unter dem Strich bedeutet das also, dass die Ableitung der Stammfunktion gerade wieder die ursprüngliche Funktion ergibt.
+{{< /box-notice >}}
+
+{{< figure src="https://www.mathe-lerntipps.de/wp-content/uploads/2018/04/1435243714_Ableiten-und-Aufleiten.png" caption="Der Kreislauf des Ableitens und Aufleitens">}}
+
+{{< source type="image" text="mathe-lerntipps.de" src="https://www.mathe-lerntipps.de/stammfunktion/" lastcall="25.02.2026" >}}
+
+*Was heißt das?* \
+Die Stammfunktion zu bilden, heißt also "rückwärts abzuleiten".
+
+Bevor wir dazu kommen, wie man "rückwärts ableitet", schauen wir uns zunächst noch den Begriff des unbestimmten Integrals an:
+
+{{< box-notice title="Unbestimmtes Integral" >}}
+Das **unbestimmte Integral** bezeichnet die Menge aller Stammfunktionen.
+
+Man schreibt: \
+$\displaystyle \int f(x) ~ dx = F(x) + c$.
+{{< /box-notice >}}
+
+Was eine Stammfunktion ist, hast du vorhin erfahren. Was aber ist mit *"die Menge aller Stammfunktionen"* gemeint? \
+Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, oder? Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten", welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Und dafür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt.
+
 <!-- Unbestimmtes Integral: Menge aller Stammfunktionen
 Schreibweise:
 ∫ f(x) dx = F(x) + C   (C = beliebige reelle Konstante) -->
