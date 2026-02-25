@@ -1,5 +1,5 @@
 ---
-title: "Grundlagen der Integralrechnung"
+title: "Einstieg in die Integralrechnung"
 description: ""
 summary: ""
 draft: false
