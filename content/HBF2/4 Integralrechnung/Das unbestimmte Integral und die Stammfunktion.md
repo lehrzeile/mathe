@@ -85,7 +85,7 @@ $\displaystyle \lim_{n \to \infty} O_n - U_n = \int_a^b f(x) ~ dx$.
 
 {{< /box-note >}}
 
-Bevor wir uns die Bedeutung des **unbestimmten Integrals** anschauen, müssen wir zunächst den Begriff der **Stammfunktion** klären.
+Bevor wir uns als nächstes die Bedeutung des **unbestimmten Integrals** anschauen, müssen wir zunächst noch den Begriff der **Stammfunktion** klären.
 
 {{< box-notice title="Stammfunktion F(x) einer Funktion f(x)" >}}
 Eine Funktion $F$ heißt **Stammfunktion von $f$**, wenn gilt:
@@ -93,12 +93,12 @@ Eine Funktion $F$ heißt **Stammfunktion von $f$**, wenn gilt:
 $$F'(x) = f(x).$$
 
 Oder anders ausgedrückt: \
-Jede Funktion $F$, deren Ableitung der Funktion $f$ entspricht, nennt man **Stammfunktion von $f$**. Es muss also $F′(x) = f(x)$ erfüllt sein.
-
-Unter dem Strich bedeutet das also, dass die Ableitung der Stammfunktion gerade wieder die ursprüngliche Funktion ergibt.
+Jede Funktion $F$, deren Ableitung der Funktionsgleichung von $f$ entspricht, nennt man **Stammfunktion von $f$**. Es muss also $F′(x) = f(x)$ erfüllt sein.
 {{< /box-notice >}}
 
-{{< figure src="https://www.mathe-lerntipps.de/wp-content/uploads/2018/04/1435243714_Ableiten-und-Aufleiten.png" caption="Der Kreislauf des Ableitens und Aufleitens">}}
+Unter dem Strich bedeutet das also, dass die Ableitung der Stammfunktion gerade wieder die ursprüngliche Funktion ergibt, wie du auf der nachfolgenden Grafik anschaulich sehen kannst:
+
+{{< image src="https://www.mathe-lerntipps.de/wp-content/uploads/2018/04/1435243714_Ableiten-und-Aufleiten.png" caption="Der Kreislauf des Ableitens und Aufleitens" >}}
 
 {{< source type="image" text="mathe-lerntipps.de" src="https://www.mathe-lerntipps.de/stammfunktion/" lastcall="25.02.2026" >}}
 
