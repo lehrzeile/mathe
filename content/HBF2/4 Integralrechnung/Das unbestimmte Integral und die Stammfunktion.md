@@ -74,10 +74,12 @@ Je mehr Rechtecke bei Ober- und Untersumme eingezeichnet werden (sprich: je grö
 Den Grenzwert von Ober- und Untersumme bezeichnet man als das sogenannte **Integral von $f$ in den Grenzen von $a$ bis $b$**.
 
 Man schreibt hierfür: \
-$\displaystyle \lim_{n \to \infty} S_n = \int_a^b f(x) \, dx$.
+$\displaystyle \lim_{n \to \infty} O_n - U_n = \int_a^b f(x) ~ dx$.
 
 $a$ und $b$ bezeichnen hierbei die **Grenzen des Intervalls**, wobei man hier noch einmal zwischen **unterer Grenze** ($a$) und **oberer Grenze** ($b$) unterscheidet.
 {{< /box-notice >}}
+
+<!-- Bevor die Bedeutung des unbestimmten Integrals erläutert werden kann, muss die Stammfunktion erklärt werden. Jede Funktion $F$, deren Ableitung der Funktion $f$ entspricht, nennt man **Stammfunktion von $f$**. Es muss also $F′(x) = f(x)$ erfüllt sein. -->
 
 <!-- Stammfunktion bilden als "rückwärts ableiten" -->
 <!-- Stammfunktion F(x) einer Funktion f(x): Eine Funktion F heißt Stammfunktion von f, wenn gilt: F'(x) = f(x)
@@ -93,6 +95,8 @@ Schreibweise:
 Schreibweise:
 ∫_a^b f(x) dx = F(b) − F(a)   (Hauptsatz der Differential- und Integralrechnung) -->
 
+<!-- Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der orientierten, positiven Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Orientierung meint hierbei, dass Flächen oberhalb ($+$) oder unterhalb ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass eine Fläche mit negativem Vorzeichen ($-$) zwar einen positiven Flächeninhalt besitzt, jedoch unterhalb der $x$-Achse liegt. ) -->
+
 <!-- Beide erhält man, indem man eine Stammfunktion von f bildet. -->
 
 <!-- Eine solche Stammfunktion erhält man, indem man die folgenden Regeln zum Aufleiten anwendet. -->
@@ -100,5 +104,3 @@ Schreibweise:
 Konstante Regel: \int k \, dx = k \cdot x + c
 Faktorregel: \int k \cdot f(x) \, dx = k \cdot \int f(x) \, dx -->
 
-<!-- orientierter Flächeninhalt -->
-<!-- Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der orientierten, positiven Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Orientierung meint hierbei, dass Flächen oberhalb ($+$) oder unterhalb ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass eine Fläche mit negativem Vorzeichen ($-$) zwar einen positiven Flächeninhalt besitzt, jedoch unterhalb der $x$-Achse liegt. ) -->
