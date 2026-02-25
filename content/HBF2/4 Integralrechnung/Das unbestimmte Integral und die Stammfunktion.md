@@ -103,23 +103,23 @@ Unter dem Strich bedeutet das also, dass die Ableitung der Stammfunktion gerade 
 {{< source type="image" text="mathe-lerntipps.de" src="https://www.mathe-lerntipps.de/stammfunktion/" lastcall="25.02.2026" >}}
 
 *Wie bildet man denn nun also die Stammfunktion?* \
-Die Stammfunktion zu bilden, bedeutet "rückwärts abzuleiten".
+Eine Stammfunktion zu bilden, bedeutet, die Funktionsgleichung aufzuleiten. Und diesen Vorgang kann man sich als "rückwärts ableiten" vorstellen.
 
-Bevor wir dazu kommen, wie man "rückwärts ableitet", klären wir allerdings zunächst noch die beiden Begriffe **unbestimmtes Integral** und **bestimmtes Integral**:
+Bevor wir allerdings dazu kommen, wie man "aufleitet", klären wir zunächst noch die beiden Begriffe **unbestimmtes Integral** und **bestimmtes Integral**:
 
 {{< box-notice title="Unbestimmtes Integral" >}}
-Das **unbestimmte Integral** bezeichnet <mark>die Menge aller Stammfunktionen von $f$</mark>.
+Das **unbestimmte Integral** bezeichnet die Menge aller Stammfunktionen von $f$.
 
 Man schreibt: \
 $\displaystyle \int f(x) ~ dx = F(x) + c$, $\qquad$ mit $c\in\mathbb{R}$.
 {{< /box-notice >}}
 
-{{< box-note title="Was ist mit 'die Menge aller Stammfunktionen' gemeint?" >}}
+{{< box-question title="Was ist mit 'die Menge aller Stammfunktionen' gemeint?" >}}
 Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, oder? Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten", welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Und dafür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt.
-{{< /box-note >}}
+{{< /box-question >}}
 
 {{< box-notice title="Unbestimmtes Integral" >}}
-Das bestimmte Integral bezeichnet den Flächeninhalt zwischen dem Graphen von $f$, der $x$-Achse und den Geraden $x = a$ und $x = b$.
+Das **bestimmte Integral** bezeichnet den Flächeninhalt zwischen dem Graphen von $f$, der $x$-Achse und den Geraden $x = a$ und $x = b$.
 
 Schreibweise:\
 $\int_a^b f(x) ~ dx = F(b) − F(a)$
@@ -127,12 +127,9 @@ $\int_a^b f(x) ~ dx = F(b) − F(a)$
 Diese letzte Aussage bezeichnet man auch als den **Hauptsatz der Differential- und Integralrechnung**.
 {{< /box-notice >}}
 
-<!-- (orientiert – positiv oberhalb, negativ unterhalb der x-Achse) -->
-<!-- Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der orientierten, positiven Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Orientierung meint hierbei, dass Flächen oberhalb ($+$) oder unterhalb ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass eine Fläche mit negativem Vorzeichen ($-$) zwar einen positiven Flächeninhalt besitzt, jedoch unterhalb der $x$-Achse liegt. ) -->
+<!-- Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der orientierten Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Orientierung meint hierbei, dass Flächen oberhalb ($+$) oder unterhalb ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass ein Flächeninhalt mit negativem Vorzeichen ($-$) eine Fläche beschreibt, die unterhalb der $x$-Achse liegt. Ein positiver Flächeninhalt ($+$) beschreibt wiederum eine Fläche, die oberhalb der $x$-Achse liegt.  -->
 
-<!-- Beide erhält man, indem man eine Stammfunktion von f bildet. -->
-
-Im folgenden Kapitel [Erste Integrationsregeln](hbf2/4-integralrechnung/erste-integrationsregeln/) werden wir uns anschauen, wie man Stammfunktionen -- ähnlich wie beim Ableiten -- anhand fester Regeln bildet.
+Im folgenden Kapitel [Erste Integrationsregeln](hbf2/4-integralrechnung/erste-integrationsregeln/) werden wir uns anschauen, wie man Stammfunktionen bildet -- ähnlich wie das Ableiten und mit festen Regeln.
 
 <!-- Eine solche Stammfunktion erhält man, indem man die folgenden Regeln zum Aufleiten anwendet. -->
 <!-- Potenzregel bei der Integration: f(x)=x^n \Rightarrow F(x)=\frac{1}{n+1}x^n+1 + c
