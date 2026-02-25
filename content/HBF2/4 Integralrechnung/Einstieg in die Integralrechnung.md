@@ -15,7 +15,14 @@ Flächenberechnung ist ein zentrales Thema der Mittelstufenmathematik. Hier hast
 
 Es gibt jedoch auch Flächen, bei denen wir mit den herkömmlichen Mitteln und Formeln an unsere Grenzen kommen, da es sich nicht um "klassische" Figuren handelt.
 
-Hier ist ein solches Beispiel:
+Und genau hier kommt die **Integralrechnung** ins Spiel. Bei der Integralrechnung handelt es sich um die Umkehrung des Differenzierens (siehe Kapitel [Grundlagen der Differentialrechnung](/hbf1/3-grundlagen-der-differentialrechnung/differentialquotient-und-ableitung/) und [Fortsetzung der Differentialrechnung](/hbf2/2-fortsetzung-der-differentialrechnung/weitere-ableitungsregeln/)).
+
+Zur Erinnerung: Das primäre Ziel der Diﬀerentiationstheorie ist es, die Steigung von Funktionen zu berechnen.
+Im Zentrum der Integralrechnung steht hingegen die Flächenberechnung -- genauer gesagt die Berechnung von Flächen zwischen Funktionsgraph und $x$-Achse.
+
+<!-- Die Integralrechnung findet in vielen Bereichen Anwendung, so bspw. in der Physik, der Kosten- und Preistheorie, der Wahrscheinlichkeitsrechnung und eben auch in der Geometrie. -->
+
+Hier ist ein solches Beispiel mit einer "nicht-klassischen" Figur:
 
 <!-- ![Das Heydar Aliyev Center](img/iltun-huseynli-Vk5ub76oV4k-unsplash_edit.jpg)
 *Abb. 1: Das Heydar Aliyev Center - Foto von <a href="https://unsplash.com/de/@iltunography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">İltun Huseynli</a> auf <a href="https://unsplash.com/de/fotos/weisses-betongebaude-unter-blauem-himmel-wahrend-des-tages-Vk5ub76oV4k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>* -->
@@ -35,10 +42,3 @@ Hier ist ein solches Beispiel:
 *Hinweis: Den in vielen Scheiben vorhandenen Quersteg musst du nicht berücksichtigen. Dann haben alle vollständigen Rechtecke auch die gleichen Maße.*
 
 {{< /job >}}
-
-## Worum geht's in der Integralrechnung?
-
-Bei der Integralrechnung handelt es sich um die Umkehrung des Differenzierens.
-Im Zentrum der Integralrechnung steht die Flächenberechnung.
-
-Die Integralrechnung findet in vielen Bereichen Anwendung, so bspw. in der Physik, der Kosten- und Preistheorie, der Wahrscheinlichkeitsrechnung und eben auch in der Geometrie.
