@@ -9,7 +9,7 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-## Worum geht's in der Integralrechnung?
+## Einstieg
 
 Flächenberechnung ist ein zentrales Thema der Mittelstufenmathematik. Hier hast du bspw. gelernt, wie man die Flächeninhalte von Dreiecken, Rechtecken, Quadraten, eines Kreises und vielen anderen geometrischen Figuren berechnen kann.
 
@@ -26,7 +26,7 @@ Hier ist ein solches Beispiel:
 
 <!-- Foto von <a href="https://unsplash.com/de/@iltunography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">İltun Huseynli</a> auf <a href="https://unsplash.com/de/fotos/weisses-betongebaude-unter-blauem-himmel-wahrend-des-tages-Vk5ub76oV4k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
 
-{{< job name="Einstiegsaufgabe" numbered="true" style="enum-arabic" >}}
+{{< job name="Einstiegsaufgabe" numbered="true" style="enum-arabic" entry="Bei dem hier abgebildeten Gebäude handelt es sich um das Heydar Aliyev Center -- ein Kulturzentrum in Baku, Aserbaidschan." >}}
 
 - Beschreibe, wie der Flächeninhalt der Fensterfront mithilfe der rechteckigen Scheiben abgeschätzt werden kann.
 - Einige Scheiben sind keine vollständigen Rechtecke (z. B. am linken oder am oberen Rand). Begründe, wie sich der berechnete Flächeninhalt zum tatsächlichen verhält, wenn diese Scheiben entweder gar nicht oder als ganze Rechtecke berücksichtigt werden.
@@ -35,3 +35,10 @@ Hier ist ein solches Beispiel:
 *Hinweis: Den in vielen Scheiben vorhandenen Quersteg musst du nicht berücksichtigen. Dann haben alle vollständigen Rechtecke auch die gleichen Maße.*
 
 {{< /job >}}
+
+## Worum geht's in der Integralrechnung?
+
+Bei der Integralrechnung handelt es sich um die Umkehrung des Differenzierens.
+Im Zentrum der Integralrechnung steht die Flächenberechnung.
+
+Die Integralrechnung findet in vielen Bereichen Anwendung, so bspw. in der Physik, der Kosten- und Preistheorie, der Wahrscheinlichkeitsrechnung und eben auch in der Geometrie.
