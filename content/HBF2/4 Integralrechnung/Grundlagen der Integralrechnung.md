@@ -17,10 +17,12 @@ Es gibt jedoch auch Flächen, bei denen wir mit den herkömmlichen Mitteln und F
 
 Hier ist ein solches Beispiel:
 
-![Das Heydar Aliyev Center](img/iltun-huseynli-Vk5ub76oV4k-unsplash_edit.jpg)
-*Abb. 1: Das Heydar Aliyev Center - Foto von <a href="https://unsplash.com/de/@iltunography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">İltun Huseynli</a> auf <a href="https://unsplash.com/de/fotos/weisses-betongebaude-unter-blauem-himmel-wahrend-des-tages-Vk5ub76oV4k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*
+<!-- ![Das Heydar Aliyev Center](img/iltun-huseynli-Vk5ub76oV4k-unsplash_edit.jpg)
+*Abb. 1: Das Heydar Aliyev Center - Foto von <a href="https://unsplash.com/de/@iltunography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">İltun Huseynli</a> auf <a href="https://unsplash.com/de/fotos/weisses-betongebaude-unter-blauem-himmel-wahrend-des-tages-Vk5ub76oV4k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>* -->
 
-{{< image src="img/iltun-huseynli-Vk5ub76oV4k-unsplash_edit.jpg" caption="Das Heydar Aliyev Center - Foto von <a href='https://unsplash.com/de/@iltunography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>İltun Huseynli</a> auf <a href='https://unsplash.com/de/fotos/weisses-betongebaude-unter-blauem-himmel-wahrend-des-tages-Vk5ub76oV4k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>" >}}
+{{< image src="img/iltun-huseynli-Vk5ub76oV4k-unsplash_edit.jpg" caption="Das Heydar Aliyev Center - Foto von İltun Huseynli auf Unsplash" >}}
+
+{{< source type="image" text="Unsplash" src="https://unsplash.com/de/fotos/weisses-betongebaude-unter-blauem-himmel-wahrend-des-tages-Vk5ub76oV4k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" lastcall="25.02.2026" >}}
 
 <!-- Foto von <a href="https://unsplash.com/de/@iltunography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">İltun Huseynli</a> auf <a href="https://unsplash.com/de/fotos/weisses-betongebaude-unter-blauem-himmel-wahrend-des-tages-Vk5ub76oV4k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
 
