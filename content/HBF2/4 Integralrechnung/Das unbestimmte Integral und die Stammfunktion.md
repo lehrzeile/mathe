@@ -27,9 +27,9 @@ Zunächst wird das Intervall $[a; b]$ wird in $n$ gleich breite Teilabschnitte u
 In diesem Beispiel wollen wir den Flächeninhalt zwischen dem Funktionsgraphen von $f$ mit $f(x)=x^2$ und der $x$-Achse im Intervall von $0$ bis $2$ bestimmen.
 {{< /box-example >}}
 
-Mit Hilfe von GeoGebra und dem Befehl {{< code "A = Integral(f, 0, 2)" >}} lässt sich dies ganz einfach realisieren und wir erhalten $A=2,67$.
+Mit Hilfe von GeoGebra und dem Befehl {{< code "A = Integral(f, 0, 2)" >}} lässt sich dies ganz einfach realisieren und wir erhalten die Fläche unterhalb des Funktionsgraphen: $A=2,67$ Flächeneinheiten (kurz: FE).
 
-![Flächeninhalt unterhalb des Graphen von $f$](img/Ober-Untersumme_1.svg)
+{{< image src="img/Ober-Untersumme_1.svg" caption="Flächeninhalt unterhalb des Graphen von $f$" >}}
 
 Zerlegt man nun das Intervall in drei ($n=3$) gleich große Abschnitte, so erhält man folgende Ober- sowie Untersummen:
 
