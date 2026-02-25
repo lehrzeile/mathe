@@ -93,7 +93,7 @@ Eine Funktion $F$ heißt **Stammfunktion von $f$**, wenn gilt:
 $$F'(x) = f(x).$$
 
 Oder anders ausgedrückt: \
-Jede Funktion $F$, deren Ableitung der Funktionsgleichung von $f$ entspricht, nennt man **Stammfunktion von $f$**. Es muss also $F′(x) = f(x)$ erfüllt sein.
+Jede Funktion $F$, deren Ableitung der Funktionsgleichung von $f$ entspricht, nennt man **Stammfunktion von $f$**. Es muss also $F'(x) = f(x)$ erfüllt sein.
 {{< /box-notice >}}
 
 Unter dem Strich bedeutet das also, dass die Ableitung der Stammfunktion gerade wieder die ursprüngliche Funktion ergibt, wie du auf der nachfolgenden Grafik anschaulich sehen kannst:
@@ -103,7 +103,7 @@ Unter dem Strich bedeutet das also, dass die Ableitung der Stammfunktion gerade 
 {{< source type="image" text="mathe-lerntipps.de" src="https://www.mathe-lerntipps.de/stammfunktion/" lastcall="25.02.2026" >}}
 
 *Wie bildet man denn nun also die Stammfunktion?* \
-Eine Stammfunktion zu bilden, bedeutet, die Funktionsgleichung aufzuleiten. Und diesen Vorgang kann man sich als "rückwärts ableiten" vorstellen.
+Eine Stammfunktion zu bilden, bedeutet also, die Funktionsgleichung aufzuleiten. Und diesen Vorgang kann man sich wie ein "rückwärts ableiten" vorstellen.
 
 Bevor wir allerdings dazu kommen, wie man "aufleitet", klären wir zunächst noch die beiden Begriffe **unbestimmtes Integral** und **bestimmtes Integral**:
 
@@ -115,7 +115,7 @@ $\displaystyle \int f(x) ~ dx = F(x) + c$, $\qquad$ mit $c\in\mathbb{R}$.
 {{< /box-notice >}}
 
 {{< box-question title="Was ist mit 'die Menge aller Stammfunktionen' gemeint?" >}}
-Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, oder? Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten", welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Und dafür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt.
+Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, oder? Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten" nicht wissen, welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Hierfür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt. Man schreibt daher: $F(x)+c$, wobei $c$ für eine beliebige reelle Zahl steht.
 {{< /box-question >}}
 
 {{< box-notice title="Unbestimmtes Integral" >}}
