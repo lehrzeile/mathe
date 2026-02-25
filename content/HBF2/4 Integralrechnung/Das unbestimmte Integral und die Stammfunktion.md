@@ -102,16 +102,16 @@ Unter dem Strich bedeutet das also, dass die Ableitung der Stammfunktion gerade 
 
 {{< source type="image" text="mathe-lerntipps.de" src="https://www.mathe-lerntipps.de/stammfunktion/" lastcall="25.02.2026" >}}
 
-*Was heißt das?* \
-Die Stammfunktion zu bilden, heißt also "rückwärts abzuleiten".
+*Wie bildet man denn nun also die Stammfunktion?* \
+Die Stammfunktion zu bilden, bedeutet "rückwärts abzuleiten".
 
-Bevor wir dazu kommen, wie man "rückwärts ableitet", klären wir zunächst noch die beiden Begriffe **unbestimmtes Integral** und **bestimmtes Integral**:
+Bevor wir dazu kommen, wie man "rückwärts ableitet", klären wir allerdings zunächst noch die beiden Begriffe **unbestimmtes Integral** und **bestimmtes Integral**:
 
 {{< box-notice title="Unbestimmtes Integral" >}}
-Das **unbestimmte Integral** bezeichnet die Menge aller Stammfunktionen.
+Das **unbestimmte Integral** bezeichnet <mark>die Menge aller Stammfunktionen von $f$</mark>.
 
 Man schreibt: \
-$\displaystyle \int f(x) ~ dx = F(x) + c$.
+$\displaystyle \int f(x) ~ dx = F(x) + c$, $\qquad$ mit $c\in\mathbb{R}$.
 {{< /box-notice >}}
 
 {{< box-note title='Was ist mit "die Menge aller Stammfunktionen" gemeint?' >}}
