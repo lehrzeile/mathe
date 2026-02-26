@@ -134,7 +134,9 @@ Diese letzte Aussage bezeichnet man auch als den **Hauptsatz der Differential- u
 {{< /box-notice >}}
 
 {{< box-note title="Geometrische Interpretation des bestimmten Integrals" >}}
-Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der orientierten Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Orientierung meint hierbei, dass Flächen oberhalb ($+$) oder unterhalb ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass ein Flächeninhalt mit negativem Vorzeichen ($-$) eine Fläche beschreibt, die unterhalb der $x$-Achse liegt. Ein positiver Flächeninhalt ($+$) beschreibt wiederum eine Fläche, die oberhalb der $x$-Achse liegt.
+Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der orientierten Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Man spricht hierbei von der sogenannten **Flächenbilanz**, da sich Flächen auch gegenseitig aufgrund unterschiedlicher Orientierung aufheben können.
+
+**Orientierung** meint hierbei, dass Flächen *oberhalb* ($+$) oder *unterhalb* ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass ein Flächeninhalt mit negativem Vorzeichen ($-$) eine Fläche beschreibt, die unterhalb der $x$-Achse liegt. Ein Flächeninhalt mit positivem Vorzeichen ($+$) beschreibt wiederum eine Fläche, die oberhalb der $x$-Achse liegt.
 {{< /box-note >}}
 
 {{< image src="img/orientierte_Flaechen.svg" caption="orientierte Flächeninhalte des bestimmten Integrals" >}}
