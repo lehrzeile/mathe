@@ -60,9 +60,16 @@ Und für $n=30$ ist bereits eine deutliche Annäherung an die "wahre Fläche" er
 
 {{< job title="" numbered="true" style="enum-alph" entry="Hier siehst du die gesuchte Fläche sowie einen Schieberegler, mit dem die Anzahl der Rechtecke ($n$) verändert werden kann. Folgende Werte können eingeblendet werden: Obersumme und Untersumme. Außerdem wird die Differenz $O_n – U_n$ angezeigt." >}}
 
-- Beginne mit der kleinsten Einstellung des Schiebereglers ($n$ = 2) und trage die aus der Grafik abgelesenen Werte in die Tabelle auf deinem Arbeitsblatt ein. Variiere den Parameter $n$ aufsteigend und fülle die Tabelle entsprechend weiter aus.
-- Beschreibe wie sich die abgelesen Werte mit steigendem $n$ verändern?
-- Gib eine Schätzung für die wahre Fläche ab.
+- Beginne mit der kleinsten Einstellung des Schiebereglers ($n$ = 2) und **trage** die aus der Grafik abgelesenen Werte in die Tabelle auf deinem Arbeitsblatt **ein**. Variiere den Parameter $n$ aufsteigend und **fülle** die Tabelle entsprechend weiter **aus**.
+- **Beschreibe** wie sich die abgelesen Werte mit steigendem $n$ verändern?
+- **Gib** eine Schätzung für die wahre Fläche **ab**.
+
+Orientiere dich in Aufgabenteil a) an folgender Tabelle:
+
+| $n$ | 2 | ... |
+| --------- | ----------------- | --- |
+| **Untersumme** | | |
+| **Obersumme** | | |
 
 {{< /job >}}
 
