@@ -122,8 +122,8 @@ Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, od
 Man schreibt daher: $F(x)+c$, wobei $c$ für eine beliebige reelle Zahl steht.
 {{< /box-question >}}
 
-{{< box-notice title="Unbestimmtes Integral" >}}
-Das **bestimmte Integral** bezeichnet den Flächeninhalt zwischen dem Graphen von $f$, der $x$-Achse und den Geraden $x = a$ und $x = b$.
+{{< box-notice title="Das bestimmte Integral" >}}
+Das **bestimmte Integral** bezeichnet den orientierten Flächeninhalt zwischen dem Graphen von $f$ und der $x$-Achse im Intervall $[a,b]$. Es wird also seitlich begrenzt durch die Geraden $x = a$ und $x = b$.
 
 Schreibweise:\
 $\displaystyle \int_a^b f(x) ~ dx = \left[ F(x) \right]_a^b = F(b) − F(a)$
@@ -133,7 +133,11 @@ $\displaystyle \int_a^b f(x) ~ dx = \left[ F(x) \right]_a^b = F(b) − F(a)$
 Diese letzte Aussage bezeichnet man auch als den **Hauptsatz der Differential- und Integralrechnung**.
 {{< /box-notice >}}
 
-<!-- Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der orientierten Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Orientierung meint hierbei, dass Flächen oberhalb ($+$) oder unterhalb ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass ein Flächeninhalt mit negativem Vorzeichen ($-$) eine Fläche beschreibt, die unterhalb der $x$-Achse liegt. Ein positiver Flächeninhalt ($+$) beschreibt wiederum eine Fläche, die oberhalb der $x$-Achse liegt.  -->
+{{< box-note title="Geometrische Interpretation des bestimmten Integrals" >}}
+Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der orientierten Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Orientierung meint hierbei, dass Flächen oberhalb ($+$) oder unterhalb ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass ein Flächeninhalt mit negativem Vorzeichen ($-$) eine Fläche beschreibt, die unterhalb der $x$-Achse liegt. Ein positiver Flächeninhalt ($+$) beschreibt wiederum eine Fläche, die oberhalb der $x$-Achse liegt.
+{{< /box-note >}}
+
+{{< img src="img/orientierte_Flaechen.svg" caption="orientierte Flächeninhalte des bestimmten Integrals" >}}
 
 Im folgenden Kapitel [Erste Integrationsregeln](/hbf2/4-integralrechnung/erste-integrationsregeln/) werden wir uns anschauen, wie man Stammfunktionen bildet -- ähnlich wie das Ableiten und mit festen Regeln.
 
