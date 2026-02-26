@@ -18,6 +18,8 @@ Obersumme und Untersumme dienen in der Integralrechnung dazu, den Flächeninhalt
 {{< box-notice title="Unter- und Obersumme" >}}
 Zunächst wird das Intervall $[a; b]$ wird in $n$ gleich breite Teilabschnitte unterteilt. Die Breite dieser Teilabschnitte (und somit später der einzelnen Rechtecke) beträgt dann $\frac{b-a}{n}$.
 
+Anschließend Streifen
+
 1. Bei der Untersumme wird jedes Rechteck stets unter dem Funktionsgraph eingezeichnet. Der **kleinste Funktionswert** in jedem Teilbereich gibt dabei die Höhe des Rechtecks an.
 2. Bei der Obersumme wird das Rechteck immer über der Kurve eingezeichnet. Hierbei gibt der **größte Funktionswert** in jedem Teilbereich die Höhe des Rechtecks an.
 
@@ -115,14 +117,16 @@ $\displaystyle \int f(x) ~ dx = F(x) + c$, $\qquad$ mit $c\in\mathbb{R}$.
 {{< /box-notice >}}
 
 {{< box-question title="Was ist mit 'die Menge aller Stammfunktionen' gemeint?" >}}
-Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, oder? Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](/hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten" nicht wissen, welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Hierfür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt. Man schreibt daher: $F(x)+c$, wobei $c$ für eine beliebige reelle Zahl steht.
+Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, oder? Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](/hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten" nicht wissen, welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Hierfür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt.
+
+Man schreibt daher: $F(x)+c$, wobei $c$ für eine beliebige reelle Zahl steht.
 {{< /box-question >}}
 
 {{< box-notice title="Unbestimmtes Integral" >}}
 Das **bestimmte Integral** bezeichnet den Flächeninhalt zwischen dem Graphen von $f$, der $x$-Achse und den Geraden $x = a$ und $x = b$.
 
 Schreibweise:\
-$\displaystyle \int_a^b f(x) ~ dx = F(b) − F(a)$
+$\displaystyle \int_a^b f(x) ~ dx = \left[ F(x) \right]_a^b = F(b) − F(a)$
 
 <!-- Zeichnung -->
 
