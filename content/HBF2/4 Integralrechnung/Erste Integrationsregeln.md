@@ -22,11 +22,11 @@ $\displaystyle \int 3 ~ dx = 3 \cdot x + c$
 {{< /box-example >}}
 
 {{< box-notice title="Potenzregel der Integration:" >}}
-$\displaystyle f(x)=x^n \qquad \Rightarrow \qquad F(x)=\frac{1}{n+1}x^(n+1) + c$
+$\displaystyle f(x)=x^n \qquad \Rightarrow \qquad F(x)=\frac{1}{n+1}x^{n+1} + c$
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel für die Potenzregel:" >}}
-$\displaystyle f(x)=x^4 \qquad \Rightarrow \qquad F(x)=\frac{1}{5}x^(5) + c$
+$\displaystyle f(x)=x^4 \qquad \Rightarrow \qquad F(x)=\frac{1}{5}x^{5} + c$
 {{< /box-example >}}
 
 {{< box-notice title="Faktorregel der Integration:" >}}
