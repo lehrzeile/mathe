@@ -66,7 +66,7 @@ Und für $n=30$ ist bereits eine deutliche Annäherung an die "wahre Fläche" er
 
 Orientiere dich in Aufgabenteil a) an folgender Tabelle:
 
-| $n$ | 2 | ... |
+| $n$ | $2$ | ... |
 | --------- | ----------------- | --- |
 | **Untersumme** | | |
 | **Obersumme** | | |

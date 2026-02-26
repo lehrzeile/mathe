@@ -18,9 +18,13 @@ $\displaystyle \int k ~ dx = k \cdot x + c$
 {{< /box-notice >}}
 
 {{< box-notice title="Potenzregel der Integration:" >}}
-$\displaystyle f(x)=x^n \qquad \Rightarrow \qquad F(x)=\frac{1}{n+1}x^n+1 + c$
+$\displaystyle f(x)=x^n \qquad \Rightarrow \qquad F(x)=\frac{1}{n+1}x^(n+1) + c$
 {{< /box-notice >}}
 
 {{< box-notice title="Faktorregel der Integration:" >}}
 $\displaystyle \int k \cdot f(x) ~ dx = k \cdot \int f(x) ~ dx$
+{{< /box-notice >}}
+
+{{< box-notice title="Summenregel der Integration:" >}}
+$\displaystyle \int (f(x) + g(x)) ~ dx = \int f(x) ~ dx + \int g(x) ~ dx$
 {{< /box-notice >}}
