@@ -93,6 +93,8 @@ Im Prinzip kann man sich geometrisch gesehen das Integral wie die Summe -- desha
 
 {{< image src="img/Integral_Streifen.svg" caption="Geometrische Interpretation des Integrals" >}}
 
+{{< image src="img/bestimmtes_Integral.svg" caption="Integral von $f$ in den Grenzen von $a$ und $b$" >}}
+
 Bevor wir uns als nächstes die Bedeutung des **unbestimmten Integrals** anschauen, müssen wir zunächst noch den Begriff der **Stammfunktion** klären.
 
 {{< box-notice title="Stammfunktion F(x) einer Funktion f(x)" >}}
