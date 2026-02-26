@@ -137,7 +137,7 @@ Diese letzte Aussage bezeichnet man auch als den **Hauptsatz der Differential- u
 Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der orientierten Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Orientierung meint hierbei, dass Flächen oberhalb ($+$) oder unterhalb ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass ein Flächeninhalt mit negativem Vorzeichen ($-$) eine Fläche beschreibt, die unterhalb der $x$-Achse liegt. Ein positiver Flächeninhalt ($+$) beschreibt wiederum eine Fläche, die oberhalb der $x$-Achse liegt.
 {{< /box-note >}}
 
-{{< img src="img/orientierte_Flaechen.svg" caption="orientierte Flächeninhalte des bestimmten Integrals" >}}
+{{< image src="img/orientierte_Flaechen.svg" caption="orientierte Flächeninhalte des bestimmten Integrals" >}}
 
 Im folgenden Kapitel [Erste Integrationsregeln](/hbf2/4-integralrechnung/erste-integrationsregeln/) werden wir uns anschauen, wie man Stammfunktionen bildet -- ähnlich wie das Ableiten und mit festen Regeln.
 
