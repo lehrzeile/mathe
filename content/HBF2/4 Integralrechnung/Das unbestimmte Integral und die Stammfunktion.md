@@ -87,6 +87,12 @@ $\displaystyle \lim_{n \to \infty} O_n = \lim_{n \to \infty} U_n = \int_a^b f(x)
 
 {{< /box-note >}}
 
+{{< box-note title="Geometrische Bedeutung" >}}
+Im Prinzip kann man sich geometrisch gesehen das Integral wie die Summe -- deshalb ja auch das $\int$ ("S") -- unendlich vieler unendlich schmaler "Streifen" vorstellen (siehe Abbildung 8). Hierzu wird jeweils die Höhe des Rechtecks ($f(x)$) mit der Breite des Rechtecks ($dx$) multipliziert und anschließend aufaddiert.
+{{< /box-note >}}
+
+{{< image src="img/Integral_Streifen.svg" caption="Geometrische Interpretation des Integrals" >}}
+
 Bevor wir uns als nächstes die Bedeutung des **unbestimmten Integrals** anschauen, müssen wir zunächst noch den Begriff der **Stammfunktion** klären.
 
 {{< box-notice title="Stammfunktion F(x) einer Funktion f(x)" >}}
