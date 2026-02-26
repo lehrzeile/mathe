@@ -18,7 +18,7 @@ Obersumme und Untersumme dienen in der Integralrechnung dazu, den Flächeninhalt
 {{< box-notice title="Unter- und Obersumme" >}}
 Zunächst wird das Intervall $[a; b]$ wird in $n$ gleich breite Teilabschnitte unterteilt. Die Breite dieser Teilabschnitte (und somit später der einzelnen Rechtecke) beträgt dann $\frac{b-a}{n}$.
 
-Anschließend Streifen
+Anschließend addiert man die Flächeninhalte der einzelnen Streifen, wobei man folgendes beachten muss:
 
 1. Bei der Untersumme wird jedes Rechteck stets unter dem Funktionsgraph eingezeichnet. Der **kleinste Funktionswert** in jedem Teilbereich gibt dabei die Höhe des Rechtecks an.
 2. Bei der Obersumme wird das Rechteck immer über der Kurve eingezeichnet. Hierbei gibt der **größte Funktionswert** in jedem Teilbereich die Höhe des Rechtecks an.
