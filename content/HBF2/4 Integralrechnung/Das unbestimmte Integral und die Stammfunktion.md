@@ -142,8 +142,3 @@ Geometrisch interpretiert ist das Integral von $f$ von $a$ bis $b$ die Summe der
 {{< image src="img/orientierte_Flaechen.svg" caption="orientierte Flächeninhalte des bestimmten Integrals" >}}
 
 Im folgenden Kapitel [Erste Integrationsregeln](/hbf2/4-integralrechnung/erste-integrationsregeln/) werden wir uns anschauen, wie man Stammfunktionen bildet -- ähnlich wie das Ableiten und mit festen Regeln.
-
-<!-- Eine solche Stammfunktion erhält man, indem man die folgenden Regeln zum Aufleiten anwendet. -->
-<!-- Potenzregel bei der Integration: f(x)=x^n \Rightarrow F(x)=\frac{1}{n+1}x^n+1 + c
-Konstante Regel: \int k \, dx = k \cdot x + c
-Faktorregel: \int k \cdot f(x) \, dx = k \cdot \int f(x) \, dx -->

@@ -21,7 +21,7 @@
 // GRAPHEN PLOTTEN
 #let schoolbook-style = it => context {
   let filter(value, distance) = value != 0 and distance >= 5pt
-  let axis-args = (position: 0, filter: filter, tick-distance: 0, subticks: 0)
+  let axis-args = (position: 0, filter: filter, tick-distance: 2, subticks: 1)
   
   show: lq.set-tick(inset: 2pt, outset: 2pt, pad: 0.4em)
   show: lq.set-spine(tip: tiptoe.stealth)
@@ -35,17 +35,17 @@
 }
 #show: schoolbook-style
 
-#let xs = lq.linspace(-3, 15, num: 1000)
+#let xs = lq.linspace(-3, 6, num: 1000)
 
-#let function = xs.map(x =>  -0.0015* (x - 1) * (x - 3) * (x - 7) * (x - 10) * (x - 13))
+#let function = xs.map(x =>  0.01 * (x + 2) * (x - 5) * (x - 6) + 1)
 
-#let xt = lq.linspace(1.3, 12, num: 1000)
-#let area1 = xt.map(x =>  -0.0015* (x - 1) * (x - 3) * (x - 7) * (x - 10) * (x - 13))
+#let xt = lq.linspace(1, 4, num: 1000)
+#let area1 = xt.map(x =>  0.01 * (x + 2) * (x - 5) * (x - 6) + 1)
 #let area2 = xt.map(x =>  0)
 
 #lq.diagram(
-  xlim: (-1.25, 15.25),
-  ylim: (-1.25, 2.25),
+  xlim: (-1.25, 6.25),
+  ylim: (-0.25, 2.25),
   width: width,
   height: height,
   legend: none,
@@ -58,12 +58,9 @@
     y2: area2,
   ),
   lq.plot(xs, function, mark: none, stroke: maincolor + 1pt),
-  lq.place(1.4, -.3, align: left, [$-A_1$]),
-  lq.place(4.2, .5, align: left, [$+A_2$]),
-  lq.place(8, -.3, align: left, [$-A_3$]),
-  lq.place(10.7, .5, align: left, [$+A_4$]),
-  lq.plot((1.3,1.3), (-1,15), mark: none, stroke: (paint: red, thickness: 1pt, dash: "dashed")),
-  lq.plot((12,12), (-1,15), mark: none, stroke: (paint: red, thickness: 1pt, dash: "dashed")),
-  lq.place(1.1, -1.15, align: left, [$a$]),
-  lq.place(11.9, -1.15, align: left, [$b$]),
+  lq.plot((1,1), (-.02,15), mark: none, stroke: (paint: red, thickness: 1pt, dash: "dashed")),
+  lq.plot((4,4), (-.02,15), mark: none, stroke: (paint: red, thickness: 1pt, dash: "dashed")),
+  lq.place(1, -.08, align: center, [$a$]),
+  lq.place(4, -.08, align: center, [$b$]),
+  lq.place(5.8, 1.07, align: center, text(font: "Roboto", maincolor)[f]),
 )
