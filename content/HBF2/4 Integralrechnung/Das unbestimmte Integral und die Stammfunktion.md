@@ -160,7 +160,7 @@ Wie gesagt: Beim bestimmten Integral von $f$ von $a$ bis $b$ handelt es sich um 
     Gegeben ist die Funktion $f(x)=x^3$. Gesucht ist die Summe der orientierten Flächeninhalte zwischen dem Graphen von $f$ und der $x$-Achse -- also das bestimmte Integral.
 {{< /box-example >}}
 
-{{< image src="img/bestimmtes_Integral_2.svg" caption="Das bestimmte Integral von $f$ in den Grenzen von $a$ und $b$ ist Summe der oritentierten Flächeninhalte." >}}
+{{< image src="img/bestimmtes_Integral_2.svg" caption="Das bestimmte Integral von $f$ in den Grenzen von $a$ und $b$ ist die Summe der oritentierten Flächeninhalte $A_1$ und $A_2$." >}}
 
 Da der Graph an der Stelle $x=0$ eine Nullstelle besitzt, teilt diese die Gesamtfläche in zwei Teilflächen auf, wobei der linke Teil ($A_1$) unterhalb ($-$) und der rechte Teil ($A_2$) oberhalb ($+$) der $x$-Achse liegt.
 
