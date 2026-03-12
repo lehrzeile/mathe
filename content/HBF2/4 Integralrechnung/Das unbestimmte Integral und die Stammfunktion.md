@@ -128,13 +128,13 @@ Bevor wir allerdings dazu kommen, wie man "aufleitet", klären wir zunächst noc
 Das **unbestimmte Integral** bezeichnet die Menge aller Stammfunktionen von $f$.
 
 Man schreibt: \
-$\displaystyle \int f(x) ~ dx = F(x) + c$, $\qquad$ mit $c\in\mathbb{R}$.
+$\displaystyle \int f(x) ~ dx = F(x) + c$ $\quad \left( c\in\mathbb{R} \right)$.
 {{< /box-notice >}}
 
 {{< box-question title="Was ist mit 'die Menge aller Stammfunktionen' gemeint?" >}}
-Ganz einfach: Du weißt doch noch, was beim Ableiten mit Konstanten passiert, oder? Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](/hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten" nicht wissen, welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Hierfür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt.
+*Weißt du noch, was beim Ableiten mit Konstanten passiert?* Richtig. Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](/hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten" nicht wissen, welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Hierfür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt.
 
-Man schreibt daher: $F(x)+c$, wobei $c$ für eine beliebige reelle Zahl steht.
+Man schreibt daher: $F(x)+c$, wobei $c$ für die unbekannte reelle Zahl (Konstante) steht.
 {{< /box-question >}}
 
 {{< box-notice title="Das bestimmte Integral" >}}
