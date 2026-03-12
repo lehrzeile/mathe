@@ -158,14 +158,14 @@ Wie gesagt: Beim bestimmten Integral von $f$ von $a$ bis $b$ handelt es sich um 
 
 {{< box-example title="Beispiel für die Flächenbilanz des bestimmten Integrals" >}}
     Gegeben ist die Funktion $f(x)=x^3$. Gesucht ist die Summe der orientierten Flächeninhalte zwischen dem Graphen von $f$ und der $x$-Achse -- also das bestimmte Integral.
-
-    Dies sieht dann so aus:
-
-    {{< image src="img/bestimmtes_Integral_2.svg" caption="Das bestimmte Integral von $f$ in den Grenzen von $a$ und $b$ ist Summe der oritentierten Flächeninhalte." >}}
-    
-    Da der Graph an der Stelle $x=0$ eine Nullstelle besitzt, teilt diese die Gesamtfläche in zwei Teilflächen auf, wobei der linke Teil ($A_1$) unterhalb ($-$) und der rechte Teil ($A_2$) oberhalb ($+$) der $x$-Achse liegt.
-
-    Das linke Teilstück hat einen Flächeninhalt von $0,25$. Die rechte Teilfläche besitzt einen Flächeninhalt von $4$. Unter dem Strich ist jedoch das bestimmte Integral nicht -- wie man zunächst annehmen könnte -- $4,25$, sondern $3,75$, da sich die beiden Flächen gegenseitig anteilig aufheben.
 {{< /box-example >}}
+
+{{< image src="img/bestimmtes_Integral_2.svg" caption="Das bestimmte Integral von $f$ in den Grenzen von $a$ und $b$ ist Summe der oritentierten Flächeninhalte." >}}
+
+Da der Graph an der Stelle $x=0$ eine Nullstelle besitzt, teilt diese die Gesamtfläche in zwei Teilflächen auf, wobei der linke Teil ($A_1$) unterhalb ($-$) und der rechte Teil ($A_2$) oberhalb ($+$) der $x$-Achse liegt.
+
+Das linke Teilstück hat einen Flächeninhalt von $0,25$. Die rechte Teilfläche besitzt einen Flächeninhalt von $4$. Unter dem Strich ist jedoch das bestimmte Integral nicht -- wie man zunächst annehmen könnte -- $4,25$, sondern $3,75$, da sich die beiden Flächen gegenseitig anteilig aufheben.
+
+## Ausblick
 
 Im folgenden Kapitel [Erste Integrationsregeln](/hbf2/4-integralrechnung/erste-integrationsregeln/) werden wir uns anschauen, wie man Stammfunktionen bildet -- ähnlich wie das Ableiten und mit festen Regeln.
