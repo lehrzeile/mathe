@@ -162,9 +162,9 @@ Wie gesagt: Beim bestimmten Integral von $f$ von $a$ bis $b$ handelt es sich um 
 
 {{< image src="img/bestimmtes_Integral_2.svg" caption="Das bestimmte Integral von $f$ in den Grenzen von $a$ und $b$ ist die Summe der oritentierten Flächeninhalte $A_1$ und $A_2$." >}}
 
-Da der Graph an der Stelle $x=0$ eine Nullstelle besitzt, teilt diese die Gesamtfläche in zwei Teilflächen auf, wobei der linke Teil ($A_1$) unterhalb ($-$) und der rechte Teil ($A_2$) oberhalb ($+$) der $x$-Achse liegt.
+Da der Graph von $f$ an der Stelle $x=0$ eine Nullstelle besitzt, teilt diese die Gesamtfläche in zwei Teilflächen auf, wobei der linke Teil ($A_1$) unterhalb ($-$) und der rechte Teil ($A_2$) oberhalb ($+$) der $x$-Achse liegt.
 
-Das linke Teilstück hat einen Flächeninhalt von $0,25$. Die rechte Teilfläche besitzt einen Flächeninhalt von $4$. Unter dem Strich ist jedoch das bestimmte Integral nicht -- wie man zunächst annehmen könnte -- $4,25$, sondern $3,75$, da sich die beiden Flächen gegenseitig anteilig aufheben.
+Das linke Teilstück hat einen Flächeninhalt von $0,25$. Die rechte Teilfläche besitzt einen Flächeninhalt von $4$. Unter dem Strich ist jedoch das bestimmte Integral nicht -- wie man zunächst annehmen könnte -- $4,25$, sondern $3,75$, da sich die beiden Flächen gegenseitig anteilig aufheben: $A_1 + A_2 = -0,25 + 4 = 3,75$.
 
 ## Ausblick
 
