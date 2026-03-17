@@ -9,7 +9,7 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-Manche Funktionen eignen sich aufgrund ihrer Form für ein weiteres Verfahren -- die Substitution.
+Manche Funktionen eignen sich aufgrund ihrer Form für ein weiteres Verfahren -- die **Substitution**.
 Der größte Vorteil dieses Verfahrens liegt im Vergleich mit der Polynomdivision in der Zeitersparnis.
 
 {{< box-question >}}
@@ -19,9 +19,9 @@ Der Begriff **Substitution** bedeutet auch "Ersetzung eines Objekts durch ein an
 {{< box-notice title="Das Substitutions-Verfahren" >}}
 Die Substitution ist ein mathematisches Verfahren, um komplexe Gleichungen durch den Austausch eines Terms durch einen anderen (z.B. $x^2$ durch $z$) zu vereinfachen und lösbar zu machen. Es handelt sich um ein drei-schrittiges Verfahren:
 
-1. Substituieren (Ersetzen)
+1. **Substituieren** (Ersetzen)
 2. Lösen (z.B. mit pq-Formel)
-3. Resubstitution (Rückrechnung auf die ursprüngliche Variable).
+3. **Resubstituieren** (Resubstitution, oder auch: Rückrechnung auf die ursprüngliche Variable).
 {{< /box-notice >}}
 
 Im folgenden Video lernst du, wie du das Verfahren anwendest:
