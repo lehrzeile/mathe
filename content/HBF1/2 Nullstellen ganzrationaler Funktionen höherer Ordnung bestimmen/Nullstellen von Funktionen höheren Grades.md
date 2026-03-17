@@ -9,7 +9,7 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-In den vorherigen Abschnitten haben wir uns damit befasst, wie man Nullstellen von funktion ersten bis vierten Grades bestimmen kann. Nun widmen wir uns Funktionen höheren Grades.
+In den vorherigen Abschnitten haben wir uns damit befasst, wie man Nullstellen von Funktionen ersten bis vierten Grades bestimmen kann. Nun widmen wir uns Funktionen höheren Grades.
 
 Sämtliche Verfahren, mit deren Hilfe wir die Nullstellen bestimmen können, kennst du bereits.
 
