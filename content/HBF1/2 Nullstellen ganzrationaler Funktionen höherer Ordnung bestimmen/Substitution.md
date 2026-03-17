@@ -57,16 +57,7 @@ Wie bereits erwähnt, eignet sich das Substitutions-Verfahren nicht für alle Fu
 
 {{< /job >}}
 
-{{< job name="" numbered="true" style="enum-alph" title="Üben und Vertiefen" entry="Beim Bestimmen der Nullstellen einer Funktion mit Hilfe der Substitution ist die Rücksubstitution nicht immer möglich -- manchmal nur teilweise und manchmal sogar überhaupt nicht. Hier sind einige Beispiele dafür." >}}
-
-- $f_5(x) = -3x^4 - 60x^2 + 1728$
-- $f_6(x) = -6x^4 - 30x^2 - 24$
-- $f_7(x) = 2x^4 - 64x^2 - 288$
-- $f_8(x) = 5x^4 + 130x^2 + 125$
-
-{{< /job >}}
-
-{{< solution name="" numbered="true" style="enum-alph" title="Üben und Vertiefen" >}}
+{{< solution name="" numbered="true" style="enum-alph" >}}
 
 - $f_1(x) = -2x^4 + 34x^2 - 32$ \
 $\Rightarrow x_1=-4, \quad x_2=-1, \quad x_3=1, \quad x_4=4$
@@ -77,7 +68,18 @@ $\Rightarrow x_1=-1, \quad x_2=2$
 - $f_4(x) = x^6 + 133x^3 + 1000$ \
 $\Rightarrow x_1=-5, \quad x_2=-2$
 
-<hr>
+{{< /solution >}}
+
+{{< job name="" numbered="true" style="enum-alph" title="Üben und Vertiefen" entry="Beim Bestimmen der Nullstellen einer Funktion mit Hilfe der Substitution ist die Rücksubstitution nicht immer möglich -- manchmal nur teilweise und manchmal sogar überhaupt nicht. Hier sind einige Beispiele dafür." >}}
+
+- $f_5(x) = -3x^4 - 60x^2 + 1728$
+- $f_6(x) = -6x^4 - 30x^2 - 24$
+- $f_7(x) = 2x^4 - 64x^2 - 288$
+- $f_8(x) = 5x^4 + 130x^2 + 125$
+
+{{< /job >}}
+
+{{< solution name="" numbered="true" style="enum-alph" >}}
 
 - $f_5(x) = -3x^4 - 60x^2 + 1728 \qquad \Rightarrow x_1=-4, \quad x_2=4$
 - $f_6(x) = -6x^4 - 30x^2 - 24 \qquad \Rightarrow \mathbb{L}=\emptyset$
