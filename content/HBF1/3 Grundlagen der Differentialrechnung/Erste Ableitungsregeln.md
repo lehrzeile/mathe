@@ -163,7 +163,6 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
         border-radius: 12px;
         box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     }
-    
     .h5p-dragquestion-title {
         font-size: 24px;
         font-weight: 700;
@@ -171,7 +170,6 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
         margin-bottom: 10px;
         text-align: center;
     }
-    
     .h5p-dragquestion-instruction {
         font-size: 16px;
         color: #555;
@@ -179,20 +177,17 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
         text-align: center;
         line-height: 1.6;
     }
-    
     .h5p-dragquestion-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         margin-bottom: 25px;
     }
-    
     .h5p-dragquestion-column {
         display: flex;
         flex-direction: column;
         gap: 15px;
     }
-    
     .h5p-section-title {
         font-size: 18px;
         font-weight: 600;
@@ -203,7 +198,6 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
         text-align: center;
         box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
-    
     .h5p-tile {
         background: #f8f9fa;
         border: 2px solid #bdc3c7;
@@ -212,60 +206,50 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
         transition: all 0.3s ease;
         position: relative;
     }
-    
     .h5p-dropzone {
         min-height: 160px;
         border-style: dashed;
     }
-    
     .h5p-dropzone.drag-over {
         background: #e8f4f8;
         border-color: #3498db;
         transform: scale(1.02);
     }
-    
     .h5p-dropzone.filled {
         border-style: solid;
         border-color: #27ae60;
         background: #eafaf1;
     }
-    
     .h5p-draggable {
         background: white;
         border: 2px solid #3498db;
         cursor: move;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
-    
     .h5p-draggable:hover {
         transform: translateY(-2px);
         box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         border-color: #2980b9;
     }
-    
     .h5p-draggable.dragging {
         opacity: 0.5;
         cursor: grabbing;
     }
-    
     .h5p-draggable.placed {
         opacity: 0.3;
         cursor: not-allowed;
     }
-    
     .h5p-graph-svg {
         width: 100%;
         height: 140px;
         display: block;
     }
-    
     .h5p-button-group {
         display: flex;
         gap: 15px;
         justify-content: center;
         margin-top: 25px;
     }
-    
     .h5p-btn {
         padding: 12px 30px;
         font-size: 16px;
@@ -276,29 +260,24 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
         transition: all 0.3s ease;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    
     .h5p-btn-check {
         background: #3498db;
         color: white;
     }
-    
     .h5p-btn-check:hover {
         background: #2980b9;
         transform: translateY(-2px);
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    
     .h5p-btn-reset {
         background: #95a5a6;
         color: white;
     }
-    
     .h5p-btn-reset:hover {
         background: #7f8c8d;
         transform: translateY(-2px);
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    
     .h5p-feedback {
         margin-top: 20px;
         padding: 15px;
@@ -308,51 +287,42 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
         text-align: center;
         display: none;
     }
-    
     .h5p-feedback.success {
         background: #d4edda;
         color: #155724;
         border: 2px solid #c3e6cb;
     }
-    
     .h5p-feedback.error {
         background: #f8d7da;
         color: #721c24;
         border: 2px solid #f5c6cb;
     }
-    
     .h5p-feedback.partial {
         background: #fff3cd;
         color: #856404;
         border: 2px solid #ffeaa7;
     }
-    
     @media (max-width: 768px) {
         .h5p-dragquestion-content {
         grid-template-columns: 1fr;
         }
-        
         .h5p-button-group {
         flex-direction: column;
         }
-        
         .h5p-btn {
         width: 100%;
         }
     }
     </style>
-
     <div class="h5p-dragquestion-container">
     <div class="h5p-dragquestion-title">Funktionen und ihre Ableitungen zuordnen</div>
     <div class="h5p-dragquestion-instruction">
         Ordne jeder Funktion f(x) ihre entsprechende Ableitung f'(x) zu, indem du die Graphen der Ableitungen in die passenden Felder ziehst.
     </div>
-    
     <div class="h5p-dragquestion-content">
         <!-- Linke Spalte: Funktionen (Dropzones) -->
         <div class="h5p-dragquestion-column">
         <div class="h5p-section-title">Funktionen f(x)</div>
-        
         <div class="h5p-tile h5p-dropzone" data-answer="derivative-1">
             <svg class="h5p-graph-svg" viewBox="0 0 200 120">
             <defs>
@@ -365,7 +335,6 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
             <path d="M 20,100 Q 100,20 180,100" stroke="#e74c3c" stroke-width="3" fill="none"/>
             </svg>
         </div>
-        
         <div class="h5p-tile h5p-dropzone" data-answer="derivative-2">
             <svg class="h5p-graph-svg" viewBox="0 0 200 120">
             <line x1="10" y1="60" x2="190" y2="60" stroke="#bdc3c7" stroke-width="1" marker-end="url(#arrowhead1)"/>
@@ -373,7 +342,6 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
             <path d="M 20,90 C 60,100 80,80 100,50 C 120,20 140,10 180,30" stroke="#9b59b6" stroke-width="3" fill="none"/>
             </svg>
         </div>
-        
         <div class="h5p-tile h5p-dropzone" data-answer="derivative-3">
             <svg class="h5p-graph-svg" viewBox="0 0 200 120">
             <line x1="10" y1="60" x2="190" y2="60" stroke="#bdc3c7" stroke-width="1" marker-end="url(#arrowhead1)"/>
@@ -381,7 +349,6 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
             <line x1="20" y1="90" x2="180" y2="30" stroke="#16a085" stroke-width="3"/>
             </svg>
         </div>
-        
         <div class="h5p-tile h5p-dropzone" data-answer="derivative-4">
             <svg class="h5p-graph-svg" viewBox="0 0 200 120">
             <line x1="10" y1="60" x2="190" y2="60" stroke="#bdc3c7" stroke-width="1" marker-end="url(#arrowhead1)"/>
@@ -390,11 +357,9 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
             </svg>
         </div>
         </div>
-        
         <!-- Rechte Spalte: Ableitungen (Draggables) -->
         <div class="h5p-dragquestion-column">
         <div class="h5p-section-title">Ableitungen f'(x)</div>
-        
         <div class="h5p-tile h5p-draggable" draggable="true" data-id="derivative-1">
             <svg class="h5p-graph-svg" viewBox="0 0 200 120">
             <line x1="10" y1="60" x2="190" y2="60" stroke="#bdc3c7" stroke-width="1"/>
@@ -402,7 +367,6 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
             <line x1="30" y1="90" x2="170" y2="30" stroke="#e74c3c" stroke-width="3"/>
             </svg>
         </div>
-        
         <div class="h5p-tile h5p-draggable" draggable="true" data-id="derivative-2">
             <svg class="h5p-graph-svg" viewBox="0 0 200 120">
             <line x1="10" y1="60" x2="190" y2="60" stroke="#bdc3c7" stroke-width="1"/>
@@ -410,7 +374,6 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
             <path d="M 30,30 Q 100,100 170,30" stroke="#9b59b6" stroke-width="3" fill="none"/>
             </svg>
         </div>
-        
         <div class="h5p-tile h5p-draggable" draggable="true" data-id="derivative-3">
             <svg class="h5p-graph-svg" viewBox="0 0 200 120">
             <line x1="10" y1="60" x2="190" y2="60" stroke="#bdc3c7" stroke-width="1"/>
@@ -418,7 +381,6 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
             <line x1="20" y1="60" x2="180" y2="60" stroke="#16a085" stroke-width="3"/>
             </svg>
         </div>
-        
         <div class="h5p-tile h5p-draggable" draggable="true" data-id="derivative-4">
             <svg class="h5p-graph-svg" viewBox="0 0 200 120">
             <line x1="10" y1="60" x2="190" y2="60" stroke="#bdc3c7" stroke-width="1"/>
@@ -428,167 +390,138 @@ Die Steigung im Punkt $P_3$ beträgt $-5$.
         </div>
         </div>
     </div>
-    
     <div class="h5p-button-group">
         <button class="h5p-btn h5p-btn-check" id="checkAnswers">Antworten überprüfen</button>
         <button class="h5p-btn h5p-btn-reset" id="resetTask">Zurücksetzen</button>
     </div>
-    
     <div class="h5p-feedback" id="feedback"></div>
     </div>
-
     <script>
-    (function() {
-    'use strict';
-    
-    let draggedElement = null;
-    const placements = {};
-    
-    // Drag-Funktionalität
-    const draggables = document.querySelectorAll('.h5p-draggable');
-    const dropzones = document.querySelectorAll('.h5p-dropzone');
-    
-    draggables.forEach(draggable => {
-        draggable.addEventListener('dragstart', handleDragStart);
-        draggable.addEventListener('dragend', handleDragEnd);
-    });
-    
-    dropzones.forEach(dropzone => {
-        dropzone.addEventListener('dragover', handleDragOver);
-        dropzone.addEventListener('dragleave', handleDragLeave);
-        dropzone.addEventListener('drop', handleDrop);
-    });
-    
-    function handleDragStart(e) {
-        if (this.classList.contains('placed')) {
-        e.preventDefault();
-        return;
-        }
-        draggedElement = this;
-        this.classList.add('dragging');
-        e.dataTransfer.effectAllowed = 'move';
-        e.dataTransfer.setData('text/html', this.innerHTML);
-    }
-    
-    function handleDragEnd(e) {
-        this.classList.remove('dragging');
-    }
-    
-    function handleDragOver(e) {
-        if (e.preventDefault) {
-        e.preventDefault();
-        }
-        e.dataTransfer.dropEffect = 'move';
-        this.classList.add('drag-over');
-        return false;
-    }
-    
-    function handleDragLeave(e) {
-        this.classList.remove('drag-over');
-    }
-    
-    function handleDrop(e) {
-        if (e.stopPropagation) {
-        e.stopPropagation();
-        }
-        e.preventDefault();
-        
-        this.classList.remove('drag-over');
-        
-        if (draggedElement) {
-        // Entferne vorherige Platzierung in dieser Dropzone
-        const existingItem = this.querySelector('.h5p-draggable');
-        if (existingItem) {
-            existingItem.classList.remove('placed');
-            existingItem.style.display = 'block';
-            const oldId = existingItem.getAttribute('data-id');
-            delete placements[this.getAttribute('data-answer')];
-        }
-        
-        // Entferne das Element aus seiner vorherigen Position
-        const previousDropzone = Object.keys(placements).find(key => placements[key] === draggedElement.getAttribute('data-id'));
-        if (previousDropzone) {
-            delete placements[previousDropzone];
-        }
-        
-        // Platziere das neue Element
-        const clone = draggedElement.cloneNode(true);
-        clone.style.margin = '0';
-        clone.style.cursor = 'default';
-        clone.removeAttribute('draggable');
-        
-        this.appendChild(clone);
-        this.classList.add('filled');
-        
-        draggedElement.classList.add('placed');
-        
-        placements[this.getAttribute('data-answer')] = draggedElement.getAttribute('data-id');
-        }
-        
-        return false;
-    }
-    
-    // Überprüfung
-    document.getElementById('checkAnswers').addEventListener('click', function() {
-        const feedback = document.getElementById('feedback');
-        let correct = 0;
-        let total = 0;
-        
-        dropzones.forEach(dropzone => {
-        total++;
-        const correctAnswer = dropzone.getAttribute('data-answer');
-        const userAnswer = placements[correctAnswer];
-        
-        if (userAnswer === correctAnswer) {
-            correct++;
-            dropzone.style.borderColor = '#27ae60';
-            dropzone.style.background = '#d4edda';
-        } else {
-            dropzone.style.borderColor = '#e74c3c';
-            dropzone.style.background = '#f8d7da';
-        }
-        });
-        
-        feedback.style.display = 'block';
-        
-        if (correct === total) {
-        feedback.className = 'h5p-feedback success';
-        feedback.innerHTML = `🎉 Ausgezeichnet! Alle ${correct} von ${total} Zuordnungen sind korrekt!`;
-        } else if (correct > 0) {
-        feedback.className = 'h5p-feedback partial';
-        feedback.innerHTML = `👍 Gut gemacht! ${correct} von ${total} Zuordnungen sind korrekt. Versuche es noch einmal!`;
-        } else {
-        feedback.className = 'h5p-feedback error';
-        feedback.innerHTML = `❌ Leider sind noch keine Zuordnungen korrekt. Überlege, wie sich die Steigung einer Funktion in ihrer Ableitung widerspiegelt.`;
-        }
-    });
-    
-    // Zurücksetzen
-    document.getElementById('resetTask').addEventListener('click', function() {
-        // Entferne alle Platzierungen
-        dropzones.forEach(dropzone => {
-        const placed = dropzone.querySelector('.h5p-draggable');
-        if (placed) {
-            placed.remove();
-        }
-        dropzone.classList.remove('filled');
-        dropzone.style.borderColor = '';
-        dropzone.style.background = '';
-        });
-        
-        // Setze Draggables zurück
+        (function() {
+        'use strict';
+        let draggedElement = null;
+        const placements = {};
+        // Drag-Funktionalität
+        const draggables = document.querySelectorAll('.h5p-draggable');
+        const dropzones = document.querySelectorAll('.h5p-dropzone');
         draggables.forEach(draggable => {
-        draggable.classList.remove('placed');
-        draggable.style.display = 'block';
+            draggable.addEventListener('dragstart', handleDragStart);
+            draggable.addEventListener('dragend', handleDragEnd);
         });
-        
-        // Lösche Placements
-        Object.keys(placements).forEach(key => delete placements[key]);
-        
-        // Verstecke Feedback
-        const feedback = document.getElementById('feedback');
-        feedback.style.display = 'none';
-    });
-    })();
+        dropzones.forEach(dropzone => {
+            dropzone.addEventListener('dragover', handleDragOver);
+            dropzone.addEventListener('dragleave', handleDragLeave);
+            dropzone.addEventListener('drop', handleDrop);
+        });
+        function handleDragStart(e) {
+            if (this.classList.contains('placed')) {
+            e.preventDefault();
+            return;
+            }
+            draggedElement = this;
+            this.classList.add('dragging');
+            e.dataTransfer.effectAllowed = 'move';
+            e.dataTransfer.setData('text/html', this.innerHTML);
+        }
+        function handleDragEnd(e) {
+            this.classList.remove('dragging');
+        }
+        function handleDragOver(e) {
+            if (e.preventDefault) {
+            e.preventDefault();
+            }
+            e.dataTransfer.dropEffect = 'move';
+            this.classList.add('drag-over');
+            return false;
+        }
+        function handleDragLeave(e) {
+            this.classList.remove('drag-over');
+        }
+        function handleDrop(e) {
+            if (e.stopPropagation) {
+            e.stopPropagation();
+            }
+            e.preventDefault();
+            this.classList.remove('drag-over');
+            if (draggedElement) {
+            // Entferne vorherige Platzierung in dieser Dropzone
+            const existingItem = this.querySelector('.h5p-draggable');
+            if (existingItem) {
+                existingItem.classList.remove('placed');
+                existingItem.style.display = 'block';
+                const oldId = existingItem.getAttribute('data-id');
+                delete placements[this.getAttribute('data-answer')];
+            }
+            // Entferne das Element aus seiner vorherigen Position
+            const previousDropzone = Object.keys(placements).find(key => placements[key] === draggedElement.getAttribute('data-id'));
+            if (previousDropzone) {
+                delete placements[previousDropzone];
+            }
+            // Platziere das neue Element
+            const clone = draggedElement.cloneNode(true);
+            clone.style.margin = '0';
+            clone.style.cursor = 'default';
+            clone.removeAttribute('draggable');
+            this.appendChild(clone);
+            this.classList.add('filled');
+            draggedElement.classList.add('placed');
+            placements[this.getAttribute('data-answer')] = draggedElement.getAttribute('data-id');
+            }
+            return false;
+        }
+        // Überprüfung
+        document.getElementById('checkAnswers').addEventListener('click', function() {
+            const feedback = document.getElementById('feedback');
+            let correct = 0;
+            let total = 0;
+            dropzones.forEach(dropzone => {
+            total++;
+            const correctAnswer = dropzone.getAttribute('data-answer');
+            const userAnswer = placements[correctAnswer];
+            if (userAnswer === correctAnswer) {
+                correct++;
+                dropzone.style.borderColor = '#27ae60';
+                dropzone.style.background = '#d4edda';
+            } else {
+                dropzone.style.borderColor = '#e74c3c';
+                dropzone.style.background = '#f8d7da';
+            }
+            });
+            feedback.style.display = 'block';
+            if (correct === total) {
+            feedback.className = 'h5p-feedback success';
+            feedback.innerHTML = `🎉 Ausgezeichnet! Alle ${correct} von ${total} Zuordnungen sind korrekt!`;
+            } else if (correct > 0) {
+            feedback.className = 'h5p-feedback partial';
+            feedback.innerHTML = `👍 Gut gemacht! ${correct} von ${total} Zuordnungen sind korrekt. Versuche es noch einmal!`;
+            } else {
+            feedback.className = 'h5p-feedback error';
+            feedback.innerHTML = `❌ Leider sind noch keine Zuordnungen korrekt. Überlege, wie sich die Steigung einer Funktion in ihrer Ableitung widerspiegelt.`;
+            }
+        });
+        // Zurücksetzen
+        document.getElementById('resetTask').addEventListener('click', function() {
+            // Entferne alle Platzierungen
+            dropzones.forEach(dropzone => {
+            const placed = dropzone.querySelector('.h5p-draggable');
+            if (placed) {
+                placed.remove();
+            }
+            dropzone.classList.remove('filled');
+            dropzone.style.borderColor = '';
+            dropzone.style.background = '';
+            });
+            // Setze Draggables zurück
+            draggables.forEach(draggable => {
+            draggable.classList.remove('placed');
+            draggable.style.display = 'block';
+            });
+            // Lösche Placements
+            Object.keys(placements).forEach(key => delete placements[key]);
+            // Verstecke Feedback
+            const feedback = document.getElementById('feedback');
+            feedback.style.display = 'none';
+        });
+        })();
     </script>
 {{< /h5p >}}
