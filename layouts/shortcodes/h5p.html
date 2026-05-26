@@ -1,6 +1,3 @@
 <div class="h5p-container">
-    <iframe class="h5p-activity" scrolling="no"
-    style="border:0px;" allowfullscreen>
     {{ .Inner | strings.TrimSpace | .Page.RenderString | safeHTML }}
-    </iframe>
 </div>
