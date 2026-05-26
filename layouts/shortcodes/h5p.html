@@ -1,0 +1,3 @@
+<div class="h5p-container">
+    {{ .Inner | strings.TrimSpace | .Page.RenderString | safeHTML }}
+</div>
