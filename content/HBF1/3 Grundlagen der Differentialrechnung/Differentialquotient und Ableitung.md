@@ -17,17 +17,17 @@ Du erinnerst dich hoffentlich noch daran, wie du die Steigung einer linearen Fun
 
 Das Bilden des Differenzenquotienten ist ein Zwischenschritt bei der <mark>Bestimmung der Steigung einer Kurve in einem Punkt</mark>.
 
-## Einstieg
+<!-- ## Einstieg (alt)
 
 In der nachfolgenden Applet kannst du selbst experimentieren und herausfinden, wie man von der mittleren Änderungsrate zur lokalen Änderungsrate gelangt.
 
 Lies dir zunächst die Aufgabe durch, bevor du mit dem Experimentieren beginnst.
 
+{{< geogebra-activity id="eufd63tm" >}} -->
+
+## Einstieg
+
 {{< geogebra-activity id="vmqsfysb" >}}
-
-## Einstieg v2
-
-{{< geogebra-activity id="eufd63tm" >}}
 
 ## Vom Differenzenquotient zum Differentialquotient
 
