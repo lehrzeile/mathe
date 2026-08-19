@@ -25,6 +25,10 @@ Lies dir zunächst die Aufgabe durch, bevor du mit dem Experimentieren beginnst.
 
 {{< geogebra-activity id="eufd63tm" >}} -->
 
+## Erste Übung
+
+{{< geogebra-activity id="s9uv7jjz" >}}
+
 ## Einstieg
 
 {{< geogebra-activity id="vmqsfysb" >}}
