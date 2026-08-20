@@ -29,7 +29,7 @@ Lies dir zunächst die Aufgabe durch, bevor du mit dem Experimentieren beginnst.
 
 {{< geogebra-activity id="s9uv7jjz" >}}
 
-## Einstieg
+## Einstieg - Von der Sekante zur Tangente
 
 {{< geogebra-activity id="vmqsfysb" >}}
 
