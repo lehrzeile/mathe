@@ -199,7 +199,7 @@ $\Rightarrow$ zwei Nullstellen
 
 {{< youtube IM1WtnTYJK4 >}}
 
-{{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" entry="Die beiden Videos beschäftigen sich mit dem Bestimmen von Nullstellen quadratischer Funktionen - mit und ohne p-q-Formel." >}}
+{{< job name="" numbered="false" style="enum-arabic" name="Beobachtungsauftrag" entry="Die beiden Videos beschäftigen sich mit dem Bestimmen von Nullstellen quadratischer Funktionen - mit und ohne pq-Formel." >}}
 
 - **Schaue** dir zunächst aufmerksam das Video **an**.
 - **Betrachte** das Video nun ein zweites Mal und **schreibe** die Beispielaufgabe **mit**.
@@ -207,7 +207,7 @@ $\Rightarrow$ zwei Nullstellen
 {{< /job >}}
 
 {{< box-note title="Zur Erinnerung:" >}}
-    Wie genau das mit dem Ausklammern, dem Satz vom Nullprodukt und der p-q-Formel funktioniert, ist bereits im Abschnitt <a class="link" href="/hbf1/1-grundlagen-training/terme-und-gleichungen/">Terme und Gleichungen</a> beschrieben.
+    Wie genau das mit dem Ausklammern, dem Satz vom Nullprodukt und der pq-Formel funktioniert, ist bereits im Abschnitt <a class="link" href="/hbf1/1-grundlagen-training/terme-und-gleichungen/">Terme und Gleichungen</a> beschrieben.
 
     Übungsaufgaben zum Lösen von quadratischen Gleichungen findest du ebenfalls in diesem Kapitel.
 {{< /box-note >}}

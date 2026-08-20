@@ -121,12 +121,12 @@ Quadratische Gleichungen können die unterschiedlichsten Formen annehmen. Je nac
 
 {{< /job >}}
 
-### Lösen durch Anwenden der p-q-Formel
+### Lösen durch Anwenden der pq-Formel
 
 {{< box-notice title="Merke dir:" >}}
-    Gleichungen der Form $x^2+px+q=0$ lassen sich mit Hilfe der p-q-Formel lösen.
+    Gleichungen der Form $x^2+px+q=0$ lassen sich mit Hilfe der pq-Formel lösen.
     <br /><br />
-    Die p-q-Formel lautet:
+    Die pq-Formel lautet:
     $$x_{1/2}=-\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2-q}$$
 {{< /box-notice >}}
 
