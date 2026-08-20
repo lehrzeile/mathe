@@ -131,7 +131,7 @@ Quadratische Gleichungen können die unterschiedlichsten Formen annehmen. Je nac
 {{< /box-notice >}}
 
 {{< job numbered="true" style="" title="bettermarks" >}}
-    {{< bettermarks uebungscode="JM5Q" seriesID="1669086512513286400" title="Quadratische Gleichungen durch Wurzelziehen lösen" >}}
+    {{< bettermarks uebungscode="FC88" seriesID="1804566143139053696" title="Quadratische Gleichungen mit der pq-Formel lösen" >}}
 {{< /job >}}
 
 ### Exkurs: abc-Formel und Satz von Vieta
