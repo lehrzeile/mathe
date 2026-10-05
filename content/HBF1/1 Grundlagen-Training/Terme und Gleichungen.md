@@ -53,16 +53,16 @@ Das reicht dir als Erklärung noch nicht? Dann schau dir hier ein Video dazu an:
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" columns="" >}}
 
-{{< bettermarks uebungscode="QC37" seriesID="1669014443326963712" title="Terme mit Potenzen und Klammern vereinfachen" >}}
-{{< bettermarks uebungscode="P7EB" seriesID="1669014553049956352" title="Potenzen als Produkt schreiben und berechnen" >}}
-{{< bettermarks uebungscode="XU9C" seriesID="1669014831769846144" title="Potenzen mit gleicher Basis multiplizieren" >}}
-{{< bettermarks uebungscode="QFJ8" seriesID="1669015064067178880" title="Potenzen mit gleicher Basis und ganzzahligen Exponenten multiplizieren" >}}
-{{< bettermarks uebungscode="WB8Y" seriesID="1669015253091876864" title="Potenzen mit gleicher Basis dividieren" >}}
-{{< bettermarks uebungscode="RDQC" seriesID="1669015379776635008" title="Potenzen mit gleicher Basis und ganzzahligen Exponenten dividieren" >}}
-{{< bettermarks uebungscode="JW9Y" seriesID="1669015582390878592" title="Potenzen von Potenzen berechnen" >}}
-{{< bettermarks uebungscode="PEFG" seriesID="1669015793318232192" title="Potenzen von Potenztermen berechnen" >}}
-{{< bettermarks uebungscode="3GC4" seriesID="1669016095350063232" title="Potenzen von Produkttermen vereinfachen" >}}
-{{< bettermarks uebungscode="612W" seriesID="1669016252732932096" title="Wurzeln in Potenzen umwandeln" >}}
+{{< bettermarks uebungscode="QC37" seriesID="1821180011697156736" title="Terme mit Potenzen und Klammern vereinfachen" >}}
+{{< bettermarks uebungscode="P7EB" seriesID="1821180272465425152" title="Potenzen als Produkt schreiben und berechnen" >}}
+{{< bettermarks uebungscode="XU9C" seriesID="1821180356464751488" title="Potenzen mit gleicher Basis multiplizieren" >}}
+{{< bettermarks uebungscode="QFJ8" seriesID="1821180445564351360" title="Potenzen mit gleicher Basis und ganzzahligen Exponenten multiplizieren" >}}
+{{< bettermarks uebungscode="WB8Y" seriesID="1821180522596938240" title="Potenzen mit gleicher Basis dividieren" >}}
+{{< bettermarks uebungscode="RDQC" seriesID="1821180588514620032" title="Potenzen mit gleicher Basis und ganzzahligen Exponenten dividieren" >}}
+{{< bettermarks uebungscode="JW9Y" seriesID="1821180653652161408" title="Potenzen von Potenzen berechnen" >}}
+{{< bettermarks uebungscode="PEFG" seriesID="1821180714494734976" title="Potenzen von Potenztermen berechnen" >}}
+{{< bettermarks uebungscode="3GC4" seriesID="1821180775303754496" title="Potenzen von Produkttermen vereinfachen" >}}
+{{< bettermarks uebungscode="612W" seriesID="1821180829921981184" title="Wurzeln in Potenzen umwandeln" >}}
 
 {{< /job >}}
 
