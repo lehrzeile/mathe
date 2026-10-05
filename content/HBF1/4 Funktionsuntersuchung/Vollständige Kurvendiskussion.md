@@ -94,12 +94,12 @@ $f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|
 <!-- ![Achsenschnittpunkte des Funktionsgraphen](img/Graph_Achsenschnittpunkte.svg)
     *Abb. 1: Achsenschnittpunkte des Funktionsgraphen* -->
 
-{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4*x^2 +7,2$" >}}
+{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 In Abbildung 1 siehst du die jeweiligen Achsenschnittpunkte markiert.
 
-- Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung betrachtet: $7,2$ \
+- Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung abliest: $7,2$ \
 $\Rightarrow S_y(0|7,2)$.
-- Die Nullstellen des Funktionsgleichung erhält man, indem man eine Polynomdivision durchführt und anschließend die p-q-Formel anwendet: \
+- In diesem Fall bestimmt man die Nullstellen der Funktionsgleichung, indem man zuerst eine Polynomdivision durchführt und anschließend die pq-Formel anwendet: \
 $\Rightarrow x_1=-2, \quad x_2=3, \quad x_3=6$.
 {{< /box-example >}}
 
@@ -107,7 +107,7 @@ $\Rightarrow x_1=-2, \quad x_2=3, \quad x_3=6$.
 
 Die <mark>Symmetrieeigenschaft</mark> einer Funktion beschreibt, ob ihr Graph bei einer Spiegelung oder einer Drehung unverändert bleibt.
 
-Dies führt zu zwei Haupttypen von Symmetrie:
+Man unterscheidet dabei zwischen zwei Haupttypen von Symmetrie:
 
 - **Achsensymmetrie** (siehe grüner Graph):
     - Spiegelung an einer Achse (meist der $y$-Achse)
@@ -121,7 +121,7 @@ Dies führt zu zwei Haupttypen von Symmetrie:
 {{< image src="img/Graph_Punktsymmetrie.svg" caption="punktsymmetrischer Graph" >}}
 {{< /gallery >}}
 
-Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der (geraden oder ungeraden) Exponenten des Funktionsterms bestimmt werden:
+Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der Exponenten des Funktionsterms bestimmt werden. Dabei betrachtet man lediglich, ob sie gerade oder ungerade sind:
 
 - Hat eine Funktionsgleichung nur **gerade Exponenten**, so liegt eine **Achsensymmetrie** vor.
 - Hat eine Funktionsgleichung ausschließlich **ungerade Exponenten**, so handelt es sich um eine **Punktsymmetrie** zum Koordinatenursprung.
@@ -130,16 +130,29 @@ Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der (gera
 In diesem Fall liegt weder eine Achsensymmetrie noch eine Punktsymmetrie vor, da die Funktionsgleichung sowohl ungerade ($x^3$) als auch gerade Exponenten ($x^2$ und $x^0$) enthält.
 
 Sprich: Der Graph von $f$ ist nicht symmetrisch.
+{{< /box-example >}}
 
+{{< box-notice title="Formaler Nachweis der Symmetrieeigenschaft" >}}
 Formal kann man dies wie folgt nachweisen:
+
+- Gilt $f(-x) = f(x)$, so liegt eine **Achsensymmetrie** vor.
+- Gilt $f(-x) = -f(x)$, so liegt eine **Punktsymmetrie** vor.
+
+{{< /box-notice >}}
+
+{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
+Formal weist man dies wie folgt nach:
 
 - Zunächst bildet man $f(-x)$: \
 $f(-x) = 0,2 \cdot (-x)^3 - 1,4 \cdot (-x)^2 + 7,2 = -0,2x^3 - 1,4x^2 +7,2$
 - Nun vergleicht man $f(-x)$ mit $f(x)$: \
 $f(-x) = -0,2x^3 - 1,4x^2 +7,2 \neq 0,2x^3 - 1,4x^2 +7,2 = f(x)$
-- Da $f(x) \neq f(-x)$ gilt, haben wir nachgewiesen, dass keine Achsensymmetrie vorliegt.
 
-Analog funktioniert dies auch für den Nachweis der Punktsymmetrie (welche ebenfalls nicht vorliegt) mit dem Vergleich von $f(-x)$ und $-f(x)$.
+Da $f(x) \neq f(-x)$ gilt, haben wir nachgewiesen, dass **keine** Achsensymmetrie vorliegt.
+
+Da zusätzlich $f(-x) \neq -f(x)$ gilt, liegt außerdem **keine** Punktsymmetrie vor.
+
+Der Funktionsgraph von $f$ ist also nicht symmetrisch.
 {{< /box-example >}}
 
 ## Extrempunkte
