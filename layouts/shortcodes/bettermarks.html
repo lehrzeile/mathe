@@ -6,7 +6,7 @@
 {{ if $paper | eq "true" }}
     <li><a href="https://apps.bettermarks.com/one/library/whiteboard-player/{{ $uebungscode }}" class="bettermarks-link" target="_blank" >
 {{ else }}
-    <li><a href="https://apps.bettermarks.com/one/series-player/?remoteLogging=true&reporting=false&seriesReview=false&enableReadAloud=false&seriesId={{ $seriesID }}" class="bettermarks-link" target="_blank" >
+    <li><a href="https://apps.bettermarks.com/one/series-player/?remoteLogging=true&reporting=false&seriesReview=false&seriesId={{ $seriesID }}" class="bettermarks-link" target="_blank" >
 {{ end }}
         <code>{{ $uebungscode }}</code> <span>"{{ $title }}"</span>
     </a></li>
