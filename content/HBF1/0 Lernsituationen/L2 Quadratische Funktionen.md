@@ -49,7 +49,7 @@ Die Abmessungen eines Tennisplatzes findest du hier:
 
 ![Abmessungen eines Tenniscourts](https://protrackandtennis.com/wp-content/uploads/2024/12/AdobeStock_42356365-scaled.jpeg "{width='80%', style='margin:auto;'}")
 
-{{< source text="protracktennis.com" src="https://protrackandtennis.com/wp-content/uploads/2024/12/AdobeStock_42356365-scaled.jpeg" lastcall="12.09.2025" >}}
+<!-- {{< source text="protracktennis.com" src="https://protrackandtennis.com/wp-content/uploads/2024/12/AdobeStock_42356365-scaled.jpeg" lastcall="12.09.2025" >}} -->
 
 {{< szenario title="Szenario 2.2" >}}
 Ein guter Topspin zeichnet sich dadurch aus, dass der Ball auf der gegnerischen Seite hoch abspringt, nachdem er den Boden berührt hat. Damit das klappt, muss der Spieler dem Ball eine Vorwärtsrotation verleihen, sodass der Ball daraufhin eine relativ hohe Flugkurve annimmt.
