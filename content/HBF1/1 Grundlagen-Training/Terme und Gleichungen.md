@@ -20,8 +20,8 @@ $$ (a + b) \cdot (c + d) = a \cdot c + a \cdot d + b \cdot c + b \cdot d$$
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" columns="" >}}
 
-{{< bettermarks uebungscode="VC3F" seriesID="1669018121823846784" title="Summenterme ausmultiplizieren" >}}
-{{< bettermarks uebungscode="TBU1" seriesID="1669018461751214080" title="Summenterme mit dezimalen oder gebrochenen Koeffizienten ausmultiplizieren" >}}
+{{< bettermarks uebungscode="VC3F" seriesID="1821181646733325184" title="Summenterme ausmultiplizieren" >}}
+{{< bettermarks uebungscode="TBU1" seriesID="1821181714848821760" title="Summenterme mit dezimalen oder gebrochenen Koeffizienten ausmultiplizieren" >}}
 
 {{< /job >}}
 
@@ -30,7 +30,7 @@ $$ (a + b) \cdot (c + d) = a \cdot c + a \cdot d + b \cdot c + b \cdot d$$
 Beim Ausklammern wird das Distributivgesetz "rückwärts" angewendet. Wenn die einzelnen Glieder einer Summe bzw. Differenz gleiche Faktoren enthalten, kannst du diese Summe bzw. Differenz in ein Produkt umwandeln. Du dividierst die einzelnen Glieder durch den gemeinsamen Faktor, klammerst die Summe bzw. Differenz der Ergebnisse ein und schreibst den gemeinsamen Faktor vor die Klammer.
 
 {{< job numbered="true" style="" title="bettermarks" columns="" >}}
-    {{< bettermarks uebungscode="JALF" seriesID="1669019529486795136" title="Variablen in Termen ausklammern" >}}
+    {{< bettermarks uebungscode="JALF" seriesID="1821181564424303360" title="Variablen in Termen ausklammern" >}}
 {{< /job >}}
 
 ## Rechnen mit Potenzen
@@ -80,16 +80,16 @@ Einfache Gleichungen lassen sich durch Anwendung entsprechender Rechengesetze l�
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" >}}
 
-{{< bettermarks uebungscode="7YF2" seriesID="1669021879064592768" title="Einfache lineare Gleichungen durch äquivalentes Umformen lösen" >}}
-{{< bettermarks uebungscode="VMR1" seriesID="1669022020236476672" title="Gleichungen mit Variable auf beiden Seiten durch äquivalentes Umformen lösen" >}}
-{{< bettermarks uebungscode="R7R9" seriesID="1669022184309260672" title="Gleichungen durch Ausmultiplizieren und äquivalentes Umformen lösen" >}}
+{{< bettermarks uebungscode="7YF2" seriesID="1821181827621073536" title="Einfache lineare Gleichungen durch äquivalentes Umformen lösen" >}}
+{{< bettermarks uebungscode="VMR1" seriesID="1821181889906488064" title="Gleichungen mit Variable auf beiden Seiten durch äquivalentes Umformen lösen" >}}
+{{< bettermarks uebungscode="R7R9" seriesID="1821181946504426112" title="Gleichungen durch Ausmultiplizieren und äquivalentes Umformen lösen" >}}
 
 {{< /job >}}
 
 ## Lineare Gleichungen aufstellen und lösen
 
 {{< job numbered="true" style="" title="bettermarks" >}}
-    {{< bettermarks uebungscode="L55V" seriesID="1669022442309288064" title="Lineare Gleichungen in einfachen Sachkontexten aufstellen und lösen" >}}
+    {{< bettermarks uebungscode="L55V" seriesID="1821182028607926784" title="Lineare Gleichungen in einfachen Sachkontexten aufstellen und lösen" >}}
 {{< /job >}}
 
 ## Quadratische Gleichungen lösen
@@ -104,7 +104,7 @@ Quadratische Gleichungen können die unterschiedlichsten Formen annehmen. Je nac
 {{< /box-notice >}}
 
 {{< job numbered="true" style="" title="bettermarks" >}}
-    {{< bettermarks uebungscode="JM5Q" seriesID="1669086512513286400" title="Quadratische Gleichungen durch Wurzelziehen lösen" >}}
+    {{< bettermarks uebungscode="JM5Q" seriesID="1821182103119737728" title="Quadratische Gleichungen durch Wurzelziehen lösen" >}}
 {{< /job >}}
 
 ### Lösen durch Ausklammern und Nullproduktregel
@@ -116,8 +116,8 @@ Quadratische Gleichungen können die unterschiedlichsten Formen annehmen. Je nac
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" >}}
 
-{{< bettermarks uebungscode="E2R5" seriesID="1669086095091958144" title="Quadratische Gleichungen mit der Nullproduktregel lösen" >}}
-{{< bettermarks uebungscode="L24D" seriesID="1669086371886662016" title="Quadratische Gleichungen durch Ausklammern lösen" >}}
+{{< bettermarks uebungscode="E2R5" seriesID="1821182175609893376" title="Quadratische Gleichungen mit der Nullproduktregel lösen" >}}
+{{< bettermarks uebungscode="L24D" seriesID="1821182260833956608" title="Quadratische Gleichungen durch Ausklammern lösen" >}}
 
 {{< /job >}}
 
