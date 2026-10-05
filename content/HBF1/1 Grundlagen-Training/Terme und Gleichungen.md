@@ -131,10 +131,12 @@ Quadratische Gleichungen können die unterschiedlichsten Formen annehmen. Je nac
 {{< /box-notice >}}
 
 {{< job numbered="true" style="enum-alph" title="bettermarks" >}}
+
     {{< bettermarks uebungscode="7YD6" seriesID="1821166191805215616" title="Quadratische Gleichungen schrittweise mit der pq-Formel lösen" >}}
     {{< bettermarks uebungscode="YYF2" seriesID="1821166131579204352" title="Quadratische Gleichungen in Normalform mit der pq-Formel lösen" >}}
     {{< bettermarks uebungscode="FC88" seriesID="1821166039770084096" title="Quadratische Gleichungen mit der pq-Formel lösen - ganzzahlige Koeffizienten" >}}
     {{< bettermarks uebungscode="TT45" seriesID="1821165960938140288" title="Lösungsmenge quadratischer Gleichungen mit der pq-Formel bestimmen - ganzzahlige Koeffizienten" >}}
+
 {{< /job >}}
 
 ### Exkurs: abc-Formel und Satz von Vieta
