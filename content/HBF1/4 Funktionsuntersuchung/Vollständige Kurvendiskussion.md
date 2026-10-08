@@ -27,7 +27,7 @@ Damit du all diese Schritte anschaulich nachvollziehen kannst, führen wir in di
     Nachfolgend betrachten wir beispielhaft die Funktion $f(x)=0,2x^3 - 1,4x^2 +7,2$ und führen eine vollständige Kurvendiskussion durch.
 {{< /box-example >}}
 
-## Definitionsbereich
+## 1. Definitionsbereich
 
 {{< box-notice title="Definitionsbereich" >}}
 Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ -- ist die Menge aller $x$-Werte,
@@ -67,7 +67,7 @@ Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiel
 - Umgangssprachlich ausgedrückt: Man darf alle Zahlen (egal ob positiv oder negativ) außer der Null einsetzen.
 {{< /box-important >}}
 
-## Achsenschnittpunkte
+## 2. Achsenschnittpunkte
 
 Wenn geklärt ist, wie der Definitionsbereich der Funktion lautet, dann überprüft man den Graphen der Funktion zunächst auf dessen <mark>Schnittpunkte mit den Koordinatenachsen</mark>:
 
@@ -102,7 +102,7 @@ $\Rightarrow S_y(0|7,2)$.
 $\Rightarrow x_1=-2, \quad x_2=3, \quad x_3=6$.
 {{< /box-example >}}
 
-## Symmetrieeigenschaften
+## 3. Symmetrieeigenschaften
 
 Die <mark>Symmetrieeigenschaft</mark> einer Funktion beschreibt, ob ihr Graph bei einer Spiegelung oder einer Drehung unverändert bleibt.
 
@@ -154,11 +154,11 @@ Da zusätzlich $f(-x) \neq -f(x)$ gilt, liegt außerdem **keine** Punktsymmetrie
 Der Funktionsgraph von $f$ ist also nicht symmetrisch.
 {{< /box-example >}}
 
-## Extrempunkte
+## 4. Extrempunkte
 
 Wie man Extrempunkte bestimmt, hast du bereits im [Abschnitt "Extrempunkte bestimmen"](/hbf1/4-funktionsuntersuchung/extrempunkte-bestimmen/) kennengelernt. Falls du dir nicht mehr sicher bist, wie das geht, schaue dir diesen Abschnitt noch einmal an.
 
-## Wendepunkte
+## 5. Wendepunkte
 
 Unsere Beispielfunktion hat zwei Extrema -- einen Hoch- und einen Tiefpunkt -- und somit zwei Stellen, an denen die Steigung des Funktionsgraphen Null ist. Das bedeutet folglich auch, dass es dazwischen eine Stelle geben muss, an der die Steigung extremal (d.h. minimal oder maximal) ist. Solche Stellen bzw. Punkte bezeichnet man als <mark>Wendestellen bzw. -punkte</mark>.
 
@@ -205,16 +205,7 @@ Wir kennen nun also auch die genauen Koordinaten des Wendepunkts $(2,33|2,12)$.
 
 {{< image src="img/Graph_Wendestellen.svg" caption="Wendepunkt des Funktionsgraphen" >}}
 
-### Zusammenhang zwischen Ausgangsfunktion und den Ableitungsfunktionen
-
-In Abbildung 8 wird noch einmal der Zusammenhang zwischen Ausgangsfunktion, 1. Ableitung und 2. Ableitung aufgezeigt:
-{{< image src="img/Graph_und_Ableitungen.svg" caption="Funktionsgraph und Ableitungen" >}}
-
-<!-- ## Steigungs-, Krümmungs- und Monotonieverhalten
-
-to be continued... -->
-
-## Globalverhalten
+## 6. Globalverhalten
 
 {{< box-notice title="Globalverhalten" >}}
 Unter dem Globalverhalten versteht man auch die **Untersuchung der Randpunkte des Definitionsbereiches**.
@@ -250,11 +241,20 @@ Wir betrachten nur die höchste Potenz von $f(x)$, sprich: $0,2 \cdot x^3$ und b
     Eine negative Zahl dreimal mit sich selbst multipliziert ergibt wieder eine negative Zahl. Multipliziert man diese anschließend mit einer positiven Zahl ($0,2$), so erhält man wiederum eine negative Zahl: $-\infty$.
 {{< /box-example >}}
 
-## Skizze
+## 7. Skizze
 
 Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzufertigen (vgl. Abbildung 9). Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
 
 {{< image src="img/Graph_final.svg" caption="Finale Skizze des Funktionsgraphen mit allen Punkten" >}}
+
+## Fazit - Zusammenhang zwischen Ausgangsfunktion und den Ableitungsfunktionen
+
+In Abbildung 8 wird noch einmal der Zusammenhang zwischen Ausgangsfunktion, 1. Ableitung und 2. Ableitung aufgezeigt:
+{{< image src="img/Graph_und_Ableitungen.svg" caption="Funktionsgraph und Ableitungen" >}}
+
+<!-- ## Steigungs-, Krümmungs- und Monotonieverhalten
+
+to be continued... -->
 
 <br />
 <br />
