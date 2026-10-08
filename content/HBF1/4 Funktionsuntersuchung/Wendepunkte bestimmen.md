@@ -1,15 +1,15 @@
 ---
-title: "Extrempunkte bestimmen"
+title: "Wendepunkte bestimmen"
 description: ""
 summary: ""
 draft: false
-weight: 502
+weight: 503
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-## Extrempunkte
+## Wendepunkte
 
 Die Extrempunkte einer Funktion sind diejenigen Punkte des Funktionsgraphen, an denen der höchste Punkt (Hochpunkt/Maximum) oder der tiefste Punkt (Tiefpunkt/Minimum) in einer lokalen Umgebung erreicht wird.
 

@@ -3,26 +3,25 @@ title: "Vollständige Kurvendiskussion"
 description: ""
 summary: ""
 draft: false
-weight: 502
+weight: 504
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-## Einleitung
+## Vorwort
 
-Du hast dir zwischenzeitlich ein paar -- aus mathematischer Sicht -- mächtige Werkzeuge angeeignet. Diese werden nun von Nutzen sein, wenn es darum geht, Funktionen nähergehend zu untersuchen.
+In diesem Abschnitt lernst du Schritt für Schritt einer vollständigen Funktionsuntersuchung kennen. Einzelne davon hast du bereits in den vorherigen Abschnitten kennengelernt. Diese werden nun durch weitere Aspekte ergänzt.
 
-In der Mathematik ist es oft nicht ausreichend, eine Funktionsgleichung nur zu kennen -- vielmehr ist es entscheidend, ihre Eigenschaften genau zu analysieren.
+1. Definitionsbereich
+1. Achsenschnittpunkte
+1. Symmetrieeigenschaft
+1. Extrempunkte
+1. Wendepunkte
+1. Globalverhalten
+1. Skizze
 
-Die sogenannte **Funktionsuntersuchung** -- oft auch **vollständige Kurvendiskussion** genannt -- liefert dir ein systematisches Vorgehen, um wichtige Merkmale wie Definitionsbereich, Nullstellen, Extrempunkte, Wendepunkte und das Verhalten im Unendlichen zu bestimmen. Diese Analyse bildet die Grundlage, um das Verhalten von Funktionen zu verstehen, zu interpretieren und in vielen Anwendungsbereichen gezielt einsetzen zu können.
-
-In diesem Kapitel lernst du also Schritt für Schritt, wie du eine Funktion vollständig untersuchst.
-Um zu verstehen, in welchen Anwendungsbereichen dies von Nutzen sein kann, widmen wir uns im Anschluss daran einem Anwendungsbeispiel.
-
-## Vorgehen in diesem Kapitel
-
-In diesem Kapitel findest du nicht nur die grundlegenden Definitionen und Erklärungen zur Vorgehensweise bei einer vollständigen Kurvendiskussion, sondern auch ein Beispiel, an dem alle Schritte durchgeführt und somit anschaulich nachvollzogen werden können.
+Damit du all diese Schritte anschaulich nachvollziehen kannst, führen wir in diesem Abschnitt eine **vollständige Kurvendiskussion** anhand eines Beispiels durch.
 
 {{< box-example title="Beispiel" >}}
     Nachfolgend betrachten wir beispielhaft die Funktion $f(x)=0,2x^3 - 1,4x^2 +7,2$ und führen eine vollständige Kurvendiskussion durch.
@@ -157,125 +156,7 @@ Der Funktionsgraph von $f$ ist also nicht symmetrisch.
 
 ## Extrempunkte
 
-Extrempunkte einer Funktion sind die Punkte auf ihrem Graphen, an denen die Funktion entweder ihren höchsten Punkt (Hochpunkt/Maximum) oder ihren tiefsten Punkt (Tiefpunkt/Minimum) in einer lokalen Umgebung erreicht.
-<!-- , was sich durch einen Wechsel der Monotonie von steigend zu fallend oder umgekehrt zeigt. -->
-
-{{< box-notice title="Was sind Extrempunkte?" >}}
-Man unterscheidet bei **Extrempunkten** -- oft auch **Extrema** genannt -- zwischen Hochpunkten und Tiefpunkten:
-
-- **Hochpunkt (Maximum)**: Ein Punkt auf dem Graphen, an dem die Funktion lokal am höchsten ist. Der Graph steigt davor an und fällt danach wieder.
-- **Tiefpunkt (Minimum)**: Ein Punkt auf dem Graphen, an dem die Funktion lokal am tiefsten ist. Der Graph fällt davor und steigt danach wieder an.
-
-{{< /box-notice >}}
-
-### Schritt 1
-
-Zunächst bildet man die ersten <mark>drei Ableitungen</mark> der gesuchten Funktion. Wenn dir die Ableitungsregeln nicht mehr bekannt sind, dann wirf noch einmal einen Blick in das Kapitel "Grundlagen der Differentialrechnung" auf die Seite ["Erste Ableitungsregeln"](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/).
-
-{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
-
-Erste Ableitung: \
-$f'(x)=0,6x^2-2,8x$
-
-Zweite Ableitung: \
-$f''(x)=1,2x-2,8$
-
-Dritte Ableitung: \
-$f'''(x)=1,2$
-{{< /box-example >}}
-
-### Schritt 2
-
-Als nächstes kümmern wir uns um die sogenannte <mark>notwendige Bedingung</mark>:
-
-{{< box-notice title="Notwendige Bedingung für Extrempunkte" >}}
-Die **notwendige Bedingung für eine Extremstelle** einer differenzierbaren Funktion ist, dass die erste Ableitung ($f'(x)$) an dieser Stelle gleich Null ist ($f'(x) = 0$), da die **Tangente** an dieser Stelle **waagerecht** ist (und ihre Steigung somit Null ist).
-{{< /box-notice >}}
-
-In Abbildung 4 sind diejenigen Stellen des Funktionsgraphen markiert, an denen eine waagerechte Tangente vorliegt:
-
-{{< image src="img/Graph_Extrema.svg" caption="Extrema und waagerechte Tangente" >}}
-<!-- ![Extrema und waagerechte Tangente](img/Graph_Extrema.svg)
-*Abb. 4: Extrema und waagerechte Tangente* -->
-
-Um diejenigen Stellen bestimmen zu können, an denen die Tangente waagerecht ist, müssen wir als nächstes die <mark>Nullstellen der ersten Ableitung bestimmen</mark>.
-
-{{< box-notice title="Bedeutung der ersten Ableitung" >}}
-Die erste Ableitung einer Funktion $f(x)$ -- bezeichnet als $f'(x)$ -- gibt die **momentane Steigung des Funktionsgraphen an einer bestimmten Stelle** an.
-
-Sie beschreibt die **lokale Änderungsrate** und ermöglicht die **Berechnung, wie steil der Graph in jedem Punkt ist**. Dies ist für die Ermittlung von Extrempunkten (Hoch- und Tiefpunkten) wichtig und für das Verständnis des Verhaltens des Funktionsgraphen (ob dieser steigend oder fallend ist) entscheidend.
-{{< /box-notice >}}
-
-{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
-Zur Erinnerung: \
-$f'(x)=0,6x^2-2,8x$
-
-Notwendige Bedingung:
-
-$\begin{aligned}
-&&f'(x) &=0 \\\
-\Leftrightarrow &&0,6x^2-2,8x &= 0 \\\
-\Leftrightarrow &&x \cdot (0,6x-2,8) &= 0
-\end{aligned}$
-
-$\Rightarrow x_1=0, \quad 0,6x_2-2,8=0 \\\
-\Leftrightarrow x_1=0, \quad x_2 \approx 4,67$
-{{< /box-example >}}
-
-Wir wissen nun, dass der Funktionsgraph an den Stellen $x_1=0$ und $x_2 \approx 4,67$ eine waagerechte Tangente besitzt und somit an diesen Stellen Extrempunkte vorliegen können.
-
-### Schritt 3
-
-Um zu überprüfen, welche Art von Extrempunkt vorliegt, nutzt man nun die <mark>hinreichende Bedingung</mark> von Extremstellen.
-
-{{< box-notice title="Hinreichende Bedingung" >}}
-Dass die erste Ableitung an derjenigen Stelle des Funktionsgraphen gleich Null ist, an der sich eine Extremstelle befindet, ist jedoch **keine hinreichende Bedingung**. An solchen Stellen kann nämlich anstatt eines Hoch- oder Tiefpunkts auch ein sogenannter **Sattelpunkt** vorliegen.
-
-Zur Überprüfung, ob tatsächlich ein Extrempunkt vorliegt, wird daher die zweite Ableitung ($f''(x)$) herangezogen:
-
-- Ist $f''(x) < 0$ so liegt ein Hochpunkt vor,
-- ist $f''(x) > 0$, handelt es sich um einen Tiefpunkt und
-- wenn $f''(x) = 0$ ist, dann liegt ein Sattelpunkt vor.
-
-{{< /box-notice >}}
-
-{{< box-notice title="Sattelpunkt" >}}
-Wenn $f'(x) = 0$ und gleichzeitig $f''(x) = 0$ ist, dann liegt kein Extrempunkt, sondern ein **Sattelpunkt** (auch *Terrassenpunkt* genannt) vor, bei dem die **Tangente waagerecht** ist, **aber kein lokales Maximum oder Minimum** vorliegt.
-{{< /box-notice >}}
-
-{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
-Zur Erinnerung: \
-$f''(x)=1,2x-2,8$ und $x_1=0, \quad x_2 \approx 4,67$
-
-Wir überprüfen die erste Extremstelle $x_1=0$: \
-$f''(0)=1,2 \cdot 0 - 2,8 = -2,8 < 0 \Rightarrow$ Hochpunkt
-
-Wir überprüfen die zweite Extremstelle $x_2 \approx 4,67$: \
-$f''(4,67)=1,2 \cdot 4,67 - 2,8 = 2,804 > 0 \Rightarrow$ Tiefpunkt
-{{< /box-example >}}
-
-{{< image src="img/Graph_Extremstellen.svg" caption="Extremstellen des Graphen" >}}
-
-Wir wissen nun, dass an der Stelle $x_1=0$ ein Hochpunkt und an der Stelle $x_2 \approx 4,67$ ein Tiefpunkt vorliegt.
-
-### Schritt 4
-
-Last but not least widmen wir uns den <mark>noch fehlenden Koordinaten</mark> der Extremstellen.
-Diese rechnen wir aus, indem wir die $x$-Werte der Extremstellen in die Ausgangsfunktion einsetzen und die dazugehörigen Funktionswerte $f(x_i)$ an dieser Stelle berechnen.
-
-{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
-Zur Erinnerung: \
-$x_1=0, \quad x_2 \approx 4,67$
-
-Wir rechnen den $y$-Wert des ersten Extrempunkts $x_1=0$ aus: \
-$f(0)=0,2 \cdot 0^3 - 1,4 \cdot 0^2 + 7,2 = 7,2 \quad \Rightarrow HP(0|7,2)$
-
-Wir rechnen den $y$-Wert des zweiten Extrempunkts $x_2 \approx 4,67$ aus: \
-$f(0)=0,2 \cdot 4,67^3 - 1,4 \cdot 4,67^2 + 7,2 \approx -2,96 \quad \Rightarrow TP(4,67|-2,96)$
-{{< /box-example >}}
-
-Wir kennen also nun die Koordinaten der Extrempunkte:
-{{< image src="img/Graph_Extrempunkte.svg" caption="Extrempunkte des Graphen" >}}
+Wie man Extrempunkte bestimmt, hast du bereits im [Abschnitt "Extrempunkte bestimmen"](/hbf1/4-funktionsuntersuchung/extrempunkte-bestimmen/) kennengelernt. Falls du dir nicht mehr sicher bist, wie das geht, schaue dir diesen Abschnitt noch einmal an.
 
 ## Wendepunkte
 
