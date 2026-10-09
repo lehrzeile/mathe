@@ -143,13 +143,13 @@ In diesem Fall liegt weder eine Achsensymmetrie noch eine Punktsymmetrie vor, da
 Sprich: Der Graph von $f$ ist nicht symmetrisch.
 {{< /box-example >}}
 
-{{< box-notice title="Formaler Nachweis der Symmetrieeigenschaft" >}}
+{{< box-note title="Formaler Nachweis der Symmetrieeigenschaft" >}}
 Formal kann man dies wie folgt nachweisen:
 
 - Gilt $f(-x) = f(x)$, so liegt eine **Achsensymmetrie** vor.
 - Gilt $f(-x) = -f(x)$, so liegt eine **Punktsymmetrie** vor.
 
-{{< /box-notice >}}
+{{< /box-note >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 Formal weist man dies wie folgt nach:
