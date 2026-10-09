@@ -120,7 +120,7 @@ Wir kennen nun also auch die genauen Koordinaten des Wendepunkts $(2,33|2,12)$.
 - Die erste Ableitung $f'(x)$ liefert uns die **Steigung** des Funktionsgraphen.
 - Somit liefert uns die zweite Ableitung $f''(x)$ -- welche man auch als die erste Ableitung der ersten Ableitung bezeichnen könnte -- diejenigen Stellen des Funktionsgraphen, an denen die **Steigung extremal** ist.
 
-{{< box-note title="Vergleich Extrem- und Wendepunkte" >}}
+{{< box-notice title="Unterschied zwischen Extrem- und Wendepunkten" >}}
 Ein Extrempunkt ist derjenige Punkt, in dem der Graph den **kleinsten bzw. größten Funktionswert** besitzt.
 
 {{< center >}} vs. {{< /center >}}
@@ -128,4 +128,4 @@ Ein Extrempunkt ist derjenige Punkt, in dem der Graph den **kleinsten bzw. grö�
 <br />
 
 Ein Wendepunkt ist derjenige Punkt, in dem der Graph die **kleinste bzw. größte Steigung** besitzt.
-{{< /box-note >}}
+{{< /box-notice >}}
