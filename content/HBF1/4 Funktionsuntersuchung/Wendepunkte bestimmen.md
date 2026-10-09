@@ -15,7 +15,7 @@ Unsere Beispielfunktion hat zwei Extrema -- einen Hoch- und einen Tiefpunkt -- u
 
 ## Beispiele und Vergleiche
 
-{{< box-note title="Der Bergsteiger-Vergleich" >}}
+{{< box-note title="Vergleich #1: Der Bergsteiger-Vergleich" >}}
 *Stell dir vor, der Funktionsgraph stellt das Höhenprofil eines Geländes dar und du wanderst dieses entlang. Nachdem du den tiefsten Punkt passiert hast, (du befindest dich jetzt also rechts vom Tiefpunkt) nimmt die wieder Steigung zu -- es geht also wieder bergauf. Ehe du den höchsten Punkt erreicht hast, (du dich also links vom Hochpunkt befindest) nimmt die Steigung jedoch wieder ab -- da es ansonsten ja immer weiter bergauf gehen würde. Das bedeutet, dass es dazwischen folglich eine Stelle geben muss, an der die Steigung am größten ist.*
 {{< /box-note >}}
 
@@ -32,7 +32,7 @@ Um (besser) zu verstehen, was das Krümmungsverhalten bedeutet, kannst du erneut
 
 Alternativ bietet sich aber auch der folgende Vergleich an:
 
-{{< box-note title="Was das Krümmungsverhalten mit Autofahren zu tun hat?" >}}
+{{< box-note title="Vergleich #2: Was das Krümmungsverhalten mit Autofahren zu tun hat?" >}}
 *Stell dir vor, du schaust von oben herab auf den Funktionsgraphen und fährst mit einem Auto die vorgegebene Strecke entlang.*
 
 *In bestimmten Bereichen fährst du eine Linkskurve* (Steigung $+ \Rightarrow $ Linkskrümmung)*, in wiederum anderen Bereichen eine Rechtskurve* (Steigung $- \Rightarrow$ Rechtskrümmung)*. Dazwischen gibt es jeweils einen kurzen Moment, in dem du das Lenkrad in keine der beiden Richtungen eingeschlagen hast* (Steigung $=0$) *und somit gerade hältst.*
@@ -124,6 +124,8 @@ Wir kennen nun also auch die genauen Koordinaten des Wendepunkts $(2,33|2,12)$.
 Ein Extrempunkt ist derjenige Punkt, in dem der Graph den **kleinsten bzw. größten Funktionswert** besitzt.
 
 {{< center >}} vs. {{< /center >}}
+
+<br />
 
 Ein Wendepunkt ist derjenige Punkt, in dem der Graph die **kleinste bzw. größte Steigung** besitzt.
 {{< /box-note >}}

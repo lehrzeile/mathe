@@ -45,11 +45,11 @@ Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
 {{< /box-note >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 + 7,2$" >}}
-    Auch bei der Funktion aus unserem Beispiel gilt: \
-    $\mathbb{D}(f) = \mathbb{R}$.
+Auch bei der Funktion aus unserem Beispiel gilt: \
+$\mathbb{D}(f) = \mathbb{R}$.
 
-    *Warum?*
-    Es gibt keine Einschränkungen, was man für $x$ einsetzen kann. Egal, was man einsetzt -- alle mathematischen Rechenregeln bleiben erfüllt.
+*Warum?*
+Es gibt keine Einschränkungen, was man für $x$ einsetzen kann. Egal, was man einsetzt -- alle mathematischen Rechenregeln bleiben erfüllt.
 {{< /box-example >}}
 
 Wie bereits angedeutet, gibt es hierfür auch Ausnahmen. Nachfolgend findest du zwei Beispiele.
