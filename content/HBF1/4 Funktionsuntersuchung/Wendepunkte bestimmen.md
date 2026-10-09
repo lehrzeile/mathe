@@ -123,7 +123,7 @@ Wir kennen nun also auch die genauen Koordinaten des Wendepunkts $(2,33|2,12)$.
 {{< box-note title="Vergleich Extrem- und Wendepunkte" >}}
 Ein Extrempunkt ist derjenige Punkt, in dem der Graph den **kleinsten bzw. größten Funktionswert** besitzt.
 
-{{< center >}} vs. {{< \center >}}
+{{< center >}} vs. {{< /center >}}
 
 Ein Wendepunkt ist derjenige Punkt, in dem der Graph die **kleinste bzw. größte Steigung** besitzt.
 {{< /box-note >}}
