@@ -9,8 +9,6 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-## Vorwort
-
 In diesem Abschnitt lernst du Schritt für Schritt einer vollständigen Funktionsuntersuchung kennen. Einzelne davon hast du bereits in den vorherigen Abschnitten kennengelernt. Diese werden nun durch weitere Aspekte ergänzt.
 
 1. Definitionsbereich
