@@ -44,7 +44,7 @@ Diesen Vergleich kannst du mit Hilfe der nachfolgenden GeoGebra-Aktivität selbs
 
 <!--  -->
 
-## Wendestellen bestimmen
+## Wendepunkte bestimmen -- so geht's
 
 ### Schritt 1
 
