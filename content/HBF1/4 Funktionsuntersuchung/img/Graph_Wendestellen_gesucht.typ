@@ -43,8 +43,24 @@
   xaxis: (tick-distance: 1, subticks: 1),
   yaxis: (tick-distance: 1, subticks: 1),
   lq.plot(xs, function1, mark: none, stroke: thirdcolor + 1.5pt, label: [$f$]),
+  // Tangenten
+  lq.plot((-1.5, 1.5), (7.2, 7.2), stroke: red + 1.5pt, mark: none),
+  lq.place(0.4, 7.6, align: center + horizon)[#text(14pt, fill: red, font: "Roboto")[$arrow.bl$]],
+  lq.place(0.2, 8, align: left)[#text(9pt, fill:red, font: "Roboto")[Steigung = 0]],
+  lq.plot((3.17, 6.17), (-2.96, -2.96), stroke: red + 1.5pt, mark: none),
+  lq.place(5, -3.3, align: center + horizon)[#text(14pt, fill: red, font: "Roboto")[$arrow.tl$]],
+  lq.place(4.4, -3.75, align: left)[#text(9pt, fill:red, font: "Roboto")[Steigung = 0]],
   // Wendepunkt
   lq.place(2.75, 3.5, align: left)[#text(9pt, font: "Roboto")[Wendepunkt !?]],
   lq.place(1.05, 2.25, align: left)[#rotate(73deg)[#ellipse(stroke: 1pt + red, width: 2.2cm, height: 0.7cm)]],
   lq.place(3.1, 3, align: center + horizon)[#text(17pt, font: "Roboto")[$arrow.bl$]],
+  // Markierungen
+  lq.line(tip: tiptoe.triangle, stroke: red, (-2.3, 1), (-1.7, 4.5)),
+  lq.place(-3.4, 2.75, align: left)[#rotate(-80deg)[#text(9pt, fill: red, font: "Roboto")[Steigung > 0]]],
+  lq.line(tip: tiptoe.triangle, stroke: red, (6.5, 1), (7, 4.5)),
+  lq.place(6.1, 2.75, align: left)[#rotate(-83deg)[#text(9pt, fill: red, font: "Roboto")[Steigung > 0]]],
+  lq.line(tip: tiptoe.triangle, stroke: red, (1, 6.7), (2.2, 3.8)),
+  lq.place(1.3, 5.6, align: left)[#rotate(70deg)[#text(9pt, fill: red, font: "Roboto")[Steigung \ nimmt ab]]],
+  lq.line(tip: tiptoe.triangle, stroke: red, (2.6, 0.4), (3.7, -2.5)),
+  lq.place(1.85, -1.4, align: left)[#rotate(70deg)[#text(9pt, fill: red, font: "Roboto")[Steigung \ nimmt zu]]],
 )
