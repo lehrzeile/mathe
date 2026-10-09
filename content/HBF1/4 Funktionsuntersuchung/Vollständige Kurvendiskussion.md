@@ -106,7 +106,7 @@ $f(x)=0,2 \cdot 0^3 - 1,4 \cdot 0^2 + 7,2 \Rightarrow S_y(0|7,2)$.
 $\Rightarrow x_1=-2, \quad x_2=3, \quad x_3=6$.
 {{< /box-example >}}
 
-## 3. Symmetrieeigenschaften
+## 3. Symmetrieeigenschaft
 
 Die <mark>Symmetrieeigenschaft</mark> einer Funktion beschreibt, ob ihr Graph bei einer Spiegelung oder einer Drehung unverändert bleibt.
 
