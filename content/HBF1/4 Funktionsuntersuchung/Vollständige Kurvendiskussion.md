@@ -27,17 +27,17 @@ Damit du all diese Schritte anschaulich nachvollziehen kannst, führen wir in di
 
 ## 1. Definitionsbereich
 
+Zur vollständigen Beschreibung einer Funktion -- wie das bei vollständigen Kurvendiskussion der Fall ist -- gehört die Angabe des <mark>Definitionsbereichs</mark>. Diesen bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
+
 {{< box-notice title="Definitionsbereich" >}}
 Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ -- ist die Menge aller $x$-Werte,
 für die die Funktion definiert ist.
 {{< /box-notice >}}
 
-Zur vollständigen Beschreibung einer Funktion -- wie das bei vollständigen Kurvendiskussion der Fall ist -- gehört die Angabe des <mark>Definitionsbereichs</mark>. Diesen bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
-
-{{< box-note title="" >}}
 Umgangssprachlich ausgedrückt umfasst der Definitionsbereich alle $x$-Werte (Argumente), die man in die Funktion einsetzen darf. Je nach Funktionsgleichung gibt es dafür Einschränkungen.
 
-Im Allgemeinen gilt jedoch: $\mathbb{D}(f) = \mathbb{R}$.
+{{< box-note title="" >}}
+Im Allgemeinen gilt: $\mathbb{D}(f) = \mathbb{R}$.
 
 Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
 {{< /box-note >}}
@@ -45,11 +45,14 @@ Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 + 7,2$" >}}
     Auch bei der Funktion aus unserem Beispiel gilt: \
     $\mathbb{D}(f) = \mathbb{R}$.
+
+    *Warum?*
+    Es gibt keine Einschränkungen, was man für $x$ einsetzen kann. Egal, was man einsetzt -- alle mathematischen Rechenregeln bleiben erfüllt.
 {{< /box-example >}}
 
-{{< box-important title="Achtung: Ausnahmen!" >}}
-Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiele:
+Wie bereits angedeutet, gibt es hierfür auch Ausnahmen. Nachfolgend findest du zwei Beispiele.
 
+{{< box-important title="Achtung: Ausnahmen!" >}}
 **Wurzelfunktionen** wie z.B. $f(x) = \sqrt{x}$:
 
 - Vielleicht erinnerst du dich an folgende Regel: Aus einer negativen Zahl kann man im Bereich der reellen Zahlen nur dann eine Wurzel ziehen, wenn der Wurzelexponent ungerade ist. Ist der Wurzelexponent gerade (wie das bei der Quadratwurzel $\sqrt{}$ der Fall ist), ist die Wurzel aus einer negativen Zahl nicht definiert.
@@ -70,8 +73,7 @@ Wie bereits erwähnt gibt es jedoch auch Ausnahmen. Hier siehst du zwei Beispiel
 Wenn geklärt ist, wie der Definitionsbereich der Funktion lautet, dann überprüft man den Graphen der Funktion zunächst auf dessen <mark>Schnittpunkte mit den Koordinatenachsen</mark>:
 
 - **Schnittpunkt mit der y-Achse:** \
-Eine Funktion kann einen Schnittpunkt mit der $y$-Achse haben -- auch <mark>$y$-Achsenabschnitt</mark> genannt --, muss aber nicht zwingend.
-Ein Beispiel für eine Funktion, welche keinen Schnittpunkt mit der $y$-Achse besitzt, ist die Funktion $f(x)=\frac1x$.
+Eine Funktion kann lediglich einen Schnittpunkt mit der $y$-Achse haben -- auch <mark>$y$-Achsenabschnitt</mark> genannt. Dies ist aber nicht zwingend der Fall. Es gibt nämlich auch Funktionen, bei denen dies nicht der Fall ist. Ein Beispiel für eine solche (gebrochen-rationale) Funktion, ist die Funktion $f(x)=\frac1x$. Sie besitzt keinen Schnittpunkt mit der $y$-Achse.
 
 - **Schnittpunkte mit der x-Achse:** \
 Man spricht hierbei von den sog. <mark>Nullstellen</mark> einer Funktion. Anders als bei der Begrifflichkeit Schnittpunkt bezeichnet eine Nullstelle lediglich den $x$-Wert (Stelle) eines Schnittpunkts mit der $x$-Achse. Alle Schnittpunkte mit der $x$-Achse haben die Form $(x_i|0)$, wobei $x_i$ hier repräsentativ für alle Nullstellen der Funktion steht.
@@ -79,12 +81,16 @@ Man spricht hierbei von den sog. <mark>Nullstellen</mark> einer Funktion. Anders
 {{< box-notice title="Wie bestimmt man die Achsenschnittpunkte?" >}}
 
 - **Schnittpunkt mit der $y$-Achse:** \
-$f(0)$ bestimmen $\quad \Rightarrow P(0|f(0))$
+Hierfür setzt man $x=0$ in die Funktionsgleichung ein:
+$f(0)$ $\quad \Rightarrow P(0|f(0))$.
+Heißt: *Überall dort, wo $x$ in der Funktionsgleichung auftaucht.*
 
 - **Schnittpunkte mit der $x$-Achse:** \
-$f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|0)$
+Hierfür setzt man die Funktionsgleichung gleich Null ($f(x) = 0$) und bestimmt alle Nullstellen $x_i$ $\quad \Rightarrow (x_i|0)$
 
 {{< /box-notice >}}
+
+Auf der nachfolgenden Abbildung sind alle Achsenschnittpunkte des Graphen aus unserem Beispiel abgebildet.
 
 {{< image src="img/Graph_Achsenschnittpunkte.svg" caption="Achsenschnittpunkte des Funktionsgraphen" >}}
 
@@ -94,8 +100,8 @@ $f(x) = 0$ setzen und alle Nullstellen $x_i$ ausrechnen $\quad \Rightarrow (x_i|
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 In Abbildung 1 siehst du die jeweiligen Achsenschnittpunkte markiert.
 
-- Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung abliest: $7,2$ \
-$\Rightarrow S_y(0|7,2)$.
+- Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung abliest: $7,2$. \
+$f(x)=0,2 \cdot 0^3 - 1,4 \cdot 0^2 + 7,2 \Rightarrow S_y(0|7,2)$.
 - In diesem Fall bestimmt man die Nullstellen der Funktionsgleichung, indem man zuerst eine Polynomdivision durchführt und anschließend die pq-Formel anwendet: \
 $\Rightarrow x_1=-2, \quad x_2=3, \quad x_3=6$.
 {{< /box-example >}}

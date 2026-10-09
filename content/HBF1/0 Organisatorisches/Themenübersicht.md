@@ -28,7 +28,7 @@ Diese Seite soll einen Überblick über das Fach Mathematik in der HBF Unterstuf
 <br />
 <!-- <br /> -->
 
-Welche Themen in der HBF Oberstufe behandelt werden, findest du [hier](/hbf2/0-organisatorisches/themenübersicht/).
+Welche Themen in der HBF Oberstufe behandelt werden, findest du [hier](/hbf2/0-organisatorisches/themenübersicht-oberstufe/).
 
 [^1]: Hierzu heißt es im Lehrplan: "Die Ableitung einer Funktion als lokale Änderungsrate auffassen und als Grenzwert des Differenzenquotienten herleiten"
 [^2]: Hierzu heißt es im Lehrplan: "Rationale Funktionen diskutieren, um Kenntnis über Lage, Form und ausgezeichnete Punkte ihres Graphen zu erlangen"
