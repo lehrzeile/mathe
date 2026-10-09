@@ -23,7 +23,7 @@ Man unterscheidet bei **Extrempunkten** -- oft auch **Extrema** genannt -- zwisc
 
 ### Schritt 1
 
-Zunächst bildet man die ersten <mark>zwei Ableitungen</mark> der gesuchten Funktion. Wenn dir die Ableitungsregeln nicht mehr bekannt sind, dann wirf noch einmal einen Blick in das Kapitel "Grundlagen der Differentialrechnung" auf die Seite ["Erste Ableitungsregeln"](hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/).
+Zunächst bildet man die ersten <mark>zwei Ableitungen</mark> der gesuchten Funktion. Wenn dir die Ableitungsregeln nicht mehr bekannt sind, dann wirf noch einmal einen Blick in das Kapitel "Grundlagen der Differentialrechnung" auf die Seite ["Erste Ableitungsregeln"](../../3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/).
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 
