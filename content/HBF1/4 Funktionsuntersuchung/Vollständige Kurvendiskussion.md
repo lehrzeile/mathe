@@ -52,7 +52,7 @@ $\mathbb{D}(f) = \mathbb{R}$.
 Es gibt keine Einschränkungen, was man für $x$ einsetzen kann. Egal, was man einsetzt -- alle mathematischen Rechenregeln bleiben erfüllt.
 {{< /box-example >}}
 
-Wie bereits angedeutet, gibt es hierfür auch Ausnahmen. Nachfolgend findest du zwei Beispiele.
+Wie bereits angedeutet, gibt es hierfür auch Ausnahmen. Nachfolgend findest du zwei Beispiele:
 
 {{< box-important title="Achtung: Ausnahmen!" >}}
 **Wurzelfunktionen** wie z.B. $f(x) = \sqrt{x}$:
@@ -72,10 +72,10 @@ Wie bereits angedeutet, gibt es hierfür auch Ausnahmen. Nachfolgend findest du 
 
 ## 2. Achsenschnittpunkte
 
-Wenn geklärt ist, wie der Definitionsbereich der Funktion lautet, dann überprüft man den Graphen der Funktion zunächst auf dessen <mark>Schnittpunkte mit den Koordinatenachsen</mark>:
+Wenn geklärt ist, wie der Definitionsbereich der Funktion lautet, dann überprüft man den Graphen der Funktion zunächst auf dessen <mark>Schnittpunkte mit den beiden Koordinatenachsen</mark>:
 
 - **Schnittpunkt mit der y-Achse:** \
-Eine Funktion kann lediglich einen Schnittpunkt mit der $y$-Achse haben -- auch <mark>$y$-Achsenabschnitt</mark> genannt. Dies ist aber nicht zwingend der Fall. Es gibt nämlich auch Funktionen, bei denen dies nicht der Fall ist. Ein Beispiel für eine solche (gebrochen-rationale) Funktion, ist die Funktion $f(x)=\frac1x$. Sie besitzt keinen Schnittpunkt mit der $y$-Achse.
+Eine Funktion kann nur einen Schnittpunkt mit der $y$-Achse haben -- auch <mark>$y$-Achsenabschnitt</mark> genannt. Dies ist aber nicht zwingend der Fall. Es gibt nämlich auch Funktionen, bei denen dies nicht der Fall ist. Ein Beispiel für eine solche (gebrochen-rationale) Funktion, ist die Funktion $f(x)=\frac1x$. Sie besitzt keinen Schnittpunkt mit der $y$-Achse.
 
 - **Schnittpunkte mit der x-Achse:** \
 Man spricht hierbei von den sog. <mark>Nullstellen</mark> einer Funktion. Anders als bei der Begrifflichkeit Schnittpunkt bezeichnet eine Nullstelle lediglich den $x$-Wert (Stelle) eines Schnittpunkts mit der $x$-Achse. Alle Schnittpunkte mit der $x$-Achse haben die Form $(x_i|0)$, wobei $x_i$ hier repräsentativ für alle Nullstellen der Funktion steht.
@@ -83,8 +83,8 @@ Man spricht hierbei von den sog. <mark>Nullstellen</mark> einer Funktion. Anders
 {{< box-notice title="Wie bestimmt man die Achsenschnittpunkte?" >}}
 
 - **Schnittpunkt mit der $y$-Achse:** \
-Hierfür setzt man $x=0$ in die Funktionsgleichung ein:
-$f(0)$ $\quad \Rightarrow P(0|f(0))$.
+Hierfür setzt man $x=0$ in die Funktionsgleichung ein: \
+$f(0)$ $\quad \Rightarrow P(0|f(0))$. \
 Heißt: *Überall dort, wo $x$ in der Funktionsgleichung auftaucht.*
 
 - **Schnittpunkte mit der $x$-Achse:** \
@@ -92,25 +92,27 @@ Hierfür setzt man die Funktionsgleichung gleich Null ($f(x) = 0$) und bestimmt 
 
 {{< /box-notice >}}
 
+{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
+
+- Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung abliest: $7,2$. \
+$f(x)=0,2 \cdot 0^3 - 1,4 \cdot 0^2 + 7,2 \quad \Rightarrow S_y(0|7,2)$.
+- In diesem Fall bestimmt man die Nullstellen der Funktionsgleichung, indem man zuerst eine Polynomdivision durchführt und anschließend die pq-Formel anwendet: \
+$\Rightarrow x_1=-2, \quad x_2=3, \quad x_3=6$.
+
+<!-- In Abbildung 1 siehst du die jeweiligen Achsenschnittpunkte markiert. -->
 Auf der nachfolgenden Abbildung sind alle Achsenschnittpunkte des Graphen aus unserem Beispiel abgebildet.
+{{< /box-example >}}
 
 {{< image src="img/Graph_Achsenschnittpunkte.svg" caption="Achsenschnittpunkte des Funktionsgraphen" >}}
 
 <!-- ![Achsenschnittpunkte des Funktionsgraphen](img/Graph_Achsenschnittpunkte.svg)
     *Abb. 1: Achsenschnittpunkte des Funktionsgraphen* -->
 
-{{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
-In Abbildung 1 siehst du die jeweiligen Achsenschnittpunkte markiert.
-
-- Den $y$-Achsenabschnitt erhält man, indem man entweder $f(0)$ bestimmt oder einfach das Absolutglied der Funktionsgleichung abliest: $7,2$. \
-$f(x)=0,2 \cdot 0^3 - 1,4 \cdot 0^2 + 7,2 \quad \Rightarrow S_y(0|7,2)$.
-- In diesem Fall bestimmt man die Nullstellen der Funktionsgleichung, indem man zuerst eine Polynomdivision durchführt und anschließend die pq-Formel anwendet: \
-$\Rightarrow x_1=-2, \quad x_2=3, \quad x_3=6$.
-{{< /box-example >}}
-
 ## 3. Symmetrieeigenschaft
 
+{{< box-notice title="Symmetrieeigenschaft einer Funktion" >}}
 Die <mark>Symmetrieeigenschaft</mark> einer Funktion beschreibt, ob ihr Graph bei einer Spiegelung oder einer Drehung unverändert bleibt.
+{{< /box-notice >}}
 
 Man unterscheidet dabei zwischen zwei Haupttypen von Symmetrie:
 
@@ -126,10 +128,14 @@ Man unterscheidet dabei zwischen zwei Haupttypen von Symmetrie:
 {{< image src="img/Graph_Punktsymmetrie.svg" caption="punktsymmetrischer Graph" >}}
 {{< /gallery >}}
 
-Bei ganzrationalen Funktionen kann die Symmetrie oft durch Betrachtung der Exponenten des Funktionsterms bestimmt werden. Dabei betrachtet man lediglich, ob sie gerade oder ungerade sind:
+Bei ganzrationalen Funktionen kann die Symmetrie schnell und einfach durch Betrachtung der Exponenten des Funktionsterms bestimmt werden. Dabei betrachtet man lediglich, ob sie gerade oder ungerade sind:
+
+{{< box-notice title="Welche Symmetrieeigenschaft liegt vor?" >}}
 
 - Hat eine Funktionsgleichung nur **gerade Exponenten**, so liegt eine **Achsensymmetrie** vor.
 - Hat eine Funktionsgleichung ausschließlich **ungerade Exponenten**, so handelt es sich um eine **Punktsymmetrie** zum Koordinatenursprung.
+
+{{< /box-notice >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 In diesem Fall liegt weder eine Achsensymmetrie noch eine Punktsymmetrie vor, da die Funktionsgleichung sowohl ungerade ($x^3$) als auch gerade Exponenten ($x^2$ und $x^0$) enthält.
