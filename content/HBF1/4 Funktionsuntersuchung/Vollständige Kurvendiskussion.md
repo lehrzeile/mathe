@@ -156,7 +156,7 @@ Der Funktionsgraph von $f$ ist also nicht symmetrisch.
 
 ## 4. Extrempunkte
 
-Wie man Extrempunkte bestimmt, hast du bereits im [Abschnitt "Extrempunkte bestimmen"](/hbf1/4-funktionsuntersuchung/extrempunkte-bestimmen/) kennengelernt. Falls du dir nicht mehr sicher bist, wie das geht, schaue dir diesen Abschnitt noch einmal an.
+Wie man Extrempunkte bestimmt, hast du bereits im [Abschnitt "Extrempunkte bestimmen"](../extrempunkte-bestimmen/) kennengelernt. Falls du dir nicht mehr sicher bist, wie das geht, schaue dir diesen Abschnitt noch einmal an.
 
 ## 5. Wendepunkte
 
