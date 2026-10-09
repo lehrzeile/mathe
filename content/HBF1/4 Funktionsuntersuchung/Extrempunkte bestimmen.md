@@ -9,8 +9,6 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-## Extrempunkte
-
 Die Extrempunkte einer Funktion sind diejenigen Punkte des Funktionsgraphen, an denen der höchste Punkt (Hochpunkt/Maximum) oder der tiefste Punkt (Tiefpunkt/Minimum) in einer lokalen Umgebung erreicht wird.
 
 {{< box-notice title="Was sind Extrempunkte?" >}}
@@ -21,7 +19,7 @@ Man unterscheidet bei **Extrempunkten** -- oft auch **Extrema** genannt -- zwisc
 
 {{< /box-notice >}}
 
-### Schritt 1
+## Schritt 1
 
 Zunächst bildet man die ersten <mark>zwei Ableitungen</mark> der gesuchten Funktion. Wenn dir die Ableitungsregeln nicht mehr bekannt sind, dann wirf noch einmal einen Blick in das Kapitel "Grundlagen der Differentialrechnung" auf die Seite ["Erste Ableitungsregeln"](../../3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/).
 
@@ -37,7 +35,7 @@ $f''(x)=1,2x-2,8$
 $f'''(x)=1,2$ -->
 {{< /box-example >}}
 
-### Schritt 2
+## Schritt 2
 
 Als nächstes kümmern wir uns um die sogenannte <mark>notwendige Bedingung</mark>:
 
@@ -77,7 +75,7 @@ $\Rightarrow x_1=0, \quad 0,6x_2-2,8=0 \\\
 
 Wir wissen nun, dass der Funktionsgraph an den Stellen $x_1=0$ und $x_2 \approx 4,67$ eine waagerechte Tangente besitzt und somit an diesen Stellen Extrempunkte vorliegen können.
 
-### Schritt 3
+## Schritt 3
 
 Um zu überprüfen, welche Art von Extrempunkt vorliegt, nutzt man nun die <mark>hinreichende Bedingung</mark> von Extremstellen.
 
@@ -114,7 +112,7 @@ $f''(4,67)=1,2 \cdot 4,67 - 2,8 = 2,804 > 0 \quad \Rightarrow$ Tiefpunkt
 
 Wir wissen nun, dass an der Stelle $x_1=0$ ein Hochpunkt und an der Stelle $x_2 \approx 4,67$ ein Tiefpunkt vorliegt.
 
-### Schritt 4
+## Schritt 4
 
 Last but not least widmen wir uns den <mark>noch fehlenden Koordinaten</mark> der Extrempunkte.
 Bisher kennen wir lediglich die jeweiligen $x$-Koordinaten. Die $y$-Koordinaten rechnen wir aus, indem wir die $x$-Werte der Extremstellen in die Ausgangsfunktion einsetzen und die dazugehörigen Funktionswerte $f(x_i)$ an dieser Stelle berechnen.
