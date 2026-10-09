@@ -11,6 +11,8 @@ count: 0 # für die Nummerierung der Aufgaben
 
 Unsere Beispielfunktion hat zwei Extrema -- einen Hoch- und einen Tiefpunkt -- und somit zwei Stellen, an denen die Steigung des Funktionsgraphen Null ist. Dazwischen gibt es eine Stelle, an der die Steigung extremal (d.h. minimal oder maximal) ist. Solche Stellen bzw. Punkte bezeichnet man als <mark>Wendestellen bzw. -punkte</mark>.
 
+<!-- Graph -->
+
 ## Beispiele und Vergleiche
 
 {{< box-note title="Der Bergsteiger-Vergleich" >}}
@@ -23,16 +25,18 @@ In einem Wendepunkt **ändert sich das Krümmungsverhalten** des Funktionsgraphe
 
 Um (besser) zu verstehen, was das Krümmungsverhalten bedeutet, kannst du erneut den Bergsteiger-Vergleich heranziehen:
 
-- *"die Steigung nimmt zu"* $\quad => \quad +$
-- *"die Steigung nimmt ab"* $\quad => \quad -$.\
+- *"die Steigung nimmt zu"* $\quad \Rightarrow +$
+- *"die Steigung nimmt ab"* $\quad \Rightarrow -$.
+
+<br />
 
 Alternativ bietet sich aber auch der folgende Vergleich an:
 
 {{< box-note title="Was das Krümmungsverhalten mit Autofahren zu tun hat?" >}}
 *Stell dir vor, du schaust von oben herab auf den Funktionsgraphen und fährst mit einem Auto die vorgegebene Strecke entlang.*
 
-*In bestimmten Bereichen fährst du eine Linkskurve* (Steigung $+ \quad =>$ Linkskrümmung)*, in wiederum anderen Bereichen eine Rechtskurve* (Steigung $- \quad =>$ Rechtskrümmung)*. Dazwischen gibt es jeweils einen kurzen Moment, in dem du das Lenkrad in keine der beiden Richtungen eingeschlagen hast* (Steigung $=0$) *und somit gerade hältst.* \
-$=>$ Genau an dieser Stelle befindet sich der **Wendepunkt**.
+*In bestimmten Bereichen fährst du eine Linkskurve* (Steigung $+ \Rightarrow $ Linkskrümmung)*, in wiederum anderen Bereichen eine Rechtskurve* (Steigung $- \Rightarrow$ Rechtskrümmung)*. Dazwischen gibt es jeweils einen kurzen Moment, in dem du das Lenkrad in keine der beiden Richtungen eingeschlagen hast* (Steigung $=0$) *und somit gerade hältst.* \
+$\Rightarrow$ Genau an dieser Stelle befindet sich der **Wendepunkt**.
 {{< /box-note >}}
 
 Diesen Vergleich kannst du mit Hilfe der nachfolgenden GeoGebra-Aktivität selbst austesten.
@@ -48,8 +52,9 @@ Zunächst bestimmen wir die Funktionsgleichung der zweiten und dritten Ableitung
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 Wir bestimmen also zunächst die Funktionsgleichungen der zweiten und dritten Ableitung:
 
-$f''(x)=1,2x-2,8$ \
-$f'''(x)=1,2$.
+- $f''(x)=1,2x-2,8$
+- $f'''(x)=1,2$.
+
 {{< /box-example >}}
 
 ### Schritt 2
@@ -82,8 +87,8 @@ Um zu überprüfen, welche Art von Wendepunkt vorliegt, nutzt man nun die hinrei
 {{< box-notice title="Hinreichende Bedingung für Wendepunkte" >}}
 Zur Überprüfung, welche Art von Wendepunkt jeweils vorliegt, wird die dritte Ableitung $f'''(x)$ herangezogen und die jeweilige Wendestelle $x_0$ eingesetzt:
 
-- Ist $f'''(x_0) < 0$ so liegt eine Links-Rechts-Wendestelle vor,
-- ist $f'''(x_0) > 0$, so handelt es sich um eine Rechts-Links-Wendestelle.
+- Ist $f'''(x_0) < 0$ so liegt eine **Links-Rechts-Wendestelle** vor,
+- ist $f'''(x_0) > 0$, so handelt es sich um eine **Rechts-Links-Wendestelle**.
 
 {{< /box-notice >}}
 
@@ -104,6 +109,8 @@ Wir kennen nun also auch die genauen Koordinaten des Wendepunkts $(2,33|2,12)$.
 {{< /box-example >}}
 
 {{< image src="img/Graph_Wendestellen.svg" caption="Wendepunkt des Funktionsgraphen" >}}
+
+## Zum Verständnis
 
 *Warum ist das so?*
 
