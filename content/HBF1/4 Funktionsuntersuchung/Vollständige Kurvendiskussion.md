@@ -19,6 +19,8 @@ In diesem Abschnitt lernst du Schritt für Schritt einer vollständigen Funktion
 1. Globalverhalten
 1. Skizze
 
+<br />
+
 Damit du all diese Schritte anschaulich nachvollziehen kannst, führen wir in diesem Abschnitt eine **vollständige Kurvendiskussion** anhand eines Beispiels durch.
 
 {{< box-example title="Beispiel" >}}
@@ -27,7 +29,7 @@ Damit du all diese Schritte anschaulich nachvollziehen kannst, führen wir in di
 
 ## 1. Definitionsbereich
 
-Zur vollständigen Beschreibung einer Funktion -- wie das bei vollständigen Kurvendiskussion der Fall ist -- gehört die Angabe des <mark>Definitionsbereichs</mark>. Diesen bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
+Zur vollständigen Beschreibung einer Funktion -- wie das bei den gleichnamigen *"vollständigen Kurvendiskussionen"* der Fall ist -- gehört die Angabe des <mark>Definitionsbereichs</mark>. Diesen bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
 
 {{< box-notice title="Definitionsbereich" >}}
 Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ -- ist die Menge aller $x$-Werte,
