@@ -9,24 +9,57 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-Unsere Beispielfunktion hat zwei Extrema -- einen Hoch- und einen Tiefpunkt -- und somit zwei Stellen, an denen die Steigung des Funktionsgraphen Null ist. Das bedeutet folglich auch, dass es dazwischen eine Stelle geben muss, an der die Steigung extremal (d.h. minimal oder maximal) ist. Solche Stellen bzw. Punkte bezeichnet man als <mark>Wendestellen bzw. -punkte</mark>.
+Unsere Beispielfunktion hat zwei Extrema -- einen Hoch- und einen Tiefpunkt -- und somit zwei Stellen, an denen die Steigung des Funktionsgraphen Null ist. Dazwischen gibt es eine Stelle, an der die Steigung extremal (d.h. minimal oder maximal) ist. Solche Stellen bzw. Punkte bezeichnet man als <mark>Wendestellen bzw. -punkte</mark>.
+
+## Beispiele und Vergleiche
+
+{{< box-example title=" der Bergsteiger-Vergleich" >}}
+*Stell dir vor, der Funktionsgraph stellt das Höhenprofil eines Geländes dar und du wanderst dieses entlang. Nachdem du den tiefsten Punkt passiert hast, (du befindest dich jetzt also rechts vom Tiefpunkt) nimmt die wieder Steigung zu -- es geht also wieder bergauf. Ehe du den höchsten Punkt erreicht hast, (du dich also links vom Hochpunkt befindest) nimmt die Steigung jedoch wieder ab -- da es ansonsten ja immer weiter bergauf gehen würde. Das bedeutet, dass es dazwischen folglich eine Stelle geben muss, an der die Steigung am größten ist.*
+{{< /box-example >}}
 
 {{< box-notice title="Wendepunkt" >}}
-In einem Wendepunkt ändert sich das Krümmungsverhalten des Funktionsgraphen von $f(x)$ von $+$ nach $-$ oder von $-$ nach $+$. Zudem ist ein Wendepunkt derjenige Punkt zwischen zwei Extrempunkten, in dem der Graph die **kleinste bzw. größte Steigung** besitzt.
+In einem Wendepunkt **ändert sich das Krümmungsverhalten** des Funktionsgraphen von $f(x)$ von $+$ nach $-$ (Links-Rechts-Wendestelle) oder von $-$ nach $+$ (Rechts-Links-Wendestelle).
 {{< /box-notice >}}
 
-*Was ist zu tun?* \
-Um diejenigen Stellen des Funktionsgraphen ausfindig zu machen, an denen sich Wendepunkte befinden, bestimmt man die <mark>Nullstellen der zweiten Ableitung</mark>.
+Um (besser) zu verstehen, was das Krümmungsverhalten bedeutet, kannst du erneut den Bergsteiger-Vergleich heranziehen:
+
+- *"die Steigung nimmt zu"* $\med => \med +$
+- *"die Steigung nimmt ab"* $\med => \med -$.
+
+Alternativ bietet sich aber auch der folgende Vergleich an:
+
+{{< box-example title="Was das Krümmungsverhalten mit Autofahren zu tun hat?" >}}
+*Stell dir vor, du schaust von oben herab auf den Funktionsgraphen und fährst mit einem Auto die vorgegebene Strecke entlang.*
+
+*In bestimmten Bereichen fährst du eine Linkskurve* (Steigung $+ \med =>$ Linkskrümmung)*, in wiederum anderen Bereichen eine Rechtskurve* (Steigung $- \med =>$ Rechtskrümmung)*. Dazwischen gibt es jeweils einen kurzen Moment, in dem du das Lenkrad in keine der beiden Richtungen eingeschlagen hast* (Steigung $=0$) *und somit gerade hältst.* \
+$=>$ Genau an dieser Stelle befindet sich der **Wendepunkt**.
+{{< /box-example >}}
+
+Diesen Vergleich kannst du mit Hilfe der nachfolgenden GeoGebra-Aktivität selbst austesten.
+
+<!--  -->
+
+## Wendestellen bestimmen
+
+Um die Wendestellen eines Funktionsgraphen herauszufinden, bestimmt man die <mark>Nullstellen der zweiten Ableitung</mark>.
 
 *Warum ist das so?*
 
 - Die Funktionsgleichung $f(x)$ liefert den passenden **Funktionswert** zu jedem $x$-Wert.
-- Die Nullstellen der ersten Ableitung liefern uns diejenigen Stellen, an denen der Funktionsgraph Extrempunkte besitzt -- sprich: an denen der **Funktionswert extremal** (d. h. minimal oder maximal) ist.
+- Die Nullstellen der ersten Ableitung liefern uns diejenigen Stellen, an denen der Funktionsgraph Extrempunkte besitzt -- sprich: an denen der **Funktionswert extremal** (d. h. entweder minimal oder maximal) ist.
 - Die erste Ableitung $f'(x)$ liefert uns die **Steigung** des Funktionsgraphen.
 - Somit liefert uns die zweite Ableitung $''f(x)$ -- welche man auch als die erste Ableitung der ersten Ableitung bezeichnen könnte -- diejenigen Stellen des Funktionsgraphen, an denen die **Steigung extremal** ist.
 
+{{< box-note title="Vergleich Extrem- und Wendepunkte" >}}
+Ein Extrempunkt ist derjenige Punkt, in dem der Graph den **kleinsten bzw. größten Funktionswert** besitzt.
+
+{{ center }} vs. {{ \center }}
+
+Ein Wendepunkt ist derjenige Punkt, in dem der Graph die **kleinste bzw. größte Steigung** besitzt.
+{{< /box-note >}}
+
 {{< box-notice title="Notwendige Bedingung für Wendepunkte" >}}
-Die **notwendige Bedingung für eine Wendestelle** einer differenzierbaren Funktion ist, dass die zweite Ableitung ($f''(x)$) an dieser Stelle gleich Null ist ($f''(x) = 0$), da die **Veränderung der Steigung** an dieser Stelle Null ist (und die Steigung somit extremal).
+Die **notwendige Bedingung für eine Wendestelle** ist, dass die zweite Ableitung $f''(x)$ an dieser Stelle gleich Null ist -- weshalb man $f''(x) = 0$ setzt --, da die **Veränderung der Steigung** an dieser Stelle Null ist und die Steigung somit extremal.
 {{< /box-notice >}}
 
 <br />
