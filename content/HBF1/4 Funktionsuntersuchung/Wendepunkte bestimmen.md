@@ -35,7 +35,8 @@ Alternativ bietet sich aber auch der folgende Vergleich an:
 {{< box-note title="Was das Krümmungsverhalten mit Autofahren zu tun hat?" >}}
 *Stell dir vor, du schaust von oben herab auf den Funktionsgraphen und fährst mit einem Auto die vorgegebene Strecke entlang.*
 
-*In bestimmten Bereichen fährst du eine Linkskurve* (Steigung $+ \Rightarrow $ Linkskrümmung)*, in wiederum anderen Bereichen eine Rechtskurve* (Steigung $- \Rightarrow$ Rechtskrümmung)*. Dazwischen gibt es jeweils einen kurzen Moment, in dem du das Lenkrad in keine der beiden Richtungen eingeschlagen hast* (Steigung $=0$) *und somit gerade hältst.* \
+*In bestimmten Bereichen fährst du eine Linkskurve* (Steigung $+ \Rightarrow $ Linkskrümmung)*, in wiederum anderen Bereichen eine Rechtskurve* (Steigung $- \Rightarrow$ Rechtskrümmung)*. Dazwischen gibt es jeweils einen kurzen Moment, in dem du das Lenkrad in keine der beiden Richtungen eingeschlagen hast* (Steigung $=0$) *und somit gerade hältst.*
+
 $\Rightarrow$ Genau an dieser Stelle befindet sich der **Wendepunkt**.
 {{< /box-note >}}
 
@@ -47,7 +48,7 @@ Diesen Vergleich kannst du mit Hilfe der nachfolgenden GeoGebra-Aktivität selbs
 
 ### Schritt 1
 
-Zunächst bestimmen wir die Funktionsgleichung der zweiten und dritten Ableitung.
+Zunächst bestimmen wir die Funktionsgleichung der <mark>zweiten und dritten Ableitung</mark>.
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 Wir bestimmen also zunächst die Funktionsgleichungen der zweiten und dritten Ableitung:
@@ -59,7 +60,7 @@ Wir bestimmen also zunächst die Funktionsgleichungen der zweiten und dritten Ab
 
 ### Schritt 2
 
-Als nächstes kümmern wir uns um die sogenannte notwendige Bedingung Für Wendepunkte:
+Als nächstes kümmern wir uns um die sogenannte <mark>notwendige Bedingung Für Wendepunkte</mark>:
 
 {{< box-notice title="Notwendige Bedingung für Wendepunkte" >}}
 Die **notwendige Bedingung für eine Wendestelle** ist, dass die zweite Ableitung $f''(x)$ an dieser Stelle gleich Null ist -- weshalb man $f''(x) = 0$ setzt --, da die **Steigung an dieser Stelle extremal** ist und somit die **Veränderung der Steigung** gleich Null.
@@ -82,7 +83,7 @@ Wir wissen nun, dass der Funktionsgraph an der Stelle $x \approx 2,33$ einen Wen
 
 ### Schritt 3
 
-Um zu überprüfen, welche Art von Wendepunkt vorliegt, nutzt man nun die hinreichende Bedingung für Wendepunkte.
+Um zu überprüfen, welche Art von Wendepunkt vorliegt, nutzt man nun die <mark>hinreichende Bedingung für Wendepunkte</mark>.
 
 {{< box-notice title="Hinreichende Bedingung für Wendepunkte" >}}
 Zur Überprüfung, welche Art von Wendepunkt jeweils vorliegt, wird die dritte Ableitung $f'''(x)$ herangezogen und die jeweilige Wendestelle $x_0$ eingesetzt:
@@ -100,7 +101,7 @@ $f''(2,33)=1,2 > 0 \quad \Rightarrow$ R-L-Wendestelle
 
 ### Schritt 4
 
-Zu guter Letzt berechnet man die $y$-Koordinate des Wendepunkts und gibt den Wendepunkt an.
+Zu guter Letzt berechnet man die noch fehlende $y$-Koordinate des Wendepunkts und gibt den Wendepunkt an.
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 $f(2,33)=0,2 \cdot 2,33^3 - 1,4 \cdot 2,33^2 + 7,2 = 2,12$
@@ -112,7 +113,7 @@ Wir kennen nun also auch die genauen Koordinaten des Wendepunkts $(2,33|2,12)$.
 
 ## Zum Verständnis
 
-*Warum ist das so?*
+<!-- *Warum ist das so?* -->
 
 - Die Funktionsgleichung $f(x)$ liefert den passenden **Funktionswert** zu jedem $x$-Wert.
 - Die Nullstellen der ersten Ableitung liefern uns diejenigen Stellen, an denen der Funktionsgraph Extrempunkte besitzt -- sprich: an denen der **Funktionswert extremal** (d. h. entweder minimal oder maximal) ist.
@@ -122,7 +123,7 @@ Wir kennen nun also auch die genauen Koordinaten des Wendepunkts $(2,33|2,12)$.
 {{< box-note title="Vergleich Extrem- und Wendepunkte" >}}
 Ein Extrempunkt ist derjenige Punkt, in dem der Graph den **kleinsten bzw. größten Funktionswert** besitzt.
 
-{{ center }} vs. {{ \center }}
+{{< center >}} vs. {{< \center >}}
 
 Ein Wendepunkt ist derjenige Punkt, in dem der Graph die **kleinste bzw. größte Steigung** besitzt.
 {{< /box-note >}}
