@@ -221,10 +221,6 @@ Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzuferti
 In Abbildung 8 wird noch einmal der Zusammenhang zwischen Ausgangsfunktion, 1. Ableitung und 2. Ableitung aufgezeigt:
 {{< image src="img/Graph_und_Ableitungen.svg" caption="Funktionsgraph und Ableitungen" >}}
 
-<!-- ## Steigungs-, Krümmungs- und Monotonieverhalten
-
-to be continued... -->
-
 <br />
 <br />
 

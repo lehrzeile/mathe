@@ -102,14 +102,18 @@ Zur Erinnerung: \
 $f''(x)=1,2x-2,8 \quad$ und $\quad x_1=0, \quad x_2 \approx 4,67$
 
 Wir überprüfen die erste Extremstelle $x_1=0$: \
-$f''(0) &= 1,2 \cdot 0 - 2,8 \\\
+$\begin{aligned}
+f''(0) &= 1,2 \cdot 0 - 2,8 \\\
 &= -2,8 < 0 \\\
-&\Rightarrow$ Hochpunkt
+&\Rightarrow \text{Hochpunkt}
+\end{aligned}$
 
 Wir überprüfen die zweite Extremstelle $x_2 \approx 4,67$: \
-$f''(4,67) &= 1,2 \cdot 4,67 - 2,8 \\\
+$\begin{aligned}
+f''(4,67) &= 1,2 \cdot 4,67 - 2,8 \\\
 &= 2,804 > 0 \\\
-&\Rightarrow$ Tiefpunkt
+&\Rightarrow \text{Tiefpunkt}
+\end{aligned}$
 {{< /box-example >}}
 
 {{< image src="img/Graph_Extremstellen.svg" caption="Extremstellen des Graphen" >}}
@@ -126,12 +130,16 @@ Zur Erinnerung: \
 $x_1=0, \quad x_2 \approx 4,67$
 
 Wir rechnen den $y$-Wert des ersten Extrempunkts $x_1=0$ aus: \
-$f(0) &= 0,2 \cdot 0^3 - 1,4 \cdot 0^2 + 7,2 \\\
-&= 7,2 \quad \Rightarrow HP(0|7,2)$
+$\begin{aligned}
+f(0) &= 0,2 \cdot 0^3 - 1,4 \cdot 0^2 + 7,2 \\\
+&= 7,2 \quad \Rightarrow HP(0|7,2)
+\end{aligned}$
 
 Wir rechnen den $y$-Wert des zweiten Extrempunkts $x_2 \approx 4,67$ aus: \
-$f(0) &= 0,2 \cdot 4,67^3 - 1,4 \cdot 4,67^2 + 7,2 \\\
-&\approx -2,96 \quad \Rightarrow TP(4,67|-2,96)$
+$\begin{aligned}
+f(0) &= 0,2 \cdot 4,67^3 - 1,4 \cdot 4,67^2 + 7,2 \\\
+&\approx -2,96 \quad \Rightarrow TP(4,67|-2,96)
+\end{aligned}$
 {{< /box-example >}}
 
 Wir wissen nun also folgendes:

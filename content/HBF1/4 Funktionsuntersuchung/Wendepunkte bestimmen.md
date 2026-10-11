@@ -13,13 +13,13 @@ Unsere Beispielfunktion hat zwei Extrema -- einen Hoch- und einen Tiefpunkt -- u
 
 {{< image src="img/Graph_Wendestellen_gesucht.svg" caption="Wendepunkt des Funktionsgraphen gesucht" >}}
 
-## Beispiele und Vergleiche
-
-{{< box-notice title="Wendepunkt" >}}
+{{< box-notice title="Was sind Wendepunkte?" >}}
 In einem Wendepunkt **ändert sich das Krümmungsverhalten** des Funktionsgraphen von $f(x)$ von $+$ nach $-$ (Links-Rechts-Wendestelle) oder von $-$ nach $+$ (Rechts-Links-Wendestelle).
 {{< /box-notice >}}
 
-Um (besser) zu verstehen, was das Krümmungsverhalten bedeutet, hilft dir eventuell der Bergsteiger-Vergleich. Hierbei solltest du folgendes wissen:
+## Der Bergsteiger-Vergleich
+
+Um (besser) zu verstehen, was das Krümmungsverhalten bedeutet, hier ein Vergleich. Hierbei solltest du folgendes wissen:
 
 - *"die Steigung nimmt zu"* $\quad \Leftrightarrow \quad$ Linkskrümmung $(+)$
 - *"die Steigung nimmt ab"* $\quad \Leftrightarrow \quad$ Rechtskrümmung $(-)$.
@@ -28,12 +28,12 @@ Um (besser) zu verstehen, was das Krümmungsverhalten bedeutet, hilft dir eventu
 *Stell dir vor, der Funktionsgraph stellt das Höhenprofil eines Geländes dar und du wanderst dieses entlang. Nachdem du den tiefsten Punkt passiert hast, (du befindest dich jetzt also rechts vom Tiefpunkt) nimmt die wieder Steigung zu -- es geht also wieder bergauf. Ehe du den höchsten Punkt erreicht hast, (du dich also links vom Hochpunkt befindest) nimmt die Steigung jedoch wieder ab -- da es ansonsten ja immer weiter bergauf gehen würde. Das bedeutet, dass es dazwischen folglich eine Stelle geben muss, an der die Steigung am größten ist.*
 {{< /box-note >}}
 
-<br />
+## Der Rennstrecken-Vergleich
 
 Alternativ bietet sich aber auch der folgende Vergleich an:
 
 {{< box-note title="Vergleich #2: Was das Krümmungsverhalten mit Autofahren zu tun hat?" >}}
-*Stell dir vor, du schaust von oben herab auf den Funktionsgraphen und fährst mit einem Auto die vorgegebene Strecke entlang.*
+*Stell dir vor, du schaust von oben herab auf den Funktionsgraphen und fährst mit einem Auto die vorgegebene Rennstrecke entlang.*
 
 *In bestimmten Bereichen fährst du eine Linkskurve* (Steigung $+ \Rightarrow $ Linkskrümmung)*, in wiederum anderen Bereichen eine Rechtskurve* (Steigung $- \Rightarrow$ Rechtskrümmung)*. Dazwischen gibt es jeweils einen kurzen Moment, in dem du das Lenkrad in keine der beiden Richtungen eingeschlagen hast* (Steigung $=0$) *und somit gerade hältst.*
 
@@ -60,7 +60,7 @@ Wir bestimmen also zunächst die Funktionsgleichungen der zweiten und dritten Ab
 
 ### Schritt 2
 
-Als nächstes widmen wir uns der sogenannten <mark>notwendige Bedingung für Wendepunkte</mark>:
+Als nächstes widmen wir uns der sogenannten <mark>notwendigen Bedingung für Wendepunkte</mark>:
 
 {{< box-notice title="Notwendige Bedingung für Wendepunkte" >}}
 Die **notwendige Bedingung für eine Wendestelle** ist, dass die zweite Ableitung $f''(x)$ an dieser Stelle gleich Null ist -- weshalb man $f''(x) = 0$ setzt --, da die **Steigung an dieser Stelle extremal** ist und somit die **Veränderung der Steigung** gleich Null.
@@ -72,7 +72,7 @@ Wenn man die Wendestellen des Funktionsgraphen herausfinden möchte, sucht man -
 Um die Wendestellen zu ermitteln, bestimmen wir die **Nullstellen der zweiten Ableitung**:
 
 $\begin{aligned}
-f''(x)&=0 & \vert \text{notw. Bed.}\\\
+f''(x)&=0 & \vert \text{ notw. Bed.}\\\
 \Leftrightarrow 1,2x-2,8&=0 & \vert +2,8 \\\
 \Leftrightarrow 1,2x&=2,8 & \vert :1,2 \\\
 x &\approx 2,33
@@ -96,9 +96,11 @@ Zur Überprüfung, welche Art von Wendepunkt jeweils vorliegt, wird die dritte A
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 Wir überprüfen die Wendestelle mit der dritten Ableitung:
 
-$f''(x) &= 1,2x - 2,8 \\\
+$\begin{aligned}
+f''(x) &= 1,2x - 2,8 \\\
 f''(2,33) &= 1,2 > 0 \\\
-& \Rightarrow$ R-L-Wendestelle
+& \Rightarrow \text{R-L-Wendestelle}
+\end{aligned}$
 {{< /box-example >}}
 
 ### Schritt 4
