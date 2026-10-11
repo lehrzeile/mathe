@@ -79,7 +79,7 @@ x &\approx 2,33
 \end{aligned}$
 {{< /box-example >}}
 
-Wir wissen nun, dass der Funktionsgraph an der Stelle $x \approx 2,33$ einen Wendepunkt besitzt.
+Wir wissen nun, dass der Funktionsgraph an der Stelle $x_0 \approx 2,33$ einen Wendepunkt besitzt.
 
 ### Schritt 3
 
@@ -88,17 +88,17 @@ Um zu überprüfen, welche Art von Wendepunkt vorliegt, nutzt man nun die <mark>
 {{< box-notice title="Hinreichende Bedingung für Wendepunkte" >}}
 Zur Überprüfung, welche Art von Wendepunkt jeweils vorliegt, wird die dritte Ableitung $f'''(x)$ herangezogen und die jeweilige Wendestelle $x_0$ eingesetzt:
 
-- Ist $f'''(x_0) < 0$ so liegt eine **Links-Rechts-Wendestelle** vor,
+- Ist $f'''(x_0) < 0$, so liegt eine **Links-Rechts-Wendestelle** vor,
 - ist $f'''(x_0) > 0$, so handelt es sich um eine **Rechts-Links-Wendestelle**.
 
 {{< /box-notice >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
-Wir überprüfen die Wendestelle mit der dritten Ableitung:
+Wir überprüfen nun also die Wendestelle mit der dritten Ableitung:
 
 $\begin{aligned}
-f''(x) &= 1,2x - 2,8 \\\
-f''(2,33) &= 1,2 > 0 \\\
+f'''(x) &= 1,2 \\\
+f'''(2,33) &= 1,2 > 0 \\\
 & \Rightarrow \text{R-L-Wendestelle}
 \end{aligned}$
 {{< /box-example >}}

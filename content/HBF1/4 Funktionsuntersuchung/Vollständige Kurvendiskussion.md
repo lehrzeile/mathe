@@ -41,7 +41,7 @@ Umgangssprachlich ausgedrückt umfasst der Definitionsbereich alle $x$-Werte (Ar
 {{< box-note title="" >}}
 Im Allgemeinen gilt: $\mathbb{D}(f) = \mathbb{R}$.
 
-Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) einsetzen.
+Oder anders ausgedrückt: Man darf alle reellen Zahlen ($\mathbb{R}$) in die Funktionsgleichung einsetzen.
 {{< /box-note >}}
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 + 7,2$" >}}
@@ -52,7 +52,7 @@ $\mathbb{D}(f) = \mathbb{R}$.
 Es gibt keine Einschränkungen, was man für $x$ einsetzen kann. Egal, was man einsetzt -- alle mathematischen Rechenregeln bleiben erfüllt.
 {{< /box-example >}}
 
-Wie bereits angedeutet, gibt es hierfür auch Ausnahmen. Nachfolgend findest du zwei Beispiele:
+Wie bereits angedeutet, gibt es jedoch auch Funktionen, bei denen dies nicht der Fall ist. Nachfolgend findest du beispielhaft zwei solcher Funktionen:
 
 {{< box-important title="Achtung: Ausnahmen!" >}}
 **Wurzelfunktionen** wie z.B. $f(x) = \sqrt{x}$:
@@ -88,7 +88,7 @@ $f(0)$ $\quad \Rightarrow P(0|f(0))$. \
 Heißt: *Überall dort, wo $x$ in der Funktionsgleichung auftaucht.*
 
 - **Schnittpunkte mit der $x$-Achse:** \
-Hierfür setzt man die Funktionsgleichung gleich Null ($f(x) = 0$) und bestimmt alle Nullstellen $x_i$ $\quad \Rightarrow (x_i|0)$
+Hierfür setzt man die Funktionsgleichung gleich Null ($f(x) = 0$) und bestimmt alle Nullstellen $x_i$ $\quad \Rightarrow (x_i|0)$.
 
 {{< /box-notice >}}
 
@@ -177,7 +177,7 @@ Dasselbe gilt auch für Wendepunkte. Wie man diese bestimmt, kannst du im [Absch
 ## 6. Globalverhalten
 
 {{< box-notice title="Globalverhalten" >}}
-Unter dem Globalverhalten versteht man auch die **Untersuchung der Randpunkte des Definitionsbereiches**.
+Unter dem Globalverhalten einer Funktion versteht man auch die **Untersuchung der Randpunkte des Definitionsbereiches**.
 Man untersucht sozusagen, in welche Richtung sich der Funktionsgraph bewegt, wenn die $x$-Werte unendlich groß ($x \rightarrow +\infty$) oder unendlich klein ($x \rightarrow -\infty$) werden.
 
 Im Falle von ganzrationalen Funktionen sagt man, der Graph verläuft
@@ -212,7 +212,7 @@ Wir betrachten nur die höchste Potenz von $f(x)$, sprich: $0,2 \cdot x^3$ und b
 
 ## 7. Skizze
 
-Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzufertigen (vgl. Abbildung 9). Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
+Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzufertigen (vgl. Abbildung 4). Hierzu ist weder eine genaue Zeichnung noch das Erstellen einer Wertetabelle erforderlich. Auf Basis der vorangegangenen Untersuchungspunkte lässt sich der Graph der Funktion bereits sehr gut und reduziert auf seine wesentlichen Merkmale bzw. Punkte skizzieren.
 
 {{< image src="img/Graph_final.svg" caption="Finale Skizze des Funktionsgraphen mit allen Punkten" >}}
 
