@@ -15,18 +15,18 @@ Unsere Beispielfunktion hat zwei Extrema -- einen Hoch- und einen Tiefpunkt -- u
 
 ## Beispiele und Vergleiche
 
-{{< box-note title="Vergleich #1: Der Bergsteiger-Vergleich" >}}
-*Stell dir vor, der Funktionsgraph stellt das Höhenprofil eines Geländes dar und du wanderst dieses entlang. Nachdem du den tiefsten Punkt passiert hast, (du befindest dich jetzt also rechts vom Tiefpunkt) nimmt die wieder Steigung zu -- es geht also wieder bergauf. Ehe du den höchsten Punkt erreicht hast, (du dich also links vom Hochpunkt befindest) nimmt die Steigung jedoch wieder ab -- da es ansonsten ja immer weiter bergauf gehen würde. Das bedeutet, dass es dazwischen folglich eine Stelle geben muss, an der die Steigung am größten ist.*
-{{< /box-note >}}
-
 {{< box-notice title="Wendepunkt" >}}
 In einem Wendepunkt **ändert sich das Krümmungsverhalten** des Funktionsgraphen von $f(x)$ von $+$ nach $-$ (Links-Rechts-Wendestelle) oder von $-$ nach $+$ (Rechts-Links-Wendestelle).
 {{< /box-notice >}}
 
-Um (besser) zu verstehen, was das Krümmungsverhalten bedeutet, kannst du erneut den Bergsteiger-Vergleich heranziehen:
+Um (besser) zu verstehen, was das Krümmungsverhalten bedeutet, hilft dir eventuell der Bergsteiger-Vergleich. Hierbei solltest du folgendes wissen:
 
-- *"die Steigung nimmt zu"* $\quad \Rightarrow +$
-- *"die Steigung nimmt ab"* $\quad \Rightarrow -$.
+- *"die Steigung nimmt zu"* $\quad \Leftrightarrow \quad$ Linkskrümmung $(+)$
+- *"die Steigung nimmt ab"* $\quad \Leftrightarrow \quad$ Rechtskrümmung $(-)$.
+
+{{< box-note title="Vergleich #1: Der Bergsteiger-Vergleich" >}}
+*Stell dir vor, der Funktionsgraph stellt das Höhenprofil eines Geländes dar und du wanderst dieses entlang. Nachdem du den tiefsten Punkt passiert hast, (du befindest dich jetzt also rechts vom Tiefpunkt) nimmt die wieder Steigung zu -- es geht also wieder bergauf. Ehe du den höchsten Punkt erreicht hast, (du dich also links vom Hochpunkt befindest) nimmt die Steigung jedoch wieder ab -- da es ansonsten ja immer weiter bergauf gehen würde. Das bedeutet, dass es dazwischen folglich eine Stelle geben muss, an der die Steigung am größten ist.*
+{{< /box-note >}}
 
 <br />
 
@@ -42,7 +42,7 @@ $\Rightarrow$ Genau an dieser Stelle befindet sich der **Wendepunkt**.
 
 Diesen Vergleich kannst du mit Hilfe der nachfolgenden GeoGebra-Aktivität selbst austesten.
 
-<!--  -->
+{{< geogebra-activity id="HR3VkJQq" >}}
 
 ## Wendepunkte bestimmen -- so geht's
 
@@ -60,7 +60,7 @@ Wir bestimmen also zunächst die Funktionsgleichungen der zweiten und dritten Ab
 
 ### Schritt 2
 
-Als nächstes kümmern wir uns um die sogenannte <mark>notwendige Bedingung Für Wendepunkte</mark>:
+Als nächstes widmen wir uns der sogenannten <mark>notwendige Bedingung für Wendepunkte</mark>:
 
 {{< box-notice title="Notwendige Bedingung für Wendepunkte" >}}
 Die **notwendige Bedingung für eine Wendestelle** ist, dass die zweite Ableitung $f''(x)$ an dieser Stelle gleich Null ist -- weshalb man $f''(x) = 0$ setzt --, da die **Steigung an dieser Stelle extremal** ist und somit die **Veränderung der Steigung** gleich Null.
@@ -69,7 +69,7 @@ Die **notwendige Bedingung für eine Wendestelle** ist, dass die zweite Ableitun
 Wenn man die Wendestellen des Funktionsgraphen herausfinden möchte, sucht man -- anders als bei Extrempunkten  -- nach denjenigen Stellen, an denen **der Graph der Ableitung** eine waagerechte Tangente besitzt. Daher bestimmt man in diesem Fall die <mark>Nullstellen der zweiten Ableitung</mark>.
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
-Um die Wendestellen zu ermitteln, bestimmen wir die Nullstellen der zweiten Ableitung:
+Um die Wendestellen zu ermitteln, bestimmen wir die **Nullstellen der zweiten Ableitung**:
 
 $\begin{aligned}
 f''(x)&=0 & \vert \text{notw. Bed.}\\\
@@ -96,7 +96,9 @@ Zur Überprüfung, welche Art von Wendepunkt jeweils vorliegt, wird die dritte A
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 Wir überprüfen die Wendestelle mit der dritten Ableitung:
 
-$f''(2,33)=1,2 > 0 \quad \Rightarrow$ R-L-Wendestelle
+$f''(x) &= 1,2x - 2,8 \\\
+f''(2,33) &= 1,2 > 0 \\\
+& \Rightarrow$ R-L-Wendestelle
 {{< /box-example >}}
 
 ### Schritt 4

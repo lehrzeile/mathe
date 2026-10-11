@@ -49,7 +49,7 @@ In Abbildung 4 sind diejenigen Stellen des Funktionsgraphen markiert, an denen e
 <!-- ![Extrema und waagerechte Tangente](img/Graph_Extrema.svg)
 *Abb. 4: Extrema und waagerechte Tangente* -->
 
-Um diejenigen Stellen bestimmen zu können, an denen die Tangente waagerecht ist, müssen wir als nächstes die <mark>Nullstellen der ersten Ableitung bestimmen</mark>.
+Um diejenigen Stellen bestimmen zu können, an denen die Tangente waagerecht ist, müssen wir also gemäß der notwendigen Bedingung die <mark>Nullstellen der ersten Ableitung bestimmen</mark>.
 
 {{< box-notice title="Bedeutung der ersten Ableitung" >}}
 Die erste Ableitung einer Funktion $f(x)$ -- bezeichnet als $f'(x)$ -- gibt die **momentane Steigung des Funktionsgraphen an einer bestimmten Stelle** an.
@@ -83,9 +83,9 @@ Um zu überprüfen, welche Art von Extrempunkt vorliegt, nutzt man nun die <mark
 <!-- Dass die erste Ableitung an derjenigen Stelle des Funktionsgraphen gleich Null ist, an der sich eine Extremstelle befindet, ist jedoch **keine hinreichende Bedingung**. An solchen Stellen kann nämlich anstatt eines Hoch- oder Tiefpunkts auch ein sogenannter **Sattelpunkt** vorliegen. -->
 
 <!-- Zur Überprüfung, ob tatsächlich ein Extrempunkt vorliegt, wird daher die zweite Ableitung ($f''(x)$) herangezogen: -->
-Zur Überprüfung, welche Art von Extrempunkt vorliegt, wird die zweite Ableitung ($f''(x)$) herangezogen und die Extremstellen $x_0$ eingesetzt:
+Zur Überprüfung, welche Art von Extrempunkt jeweils vorliegt, wird die zweite Ableitung $f''(x)$ herangezogen und die jeweilige Extremstelle $x_0$ darin eingesetzt:
 
-- Ist $f''(x_0) < 0$ so liegt ein Hochpunkt vor,
+- Ist $f''(x_0) < 0$, so liegt ein Hochpunkt vor,
 - ist $f''(x_0) > 0$, handelt es sich um einen Tiefpunkt und
 - wenn $f''(x_0) = 0$ ist, dann liegt dort ein sogenannter Sattelpunkt vor.
 
@@ -99,13 +99,17 @@ Diesen Fall werden wir jedoch vernachlässigen.
 
 {{< box-example title="Beispiel $f(x)=0,2x^3 - 1,4x^2 +7,2$" >}}
 Zur Erinnerung: \
-$f''(x)=1,2x-2,8 \quad$ und $\quadx_1=0, \quad x_2 \approx 4,67$
+$f''(x)=1,2x-2,8 \quad$ und $\quad x_1=0, \quad x_2 \approx 4,67$
 
 Wir überprüfen die erste Extremstelle $x_1=0$: \
-$f''(0)=1,2 \cdot 0 - 2,8 = -2,8 < 0 \quad \Rightarrow$ Hochpunkt
+$f''(0) &= 1,2 \cdot 0 - 2,8 \\\
+&= -2,8 < 0 \\\
+&\Rightarrow$ Hochpunkt
 
 Wir überprüfen die zweite Extremstelle $x_2 \approx 4,67$: \
-$f''(4,67)=1,2 \cdot 4,67 - 2,8 = 2,804 > 0 \quad \Rightarrow$ Tiefpunkt
+$f''(4,67) &= 1,2 \cdot 4,67 - 2,8 \\\
+&= 2,804 > 0 \\\
+&\Rightarrow$ Tiefpunkt
 {{< /box-example >}}
 
 {{< image src="img/Graph_Extremstellen.svg" caption="Extremstellen des Graphen" >}}
@@ -122,11 +126,20 @@ Zur Erinnerung: \
 $x_1=0, \quad x_2 \approx 4,67$
 
 Wir rechnen den $y$-Wert des ersten Extrempunkts $x_1=0$ aus: \
-$f(0)=0,2 \cdot 0^3 - 1,4 \cdot 0^2 + 7,2 = 7,2 \quad \Rightarrow HP(0|7,2)$
+$f(0) &= 0,2 \cdot 0^3 - 1,4 \cdot 0^2 + 7,2 \\\
+&= 7,2 \quad \Rightarrow HP(0|7,2)$
 
 Wir rechnen den $y$-Wert des zweiten Extrempunkts $x_2 \approx 4,67$ aus: \
-$f(0)=0,2 \cdot 4,67^3 - 1,4 \cdot 4,67^2 + 7,2 \approx -2,96 \quad \Rightarrow TP(4,67|-2,96)$
+$f(0) &= 0,2 \cdot 4,67^3 - 1,4 \cdot 4,67^2 + 7,2 \\\
+&\approx -2,96 \quad \Rightarrow TP(4,67|-2,96)$
 {{< /box-example >}}
 
-Wir kennen also nun die Koordinaten der Extrempunkte:
+Wir wissen nun also folgendes:
+
+1. dass der Funktionsgraph zwei Extrempunkte hat,
+1. welcher davon ein Hoch- bzw. ein Tiefpunkt ist und
+1. wie die genauen Koordinaten der Extrempunkte lauten.
+
 {{< image src="img/Graph_Extrempunkte.svg" caption="Extrempunkte des Graphen" >}}
+
+Fertig. Weiter geht es im nächsten Abschnitt ["Wendepunkte bestimmen"](../../4-funktionsuntersuchung/wendepunkte-bestimmen).
