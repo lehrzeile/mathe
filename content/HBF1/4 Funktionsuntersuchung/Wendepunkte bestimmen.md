@@ -42,7 +42,7 @@ $\Rightarrow$ Genau an dieser Stelle befindet sich der **Wendepunkt**.
 
 Diesen Vergleich kannst du mit Hilfe der nachfolgenden GeoGebra-Aktivität selbst austesten.
 
-{{< geogebra-activity id="HR3VkJQq" >}}
+{{< geogebra-activity id="g7gucfdz" >}}
 
 ## Wendepunkte bestimmen -- so geht's
 
