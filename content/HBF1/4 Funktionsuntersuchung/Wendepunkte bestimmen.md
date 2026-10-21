@@ -34,19 +34,22 @@ Alternativ bietet sich aber auch der folgende Vergleich an:
 
 {{< box-note title="Vergleich #2: Was das Krümmungsverhalten mit Autofahren zu tun hat?" >}}
 *Stell dir vor, du schaust von oben herab auf den Funktionsgraphen und fährst mit einem Auto die vorgegebene Rennstrecke entlang.*
+{{< /box-note >}}
 
+{{< job numbered="false" style="enum-arabic" name="Forschungsauftrag" >}}
+Um den Zusammenhang zwischen Funktionsgraph und Krümmung anhand dieses Vergleichs (besser) zu verstehen, teste ihn mit Hilfe der nachfolgenden GeoGebra-Aktivität selbst aus.
+
+1. **Verschiebe** den Schieberegler von links nach rechts und **beobachte**, wie sich die Stellung des Lenkrads verändert.
+2. **Erkläre** den Zusammenhang zwischen Funktionsgraph und Krümmung, indem du dir Besonderheiten  **notierst**, die dir hinsichtlich der Stellung des Lenkrads an bestimmten Stellen bzw. Bereichen des Funktionsgraphen auffallen.
+{{< /job >}}
+
+{{< geogebra-activity id="g7gucfdz" >}}
+
+{{< box-note title="Zurück zum Rennstrecken-Vergleich #2..." >}}
 *In bestimmten Bereichen fährst du eine Linkskurve* (Steigung $+ \Rightarrow $ Linkskrümmung)*, in wiederum anderen Bereichen eine Rechtskurve* (Steigung $- \Rightarrow$ Rechtskrümmung)*. Dazwischen gibt es jeweils einen kurzen Moment, in dem du das Lenkrad in keine der beiden Richtungen eingeschlagen hast* (Steigung $=0$) *und somit gerade hältst.*
 
 $\Rightarrow$ Genau an dieser Stelle befindet sich der **Wendepunkt**.
 {{< /box-note >}}
-
-Diesen Vergleich kannst du mit Hilfe der nachfolgenden GeoGebra-Aktivität selbst austesten.
-
-{{< geogebra-activity id="g7gucfdz" >}}
-
-{{< job numbered="false" style="enum-arabic" name="Forschungsauftrag" >}}
-**Verschiebe** den Schieberegler von links nach rechts und beobachte, wie sich die Stellung des Lenkrads verändert. **Erkunde** den Zusammenhang zwischen Funktionsgraph und Krümmung, indem du dir Besonderheiten  **notierst**, die dir hinsichtlich der Stellung des Lenkrads an bestimmten Stellen bzw. Bereichen des Funktionsgraphen auffallen.
-{{< /job >}}
 
 ## Wendepunkte bestimmen -- so geht's
 
