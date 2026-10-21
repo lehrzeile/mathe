@@ -44,6 +44,10 @@ Diesen Vergleich kannst du mit Hilfe der nachfolgenden GeoGebra-Aktivität selbs
 
 {{< geogebra-activity id="g7gucfdz" >}}
 
+{{< job numbered="false" style="enum-arabic" name="Forschungsauftrag" >}}
+*Verschiebe* den Schieberegler von links nach rechts und beobachte, wie sich die Stellung des Lenkrads verändert. *Erkunde* den Zusammenhang zwischen Funktionsgraph und Krümmung, indem du dir Besonderheiten  *notierst*, die dir hinsichtlich der Stellung des Lenkrads an bestimmten Stellen bzw. Bereichen des Funktionsgraphen auffallen.
+{{< /job >}}
+
 ## Wendepunkte bestimmen -- so geht's
 
 ### Schritt 1
