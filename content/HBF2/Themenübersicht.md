@@ -1,8 +1,15 @@
 ---
 title: "Themenübersicht Oberstufe"
+description: ""
+summary: ""
 draft: false
-weight: 701
+weight: 001
 toc: true
+seo:
+  title: "" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
 
 Diese Seite soll einen Überblick über das Fach Mathematik in der HBF Oberstufe verschaffen. Hierzu dient u. a. die Übersicht über die Themen.
