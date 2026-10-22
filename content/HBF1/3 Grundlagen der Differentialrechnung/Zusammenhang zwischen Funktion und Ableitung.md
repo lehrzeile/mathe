@@ -11,3 +11,4 @@ count: 0 # für die Nummerierung der Aufgaben
 
 ## Graphisches Differenzieren - Besondere Punkte
 
+{{< learning-app id="pg8t076c326" >}}
