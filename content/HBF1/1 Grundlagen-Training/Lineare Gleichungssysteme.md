@@ -40,12 +40,12 @@ Ein lineares Gleichungssystem mit zwei Gleichungen und zwei Unbekannten besteht 
 
 {{< job numbered="true" style="enum-alph" title="Übung macht den Meister" name="" entry="**Bestimme** die Lösungsmenge des jeweiligen Gleichungssystems, indem du eines der oben dargestellten Lösungsverfahren anwendest." >}}
 
-- $$\begin{alignat*} 2x -5y &= 8 \\ x -y &= 1 \end{alignat*}$$
-- $$\begin{align*} u -4v &= 3 \\ -5u +20v &= 10 \end{align*}$$
-- $$\begin{align*} 2x -y &= 12 \\ 4x +3y &= 14 \end{align*}$$
-- $$\begin{align*} a +b &= 7 \\ a +2b &= 11 \end{align*}$$
-- $$\begin{align*} 12x_1 +11x_2 &= 18 \\ 16x_1 -7x_2 &= -2 \end{align*}$$
-- $$\begin{align*} 4s +6t &= 7 \\ 6s +9t &= 10 \end{align*}$$
+- $$\begin{aligned} 2x -5y &= 8 \\\ x -y &= 1 \end{aligned}$$
+- $$\begin{aligned} u -4v &= 3 \\\ -5u +20v &= 10 \end{aligned}$$
+- $$\begin{aligned} 2x -y &= 12 \\\ 4x +3y &= 14 \end{aligned}$$
+- $$\begin{aligned} a +b &= 7 \\\ a +2b &= 11 \end{aligned}$$
+- $$\begin{aligned} 12x_1 +11x_2 &= 18 \\\ 16x_1 -7x_2 &= -2 \end{aligned}$$
+- $$\begin{aligned} 4s +6t &= 7 \\\ 6s +9t &= 10 \end{aligned}$$
 
 {{< /job >}}
 

@@ -89,7 +89,7 @@ Schreibweise des Differentialquotienten mit der **h-Methode**:
 
 $\displaystyle m = \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{x_1+h-x_1}$
 
-Und kürzt man nun noch den Nenner, so lautet die Formel:
+Und vereinfacht man nun noch den Nenner, so lautet die Formel:
 
 $\displaystyle m= \lim_{h \to 0} \frac{f(x_1+h)-f(x_1)}{h}.$
 {{< /box-notice >}}

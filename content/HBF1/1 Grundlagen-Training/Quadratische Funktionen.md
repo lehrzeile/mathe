@@ -322,6 +322,6 @@ Um die nachfolgende Aufgabe zu lösen, solltest du einfache [lineare Gleichungss
 {{< /job >}}
 <!-- https://www.mathematik-oberstufe.de/analysis/qf/parabel-aus-2punkten.html -->
 
-## Zusammenfassung: Unterschied zwischen linearen und quadratischen Funktionen
+<!-- ## Zusammenfassung: Unterschied zwischen linearen und quadratischen Funktionen
 
-{{< tiktok 7313675899507854624 >}}
+{{< tiktok 7313675899507854624 >}} -->
