@@ -5,6 +5,8 @@ summary: ""
 draft: false
 weight: 001
 toc: true
+sidebar:
+  collapsed: true
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
