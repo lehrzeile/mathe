@@ -76,12 +76,6 @@ Beispiel:
 
 Im Grunde kannst dir eine Funktion ein wenig so wie eine Maschine bzw. eine _blackbox_ vorstellen:
 
-<!-- {{< image src="https://madipedia.de/images/thumb/4/43/Funktionsmaschine-groß.jpg/300px-Funktionsmaschine-groß.jpg" caption='"Funktions-Maschine"' >}} -->
-<!-- {{< source type="image" text="madipedia" src="https://madipedia.de/images/thumb/4/43/Funktionsmaschine-groß.jpg/300px-Funktionsmaschine-groß.jpg" lastcall="13.08.2025" >}} -->
-
-<!-- {{< image src="http://www.spomath.info/Mathe_10/_images/09_01_Funktionsmaschine.jpg" caption="Mathematische Funktionsmaschine" >}} -->
-<!-- {{< source type="image" text="spomath" src="http://www.spomath.info/Mathe_10/_images/09_01_Funktionsmaschine.jpg" lastcall="22.10.2026" >}} -->
-
 Das passiert hier also:
 
 1. Der Eingabewert $x$ wird oben in diese Maschine hineingeworfen.
