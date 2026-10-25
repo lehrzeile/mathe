@@ -17,7 +17,9 @@ Mit Hilfe des grafischen Differenzierens lässt sich der Graph der Ableitungsfun
 Ausgangspunkt ist der Ansatz, dass die Ableitungsfunktion $f'$ die (Tangenten-)Steigung an jeder beliebigen Stelle von $f$ angibt.
 Mit Hilfe der Eigenschaften von $f$ lassen sich dann konkrete Aussagen über den Graphen von $f'$ treffen:
 
-{{< table caption="Mittlere und lokale Änderungsrate in Anwendungskontexten" >}}
+{{< table caption="Zusammenhänge zwischen Funktion und Ableitungsfunktion" >}}
+
+{{< center >}}
 
 | Funktion $f$ | Ableitungsfunktion $f'$ |
 | --- | --- |
@@ -26,6 +28,8 @@ Mit Hilfe der Eigenschaften von $f$ lassen sich dann konkrete Aussagen über den
 | Wendepunkt | Hoch- oder Tiefpunkt <br /> <span style="font-size: 0.8em;">(hier ist die Steigung am größten oder kleinsten)</span> |
 | steigender Graph <br /> <span style="font-size: 0.8em;">(die Steigung ist positiv)</span> | Graph oberhalb der $x$-Achse <br /> <span style="font-size: 0.8em;">($f'(x) > 0$)</span> |
 | fallender Graph <br /> <span style="font-size: 0.8em;">(die Steigung ist negativ)</span> | Graph unterhalb der $x$-Achse <br /> <span style="font-size: 0.8em;">($f'(x) > 0$)</span> |
+
+{{< /center >}}
 
 {{< /table >}}
 
