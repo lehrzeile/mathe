@@ -37,7 +37,6 @@
 
 #let function1 = xs.map(x =>  1/8*x*x*x - 3/16*x*x -9/4*x + 2)
 
-    
 #lq.diagram(
   xlim: (-5.5, 5.5),
   ylim: (-5.5, 7.5),
@@ -64,6 +63,11 @@
   lq.ellipse(3, -3.06, align: center + horizon, width: 0.4, height: 0.4, stroke: 1pt + red, fill: none),
   lq.place(3.9, -3, align: center + horizon)[#text(17pt, font: "Roboto")[$arrow.l$]],
   lq.place(4.5, -3, align: left)[#text(9pt, font: "Roboto")[Tiefpunkt \ bei $x=3$]],
+
+  // Anmerkungen
+  // lq.place(-5, -4.5, align: left)[#text(7pt, font: "Roboto")[steigender Graph]],
+  // lq.place(-1.5, -4.5, align: left)[#text(7pt, font: "Roboto")[fallender #h(20pt) Graph]],
+  // lq.place(3.3, -4.5, align: left)[#text(7pt, font: "Roboto")[steigender Graph]],
 
   // Anker
   lq.place(-2, 4.75, align: left)[#text(9pt, font: "Roboto")[#pin(1)#pin(2)]],
@@ -104,3 +108,14 @@
 #pinit-line-to((1, 2), stroke: (thickness: 1.5pt, paint: red, dash: "loosely-dashed"), offset-dx: 0cm, offset-dy: 12.8cm, body-dy: -0.5cm, pin-dy:.1cm, pin-dx: 0cm)[]
 #pinit-line-to((3, 4), stroke: (thickness: 1.5pt, paint: red, dash: "loosely-dashed"), offset-dx: 0cm, offset-dy: 7.3cm, body-dy: -0.5cm, pin-dy:.1cm, pin-dx: 0cm)[]
 #pinit-line-to((5, 6), stroke: (thickness: 1.5pt, paint: green.darken(50%), dash: "loosely-dashed"), offset-dx: 0cm, offset-dy: 11.8cm, body-dy: -0.5cm, pin-dy:.1cm, pin-dx: 0cm)[]
+
+// Plus-Minus
+#place(top + left, dx: 1cm, dy: 9cm)[
+  #text(10pt, green.darken(50%), font: "Roboto", weight: 600)[#circle(inset: 2pt, fill: white, stroke: 1pt + green.darken(50%))[#align(center + horizon)[+]]]
+]
+#place(top + left, dx: 3.925cm, dy: 9cm)[
+  #text(10pt, red, font: "Roboto", weight: 800)[#circle(inset: 2pt, fill: white, stroke: 1pt + red)[#align(center + horizon)[--]]]
+]
+#place(top + left, dx: 6.5cm, dy: 9cm)[
+  #text(10pt, green.darken(50%), font: "Roboto", weight: 600)[#circle(inset: 2pt, fill: white, stroke: 1pt + green.darken(50%))[#align(center + horizon)[+]]]
+]

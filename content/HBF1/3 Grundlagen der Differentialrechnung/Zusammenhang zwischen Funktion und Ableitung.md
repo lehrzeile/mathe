@@ -9,13 +9,14 @@ math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 ---
 
-## Grafisches Differenzieren - Was bedeutet das eigentlich?
+## Grafisches Differenzieren
 
+<!-- **Was bedeutet das eigentlich?** \ -->
 Mit Hilfe des grafischen Differenzierens lässt sich der Graph der Ableitungsfunktion konstruieren, ohne die Gleichung der Ausgangsfunktion oder der Ableitungsfunktion zu kennen oder zu verwenden.
 
 <!-- Dabei geht man wie folgt vor:\ -->
 Ausgangspunkt ist der Ansatz, dass die Ableitungsfunktion $f'$ die (Tangenten-)Steigung an jeder beliebigen Stelle von $f$ angibt.
-Mit Hilfe der Eigenschaften von $f$ lassen sich dann konkrete Aussagen über den Graphen von $f'$ treffen:
+Auf Basis der Eigenschaften von $f$ lassen sich dann konkrete Aussagen über den Graphen von $f'$ treffen:
 
 {{< table caption="Zusammenhänge zwischen Funktion und Ableitungsfunktion" >}}
 
@@ -33,7 +34,7 @@ Mit Hilfe der Eigenschaften von $f$ lassen sich dann konkrete Aussagen über den
 
 {{< /table >}}
 
-Hat man auf diese Weise genügend Informationen über den Graph der Ableitungsfunktion gesammelt, so lässt sich dieser schon grob skizzieren.
+Hat man auf diese Weise genügend Informationen über den Graph der Ableitungsfunktion gesammelt, so lässt sich dieser näherungsweise skizzieren.
 
 {{< image src="img/Zusammenhang.svg" caption="Zusammenhang zwischen Funktion (blau) und Ableitung (orange)" >}}
 
