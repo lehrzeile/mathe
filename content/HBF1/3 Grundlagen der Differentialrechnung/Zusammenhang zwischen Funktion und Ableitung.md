@@ -21,14 +21,20 @@ Mit Hilfe der Eigenschaften von $f$ lassen sich dann konkrete Aussagen über den
 
 | Funktion $f$ | Ableitungsfunktion $f'$ |
 | --- | --- |
-| **Hochpunkt** <br /> <span style="font-size: 0.8em;">(die Steigung ist erst positiv, dann negativ)</span> | **Nullstelle** <br /> <span style="font-size: 0.8em;">(der Graph ist erst positiv, dann negativ)</span> |
-| **Tiefpunkt** <br /> (die Steigung ist erst negativ, dann positiv) | **Nullstelle** <br /> (der Graph ist erst negativ, dann positiv) |
-| **Wendepunkt** | **Hoch- oder Tiefpunkt** <br /> (hier ist die Steigung am größten oder kleinsten) |
-| **steigender Graph** <br /> (die Steigung ist positiv) | **Graph oberhalb der $x$-Achse** <br /> ($f'(x) > 0$) |
-| **fallender Graph** <br /> (die Steigung ist negativ) | **Graph unterhalb der $x$-Achse** <br /> ($f'(x) > 0$) |
+| Hochpunkt <br /> <span style="font-size: 0.8em;">(die Steigung ist erst positiv, dann negativ)</span> | Nullstelle <br /> <span style="font-size: 0.8em;">(der Graph ist erst positiv, dann negativ)</span> |
+| Tiefpunkt <br /> <span style="font-size: 0.8em;">(die Steigung ist erst negativ, dann positiv)</span> | Nullstelle <br /> <span style="font-size: 0.8em;">(der Graph ist erst negativ, dann positiv)</span> |
+| Wendepunkt | Hoch- oder Tiefpunkt <br /> <span style="font-size: 0.8em;">(hier ist die Steigung am größten oder kleinsten)</span> |
+| steigender Graph <br /> <span style="font-size: 0.8em;">(die Steigung ist positiv)</span> | Graph oberhalb der $x$-Achse <br /> <span style="font-size: 0.8em;">($f'(x) > 0$)</span> |
+| fallender Graph <br /> <span style="font-size: 0.8em;">(die Steigung ist negativ)</span> | Graph unterhalb der $x$-Achse <br /> <span style="font-size: 0.8em;">($f'(x) > 0$)</span> |
 
 {{< /table >}}
 
-Hat man auf diese Weise genügend Informationen über den Graph der Ableitungsfunktion gesammelt, so lässt sich dieser grob skizzieren.
+Hat man auf diese Weise genügend Informationen über den Graph der Ableitungsfunktion gesammelt, so lässt sich dieser schon grob skizzieren.
+
+<!-- Grafiken übereinander -->
+
+## Übung macht den Meister
+
+Teste dein Können, indem du mit Hilfe der nachfolgenden Learning-App den Funktionsgraphen (blau dargestellt) ihre Ableitungen (in orange) zuordnest.
 
 {{< learning-app id="pg8t076c326" >}}
