@@ -35,10 +35,10 @@ Mit Hilfe der Eigenschaften von $f$ lassen sich dann konkrete Aussagen über den
 
 Hat man auf diese Weise genügend Informationen über den Graph der Ableitungsfunktion gesammelt, so lässt sich dieser schon grob skizzieren.
 
-<!-- Grafiken übereinander -->
+{{< image src="img/Zusammenhang.svg" caption="Zusammenhang zwischen Funktion (blau) und Ableitung (orange)" >}}
 
 ## Übung macht den Meister
 
-Teste dein Können, indem du mit Hilfe der nachfolgenden Learning-App den Funktionsgraphen (blau dargestellt) ihre Ableitungen (in orange) zuordnest.
+Teste dein Können, indem du mit Hilfe der nachfolgenden Learning-App den Funktionsgraphen (in blau dargestellt) ihre Ableitungen (in orange) zuordnest.
 
 {{< learning-app id="pg8t076c326" >}}
