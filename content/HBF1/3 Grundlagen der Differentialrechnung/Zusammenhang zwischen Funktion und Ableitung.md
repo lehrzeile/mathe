@@ -21,11 +21,11 @@ Mit Hilfe der Eigenschaften von $f$ lassen sich dann konkrete Aussagen über den
 
 | Funktion $f$ | Ableitungsfunktion $f'$ |
 | --- | --- |
-| Hochpunkt <br /> ####(die Steigung ist erst positiv, dann negativ) | Nullstelle <br /> ####(der Graph ist erst positiv, dann negativ) |
-| Tiefpunkt <br /> (die Steigung ist erst negativ, dann positiv) | Nullstelle <br /> (der Graph ist erst negativ, dann positiv) |
-| Wendepunkt | Hoch- oder Tiefpunkt |
-| steigender Graph <br /> (die Steigung ist positiv) | Graph oberhalb der $x$-Achse |
-| fallender Graph <br /> (die Steigung ist negativ) | Graph unterhalb der $x$-Achse |
+| **Hochpunkt** <br /> <span style="font-size: 0.8em;">(die Steigung ist erst positiv, dann negativ)</span> | **Nullstelle** <br /> <span style="font-size: 0.8em;">(der Graph ist erst positiv, dann negativ)</span> |
+| **Tiefpunkt** <br /> (die Steigung ist erst negativ, dann positiv) | **Nullstelle** <br /> (der Graph ist erst negativ, dann positiv) |
+| **Wendepunkt** | **Hoch- oder Tiefpunkt** <br /> (hier ist die Steigung am größten oder kleinsten) |
+| **steigender Graph** <br /> (die Steigung ist positiv) | **Graph oberhalb der $x$-Achse** <br /> ($f'(x) > 0$) |
+| **fallender Graph** <br /> (die Steigung ist negativ) | **Graph unterhalb der $x$-Achse** <br /> ($f'(x) > 0$) |
 
 {{< /table >}}
 
