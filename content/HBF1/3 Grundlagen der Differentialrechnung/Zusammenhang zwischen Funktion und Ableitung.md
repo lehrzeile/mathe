@@ -44,7 +44,7 @@ Gegegeben ist der Graph einer Funktion $f$ (siehe <a href="#abb1">Abbildung 1</a
 Das Ziel ist es, den Graphen der Ableitungsfunktion zu skizzieren, ohne die Funktionsgleichung von $f$ zu kennen.
 
 ![Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht](img/Zusammenhang1.svg)
-*Abb. 1: Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht*
+<a id="abb1">*Abb. 1: Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht*</a>
 
 {{< /box-example >}}
 
@@ -62,7 +62,7 @@ Zu guter Letzt betrachten wir die Steigung des Graphen und können anhanddessen 
 
 {{< image src="img/Zusammenhang4.svg" caption="Zusammenhang zwischen Steigung und Lage des Graphen der Ableitung" >}}
 
-Alles in allem entsteht auf diese Weise ein relativ genaues Bild des Graphen der Ableitung, welchen wir (vgl. Abbildung <a href="#abb5">5</a>) nun skizzieren können.
+Alles in allem entsteht auf diese Weise ein relativ genaues Bild des Graphen der Ableitung, welchen wir (vgl. <a href="#abb5">Abbildung 5</a>) nun skizzieren können.
 
 {{< image src="img/Zusammenhang.svg" caption="vollständiger Zusammenhang zwischen Funktion (blau) und Ableitung (orange)" >}}
 
