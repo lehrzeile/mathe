@@ -12,7 +12,7 @@ count: 0 # für die Nummerierung der Aufgaben
 ## Grafisches Differenzieren
 
 <!-- **Was bedeutet das eigentlich?** \ -->
-Mit Hilfe des grafischen Differenzierens lässt sich der Graph der Ableitungsfunktion konstruieren, ohne die Gleichung der Ausgangsfunktion oder der Ableitungsfunktion zu kennen oder zu verwenden.
+Mit Hilfe des grafischen Differenzierens lässt sich der Graph der Ableitungsfunktion skizzieren, ohne die Gleichung der Ausgangsfunktion oder der Ableitungsfunktion zu kennen oder zu verwenden.
 
 <!-- Dabei geht man wie folgt vor:\ -->
 Ausgangspunkt ist der Ansatz, dass die Ableitungsfunktion $f'$ die (Tangenten-)Steigung an jeder beliebigen Stelle von $f$ angibt.
