@@ -49,3 +49,7 @@
   // Graph
   lq.plot(xs, function1, mark: none, stroke: thirdcolor + 1.5pt, label: [$f$]),
 )
+
+#place(top + left, dx: -1.2cm, dy: 4.5cm)[
+  #text(8pt, gray.lighten(50%), font: "Roboto", weight: 600)[#rotate(-90deg)[F U N K T I O N]]
+]

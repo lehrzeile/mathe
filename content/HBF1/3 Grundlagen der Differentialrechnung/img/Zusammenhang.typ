@@ -119,3 +119,10 @@
 #place(top + left, dx: 6.5cm, dy: 9cm)[
   #text(10pt, green.darken(50%), font: "Roboto", weight: 600)[#circle(inset: 2pt, fill: white, stroke: 1pt + green.darken(50%))[#align(center + horizon)[+]]]
 ]
+
+#place(top + left, dx: -1.2cm, dy: 4.5cm)[
+  #text(8pt, gray.lighten(50%), font: "Roboto", weight: 600)[#rotate(-90deg)[F U N K T I O N]]
+]
+#place(top + left, dx: -1.2cm, dy: 13.5cm)[
+  #text(8pt, gray.lighten(50%), font: "Roboto", weight: 600)[#rotate(-90deg)[A B L E I T U N G]]
+]

@@ -107,3 +107,10 @@
 #pinit-line-to((1, 2), stroke: (thickness: 1.5pt, paint: red, dash: "loosely-dashed"), offset-dx: 0cm, offset-dy: 12.8cm, body-dy: -0.5cm, pin-dy:.1cm, pin-dx: 0cm)[]
 #pinit-line-to((3, 4), stroke: (thickness: 1.5pt, paint: red, dash: "loosely-dashed"), offset-dx: 0cm, offset-dy: 7.3cm, body-dy: -0.5cm, pin-dy:.1cm, pin-dx: 0cm)[]
 // #pinit-line-to((5, 6), stroke: (thickness: 1.5pt, paint: green.darken(50%), dash: "loosely-dashed"), offset-dx: 0cm, offset-dy: 11.8cm, body-dy: -0.5cm, pin-dy:.1cm, pin-dx: 0cm)[]
+
+#place(top + left, dx: -1.2cm, dy: 4.5cm)[
+  #text(8pt, gray.lighten(50%), font: "Roboto", weight: 600)[#rotate(-90deg)[F U N K T I O N]]
+]
+#place(top + left, dx: -1.2cm, dy: 13.5cm)[
+  #text(8pt, gray.lighten(50%), font: "Roboto", weight: 600)[#rotate(-90deg)[A B L E I T U N G]]
+]
