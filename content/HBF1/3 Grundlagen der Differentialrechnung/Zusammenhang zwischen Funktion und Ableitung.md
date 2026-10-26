@@ -36,7 +36,30 @@ Auf Basis der Eigenschaften von $f$ lassen sich dann konkrete Aussagen über den
 
 Hat man auf diese Weise genügend Informationen über den Graph der Ableitungsfunktion gesammelt, so lässt sich dieser näherungsweise skizzieren.
 
-{{< image src="img/Zusammenhang.svg" caption="Zusammenhang zwischen Funktion (blau) und Ableitung (orange)" >}}
+{{< box-example >}}
+
+    Gegegeben ist der Graph einer Funktion $f$.
+    Das Ziel ist es, den Graphen der Ableitungsfunktion zu skizzieren, ohne die Funktionsgleichung von $f$ zu kennen.
+
+    {{< image src="img/Zusammenhang1.svg" caption="Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht" >}}
+
+{{< /box-example >}}
+
+Zunächst betrachtet man den Funktionsgraph und schaut, wo dieser Hoch- und Tiefpunkte besitzt. Hier befinden sich die Nullstellen der Ableitungsfunktion.
+
+{{< image src="img/Zusammenhang2.svg" caption="Zusammenhang zwischen Hoch- und Tiefpunkten und den Nullstellen der Ableitung" >}}
+
+Im nächsten Schritt schaut man, an welchen Stellen der Funktionsgraph Wenedepunkte besitzt. An diesen Stellen hat der Graph der Ableitungsfunktion einen Hoch- oder Tiefpunkt.
+
+{{< image src="img/Zusammenhang3.svg" caption="Zusammenhang zwischen Wendepunkten und den Hoch- und Tiefpunkten der Ableitung" >}}
+
+Zu guter Letzt betrachten wir die Steigung des Graphen und können anhanddessen darauf schließen, in welchen Bereichen sich der Graph der Ableitungsfunktion oberhalb oder unterhalb der $x$-Achse befindet.
+
+{{< image src="img/Zusammenhang4.svg" caption="Zusammenhang zwischen Steigung und Lage des Graphen der Ableitung" >}}
+
+Alles in allem entsteht auf diese Weise ein relativ genaues Bild des Graphen der Ableitung, welchen wir (vgl. Abbildung 5) nun skizzieren können.
+
+{{< image src="img/Zusammenhang.svg" caption="vollständiger Zusammenhang zwischen Funktion (blau) und Ableitung (orange)" >}}
 
 ## Übung macht den Meister
 
