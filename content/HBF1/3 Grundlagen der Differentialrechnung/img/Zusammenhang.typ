@@ -84,7 +84,8 @@
   height: 13cm*0.7,
   legend: none,
   xaxis: (tick-distance: 1, subticks: 0),
-  yaxis: (tick-distance: 1, subticks: 0),
+  grid: none,
+  yaxis: (ticks: none, tick-distance: 0, subticks: 0),
 
   // Graph
   lq.plot(xs, function2, mark: none, stroke: secondcolor + 1.5pt),
