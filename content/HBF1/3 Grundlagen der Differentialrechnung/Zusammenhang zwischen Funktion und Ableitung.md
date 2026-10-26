@@ -43,16 +43,16 @@ Hat man auf diese Weise genügend Informationen über den Graph der Ableitungsfu
 Gegegeben ist der Graph einer Funktion $f$.
 Das Ziel ist es, den Graphen der Ableitungsfunktion $f'$ zu skizzieren, ohne die Funktionsgleichung von $f$ zu kennen.
 
-<!-- ![Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht](img/Zusammenhang1.svg)
-*Abb. 1: Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht* -->
+![Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht](img/Zusammenhang1.svg)
+*Abb. 1: Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht*
 
 {{< /box-example >}}
 
-<!-- {{< image src="img/Zusammenhang1.svg" caption="Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht" >}} -->
+{{< image src="img/Zusammenhang1.svg" caption="Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht" >}}
 
 Zunächst betrachtet man den Funktionsgraph und schaut, wo dieser Hoch- und Tiefpunkte besitzt. Hier befinden sich die Nullstellen der Ableitungsfunktion.
 
-<!-- {{< image src="img/Zusammenhang2.svg" caption="Zusammenhang zwischen Hoch- und Tiefpunkten und den Nullstellen der Ableitung" >}} -->
+{{< image src="img/Zusammenhang2.svg" caption="Zusammenhang zwischen Hoch- und Tiefpunkten und den Nullstellen der Ableitung" >}}
 
 Im nächsten Schritt schaut man, an welchen Stellen der Funktionsgraph Wenedepunkte besitzt. An diesen Stellen hat der Graph der Ableitungsfunktion einen Hoch- oder Tiefpunkt.
 
@@ -60,7 +60,7 @@ Im nächsten Schritt schaut man, an welchen Stellen der Funktionsgraph Wenedepun
 
 Zu guter Letzt betrachten wir die Steigung des Graphen und können anhanddessen darauf schließen, in welchen Bereichen sich der Graph der Ableitungsfunktion oberhalb bzw. unterhalb der $x$-Achse befindet. Hierbei betrachtet man jeweils die Bereiche zwischen den einzelnen Nullstellen sowie die beiden äußeren Bereiche (sozusagen die Bereiche "drum herum").
 
-<!-- {{< image src="img/Zusammenhang4.svg" caption="Zusammenhang zwischen Steigung und Lage des Graphen der Ableitung" >}} -->
+{{< image src="img/Zusammenhang4.svg" caption="Zusammenhang zwischen Steigung und Lage des Graphen der Ableitung" >}}
 
 Alles in allem entsteht auf diese Weise ein relativ genaues Bild des Graphen der Ableitung, welchen wir (vgl. <a href="#abb5">Abbildung 5</a>) nun skizzieren können.
 
