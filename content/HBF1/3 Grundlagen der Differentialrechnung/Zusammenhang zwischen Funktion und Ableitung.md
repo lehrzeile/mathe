@@ -36,6 +36,8 @@ Auf Basis der Eigenschaften von $f$ lassen sich dann konkrete Aussagen über den
 
 Hat man auf diese Weise genügend Informationen über den Graph der Ableitungsfunktion gesammelt, so lässt sich dieser näherungsweise skizzieren.
 
+## Grafisches Differenzieren an einem Beispiel
+
 {{< box-example >}}
 
     Gegegeben ist der Graph einer Funktion $f$.
