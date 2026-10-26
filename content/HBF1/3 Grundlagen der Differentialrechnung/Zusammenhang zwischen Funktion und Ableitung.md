@@ -45,6 +45,7 @@ Das Ziel ist es, den Graphen der Ableitungsfunktion $f'$ zu skizzieren, ohne die
 
 ![Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht](img/Zusammenhang1.svg)
 *Abb. 1: Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht*
+<!-- {{< image src="img/Zusammenhang1.svg" caption="Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht" >}} -->
 
 {{< /box-example >}}
 
