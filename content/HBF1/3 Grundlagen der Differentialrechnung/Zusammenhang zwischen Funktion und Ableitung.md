@@ -58,7 +58,7 @@ Im nächsten Schritt schaut man, an welchen Stellen der Funktionsgraph Wenedepun
 
 {{< image src="img/Zusammenhang3.svg" caption="Zusammenhang zwischen Wendepunkten und den Hoch- und Tiefpunkten der Ableitung" >}}
 
-Zu guter Letzt betrachten wir die Steigung des Graphen und können anhanddessen darauf schließen, in welchen Bereichen sich der Graph der Ableitungsfunktion oberhalb oder unterhalb der $x$-Achse befindet.
+Zu guter Letzt betrachten wir die Steigung des Graphen und können anhanddessen darauf schließen, in welchen Bereichen sich der Graph der Ableitungsfunktion oberhalb bzw. unterhalb der $x$-Achse befindet. Hierbei betrachtet man jeweils die Bereiche zwischen den einzelnen Nullstellen sowie die beiden äußeren Bereiche (sozusagen die Bereiche "drum herum").
 
 {{< image src="img/Zusammenhang4.svg" caption="Zusammenhang zwischen Steigung und Lage des Graphen der Ableitung" >}}
 
