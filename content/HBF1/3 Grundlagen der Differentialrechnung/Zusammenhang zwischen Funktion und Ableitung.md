@@ -48,8 +48,6 @@ Das Ziel ist es, den Graphen der Ableitungsfunktion $f'$ zu skizzieren, ohne die
 
 {{< /box-example >}}
 
-{{< image src="img/Zusammenhang1.svg" caption="Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht" >}}
-
 Zunächst betrachtet man den Funktionsgraph und schaut, wo dieser Hoch- und Tiefpunkte besitzt. Hier befinden sich die Nullstellen der Ableitungsfunktion.
 
 {{< image src="img/Zusammenhang2.svg" caption="Zusammenhang zwischen Hoch- und Tiefpunkten und den Nullstellen der Ableitung" >}}
