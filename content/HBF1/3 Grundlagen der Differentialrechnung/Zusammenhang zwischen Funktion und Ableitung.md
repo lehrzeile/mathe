@@ -40,12 +40,15 @@ Hat man auf diese Weise genügend Informationen über den Graph der Ableitungsfu
 
 {{< box-example >}}
 
-    Gegegeben ist der Graph einer Funktion $f$.
-    Das Ziel ist es, den Graphen der Ableitungsfunktion zu skizzieren, ohne die Funktionsgleichung von $f$ zu kennen.
+Gegegeben ist der Graph einer Funktion $f$ (siehe <a href="#abb1">Abbildung 1</a>).
+Das Ziel ist es, den Graphen der Ableitungsfunktion zu skizzieren, ohne die Funktionsgleichung von $f$ zu kennen.
 
-    {{< image src="img/Zusammenhang1.svg" caption="Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht" >}}
+![Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht](img/Zusammenhang1.svg)
+*Abb. 1: Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht*
 
 {{< /box-example >}}
+
+<!-- {{< image src="img/Zusammenhang1.svg" caption="Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht" >}} -->
 
 Zunächst betrachtet man den Funktionsgraph und schaut, wo dieser Hoch- und Tiefpunkte besitzt. Hier befinden sich die Nullstellen der Ableitungsfunktion.
 
