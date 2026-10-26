@@ -59,7 +59,7 @@ Zu guter Letzt betrachten wir die Steigung des Graphen und können anhanddessen 
 
 {{< image src="img/Zusammenhang4.svg" caption="Zusammenhang zwischen Steigung und Lage des Graphen der Ableitung" >}}
 
-Alles in allem entsteht auf diese Weise ein relativ genaues Bild des Graphen der Ableitung, welchen wir (vgl. Abbildung 5) nun skizzieren können.
+Alles in allem entsteht auf diese Weise ein relativ genaues Bild des Graphen der Ableitung, welchen wir (vgl. Abbildung <a href="#abb5">5</a>) nun skizzieren können.
 
 {{< image src="img/Zusammenhang.svg" caption="vollständiger Zusammenhang zwischen Funktion (blau) und Ableitung (orange)" >}}
 

@@ -6,7 +6,7 @@
 {{ $imagecounter := $.Page.Scratch.Get "imagecounter" }} <!-- Zähler für Abbildungen -->
 
 <figure>
-    <a name="abb{{ $imagecounter }}"></a> <!-- Anker für Abbildungsreferenz -->
+    <a id="abb{{ $imagecounter }}"></a> <!-- Anker für Abbildungsreferenz -->
     {{ if $u.IsAbs }} <!-- Prüfen, ob der src-Eintrag ein absoluter Link ist -->
         {{ if hasSuffix (.Get "src") "svg" }} <!-- Prüfen, ob der src-Eintrag auf eine SVG-Datei verweist -->
             <img src="{{ $src }}" decoding="async" fetchpriority="auto" loading="lazy" alt="{{ $caption }}" class="markdown-svg">
