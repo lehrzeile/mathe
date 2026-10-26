@@ -41,10 +41,11 @@ Hat man auf diese Weise genügend Informationen über den Graph der Ableitungsfu
 {{< box-example >}}
 
 Gegegeben ist der Graph einer Funktion $f$ (siehe <a href="#abb1">Abbildung 1</a>).
-Das Ziel ist es, den Graphen der Ableitungsfunktion zu skizzieren, ohne die Funktionsgleichung von $f$ zu kennen.
+Das Ziel ist es, den Graphen der Ableitungsfunktion $f'$ zu skizzieren, ohne die Funktionsgleichung von $f$ zu kennen.
 
 ![Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht](img/Zusammenhang1.svg)
-<a id="abb1">*Abb. 1: Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht*</a>
+<a id="abb1"></a>
+*Abb. 1: Graph einer unbekannten Funktion - Graph der Ableitungsfunktion gesucht*
 
 {{< /box-example >}}
 
