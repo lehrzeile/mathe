@@ -41,6 +41,10 @@ Eine Parabel ist <mark>achsensymmetrisch</mark>. Ihre Symmetrieachse ist eine ve
 
 Den **Streck- bzw. Öffnungsfaktor** einer Parabel kann man ganz einfach ablesen: Er ist der Parameter $a$ vor dem $x^2$, wenn $f(x)=ax^2$ ist. Der Streckfaktor $a$ bestimmt dabei die Form der Parabel. Man spricht hierbei entweder von **Streckung** oder **Stauchung**.
 
+In dem folgenden GeoGebra-Applet kannst du selbst ausprobieren, wie sich der Parameter $a$ auf die Form der Parabel auswirkt.
+
+{{< geogebra-activity id="ua4zvcf9" >}}
+
 {{< box-notice title="Streck- bzw. Öffnungsfaktor einer Parabel" >}}
     Ob eine Parabel gestreckt oder gestaucht ist, erkennst du am Vorfaktor $a$:
     <ul>
