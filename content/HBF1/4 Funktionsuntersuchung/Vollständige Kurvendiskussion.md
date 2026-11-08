@@ -32,8 +32,7 @@ Damit du all diese Schritte anschaulich nachvollziehen kannst, führen wir in di
 Zur vollständigen Beschreibung einer Funktion -- wie das bei den gleichnamigen *"vollständigen Kurvendiskussionen"* der Fall ist -- gehört die Angabe des <mark>Definitionsbereichs</mark>. Diesen bestimmt man, da es nur innerhalb dieses Bereiches sinnvoll ist, Untersuchungen über die Eigenschaften jener Funktion anzustellen.
 
 {{< box-notice title="Definitionsbereich" >}}
-Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ -- ist die Menge aller $x$-Werte,
-für die die Funktion definiert ist.
+Der **Definitionsbereich** einer Funktion $f$ -- geschrieben: $\mathbb{D}(f)$ -- ist die Menge aller $x$-Werte, für die die Funktion definiert ist.
 {{< /box-notice >}}
 
 Umgangssprachlich ausgedrückt umfasst der Definitionsbereich alle $x$-Werte (Argumente), die man in die Funktion einsetzen darf. Je nach Funktionsgleichung gibt es dafür Einschränkungen.
@@ -177,7 +176,7 @@ Dasselbe gilt auch für Wendepunkte. Wie man diese bestimmt, kannst du im [Absch
 ## 6. Globalverhalten
 
 {{< box-notice title="Globalverhalten" >}}
-Unter dem Globalverhalten einer Funktion versteht man auch die **Untersuchung der Randpunkte des Definitionsbereiches**.
+Unter dem Globalverhalten einer Funktion versteht man auch die **Untersuchung der Randbereiche des Definitionsbereiches**.
 Man untersucht sozusagen, in welche Richtung sich der Funktionsgraph bewegt, wenn die $x$-Werte unendlich groß ($x \rightarrow +\infty$) oder unendlich klein ($x \rightarrow -\infty$) werden.
 
 Im Falle von ganzrationalen Funktionen sagt man, der Graph verläuft
