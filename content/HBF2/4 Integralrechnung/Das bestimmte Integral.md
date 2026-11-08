@@ -54,6 +54,8 @@ Ist $f$ eine im Intervall $[a; b]$ stetige Funktion, dann beschreibt das bestimm
     $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$ \
     {{< image src="img/Flaechenbilanz-2.svg" caption="Fläche unterhalb der $x$-Achse" >}}
 
+<br />
+
 Ist $f$ eine Funktion, die im Intervall $[a; b]$ *genau eine* Nullstelle besitzt, dann gibt es sowohl Funktionswerte, die positiv sind als auch Funktionswerte, die negativ sind. Das bedeutet auch, dass sich die gesamte eingeschlossene Fläche in zwei Teilflächen unterteilt, wobei eine Teilfläche oberhalb ($A_1 > 0$) und eine unterhalb ($A_2 < 0$) der $x$-Achse liegt.
 
 Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
