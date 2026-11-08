@@ -50,28 +50,32 @@ Ist $f$ eine im Intervall $[a; b]$ stetige Funktion, dann beschreibt das bestimm
 - Sind alle Funktionswerte in diesem Bereich positiv, dann gilt: \
     $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \geq 0$
 
-    {{< columns >}}
-        {{< column >}}
-            ![Fläche oberhalb der $x$-Achse](img/Flaechenbilanz-1.svg)
-            *Abb. 1: Fläche oberhalb der $x$-Achse*
-            <!-- {{< image src="img/Flaechenbilanz-1.svg" caption="Fläche oberhalb der $x$-Achse" >}} -->
-        {{< /column >}}
-        {{< column >}}
-        {{< /column >}}
-    {{< /columns >}}
+{{< columns >}}
+{{< column >}}
+
+![Fläche oberhalb der $x$-Achse](img/Flaechenbilanz-1.svg)
+*Abb. 1: Fläche oberhalb der $x$-Achse*
+
+<!-- {{< image src="img/Flaechenbilanz-1.svg" caption="Fläche oberhalb der $x$-Achse" >}} -->
+{{< /column >}}
+{{< column >}}
+{{< /column >}}
+{{< /columns >}}
 
 - Sind alle Funktionswerte in diesem Bereich negativ, dann gilt: \
     $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$
 
-    {{< columns >}}
-        {{< column >}}
-            ![Fläche unterhalb der $x$-Achse](img/Flaechenbilanz-2.svg)
-            *Abb. 2: Fläche unterhalb der $x$-Achse*
-            <!-- {{< image src="img/Flaechenbilanz-2.svg" caption="Fläche unterhalb der $x$-Achse" >}} -->
-        {{< /column >}}
-        {{< column >}}
-        {{< /column >}}
-    {{< /columns >}}
+{{< columns >}}
+{{< column >}}
+
+![Fläche unterhalb der $x$-Achse](img/Flaechenbilanz-2.svg)
+*Abb. 2: Fläche unterhalb der $x$-Achse*
+
+<!-- {{< image src="img/Flaechenbilanz-2.svg" caption="Fläche unterhalb der $x$-Achse" >}} -->
+{{< /column >}}
+{{< column >}}
+{{< /column >}}
+{{< /columns >}}
 
 <br />
 
