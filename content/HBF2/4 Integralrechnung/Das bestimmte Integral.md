@@ -97,7 +97,7 @@ Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
 
 {{< /box-notice >}}
 
-{{< box-important title="Aufpassen!" >}}
+{{< box-important title="Beachte!" >}}
 Je nach Kontext kann es sein, dass man unterschiedliche Integrale ermitteln möchte. In einem bestimmten Kontext benötigt man womöglich eine Flächenbilanz, jedoch kann in einem anderen Sachkontext wiederum die Summe aller eingeschlossenen Flächen zwischen Graph und $x$-Achse gemeint sein. Man sollte hierbei also beachten, dass das bestimmte Integrals und die Summe der Teilflächen grundsätzlich ganz **unterschiedliche Aussagekraft** besitzen.
 
 Das bedeutet, dass man also **strikt** zwischen $\int_a^b f(x) ~ dx$ und $\int_a^{x_0} f(x) ~ dx + \int_{x_0}^b f(x) ~ dx$ **unterscheiden** muss, wobei $x_0$ die Nullstelle darstellen soll, welche die Gesamtfläche in zwei Teilflächen unterteilt.
@@ -111,7 +111,8 @@ Das bedeutet, dass man also **strikt** zwischen $\int_a^b f(x) ~ dx$ und $\int_a
 
 Da der Graph von $f$ an der Stelle $x=0$ eine Nullstelle besitzt, teilt diese die Gesamtfläche in zwei Teilflächen auf, wobei der linke Teil ($A_1$) unterhalb ($-$) und der rechte Teil ($A_2$) oberhalb ($+$) der $x$-Achse liegt.
 
-Das linke Teilstück $A_1$ hat einen Flächeninhalt von $0,25$. $A_2$ besitzt einen Flächeninhalt von $4$. Entgegen einer ersten Vermutung ist jedoch unter dem Strich der Wert des bestimmten Integrals nicht $4,25$, sondern $3,75$. Dies liegt daran, dass sich das Teilstück $A_1$ unterhalb der $x$-Achse befindet und sich die beiden Teilflächen somit teilweise gegenseitig aufheben: $A_1 + A_2 = -0,25 + 4 = 3,75$.
+Das linke Teilstück $A_1$ hat einen Flächeninhalt von $0,25$. $A_2$ besitzt einen Flächeninhalt von $4$. Entgegen einer ersten Vermutung ist jedoch unter dem Strich der Wert des bestimmten Integrals nicht $4,25$, sondern $3,75$. Dies liegt daran, dass sich das Teilstück $A_1$ unterhalb der $x$-Achse befindet und sich die beiden Teilflächen somit teilweise gegenseitig aufheben: \
+$A_1 + A_2 = -0,25 + 4 = 3,75$.
 
 ## Ausblick
 
