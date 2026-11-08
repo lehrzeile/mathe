@@ -31,6 +31,8 @@ Beim bestimmten Integral von $f$ von $a$ bis $b$ handelt es sich um die **Summe 
 Geometrisch interpretiert handelt es sich beim bestimmten Integral also um eine sogenannte **Flächenbilanz**. Das bedeutet, dass sich positive und negative Flächeninhalte auch gegenseitig aufgrund ihrer unterschiedlichen Orientierung ($+$ und $-$) aufheben können.
 {{< /box-note >}}
 
+## Flächenbilanz
+
 {{< box-notice title="Flächenbilanz" >}}
 Ist $f$ eine im Intervall $[a; b]$ stetige Funktion, dann beschreibt das bestimmte Integral $\int_a^b f(x) ~ dx$ die **Flächenbilanz** der vom Graphen von $f$ und der $x$-Achse im Intervall $[a; b]$ eingeschlossenen Fläche.
 

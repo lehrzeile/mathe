@@ -100,12 +100,12 @@ $\displaystyle \lim_{n \to \infty} U_n = \int_a^b f(x) ~ dx = \lim_{n \to \infty
 
 1. Den Grenzwert von Ober- und Untersumme bezeichnen wir fortan als das sogenannte **Integral von $f$ in den Grenzen von $a$ bis $b$**.
 2. Ab sofort berechnen wir keine Ober- und Untersummen mehr, da wir den exakten Flächeninhalt berechen wollen.
-3. Und das bedeutet: Wenn wir ab sofort Flächen berechnen wollen, müssen wir Integrale bestimmen.
+3. Und das bedeutet: Wenn wir ab sofort Flächeninhalte berechnen wollen, müssen wir **Integrale bestimmen**.
 
 {{< /box-important >}}
 
 {{< box-note title="Geometrische Bedeutung des Integrals" >}}
-Im Prinzip kann man sich das Integral als Summe unendlich vieler unendlich schmaler "Streifen" vorstellen (siehe Abbildung 8) -- deshalb ja auch das $\int$ ("S"). Hierzu wird jeweils die Höhe des Streifens ($f(x)$) mit der Breite des Streifens ($dx$) multipliziert. Zum Schluss werden die Flächeninhalte aller Streifen addiert.
+Im Prinzip kann man sich das Integral als Summe unendlich vieler unendlich schmaler "Streifen" vorstellen (siehe Abbildung 8) -- deshalb ja auch das $\int$ ("S"). Hierzu wird jeweils die Höhe des Streifens ($f(x)$) mit der Breite des Streifens ($dx$) multipliziert. Zum Schluss werden die Flächeninhalte aller Streifen addiert (vgl. Abbildung 9).
 {{< /box-note >}}
 
 {{< image src="img/Integral_Streifen.svg" caption="Geometrische Interpretation des Integrals" >}}
@@ -113,6 +113,8 @@ Im Prinzip kann man sich das Integral als Summe unendlich vieler unendlich schma
 {{< image src="img/bestimmtes_Integral.svg" caption="Integral von $f$ in den Grenzen von $a$ und $b$" >}}
 
 Bevor wir uns dem sog. **unbestimmten Integral** widmen, klären wir zuvor den Begriff der **Stammfunktion**, da wir diese dafür benötigen.
+
+## Die Stammfunktion
 
 {{< box-notice title="Stammfunktion F(x) einer Funktion f(x)" >}}
 Eine Funktion $F$ heißt **Stammfunktion von $f$**, wenn gilt:
@@ -133,6 +135,8 @@ Unter dem Strich bedeutet das also, dass die Ableitung der Stammfunktion gerade 
 Eine Stammfunktion zu bilden, bedeutet also, die Funktionsgleichung aufzuleiten. Und diesen Vorgang kann man sich wie ein "rückwärts ableiten" vorstellen.
 
 Bevor wir allerdings dazu kommen, wie man "aufleitet", klären wir zunächst noch den Begriff des **unbestimmten Integrals**.
+
+## Das unbestimmte Integral
 
 {{< box-notice title="Das unbestimmte Integral" >}}
 Das **unbestimmte Integral** bezeichnet die Menge aller Stammfunktionen von $f$.
