@@ -24,7 +24,7 @@ Diese Aussage bezeichnet man auch als den **Hauptsatz der Differential- und Inte
 {{< /box-notice >}}
 
 {{< box-notice title="Das bestimmte Integral" >}}
-Das **bestimmte Integral** bezeichnet die Summe der orientierten Flächeninhalte zwischen dem Graphen von $f$ und der $x$-Achse im Intervall $[a,b]$. Es wird also seitlich begrenzt durch zwei vertikale Geraden $x = a$ und $x = b$ (vgl. Abbildung 1).
+Das **bestimmte Integral** bezeichnet die Summe der orientierten Flächeninhalte zwischen dem Graphen von $f$ und der $x$-Achse im Intervall $[a,b]$. Es wird also seitlich begrenzt durch zwei vertikale Geraden $x = a$ und $x = b$ (vgl. Abb. 1).
 
 Schreibweise:\
 $\displaystyle \int_a^b f(x) ~ dx = \left[ F(x) \right]_a^b = F(b) − F(a)$
@@ -47,7 +47,7 @@ Geometrisch interpretiert handelt es sich beim bestimmten Integral daher um eine
 {{< box-notice title="Flächenbilanz" >}}
 Ist $f$ eine im Intervall $[a; b]$ stetige Funktion, dann beschreibt das bestimmte Integral $\int_a^b f(x) ~ dx$ die **Flächenbilanz** der vom Graphen von $f$ und der $x$-Achse im Intervall $[a; b]$ eingeschlossenen Fläche.
 
-- Sind alle Funktionswerte in diesem Bereich positiv, dann gilt: \
+- Sind alle Funktionswerte in diesem Bereich positiv (vgl. Abb. 2), dann gilt: \
 $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \geq 0$
 
 ![Fläche oberhalb der $x$-Achse](img/Flaechenbilanz-1.svg)
@@ -55,7 +55,7 @@ $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b
 *Abb. 2: Fläche oberhalb der $x$-Achse*
 {{< /center >}}
 
-- Sind alle Funktionswerte in diesem Bereich negativ, dann gilt: \
+- Sind alle Funktionswerte in diesem Bereich negativ (vgl. Abb. 3), dann gilt: \
 $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$
 
 ![Fläche unterhalb der $x$-Achse](img/Flaechenbilanz-2.svg)
@@ -69,9 +69,9 @@ Ist $f$ eine Funktion, die im Intervall $[a; b]$ *genau eine* Nullstelle besitzt
 
 Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
 \begin{cases}
-    > 0, & \text{wenn  } & A_1 > A_2 & \text{ (vgl. Abb. 3)} \\\
-    < 0, & \text{wenn  } & A_1 < A_2 & \text{ (vgl. Abb. 4)} \\\
-    = 0, & \text{wenn  } & A_1 = A_2 & \text{ (vgl. Abb. 5)}.
+    > 0, & \text{wenn  } & A_1 > A_2 & \text{ (vgl. Abb. 4)} \\\
+    < 0, & \text{wenn  } & A_1 < A_2 & \text{ (vgl. Abb. 5)} \\\
+    = 0, & \text{wenn  } & A_1 = A_2 & \text{ (vgl. Abb. 6)}.
 \end{cases}$
 {{< /box-notice >}}
 
