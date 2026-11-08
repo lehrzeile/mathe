@@ -122,9 +122,9 @@ Unter dem Strich bedeutet das also, dass die Ableitung der Stammfunktion gerade 
 *Wie bildet man denn nun also die Stammfunktion?* \
 Eine Stammfunktion zu bilden, bedeutet also, die Funktionsgleichung aufzuleiten. Und diesen Vorgang kann man sich wie ein "rückwärts ableiten" vorstellen.
 
-Bevor wir allerdings dazu kommen, wie man "aufleitet", klären wir zunächst noch die beiden Begriffe **unbestimmtes Integral** und **bestimmtes Integral**:
+Bevor wir allerdings dazu kommen, wie man "aufleitet", klären wir zunächst noch den Begriff des **unbestimmten Integrals**.
 
-{{< box-notice title="Unbestimmtes Integral" >}}
+{{< box-notice title="Das unbestimmte Integral" >}}
 Das **unbestimmte Integral** bezeichnet die Menge aller Stammfunktionen von $f$.
 
 Man schreibt: \
@@ -132,40 +132,9 @@ $\displaystyle \int f(x) ~ dx = F(x) + c$ $\quad \left( c\in\mathbb{R} \right)$.
 {{< /box-notice >}}
 
 {{< box-question title="Was ist mit 'die Menge aller Stammfunktionen' gemeint?" >}}
-*Weißt du noch, was beim Ableiten mit Konstanten passiert?* Richtig. Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](/hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten" nicht wissen, welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden haben muss. Hierfür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt.
+*Weißt du noch, was beim Ableiten mit Konstanten passiert?* Richtig. Diese fallen gemäß der Konstantenregel (vgl. Abschnitt [Ableitungsregeln](/hbf1/3-grundlagen-der-differentialrechnung/erste-ableitungsregeln/)) beim Ableiten weg. Daher kann man beim "Rückwärts-Ableiten" nicht wissen, welche reelle Zahl $c \in \mathbb{R}$ zuvor als Konstante in der Funktionsgleichung gestanden hat. Hierfür gibt es unendlich viele Möglichkeiten, da es ja schließlich auch unendlich viele reelle Zahlen ($\mathbb{R}$) gibt.
 
-Man schreibt daher: $F(x)+c$, wobei $c$ für die unbekannte reelle Zahl (Konstante) steht.
+Man schreibt daher: $F(x)+c$, wobei $c$ für die unbekannte reelle Zahl steht -- also die Konstante, die beim Ableiten von $F(x)$ nach $f(x)$ wegfällt.
 {{< /box-question >}}
 
-{{< box-notice title="Das bestimmte Integral" >}}
-Das **bestimmte Integral** bezeichnet die Summe der orientierten Flächeninhalte zwischen dem Graphen von $f$ und der $x$-Achse im Intervall $[a,b]$. Es wird also seitlich begrenzt durch die Geraden $x = a$ und $x = b$.
-
-Schreibweise:\
-$\displaystyle \int_a^b f(x) ~ dx = \left[ F(x) \right]_a^b = F(b) − F(a)$
-
-<!-- Zeichnung -->
-
-Diese letzte Aussage bezeichnet man auch als den **Hauptsatz der Differential- und Integralrechnung**.
-{{< /box-notice >}}
-
-{{< box-note title="Geometrische Interpretation des bestimmten Integrals" >}}
-Wie gesagt: Beim bestimmten Integral von $f$ von $a$ bis $b$ handelt es sich um die Summe der orientierten Flächeninhalte der Teilflächen zwischen dem Graphen von $f$ und der $x$-Achse. Geometrisch interpretiert handelt es sich hierbei um eine sogenannte **Flächenbilanz**, da sich positive und negative Flächeninhalte auch gegenseitig aufgrund unterschiedlicher Orientierung aufheben können.
-
-**Orientierung** meint hierbei, dass Flächen *oberhalb* ($+$) oder *unterhalb* ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass ein Flächeninhalt mit negativem Vorzeichen ($-$) eine Fläche beschreibt, die unterhalb der $x$-Achse liegt. Ein Flächeninhalt mit positivem Vorzeichen ($+$) beschreibt wiederum eine Fläche, die oberhalb der $x$-Achse liegt.
-{{< /box-note >}}
-
-{{< image src="img/orientierte_Flaechen.svg" caption="orientierte Flächeninhalte des bestimmten Integrals" >}}
-
-{{< box-example title="Beispiel für die Flächenbilanz des bestimmten Integrals" >}}
-    Gegeben ist die Funktion $f(x)=x^3$. Gesucht ist die Summe der orientierten Flächeninhalte zwischen dem Graphen von $f$ und der $x$-Achse -- also das bestimmte Integral.
-{{< /box-example >}}
-
-{{< image src="img/bestimmtes_Integral_2.svg" caption="Das bestimmte Integral von $f$ in den Grenzen von $a$ und $b$ ist die Summe der oritentierten Flächeninhalte $A_1$ und $A_2$." >}}
-
-Da der Graph von $f$ an der Stelle $x=0$ eine Nullstelle besitzt, teilt diese die Gesamtfläche in zwei Teilflächen auf, wobei der linke Teil ($A_1$) unterhalb ($-$) und der rechte Teil ($A_2$) oberhalb ($+$) der $x$-Achse liegt.
-
-Das linke Teilstück hat einen Flächeninhalt von $0,25$. Die rechte Teilfläche besitzt einen Flächeninhalt von $4$. Unter dem Strich ist jedoch das bestimmte Integral nicht -- wie man zunächst annehmen könnte -- $4,25$, sondern $3,75$, da sich die beiden Flächen gegenseitig anteilig aufheben: $A_1 + A_2 = -0,25 + 4 = 3,75$.
-
-## Ausblick
-
-Im folgenden Kapitel [Erste Integrationsregeln](/hbf2/4-integralrechnung/erste-integrationsregeln/) werden wir uns anschauen, wie man Stammfunktionen bildet -- ähnlich wie das Ableiten und mit festen Regeln.
+Im nächsten Abschnitt lernst du [erste Integrationsregeln](/hbf2/4-integralrechnung/erste-integrationsregeln/) kennen. Wir werden uns also anschauen, wie man Stammfunktionen bildet -- ähnlich wie das Ableiten und mit festen Regeln --, um anschließend Flächen zwischen Graph und $x$-Achse sowie eingeschlossene Flächen zwischen zwei Graphen berechnen zu können.
