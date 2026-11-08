@@ -16,9 +16,9 @@ In diesem Abschnitt wollen wir mit Hilfe von Stammfunktionen eingeschlossene Fl�
 Die bisherigen Abschnitte zusammengefasst, ergeben nun folgende Erkenntnis: \
 Jede Integralfunktion einer stetigen Funktion $f$ ist eine **Stammfunktion von $f$**.
 
-Aus $\displaystyle F_a(x) = \int_a^b f(x) ~ dx$ folgt $F'(x)=f(x)$.
+Aus $\displaystyle F_a(x) = \int_a^x f(t) ~ dt$ folgt $F'(x)=f(x)$.
 
-Die Ableitung jeder Integralfunktion ist die Integrandenfunktion (Ausgangsfunktion $f$).
+Kurz gesagt: Die Ableitung jeder Integralfunktion ergibt wieder die Integrandenfunktion (Ausgangsfunktion $f$).
 
 Diese Aussage bezeichnet man auch als den **Hauptsatz der Differential- und Integralrechnung**.
 {{< /box-notice >}}
@@ -29,7 +29,6 @@ Das **bestimmte Integral** bezeichnet die Summe der orientierten Flächeninhalte
 Schreibweise:\
 $\displaystyle \int_a^b f(x) ~ dx = \left[ F(x) \right]_a^b = F(b) − F(a)$
 {{< /box-notice >}}
-
 
 {{< image src="img/orientierte_Flaechen.svg" caption="orientierte Flächeninhalte des bestimmten Integrals" >}}
 
@@ -50,21 +49,26 @@ Ist $f$ eine im Intervall $[a; b]$ stetige Funktion, dann beschreibt das bestimm
 
 - Sind alle Funktionswerte in diesem Bereich positiv, dann gilt: \
     $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \geq 0$ \
-    Hier kommt eine Zeichnung hin.
+    {{< image src="img/Flaechenbilanz-1.svg" caption="Fläche oberhalb der $x$-Achse" >}}
 - Sind alle Funktionswerte in diesem Bereich negativ, dann gilt: \
     $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$ \
-    Hier kommt eine Zeichnung hin.
+    {{< image src="img/Flaechenbilanz-2.svg" caption="Fläche unterhalb der $x$-Achse" >}}
 
 Ist $f$ eine Funktion, die im Intervall $[a; b]$ *genau eine* Nullstelle besitzt, dann gibt es sowohl Funktionswerte, die positiv sind als auch Funktionswerte, die negativ sind. Das bedeutet auch, dass sich die gesamte eingeschlossene Fläche in zwei Teilflächen unterteilt, wobei eine Teilfläche oberhalb ($A_1 > 0$) und eine unterhalb ($A_2 < 0$) der $x$-Achse liegt.
 
 Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
 \begin{cases}
-    > 0, & \text{wenn } A_1 > A_2 \\\
-    = 0, & \text{wenn } A_1 = A_2 \\\
-    < 0, & \text{wenn } A_1 < A_2.
+    > 0, & \text{wenn  } & A_1 > A_2 \\\
+    < 0, & \text{wenn  } & A_1 < A_2 \\\
+    = 0, & \text{wenn  } & A_1 = A_2.
 \end{cases}$
 
-Hier kommt eine Zeichnung hin.
+{{< gallery images="3" >}}
+{{< image src="img/Flaechenbilanz-3a.svg" caption="$A_1 > A_2$" >}}
+{{< image src="img/Flaechenbilanz-3b.svg" caption="$A_1 < A_2$" >}}
+{{< image src="img/Flaechenbilanz-3c.svg" caption="$A_1 = A_2$" >}}
+{{< /gallery >}}
+
 {{< /box-notice >}}
 
 {{< box-important title="Aufpassen!" >}}
