@@ -75,15 +75,17 @@ Orientiere dich in Aufgabenteil a) an folgender Tabelle:
 
 ## Aus Ober- und Untersumme wird das Integral
 
-{{< box-notice title="Grenzwert von Ober- und Untersumme" >}}
+{{< box-notice title="Integral als Grenzwert von Ober- und Untersumme: Das Riemann-Integral" >}}
 Grundsätzlich gilt: \
-Je mehr Rechtecke bei Ober- und Untersumme eingezeichnet werden (sprich: je größer $n$ ist), desto genauer ist die Annäherung an die wahre Fläche unterhalb des Funktionsgraphen. Man spricht hierbei auch von der sog. **Feinheit** der Zerlegung bzw. der Unterteilung des Intervalls.
+Je mehr Rechtecke bei Ober- und Untersumme eingezeichnet werden (sprich: je größer $n$ ist), desto genauer ist die Annäherung an den tatsächlichen Flächeninhalt. Man spricht hierbei auch von der sog. **Feinheit** der Zerlegung bzw. der Unterteilung des Intervalls.
 
-*Was sich daraus folgern lässt?* \
-Den Grenzwert von Ober- und Untersumme bezeichnet man als das sogenannte **Integral von $f$ in den Grenzen von $a$ bis $b$**.
+Hierbei haben wir jedoch festgestellt, dass ist die Untersumme immer etwas kleiner und die Obersumme immer etwas größer als der tatsächliche Flächeninhalt sind. Verallgemeinernd lässt sich also sagen: \
+$\displaystyle U_n \leq \int_a^b f(x) ~ dx \leq O_n$.
 
-Man schreibt hierfür: \
-$\displaystyle \lim_{n \to \infty} O_n = \lim_{n \to \infty} U_n = \int_a^b f(x) ~ dx$.
+Man stelle sich nun vor, dass man die Anzahl der Streifen (bzw. die **Feinheit**) immer weiter (bis ins Unendliche) erhöhen und gleichzeitg die Breite der Streifen immer weiter verkleinern könnte, sodass diese unendlich dünn bzw. unendlich fein würden. Dies hätte zur Folge, dass sich die Obersumme und die Untersumme immer besser dem Wert des Integrals von oben bzw. unten annähern würden.
+
+Mathematisch gesehen bedeutet das, dass die Obersumme und die Untersumme für eine immer feiner werdende Unterteilung des Intervalls $[a; b]$ gegen einen **gemeinsamen Grenzwert** konvergieren. Und diesen Grenzwert bezeichnet man als das **Riemann-Integral** $\int_a^b f(x) dx$: \
+$\displaystyle \lim_{n \to \infty} U_n = \int_a^b f(x) ~ dx = \lim_{n \to \infty} O_n$.
 {{< /box-notice >}}
 
 {{< box-note title="Bedeutung der Symbole" >}}
@@ -94,15 +96,23 @@ $\displaystyle \lim_{n \to \infty} O_n = \lim_{n \to \infty} U_n = \int_a^b f(x)
 
 {{< /box-note >}}
 
-{{< box-note title="Geometrische Bedeutung" >}}
-Im Prinzip kann man sich geometrisch gesehen das Integral wie die Summe -- deshalb ja auch das $\int$ ("S") -- unendlich vieler unendlich schmaler "Streifen" vorstellen (siehe Abbildung 8). Hierzu wird jeweils die Höhe des Rechtecks ($f(x)$) mit der Breite des Rechtecks ($dx$) multipliziert und anschließend aufaddiert.
+{{< box-important title="Was bedeutet das ab sofort für uns?" >}}
+
+1. Den Grenzwert von Ober- und Untersumme bezeichnen wir fortan als das sogenannte **Integral von $f$ in den Grenzen von $a$ bis $b$**.
+2. Ab sofort berechnen wir keine Ober- und Untersummen mehr, da wir den exakten Flächeninhalt berechen wollen.
+3. Und das bedeutet: Wenn wir ab sofort Flächen berechnen wollen, müssen wir Integrale bestimmen.
+
+{{< /box-important >}}
+
+{{< box-note title="Geometrische Bedeutung des Integrals" >}}
+Im Prinzip kann man sich das Integral als Summe unendlich vieler unendlich schmaler "Streifen" vorstellen (siehe Abbildung 8) -- deshalb ja auch das $\int$ ("S"). Hierzu wird jeweils die Höhe des Streifens ($f(x)$) mit der Breite des Streifens ($dx$) multipliziert. Zum Schluss werden die Flächeninhalte aller Streifen addiert.
 {{< /box-note >}}
 
 {{< image src="img/Integral_Streifen.svg" caption="Geometrische Interpretation des Integrals" >}}
 
 {{< image src="img/bestimmtes_Integral.svg" caption="Integral von $f$ in den Grenzen von $a$ und $b$" >}}
 
-Bevor wir uns als nächstes die Bedeutung des **unbestimmten Integrals** anschauen, müssen wir zunächst noch den Begriff der **Stammfunktion** klären.
+Bevor wir uns dem sog. **unbestimmten Integral** widmen, klären wir zuvor den Begriff der **Stammfunktion**, da wir diese dafür benötigen.
 
 {{< box-notice title="Stammfunktion F(x) einer Funktion f(x)" >}}
 Eine Funktion $F$ heißt **Stammfunktion von $f$**, wenn gilt:
@@ -137,4 +147,4 @@ $\displaystyle \int f(x) ~ dx = F(x) + c$ $\quad \left( c\in\mathbb{R} \right)$.
 Man schreibt daher: $F(x)+c$, wobei $c$ für die unbekannte reelle Zahl steht -- also die Konstante, die beim Ableiten von $F(x)$ nach $f(x)$ wegfällt.
 {{< /box-question >}}
 
-Im nächsten Abschnitt lernst du [erste Integrationsregeln](/hbf2/4-integralrechnung/erste-integrationsregeln/) kennen. Wir werden uns also anschauen, wie man Stammfunktionen bildet -- ähnlich wie das Ableiten und mit festen Regeln --, um anschließend Flächen zwischen Graph und $x$-Achse sowie eingeschlossene Flächen zwischen zwei Graphen berechnen zu können.
+Im nächsten Abschnitt werden wir uns anschauen, wie man Stammfunktionen bildet, um anschließend Flächen zwischen Graph und $x$-Achse sowie eingeschlossene Flächen zwischen zwei Graphen berechnen zu können. Das Integrieren funktioniert ähnlich wie das Ableiten und es gibt feste Regeln, die man dabei beachten muss. Diese lernst du im Abschnitt [erste Integrationsregeln](/hbf2/4-integralrechnung/erste-integrationsregeln/) kennen.
