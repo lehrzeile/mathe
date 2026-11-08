@@ -50,32 +50,16 @@ Ist $f$ eine im Intervall $[a; b]$ stetige Funktion, dann beschreibt das bestimm
 - Sind alle Funktionswerte in diesem Bereich positiv, dann gilt: \
     $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \geq 0$
 
-<!-- {{< columns >}}
-{{< column >}} -->
-
 ![Fläche oberhalb der $x$-Achse](img/Flaechenbilanz-1.svg)
 *Abb. 1: Fläche oberhalb der $x$-Achse*
-
 <!-- {{< image src="img/Flaechenbilanz-1.svg" caption="Fläche oberhalb der $x$-Achse" >}} -->
-<!-- {{< /column >}}
-{{< column >}}
-{{< /column >}}
-{{< /columns >}} -->
 
 - Sind alle Funktionswerte in diesem Bereich negativ, dann gilt: \
     $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$
 
-{{< columns >}}
-{{< column >}}
-
 ![Fläche unterhalb der $x$-Achse](img/Flaechenbilanz-2.svg)
 *Abb. 2: Fläche unterhalb der $x$-Achse*
-
 <!-- {{< image src="img/Flaechenbilanz-2.svg" caption="Fläche unterhalb der $x$-Achse" >}} -->
-{{< /column >}}
-{{< column >}}
-{{< /column >}}
-{{< /columns >}}
 
 <br />
 
@@ -87,25 +71,6 @@ Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
     < 0, & \text{wenn  } & A_1 < A_2 \text{vgl. Abb. 4} \\\
     = 0, & \text{wenn  } & A_1 = A_2 \text{vgl. Abb. 5}.
 \end{cases}$
-
-<!-- {{< columns >}}
-    {{< column >}}
-        ![$A_1 > A_2$](img/Flaechenbilanz-3a.svg)
-        *Abb. 3: positive Flächenbilanz mit $A_1 > A_2$*
-    {{< /column >}}
-    {{< column >}}
-        ![$A_1 < A_2$](img/Flaechenbilanz-3b.svg)
-        *Abb. 4: negative Flächenbilanz mit $A_1 < A_2$*
-    {{< /column >}}
-{{< /columns >}}
-{{< columns >}}
-    {{< column >}}
-        ![$A_1 = A_2$](img/Flaechenbilanz-3c.svg)
-        *Abb. 5: ausgeglichene Flächenbilanz mit $A_1 = A_2$*
-    {{< /column >}}
-    {{< column >}}
-    {{< /column >}}
-{{< /columns >}} -->
 {{< /box-notice >}}
 
 {{< image src="img/Flaechenbilanz-3a.svg" caption="positive Flächenbilanz mit $A_1 > A_2$" >}}

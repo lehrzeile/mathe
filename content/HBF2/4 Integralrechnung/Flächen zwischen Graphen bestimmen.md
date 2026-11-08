@@ -54,13 +54,8 @@ Der gesuchte Flächeninhalt ist der Betrag der Differenz der Funktionswerte von 
 
 $\displaystyle
 \begin{aligned}
-A &= \abs{F(5) - F(1)} = \abs{(1/6 \cdot 5^3 - 1,5 \cdot 5^2 + 2,5 \cdot 5) - (1/6 \cdot 1^3 - 1,5 \cdot 1^2 + 2,5 \cdot 1)} \\\
-% &= \quad \ldots \quad = \abs{-25/6 - 7/6} = \abs{-32/6} = 16/3 \approx 5,\overline{3} \text{[FE]}
+A &= \vert F(5) - F(1) \vert = \vert (1/6 \cdot 5^3 - 1,5 \cdot 5^2 + 2,5 \cdot 5) - (1/6 \cdot 1^3 - 1,5 \cdot 1^2 + 2,5 \cdot 1) \vert \\\
+&= \quad \ldots \quad = \vert -25/6 - 7/6 \vert = \vert -32/6 \vert = 16/3 \approx 5,\overline{3} \text{[FE]}
 \end{aligned}$
-
-- $\vert a \vert$
-- $|a|$
-- $\left| a \right|$
-- $\abs{a}$
 
 {{< /box-example >}}
