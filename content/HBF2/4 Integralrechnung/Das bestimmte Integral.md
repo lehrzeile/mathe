@@ -50,16 +50,28 @@ Ist $f$ eine im Intervall $[a; b]$ stetige Funktion, dann beschreibt das bestimm
 - Sind alle Funktionswerte in diesem Bereich positiv, dann gilt: \
     $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \geq 0$
 
-    ![Fläche oberhalb der $x$-Achse](img/Flaechenbilanz-1.svg){width=300px}
-    *Abb. 1: Fläche oberhalb der $x$-Achse*
-    <!-- {{< image src="img/Flaechenbilanz-1.svg" caption="Fläche oberhalb der $x$-Achse" >}} -->
+{{< columns >}}
+    {{< column >}}
+        ![Fläche oberhalb der $x$-Achse](img/Flaechenbilanz-1.svg)
+        *Abb. 1: Fläche oberhalb der $x$-Achse*
+        <!-- {{< image src="img/Flaechenbilanz-1.svg" caption="Fläche oberhalb der $x$-Achse" >}} -->
+    {{< /column >}}
+    {{< column >}}
+    {{< /column >}}
+{{< /columns >}}
 
 - Sind alle Funktionswerte in diesem Bereich negativ, dann gilt: \
     $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$
 
-    ![Fläche unterhalb der $x$-Achse](img/Flaechenbilanz-2.svg){width=300px}
-    *Abb. 2: Fläche unterhalb der $x$-Achse*
-    <!-- {{< image src="img/Flaechenbilanz-2.svg" caption="Fläche unterhalb der $x$-Achse" >}} -->
+{{< columns >}}
+    {{< column >}}
+        ![Fläche unterhalb der $x$-Achse](img/Flaechenbilanz-2.svg)
+        *Abb. 2: Fläche unterhalb der $x$-Achse*
+        <!-- {{< image src="img/Flaechenbilanz-2.svg" caption="Fläche unterhalb der $x$-Achse" >}} -->
+    {{< /column >}}
+    {{< column >}}
+    {{< /column >}}
+{{< /columns >}}
 
 <br />
 
@@ -92,11 +104,11 @@ Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
 {{< /columns >}} -->
 {{< /box-notice >}}
 
-{{< gallery images="3" >}}
 {{< image src="img/Flaechenbilanz-3a.svg" caption="$A_1 > A_2$" >}}
+
 {{< image src="img/Flaechenbilanz-3b.svg" caption="$A_1 < A_2$" >}}
+
 {{< image src="img/Flaechenbilanz-3c.svg" caption="$A_1 = A_2$" >}}
-{{< /gallery >}}
 
 {{< box-important title="Beachte!" >}}
 Je nach Kontext kann es sein, dass man unterschiedliche Integrale ermitteln möchte. In einem bestimmten Kontext benötigt man womöglich eine Flächenbilanz, jedoch kann in einem anderen Sachkontext wiederum die Summe aller eingeschlossenen Flächen zwischen Graph und $x$-Achse gemeint sein. Man sollte hierbei also beachten, dass das bestimmte Integrals und die Summe der Teilflächen grundsätzlich ganz **unterschiedliche Aussagekraft** besitzen.
