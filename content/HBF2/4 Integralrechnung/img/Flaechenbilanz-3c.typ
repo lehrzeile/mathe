@@ -1,5 +1,5 @@
-#let width = 10.5cm
-#let height = 10.5cm
+#let width = 7.5cm
+#let height = 7.5cm
 
 #set page(width: width + 1cm, height: height + 1cm, margin: 0.5cm)
 
@@ -62,5 +62,5 @@
   lq.line((3,0), (3,3), stroke: (paint: thirdcolor, thickness: 1.5pt, dash: "loosely-dashed")),
   lq.place(2.25,1.25,[$A_1$]),
   lq.place(-2.25,-1.25,[$A_2$]),
-  lq.place(1.02,-2.99, align: bottom + left, [#box(width: 2.4cm, height: 1.8cm, fill: white, inset: 5pt)[$A_1 = A_2 \ => display(integral_(-3)^(3) x "dx" = 0)$]]),
+  lq.place(1.02,-2.99, align: bottom + left, [#box(width: 2.62cm, height: 1.74cm, fill: white, inset: 5pt)[$A_1 = A_2 \ => display(integral_(-3)^(3) x "dx" = 0)$]]),
 )

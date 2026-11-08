@@ -1,5 +1,5 @@
-#let width = 10.5cm
-#let height = 10.5cm
+#let width = 7.5cm
+#let height = 7.5cm
 
 #set page(width: width + 1cm, height: height + 1cm, margin: 0.5cm)
 
@@ -61,5 +61,5 @@
   lq.line((1,0), (1,1), stroke: (paint: maincolor, thickness: 1.5pt, dash: "loosely-dashed")),
   lq.line((4,0), (4,4), stroke: (paint: maincolor, thickness: 1.5pt, dash: "loosely-dashed")),
   lq.place(2.75,1.25,[$A$]),
-  lq.place(0.51,-3.49, align: bottom + left, [#box(width: 3.83cm, height: 2.19cm, fill: white, inset: 5pt)[$forall x in [1;4]: f(x) > 0 \ => display(integral_(1)^(4) x "dx" > 0)$]]),
+  lq.place(0.51,-3.49, align: bottom + left, [#box(width: 3.53cm, height: 1.96cm, fill: white, inset: 5pt)[$forall x in [1;4]: f(x) >= 0 \ => display(integral_(1)^(4) x "dx" >= 0)$]]),
 )

@@ -48,14 +48,14 @@ Geometrisch interpretiert handelt es sich beim bestimmten Integral daher um eine
 Ist $f$ eine im Intervall $[a; b]$ stetige Funktion, dann beschreibt das bestimmte Integral $\int_a^b f(x) ~ dx$ die **Flächenbilanz** der vom Graphen von $f$ und der $x$-Achse im Intervall $[a; b]$ eingeschlossenen Fläche.
 
 - Sind alle Funktionswerte in diesem Bereich positiv, dann gilt: \
-    $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \geq 0$
+$\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \geq 0$
 
 ![Fläche oberhalb der $x$-Achse](img/Flaechenbilanz-1.svg)
 *Abb. 1: Fläche oberhalb der $x$-Achse*
 <!-- {{< image src="img/Flaechenbilanz-1.svg" caption="Fläche oberhalb der $x$-Achse" >}} -->
 
 - Sind alle Funktionswerte in diesem Bereich negativ, dann gilt: \
-    $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$
+$\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$
 
 ![Fläche unterhalb der $x$-Achse](img/Flaechenbilanz-2.svg)
 *Abb. 2: Fläche unterhalb der $x$-Achse*
