@@ -45,10 +45,10 @@ Und zum Schluss integriert man die Funktion $d(x)$ über die Grenzen der Schnitt
 
 $\displaystyle
 \begin{aligned}
-A = \int_1^5 d(x) dx \\\
+A &= \int_1^5 d(x) dx \\\
 &= \int_1^5 0,5x^2 - 3x + 2,5 dx \\\
 &= [1/6 x^3 - 1,5 x^2 + 2,5x]_1^5
-\begin{aligned}$
+\end{aligned}$
 
 Der gesuchte Flächeninhalt ist der Betrag der Differenz der Funktionswerte von $F(x)$ an den Grenzen $1$ und $5$:
 
