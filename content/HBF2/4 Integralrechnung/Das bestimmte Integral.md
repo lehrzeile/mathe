@@ -51,13 +51,17 @@ Ist $f$ eine im Intervall $[a; b]$ stetige Funktion, dann beschreibt das bestimm
 $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \geq 0$
 
 ![Fläche oberhalb der $x$-Achse](img/Flaechenbilanz-1.svg)
+{{< center >}}
 *Abb. 2: Fläche oberhalb der $x$-Achse*
+{{< /center >}}
 
 - Sind alle Funktionswerte in diesem Bereich negativ, dann gilt: \
 $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$
 
 ![Fläche unterhalb der $x$-Achse](img/Flaechenbilanz-2.svg)
+{{< center >}}
 *Abb. 3: Fläche unterhalb der $x$-Achse*
+{{< /center >}}
 
 <br />
 
