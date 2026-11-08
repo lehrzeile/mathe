@@ -12,14 +12,24 @@ count: 0 # für die Nummerierung der Aufgaben
 Wie man Stammfunktionen bildet, weißt du nun, da du dir dafür wesentliche Integrationsregeln angeeignet hast.
 In diesem Abschnitt wollen wir mit Hilfe von Stammfunktionen eingeschlossene Flächen zwischen Graph und $x$-Achse berechnen.
 
+{{< box-notice title="Hauptsatz der Differential- und Integralrechnung" >}}
+Die bisherigen Abschnitte zusammengefasst, ergeben nun folgende Erkenntnis: \
+Jede Integralfunktion einer stetigen Funktion $f$ ist eine **Stammfunktion von $f$**.
+
+Aus $\displaystyle F_a(x) = \int_a^b f(x) ~ dx$ folgt $F'(x)=f(x)$.
+
+Die Ableitung jeder Integralfunktion ist die Integrandenfunktion (Ausgangsfunktion $f$).
+
+Diese Aussage bezeichnet man auch als den **Hauptsatz der Differential- und Integralrechnung**.
+{{< /box-notice >}}
+
 {{< box-notice title="Das bestimmte Integral" >}}
 Das **bestimmte Integral** bezeichnet die Summe der orientierten Flächeninhalte zwischen dem Graphen von $f$ und der $x$-Achse im Intervall $[a,b]$. Es wird also seitlich begrenzt durch zwei vertikale Geraden $x = a$ und $x = b$ (vgl. Abbildung 1).
 
 Schreibweise:\
 $\displaystyle \int_a^b f(x) ~ dx = \left[ F(x) \right]_a^b = F(b) − F(a)$
-
-Diese letzte Aussage bezeichnet man auch als den **Hauptsatz der Differential- und Integralrechnung**.
 {{< /box-notice >}}
+
 
 {{< image src="img/orientierte_Flaechen.svg" caption="orientierte Flächeninhalte des bestimmten Integrals" >}}
 
@@ -28,7 +38,9 @@ Beim bestimmten Integral von $f$ von $a$ bis $b$ handelt es sich um die **Summe 
 
 **Orientierung** meint hierbei, dass Flächen *oberhalb* ($+$) oder *unterhalb* ($-$) der $x$-Achse liegen können. Man geht also davon aus, dass ein Flächeninhalt mit negativem Vorzeichen ($-$) eine Fläche beschreibt, die unterhalb der $x$-Achse liegt. Ein Flächeninhalt mit positivem Vorzeichen ($+$) beschreibt wiederum eine Fläche, die oberhalb der $x$-Achse liegt.
 
-Geometrisch interpretiert handelt es sich beim bestimmten Integral also um eine sogenannte **Flächenbilanz**. Das bedeutet, dass sich positive und negative Flächeninhalte auch gegenseitig aufgrund ihrer unterschiedlichen Orientierung ($+$ und $-$) aufheben können.
+Bei der Berechnung der Gesamtfläche wird eine positiv orientierte Fläche auch positiv gewertet, eine negativ orientierte Fläche wird hingegen negativ gewertet.
+
+Geometrisch interpretiert handelt es sich beim bestimmten Integral daher um eine sogenannte **Flächenbilanz**. Das liegt daran, dass sich positiv und negativ orientierte Flächeninhalte auch gegenseitig aufheben können.
 {{< /box-note >}}
 
 ## Flächenbilanz
@@ -37,15 +49,15 @@ Geometrisch interpretiert handelt es sich beim bestimmten Integral also um eine 
 Ist $f$ eine im Intervall $[a; b]$ stetige Funktion, dann beschreibt das bestimmte Integral $\int_a^b f(x) ~ dx$ die **Flächenbilanz** der vom Graphen von $f$ und der $x$-Achse im Intervall $[a; b]$ eingeschlossenen Fläche.
 
 - Sind alle Funktionswerte in diesem Bereich positiv, dann gilt: \
-    $\forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \geq 0$ \
+    $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \geq 0$ \
     Hier kommt eine Zeichnung hin.
 - Sind alle Funktionswerte in diesem Bereich negativ, dann gilt: \
-    $\forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$ \
+    $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$ \
     Hier kommt eine Zeichnung hin.
 
 Ist $f$ eine Funktion, die im Intervall $[a; b]$ *genau eine* Nullstelle besitzt, dann gibt es sowohl Funktionswerte, die positiv sind als auch Funktionswerte, die negativ sind. Das bedeutet auch, dass sich die gesamte eingeschlossene Fläche in zwei Teilflächen unterteilt, wobei eine Teilfläche oberhalb ($A_1 > 0$) und eine unterhalb ($A_2 < 0$) der $x$-Achse liegt.
 
-Dann gilt: $\int_a^b f(x) ~ dx
+Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
 \begin{cases}
     > 0, & \text{wenn } A_1 > A_2 \\\
     = 0, & \text{wenn } A_1 = A_2 \\\
@@ -56,9 +68,9 @@ Hier kommt eine Zeichnung hin.
 {{< /box-notice >}}
 
 {{< box-important title="Aufpassen!" >}}
-Je nach Kontext kann es sein, dass man unterschiedliche Integrale ermitteln möchte. In einem bestimmten Kontext benötigt man womöglich eine Flächenbilanz, jedoch kann in einem anderen Sachkontext wiederum die Summe aller eingeschlossenen Flächen zwischen Graph und $x$-Achse gemeint sein. Man sollte hierbei also beachten, dass das bestimmte Integrals und die Summe der Teilflächen grundsätzlich ganz unterschiedliche Aussagekraft besitzen.
+Je nach Kontext kann es sein, dass man unterschiedliche Integrale ermitteln möchte. In einem bestimmten Kontext benötigt man womöglich eine Flächenbilanz, jedoch kann in einem anderen Sachkontext wiederum die Summe aller eingeschlossenen Flächen zwischen Graph und $x$-Achse gemeint sein. Man sollte hierbei also beachten, dass das bestimmte Integrals und die Summe der Teilflächen grundsätzlich ganz **unterschiedliche Aussagekraft** besitzen.
 
-Das bedeutet, dass man also strikt zwischen $\int_a^b f(x) ~ dx$ und $\int_a^(x_0) f(x) ~ dx + \int_(x_0)^b f(x) ~ dx$ unterscheiden muss, wobei $x_0$ die Nullstelle darstellen soll, welche die Gesamtfläche in zwei Teilflächen unterteilt.
+Das bedeutet, dass man also **strikt** zwischen $\int_a^b f(x) ~ dx$ und $\int_a^{x_0} f(x) ~ dx + \int_{x_0}^b f(x) ~ dx$ **unterscheiden** muss, wobei $x_0$ die Nullstelle darstellen soll, welche die Gesamtfläche in zwei Teilflächen unterteilt.
 {{< /box-important >}}
 
 {{< box-example title="Beispiel für die Flächenbilanz des bestimmten Integrals" >}}
@@ -69,7 +81,7 @@ Das bedeutet, dass man also strikt zwischen $\int_a^b f(x) ~ dx$ und $\int_a^(x_
 
 Da der Graph von $f$ an der Stelle $x=0$ eine Nullstelle besitzt, teilt diese die Gesamtfläche in zwei Teilflächen auf, wobei der linke Teil ($A_1$) unterhalb ($-$) und der rechte Teil ($A_2$) oberhalb ($+$) der $x$-Achse liegt.
 
-Das linke Teilstück $A_1$ hat einen Flächeninhalt von $0,25$. $A_2$ besitzt einen Flächeninhalt von $4$. Entgegen einer ersten Vermutung ist jedoch unter dem Strich der Wert des bestimmten Integrals nicht $4,25$, sondern $3,75$. Dies liegt daran, dass sich die beiden Teilflächen zum Teil gegenseitig aufheben: $A_1 + A_2 = -0,25 + 4 = 3,75$.
+Das linke Teilstück $A_1$ hat einen Flächeninhalt von $0,25$. $A_2$ besitzt einen Flächeninhalt von $4$. Entgegen einer ersten Vermutung ist jedoch unter dem Strich der Wert des bestimmten Integrals nicht $4,25$, sondern $3,75$. Dies liegt daran, dass sich das Teilstück $A_1$ unterhalb der $x$-Achse befindet und sich die beiden Teilflächen somit teilweise gegenseitig aufheben: $A_1 + A_2 = -0,25 + 4 = 3,75$.
 
 ## Ausblick
 
