@@ -3,7 +3,7 @@ title: "Funktionsuntersuchung gebrochen-rationaler Funktionen - Teil 2"
 description: ""
 summary: ""
 draft: false
-weight: 304
+weight: 404
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben

@@ -3,7 +3,7 @@ title: "Exponentialfunktionen und -gleichungen"
 description: ""
 summary: ""
 draft: false
-weight: 402
+weight: 302
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
