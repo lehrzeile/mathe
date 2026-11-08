@@ -62,5 +62,5 @@
   lq.line((2,0), (2,2), stroke: (paint: red.darken(20%), thickness: 1.5pt, dash: "loosely-dashed")),
   lq.place(1.25,0.75,[$A_1$]),
   lq.place(-2.25,-1.25,[$A_2$]),
-  lq.place(1.02,-2.99, align: bottom + left, [#box(width: 2.4cm, height: 1.8cm, fill: white, inset: 5pt)[$A_1 > A_2 \ => display(integral_(-3)^(2) x "dx" < 0)$]]),
+  lq.place(1.02,-2.99, align: bottom + left, [#box(width: 2.4cm, height: 1.8cm, fill: white, inset: 5pt)[$A_1 < A_2 \ => display(integral_(-3)^(2) x "dx" < 0)$]]),
 )
