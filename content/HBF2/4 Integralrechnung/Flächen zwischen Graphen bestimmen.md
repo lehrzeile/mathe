@@ -43,13 +43,18 @@ $d(x) = f_1(x) - f_2(x) = 0,5x^2 - 2x + 3,5 - (x + 1) = 0,5x^2 - 3x + 2,5$
 
 Und zum Schluss integriert man die Funktion $d(x)$ über die Grenzen der Schnittpunkte und bildet davon den Betrag, um die Fläche zu berechnen:
 
-$\displaystyle A = \int_1^5 d(x) "dx" = \int_1^5 0","5x^2 - 3x + 2","5 "dx" = [1/6 x^3 - 1,5 x^2 + 2,5x]_1^5$
+$\displaystyle
+\begin{aligned}
+A = \int_1^5 d(x) dx \\\
+&= \int_1^5 0,5x^2 - 3x + 2,5 dx \\\
+&= [1/6 x^3 - 1,5 x^2 + 2,5x]_1^5
+\begin{aligned}$
 
 Der gesuchte Flächeninhalt ist der Betrag der Differenz der Funktionswerte von $F(x)$ an den Grenzen $1$ und $5$:
 
 $\displaystyle
 \begin{aligned}
-A &= \abs{F(5) - F(1)} = \abs{(1/6 \cdot 5^3 - 1,5 \cdot 5^2 + 2,5 \cdot 5) - (1/6 \cdot 1^3 - 1,5 \cdot 1^2 + 2,5 \cdot 1)} \
+A &= \abs{F(5) - F(1)} = \abs{(1/6 \cdot 5^3 - 1,5 \cdot 5^2 + 2,5 \cdot 5) - (1/6 \cdot 1^3 - 1,5 \cdot 1^2 + 2,5 \cdot 1)} \\\
 &= \quad \ldots \quad = \abs{-25/6 - 7/6} = \abs{-32/6} = 16/3 \approx 5,\overline{3} [FE]
 \end{aligned}$
 
