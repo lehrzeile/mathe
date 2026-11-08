@@ -67,12 +67,12 @@ Ist $f$ eine Funktion, die im Intervall $[a; b]$ *genau eine* Nullstelle besitzt
 
 Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
 \begin{cases}
-    > 0, & \text{wenn  } & A_1 > A_2 \\\
-    < 0, & \text{wenn  } & A_1 < A_2 \\\
-    = 0, & \text{wenn  } & A_1 = A_2.
+    > 0, & \text{wenn  } & A_1 > A_2 \text{vgl. Abb. 3} \\\
+    < 0, & \text{wenn  } & A_1 < A_2 \text{vgl. Abb. 4} \\\
+    = 0, & \text{wenn  } & A_1 = A_2 \text{vgl. Abb. 5}.
 \end{cases}$
 
-{{< columns >}}
+<!-- {{< columns >}}
     {{< column >}}
         ![$A_1 > A_2$](img/Flaechenbilanz-3a.svg)
         *Abb. 3: positive Flächenbilanz mit $A_1 > A_2$*
@@ -89,15 +89,14 @@ Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
     {{< /column >}}
     {{< column >}}
     {{< /column >}}
-{{< /columns >}}
+{{< /columns >}} -->
+{{< /box-notice >}}
 
-<!-- {{< gallery images="3" >}}
+{{< gallery images="3" >}}
 {{< image src="img/Flaechenbilanz-3a.svg" caption="$A_1 > A_2$" >}}
 {{< image src="img/Flaechenbilanz-3b.svg" caption="$A_1 < A_2$" >}}
 {{< image src="img/Flaechenbilanz-3c.svg" caption="$A_1 = A_2$" >}}
-{{< /gallery >}} -->
-
-{{< /box-notice >}}
+{{< /gallery >}}
 
 {{< box-important title="Beachte!" >}}
 Je nach Kontext kann es sein, dass man unterschiedliche Integrale ermitteln möchte. In einem bestimmten Kontext benötigt man womöglich eine Flächenbilanz, jedoch kann in einem anderen Sachkontext wiederum die Summe aller eingeschlossenen Flächen zwischen Graph und $x$-Achse gemeint sein. Man sollte hierbei also beachten, dass das bestimmte Integrals und die Summe der Teilflächen grundsätzlich ganz **unterschiedliche Aussagekraft** besitzen.
