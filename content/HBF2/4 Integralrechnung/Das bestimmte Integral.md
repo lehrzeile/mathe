@@ -87,6 +87,8 @@ Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
         ![$A_1 = A_2$](img/Flaechenbilanz-3c.svg)
         *Abb. 5: ausgeglichene Flächenbilanz mit $A_1 = A_2$*
     {{< /column >}}
+    {{< column >}}
+    {{< /column >}}
 {{< /columns >}}
 
 <!-- {{< gallery images="3" >}}
