@@ -47,7 +47,7 @@ $\displaystyle
 \begin{aligned}
 A &= \int_1^5 d(x) dx \\\
 &= \int_1^5 0,5x^2 - 3x + 2,5 dx \\\
-&= [1/6 x^3 - 1,5 x^2 + 2,5x]_1^5
+&= \left[ 1/6 x^3 - 1,5 x^2 + 2,5x \right]_1^5
 \end{aligned}$
 
 Der gesuchte Flächeninhalt ist der Betrag der Differenz der Funktionswerte von $F(x)$ an den Grenzen $1$ und $5$:
@@ -55,7 +55,7 @@ Der gesuchte Flächeninhalt ist der Betrag der Differenz der Funktionswerte von 
 $\displaystyle
 \begin{aligned}
 A &= \abs{F(5) - F(1)} = \abs{(1/6 \cdot 5^3 - 1,5 \cdot 5^2 + 2,5 \cdot 5) - (1/6 \cdot 1^3 - 1,5 \cdot 1^2 + 2,5 \cdot 1)} \\\
-&= \quad \ldots \quad = \abs{-25/6 - 7/6} = \abs{-32/6} = 16/3 \approx 5,\overline{3} [FE]
+&= \quad \ldots \quad = \abs{-25/6 - 7/6} = \abs{-32/6} = 16/3 \approx 5,\overline{3} \text{[FE]}
 \end{aligned}$
 
 {{< /box-example >}}
