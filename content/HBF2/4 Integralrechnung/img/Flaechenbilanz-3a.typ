@@ -1,5 +1,5 @@
-#let width = 10.5cm
-#let height = 10.5cm
+#let width = 7.5cm
+#let height = 7.5cm
 
 #set page(width: width + 1cm, height: height + 1cm, margin: 0.5cm)
 

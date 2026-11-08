@@ -67,9 +67,9 @@ Ist $f$ eine Funktion, die im Intervall $[a; b]$ *genau eine* Nullstelle besitzt
 
 Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
 \begin{cases}
-    > 0, & \text{wenn  } & A_1 > A_2 \text{vgl. Abb. 3} \\\
-    < 0, & \text{wenn  } & A_1 < A_2 \text{vgl. Abb. 4} \\\
-    = 0, & \text{wenn  } & A_1 = A_2 \text{vgl. Abb. 5}.
+    > 0, & \text{wenn  } & A_1 > A_2 & \text{ (vgl. Abb. 3)} \\\
+    < 0, & \text{wenn  } & A_1 < A_2 & \text{ (vgl. Abb. 4)} \\\
+    = 0, & \text{wenn  } & A_1 = A_2 & \text{ (vgl. Abb. 5)}.
 \end{cases}$
 {{< /box-notice >}}
 
