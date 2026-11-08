@@ -49,10 +49,14 @@ Ist $f$ eine im Intervall $[a; b]$ stetige Funktion, dann beschreibt das bestimm
 
 - Sind alle Funktionswerte in diesem Bereich positiv, dann gilt: \
     $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \geq 0$ \
-    {{< image src="img/Flaechenbilanz-1.svg" caption="Fläche oberhalb der $x$-Achse" >}}
+    ![Fläche oberhalb der $x$-Achse](img/Flaechenbilanz-1.svg)
+    *Abb. 1: Fläche oberhalb der $x$-Achse*
+    <!-- {{< image src="img/Flaechenbilanz-1.svg" caption="Fläche oberhalb der $x$-Achse" >}} -->
 - Sind alle Funktionswerte in diesem Bereich negativ, dann gilt: \
     $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$ \
-    {{< image src="img/Flaechenbilanz-2.svg" caption="Fläche unterhalb der $x$-Achse" >}}
+    ![Fläche unterhalb der $x$-Achse](img/Flaechenbilanz-2.svg)
+    *Abb. 2: Fläche unterhalb der $x$-Achse*
+    <!-- {{< image src="img/Flaechenbilanz-2.svg" caption="Fläche unterhalb der $x$-Achse" >}} -->
 
 <br />
 
@@ -64,6 +68,21 @@ Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
     < 0, & \text{wenn  } & A_1 < A_2 \\\
     = 0, & \text{wenn  } & A_1 = A_2.
 \end{cases}$
+
+{{< columns >}}
+    {{< column >}}
+        ![$A_1 > A_2$](img/Flaechenbilanz-3a.svg)
+        *Abb. 3: $A_1 > A_2$*
+    {{< /column >}}
+    {{< column >}}
+        ![$A_1 < A_2$](img/Flaechenbilanz-3b.svg)
+        *Abb. 4: $A_1 < A_2$*
+    {{< /column >}}
+    {{< column >}}
+        ![$A_1 = A_2$](img/Flaechenbilanz-3c.svg)
+        *Abb. 5: $A_1 = A_2$*
+    {{< /column >}}
+{{< /columns >}}
 
 {{< gallery images="3" >}}
 {{< image src="img/Flaechenbilanz-3a.svg" caption="$A_1 > A_2$" >}}

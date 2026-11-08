@@ -220,10 +220,3 @@ Schlussendlich bietet es sich an, eine <mark>Skizze des Graphen</mark> anzuferti
 
 In Abbildung 8 wird noch einmal der Zusammenhang zwischen Ausgangsfunktion, 1. Ableitung und 2. Ableitung aufgezeigt:
 {{< image src="img/Graph_und_Ableitungen.svg" caption="Funktionsgraph und Ableitungen" >}}
-
-<br />
-<br />
-
-Um deine Ergebnisse zu überprüfen, kannst du gerne das nachfolgende GeoGebra-Widget nutzen:
-
-{{< geogebra >}}
