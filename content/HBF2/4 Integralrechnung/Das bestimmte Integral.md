@@ -71,10 +71,6 @@ Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
 \end{cases}$
 {{< /box-notice >}}
 
-{{< image src="img/Flaechenbilanz-1.svg" caption="Fläche oberhalb der $x$-Achse" >}}
-
-{{< image src="img/Flaechenbilanz-2.svg" caption="Fläche unterhalb der $x$-Achse" >}}
-
 {{< image src="img/Flaechenbilanz-3a.svg" caption="positive Flächenbilanz mit $A_1 > A_2$" >}}
 
 {{< image src="img/Flaechenbilanz-3b.svg" caption="negative Flächenbilanz mit $A_1 < A_2$" >}}
