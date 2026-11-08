@@ -30,11 +30,11 @@ Die Schnittpunkte lassen sich berechnen, indem man die beiden Funktionsgleichung
 
 $\displaystyle
 \begin{aligned}
-0,5x^2 - 2x + 3,5 &= x + 1 && wide | - x - 1 \\\
-0,5x^2 - 3x + 2,5 &= 0 && wide | :0,5 \\\
-x^2 - 6x + 5 &= 0 && wide | "p-q-Formel" \\\
-dots.v && \\\
-x_1 &= 1, quad x_2 = 5
+0,5x^2 - 2x + 3,5 &= x + 1 && \quad | - x - 1 \\\
+0,5x^2 - 3x + 2,5 &= 0 && \quad | :0,5 \\\
+x^2 - 6x + 5 &= 0 && \quad | \text{p-q-Formel} \\\
+\ldots && \\\
+x_1 &= 1, \quad x_2 = 5
 \end{aligned}$
 
 Nun bildet man die Differenz der beiden Funktionen, um die Funktion zu erhalten, die die Fläche beschreibt:
@@ -43,14 +43,14 @@ $d(x) = f_1(x) - f_2(x) = 0,5x^2 - 2x + 3,5 - (x + 1) = 0,5x^2 - 3x + 2,5$
 
 Und zum Schluss integriert man die Funktion $d(x)$ über die Grenzen der Schnittpunkte und bildet davon den Betrag, um die Fläche zu berechnen:
 
-$\displaystyle A = integral_1^5 d(x) "dx" = integral_1^5 0","5x^2 - 3x + 2","5 "dx" = [1/6 x^3 - 1,5 x^2 + 2,5x]_1^5$
+$\displaystyle A = \int_1^5 d(x) "dx" = \int_1^5 0","5x^2 - 3x + 2","5 "dx" = [1/6 x^3 - 1,5 x^2 + 2,5x]_1^5$
 
 Der gesuchte Flächeninhalt ist der Betrag der Differenz der Funktionswerte von $F(x)$ an den Grenzen $1$ und $5$:
 
 $\displaystyle
 \begin{aligned}
-A &= abs(F(5) - F(1)) = abs((1/6 * 5^3 - 1,5 * 5^2 + 2,5 * 5) - (1/6 * 1^3 - 1,5 * 1^2 + 2,5 * 1)) \
-&= quad dots quad = abs(-25/6 - 7/6) = abs(-32/6) = 16/3 approx 5","overline("3") #h(4pt) "FE"
+A &= \abs{F(5) - F(1)} = \abs{(1/6 \cdot 5^3 - 1,5 \cdot 5^2 + 2,5 \cdot 5) - (1/6 \cdot 1^3 - 1,5 \cdot 1^2 + 2,5 \cdot 1)} \
+&= \quad \ldots \quad = \abs{-25/6 - 7/6} = \abs{-32/6} = 16/3 \approx 5,\overline{3} [FE]
 \end{aligned}$
 
 {{< /box-example >}}
