@@ -52,7 +52,7 @@ $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b
 
 <figure>
     <a id="abb2"></a>
-    <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaechenbilanz-1.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="positive Flächenbilanz mit $A_1 > A_2$" class="markdown-svg"></img>
+    <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaechenbilanz-1.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche oberhalb der x-Achse" class="markdown-svg"></img>
     <figcaption>
         <p>Abb. 2: Fläche oberhalb der x-Achse</p>
     </figcaption>
@@ -64,8 +64,16 @@ $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b
 - Sind alle Funktionswerte in diesem Bereich negativ (vgl. Abb. 3), dann gilt: \
 $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$
 
-![Fläche unterhalb der $x$-Achse](img/Flaechenbilanz-2.svg)
-*Abb. 3: Fläche unterhalb der $x$-Achse*
+<figure>
+    <a id="abb3"></a>
+    <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaechenbilanz-2.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb der x-Achse" class="markdown-svg"></img>
+    <figcaption>
+        <p>Abb. 3: Fläche unterhalb der x-Achse</p>
+    </figcaption>
+</figure>
+
+<!-- ![Fläche unterhalb der $x$-Achse](img/Flaechenbilanz-2.svg)
+*Abb. 3: Fläche unterhalb der $x$-Achse* -->
 
 <br />
 
