@@ -17,7 +17,7 @@ Es gibt aber auch Flächen, die von zwei Funktionsgraphen eingeschlossen werden.
 
 ## Flächen zwischen Graphen
 
-{{< box-notice title="" >}}
+{{< box-notice title="Vorgehen beim Bestimmen von Flächen zwischen zwei Graphen" >}}
 Will man eine Fläche berechnen, die von zwei Funktionsgraphen $f$ und $g$ eingeschlossen wird, muss man zunächst die Ränder der Fläche bestimmen. Den oberen und unteren Rand kennen wir bereits, da die Fläche dort von den beiden Funktionsgraphen eingeschlossen wird. Den linken ($a$) und den rechten ($b$) Rand erhält man, indem man die **Schnittstellen der beiden Funktionsgraphen $f$ und $g$** bestimmt. Die $x$-Werte genügen hierfür.
 
 **Schritt 1:** \
@@ -29,7 +29,7 @@ Hat man auf diese Weise die Schnittstellen $a$ und $b$ bestimmt, setzt man diese
 Eine Möglichkeit, um nun den Flächeninhalt der eingeschlossenen Fläche zu bestimmen, ist, zunächst für $f$ und $g$ die jeweils zwischen Funktionsgraph und $x$-Achse eingeschlossene Fläche im Intervall $[a;b]$ zu bestimmen und anschließend die beiden Flächeninhalte zu subtrahieren.
 
 **Option 1 -- Schritt 3:** \
-Man bestimmt die beiden Integrale $~ A_f = \int_a^b f(x) dx ~ $ und $~ A_g = \int_a^b g(x) dx ~ $.
+Man bestimmt die beiden Integrale $\displaystyle ~ A_f = \int_a^b f(x) dx ~ $ und $\displaystyle ~ A_g = \int_a^b g(x) dx ~ $.
 
 **Option 1 -- Schritt 4:** \
 Berechne nun die Differenz $~ A_f - A_g = A$.
@@ -64,7 +64,7 @@ Es gibt auch eine zweite Möglichkeit, um den Flächeninhalt der eingeschlossene
 Bestimme die Differenz aus $f(x)$ und $g(x): \quad d(x) = f(x) - g(x)$.
 
 **Option 2 -- Schritt 4:** \
-Bestimme anschließend das Integral aus $\int_a^b d(x) ~ dx$.
+Bestimme anschließend das Integral aus $\displaystyle \int_a^b d(x) ~ dx$.
 
 _Warum darf man das?_
 
