@@ -64,9 +64,9 @@ Es gibt auch eine zweite Möglichkeit, um den Flächeninhalt der eingeschlossene
 Bestimme die Differenz aus $f(x)$ und $g(x): \quad d(x) = f(x) - g(x)$.
 
 **Option 2 -- Schritt 4:** \
-Bestimme das Integral aus $\int_a^b d(x) ~ dx$.
+Bestimme anschließend das Integral aus $\int_a^b d(x) ~ dx$.
 
-_Warum geht das?_
+_Warum darf man das?_
 
 $\displaystyle
 \begin{aligned}
@@ -78,7 +78,7 @@ A &= A_f - A_g \\\
 
 mit $~ d(x)=f(x)-g(x)$.
 
-Hierbei greift die **Summenregel** bezüglich des bestimmten Integrals, welche rückwärts gelesen besagt, dass man -- anstatt mit $A_f$ und $A_g$ zwei Integrale zu bestimmen und anschließend zu subtrahieren -- auch direkt die Differenz der beiden Funktionsterme $~ d(x) = f(x) - g(x)$ integrieren kann: \
+Hierbei greift die **Summenregel** bezüglich des bestimmten Integrals, welche rückwärts gelesen besagt, dass man -- anstatt mit $A_f$ und $A_g$ zwei Integrale zu bestimmen und anschließend zu subtrahieren -- auch direkt die Differenz der beiden Funktionsterme $~ d(x) = f(x) - g(x)$ integrieren kann. Daher gilt: \
 $\displaystyle \int_a^b f(x) ~ dx ~ \pm \int_a^b g(x) ~ dx ~ = \int_a^b (f(x) \pm g(x)) ~ dx ~ = \int_a^b d(x) ~ dx$.
 {{< /box-notice >}}
 
