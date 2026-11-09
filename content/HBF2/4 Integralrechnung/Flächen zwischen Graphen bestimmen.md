@@ -28,10 +28,12 @@ Hat man auf diese Weise die Schnittstellen $a$ und $b$ bestimmt, setzt man diese
 
 Eine Möglichkeit, um den Flächeninhalt der eingeschlossenen Fläche zu bestimmen, ist, zunächst für $f$ und $g$ die jeweils zwischen Funktionsgraph und $x$-Achse eingeschlossene Fläche im Intervall $[a;b]$ zu bestimmen und anschließend die beiden Flächeninhalte zu subtrahieren.
 
+Zusammengefasst bedeutet das also:
+
 1. Berechne die beiden Integrale $A_f = \int_a^b f(x) dx$ und $A_g = \int_a^b g(x) dx$ und
 2. bilde anschließend die Differenz $A_f - A_g = A$.
 
-Bildlich kann man sich das folgendermaßen vorstellen:
+Bildlich kann man sich das wie folgt vorstellen:
 
 <div class="gallery two-images my-3">
     <figure>
@@ -46,21 +48,22 @@ Bildlich kann man sich das folgendermaßen vorstellen:
     </figure>
 </div>
 
-Die gesuchte Fläche $A$ erhält man als Differenz der beiden oben dargestellten Teilflächen $A_f$ und $A_g$.
+Die gesuchte Fläche $A$ erhält man als Differenz der beiden dargestellten Teilflächen $A_f$ und $A_g$.
 
 Es gibt jedoch auch eine zweite Möglichkeit:
-$\displaystyle 
+
+$\displaystyle
 \begin{aligned}
 A &= A_f - A_g \\\
-&= \int_a^b f(x) dx - \int_a^b g(x) dx \\\
-&= \int_a^b (f(x) - g(x)) dx \\\
-&= \int_a^b d(x) dx
+&= \int_a^b f(x) ~ dx - \int_a^b g(x) ~ dx \\\
+&= \int_a^b (f(x) - g(x)) ~ dx \\\
+&= \int_a^b d(x) ~ dx
 \end{aligned}$
 
 mit $d(x)=f(x)-g(x)$.
 
-Hierbei greift die **Summenregel** bezüglich des bestimmten Integrals, welche rückwärts gelesen besagt, dass man - anstatt mit $A_f$ und $A_g$ zwei Integrale zu bestimmen und anschließend zu subtrahieren - auch direkt die Differenz der beiden Funktionsterme $d(x) = f(x) - g(x)$ integrieren kann: \
-$\displaystyle \int_a^b f(x) dx \pm \int_a^b g(x) dx = \int_a^b (f(x) \pm g(x)) dx = \int_a^b d(x) dx$.
+Hierbei greift die **Summenregel** bezüglich des bestimmten Integrals, welche rückwärts gelesen besagt, dass man - anstatt mit $A_f$ und $A_g$ zwei Integrale zu bestimmen und anschließend zu subtrahieren - auch direkt die Differenz der beiden Funktionsterme $~ d(x) = f(x) - g(x)$ integrieren kann: \
+$\displaystyle \int_a^b f(x) ~ dx ~ \pm \int_a^b g(x) ~ dx ~ = \int_a^b (f(x) \pm g(x)) ~ dx ~ = \int_a^b d(x) ~ dx$.
 {{< /box-notice >}}
 
 {{< box-example title="" >}}
