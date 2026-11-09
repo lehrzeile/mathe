@@ -1,5 +1,5 @@
 ---
-title: "Themenübersicht Unterstufe"
+title: "GeoGebra"
 draft: false
 weight: 702
 toc: false
