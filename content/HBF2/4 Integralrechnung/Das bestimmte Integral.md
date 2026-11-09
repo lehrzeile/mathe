@@ -50,8 +50,16 @@ Ist $f$ eine im Intervall $[a; b]$ stetige Funktion, dann beschreibt das bestimm
 - Sind alle Funktionswerte in diesem Bereich positiv (vgl. Abb. 2), dann gilt: \
 $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \geq 0$
 
-![Fläche oberhalb der $x$-Achse](img/Flaechenbilanz-1.svg)
-*Abb. 2: Fläche oberhalb der $x$-Achse*
+<figure>
+    <a id="abb2"></a>
+    <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaechenbilanz-1.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="positive Flächenbilanz mit $A_1 > A_2$" class="markdown-svg"></img>
+    <figcaption>
+        <p>Abb. 2: Fläche oberhalb der x-Achse</p>
+    </figcaption>
+</figure>
+
+<!-- ![Fläche oberhalb der $x$-Achse](img/Flaechenbilanz-1.svg)
+*Abb. 2: Fläche oberhalb der $x$-Achse* -->
 
 - Sind alle Funktionswerte in diesem Bereich negativ (vgl. Abb. 3), dann gilt: \
 $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b f(x) ~ dx \leq 0$

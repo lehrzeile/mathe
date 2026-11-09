@@ -12,8 +12,7 @@
         <p>{{ .Get "title" | default "Merke dir:" }}</p>
       </div>
     <div class="callout-body">
-      <!-- <p>{{ .Inner | strings.TrimSpace | .Page.RenderString | safeHTML }}</p> -->
-      <p>{{ .Inner }}</p>
+      <p>{{ .Inner | strings.TrimSpace | .Page.RenderString | safeHTML }}</p>
     </div>
   </div>
 </div>
