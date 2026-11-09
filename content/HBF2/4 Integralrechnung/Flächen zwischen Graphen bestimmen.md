@@ -37,16 +37,21 @@ Zusammengefasst bedeutet das also:
 
 Bildlich kann man sich das wie folgt vorstellen:
 
-<div class="gallery two-images my-3">
+<div class="gallery three-images my-3">
     <figure>
         <a id="abb1"></a>
-        <img src="/img/Flaeche_zwischen_Graphen-1.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb des Graphen von $f$" class="markdown-svg">
+        <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaeche_zwischen_Graphen-1.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb des Graphen von $f$" class="markdown-svg">
         <figcaption><p>Abb. 1: Fläche unterhalb des Graphen von $f$</p></figcaption>
     </figure>
     <figure>
         <a id="abb2"></a>
-        <img src="/img/Flaeche_zwischen_Graphen-2.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb des Graphen von $g$" class="markdown-svg">
+        <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaeche_zwischen_Graphen-2.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb des Graphen von $g$" class="markdown-svg">
         <figcaption><p>Abb. 2: Fläche unterhalb des Graphen von $g$</p></figcaption>
+    </figure>
+    <figure>
+        <a id="abb3"></a>
+        <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaeche_zwischen_Graphen-3.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche zwischen den Graphen von $f$ und $g$" class="markdown-svg">
+        <figcaption><p>Abb. 3: Fläche zwischen den Graphen von $f$ und $g$</p></figcaption>
     </figure>
 </div>
 
