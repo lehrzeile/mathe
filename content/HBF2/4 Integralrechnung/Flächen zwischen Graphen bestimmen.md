@@ -18,7 +18,12 @@ Es gibt aber auch Flächen, die von zwei Funktionsgraphen eingeschlossen werden.
 ## Flächen zwischen Graphen
 
 {{< box-notice title="" >}}
+Will man eine Fläche berechnen, die von zwei Funktionsgraphen eingeschlossen wird, muss man zunächst die Ränder der Fläche bestimmen. Den oberen und unteren Rand kennen wir bereits, da die Fläche dort von den beiden Funktionsgraphen eingeschlossen wird. Den linken und den rechten Rand erhält man, indem man die **Schnittpunkte der beiden Funktionsgraphen** bestimmt.
 
+<!-- Grafiken -->
+
+Die gesuchte Fläche $A$ erhält man als Differenz der beiden oben eingezeichneten Teilflächen.
+Also gilt für die gesuchte Fläche $A: quad A = A_h - A_f$.
 {{< /box-notice >}}
 
 {{< box-example title="" >}}
