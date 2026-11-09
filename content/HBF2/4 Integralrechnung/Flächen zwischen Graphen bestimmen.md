@@ -17,6 +17,10 @@ Es gibt aber auch Flächen, die von zwei Funktionsgraphen eingeschlossen werden.
 
 ## Flächen zwischen Graphen
 
+{{< box-notice title="" >}}
+
+{{< /box-notice >}}
+
 {{< box-example title="" >}}
 Der Graph der Funktion $f_1(x) = 0,5x^2 - 2x + 3,5$ wird vom Graphen der Funktion $f_2(x) = x + 1$ geschnitten. Gesucht ist die Fläche zwischen den beiden Funktionsgraphen.
 
@@ -32,7 +36,7 @@ $\displaystyle
 \begin{aligned}
 0,5x^2 - 2x + 3,5 &= x + 1 && \quad | - x - 1 \\\
 0,5x^2 - 3x + 2,5 &= 0 && \quad | :0,5 \\\
-x^2 - 6x + 5 &= 0 && \quad | \text{p-q-Formel} \\\
+x^2 - 6x + 5 &= 0 && \quad | \text{ p-q-Formel} \\\
 \ldots && \\\
 x_1 &= 1, \quad x_2 = 5
 \end{aligned}$
@@ -59,3 +63,13 @@ A &= \vert F(5) - F(1) \vert = \vert (1/6 \cdot 5^3 - 1,5 \cdot 5^2 + 2,5 \cdot 
 \end{aligned}$
 
 {{< /box-example >}}
+
+## Übung macht den Meister
+
+{{< job numbered="true" style="enum-alph" title="Übung macht den Meister" columns="1" entry="" >}}
+
+- Der Graph der Funktion $f_1(x) = 0,5(x - 2)^2 + 3,5$ wird vom Graphen der Funktion $f_2(x) = x + 3$ geschnitten. **Berechne** die Fläche zwischen den beiden Funktionsgraphen.
+- Der Graph der Funktion $f_1(x) = x^3-4x^2+5x-3$ wird vom Graphen der Funktion $f_2(x) = 2x^2 -4x +1$ geschnitten. **Berechne** die Fläche zwischen den beiden Funktionsgraphen.
+- Gegeben ist die Funktion $f(x) = 3x^2 + 18x + 24$. **Bestimme** die Fläche zwischen dem Funktionsgraphen, der $x$-Achse und der $y$-Achse.
+
+{{< /job >}}
