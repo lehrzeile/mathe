@@ -82,7 +82,7 @@ Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
 {{< image src="img/Flaechenbilanz-3c.svg" caption="ausgeglichene Flächenbilanz mit $A_1 = A_2$" >}}
 
 {{< box-important title="Beachte!" >}}
-Je nach Kontext kann es sein, dass man unterschiedliche Integrale ermitteln möchte. In einem bestimmten Kontext benötigt man womöglich eine Flächenbilanz, jedoch kann in einem anderen Sachkontext wiederum die Summe aller eingeschlossenen Flächen zwischen Graph und $x$-Achse gemeint sein. Man sollte hierbei also beachten, dass das bestimmte Integrals und die Summe der Teilflächen grundsätzlich ganz **unterschiedliche Aussagekraft** besitzen.
+Je nach Kontext kann es sein, dass man unterschiedliche Integrale ermitteln möchte. In einem bestimmten Kontext benötigt man womöglich eine Flächenbilanz, jedoch kann in einem anderen Sachkontext wiederum die Summe aller eingeschlossenen Flächen zwischen Graph und $x$-Achse gemeint sein. Man sollte hierbei also beachten, dass das bestimmte Integral und die Summe der Teilflächen grundsätzlich ganz **unterschiedliche Aussagekraft** besitzen.
 
 Das bedeutet, dass man also **strikt** zwischen $\int_a^b f(x) ~ dx$ und $\int_a^{x_0} f(x) ~ dx + \int_{x_0}^b f(x) ~ dx$ **unterscheiden** muss, wobei $x_0$ die Nullstelle darstellen soll, welche die Gesamtfläche in zwei Teilflächen unterteilt.
 {{< /box-important >}}

@@ -306,7 +306,12 @@ p > img, figure > img {
 // Bilder und Bildunterschriften
 img + em {
     font-size: 0.7em !important;
-    width: 100% !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+
+.markdown-svg + em {
+    font-size: 0.7em !important;
     text-align: center !important;
     margin: 0 auto !important;
 }
