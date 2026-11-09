@@ -24,14 +24,15 @@ Will man eine Fläche berechnen, die von zwei Funktionsgraphen $f$ und $g$ einge
 Die Schnittstellen der beiden Funktionsgraphen bestimmt man, indem man die beiden Funktionsgleichungen gleichsetzt und die entstandene Gleichung nach $x$ auflöst.
 
 **Schritt 2:** \
-Hat man auf diese Weise die Schnittstellen $a$ und $b$ bestimmt, setzt man diese als Unter- bzw. Obergrenze des gesuchten Integrals ein und berechnet das bestimmte Integral.
+Hat man auf diese Weise die Schnittstellen $a$ und $b$ bestimmt, setzt man diese als Unter- bzw. Obergrenze des gesuchten Integrals ein.
 
-Eine Möglichkeit, um den Flächeninhalt der eingeschlossenen Fläche zu bestimmen, ist, zunächst für $f$ und $g$ die jeweils zwischen Funktionsgraph und $x$-Achse eingeschlossene Fläche im Intervall $[a;b]$ zu bestimmen und anschließend die beiden Flächeninhalte zu subtrahieren.
+Eine Möglichkeit, um nun den Flächeninhalt der eingeschlossenen Fläche zu bestimmen, ist, zunächst für $f$ und $g$ die jeweils zwischen Funktionsgraph und $x$-Achse eingeschlossene Fläche im Intervall $[a;b]$ zu bestimmen und anschließend die beiden Flächeninhalte zu subtrahieren.
 
-Zusammengefasst bedeutet das also:
+**Option 1 -- Schritt 3:** \
+Man bestimmt die beiden Integrale $~ A_f = \int_a^b f(x) dx ~ $ und $~ A_g = \int_a^b g(x) dx ~ $.
 
-1. **Bestimme** die beiden Integrale $~ A_f = \int_a^b f(x) dx ~ $ und $~ A_g = \int_a^b g(x) dx ~ $ und
-2. **berechne** anschließend die Differenz $~ A_f - A_g = A$.
+**Option 1 -- Schritt 4:** \
+Berechne nun die Differenz $~ A_f - A_g = A$.
 
 <br />
 
@@ -59,6 +60,14 @@ Die gesuchte Fläche $A$ ist die Differenz der beiden dargestellten Teilflächen
 
 Es gibt auch eine zweite Möglichkeit, um den Flächeninhalt der eingeschlossenen Fläche zu bestimmen:
 
+**Option 2 -- Schritt 3:** \
+Bestimme die Differenz aus $f(x)$ und $g(x): \quad d(x) = f(x) - g(x)$.
+
+**Option 2 -- Schritt 4:** \
+Bestimme das Integral aus $\int_a^b d(x) ~ dx$.
+
+_Warum geht das?_
+
 $\displaystyle
 \begin{aligned}
 A &= A_f - A_g \\\
@@ -69,7 +78,7 @@ A &= A_f - A_g \\\
 
 mit $~ d(x)=f(x)-g(x)$.
 
-Hierbei greift die **Summenregel** bezüglich des bestimmten Integrals, welche rückwärts gelesen besagt, dass man - anstatt mit $A_f$ und $A_g$ zwei Integrale zu bestimmen und anschließend zu subtrahieren - auch direkt die Differenz der beiden Funktionsterme $~ d(x) = f(x) - g(x)$ integrieren kann: \
+Hierbei greift die **Summenregel** bezüglich des bestimmten Integrals, welche rückwärts gelesen besagt, dass man -- anstatt mit $A_f$ und $A_g$ zwei Integrale zu bestimmen und anschließend zu subtrahieren -- auch direkt die Differenz der beiden Funktionsterme $~ d(x) = f(x) - g(x)$ integrieren kann: \
 $\displaystyle \int_a^b f(x) ~ dx ~ \pm \int_a^b g(x) ~ dx ~ = \int_a^b (f(x) \pm g(x)) ~ dx ~ = \int_a^b d(x) ~ dx$.
 {{< /box-notice >}}
 
