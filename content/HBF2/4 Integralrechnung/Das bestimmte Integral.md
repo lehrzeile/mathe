@@ -85,6 +85,16 @@ Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
     < 0, & \text{wenn  } & A_1 < A_2 & \text{ (vgl. Abb. 5)} \\\
     = 0, & \text{wenn  } & A_1 = A_2 & \text{ (vgl. Abb. 6)}.
 \end{cases}$
+
+<figure>
+    <a id="abb4"></a>
+    <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaechenbilanz-3a.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="positive Flächenbilanz mit $A_1 > A_2$" class="markdown-svg"></img>
+    <figcaption>
+        <p>Abb. 4: positive Flächenbilanz mit $A_1 > A_2$</p>
+    </figcaption>
+</figure>
+
+
 {{< /box-notice >}}
 
 <!-- {{< image src="img/Flaechenbilanz-1.svg" caption="Fläche oberhalb der $x$-Achse" >}} -->
