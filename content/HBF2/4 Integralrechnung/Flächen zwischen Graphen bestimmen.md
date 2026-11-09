@@ -18,16 +18,15 @@ Es gibt aber auch Flächen, die von zwei Funktionsgraphen eingeschlossen werden.
 ## Flächen zwischen Graphen
 
 {{< box-notice title="" >}}
-Will man eine Fläche berechnen, die von zwei Funktionsgraphen $f$ und $g$ eingeschlossen wird, muss man zunächst die Ränder der Fläche bestimmen. Den oberen und unteren Rand kennen wir bereits, da die Fläche dort von den beiden Funktionsgraphen eingeschlossen wird. Den linken und den rechten Rand erhält man, indem man die **Schnittstellen der beiden Funktionsgraphen $f$ und $g$** bestimmt. Die $x$-Werte genügen hierfür.
+Will man eine Fläche berechnen, die von zwei Funktionsgraphen $f$ und $g$ eingeschlossen wird, muss man zunächst die Ränder der Fläche bestimmen. Den oberen und unteren Rand kennen wir bereits, da die Fläche dort von den beiden Funktionsgraphen eingeschlossen wird. Den linken ($a$) und den rechten ($b$) Rand erhält man, indem man die **Schnittstellen der beiden Funktionsgraphen $f$ und $g$** bestimmt. Die $x$-Werte genügen hierfür.
 
-Die Schnittstellen der beiden Funktionsgraphen bestimmt man, indem man
+**Schritt 1:** \
+Die Schnittstellen der beiden Funktionsgraphen bestimmt man, indem man die beiden Funktionsgleichungen gleichsetzt und die entstandene Gleichung nach $x$ auflöst.
 
-1. die beiden Funktionsgleichungen gleichsetzt und
-2. die entstandene Gleichung nach $x$ auflöst.
+**Schritt 2:** \
+Hat man auf diese Weise die Schnittstellen $a$ und $b$ bestimmt, setzt man diese als Unter- bzw. Obergrenze des gesuchten Integrals ein und berechnet das bestimmte Integral.
 
-Hat man auf diese Weise die Schnittstellen bestimmt, setzt man diese als Unter- bzw. Obergrenze des gesuchten Integrals ein.
-
-Es gibt nun zwei Möglichkeiten, wie man den Flächeninhalt der eingeschlossenen Fläche bestimmen kann. Die erste sieht vor, dass man zunächst für $f$ und $g$ die jeweils zwischen Funktionsgraph und $x$-Achse eingeschlossene Fläche im Intervall $[a;b]$ bestimmt und anschließend die beiden Flächeninhalte subtrahiert.
+Eine Möglichkeit, um den Flächeninhalt der eingeschlossenen Fläche zu bestimmen, ist, zunächst für $f$ und $g$ die jeweils zwischen Funktionsgraph und $x$-Achse eingeschlossene Fläche im Intervall $[a;b]$ zu bestimmen und anschließend die beiden Flächeninhalte zu subtrahieren.
 
 1. Berechne die beiden Integrale $A_f = \int_a^b f(x) dx$ und $A_g = \int_a^b g(x) dx$ und
 2. bilde anschließend die Differenz $A_f - A_g = A$.
@@ -60,8 +59,8 @@ A &= A_f - A_g \\\
 
 mit $d(x)=f(x)-g(x)$.
 
-Hierbei greift die **Summenregel** bezüglich des bestimmten Integrals: \
-$\displaystyle \int_a^b f(x) dx \pm \int_a^b g(x) dx = \int_a^b (f(x) \pm g(x)) dx$, die besagt, dass man eine Funktion, die aus einer Summe oder Differenz einzelner Terme besteht, stückweise integrieren kann.
+Hierbei greift die **Summenregel** bezüglich des bestimmten Integrals, welche rückwärts gelesen besagt, dass man - anstatt mit $A_f$ und $A_g$ zwei Integrale zu bestimmen und anschließend zu subtrahieren - auch direkt die Differenz der beiden Funktionsterme $d(x) = f(x) - g(x)$ integrieren kann: \
+$\displaystyle \int_a^b f(x) dx \pm \int_a^b g(x) dx = \int_a^b (f(x) \pm g(x)) dx = \int_a^b d(x) dx$.
 {{< /box-notice >}}
 
 {{< box-example title="" >}}
