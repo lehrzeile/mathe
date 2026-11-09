@@ -30,27 +30,29 @@ Eine Möglichkeit, um den Flächeninhalt der eingeschlossenen Fläche zu bestimm
 
 Zusammengefasst bedeutet das also:
 
-1. **Bestimme** die beiden Integrale $A_f = \int_a^b f(x) dx$ und $A_g = \int_a^b g(x) dx$ und
-2. **berechne** anschließend die Differenz $A_f - A_g = A$.
+1. **Bestimme** die beiden Integrale $~ A_f = \int_a^b f(x) dx ~$ und $~ A_g = \int_a^b g(x) dx ~$ und
+2. **berechne** anschließend die Differenz $~ A_f - A_g = A$.
+
+<br />
 
 Bildlich kann man sich das wie folgt vorstellen:
 
 <div class="gallery two-images my-3">
     <figure>
         <a id="abb1"></a>
-        <img src="https://www.lehrzeile.org/hbf1/4-funktionsuntersuchung/img/Flaeche_zwischen_Graphen-1.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb des Graphen von $f$" class="markdown-svg">
+        <img src="/img/Flaeche_zwischen_Graphen-1.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb des Graphen von $f$" class="markdown-svg">
         <figcaption><p>Abb. 1: Fläche unterhalb des Graphen von $f$</p></figcaption>
     </figure>
     <figure>
         <a id="abb2"></a>
-        <img src="https://www.lehrzeile.org/hbf1/4-funktionsuntersuchung/img/Flaeche_zwischen_Graphen-2.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb des Graphen von $g$" class="markdown-svg">
+        <img src="/img/Flaeche_zwischen_Graphen-2.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb des Graphen von $g$" class="markdown-svg">
         <figcaption><p>Abb. 2: Fläche unterhalb des Graphen von $g$</p></figcaption>
     </figure>
 </div>
 
-Die gesuchte Fläche $A$ erhält man als Differenz der beiden dargestellten Teilflächen $A_f$ und $A_g$.
+Die gesuchte Fläche $A$ ist die Differenz der beiden dargestellten Teilflächen $A_f$ und $A_g$.
 
-Es gibt jedoch auch eine zweite Möglichkeit:
+Es gibt auch eine zweite Möglichkeit, um den Flächeninhalt der eingeschlossenen Fläche zu bestimmen:
 
 $\displaystyle
 \begin{aligned}
@@ -60,7 +62,7 @@ A &= A_f - A_g \\\
 &= \int_a^b d(x) ~ dx
 \end{aligned}$
 
-mit $d(x)=f(x)-g(x)$.
+mit $~ d(x)=f(x)-g(x)$.
 
 Hierbei greift die **Summenregel** bezüglich des bestimmten Integrals, welche rückwärts gelesen besagt, dass man - anstatt mit $A_f$ und $A_g$ zwei Integrale zu bestimmen und anschließend zu subtrahieren - auch direkt die Differenz der beiden Funktionsterme $~ d(x) = f(x) - g(x)$ integrieren kann: \
 $\displaystyle \int_a^b f(x) ~ dx ~ \pm \int_a^b g(x) ~ dx ~ = \int_a^b (f(x) \pm g(x)) ~ dx ~ = \int_a^b d(x) ~ dx$.

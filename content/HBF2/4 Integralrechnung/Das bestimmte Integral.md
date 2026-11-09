@@ -143,13 +143,13 @@ $A_1 + A_2 = -0,25 + 4 = 3,75$.
 {{< box-notice title="Summenregel" >}}
 Die **Summenregel** bezüglich des bestimmten Integrals besagt, dass man eine Funktion, die aus einer Summe oder Differenz einzelner Terme besteht, stückweise integrieren kann:
 
-$\displaystyle \int_a^b (f(x) \pm g(x)) dx = \int_a^b f(x) dx \pm \int_a^b g(x) dx$.
+$\displaystyle \int_a^b (f(x) \pm g(x)) dx = \int_a^b f(x) dx ~ \pm \int_a^b g(x) dx$.
 {{< /box-notice >}}
 
 {{< box-notice title="Intervalladditivität" >}}
 Die **Intervalladditivität** bezüglich des bestimmten Integrals besagt, dass das bestimmte Integral einer Funktion über ein Gesamtintervall gleich der Summe der Integrale über den Teilintervallen ist:
 
-$\displaystyle \int_a^b f(x) dx \pm \int_b^c f(x) dx = \int_a^c f(x) dx$.
+$\displaystyle \int_a^b f(x) dx ~ \pm \int_b^c f(x) dx ~ = \int_a^c f(x) dx$.
 {{< /box-notice >}}
 
 ## Ausblick
