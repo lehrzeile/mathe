@@ -30,8 +30,8 @@ Eine Möglichkeit, um den Flächeninhalt der eingeschlossenen Fläche zu bestimm
 
 Zusammengefasst bedeutet das also:
 
-1. Berechne die beiden Integrale $A_f = \int_a^b f(x) dx$ und $A_g = \int_a^b g(x) dx$ und
-2. bilde anschließend die Differenz $A_f - A_g = A$.
+1. **Bestimme** die beiden Integrale $A_f = \int_a^b f(x) dx$ und $A_g = \int_a^b g(x) dx$ und
+2. **berechne** anschließend die Differenz $A_f - A_g = A$.
 
 Bildlich kann man sich das wie folgt vorstellen:
 
@@ -92,11 +92,11 @@ $d(x) = f_1(x) - f_2(x) = 0,5x^2 - 2x + 3,5 - (x + 1) = 0,5x^2 - 3x + 2,5$
 
 Und zum Schluss integriert man die Funktion $d(x)$ über die Grenzen der Schnittpunkte und bildet davon den Betrag, um die Fläche zu berechnen:
 
-$\displaystyle
-\begin{aligned}
+$\begin{aligned}
+\displaystyle
 A &= \int_1^5 d(x) dx \\\
 &= \int_1^5 0,5x^2 - 3x + 2,5 dx \\\
-&= \left[ 1/6 x^3 - 1,5 x^2 + 2,5x \right]_1^5
+&= \big[ 1/6 x^3 - 1,5 x^2 + 2,5x \big]_1^5
 \end{aligned}$
 
 Der gesuchte Flächeninhalt ist der Betrag der Differenz der Funktionswerte von $F(x)$ an den Grenzen $1$ und $5$:
