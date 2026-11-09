@@ -54,7 +54,7 @@ $\displaystyle \forall x \in [a;b]: \quad f(x) \geq 0 \quad \Rightarrow \int_a^b
     <a id="abb2"></a>
     <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaechenbilanz-1.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche oberhalb der x-Achse" class="markdown-svg"></img>
     <figcaption>
-        <p>Abb. 2: Fläche oberhalb der x-Achse</p>
+        <p>Abb. 2: Fläche oberhalb der $x$-Achse</p>
     </figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ $\displaystyle \forall x \in [a;b]: \quad f(x) \leq 0 \quad \Rightarrow \int_a^b
     <a id="abb3"></a>
     <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaechenbilanz-2.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb der x-Achse" class="markdown-svg"></img>
     <figcaption>
-        <p>Abb. 3: Fläche unterhalb der x-Achse</p>
+        <p>Abb. 3: Fläche unterhalb der $x$-Achse</p>
     </figcaption>
 </figure>
 
@@ -94,18 +94,32 @@ Dann gilt: $\displaystyle \int_a^b f(x) ~ dx
     </figcaption>
 </figure>
 
+<figure>
+    <a id="abb5"></a>
+    <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaechenbilanz-3b.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="positive Flächenbilanz mit $A_1 < A_2$" class="markdown-svg"></img>
+    <figcaption>
+        <p>Abb. 5: positive Flächenbilanz mit $A_1 < A_2$</p>
+    </figcaption>
+</figure>
 
+<figure>
+    <a id="abb6"></a>
+    <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaechenbilanz-3c.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="positive Flächenbilanz mit $A_1 = A_2$" class="markdown-svg"></img>
+    <figcaption>
+        <p>Abb. 6: positive Flächenbilanz mit $A_1 = A_2$</p>
+    </figcaption>
+</figure>
 {{< /box-notice >}}
 
 <!-- {{< image src="img/Flaechenbilanz-1.svg" caption="Fläche oberhalb der $x$-Achse" >}} -->
 
 <!-- {{< image src="img/Flaechenbilanz-2.svg" caption="Fläche unterhalb der $x$-Achse" >}} -->
 
-{{< image src="img/Flaechenbilanz-3a.svg" caption="positive Flächenbilanz mit $A_1 > A_2$" >}}
+<!-- {{< image src="img/Flaechenbilanz-3a.svg" caption="positive Flächenbilanz mit $A_1 > A_2$" >}} -->
 
-{{< image src="img/Flaechenbilanz-3b.svg" caption="negative Flächenbilanz mit $A_1 < A_2$" >}}
+<!-- {{< image src="img/Flaechenbilanz-3b.svg" caption="negative Flächenbilanz mit $A_1 < A_2$" >}} -->
 
-{{< image src="img/Flaechenbilanz-3c.svg" caption="ausgeglichene Flächenbilanz mit $A_1 = A_2$" >}}
+<!-- {{< image src="img/Flaechenbilanz-3c.svg" caption="ausgeglichene Flächenbilanz mit $A_1 = A_2$" >}} -->
 
 {{< box-important title="Beachte!" >}}
 Je nach Kontext kann es sein, dass man unterschiedliche Integrale ermitteln möchte. In einem bestimmten Kontext benötigt man womöglich eine Flächenbilanz, jedoch kann in einem anderen Sachkontext wiederum die Summe aller eingeschlossenen Flächen zwischen Graph und $x$-Achse gemeint sein. Man sollte hierbei also beachten, dass das bestimmte Integral und die Summe der Teilflächen grundsätzlich ganz **unterschiedliche Aussagekraft** besitzen.
