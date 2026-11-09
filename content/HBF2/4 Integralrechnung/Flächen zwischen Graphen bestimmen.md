@@ -30,7 +30,7 @@ Eine Möglichkeit, um den Flächeninhalt der eingeschlossenen Fläche zu bestimm
 
 Zusammengefasst bedeutet das also:
 
-1. **Bestimme** die beiden Integrale $~ A_f = \int_a^b f(x) dx ~$ und $~ A_g = \int_a^b g(x) dx ~$ und
+1. **Bestimme** die beiden Integrale $~ A_f = \int_a^b f(x) dx ~ $ und $~ A_g = \int_a^b g(x) dx ~ $ und
 2. **berechne** anschließend die Differenz $~ A_f - A_g = A$.
 
 <br />
@@ -41,17 +41,17 @@ Bildlich kann man sich das wie folgt vorstellen:
     <figure>
         <a id="abb1"></a>
         <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaeche_zwischen_Graphen-1.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb des Graphen von $f$" class="markdown-svg">
-        <figcaption><p>Abb. 1: Fläche unterhalb des Graphen von $f$</p></figcaption>
+        <figcaption><p>Abb. 1: Fläche unterhalb von $f$</p></figcaption>
     </figure>
     <figure>
         <a id="abb2"></a>
         <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaeche_zwischen_Graphen-2.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb des Graphen von $g$" class="markdown-svg">
-        <figcaption><p>Abb. 2: Fläche unterhalb des Graphen von $g$</p></figcaption>
+        <figcaption><p>Abb. 2: Fläche unterhalb von $g$</p></figcaption>
     </figure>
     <figure>
         <a id="abb3"></a>
         <img src="https://www.lehrzeile.org/hbf2/4-integralrechnung/img/Flaeche_zwischen_Graphen-3.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche zwischen den Graphen von $f$ und $g$" class="markdown-svg">
-        <figcaption><p>Abb. 3: Fläche zwischen den Graphen von $f$ und $g$</p></figcaption>
+        <figcaption><p>Abb. 3: Fläche zwischen $f$ und $g$</p></figcaption>
     </figure>
 </div>
 
