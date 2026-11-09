@@ -18,12 +18,50 @@ Es gibt aber auch Flächen, die von zwei Funktionsgraphen eingeschlossen werden.
 ## Flächen zwischen Graphen
 
 {{< box-notice title="" >}}
-Will man eine Fläche berechnen, die von zwei Funktionsgraphen eingeschlossen wird, muss man zunächst die Ränder der Fläche bestimmen. Den oberen und unteren Rand kennen wir bereits, da die Fläche dort von den beiden Funktionsgraphen eingeschlossen wird. Den linken und den rechten Rand erhält man, indem man die **Schnittpunkte der beiden Funktionsgraphen** bestimmt.
+Will man eine Fläche berechnen, die von zwei Funktionsgraphen $f$ und $g$ eingeschlossen wird, muss man zunächst die Ränder der Fläche bestimmen. Den oberen und unteren Rand kennen wir bereits, da die Fläche dort von den beiden Funktionsgraphen eingeschlossen wird. Den linken und den rechten Rand erhält man, indem man die **Schnittstellen der beiden Funktionsgraphen $f$ und $g$** bestimmt. Die $x$-Werte genügen hierfür.
 
-<!-- Grafiken -->
+Die Schnittstellen der beiden Funktionsgraphen bestimmt man, indem man
 
-Die gesuchte Fläche $A$ erhält man als Differenz der beiden oben eingezeichneten Teilflächen.
-Also gilt für die gesuchte Fläche $A: quad A = A_h - A_f$.
+1. die beiden Funktionsgleichungen gleichsetzt und
+2. die entstandene Gleichung nach $x$ auflöst.
+
+Hat man auf diese Weise die Schnittstellen bestimmt, setzt man diese als Unter- bzw. Obergrenze des gesuchten Integrals ein.
+
+Es gibt nun zwei Möglichkeiten, wie man den Flächeninhalt der eingeschlossenen Fläche bestimmen kann. Die erste sieht vor, dass man zunächst für $f$ und $g$ die jeweils zwischen Funktionsgraph und $x$-Achse eingeschlossene Fläche im Intervall $[a;b]$ bestimmt und anschließend die beiden Flächeninhalte subtrahiert.
+
+1. Berechne die beiden Integrale $A_f = \int_a^b f(x) dx$ und $A_g = \int_a^b g(x) dx$ und
+2. bilde anschließend die Differenz $A_f - A_g = A$.
+
+Bildlich kann man sich das folgendermaßen vorstellen:
+
+<div class="gallery two-images my-3">
+    <figure>
+        <a id="abb1"></a>
+        <img src="https://www.lehrzeile.org/hbf1/4-funktionsuntersuchung/img/Flaeche_zwischen_Graphen-1.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb des Graphen von $f$" class="markdown-svg">
+        <figcaption><p>Abb. 1: Fläche unterhalb des Graphen von $f$</p></figcaption>
+    </figure>
+    <figure>
+        <a id="abb2"></a>
+        <img src="https://www.lehrzeile.org/hbf1/4-funktionsuntersuchung/img/Flaeche_zwischen_Graphen-2.svg" decoding="async" fetchpriority="auto" loading="lazy" alt="Fläche unterhalb des Graphen von $g$" class="markdown-svg">
+        <figcaption><p>Abb. 2: Fläche unterhalb des Graphen von $g$</p></figcaption>
+    </figure>
+</div>
+
+Die gesuchte Fläche $A$ erhält man als Differenz der beiden oben dargestellten Teilflächen $A_f$ und $A_g$.
+
+Es gibt jedoch auch eine zweite Möglichkeit:
+$\displaystyle 
+\begin{aligned}
+A &= A_f - A_g \\\
+&= \int_a^b f(x) dx - \int_a^b g(x) dx \\\
+&= \int_a^b (f(x) - g(x)) dx \\\
+&= \int_a^b d(x) dx
+\end{aligned}$
+
+mit $d(x)=f(x)-g(x)$.
+
+Hierbei greift die **Summenregel** bezüglich des bestimmten Integrals: \
+$\displaystyle \int_a^b f(x) dx \pm \int_a^b g(x) dx = \int_a^b (f(x) \pm g(x)) dx$, die besagt, dass man eine Funktion, die aus einer Summe oder Differenz einzelner Terme besteht, stückweise integrieren kann.
 {{< /box-notice >}}
 
 {{< box-example title="" >}}
@@ -32,7 +70,7 @@ Der Graph der Funktion $f_1(x) = 0,5x^2 - 2x + 3,5$ wird vom Graphen der Funktio
 Damit man die Fläche berechnen kann, die zwischen den beiden Graphen eingeschlossen wird, muss man zunächst die Grenzen kennen. Diese werden durch die Schnittpunkte der beiden Funktionsgraphen bestimmt:
 
 ![Fläche zwischen zwei Graphen](img/Flaeche_zwischen_Graphen.svg)
-*Abb. 1: Fläche zwischen zwei Graphen*
+*Abb. 3: Fläche zwischen zwei Graphen*
 <!-- {{< image src="img/Flaeche_zwischen_Graphen.svg" caption="Fläche zwischen zwei Graphen" >}} -->
 
 Die Schnittpunkte lassen sich berechnen, indem man die beiden Funktionsgleichungen gleichsetzt:

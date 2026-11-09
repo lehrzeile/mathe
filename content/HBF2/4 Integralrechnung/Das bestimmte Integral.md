@@ -138,6 +138,20 @@ Da der Graph von $f$ an der Stelle $x=0$ eine Nullstelle besitzt, teilt diese di
 Das linke Teilstück $A_1$ hat einen Flächeninhalt von $0,25$. $A_2$ besitzt einen Flächeninhalt von $4$. Entgegen einer ersten Vermutung ist jedoch unter dem Strich der Wert des bestimmten Integrals nicht $4,25$, sondern $3,75$. Dies liegt daran, dass sich das Teilstück $A_1$ unterhalb der $x$-Achse befindet und sich die beiden Teilflächen somit teilweise gegenseitig aufheben: \
 $A_1 + A_2 = -0,25 + 4 = 3,75$.
 
+## Rechenregeln für Integrale
+
+{{< box-notice title="Summenregel" >}}
+Die **Summenregel** bezüglich des bestimmten Integrals besagt, dass man eine Funktion, die aus einer Summe oder Differenz einzelner Terme besteht, stückweise integrieren kann:
+
+$\displaystyle \int_a^b (f(x) \pm g(x)) dx = \int_a^b f(x) dx \pm \int_a^b g(x) dx$.
+{{< /box-notice >}}
+
+{{< box-notice title="Intervalladditivität" >}}
+Die **Intervalladditivität** bezüglich des bestimmten Integrals besagt, dass das bestimmte Integral einer Funktion über ein Gesamtintervall gleich der Summe der Integrale über den Teilintervallen ist:
+
+$\displaystyle \int_a^b f(x) dx \pm \int_b^c f(x) dx = \int_a^c f(x) dx$.
+{{< /box-notice >}}
+
 ## Ausblick
 
 Du hast in den vorangegangenen Abschnitten gelernt, wie man Ober- und Untersummen berechnet, wie man Stammfunktionen bildet, um unbestimmte Integrale zu bestimmen und wie man mit Hilfe von bestimmten Integralen Flächen zwischen Graph und $x$-Achse bestimmt. Im nächsten Abschnitt befassen wir uns damit, [Flächen zwischen Graphen](/hbf2/4-integralrechnung/flächen-zwischen-graphen-bestimmen/) zu berechnen.
