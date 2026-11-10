@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lineare Funktionen – Testtraining</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--tx:#1d2433;--mu:#5b6578;--ac:#3a5a9c;--ac2:#e8eefb;--ok:#1b7f4b;--okb:#e3f6ec;--no:#b3261e;--nob:#fdeaea;--bd:#d6dce8;--ln:#e07a1f;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161f;--card:#1c2230;--tx:#e8ecf5;--mu:#9aa5bb;--ac:#8fb0f0;--ac2:#27314a;--ok:#6fd49b;--okb:#17302374;--no:#ff8a80;--nob:#3a1b1b;--bd:#343c50;--ln:#ffa04d;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:640px;margin:0 auto;padding:16px}
+h1{font-size:1.3rem;margin:0}
+.sub{color:var(--mu);margin:2px 0 14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.chip{border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:999px;padding:6px 12px;font-size:.9rem;cursor:pointer}
+.chip.on{background:var(--ac);color:#fff;border-color:var(--ac)}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px}
+.stats{display:flex;gap:14px;color:var(--mu);font-size:.9rem;margin-bottom:10px}
+.t{font-weight:600;color:var(--ln);margin-bottom:4px}
+.q{font-size:1.1rem;margin:6px 0 10px}
+svg{width:100%;max-width:340px;display:block;margin:8px auto;background:var(--card);touch-action:manipulation}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0}
+.row label{display:flex;align-items:center;gap:6px}
+input{width:90px;font-size:1rem;padding:8px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx)}
+button.b{background:var(--ac);color:#fff;border:0;border-radius:10px;padding:10px 16px;font-size:1rem;cursor:pointer}
+button.s{background:var(--ac2);color:var(--ac)}
+.fb{margin-top:10px;padding:10px 12px;border-radius:10px;display:none}
+.fb.ok{display:block;background:var(--okb);color:var(--ok)}
+.fb.no{display:block;background:var(--nob);color:var(--no)}
+.sol{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--ac2);display:none}
+.hint{color:var(--mu);font-size:.85rem}
+</style>
+</head>
+<body>
+<main>
+<h1>Lineare Funktionen – Testtraining</h1>
+<p class="sub">Übe gezielt für den Test. Alle Aufgaben werden zufällig neu erzeugt.</p>
+<div class="chips" id="chips"></div>
+<div class="card">
+  <div class="stats"><span id="st1">Richtig: 0</span><span id="st2">Versuche: 0</span><span id="st3">Serie: 0</span></div>
+  <div class="t" id="title"></div>
+  <div class="q" id="q"></div>
+  <div id="vis"></div>
+  <div class="row" id="inp"></div>
+  <div class="row">
+    <button class="b" id="chk">Prüfen</button>
+    <button class="b s" id="sol">Lösungsweg</button>
+    <button class="b s" id="nxt">Neue Aufgabe</button>
+  </div>
+  <div class="fb" id="fb"></div>
+  <div class="sol" id="sl"></div>
+</div>
+<p class="hint">Brüche kannst du als 3/4 eingeben, Dezimalzahlen mit Komma oder Punkt.</p>
+</main>
+<script>
+var TOPICS=[["all","Alle gemischt"],["1","Graph zeichnen"],["2","Gleichung ablesen"],["3","Achsenschnittpunkte"],["4","Schnittpunkte"],["5","Durch zwei Punkte"]];
+var topic="all",cur=null,stats={ok:0,tr:0,st:0},solved=false;
+var $=function(i){return document.getElementById(i)};
+function ri(a,b){return a+Math.floor(Math.random()*(b-a+1))}
+function pick(a){return a[ri(0,a.length-1)]}
+function gcd(a,b){a=Math.abs(a);b=Math.abs(b);return b?gcd(b,a%b):a}
+function fr(p,q){var g=gcd(p,q)||1;p/=g;q/=g;if(q<0){p=-p;q=-q}return q===1?String(p).replace("-","−"):(p<0?"−":"")+Math.abs(p)+"/"+q}
+function num(v){for(var q=1;q<=12;q++){var p=Math.round(v*q);if(Math.abs(p/q-v)<1e-9)return fr(p,q)}return String(Math.round(v*100)/100).replace(".",",")}
+function eq(m,n,nm){nm=nm||"f";var s=nm+"(x) = ";var mm=m.p/m.q;if(mm!==0){var c=m.q===1?(Math.abs(m.p)===1?"":String(Math.abs(m.p))):Math.abs(m.p)+"/"+m.q;s+=(mm<0?"−":"")+c+"x"}
+ if(n!==0||mm===0)s+=(mm===0?"":(n<0?" − ":" + "))+(mm===0?String(n).replace("-","−"):Math.abs(n))
+ return s}
+function parse(s){s=String(s).trim().replace(/−/g,"-").replace(/,/g,".").replace(/\s/g,"");if(!s)return NaN;if(s.indexOf("/")>0){var a=s.split("/");if(a.length!=2)return NaN;var x=Number(a[0]),y=Number(a[1]);return y?x/y:NaN}return Number(s)}
+var SL=[[-3,1],[-2,1],[-1,1],[-1,2],[1,2],[1,1],[2,1],[3,1],[-3,4],[3,4],[-1,4],[1,4]];
+var SL2=[[-3,1],[-2,1],[-1,1],[-1,2],[1,2],[1,1],[2,1],[3,1]];
+function M(a){return{p:a[0],q:a[1]}}
+function svg(m,n,pts,showLine){
+ var X=function(x){return 20+(x+5)*28},Y=function(y){return 20+(5-y)*28};
+ var s='<svg viewBox="0 0 320 320" id="sv">';
+ for(var i=-5;i<=5;i++){s+='<line x1="'+X(i)+'" y1="20" x2="'+X(i)+'" y2="300" stroke="var(--bd)" stroke-width="'+(i===0?0:1)+'"/><line x1="20" y1="'+Y(i)+'" x2="300" y2="'+Y(i)+'" stroke="var(--bd)" stroke-width="'+(i===0?0:1)+'"/>';
+  if(i!==0)s+='<text x="'+X(i)+'" y="'+(Y(0)+13)+'" font-size="9" text-anchor="middle" fill="var(--mu)">'+(i<0?"−":"")+Math.abs(i)+'</text><text x="'+(X(0)-4)+'" y="'+(Y(i)+3)+'" font-size="9" text-anchor="end" fill="var(--mu)">'+(i<0?"−":"")+Math.abs(i)+'</text>'}
+ s+='<line x1="20" y1="'+Y(0)+'" x2="305" y2="'+Y(0)+'" stroke="var(--tx)" stroke-width="1.5"/><line x1="'+X(0)+'" y1="305" x2="'+X(0)+'" y2="15" stroke="var(--tx)" stroke-width="1.5"/><text x="310" y="'+(Y(0)+4)+'" font-size="11" fill="var(--tx)">x</text><text x="'+(X(0)+6)+'" y="14" font-size="11" fill="var(--tx)">y</text>';
+ if(showLine){var k=m.p/m.q;var a=-5,b=5;var cl=function(x){return Math.max(-5.3,Math.min(5.3,k*x+n))};
+  var y1=k*a+n,y2=k*b+n;
+  if(Math.abs(k)>0){var xa=(-5.3-n)/k,xb=(5.3-n)/k;var lo=Math.min(xa,xb),hi=Math.max(xa,xb);a=Math.max(-5,lo);b=Math.min(5,hi);y1=k*a+n;y2=k*b+n}
+  s+='<line x1="'+X(a)+'" y1="'+Y(y1)+'" x2="'+X(b)+'" y2="'+Y(y2)+'" stroke="var(--ln)" stroke-width="2.5"/>'}
+ (pts||[]).forEach(function(p){s+='<circle cx="'+X(p[0])+'" cy="'+Y(p[1])+'" r="5" fill="var(--ac)"/>'});
+ return s+'</svg>'}
+function inputs(ids){$("inp").innerHTML=ids.map(function(a){return '<label>'+a[1]+' <input id="'+a[0]+'" inputmode="text" autocomplete="off"></label>'}).join("")}
+function gen(t){
+ var o={t:t};
+ if(t==="1"){var m=M(pick(SL)),n=ri(-4,4);if(Math.random()<.15)m=M([0,1]);
+  if(m.p===0)n=ri(-4,4);o.m=m;o.n=n;o.pts=[];
+  o.title="Aufgabe 1 · Funktionsgraphen zeichnen";o.q="Zeichne den Graphen von <b>"+eq(m,n)+"</b>. Tippe zwei Punkte im Koordinatensystem an, durch die der Graph verläuft.";
+  o.sol="Der y-Achsenabschnitt ist n = "+n+", also ist (0|"+n+") ein Punkt. Die Steigung m = "+num(m.p/m.q)+" bedeutet: "+(m.p===0?"waagerechte Gerade.":"gehe "+m.q+" nach rechts und "+Math.abs(m.p)+(m.p>0?" nach oben":" nach unten")+".");}
+ else if(t==="2"){var m=M(pick(SL2)),n=ri(-3,3);o.m=m;o.n=n;o.title="Aufgabe 2 · Funktionsgleichung aufstellen";o.q="Lies m und n der abgebildeten Geraden ab: <b>f(x) = m·x + n</b>";
+  o.sol="n ist der y-Wert beim Schnitt mit der y-Achse: n = "+n+". Für m: Steigungsdreieck zeichnen, m = Δy : Δx = "+num(m.p/m.q)+". Ergebnis: "+eq(m,n)+".";}
+ else if(t==="3"){var m=M(pick(SL)),n=Math.random()<.2?0:pick([-5,-4,-3,-2,-1,1,2,3,4,5]);o.m=m;o.n=n;o.title="Aufgabe 3 · Achsenschnittpunkte";o.q="Bestimme die Schnittpunkte von <b>"+eq(m,n)+"</b> mit beiden Koordinatenachsen.";
+  o.sol="y-Achse: x = 0 einsetzen → y = "+n+", also (0|"+n+"). x-Achse: f(x) = 0 setzen → "+(n===0?"x = 0":"0 = "+eq(m,n).slice(7)+" → x = "+num(-n/(m.p/m.q)))+", also ("+num(n===0?0:-n/(m.p/m.q))+"|0).";}
+ else if(t==="4"){var x0=ri(-3,4),y0=ri(-6,6),m1=ri(-3,3),m2=ri(-3,3);while(m2===m1)m2=ri(-3,3);if(Math.random()<.2)m1=0;if(m1===m2)m2=m1+1;
+  var n1=y0-m1*x0,n2=y0-m2*x0;o.x0=x0;o.y0=y0;o.m1=m1;o.m2=m2;o.n1=n1;o.n2=n2;o.title="Aufgabe 4 · Schnittpunkte";
+  o.q="Bestimme den Schnittpunkt der beiden Graphen:<br><b>"+eq(M([m1,1]),n1,"f")+"</b><br><b>"+eq(M([m2,1]),n2,"g")+"</b>";
+  o.sol="Gleichsetzen: f(x) = g(x) → "+m1+"x + ("+n1+") = "+m2+"x + ("+n2+") → nach x auflösen: x = "+x0+". Einsetzen in f: y = "+y0+". Schnittpunkt S("+x0+"|"+y0+").";}
+ else{var m=M(pick(SL)),n=ri(-5,5),q=m.q,x1=ri(-4,2),x2=x1+q*ri(1,2);if(Math.random()<.5){var t2=x1;x1=x2;x2=t2}
+  var y=function(x){return m.p/m.q*x+n};o.m=m;o.n=n;o.P=[[x1,y(x1)],[x2,y(x2)]];o.title="Aufgabe 5 · Graph durch zwei Punkte";
+  o.q="Bestimme die lineare Funktion durch <b>P("+x1+"|"+num(y(x1))+")</b> und <b>Q("+x2+"|"+num(y(x2))+")</b>.";
+  o.sol="m = (y₂ − y₁) : (x₂ − x₁) = ("+num(y(x2))+" − "+num(y(x1)).replace(/^−/,"(−")+(y(x1)<0?")":"")+") : ("+x2+" − "+(x1<0?"("+x1+")":x1)+") = "+num(m.p/m.q)+". Dann einen Punkt einsetzen: n = y₁ − m·x₁ = "+num(n)+". Ergebnis: "+eq(m,n)+".";}
+ return o}
+function render(){
+ solved=false;var t=topic==="all"?String(ri(1,5)):topic;cur=gen(t);
+ $("title").textContent=cur.title;$("q").innerHTML=cur.q;$("fb").className="fb";$("sl").style.display="none";$("fb").innerHTML="";
+ if(t==="1"){$("vis").innerHTML=svg(null,0,[],false);inputs([]);$("inp").innerHTML='<span class="hint">Punkte gesetzt: <b id="pc">0</b> / 2 (ein dritter Tipp startet neu)</span>';
+  $("sv").addEventListener("click",function(e){if(solved)return;var r=this.getBoundingClientRect(),sc=320/r.width;var gx=Math.round(((e.clientX-r.left)*sc-20)/28-5),gy=Math.round(5-((e.clientY-r.top)*sc-20)/28);
+   if(Math.abs(gx)>5||Math.abs(gy)>5)return;if(cur.pts.length>=2)cur.pts=[];cur.pts.push([gx,gy]);$("vis").innerHTML=svg(null,0,cur.pts,false);$("sv").addEventListener("click",arguments.callee);$("pc").textContent=cur.pts.length;})}
+ else if(t==="2"){$("vis").innerHTML=svg(cur.m,cur.n,[],true);inputs([["a","m ="],["b","n ="]])}
+ else if(t==="3"){$("vis").innerHTML="";inputs([["a","x-Achse: x ="],["b","y-Achse: y ="]]);$("q").innerHTML+='<div class="hint">Gib jeweils nur die Koordinate des Schnittpunkts an (z. B. x = 2 bedeutet (2|0)).</div>'}
+ else if(t==="4"){$("vis").innerHTML="";inputs([["a","x ="],["b","y ="]])}
+ else{$("vis").innerHTML="";inputs([["a","m ="],["b","n ="]])}
+ upd()}
+function upd(){$("st1").textContent="Richtig: "+stats.ok;$("st2").textContent="Versuche: "+stats.tr;$("st3").textContent="Serie: "+stats.st}
+function close(a,b){return Math.abs(a-b)<1e-6}
+function check(){
+ if(solved)return;var t=cur.t,ok=false,msg="";
+ if(t==="1"){var p=cur.pts;if(p.length<2){fb(false,"Setze zuerst zwei Punkte.");return}
+  var k=cur.m.p/cur.m.q;ok=p[0][0]!==p[1][0]||p[0][1]!==p[1][1];p.forEach(function(q){if(!close(q[1],k*q[0]+cur.n))ok=false});
+  if(ok&&p[0][0]===p[1][0])ok=false;
+  if(ok){$("vis").innerHTML=svg(cur.m,cur.n,p,true)}msg=ok?"Richtig!":"Mindestens ein Punkt liegt nicht auf dem Graphen. Tipp: Starte bei (0|n) und nutze die Steigung."}
+ else{var a=parse($("a").value),b=parse($("b").value);if(isNaN(a)||isNaN(b)){fb(false,"Bitte beide Felder mit Zahlen ausfüllen.");return}
+  if(t==="2"||t==="5"){ok=close(a,cur.m.p/cur.m.q)&&close(b,cur.n);msg=ok?"Richtig!":(close(a,cur.m.p/cur.m.q)?"m stimmt, n leider nicht.":close(b,cur.n)?"n stimmt, m leider nicht.":"Leider falsch.")}
+  if(t==="3"){var xs=cur.n===0?0:-cur.n/(cur.m.p/cur.m.q);ok=close(a,xs)&&close(b,cur.n);msg=ok?"Richtig!":(close(b,cur.n)?"y-Achse stimmt. Für die x-Achse setzt du f(x) = 0.":close(a,xs)?"x-Achse stimmt. Für die y-Achse setzt du x = 0 ein.":"Leider falsch.")}
+  if(t==="4"){ok=close(a,cur.x0)&&close(b,cur.y0);msg=ok?"Richtig!":(close(a,cur.x0)?"x stimmt. Setze x in eine Gleichung ein, um y zu bestimmen.":"Leider falsch. Setze f(x) = g(x) und löse nach x auf.")}}
+ stats.tr++;if(ok){stats.ok++;stats.st++;solved=true}else stats.st=0;upd();fb(ok,msg)}
+function fb(ok,m){$("fb").className="fb "+(ok?"ok":"no");$("fb").textContent=m}
+function solution(){var s=$("sl");s.style.display="block";s.textContent=cur.sol;if(cur.t==="1"&&!solved){$("vis").innerHTML=svg(cur.m,cur.n,cur.pts,true)}}
+$("chk").onclick=check;$("nxt").onclick=render;$("sol").onclick=solution;
+$("chips").innerHTML=TOPICS.map(function(t){return '<button class="chip'+(t[0]===topic?" on":"")+'" data-t="'+t[0]+'">'+t[1]+'</button>'}).join("");
+$("chips").onclick=function(e){var t=e.target.getAttribute("data-t");if(!t)return;topic=t;[].forEach.call($("chips").children,function(c){c.className="chip"+(c.getAttribute("data-t")===t?" on":"")});render()};
+render();
+</script>
+</body>
+</html>
