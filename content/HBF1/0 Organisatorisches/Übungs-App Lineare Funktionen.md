@@ -5,4 +5,4 @@ weight: 704
 toc: false
 ---
 
-{{< iframe src="https://claude.ai/artifact/PGP55ZofuPJowcQ4o3xD6k" >}}
+{{< embed LineareFunktionen-Testtraining.html >}}
