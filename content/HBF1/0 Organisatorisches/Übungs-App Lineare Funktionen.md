@@ -5,4 +5,4 @@ weight: 704
 toc: false
 ---
 
-{{< embed LineareFunktionen-Testtraining.html >}}
+{{< embed "assets/LineareFunktionen-Testtraining.html" >}}
