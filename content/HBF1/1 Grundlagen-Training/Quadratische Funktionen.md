@@ -1,6 +1,6 @@
 ---
 title: "Quadratische Funktionen"
-draft: false
+draft: true
 weight: 205
 toc: true
 math: true # für die Nutzung von KaTeX
