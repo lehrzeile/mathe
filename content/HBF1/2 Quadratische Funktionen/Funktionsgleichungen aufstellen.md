@@ -12,8 +12,15 @@ Während eine Gerade eindeutig durch zwei Punkte definiert ist, benötigt man, u
 {{< box-notice title="Faustregel zum Aufstellen von Funktionsgleichungen" >}}
 Um eine Funktionsgleichung eindeutig zu bestimmen, benötigt man ebenso viele Bedingungen, wie die Funktionsgleichung Parameter enthält.
 
-- Im Falle einer linearen Funktion $f(x) = m \cdot x + b$ sind dies zwei, da in der Funktionsgleichung $m$ und $b$ vorkommen.
-- Will man hingegen die Funktionsgleichung einer quadratischen Funktion der Form $f(x) = a \cdot x^2 + bx +c$ aufstellen, so benötigt man drei Bedingungen.
+Eine solche Bedingung kann bspw. sein, dass die Funktion durch einen Punkt verläuft. Es kann aber auch schlicht und ergreifend der Wert eines Parameters sein.
+
+- Im Falle einer linearen Funktion $f(x) = mx + b$ sind dies zwei, da in der Funktionsgleichung $m$ und $b$ vorkommen.
+- Will man die Funktionsgleichung einer quadratischen Funktion der Form $f(x) = ax^2 + bx +c$ aufstellen, so benötigt man drei Bedingungen.
+- Ist die Funktionsgleichung einer kubischen Funktion der Form $f(x)=ax^3+bx^2+cx+d$ gesucht, so sind es derer vier.
+
+$vldots$
+
+- Will man die Funktionsgleichung einer Funktion $n$-ten Grades bestimmen, so benötigt man $n+1$ Bedingungen.
 
 {{< /box-notice >}}
 
