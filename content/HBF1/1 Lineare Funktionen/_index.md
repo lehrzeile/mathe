@@ -1,14 +1,14 @@
 ---
-title: "Grundlagen-Training"
+title: "Lineare Funktionen"
 description: ""
 summary: ""
 date: 2025-03-06T22:10:00+02:00
 lastmod: 2025-03-06T22:10:00+02:00
 draft: false
-weight: 200
+weight: 100
 toc: true
 sidebar:
-  collapsed: true
+  collapsed: false
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)

@@ -1,7 +1,7 @@
 ---
 title: "Funktionsgleichungen aufstellen"
 draft: false
-weight: 287
+weight: 207
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben

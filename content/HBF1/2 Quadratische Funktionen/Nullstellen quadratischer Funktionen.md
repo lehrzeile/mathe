@@ -1,7 +1,7 @@
 ---
 title: "Nullstellen quadratischer Funktionen"
 draft: false
-weight: 285
+weight: 205
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben

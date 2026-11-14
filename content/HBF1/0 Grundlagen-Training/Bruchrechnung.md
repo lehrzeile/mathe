@@ -1,7 +1,7 @@
 ---
 title: "Bruchrechnung"
 draft: false
-weight: 201
+weight: 001
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben

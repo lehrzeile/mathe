@@ -1,7 +1,7 @@
 ---
 title: "Schnittpunkte von Parabeln mit anderen Funktionsgraphen"
 draft: false
-weight: 286
+weight: 206
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben

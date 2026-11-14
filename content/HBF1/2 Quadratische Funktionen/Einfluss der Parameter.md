@@ -1,7 +1,7 @@
 ---
 title: "Einfluss der Parameter auf die Lage und Form der Parabel"
 draft: false
-weight: 282
+weight: 202
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
