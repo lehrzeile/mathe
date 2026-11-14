@@ -6,7 +6,7 @@ toc: false
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 seo:
-  canonical: "1.7"
+  canonical: "https://lehrzeile.org/1.7"
 ---
 
 {{< situation title="Lernsituation 1" >}}
