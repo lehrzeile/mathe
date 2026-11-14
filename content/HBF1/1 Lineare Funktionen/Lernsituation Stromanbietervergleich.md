@@ -1,10 +1,12 @@
 ---
-title: "'Lernsituation Stromanbietervergleich'"
+title: "Lernsituation 'Stromanbietervergleich'"
 draft: false
 weight: 107
 toc: false
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+seo:
+  canonical: "1.7"
 ---
 
 {{< situation title="Lernsituation 1" >}}
