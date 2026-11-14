@@ -1,5 +1,5 @@
 ---
-title: "Lernsituation Stromanbietervergleich"
+title: "'Lernsituation Stromanbietervergleich'"
 draft: false
 weight: 107
 toc: false
