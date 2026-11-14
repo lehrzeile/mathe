@@ -1,7 +1,7 @@
 ---
 title: "Übungs-App Lineare Funktionen"
 draft: false
-weight: 004
+weight: 014
 toc: false
 ---
 
