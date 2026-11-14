@@ -3,10 +3,11 @@ title: "Exponentielles Wachstum erkennen und beschreiben"
 description: ""
 summary: ""
 draft: false
-weight: 302
+weight: 702
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '7-2'
 ---
 
 ## Exponentielles Wachstum erkennen und beschreiben

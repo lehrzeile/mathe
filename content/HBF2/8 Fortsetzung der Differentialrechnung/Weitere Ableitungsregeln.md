@@ -3,10 +3,11 @@ title: "Weitere Ableitungsregeln"
 description: ""
 summary: ""
 draft: false
-weight: 401
+weight: 801
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '8-1'
 ---
 
 <!-- Produktregel -->

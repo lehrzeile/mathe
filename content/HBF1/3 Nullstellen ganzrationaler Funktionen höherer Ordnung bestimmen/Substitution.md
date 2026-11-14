@@ -7,6 +7,7 @@ weight: 304
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '3-4'
 ---
 
 Manche Funktionen eignen sich aufgrund ihrer Form für ein weiteres Verfahren -- die **Substitution**.

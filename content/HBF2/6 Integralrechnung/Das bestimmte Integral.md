@@ -3,10 +3,11 @@ title: "Das bestimmte Integral"
 description: ""
 summary: ""
 draft: false
-weight: 204
+weight: 604
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '6-4'
 ---
 
 Wie man Stammfunktionen bildet, weißt du nun, da du dir dafür wesentliche Integrationsregeln angeeignet hast.

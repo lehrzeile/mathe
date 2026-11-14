@@ -7,6 +7,7 @@ weight: 402
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '4-2'
 ---
 
 In diesem Kapitel lernst du, wie man die lokale Änderungsrate – also die Steigung einer Funktion an einer bestimmten Stelle – bestimmt. Du erfährst, wie man zwischen mittlerer und lokaler Änderungsrate unterscheidet und welche Methoden es gibt, um die Ableitung einer Funktion zu berechnen. Die folgenden Aufgaben und Beispiele helfen dir, das Konzept Schritt für Schritt zu verstehen und anzuwenden.

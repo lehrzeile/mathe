@@ -5,6 +5,7 @@ weight: 203
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '2-3'
 ---
 
 Neben der allgemeinen Form einer Parabel $f(x)=ax^2+bx+c$ werden Parabeln häufig auch in der sogenannten <mark>Scheitelpunktform</mark> dargestellt. Mit Hilfe der Scheitelpunktform lässt sich der Scheitelpunkt - und somit im Grunde fast (!) alle wichtigen Eigenschaften einer Parabel - besonders leicht ablesen.

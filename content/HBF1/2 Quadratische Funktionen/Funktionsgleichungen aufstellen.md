@@ -5,6 +5,7 @@ weight: 207
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '2-7'
 ---
 
 Während eine Gerade eindeutig durch zwei Punkte definiert ist, benötigt man, um die Funktionsgleichung einer Parabel aufzustellen, in der Regel drei Punkte.

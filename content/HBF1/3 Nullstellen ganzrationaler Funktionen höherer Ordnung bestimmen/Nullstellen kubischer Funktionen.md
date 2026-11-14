@@ -7,6 +7,7 @@ weight: 301
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '3-1'
 ---
 
 Falls du dir nicht mehr sicher bist, wie man Nullstellen von linearen und quadratischen Funktionen bestimmt, dann schaue dir zunächst noch einmal den [Abschnitt](/hbf1/1-grundlagen-training/nullstellen-bestimmen/) aus dem Grundlagen-Training an.

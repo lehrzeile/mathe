@@ -7,6 +7,7 @@ weight: 302
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '3-2'
 ---
 
 Die <mark>Polynomdivision</mark> ist ein mathematisches Rechenverfahren, bei dem ein Polynom durch ein anderes dividiert wird. Ein Polynom wiederum ist ein algebraischer Term, der sich als Summe von Vielfachen von Potenzen einer Variablen darstellen lässt.

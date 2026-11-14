@@ -7,6 +7,7 @@ weight: 501
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '5-1'
 ---
 
 In der Realität wird oft versucht, bestimmte Prozesse beschreiben oder (besser) verstehen zu können. Und hier kommt oft -- neben anderen Wissenschaften -- die Mathematik ins Spiel. Mit Hilfe von mathematischen Funktionen lassen sich Phänomene der realen Welt oft sehr präzise beschreiben oder gar Vorhersagen für bestimmte Anwendungsbereiche treffen.

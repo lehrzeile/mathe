@@ -3,10 +3,11 @@ title: "Das unbestimmte Integral und die Stammfunktion"
 description: ""
 summary: ""
 draft: false
-weight: 202
+weight: 602
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '6-2'
 ---
 
 ## Ober- und Untersumme

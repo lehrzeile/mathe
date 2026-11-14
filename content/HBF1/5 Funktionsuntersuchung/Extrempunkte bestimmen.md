@@ -7,6 +7,7 @@ weight: 502
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '5-2'
 ---
 
 Die Extrempunkte einer Funktion sind diejenigen Punkte des Funktionsgraphen, an denen der höchste Punkt (Hochpunkt/Maximum) oder der tiefste Punkt (Tiefpunkt/Minimum) in einer lokalen Umgebung erreicht wird.

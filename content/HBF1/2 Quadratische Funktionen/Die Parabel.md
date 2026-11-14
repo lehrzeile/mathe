@@ -5,6 +5,7 @@ weight: 201
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '2-1'
 ---
 
 Quadratische Funktionen begegnen dir öfter, als du vielleicht denkst. Wenn du einen Ball wirfst, eine Brücke anschaust oder eine Satellitenschüssel siehst, steckt dahinter oft eine besondere Kurve – die sogenannte **Parabel**.

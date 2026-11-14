@@ -3,6 +3,7 @@ title: "Übungs-App Lineare Funktionen"
 draft: false
 weight: 108
 toc: false
+url: '1-8'
 ---
 
 {{< embed url="snippets/LineareFunktionen-Testtraining.html" height="820">}}

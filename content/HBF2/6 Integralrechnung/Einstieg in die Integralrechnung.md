@@ -3,10 +3,11 @@ title: "Einstieg in die Integralrechnung"
 description: ""
 summary: ""
 draft: false
-weight: 201
+weight: 601
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '6-1'
 ---
 
 ## Einstieg

@@ -3,10 +3,11 @@ title: "Erste Integrationsregeln"
 description: ""
 summary: ""
 draft: false
-weight: 203
+weight: 603
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '6-3'
 ---
 
 Im vorangegangenen Abschnitt hast du zum ersten Mal den Begriff der **Stammfunktion** kennengelernt. Diese bildet man, um das unbestimmte Integral einer Funktion $f$ zu bestimmen oder um den Flächeninhalt zwischen Funktionsgraph und $x$-Achse in einem bestimmten Intervall berechnen zu können.

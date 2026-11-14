@@ -7,6 +7,7 @@ weight: 305
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '3-5'
 ---
 
 In den vorherigen Abschnitten haben wir uns damit befasst, wie man Nullstellen von Funktionen ersten bis vierten Grades bestimmen kann. Nun widmen wir uns Funktionen höheren Grades.

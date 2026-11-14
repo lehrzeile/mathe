@@ -3,10 +3,11 @@ title: "Exponentielle Bestandsfunktionen bestimmen"
 description: ""
 summary: ""
 draft: false
-weight: 304
+weight: 704
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '7-4'
 ---
 
 ## Exponentielle Bestandsfunktionen bestimmen

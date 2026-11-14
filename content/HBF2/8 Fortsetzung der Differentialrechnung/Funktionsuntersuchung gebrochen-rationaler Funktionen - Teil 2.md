@@ -3,10 +3,11 @@ title: "Funktionsuntersuchung gebrochen-rationaler Funktionen - Teil 2"
 description: ""
 summary: ""
 draft: false
-weight: 404
+weight: 804
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '8-4'
 ---
 
 ## Asymptoten

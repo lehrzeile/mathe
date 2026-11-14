@@ -5,6 +5,7 @@ weight: 105
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '1-5'
 ---
 
 ## $x$-Werte zu gesuchten $y$-Werten bestimmen

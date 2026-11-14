@@ -5,6 +5,7 @@ weight: 106
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '1-6'
 ---
 
 Mit Hilfe der <mark>Punktprobe</mark> überprüft man rechnerisch, ob ein Punkt auf dem Graphen einer Funktion (wie z. B. dem einer linearen Funktion) liegt. Bei der Punktprobe setzt man beide Koordinate des gegebenen Punktes in die Funktionsgleichung $f(x)$ ein und überprüft, ob diese die Gleichung erfüllen -- oder anders ausgedrückt: ob man eine wahre oder falsche Aussage erhält:

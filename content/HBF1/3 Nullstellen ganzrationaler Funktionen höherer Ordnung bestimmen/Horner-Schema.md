@@ -7,6 +7,7 @@ weight: 303
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '3-3'
 ---
 
 Da das Verfahren der Polynomdivision relativ zeitaufwendig ist, stellt das sogenannte **Horner-Schema** eine effizientere Alternative dar.

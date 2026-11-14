@@ -3,10 +3,11 @@ title: "Exponentielles Wachstum verstehen"
 description: ""
 summary: ""
 draft: false
-weight: 301
+weight: 701
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '7-1'
 ---
 
 ## Exponentielles Wachstum verstehen

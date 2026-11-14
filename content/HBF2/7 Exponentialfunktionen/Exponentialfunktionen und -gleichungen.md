@@ -3,10 +3,11 @@ title: "Exponentialfunktionen und -gleichungen"
 description: ""
 summary: ""
 draft: false
-weight: 303
+weight: 703
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '7-3'
 ---
 
 ## Berechnung von Funktions- und Umkehrwerten

@@ -3,10 +3,11 @@ title: "Funktionsuntersuchung gebrochen-rationaler Funktionen - Teil 1"
 description: ""
 summary: ""
 draft: false
-weight: 403
+weight: 803
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '8-3'
 ---
 
 ## Einleitung

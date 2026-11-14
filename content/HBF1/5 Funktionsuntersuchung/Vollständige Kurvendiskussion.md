@@ -7,6 +7,7 @@ weight: 504
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '5-4'
 ---
 
 In diesem Abschnitt lernst du Schritt für Schritt einer vollständigen Funktionsuntersuchung kennen. Einzelne davon hast du bereits in den vorherigen Abschnitten kennengelernt. Diese werden nun durch weitere Aspekte ergänzt.
