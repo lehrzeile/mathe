@@ -1,7 +1,7 @@
 ---
-title: "Stromanbietervergleich"
+title: "Lernsituation Stromanbietervergleich"
 draft: false
-weight: 1002
+weight: 107
 toc: false
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben

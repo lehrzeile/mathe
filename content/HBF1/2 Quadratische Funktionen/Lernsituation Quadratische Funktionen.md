@@ -1,7 +1,7 @@
 ---
-title: "Tennisspiel"
+title: "Lernsituation Tennisspiel"
 draft: false
-weight: 1003
+weight: 208
 toc: false
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
@@ -35,7 +35,7 @@ Die Flugbahn des Tennisball bei einem Grundlinienschlag kann durch die folgende 
 $f(x) = -0,01 x^2 + 0,19x + 1,2$.
 {{< /szenario >}}
 
-![Tennis](Tennis.png)
+![Tennis](img/Tennis.png)
 
 {{< job numbered="true" style="enum-alph" title="Schlaganalyse" >}}
 
@@ -59,7 +59,7 @@ Gegeben ist die Flugkurve eines Topspin-Balls:
 $f(x)= -0,02x^2 + 0,42x + 0,9$
 {{< /szenario >}}
 
-![Tennis](Topspin.png)
+![Tennis](img/Topspin.png)
 
 {{< job numbered="true" style="enum-alph" title="Hoch, höher, Topspin" >}}
 
