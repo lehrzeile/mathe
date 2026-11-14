@@ -49,7 +49,7 @@ Neben dem bereits bekannten Stromtarif ist noch ein weiterer in die engere Auswa
 {{< job numbered="true" style="enum-alph" title="Analyse der beiden Tarife" >}}
 
 - **Stelle** beide Tarife grafisch **dar**.
-- **Triff** eine **begründete** Entscheidung, für welchen Tarif sich Frau Meier Bei einem Stromverbrauch von ??? entscheiden sollte.
+- **Triff** eine **begründete** Entscheidung, für welchen Tarif sich Frau Meier Bei einem Stromverbrauch von 3.000 bzw. 3.500 kWh entscheiden sollte.
 
 {{< /job >}}
 
