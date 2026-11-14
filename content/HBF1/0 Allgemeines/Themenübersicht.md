@@ -9,7 +9,7 @@ Diese Seite soll einen Überblick über das Fach Mathematik in der HBF Unterstuf
 
 ## Übersicht der Themen der HBF Unterstufe
 
-1. Grundlagen-Training (dient der Wiederholung bzw. Vertiefung):
+0. Grundlagen-Training (dient der Wiederholung bzw. Vertiefung):
     1. [Bruchrechnung](/hbf1/0-grundlagen-training/bruchrechnung/)
     1. [Terme und Gleichungen](/hbf1/0-grundlagen-training/terme-und-gleichungen/)
     1. [Zuordnungen und Funktionen](/hbf1/0-grundlagen-training/zuordnungen-und-funktionen/)
@@ -20,11 +20,11 @@ Diese Seite soll einen Überblick über das Fach Mathematik in der HBF Unterstuf
 
 ---
 
-2. [Lineare Funktionen](/hbf1/1-lineare-funktionen/linearität/)
-3. [Quadratische Funktionen](/hbf1/2-quadratische-funktionen/die-parabel/)
-4. [Nullstellen ganzrationaler Funktionen höherer Ordnung bestimmen](/hbf1/3-nullstellen-ganzrationaler-funktionen-höherer-ordnung-bestimmen/nullstellen-von-kubischen-funktionen/)
-5. [Grundlagen der Differentialrechnung](/hbf1/4-grundlagen-der-differentialrechnung/differentialquotient-und-ableitung/)[^1]
-6. [Funktionsuntersuchung (Kurvendiskussion ganzrationaler Funktionen)](/hbf1/5-funktionsuntersuchung/einleitung/)[^2]
+1. [Lineare Funktionen](/hbf1/1-lineare-funktionen/linearität/)
+2. [Quadratische Funktionen](/hbf1/2-quadratische-funktionen/die-parabel/)
+3. [Nullstellen ganzrationaler Funktionen höherer Ordnung bestimmen](/hbf1/3-nullstellen-ganzrationaler-funktionen-höherer-ordnung-bestimmen/nullstellen-von-kubischen-funktionen/)
+4. [Grundlagen der Differentialrechnung](/hbf1/4-grundlagen-der-differentialrechnung/differentialquotient-und-ableitung/)[^1]
+5. [Funktionsuntersuchung (Kurvendiskussion ganzrationaler Funktionen)](/hbf1/5-funktionsuntersuchung/einleitung/)[^2]
 <!-- 5. [Steckbriefaufgaben](/hbf1/5-steckbriefaufgaben/wiederholung-lineare-gleichungssysteme/)[^3] -->
 
 <br />
