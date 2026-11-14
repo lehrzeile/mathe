@@ -1,5 +1,5 @@
 ---
-title: "Nullstellen quadratischer Funktionen"
+title: "Lösen quadratischer Gleichungen"
 draft: false
 weight: 205
 toc: true
@@ -8,7 +8,7 @@ count: 0 # für die Nummerierung der Aufgaben
 url: '2-5'
 ---
 
-## Lösen quadratischer Gleichungen
+## Nullstellen quadratischer Funktionen
 
 {{< box-notice >}}
 Je nach Position des Scheitelpunkts kann der Graph einer quadratischen Funktion eine, zwei oder keine Nullstellen besitzen:
