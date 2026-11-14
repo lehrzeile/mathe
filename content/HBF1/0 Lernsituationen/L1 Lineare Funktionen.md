@@ -25,14 +25,14 @@ Im Sachzusammenhang bedeutet das konkret: Du übersetzt eine reale Problemstellu
 
 {{< job numbered="true" style="enum-alph" title="Tarife und Lineare Funktionen" >}}
 
-- Stelle die Kostenfunktion $K(x)$ für das oben genannte Angebot auf.
-- Berechne die Kosten im Falle eines jährlichen Verbrauchs in Höhe von 1.000 kWh, 2.000 kWh bzw. 4.000 kWh.
-- Erkläre die Bedeutung der Steigung und des y-Achsenabschnitts im Sachzusammenhang.
+- **Stelle** die Kostenfunktion $K(x)$ für das oben genannte Angebot **auf**.
+- **Berechne** die Kosten im Falle eines jährlichen Verbrauchs in Höhe von 1.000 kWh, 2.000 kWh bzw. 4.000 kWh.
+- **Erkläre** die Bedeutung der Steigung und des y-Achsenabschnitts im Sachzusammenhang.
 
 {{< /job >}}
 
 {{< szenario title="Szenario 1.2" >}}
-Neben dem bereits bekannten Stromtarif ist noch ein weiterer in die nähere Auswahl gerückt. Frau Meier ist sich allerdings nicht sicher, wie hoch ihr Stromverbrauch im letzten Jahr war und überlegt nun, für welchen sie sich entscheiden soll.
+Neben dem bereits bekannten Stromtarif ist noch ein weiterer in die engere Auswahl gerückt. Frau Meier ist sich allerdings nicht sicher, wie hoch ihr Stromverbrauch im letzten Jahr war und überlegt nun, für welchen sie sich entscheiden soll.
 
 **StadtWatt**: Grundgebühr $12€$ pro Monat, zusätzlich $0,28€$ pro kWh
 **Stromify**: Grundgebühr $20€$ pro Monat, zusätzlich $0,25€$ pro kWh
@@ -40,16 +40,16 @@ Neben dem bereits bekannten Stromtarif ist noch ein weiterer in die nähere Ausw
 
 {{< job numbered="true" style="enum-alph" title="Tarife und Lineare Funktionen" >}}
 
-- Stelle auch für den Stromtarif des Anbieters Stromify eine Funktionsgleichung auf.
-- Berechne, wie hoch jeweils die Kosten beim Stromify-Tarif wären, wenn sie einen jährlichen Stromverbrauch von 1.000 kWh, 2.000 kWh bzw. 4.000 kWh hätte.
-- Wie hoch müsste der Stromverbrauch jeweils sein, damit ihr in den beiden Tarifen jeweils jährliche Kosten in Höhe von 928€ enstehen?
+- **Stelle** auch für den Stromtarif des Anbieters Stromify eine Funktionsgleichung **auf**.
+- **Berechne**, wie hoch jeweils die Kosten beim Stromify-Tarif wären, wenn sie einen jährlichen Stromverbrauch von 1.000 kWh, 2.000 kWh bzw. 4.000 kWh hätte.
+- **Bestimme** mit einem geeigneten Verfahren, wie hoch der Stromverbrauch jeweils sein müsste, damit ihr in den beiden Tarifen jeweils jährliche Kosten in Höhe von 928€ enstehen.
 
 {{< /job >}}
 
 {{< job numbered="true" style="enum-alph" title="Analyse der beiden Tarife" >}}
 
-- Stelle beide Tarife grafisch dar.
-- Analysiere und begründe, unter welchen Voraussetzungen sich Frau Meier für welchen Tarif entscheiden sollte.
+- **Stelle** beide Tarife grafisch **dar**.
+- **Triff** eine **begründete** Entscheidung, für welchen Tarif sich Frau Meier Bei einem Stromverbrauch von ??? entscheiden sollte.
 
 {{< /job >}}
 
