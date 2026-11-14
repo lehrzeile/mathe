@@ -5,7 +5,7 @@ weight: 107
 toc: false
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
-url: '1.7'
+url: '1-7'
 ---
 
 {{< situation title="Lernsituation 1" >}}
