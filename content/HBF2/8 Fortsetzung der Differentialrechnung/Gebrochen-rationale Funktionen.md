@@ -3,11 +3,11 @@ title: "Gebrochen-rationale Funktionen"
 description: ""
 summary: ""
 draft: false
-weight: 802
+weight: 801
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
-url: '8-2'
+url: '8-1'
 ---
 
 ## Einleitung

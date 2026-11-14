@@ -22,6 +22,6 @@ Welche Themen wiederum bereits in der HBF Unterstufe behandelt wurden, findest d
 
 <!-- --- -->
 
-6. [Grundlagen der Integralrechnung](/hbf2/6-integralrechnung/einstieg-in-die-integralrechnung/)
-7. [Exponentialfunktionen](/hbf2/7-exponentialfunktionen/exponentielles-wachstum/)
-8. [Fortsetzung der Differentialrechnung](/hbf2/8-fortsetzung-der-differentialrechnung/weitere-ableitungsregeln/)
+6. [Grundlagen der Integralrechnung](/6-1)
+7. [Exponentialfunktionen](/7-1)
+8. [Fortsetzung der Differentialrechnung](/8-1)
