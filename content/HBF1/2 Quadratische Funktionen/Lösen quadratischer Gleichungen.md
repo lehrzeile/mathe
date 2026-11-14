@@ -2,7 +2,7 @@
 title: "Lösen quadratischer Gleichungen"
 draft: false
 weight: 205
-toc: false
+toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
 url: '2-5'
