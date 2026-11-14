@@ -1,7 +1,7 @@
 ---
 title: "Lineare Funktionen"
-draft: false
-weight: 004
+draft: true
+weight: 054
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben

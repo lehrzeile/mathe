@@ -1,7 +1,7 @@
 ---
 title: "Lineare Gleichungssysteme"
 draft: false
-weight: 007
+weight: 057
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben

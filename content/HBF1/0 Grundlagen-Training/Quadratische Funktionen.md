@@ -1,7 +1,7 @@
 ---
 title: "Quadratische Funktionen"
 draft: true
-weight: 005
+weight: 055
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben

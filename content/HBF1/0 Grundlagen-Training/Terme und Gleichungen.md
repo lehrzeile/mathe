@@ -1,7 +1,7 @@
 ---
 title: "Terme und Gleichungen"
 draft: false
-weight: 002
+weight: 052
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben

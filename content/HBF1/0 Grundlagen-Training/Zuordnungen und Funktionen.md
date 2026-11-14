@@ -1,7 +1,7 @@
 ---
 title: "Zuordnungen und Funktionen"
 draft: false
-weight: 203
+weight: 053
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
