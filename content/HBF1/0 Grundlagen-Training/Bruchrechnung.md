@@ -5,6 +5,7 @@ weight: 051
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '0-1'
 ---
 
 Das Rechnen mit Brüchen stellt eine zentrale Kompetenz dar. Mit Hilfe von Brüchen lassen sich rationale Zahlen viel genauer darstellen, als dies mit - oftmals gerundeten (!) - Dezimalzahlen möglich ist.

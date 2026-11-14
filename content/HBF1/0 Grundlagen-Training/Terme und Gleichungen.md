@@ -5,6 +5,7 @@ weight: 052
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '0-2'
 ---
 
 Mit Hilfe der Aufgaben auf dieser Seite kannst du dein Können im Zusammenhang mit Termen und Gleichungen verfestigen bzw. auffrischen.

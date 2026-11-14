@@ -1,10 +1,11 @@
 ---
 title: "Lineare Gleichungssysteme"
 draft: false
-weight: 057
+weight: 055
 toc: true
 math: true # für die Nutzung von KaTeX
 count: 0 # für die Nummerierung der Aufgaben
+url: '0-5'
 ---
 
 Was eine lineare Gleichung ist, hast du verstanden? Falls nicht, dann springe jetzt noch einmal zurück in das Kapitel [Terme und Gleichungen](/hbf1/1-grundlagen-training/terme-und-gleichungen/).
