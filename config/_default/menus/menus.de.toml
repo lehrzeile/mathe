@@ -40,7 +40,7 @@
 
 [[main]]
   name = "HBF Oberstufe"
-  url = "/hbf2/0-organisatorisches/themenübersicht-oberstufe/"
+  url = "/hbf2/0-allgemeines/themenübersicht-oberstufe/"
   weight = 20
 
 # [[main]]
