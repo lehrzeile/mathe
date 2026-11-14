@@ -66,6 +66,11 @@ Alles in allem entsteht auf diese Weise ein relativ genaues Bild des Graphen der
 
 {{< image src="img/Zusammenhang.svg" caption="vollständiger Zusammenhang zwischen Funktion (blau) und Ableitung (orange)" >}}
 
+## Fazit - Zusammenhang zwischen Ausgangsfunktion und den Ableitungsfunktionen
+
+In Abbildung 8 wird noch einmal der Zusammenhang zwischen Ausgangsfunktion, 1. Ableitung und 2. Ableitung aufgezeigt:
+{{< image src="img/Graph_und_Ableitungen.svg" caption="Funktionsgraph und Ableitungen" >}}
+
 ## Übung macht den Meister
 
 Teste dein Können, indem du mit Hilfe der nachfolgenden Learning-App den Funktionsgraphen (in blau dargestellt) ihre Ableitungen (in orange) zuordnest.
