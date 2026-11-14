@@ -45,7 +45,7 @@ Vorab: Der Parameter $b$ hat keinen direkt erkennbaren Einfluss auf die Lage der
 
 {{< margin 2em>}}
 
-{{< job title="Beobachtungsauftrag" numbered="true" style="enum-arabic" name="" entry="Die beiden GeoGebra-Applet befassen sich mit dem Einfluss der beiden Parameter $b$ und $c$ auf die Lage der Parabel im Koordinatensystem." >}}
+{{< job title="Beobachtungsauftrag" numbered="true" style="enum-arabic" name="" entry="Die beiden GeoGebra-Applets befassen sich mit dem Einfluss der beiden Parameter $b$ und $c$ auf die Lage der Parabel im Koordinatensystem." >}}
 
 - **Bearbeite** die beiden GeoGebra-Applets.
 - **Notiere** deine Beobachtungen stichwortartig in deine Unterlagen.

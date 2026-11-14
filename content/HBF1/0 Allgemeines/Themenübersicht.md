@@ -13,14 +13,14 @@ Diese Seite soll einen Überblick über das Fach Mathematik in der HBF Unterstuf
     1. [Bruchrechnung](/hbf1/0-grundlagen-training/bruchrechnung/)
     1. [Terme und Gleichungen](/hbf1/0-grundlagen-training/terme-und-gleichungen/)
     1. [Zuordnungen und Funktionen](/hbf1/0-grundlagen-training/zuordnungen-und-funktionen/)
-    <!-- 1. [Lineare Funktionen](/hbf1/0-grundlagen-training/lineare-funktionen/) -->
-    <!-- 1. [Quadratische Funktionen](/hbf1/0-grundlagen-training/quadratische-funktionen/) -->
     1. [Binomische Formeln](/hbf1/0-grundlagen-training/binomische-formeln/)
     1. [Lineare Gleichungssysteme](/hbf1/0-grundlagen-training/lineare-gleichungssysteme/)
+    <!-- 1. [Lineare Funktionen](/hbf1/0-grundlagen-training/lineare-funktionen/) -->
+    <!-- 1. [Quadratische Funktionen](/hbf1/0-grundlagen-training/quadratische-funktionen/) -->
 
 ---
 
-2. [Lineare Funktionen](/hbf1/1-lineare-funktionen/linearitaet/)
+2. [Lineare Funktionen](/hbf1/1-lineare-funktionen/linearität/)
 3. [Quadratische Funktionen](/hbf1/2-quadratische-funktionen/die-parabel/)
 4. [Nullstellen ganzrationaler Funktionen höherer Ordnung bestimmen](/hbf1/3-nullstellen-ganzrationaler-funktionen-höherer-ordnung-bestimmen/nullstellen-von-kubischen-funktionen/)
 5. [Grundlagen der Differentialrechnung](/hbf1/4-grundlagen-der-differentialrechnung/differentialquotient-und-ableitung/)[^1]

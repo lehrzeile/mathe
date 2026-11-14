@@ -35,4 +35,4 @@ Die **allgemeine Funktionsgleichung** einer quadratischen Funktion hat die Form 
 
 ## Symmetrieeigenschaft und Scheitelpunkt quadratischer Funktionen
 
-Eine Parabel ist <mark>achsensymmetrisch</mark>. Ihre Symmetrieachse ist eine vertikale Linie, die durch den Scheitelpunkt der Parabel verläuft und parallel zur $y$-Achse liegt. Das bedeutet, dass die linke und rechte Seite der Parabel, wenn man sie entlang dieser Achse spiegelt, perfekt übereinstimmen. Man könnte sie sozusagen entlang dieser Symmetrieachse falten, sodass anschließend beide Seiten perfekt übereinander liegen.
+Eine Parabel ist <mark>achsensymmetrisch</mark>. Ihre Symmetrieachse ist eine vertikale Linie, die durch den Scheitelpunkt der Parabel verläuft und parallel zur $y$-Achse liegt. Das bedeutet, dass die linke und rechte Seite der Parabel perfekt übereinstimmen, wenn man sie entlang dieser Achse spiegelt. Man könnte sie sozusagen entlang dieser Symmetrieachse falten, sodass anschließend beide Seiten perfekt übereinander liegen.

@@ -1,5 +1,5 @@
 ---
-title: "Der Graph einer linearen Funktion"
+title: "Lineare Gleichungen lösen"
 draft: false
 weight: 105
 toc: true
