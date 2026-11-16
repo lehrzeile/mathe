@@ -12,7 +12,7 @@
     --callout-danger: #f94449;
     --callout-danger-transparent: #f944495a;
     --callout-example: #f5a029;
-    --callout-example-transparent: #f5a0291a;
+    --callout-example-transparent: #f5a02959;
     --callout-important: #559d54;
     --callout-important-transparent: #7bce7a5a;
     --callout-job: #405a94;
@@ -286,7 +286,7 @@ footer .text-muted { /* Footer Links */
 
 // Hintergrundfarbe für eingebundene, transparente Grafiken 
 @include color-mode(dark) {
-    p > img {
+    p > img, figure > img {
         background-color: white !important;
     }
 }
@@ -566,6 +566,77 @@ blockquote {
     }
 }
 
+// Hintergrundfarbe für Callouts im dunklen Modus
+@include color-mode(dark) {
+    // Callout: box-important (Achtung)
+    .callout.callout-caution {
+        border-color: var(--callout-caution-transparent);
+        background-color: var(--callout-caution-transparent);
+        position: relative;
+        .callout-title {
+            color: var(--callout-caution);
+        }
+        .callout-icon {
+            background-color: var(--callout-caution);
+        }
+    }
+
+    // ungenutzer Callout
+    .callout.callout-danger {
+        border-color: var(--callout-danger-transparent);
+        background-color: var(--callout-danger-transparent);
+        position: relative;
+        .callout-title {
+            color: var(--callout-danger);
+        }
+        .callout-icon {
+            background-color: var(--callout-danger);
+        }
+    }
+
+    // Callout: box-notice (Sicherung)
+    .callout.callout-important {
+        border-color: var(--callout-important-transparent);
+        background-color: var(--callout-important-transparent);
+        position: relative;
+        .callout-title {
+            color: var(--callout-important);
+        }
+        .callout-icon {
+            background-color: var(--callout-important);
+        }
+    }
+
+    // Callout: box-question (Wusstest du?)
+    .callout.callout-question {
+        border-color: var(--callout-question-transparent);
+        background-color: var(--callout-question-transparent);
+        position: relative;
+        .callout-title {
+            color: var(--callout-question);
+        }
+        .callout-icon {
+            background-color: var(--callout-question);
+        }
+    }
+
+    // Callout: box-example (Beispiel)
+    .callout.callout-example {
+        border-color: var(--callout-example-transparent);
+        background-color: var(--callout-example-transparent);
+        position: relative;
+        .callout-title {
+            color: var(--callout-example);
+        }
+        .callout-icon {
+            background-color: var(--callout-example);
+        }
+        .callout-icon > svg {
+            stroke: white !important;
+        }
+    }
+}
+
 // Allgemeine Anpassungen in Callouts
 .callout-jobs, .callout-content, .callout-body, .two-columns, .three-columns, .one-column {
     width: 100% !important;
@@ -624,9 +695,6 @@ blockquote {
 
 // Hintergrundfarbe für Callout: Aufgabe im dunklen Modus
 @include color-mode(dark) {
-    // .callout {
-    //     background-color: #17181c !important;
-    // }
     .callout.callout-jobs {
         background-color: #17181c !important;
     }
