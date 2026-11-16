@@ -359,6 +359,14 @@ a.bettermarks-link {
     }
 }
 
+@include color-mode(dark) {
+    a.bettermarks-link {
+        code {
+            color: var(--secondary-color) !important;
+        }
+    }
+}
+
 // Bettermarks-Logo in Aufgaben
 .jobs-title > img {
     display: inline-block !important;
